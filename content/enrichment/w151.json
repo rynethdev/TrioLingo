@@ -1,0 +1,201 @@
+{
+ "week": 151,
+ "da": {
+  "dialogue2": {
+   "context": "Dos jefes de proyecto discuten si cambiar a un proveedor más barato; uno ve sobre todo el ahorro y el otro el riesgo, y acaban cuantificándolo juntos.",
+   "lines": [
+    {
+     "text": "Den nye leverandør er tyve procent billigere; det er da et let valg.",
+     "es": "El nuevo proveedor es un veinte por ciento más barato; la elección es fácil, ¿no?"
+    },
+    {
+     "text": "Prisen er god, men de har aldrig leveret i den størrelsesorden før.",
+     "es": "El precio es bueno, pero nunca han suministrado a esa escala."
+    },
+    {
+     "text": "Hvor stor er risikoen så for, at det går galt?",
+     "es": "¿Y cuál es entonces el riesgo de que salga mal?"
+    },
+    {
+     "text": "Svært at sige, men skulle de levere for sent, står hele produktionen stille i op til en uge.",
+     "es": "Es difícil decirlo, pero si llegaran a entregar tarde, toda la producción se pararía hasta una semana."
+    },
+    {
+     "text": "Og hvad koster en uges stilstand?",
+     "es": "¿Y cuánto cuesta una semana de parada?"
+    },
+    {
+     "text": "Omtrent det samme, som vi sparer på et helt år.",
+     "es": "Aproximadamente lo mismo que ahorramos en un año entero."
+    },
+    {
+     "text": "Så risikoen er lille, men konsekvensen stor; kan vi ikke dele ordren mellem de to leverandører?",
+     "es": "Entonces el riesgo es pequeño, pero la consecuencia grande; ¿no podemos repartir el pedido entre los dos proveedores?"
+    },
+    {
+     "text": "Jo; skulle den nye så svigte, kan den gamle tage over, og vi får stadig en del af besparelsen.",
+     "es": "Sí; si el nuevo llegara a fallar, el antiguo puede asumirlo, y seguimos obteniendo parte del ahorro."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué la solución final es un compromiso entre ambas posturas?",
+   "choices": [
+    "Porque reparte el pedido: se obtiene parte del ahorro y se limita el impacto de un fallo",
+    "Porque mantiene al proveedor antiguo y renuncia por completo al ahorro",
+    "Porque asume todo el riesgo a cambio del máximo ahorro posible"
+   ]
+  },
+  "grammar": {
+   "focus": "Condicional con inversión: Skulle X …, (så) …",
+   "explain": "En registro formal, una condición posible pero poco probable se expresa con «skulle» al principio y sin «hvis»: Skulle leverandøren svigte, kan den gamle tage over (si llegara a fallar…). También puede invertirse el verbo en presente: Går det galt, …",
+   "items": [
+    {
+     "prompt": "___ leverandøren levere for sent, står produktionen stille. (condición poco probable, sin «hvis»)",
+     "answer": "Skulle",
+     "es": "Si el proveedor llegara a entregar tarde, la producción se pararía."
+    },
+    {
+     "prompt": "Skulle den nye leverandør svigte, ___ den gamle tage over. (kan, presente)",
+     "answer": "kan",
+     "es": "Si el nuevo proveedor fallara, el antiguo puede asumirlo."
+    },
+    {
+     "prompt": "___ det galt, har vi en plan B. (gå, presente, inversión sin «hvis»)",
+     "answer": "Går",
+     "es": "Si sale mal, tenemos un plan B."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "størrelsesorden",
+    "es": "orden de magnitud, escala",
+    "example": "De har aldrig leveret i den størrelsesorden før.",
+    "example_es": "Nunca han suministrado a esa escala."
+   },
+   {
+    "text": "stå stille",
+    "es": "paralizarse, quedar parado",
+    "example": "Uden reservedele kan hele fabrikken stå stille i flere dage.",
+    "example_es": "Sin piezas de repuesto, toda la fábrica puede quedar parada varios días."
+   },
+   {
+    "text": "svigte",
+    "es": "fallar",
+    "example": "Vi må have en plan, hvis leverandøren skulle svigte.",
+    "example_es": "Necesitamos un plan por si el proveedor fallara."
+   },
+   {
+    "text": "stilstand",
+    "es": "parada",
+    "example": "En uges stilstand koster os over en million.",
+    "example_es": "Una semana de parada nos cuesta más de un millón."
+   }
+  ],
+  "transfer": {
+   "prompt": "Redacta una ficha de riesgo (5–6 frases) para la dirección: describe el riesgo, su probabilidad y su impacto, compara las opciones y recomienda una medida con un condicional formal.",
+   "model": "Risiko: forsinket levering fra ny leverandør. Den nye leverandør er 20 procent billigere, men har ingen dokumenteret erfaring med ordrer i vores størrelsesorden. Sandsynligheden for en forsinkelse vurderes som lav til middel, men konsekvensen er alvorlig: Skulle leverancen udeblive, risikerer produktionen at stå stille i op til en uge. En uges stilstand koster omtrent det samme, som skiftet sparer på et år. Vi anbefaler derfor at dele ordren, så 60 procent går til den nye og 40 procent til den nuværende leverandør. Skulle den nye svigte, kan den nuværende øge sin andel med kort varsel.",
+   "rubric": "Nombra el riesgo con precisión; distingue probabilidad e impacto; cuantifica al menos una consecuencia; compara opciones; formula la medida con un condicional con inversión («skulle …»)."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos jefes de proyecto discuten si cambiar a un proveedor más barato; uno ve sobre todo el ahorro y el otro el riesgo, y acaban cuantificándolo juntos.",
+   "lines": [
+    {
+     "text": "Den neie Fournisseur ass zwanzeg Prozent méi bëlleg; dat ass dach eng einfach Wiel.",
+     "es": "El nuevo proveedor es un veinte por ciento más barato; la elección es fácil, ¿no?"
+    },
+    {
+     "text": "De Präis ass gutt, mä si hunn nach ni an där Gréisstenuerdnung geliwwert.",
+     "es": "El precio es bueno, pero nunca han suministrado a esa escala."
+    },
+    {
+     "text": "Wéi grouss ass dann de Risiko, datt et schifgeet?",
+     "es": "¿Y cuál es entonces el riesgo de que salga mal?"
+    },
+    {
+     "text": "Schwéier ze soen, mä sollte si ze spéit liwweren, steet déi ganz Produktioun bis zu enger Woch still.",
+     "es": "Es difícil decirlo, pero si llegaran a entregar tarde, toda la producción se pararía hasta una semana."
+    },
+    {
+     "text": "A wat kascht eng Woch Stëllstand?",
+     "es": "¿Y cuánto cuesta una semana de parada?"
+    },
+    {
+     "text": "Ongeféier esou vill, wéi mir an engem ganze Joer spueren.",
+     "es": "Aproximadamente lo mismo que ahorramos en un año entero."
+    },
+    {
+     "text": "De Risiko ass also kleng, mä d'Konsequenz grouss; kéinte mir d'Bestellung net op déi zwee Fournisseuren opdeelen?",
+     "es": "Entonces el riesgo es pequeño, pero la consecuencia grande; ¿no podríamos repartir el pedido entre los dos proveedores?"
+    },
+    {
+     "text": "Dach; sollt den Neien dann ausfalen, kann den Alen iwwerhuelen, a mir hunn ëmmer nach en Deel vun der Erspuernis.",
+     "es": "Sí; si el nuevo llegara a fallar, el antiguo puede asumirlo, y seguimos teniendo parte del ahorro."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué la solución final es un compromiso entre ambas posturas?",
+   "choices": [
+    "Porque reparte el pedido: se obtiene parte del ahorro y se limita el impacto de un fallo",
+    "Porque mantiene al proveedor antiguo y renuncia por completo al ahorro",
+    "Porque asume todo el riesgo a cambio del máximo ahorro posible"
+   ]
+  },
+  "grammar": {
+   "focus": "Condicional con inversión: Sollt X …, (da) …",
+   "explain": "En registro formal, una condición posible pero poco probable se expresa con «sollt/sollten» al principio y sin «wann»: Sollt de Fournisseur ze spéit liwweren, steet d'Produktioun still (si llegara a…). La oración principal empieza por el verbo conjugado o por «da».",
+   "items": [
+    {
+     "prompt": "___ de Fournisseur ze spéit liwweren, steet d'Produktioun still. (condición poco probable, sin «wann»)",
+     "answer": "Sollt",
+     "es": "Si el proveedor llegara a entregar tarde, la producción se pararía."
+    },
+    {
+     "prompt": "Sollt den Neien ausfalen, ___ den Alen iwwerhuelen. (kënnen, presente)",
+     "answer": "kann",
+     "es": "Si el nuevo fallara, el antiguo puede asumirlo."
+    },
+    {
+     "prompt": "Sollten d'Deeler net ukommen, ___ eis Produktioun eng Woch still. (stoen, presente)",
+     "answer": "steet",
+     "es": "Si las piezas no llegaran, nuestra producción se pararía una semana."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "Gréisstenuerdnung",
+    "es": "orden de magnitud, escala",
+    "example": "Si hunn nach ni an där Gréisstenuerdnung geliwwert.",
+    "example_es": "Nunca han suministrado a esa escala."
+   },
+   {
+    "text": "Stëllstand",
+    "es": "parada",
+    "example": "Eng Woch Stëllstand kascht eis iwwer eng Millioun.",
+    "example_es": "Una semana de parada nos cuesta más de un millón."
+   },
+   {
+    "text": "ausfalen",
+    "es": "fallar, quedar fuera de servicio",
+    "example": "Et kann ëmmer e Fournisseur ausfalen.",
+    "example_es": "Siempre puede fallar un proveedor."
+   },
+   {
+    "text": "opdeelen",
+    "es": "repartir",
+    "example": "Mir kéinten d'Bestellung op zwee Fournisseuren opdeelen.",
+    "example_es": "Podríamos repartir el pedido entre dos proveedores."
+   }
+  ],
+  "transfer": {
+   "prompt": "Redacta una ficha de riesgo (5–6 frases) para la dirección: describe el riesgo, su probabilidad y su impacto, compara las opciones y recomienda una medida con un condicional formal.",
+   "model": "Risiko: verspéit Liwwerung vum neie Fournisseur. Den neie Fournisseur ass 20 Prozent méi bëlleg, huet awer keng dokumentéiert Erfarung mat Bestellungen an eiser Gréisstenuerdnung. D'Wahrscheinlechkeet vun engem Retard gëtt als niddreg bis mëttel ageschat, mä d'Konsequenz ass eescht: Sollt d'Liwwerung ausbleiwen, riskéiert d'Produktioun bis zu enger Woch stillzestoen. Eng Woch Stëllstand kascht ongeféier esou vill, wéi de Wiessel an engem Joer spuert. Mir recommandéieren dofir, d'Bestellung opzedeelen: 60 Prozent un den neien an 40 Prozent un den aktuelle Fournisseur. Sollt den neie Fournisseur ausfalen, kann den aktuelle säin Undeel kuerzfristeg erhéijen.",
+   "rubric": "Nombra el riesgo con precisión; distingue probabilidad e impacto; cuantifica al menos una consecuencia; compara opciones; formula la medida con un condicional con inversión («sollt …»)."
+  }
+ }
+}

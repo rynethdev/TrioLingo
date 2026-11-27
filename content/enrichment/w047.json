@@ -1,0 +1,77 @@
+{
+ "week": 47,
+ "da": {
+  "dialogue2": {
+   "context": "Viernes por la tarde: Mette llama a su amigo Jonas porque no puede salir a cenar como habían quedado.",
+   "lines": [
+    {"text": "Hej Jonas, jeg bliver desværre nødt til at aflyse i aften.", "es": "Hola, Jonas, lo siento, pero tengo que cancelar lo de esta noche."},
+    {"text": "Åh nej, er der sket noget?", "es": "Vaya, ¿ha pasado algo?"},
+    {"text": "Min søn har feber, og jeg kan ikke finde en babysitter.", "es": "Mi hijo tiene fiebre y no encuentro canguro."},
+    {"text": "Skal vi ikke bare spise hos dig i stedet?", "es": "¿Y si cenamos en tu casa en lugar de salir?"},
+    {"text": "Gerne, men så må du tage maden med.", "es": "Vale, pero entonces tienes que traer tú la comida."},
+    {"text": "Fint, jeg henter pizza på vejen og kommer ved syvtiden.", "es": "Perfecto, compro pizza de camino y llego sobre las siete."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo quedan finalmente?",
+   "choices": ["Cenan en casa de Mette y Jonas lleva la comida", "Aplazan la cena a otro día por la fiebre del niño", "Van al restaurante con el niño y una canguro"]
+  },
+  "grammar": {
+   "focus": "Verbos modales: kunne, skulle, måtte, ville",
+   "explain": "Después de un modal, el segundo verbo va en infinitivo sin «at»: Jeg kan ikke komme. Vi må flytte mødet. El modal es el verbo conjugado y ocupa la segunda posición.",
+   "items": [
+    {"prompt": "Jeg ___ desværre ikke nå toget i dag. (kunne)", "answer": "kan", "es": "Hoy, por desgracia, no llego a tiempo al tren."},
+    {"prompt": "Vi ___ flytte mødet, fordi lokalet er optaget. (måtte)", "answer": "må", "es": "Tenemos que cambiar la reunión porque la sala está ocupada."},
+    {"prompt": "___ du hellere mødes på fredag? (ville)", "answer": "Vil", "es": "¿Prefieres que quedemos el viernes?"}
+   ]
+  },
+  "vocab": [
+   {"text": "aflyse", "es": "cancelar", "example": "Jeg bliver nødt til at aflyse i aften.", "example_es": "Tengo que cancelar lo de esta noche."},
+   {"text": "er nødt til", "es": "tener que (no queda otra)", "example": "Jeg er nødt til at blive hjemme med min søn.", "example_es": "Tengo que quedarme en casa con mi hijo."},
+   {"text": "på vejen", "es": "de camino", "example": "Jeg henter pizza på vejen.", "example_es": "Compro pizza de camino."},
+   {"text": "ved syvtiden", "es": "sobre las siete", "example": "Jeg er hos dig ved syvtiden.", "example_es": "Estoy en tu casa sobre las siete."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un mensaje a la profesora de tu curso de cocina: no puedes ir a la clase del jueves. Explica por qué y propone una alternativa (3–4 frases).",
+   "model": "Hej Lone. Jeg kan desværre ikke komme til undervisningen på torsdag, fordi jeg skal arbejde over. Kan jeg i stedet komme med på holdet om fredagen? Ellers vil jeg gerne have opskrifterne på mail. Mange hilsner, Ana.",
+   "rubric": "Usa al menos dos modales seguidos de infinitivo sin «at», da un motivo con «fordi» y propone una alternativa concreta."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Viernes por la tarde: Mette llama a su amigo Jonas porque no puede salir a cenar como habían quedado.",
+   "lines": [
+    {"text": "Moien Jonas, ech muss eist Iessen haut den Owend leider ofsoen.", "es": "Hola, Jonas, lo siento, pero tengo que cancelar la cena de esta noche."},
+    {"text": "Oh nee, ass eppes geschitt?", "es": "Vaya, ¿ha pasado algo?"},
+    {"text": "Mäi Jong huet Féiwer, an ech fanne kee Babysitter.", "es": "Mi hijo tiene fiebre y no encuentro canguro."},
+    {"text": "Solle mir net einfach bei dir iessen?", "es": "¿Y si simplemente cenamos en tu casa?"},
+    {"text": "Gär, mee da muss du d'Iesse matbréngen.", "es": "Vale, pero entonces tienes que traer tú la comida."},
+    {"text": "Ok, ech huelen ënnerwee Pizza mat a sinn géint siwen Auer do.", "es": "Perfecto, compro pizza por el camino y estoy ahí sobre las siete."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo quedan finalmente?",
+   "choices": ["Cenan en casa de Mette y Jonas lleva la comida", "Aplazan la cena a otro día por la fiebre del niño", "Van al restaurante con el niño y una canguro"]
+  },
+  "grammar": {
+   "focus": "Verbos modales: kënnen, mussen, wëllen",
+   "explain": "El modal va en segunda posición y el infinitivo pasa al final de la frase: Ech kann haut net kommen. Mir mussen d'Versammlung verleeën.",
+   "items": [
+    {"prompt": "Ech ___ haut leider net mam Zuch fueren. (kënnen)", "answer": "kann", "es": "Hoy, por desgracia, no puedo ir en tren."},
+    {"prompt": "Mir ___ d'Versammlung verleeën, well de Sall besat ass. (mussen)", "answer": "mussen", "es": "Tenemos que aplazar la reunión porque la sala está ocupada."},
+    {"prompt": "___ du léiwer e Freideg kommen? (wëllen)", "answer": "Wëlls", "es": "¿Prefieres venir el viernes?"}
+   ]
+  },
+  "vocab": [
+   {"text": "ofsoen", "es": "cancelar", "example": "Ech muss eist Iessen haut den Owend ofsoen.", "example_es": "Tengo que cancelar la cena de esta noche."},
+   {"text": "ënnerwee", "es": "de camino", "example": "Ech huelen ënnerwee Pizza mat.", "example_es": "Compro pizza por el camino."},
+   {"text": "géint siwen Auer", "es": "sobre las siete", "example": "Ech sinn géint siwen Auer bei dir.", "example_es": "Estoy en tu casa sobre las siete."},
+   {"text": "leider", "es": "por desgracia", "example": "Ech kann haut leider net kommen.", "example_es": "Por desgracia, hoy no puedo venir."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un mensaje a la profesora de tu curso de cocina: no puedes ir a la clase del jueves. Explica por qué y propone una alternativa (3–4 frases).",
+   "model": "Moien Lone, ech kann en Donneschdeg leider net an de Kachcours kommen, well ech méi laang schaffe muss. Kann ech amplaz e Freideg kommen? Soss hätt ech gär d'Rezepter per Mail. Merci a bis geschwënn, Ana.",
+   "rubric": "Usa al menos dos modales con el infinitivo al final, da un motivo con «well» y propone una alternativa concreta."
+  }
+ }
+}

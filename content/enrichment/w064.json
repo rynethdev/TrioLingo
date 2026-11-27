@@ -1,0 +1,77 @@
+{
+ "week": 64,
+ "da": {
+  "dialogue2": {
+   "context": "Dos compañeros redactan juntos la respuesta a un cliente que pide información sobre una entrega.",
+   "lines": [
+    {"text": "Kunden spørger, om vi kan levere før den femtende.", "es": "El cliente pregunta si podemos entregar antes del día quince."},
+    {"text": "Det kan vi, men vi ved ikke, hvor mange kasser han skal have.", "es": "Podemos, pero no sabemos cuántas cajas necesita."},
+    {"text": "Så skriver vi ja og spørger, hvor mange han har brug for.", "es": "Entonces contestamos que sí y le preguntamos cuántas necesita."},
+    {"text": "Skal vi også spørge, hvem der tager imod varerne?", "es": "¿Preguntamos también quién recibirá la mercancía?"},
+    {"text": "God idé. Og hvordan afslutter vi mailen?", "es": "Buena idea. ¿Y cómo terminamos el correo?"},
+    {"text": "«Vi ser frem til dit svar» og så vores navne.", "es": "«Quedamos a la espera de su respuesta» y luego nuestros nombres."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué información le falta todavía a la empresa?",
+   "choices": ["Cuántas cajas necesita el cliente y quién las recibirá", "Si pueden entregar antes del día quince", "La dirección de correo del cliente"]
+  },
+  "grammar": {
+   "focus": "Preguntas indirectas: om, hvornår, hvem der",
+   "explain": "Las preguntas indirectas tienen orden de subordinada (sujeto + verbo): Han spørger, om vi kan levere. Kan du sige, hvornår mødet starter? Si se pregunta por el sujeto, se añade «der»: Vi ved ikke, hvem der kommer.",
+   "items": [
+    {"prompt": "Kunden vil vide, ___ pakken kommer i dag. (si)", "answer": "om", "es": "El cliente quiere saber si el paquete llega hoy."},
+    {"prompt": "Kan du fortælle mig, hvornår ___? (mødet / starte)", "answer": "mødet starter", "es": "¿Puedes decirme cuándo empieza la reunión?"},
+    {"prompt": "Vi ved ikke, hvem ___ har bestilt varerne.", "answer": "der", "es": "No sabemos quién ha pedido la mercancía."}
+   ]
+  },
+  "vocab": [
+   {"text": "levere", "es": "entregar", "example": "Vi kan levere før den femtende.", "example_es": "Podemos entregar antes del día quince."},
+   {"text": "Vi ser frem til dit svar", "es": "Quedamos a la espera de tu respuesta", "example": "Vi ser frem til dit svar. Venlig hilsen, Ida og Kasper.", "example_es": "Quedamos a la espera de tu respuesta. Saludos, Ida y Kasper."},
+   {"text": "har brug for", "es": "necesita", "example": "Kunden har brug for tyve kasser.", "example_es": "El cliente necesita veinte cajas."},
+   {"text": "afslutte", "es": "terminar, cerrar", "example": "Hvordan skal vi afslutte mailen?", "example_es": "¿Cómo terminamos el correo?"}
+  ],
+  "transfer": {
+   "prompt": "Contesta el correo de la academia donde estudias: te ofrecen un curso intensivo en julio. Confirma tu interés, pregunta dos cosas que no sabes (precio, horario…) y cierra el correo (4 frases).",
+   "model": "Kære Sprogcenter. Tak for jeres mail, jeg er meget interesseret i sommerkurset. Kan I fortælle mig, hvad kurset koster, og om undervisningen ligger om formiddagen? Jeg vil også gerne vide, hvornår jeg senest skal tilmelde mig. Jeg ser frem til jeres svar. Venlig hilsen, Diego.",
+   "rubric": "Usa al menos dos preguntas indirectas (om, hvad, hvornår) con orden de subordinada y cierra con una fórmula de despedida."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos compañeros redactan juntos la respuesta a un cliente que pide información sobre una entrega.",
+   "lines": [
+    {"text": "De Client freet, ob mir virum Fofzéngten liwwere kënnen.", "es": "El cliente pregunta si podemos entregar antes del día quince."},
+    {"text": "Dat geet, mee mir wëssen net, wéi vill Këschten hie brauch.", "es": "Podemos, pero no sabemos cuántas cajas necesita."},
+    {"text": "Da schreiwe mir jo a froen hien no der Zuel.", "es": "Entonces contestamos que sí y le preguntamos el número."},
+    {"text": "Solle mir och froen, wien d'Wuer entgéinthëlt?", "es": "¿Preguntamos también quién recibirá la mercancía?"},
+    {"text": "Gutt Iddi. A wéi schléisse mir d'Mail of?", "es": "Buena idea. ¿Y cómo cerramos el correo?"},
+    {"text": "«Mir freeën eis op Är Äntwert» an dann eis Nimm.", "es": "«Quedamos a la espera de su respuesta» y luego nuestros nombres."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué información le falta todavía a la empresa?",
+   "choices": ["Cuántas cajas necesita el cliente y quién las recibirá", "Si pueden entregar antes del día quince", "La dirección de correo del cliente"]
+  },
+  "grammar": {
+   "focus": "Preguntas indirectas con «ob», «wéini», «wien»: verbo al final",
+   "explain": "Las preguntas indirectas siguen el orden de subordinada, con el verbo conjugado al final: De Client freet, ob mir liwwere kënnen. Ech weess net, wéini d'Versammlung ufänkt.",
+   "items": [
+    {"prompt": "De Client wëll wëssen, ___ de Pak haut ukënnt.", "answer": "ob", "es": "El cliente quiere saber si el paquete llega hoy."},
+    {"prompt": "Kënnt Dir mir soen, wéini d'Versammlung ___? (ufänken)", "answer": "ufänkt", "es": "¿Puede decirme cuándo empieza la reunión?"},
+    {"prompt": "Mir wëssen net, wien d'Wuer ___. (bestellen, Perfekt)", "answer": "bestallt huet", "es": "No sabemos quién ha pedido la mercancía."}
+   ]
+  },
+  "vocab": [
+   {"text": "liwweren", "es": "entregar", "example": "Mir kënne virum Fofzéngten liwweren.", "example_es": "Podemos entregar antes del día quince."},
+   {"text": "Mir freeën eis op Är Äntwert", "es": "Quedamos a la espera de su respuesta", "example": "Mir freeën eis op Är Äntwert. Mat beschte Gréiss, Ida a Kevin.", "example_es": "Quedamos a la espera de su respuesta. Saludos, Ida y Kevin."},
+   {"text": "entgéinthuelen", "es": "recibir (una entrega)", "example": "Wien kann d'Wuer entgéinthuelen?", "example_es": "¿Quién puede recibir la mercancía?"},
+   {"text": "ofschléissen", "es": "cerrar, terminar", "example": "Wéi solle mir d'Mail ofschléissen?", "example_es": "¿Cómo cerramos el correo?"}
+  ],
+  "transfer": {
+   "prompt": "Contesta el correo de la academia donde estudias: te ofrecen un curso intensivo en julio. Confirma tu interés, pregunta dos cosas que no sabes (precio, horario…) y cierra el correo (4 frases).",
+   "model": "Léif Equipe vum Sproochenzenter, merci fir Är Mail, ech si ganz interesséiert um Summercours. Kënnt Dir mir soen, wat de Cours kascht an ob den Ënnerrecht moies ass? Ech wéilt och wëssen, bis wéini ech mech umelle muss. Ech freeë mech op Är Äntwert. Mat beschte Gréiss, Diego.",
+   "rubric": "Usa al menos dos preguntas indirectas (ob, wat, wéini) con el verbo al final y cierra con una fórmula de despedida."
+  }
+ }
+}

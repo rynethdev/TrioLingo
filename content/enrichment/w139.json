@@ -1,0 +1,81 @@
+{
+ "week": 139,
+ "da": {
+  "dialogue2": {
+   "context": "Un proveedor y una compradora negocian un contrato de suministro; antes de responder, él comprueba qué es lo que de verdad le preocupa a ella.",
+   "lines": [
+    {"text": "Vi kan ikke binde os til faste mængder hver måned; efterspørgslen svinger for meget.", "es": "No podemos comprometernos a cantidades fijas cada mes; la demanda fluctúa demasiado."},
+    {"text": "Må jeg lige spørge, om det er mængden eller leveringstidspunktet, der er problemet?", "es": "¿Puedo preguntar si el problema es la cantidad o el momento de la entrega?"},
+    {"text": "Mest mængden; vi risikerer at sidde med et lager, vi ikke kan sælge.", "es": "Sobre todo la cantidad; corremos el riesgo de quedarnos con un stock que no podemos vender."},
+    {"text": "Så hvis jeg forstår dig ret, kunne I godt forpligte jer til et årligt volumen, bare ikke et månedligt?", "es": "Entonces, si te entiendo bien, sí podríais comprometeros a un volumen anual, pero no a uno mensual, ¿no?"},
+    {"text": "Ja, det ville give os den fleksibilitet, vi har brug for.", "es": "Sí, eso nos daría la flexibilidad que necesitamos."},
+    {"text": "Og må jeg spørge, hvorvidt I kan give os en prognose et kvartal frem?", "es": "¿Y puedo preguntar si podríais darnos una previsión con un trimestre de antelación?"},
+    {"text": "En vejledende prognose, ja, men ikke en bindende.", "es": "Una previsión orientativa, sí, pero no vinculante."},
+    {"text": "Det kan vi arbejde med; så foreslår jeg en årsaftale med kvartalsvise justeringer.", "es": "Con eso podemos trabajar; entonces propongo un contrato anual con ajustes trimestrales."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué descubre el proveedor al pedir aclaraciones?",
+   "choices": ["Que el problema es la cantidad mensual fija, no un compromiso anual", "Que a la compradora le preocupa sobre todo el plazo de entrega", "Que la compradora no quiere firmar ningún compromiso de volumen"]
+  },
+  "grammar": {
+   "focus": "Preguntas indirectas: om, hvorvidt e interrogativos",
+   "explain": "Las preguntas de sí/no se hacen indirectas con «om» (o «hvorvidt», más formal); las parciales conservan el interrogativo (hvor, hvad, hvornår). En ambos casos se usa el orden de subordinada y, tras un verbo en pasado, se concuerda el tiempo.",
+   "items": [
+    {"prompt": "«Er mængden problemet?» → Må jeg spørge, ___ det er mængden, der er problemet? (sí/no)", "answer": "om", "es": "¿Puedo preguntar si el problema es la cantidad?"},
+    {"prompt": "«Hvor ofte kan I levere?» → Jeg vil gerne vide, ___ ofte I kan levere. (interrogativo)", "answer": "hvor", "es": "Me gustaría saber con qué frecuencia podéis entregar."},
+    {"prompt": "«Kan I ikke binde jer?» → Hun spurgte, om de ikke ___ binde sig. (kan, en pretérito)", "answer": "kunne", "es": "Ella preguntó si no podían comprometerse."}
+   ]
+  },
+  "vocab": [
+   {"text": "binde sig til", "es": "comprometerse a", "example": "Kunden ønsker ikke at binde sig til faste mængder.", "example_es": "El cliente no quiere comprometerse a cantidades fijas."},
+   {"text": "svinger", "es": "fluctúa", "example": "Efterspørgslen svinger meget fra måned til måned.", "example_es": "La demanda fluctúa mucho de un mes a otro."},
+   {"text": "vejledende", "es": "orientativo", "example": "Prognosen er kun vejledende.", "example_es": "La previsión es solo orientativa."},
+   {"text": "bindende", "es": "vinculante", "example": "Aftalen bliver først bindende, når begge parter har underskrevet.", "example_es": "El acuerdo no es vinculante hasta que ambas partes lo firman."}
+  ],
+  "transfer": {
+   "prompt": "Después de la reunión, escribe un correo (5–6 frases) a la compradora resumiendo cómo has entendido su postura, preguntando de forma indirecta lo que aún no está claro y proponiendo el siguiente paso.",
+   "model": "Tak for et godt møde i dag. Hvis jeg har forstået jer ret, er I villige til at forpligte jer til et årligt volumen, men ikke til faste månedlige mængder, fordi efterspørgslen svinger. I kan desuden levere en vejledende prognose et kvartal frem. Jeg vil gerne høre, om I også kunne acceptere et minimumsvolumen per kvartal, og hvorvidt prisen i så fald skal være den samme hele året. Ret mig endelig, hvis jeg har misforstået noget. Jeg sender et udkast til en årsaftale med kvartalsvise justeringer, så snart jeg har jeres svar.",
+   "rubric": "Reformula la postura del otro con una fórmula de comprobación («hvis jeg har forstået jer ret»); formula al menos dos preguntas indirectas (om, hvorvidt, hvor…); invita explícitamente a corregir malentendidos; propone un siguiente paso concreto."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un proveedor y una compradora negocian un contrato de suministro; antes de responder, él comprueba qué es lo que de verdad le preocupa a ella.",
+   "lines": [
+    {"text": "Mir kënnen eis net op fix Quantitéiten all Mount festleeën; d'Nofro schwankt ze vill.", "es": "No podemos comprometernos a cantidades fijas cada mes; la demanda fluctúa demasiado."},
+    {"text": "Dierf ech kuerz froen, ob de Problem d'Quantitéit ass oder den Zäitpunkt vun der Liwwerung?", "es": "¿Puedo preguntar si el problema es la cantidad o el momento de la entrega?"},
+    {"text": "Virun allem d'Quantitéit; mir riskéieren, op engem Stock sëtzen ze bleiwen, dee mir net verkafe kënnen.", "es": "Sobre todo la cantidad; corremos el riesgo de quedarnos con un stock que no podemos vender."},
+    {"text": "Wann ech Iech richteg verstinn, kéint Dir Iech also op e Joresvolume festleeën, just net op e Moundsvolume?", "es": "Entonces, si le entiendo bien, sí podrían comprometerse a un volumen anual, pero no a uno mensual, ¿no?"},
+    {"text": "Jo, dat géif eis déi Flexibilitéit ginn, déi mir brauchen.", "es": "Sí, eso nos daría la flexibilidad que necesitamos."},
+    {"text": "An dierf ech froen, ob Dir eis eng Previsioun fir dräi Méint am Viraus gi kënnt?", "es": "¿Y puedo preguntar si podrían darnos una previsión con tres meses de antelación?"},
+    {"text": "Eng indikativ Previsioun, jo, mä keng verbindlech.", "es": "Una previsión orientativa, sí, pero no vinculante."},
+    {"text": "Domat kënne mir schaffen; da proposéieren ech e Joreskontrakt mat Upassungen all Trimester.", "es": "Con eso podemos trabajar; entonces propongo un contrato anual con ajustes cada trimestre."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué descubre el proveedor al pedir aclaraciones?",
+   "choices": ["Que el problema es la cantidad mensual fija, no un compromiso anual", "Que a la compradora le preocupa sobre todo el plazo de entrega", "Que la compradora no quiere firmar ningún compromiso de volumen"]
+  },
+  "grammar": {
+   "focus": "Preguntas indirectas: ob, wéi, wat",
+   "explain": "Las preguntas de sí/no se hacen indirectas con «ob»; las parciales conservan el interrogativo (wéi, wat, wéini). En ambos casos el verbo conjugado va al final, detrás del infinitivo si lo hay: … ob mir eng Previsioun schécke kënnen.",
+   "items": [
+    {"prompt": "„Ass d'Quantitéit de Problem?“ → Dierf ech froen, ___ d'Quantitéit de Problem ass? (sí/no)", "answer": "ob", "es": "¿Puedo preguntar si el problema es la cantidad?"},
+    {"prompt": "„Wéi dacks kënnt Dir liwweren?“ → Ech géif gär wëssen, ___ dacks Dir liwwere kënnt. (interrogativo)", "answer": "wéi", "es": "Me gustaría saber con qué frecuencia pueden entregar."},
+    {"prompt": "„Kënnt Dir eng Previsioun schécken?“ → Si huet gefrot, ob mir eng Previsioun schécke ___. (kënnen, verbo al final)", "answer": "kënnen", "es": "Ella preguntó si podíamos enviar una previsión."}
+   ]
+  },
+  "vocab": [
+   {"text": "festleeën", "es": "comprometerse (sech op eppes festleeën)", "example": "Mir kënnen eis net op fix Quantitéite festleeën.", "example_es": "No podemos comprometernos a cantidades fijas."},
+   {"text": "schwanken", "es": "fluctuar", "example": "D'Nofro kann am Laf vum Joer staark schwanken.", "example_es": "La demanda puede fluctuar mucho a lo largo del año."},
+   {"text": "indikativ", "es": "orientativo", "example": "D'Previsioun ass just indikativ.", "example_es": "La previsión es solo orientativa."},
+   {"text": "verbindlech", "es": "vinculante", "example": "De Kontrakt gëtt eréischt verbindlech, wa béid Säiten ënnerschriwwen hunn.", "example_es": "El contrato no es vinculante hasta que ambas partes lo han firmado."}
+  ],
+  "transfer": {
+   "prompt": "Después de la reunión, escribe un correo (5–6 frases) a la compradora resumiendo cómo has entendido su postura, preguntando de forma indirecta lo que aún no está claro y proponiendo el siguiente paso.",
+   "model": "Merci fir dat gutt Gespréich vun haut. Wann ech Iech richteg verstanen hunn, sidd Dir bereet, Iech op e Joresvolume festzeleeën, awer net op fix Quantitéiten all Mount, well d'Nofro schwankt. Doriwwer eraus kënnt Dir eis eng indikativ Previsioun fir dräi Méint am Viraus ginn. Ech géif gär wëssen, ob Dir och e Mindestvolume pro Trimester akzeptéiere kéint an ob de Präis dann d'ganzt Joer d'selwecht bleiwe soll. Korrigéiert mech w.e.g., wann ech eppes falsch verstanen hunn. Ech schécken Iech en Entworf vun engem Joreskontrakt mat Upassungen all Trimester, soubal ech Är Äntwert hunn.",
+   "rubric": "Reformula la postura del otro con una fórmula de comprobación («wann ech Iech richteg verstanen hunn»); formula al menos dos preguntas indirectas (ob, wéi, wat…); invita explícitamente a corregir malentendidos; propone un siguiente paso concreto."
+  }
+ }
+}

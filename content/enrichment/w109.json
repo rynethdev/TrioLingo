@@ -1,0 +1,77 @@
+{
+ "week": 109,
+ "da": {
+  "dialogue2": {
+   "context": "Dos responsables de formación comparan un curso presencial y uno en línea para los nuevos empleados y, de entrada, no se ponen de acuerdo.",
+   "lines": [
+    {"text": "Onlinekurset er klart billigere end det fysiske, næsten det halve.", "es": "El curso en línea es claramente más barato que el presencial, casi la mitad."},
+    {"text": "Ja, men deltagerne lærer ikke lige så meget, når de sidder alene foran skærmen.", "es": "Sí, pero los participantes no aprenden tanto cuando están solos delante de la pantalla."},
+    {"text": "Det er ikke sikkert. Til gengæld kan de tage modulerne i deres eget tempo.", "es": "No está tan claro. A cambio, pueden hacer los módulos a su propio ritmo."},
+    {"text": "Rigtigt, men det fysiske kursus er bedre til at skabe relationer i holdet.", "es": "Cierto, pero el presencial es mejor para crear relaciones en el equipo."},
+    {"text": "Hvad med en blanding? Teorien online og en enkelt fælles dag til sidst.", "es": "¿Y una mezcla? La teoría en línea y un solo día juntos al final."},
+    {"text": "Det er den mest fornuftige løsning indtil videre. Lad os regne på det.", "es": "Es la solución más sensata hasta ahora. Hagamos números."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿A qué conclusión llegan?",
+   "choices": ["Combinar la teoría en línea con un día presencial", "Elegir el curso en línea porque es más barato", "Elegir el presencial porque se aprende más"]
+  },
+  "grammar": {
+   "focus": "Comparativos y superlativos: billigere end, lige så … som, mest",
+   "explain": "El comparativo se forma con -ere + «end»: «billigere end». La igualdad, con «lige så … som»: «lige så godt som». Los adjetivos largos usan «mere/mest»: «mere fleksibel», «den mest fornuftige». Irregulares: god → bedre → bedst.",
+   "items": [
+    {"prompt": "Det fysiske kursus er ___ end onlinekurset. (dyr, comparativo)", "answer": "dyrere", "es": "El curso presencial es más caro que el curso en línea."},
+    {"prompt": "Onlinekurset er ikke lige så effektivt ___ undervisning i klasselokalet. (como)", "answer": "som", "es": "El curso en línea no es tan eficaz como las clases en el aula."},
+    {"prompt": "Det er den ___ løsning, vi har fundet indtil nu. (god, superlativo)", "answer": "bedste", "es": "Es la mejor solución que hemos encontrado hasta ahora."}
+   ]
+  },
+  "vocab": [
+   {"text": "til gengæld", "es": "a cambio, en cambio", "example": "Det er dyrt, men til gengæld holder det længe.", "example_es": "Es caro, pero a cambio dura mucho."},
+   {"text": "i deres eget tempo", "es": "a su propio ritmo", "example": "Medarbejderne lærer i deres eget tempo.", "example_es": "Los empleados aprenden a su propio ritmo."},
+   {"text": "en blanding", "es": "una mezcla", "example": "Vi vælger en blanding af begge dele.", "example_es": "Elegimos una mezcla de las dos cosas."},
+   {"text": "regne på det", "es": "hacer números", "example": "Lad os regne på det, før vi beslutter os.", "example_es": "Hagamos números antes de decidirnos."}
+  ],
+  "transfer": {
+   "prompt": "Tu asociación debe elegir entre alquilar una sala en el centro o reunirse en línea para sus asambleas mensuales. Escribe un breve análisis (5–6 frases, formal) con una ventaja y una desventaja de cada opción y una recomendación equilibrada.",
+   "model": "En sal i centrum ville koste omkring 1.500 kroner om måneden, hvilket er markant dyrere end et onlinemøde. Til gengæld giver fysiske møder bedre diskussioner og et stærkere fællesskab. Onlinemøder er billigere og mere fleksible, især for medlemmer, der bor langt væk. Problemet er dog, at færre tager ordet, og at møderne ofte bliver mindre engagerende. Vi anbefaler derfor en blanding: fysiske møder hvert kvartal og onlinemøder de øvrige måneder. Det er efter vores vurdering den mest afbalancerede løsning.",
+   "rubric": "Presenta una ventaja y una desventaja de cada opción, usa al menos tres formas comparativas o superlativas (end, lige så … som, mest) y cierra con una recomendación equilibrada."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos responsables de formación comparan un curso presencial y uno en línea para los nuevos empleados y, de entrada, no se ponen de acuerdo.",
+   "lines": [
+    {"text": "Den Online-Cours ass kloer méi bëlleg wéi de Presenzcours, bal d'Halschent.", "es": "El curso en línea es claramente más barato que el presencial, casi la mitad."},
+    {"text": "Jo, mee d'Participante léieren net esou vill, wa se eleng virum Bildschierm sëtzen.", "es": "Sí, pero los participantes no aprenden tanto cuando están solos delante de la pantalla."},
+    {"text": "Dat ass net sécher. Am Géigenzuch kënne se d'Moduler an hirem eegenen Tempo maachen.", "es": "No está tan claro. A cambio, pueden hacer los módulos a su propio ritmo."},
+    {"text": "Richteg, mee de Presenzcours ass besser, fir Bezéiungen am Team opzebauen.", "es": "Cierto, pero el presencial es mejor para crear relaciones en el equipo."},
+    {"text": "A wéi wier et mat enger Mëschung? D'Theorie online an een eenzegen Dag zesummen um Enn.", "es": "¿Y una mezcla? La teoría en línea y un solo día juntos al final."},
+    {"text": "Dat ass bis elo déi vernënftegst Léisung. Loosse mir dat duerchrechnen.", "es": "Es la solución más sensata hasta ahora. Hagamos números."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿A qué conclusión llegan?",
+   "choices": ["Combinar la teoría en línea con un día presencial", "Elegir el curso en línea porque es más barato", "Elegir el presencial porque se aprende más"]
+  },
+  "grammar": {
+   "focus": "Comparativos y superlativos: méi … wéi, esou … wéi, superlativo en -st",
+   "explain": "El comparativo se forma con «méi» + adjetivo + «wéi»: «méi bëlleg wéi». La igualdad, con «esou … wéi»: «esou effikass wéi». Superlativo: «déi vernënftegst Léisung», «am beschten». Irregulares: gutt → besser → bescht.",
+   "items": [
+    {"prompt": "De Presenzcours ass ___ deier wéi den Online-Cours. (comparativo)", "answer": "méi", "es": "El curso presencial es más caro que el curso en línea."},
+    {"prompt": "Den Online-Cours ass net esou effikass ___ de Cours an der Klass. (como)", "answer": "wéi", "es": "El curso en línea no es tan eficaz como las clases en el aula."},
+    {"prompt": "Dat ass déi ___ Léisung, déi mir bis elo fonnt hunn. (gutt, superlativo)", "answer": "bescht", "es": "Es la mejor solución que hemos encontrado hasta ahora."}
+   ]
+  },
+  "vocab": [
+   {"text": "am Géigenzuch", "es": "a cambio, en cambio", "example": "Et ass deier, mee am Géigenzuch hält et laang.", "example_es": "Es caro, pero a cambio dura mucho."},
+   {"text": "an hirem eegenen Tempo", "es": "a su propio ritmo", "example": "D'Mataarbechter léieren an hirem eegenen Tempo.", "example_es": "Los empleados aprenden a su propio ritmo."},
+   {"text": "eng Mëschung", "es": "una mezcla", "example": "Mir wielen eng Mëschung vun deenen zwou Méiglechkeeten.", "example_es": "Elegimos una mezcla de las dos opciones."},
+   {"text": "duerchrechnen", "es": "hacer números", "example": "Mir mussen dat nach eng Kéier duerchrechnen.", "example_es": "Tenemos que volver a hacer números."}
+  ],
+  "transfer": {
+   "prompt": "Tu asociación debe elegir entre alquilar una sala en el centro o reunirse en línea para sus asambleas mensuales. Escribe un breve análisis (5–6 frases, formal) con una ventaja y una desventaja de cada opción y una recomendación equilibrada.",
+   "model": "E Sall an der Stad géif ongeféier 150 Euro de Mount kaschten, wat däitlech méi deier ass wéi eng Online-Reunioun. Am Géigenzuch féieren Reuniounen op der Plaz zu bessere Diskussiounen an zu engem méi staarke Gemeinschaftsgefill. Online-Reunioune si méi bëlleg a méi flexibel, besonnesch fir Memberen, déi wäit ewech wunnen. De Problem ass awer, datt manner Leit d'Wuert huelen an d'Reuniounen dacks manner lieweg sinn. Dofir recommandéiere mir eng Mëschung: all Trimester eng Reunioun op der Plaz an déi aner Méint online. Dat ass eiser Meenung no de beschte Kompromëss.",
+   "rubric": "Presenta una ventaja y una desventaja de cada opción, usa al menos tres formas comparativas o superlativas (méi … wéi, esou … wéi, superlativo) y cierra con una recomendación equilibrada."
+  }
+ }
+}

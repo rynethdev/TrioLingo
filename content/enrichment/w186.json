@@ -1,0 +1,81 @@
+{
+ "week": 186,
+ "da": {
+  "dialogue2": {
+   "context": "Una enfermera con veinte años de oficio responde a una estudiante en prácticas que le pregunta, algo provocadora, si no se ha cansado de la profesión.",
+   "lines": [
+    {"text": "Bliver man ikke træt af det efter tyve år?", "es": "¿No se cansa una de esto después de veinte años?"},
+    {"text": "Af nattevagterne, ja. Af patienterne aldrig.", "es": "De las guardias de noche, sí. De los pacientes, nunca."},
+    {"text": "Hvad har ændret sig mest?", "es": "¿Qué es lo que más ha cambiado?"},
+    {"text": "Jeg tror ikke længere, at jeg skal kunne redde alle. Det troede jeg de første ti år.", "es": "Ya no creo que tenga que poder salvar a todos. Eso lo creí los primeros diez años."},
+    {"text": "Lyder det ikke lidt resigneret?", "es": "¿No suena un poco a resignación?"},
+    {"text": "Det lyder måske sådan. Men det har gjort mig bedre til at være der for dem, jeg rent faktisk kan hjælpe.", "es": "Puede que suene así. Pero me ha hecho mejor para estar ahí para quienes realmente puedo ayudar."},
+    {"text": "Og hvad er stadig svært?", "es": "¿Y qué sigue siendo difícil?"},
+    {"text": "At gå hjem og lade dagen blive på hospitalet. Det øver jeg mig efterhånden på.", "es": "Irme a casa y dejar el día en el hospital. Eso lo voy practicando poco a poco."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir la enfermera con «Ya no creo que tenga que poder salvar a todos»?",
+   "choices": ["Que ha aceptado sus límites y eso le permite cuidar mejor", "Que ha perdido la motivación por su trabajo", "Que cree que el hospital no hace lo suficiente"]
+  },
+  "grammar": {
+   "focus": "Adverbios aspectuales: stadig, ikke længere, allerede, efterhånden",
+   "explain": "Para situar una evolución personal: «stadig» (todavía, sigue), «ikke længere» (ya no), «allerede» (ya), «efterhånden» (poco a poco; a estas alturas). Ej.: Jeg tror ikke længere på det, men nattevagterne er stadig hårde.",
+   "items": [
+    {"prompt": "Jeg tror ___ længere, at jeg skal redde alle. (ya no: primera palabra)", "answer": "ikke", "es": "Ya no creo que tenga que salvar a todos."},
+    {"prompt": "Nattevagterne er ___ hårde for mig. (todavía, siguen siendo)", "answer": "stadig", "es": "Las guardias de noche siguen siendo duras para mí."},
+    {"prompt": "Det har jeg ___ lært at acceptere. (poco a poco, a estas alturas)", "answer": "efterhånden", "es": "Eso, a estas alturas, he aprendido a aceptarlo."}
+   ]
+  },
+  "vocab": [
+   {"text": "være der for", "es": "estar ahí para", "example": "Jeg prøver at være der for mine patienter.", "example_es": "Intento estar ahí para mis pacientes."},
+   {"text": "rent faktisk", "es": "realmente, de hecho", "example": "Jeg hjælper dem, jeg rent faktisk kan hjælpe.", "example_es": "Ayudo a quienes realmente puedo ayudar."},
+   {"text": "øve sig på", "es": "practicar, ejercitarse en", "example": "Det er noget, man må øve sig på hele livet.", "example_es": "Es algo que hay que practicar toda la vida."},
+   {"text": "bære dagen med sig hjem", "es": "llevarse el día a casa", "example": "Det er svært ikke at bære dagen med sig hjem.", "example_es": "Es difícil no llevarse el día a casa."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un texto breve (6–8 frases) para el libro conmemorativo de tu hospital o empresa: una reflexión personal sobre lo que has aprendido en tu oficio, lo que ya no crees y lo que sigue costándote, sin autobombo ni queja.",
+   "model": "Da jeg begyndte som sygeplejerske, troede jeg, at god pleje handlede om at kunne alt og nå alt. Efter tyve år tror jeg ikke længere på den forestilling. Jeg har efterhånden lært, at det vigtigste sjældent er det, man gør med hænderne, men den opmærksomhed, man giver. En patient husker ikke, hvor hurtigt du skiftede forbindingen, men om du så hende i øjnene. Det har gjort mig roligere og, tror jeg, bedre til mit arbejde. Noget er dog stadig svært: at gå hjem uden at bære dagen med mig. Det øver jeg mig på — og det bliver jeg nok ved med.",
+   "rubric": "Contrasta con honestidad el antes y el ahora; usa adverbios aspectuales con precisión («ikke længere», «stadig», «efterhånden»); ilustra con un ejemplo concreto; nombra una dificultad persistente sin queja; tono sereno, sin autobombo."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una enfermera con veinte años de oficio responde a una estudiante en prácticas que le pregunta, algo provocadora, si no se ha cansado de la profesión.",
+   "lines": [
+    {"text": "Gëtt ee vun der Aarbecht net midd no zwanzeg Joer?", "es": "¿No se cansa una de este trabajo después de veinte años?"},
+    {"text": "Vun den Nuetsdéngschter, jo. Vun de Patienten ni.", "es": "De las guardias de noche, sí. De los pacientes, nunca."},
+    {"text": "Wat huet sech am meeschte geännert?", "es": "¿Qué es lo que más ha cambiado?"},
+    {"text": "Ech gleewen net méi, datt ech jiddereen rette muss. Dat hunn ech déi éischt zéng Joer geduecht.", "es": "Ya no creo que tenga que salvar a todo el mundo. Eso lo pensé los primeros diez años."},
+    {"text": "Klengt dat net e bësse resignéiert?", "es": "¿No suena un poco a resignación?"},
+    {"text": "Et klengt vläicht esou. Mä doduerch kann ech besser fir déi do sinn, deenen ech wierklech hëllefe kann.", "es": "Puede que suene así. Pero gracias a eso puedo estar mejor ahí para quienes realmente puedo ayudar."},
+    {"text": "A wat ass nach ëmmer schwéier?", "es": "¿Y qué sigue siendo difícil?"},
+    {"text": "Heemzegoen an den Dag am Spidol ze loossen. Dat léieren ech eréischt elo, lues a lues.", "es": "Irme a casa y dejar el día en el hospital. Eso lo estoy aprendiendo ahora, poco a poco."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir la enfermera con «Ya no creo que tenga que salvar a todo el mundo»?",
+   "choices": ["Que ha aceptado sus límites y eso le permite cuidar mejor", "Que ha perdido la motivación por su trabajo", "Que cree que el hospital no hace lo suficiente"]
+  },
+  "grammar": {
+   "focus": "Adverbios aspectuales: nach ëmmer, net méi, schonn, eréischt",
+   "explain": "Para situar una evolución personal: «nach ëmmer» (todavía, sigue), «net méi» (ya no), «schonn» (ya), «eréischt» (solo, no antes de). Ej.: Ech gleewen net méi drun, mä d'Nuetsdéngschter sinn nach ëmmer schwéier.",
+   "items": [
+    {"prompt": "Ech gleewen ___ méi, datt ech jiddereen rette muss. (ya no: primera palabra)", "answer": "net", "es": "Ya no creo que tenga que salvar a todo el mundo."},
+    {"prompt": "D'Nuetsdéngschter sinn ___ ëmmer schwéier fir mech. (todavía: primera palabra)", "answer": "nach", "es": "Las guardias de noche siguen siendo duras para mí."},
+    {"prompt": "Dat hunn ech ___ no zéng Joer verstanen. (solo, no antes de)", "answer": "eréischt", "es": "Eso no lo entendí hasta pasados diez años."}
+   ]
+  },
+  "vocab": [
+   {"text": "do ze sinn", "es": "estar ahí (para alguien)", "example": "Ech probéieren, fir meng Patienten do ze sinn.", "example_es": "Intento estar ahí para mis pacientes."},
+   {"text": "lues a lues", "es": "poco a poco", "example": "Lues a lues léieren ech, nee ze soen.", "example_es": "Poco a poco aprendo a decir que no."},
+   {"text": "mat heem ze huelen", "es": "llevarse a casa", "example": "Et ass schwéier, den Dag net mat heem ze huelen.", "example_es": "Es difícil no llevarse el día a casa."},
+   {"text": "tatsächlech", "es": "realmente, de hecho", "example": "Ech hëllefen deenen, deenen ech tatsächlech hëllefe kann.", "example_es": "Ayudo a quienes realmente puedo ayudar."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un texto breve (6–8 frases) para el libro conmemorativo de tu hospital o empresa: una reflexión personal sobre lo que has aprendido en tu oficio, lo que ya no crees y lo que sigue costándote, sin autobombo ni queja.",
+   "model": "Wéi ech als Infirmière ugefaangen hunn, hunn ech geduecht, gutt Fleeg hätt domat ze dinn, alles ze kënnen an iwwerall gläichzäiteg ze sinn. No zwanzeg Joer gleewen ech net méi un déi Virstellung. Ech hu lues a lues geléiert, datt dat Wichtegst seelen dat ass, wat ee mat den Hänn mécht, mä d'Opmierksamkeet, déi een engem schenkt. E Patient erënnert sech net drun, wéi séier s du de Verband gewiesselt hues, mä ob s du him an d'Aen gekuckt hues. Dat huet mech méi roueg gemaach an, mengen ech, och besser a menger Aarbecht. Eppes ass awer nach ëmmer schwéier: heemzegoen, ouni den Dag mat heem ze huelen. Ech schaffen drun — an dat wäert wuel nach laang esou bleiwen.",
+   "rubric": "Contrasta con honestidad el antes y el ahora; usa adverbios aspectuales con precisión («net méi», «nach ëmmer», «eréischt»); ilustra con un ejemplo concreto; nombra una dificultad persistente sin queja; tono sereno, sin autobombo."
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "week": 185,
+ "da": {
+  "dialogue2": {
+   "context": "Una responsable de selección comenta con una compañera la carta de referencia de un candidato a vendedor: elogia su puntualidad y su letra, pero no dice nada de sus ventas.",
+   "lines": [
+    {"text": "Referencen roser hans punktlighed og hans pæne håndskrift.", "es": "La referencia elogia su puntualidad y su buena letra."},
+    {"text": "Og om selve arbejdet?", "es": "¿Y sobre el trabajo en sí?"},
+    {"text": "Ikke et ord. Tre afsnit og ikke et ord.", "es": "Ni una palabra. Tres párrafos y ni una palabra."},
+    {"text": "Så har den tidligere chef nok sagt alt, han ville sige.", "es": "Entonces el jefe anterior seguramente ha dicho todo lo que quería decir."},
+    {"text": "Det kunne vel også være, at han bare skriver dårlige referencer.", "es": "También podría ser, supongo, que simplemente escribe malas referencias."},
+    {"text": "Muligt. Men ingen glemmer tilfældigt at nævne, om en sælger kan sælge.", "es": "Es posible. Pero nadie olvida por casualidad mencionar si un vendedor sabe vender."},
+    {"text": "Skal jeg ringe til ham?", "es": "¿Le llamo?"},
+    {"text": "Ja, og stil et åbent spørgsmål. Tavshed på skrift holder sjældent i telefonen.", "es": "Sí, y hazle una pregunta abierta. El silencio por escrito rara vez aguanta al teléfono."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué deduce la compañera del silencio de la referencia sobre las ventas del candidato?",
+   "choices": ["Que el antiguo jefe no podía elogiar su rendimiento y prefirió callar", "Que el candidato ha mentido en su currículum", "Que el antiguo jefe olvidó incluir esa parte"]
+  },
+  "grammar": {
+   "focus": "Adverbios de inferencia: nok, vel, sikkert, formentlig",
+   "explain": "Para deducir con distintos grados de seguridad: «sikkert» (seguro, muy probable), «formentlig» (probablemente, registro culto), «nok» (seguramente, con cierta reserva), «vel» (supongo, y busca confirmación del interlocutor).",
+   "items": [
+    {"prompt": "Han har ___ sagt alt, han ville sige. (seguramente, con reserva)", "answer": "nok", "es": "Seguramente ha dicho todo lo que quería decir."},
+    {"prompt": "Det er ___ ikke tilfældigt, at arbejdet ikke nævnes? (supongo, busca confirmación)", "answer": "vel", "es": "Supongo que no es casualidad que no se mencione el trabajo, ¿no?"},
+    {"prompt": "Den tidligere chef har ___ haft sine grunde. (probablemente, registro culto)", "answer": "formentlig", "es": "Probablemente el antiguo jefe tuvo sus razones."}
+   ]
+  },
+  "vocab": [
+   {"text": "ikke et ord", "es": "ni una palabra", "example": "Om resultaterne står der ikke et ord.", "example_es": "Sobre los resultados no hay ni una palabra."},
+   {"text": "tier om", "es": "calla sobre", "example": "Brevet tier om det vigtigste.", "example_es": "La carta calla lo más importante."},
+   {"text": "en talende tavshed", "es": "un silencio elocuente", "example": "Det er en talende tavshed.", "example_es": "Es un silencio elocuente."},
+   {"text": "spørg ind til", "es": "indaga sobre, pregunta por", "example": "Spørg ind til hans resultater i det sidste år.", "example_es": "Pregunta por sus resultados del último año."}
+  ],
+  "transfer": {
+   "prompt": "Como responsable de selección, escribe un correo interno (6–8 frases) a la directora comercial: explica qué deduces de la omisión en la carta de referencia, qué no puedes concluir todavía y qué paso propones, sin acusar al candidato.",
+   "model": "Kære Hanne, jeg har læst referencen fra Martin Holms tidligere arbejdsgiver. Den er positiv i tonen og fremhæver hans punktlighed og omhu. Påfaldende nok nævner den dog intet om hans salgsresultater, som jo er kernen i stillingen. En erfaren chef udelader sjældent det centrale ved et tilfælde, så tavsheden tyder formentlig på, at resultaterne ikke var imponerende. Jeg vil dog understrege, at det er en tolkning og ikke en kendsgerning; der kan være andre forklaringer. Jeg foreslår derfor, at jeg ringer til referencen og spørger åbent ind til hans resultater. Indtil da vil jeg hverken anbefale at gå videre eller at afvise ham.",
+   "rubric": "Describe con precisión qué dice y qué omite el documento; formula la inferencia con adverbios de grado adecuados; distingue interpretación y hecho; propone un paso de verificación concreto; tono prudente y justo con el candidato."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una responsable de selección comenta con una compañera la carta de referencia de un candidato a vendedor: elogia su puntualidad y su letra, pero no dice nada de sus ventas.",
+   "lines": [
+    {"text": "D'Referenz luewt seng Pünktlechkeet a seng schéin Handschrëft.", "es": "La referencia elogia su puntualidad y su bonita letra."},
+    {"text": "An iwwer d'Aarbecht selwer?", "es": "¿Y sobre el trabajo en sí?"},
+    {"text": "Keen eenzegt Wuert. Dräi Paragrafen an net ee Wuert.", "es": "Ni una sola palabra. Tres párrafos y ni una palabra."},
+    {"text": "Da huet säin ale Chef wuel alles gesot, wat e soe wollt.", "es": "Entonces su antiguo jefe probablemente ha dicho todo lo que quería decir."},
+    {"text": "Et kéint jo och sinn, datt hien einfach schlecht Referenze schreift.", "es": "También podría ser que simplemente escriba malas referencias."},
+    {"text": "Méiglech. Mä kee vergësst zoufälleg ze soen, ob e Verkeefer verkafe kann.", "es": "Es posible. Pero nadie olvida por casualidad decir si un vendedor sabe vender."},
+    {"text": "Soll ech hien uruffen?", "es": "¿Le llamo?"},
+    {"text": "Jo, a stell eng oppe Fro. Wat schrëftlech feelt, kënnt um Telefon dacks eraus.", "es": "Sí, y hazle una pregunta abierta. Lo que falta por escrito suele salir al teléfono."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué deduce la compañera del silencio de la referencia sobre las ventas del candidato?",
+   "choices": ["Que el antiguo jefe no podía elogiar su rendimiento y prefirió callar", "Que el candidato ha mentido en su currículum", "Que el antiguo jefe olvidó incluir esa parte"]
+  },
+  "grammar": {
+   "focus": "Adverbios de inferencia: wuel, bestëmmt, sécher, vläicht",
+   "explain": "Para deducir con distintos grados de seguridad: «bestëmmt» y «sécher» (seguro), «wuel» (probablemente, supongo), «vläicht» (quizá). Ej.: Hien huet wuel seng Grënn gehat.",
+   "items": [
+    {"prompt": "Hien huet ___ alles gesot, wat e soe wollt. (probablemente, supongo)", "answer": "wuel", "es": "Probablemente ha dicho todo lo que quería decir."},
+    {"prompt": "Dat ass ___ kee Zoufall. (con toda seguridad; empieza por «b»)", "answer": "bestëmmt", "es": "Eso seguro que no es casualidad."},
+    {"prompt": "Et kéint ___ och eng aner Erklärung ginn. (quizá)", "answer": "vläicht", "es": "Quizá también podría haber otra explicación."}
+   ]
+  },
+  "vocab": [
+   {"text": "keen eenzegt Wuert", "es": "ni una sola palabra", "example": "Iwwer d'Resultater steet keen eenzegt Wuert.", "example_es": "Sobre los resultados no hay ni una sola palabra."},
+   {"text": "verschweigt", "es": "calla, omite", "example": "De Bréif verschweigt dat Wichtegst.", "example_es": "La carta calla lo más importante."},
+   {"text": "e Schweigen, dat vill seet", "es": "un silencio elocuente", "example": "Dat ass e Schweigen, dat vill seet.", "example_es": "Es un silencio elocuente."},
+   {"text": "nohaken", "es": "indagar, insistir con preguntas", "example": "Du solls bei de Resultater nohaken.", "example_es": "Deberías indagar en los resultados."}
+  ],
+  "transfer": {
+   "prompt": "Como responsable de selección, escribe un correo interno (6–8 frases) a la directora comercial: explica qué deduces de la omisión en la carta de referencia, qué no puedes concluir todavía y qué paso propones, sin acusar al candidato.",
+   "model": "Léif Hanne, ech hunn d'Referenz vum fréiere Patron vum Martin Holm gelies. Se ass positiv am Toun a stellt seng Pünktlechkeet a seng Suergfalt ervir. Opfälleg ass awer, datt se näischt iwwer seng Verkafsresultater seet, déi jo de Kär vum Posten sinn. En erfuerene Chef léisst dat Zentralt seele per Zoufall ewech, dofir weist dat Schweigen wuel dorop hin, datt d'Resultater net beandrockend waren. Ech wëll awer betounen, datt dat eng Interpretatioun ass a kee Fakt; et kéint och aner Erklärunge ginn. Ech proposéieren dofir, de Patron unzeruffen an oppe bei senge Resultater nozehaken. Bis dohin géif ech weder recommandéieren, weiderzegoen, nach hien ofzeleenen.",
+   "rubric": "Describe con precisión qué dice y qué omite el documento; formula la inferencia con adverbios de grado adecuados («wuel», «bestëmmt»); distingue interpretación y hecho; propone un paso de verificación concreto; tono prudente y justo con el candidato."
+  }
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "week": 140,
+ "da": {
+  "dialogue2": {
+   "context": "En una reunión de calidad, un jefe de almacén culpa a la empresa de mensajería de los retrasos recurrentes; una analista le hace preguntar «por qué» hasta llegar a la raíz.",
+   "lines": [
+    {
+     "text": "Forsinkelserne skyldes fragtfirmaet; de henter simpelthen for sent.",
+     "es": "Los retrasos se deben a la empresa de transporte; simplemente recogen demasiado tarde."
+    },
+    {
+     "text": "Hvorfor henter de for sent? Kommer de senere end aftalt?",
+     "es": "¿Por qué recogen tarde? ¿Llegan más tarde de lo acordado?"
+    },
+    {
+     "text": "Nej, faktisk kommer de til tiden, men pakkerne er ikke klar, når de ankommer.",
+     "es": "No, de hecho llegan puntuales, pero los paquetes no están listos cuando llegan."
+    },
+    {
+     "text": "Og hvorfor er pakkerne ikke klar?",
+     "es": "¿Y por qué no están listos los paquetes?"
+    },
+    {
+     "text": "Fordi ordrerne fra webshoppen først bliver sendt til lageret om eftermiddagen.",
+     "es": "Porque los pedidos de la tienda online no se envían al almacén hasta la tarde."
+    },
+    {
+     "text": "Så årsagen ligger altså ikke hos fragtfirmaet, men i vores eget system, idet ordrerne samles i én stor portion.",
+     "es": "Entonces la causa no está en la empresa de transporte, sino en nuestro propio sistema, dado que los pedidos se agrupan en un solo bloque."
+    },
+    {
+     "text": "Det har du ret i; hvis de i stedet blev overført løbende, kunne vi pakke hele dagen.",
+     "es": "Tienes razón; si en cambio se transfirieran de forma continua, podríamos empaquetar durante todo el día."
+    },
+    {
+     "text": "Derfor foreslår jeg, at vi tester løbende overførsel i to uger og måler effekten.",
+     "es": "Por eso propongo que probemos la transferencia continua durante dos semanas y midamos el efecto."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué técnica usa la analista y qué revela?",
+   "choices": [
+    "Pregunta «por qué» varias veces y descubre que la causa está en el sistema interno de pedidos",
+    "Compara transportistas y descubre que esta empresa es la más lenta del mercado",
+    "Analiza las quejas y descubre que los clientes indican direcciones erróneas"
+   ]
+  },
+  "grammar": {
+   "focus": "Conectores causales y consecutivos: fordi, idet, derfor",
+   "explain": "«Fordi» da la causa directa en registro neutro; «idet» explica una causa en registro formal (dado que); «eftersom» presenta una causa ya conocida. «Derfor» introduce la consecuencia y provoca inversión: Derfor foreslår jeg …",
+   "items": [
+    {
+     "prompt": "Pakkerne er ikke klar, ___ ordrerne først overføres om eftermiddagen. (causa directa, registro neutro)",
+     "answer": "fordi",
+     "es": "Los paquetes no están listos porque los pedidos no se transfieren hasta la tarde."
+    },
+    {
+     "prompt": "Årsagen ligger i systemet, ___ ordrerne samles i én stor portion. (causa explicativa, registro formal)",
+     "answer": "idet",
+     "es": "La causa está en el sistema, dado que los pedidos se agrupan en un solo bloque."
+    },
+    {
+     "prompt": "Fragtfirmaet kommer til tiden; ___ må problemet ligge hos os selv. (consecuencia con inversión, empieza por d-)",
+     "answer": "derfor",
+     "es": "La empresa de transporte llega puntual; por eso el problema tiene que estar en nosotros mismos."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "skyldes",
+    "es": "se debe a",
+    "example": "Forsinkelserne skyldes ikke fragtfirmaet.",
+    "example_es": "Los retrasos no se deben a la empresa de transporte."
+   },
+   {
+    "text": "løbende",
+    "es": "de forma continua",
+    "example": "Ordrerne bør overføres løbende i stedet for én gang om dagen.",
+    "example_es": "Los pedidos deberían transferirse de forma continua en lugar de una vez al día."
+   },
+   {
+    "text": "måler effekten",
+    "es": "medimos el efecto",
+    "example": "Vi tester i to uger og måler effekten bagefter.",
+    "example_es": "Probamos durante dos semanas y después medimos el efecto."
+   },
+   {
+    "text": "ligger hos",
+    "es": "está en, recae en",
+    "example": "Ansvaret ligger hos os selv, ikke hos fragtfirmaet.",
+    "example_es": "La responsabilidad recae en nosotros mismos, no en la empresa de transporte."
+   }
+  ],
+  "transfer": {
+   "prompt": "Redacta un análisis de causa raíz (5–7 frases) para la dirección: describe el síntoma, descarta la causa aparente, explica la cadena causal y propone una medida con un indicador de éxito.",
+   "model": "I de seneste tre måneder er 18 procent af vores pakker blevet leveret for sent. Umiddelbart lå det lige for at give fragtfirmaet skylden, men deres afhentninger sker faktisk på det aftalte tidspunkt. Forsinkelserne skyldes derimod, at pakkerne ikke er klar ved afhentning, fordi webshoppens ordrer først overføres til lageret kl. 14. Eftersom alle ordrer ankommer på én gang, opstår der en flaskehals ved pakkebordene. Vi foreslår derfor at overføre ordrerne løbende og teste løsningen i to uger. Målet er at bringe andelen af forsinkede pakker under fem procent.",
+   "rubric": "Distingue explícitamente síntoma, causa aparente y causa raíz; encadena la explicación con al menos tres conectores causales o consecutivos (fordi, eftersom, idet, derfor); propone una sola medida concreta; define un indicador de éxito medible."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En una reunión de calidad, un jefe de almacén culpa a la empresa de transporte de los retrasos recurrentes; una analista le hace preguntar «por qué» hasta llegar a la raíz.",
+   "lines": [
+    {
+     "text": "D'Retarde kommen duerch d'Transportfirma; si huelen d'Päck einfach ze spéit of.",
+     "es": "Los retrasos vienen de la empresa de transporte; simplemente recogen los paquetes demasiado tarde."
+    },
+    {
+     "text": "Firwat huele si se ze spéit of? Komme si méi spéit wéi ofgemaach?",
+     "es": "¿Por qué los recogen tarde? ¿Llegan más tarde de lo acordado?"
+    },
+    {
+     "text": "Neen, eigentlech kommen se pünktlech, mä d'Päck sinn net prett, wa se ukommen.",
+     "es": "No, en realidad llegan puntuales, pero los paquetes no están listos cuando llegan."
+    },
+    {
+     "text": "A firwat sinn d'Päck net prett?",
+     "es": "¿Y por qué no están listos los paquetes?"
+    },
+    {
+     "text": "Well d'Bestellunge vum Webshop eréischt mëttes un d'Lager weidergeleet ginn.",
+     "es": "Porque los pedidos de la tienda online no se pasan al almacén hasta el mediodía."
+    },
+    {
+     "text": "Also läit d'Ursaach net bei der Transportfirma, mä an eisem eegene System, doduerch datt d'Bestellungen an engem eenzege Block gesammelt ginn.",
+     "es": "Entonces la causa no está en la empresa de transporte, sino en nuestro propio sistema, por el hecho de que los pedidos se agrupan en un solo bloque."
+    },
+    {
+     "text": "Do hues du Recht; wa se amplaz kontinuéierlech iwwerdroe géifen, kéinte mir de ganzen Dag paken.",
+     "es": "Tienes razón; si en cambio se transfirieran de forma continua, podríamos empaquetar todo el día."
+    },
+    {
+     "text": "Dofir proposéieren ech, datt mir dat zwou Woche laang testen an d'Wierkung moossen.",
+     "es": "Por eso propongo que lo probemos durante dos semanas y midamos el efecto."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué técnica usa la analista y qué revela?",
+   "choices": [
+    "Pregunta «por qué» varias veces y descubre que la causa está en el sistema interno de pedidos",
+    "Compara transportistas y descubre que esta empresa es la más lenta del mercado",
+    "Analiza las quejas y descubre que los clientes indican direcciones erróneas"
+   ]
+  },
+  "grammar": {
+   "focus": "Conectores causales y consecutivos: well, doduerch datt, dofir",
+   "explain": "«Well» da la causa directa (verbo al final); «doduerch datt» explica el mecanismo (por el hecho de que); «dofir» y «also» introducen la consecuencia con el verbo en segunda posición: Dofir proposéieren ech …",
+   "items": [
+    {
+     "prompt": "D'Päck sinn net prett, ___ d'Bestellungen eréischt mëttes ukommen. (causa directa)",
+     "answer": "well",
+     "es": "Los paquetes no están listos porque los pedidos no llegan hasta el mediodía."
+    },
+    {
+     "prompt": "Et entsteet e Stau, ___ datt all d'Bestellungen op eemol ukommen. (mecanismo: «por el hecho de que»)",
+     "answer": "doduerch",
+     "es": "Se forma un atasco por el hecho de que todos los pedidos llegan a la vez."
+    },
+    {
+     "prompt": "D'Transportfirma kënnt pünktlech; ___ muss de Problem bei eis leien. (consecuencia, empieza por d-)",
+     "answer": "dofir",
+     "es": "La empresa de transporte llega puntual; por eso el problema tiene que estar en nosotros."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "doduerch",
+    "es": "por el hecho de (doduerch, datt …)",
+    "example": "D'Retarde entstinn doduerch, datt alles op eemol ukënnt.",
+    "example_es": "Los retrasos surgen por el hecho de que todo llega a la vez."
+   },
+   {
+    "text": "kontinuéierlech",
+    "es": "de forma continua",
+    "example": "D'Bestellunge solle kontinuéierlech iwwerdroe ginn.",
+    "example_es": "Los pedidos deberían transferirse de forma continua."
+   },
+   {
+    "text": "d'Wierkung moossen",
+    "es": "medir el efecto",
+    "example": "No zwou Woche wëlle mir d'Wierkung moossen.",
+    "example_es": "Al cabo de dos semanas queremos medir el efecto."
+   },
+   {
+    "text": "läit bei",
+    "es": "está en, recae en",
+    "example": "D'Verantwortung läit bei eis, net bei der Transportfirma.",
+    "example_es": "La responsabilidad recae en nosotros, no en la empresa de transporte."
+   }
+  ],
+  "transfer": {
+   "prompt": "Redacta un análisis de causa raíz (5–7 frases) para la dirección: describe el síntoma, descarta la causa aparente, explica la cadena causal y propone una medida con un indicador de éxito.",
+   "model": "An de leschten dräi Méint sinn 18 Prozent vun eise Päck ze spéit geliwwert ginn. Op den éischte Bléck louch et no, der Transportfirma d'Schold ze ginn, mä si hëlt d'Päck tatsächlech zur ofgemaachter Zäit of. D'Retarde entstinn dogéint doduerch, datt d'Päck beim Ofhuelen net prett sinn, well d'Bestellunge vum Webshop eréischt um 14 Auer un d'Lager iwwerdroe ginn. Well all d'Bestellungen op eemol ukommen, entsteet e Stau bei de Pakdëscher. Dofir proposéiere mir, d'Bestellunge kontinuéierlech z'iwwerdroen an dës Léisung zwou Woche laang ze testen. D'Zil ass, den Undeel vu verspéite Päck ënner fënnef Prozent ze drécken.",
+   "rubric": "Distingue explícitamente síntoma, causa aparente y causa raíz; encadena la explicación con al menos tres conectores causales o consecutivos (well, doduerch datt, dofir); propone una sola medida concreta; define un indicador de éxito medible."
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "week": 104,
+ "da": {
+  "dialogue2": {
+   "context": "Una jefa tiene que decirle a un empleado que su ascenso no llegará este año; él se decepciona y ella le ofrece una alternativa concreta.",
+   "lines": [
+    {"text": "Tak, fordi du kom. Jeg har desværre ikke de nyheder, du håbede på.", "es": "Gracias por venir. Por desgracia no tengo las noticias que esperabas."},
+    {"text": "Det handler om forfremmelsen, ikke?", "es": "Es por el ascenso, ¿verdad?"},
+    {"text": "Ja. Ledelsen har frosset alle forfremmelser indtil næste regnskabsår.", "es": "Sí. La dirección ha congelado todos los ascensos hasta el próximo ejercicio."},
+    {"text": "Det er en skuffelse. Jeg har ellers påtaget mig mange ekstra opgaver i år.", "es": "Es una decepción. Y eso que este año he asumido muchas tareas extra."},
+    {"text": "Det ved jeg, og det er bestemt blevet bemærket. Derfor vil jeg gerne foreslå noget andet.", "es": "Lo sé, y desde luego se ha notado. Por eso quiero proponerte otra cosa."},
+    {"text": "Hvad tænker du på?", "es": "¿En qué piensas?"},
+    {"text": "Fra januar kan du lede kundeprojektet i Malmø, og i juni tager vi forfremmelsen op igen.", "es": "Desde enero puedes dirigir el proyecto del cliente en Malmö, y en junio volvemos a hablar del ascenso."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué le ofrece la jefa al empleado para compensar la mala noticia?",
+   "choices": ["Dirigir un proyecto y volver a hablar del ascenso en junio", "Una subida de sueldo inmediata en lugar del ascenso", "Menos tareas extra a partir de enero"]
+  },
+  "grammar": {
+   "focus": "Inversión (V2) tras un adverbio inicial",
+   "explain": "En la oración principal el verbo conjugado ocupa siempre el segundo lugar. Si la frase empieza por un adverbio o complemento (desværre, derfor, fra januar), el sujeto va detrás del verbo: «Desværre kan vi ikke …», «Derfor vil jeg foreslå …».",
+   "items": [
+    {"prompt": "Desværre ___ ikke nå frem før jul. (leveringen + kan, en el orden correcto)", "answer": "kan leveringen", "es": "Por desgracia, la entrega no llegará antes de Navidad."},
+    {"prompt": "Fra januar ___ projektet i Malmø. (du + leder, en el orden correcto)", "answer": "leder du", "es": "Desde enero diriges el proyecto de Malmö."},
+    {"prompt": "Derfor ___ gerne foreslå en anden løsning. (jeg + vil, en el orden correcto)", "answer": "vil jeg", "es": "Por eso me gustaría proponer otra solución."}
+   ]
+  },
+  "vocab": [
+   {"text": "forfremmelsen", "es": "el ascenso", "example": "Forfremmelsen bliver udskudt til næste år.", "example_es": "El ascenso se aplaza al año que viene."},
+   {"text": "frosset", "es": "congelado", "example": "Alle ansættelser er frosset indtil videre.", "example_es": "Todas las contrataciones están congeladas hasta nuevo aviso."},
+   {"text": "en skuffelse", "es": "una decepción", "example": "Det er en skuffelse, men jeg forstår det.", "example_es": "Es una decepción, pero lo entiendo."},
+   {"text": "bemærket", "es": "notado, visto", "example": "Din indsats er blevet bemærket.", "example_es": "Tu esfuerzo no ha pasado desapercibido."}
+  ],
+  "transfer": {
+   "prompt": "Organizas un curso de fin de semana y el profesor invitado lo ha cancelado. Escribe un correo a los 15 inscritos (4–6 frases, formal y empático): da la noticia, explica brevemente el motivo, ofrece una alternativa y la opción de reembolso.",
+   "model": "Kære deltagere. Desværre må jeg meddele, at underviseren har måttet aflyse weekendens kursus på grund af sygdom i familien. Jeg ved, at mange af jer har glædet jer, og det er jeg virkelig ked af. Derfor har vi fundet en ny dato, lørdag den 18. januar, med samme underviser og samme program. Hvis datoen ikke passer jer, får I naturligvis hele beløbet refunderet. Svar venligst inden fredag, hvad I foretrækker. Med venlig hilsen, Anna Holm.",
+   "rubric": "Da la noticia al principio con «desværre», muestra empatía, ofrece una alternativa y un reembolso, y aplica la inversión tras al menos dos adverbios iniciales."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una jefa tiene que decirle a un empleado que su ascenso no llegará este año; él se decepciona y ella le ofrece una alternativa concreta.",
+   "lines": [
+    {"text": "Merci, datt s du komm bass. Leider hunn ech net déi Neiegkeeten, op déi s du gehofft hues.", "es": "Gracias por venir. Por desgracia no tengo las noticias que esperabas."},
+    {"text": "Et geet ëm d'Promotioun, oder?", "es": "Es por el ascenso, ¿verdad?"},
+    {"text": "Jo. D'Direktioun huet all Promotioune bis zum nächste Geschäftsjoer agefruer.", "es": "Sí. La dirección ha congelado todos los ascensos hasta el próximo ejercicio."},
+    {"text": "Dat ass eng Enttäuschung. Ech hunn dëst Joer dach esou vill Extra-Aufgaben iwwerholl.", "es": "Es una decepción. Y eso que este año he asumido muchísimas tareas extra."},
+    {"text": "Dat weess ech, an et ass definitiv opgefall. Dofir wéilt ech der eppes anescht virschloen.", "es": "Lo sé, y desde luego se ha notado. Por eso quisiera proponerte otra cosa."},
+    {"text": "Un wat denks du?", "es": "¿En qué piensas?"},
+    {"text": "Vum Januar un kanns du de Clientsprojet zu Malmö leeden, an am Juni schwätze mir nees iwwer d'Promotioun.", "es": "Desde enero puedes dirigir el proyecto del cliente en Malmö, y en junio volvemos a hablar del ascenso."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué le ofrece la jefa al empleado para compensar la mala noticia?",
+   "choices": ["Dirigir un proyecto y volver a hablar del ascenso en junio", "Una subida de sueldo inmediata en lugar del ascenso", "Menos tareas extra a partir de enero"]
+  },
+  "grammar": {
+   "focus": "Inversión (V2) tras un adverbio inicial",
+   "explain": "En la oración principal el verbo conjugado va siempre en segundo lugar. Si la frase empieza por un adverbio o complemento (leider, dofir, vum Januar un), el sujeto va detrás del verbo: «Leider kënne mir net …», «Dofir wéilt ech …».",
+   "items": [
+    {"prompt": "Leider ___ net virun Chrëschtdag ukommen. (d'Liwwerung + kann, en el orden correcto)", "answer": "kann d'Liwwerung", "es": "Por desgracia, la entrega no llegará antes de Navidad."},
+    {"prompt": "Vum Januar un ___ de Projet zu Malmö. (du + leeds, en el orden correcto)", "answer": "leeds du", "es": "Desde enero diriges el proyecto de Malmö."},
+    {"prompt": "Dofir ___ gär eng aner Léisung virschloen. (ech + géif, en el orden correcto)", "answer": "géif ech", "es": "Por eso me gustaría proponer otra solución."}
+   ]
+  },
+  "vocab": [
+   {"text": "Promotioun", "es": "ascenso", "example": "D'Promotioun gëtt op d'nächst Joer verréckelt.", "example_es": "El ascenso se aplaza al año que viene."},
+   {"text": "agefruer", "es": "congelado", "example": "All Astellunge sinn de Moment agefruer.", "example_es": "Todas las contrataciones están congeladas por ahora."},
+   {"text": "eng Enttäuschung", "es": "una decepción", "example": "Dat ass eng Enttäuschung, mee ech verstinn et.", "example_es": "Es una decepción, pero lo entiendo."},
+   {"text": "opgefall", "es": "notado, llamado la atención", "example": "Däin Asaz ass der Direktioun opgefall.", "example_es": "La dirección se ha fijado en tu esfuerzo."}
+  ],
+  "transfer": {
+   "prompt": "Organizas un curso de fin de semana y el profesor invitado lo ha cancelado. Escribe un correo a los 15 inscritos (4–6 frases, formal y empático): da la noticia, explica brevemente el motivo, ofrece una alternativa y la opción de reembolso.",
+   "model": "Léif Participanten, leider muss ech Iech matdeelen, datt den Enseignant de Cours vum Weekend wéinst enger Krankheet an der Famill huet missen ofsoen. Ech weess, datt vill vun Iech sech drop gefreet hunn, an dat deet mir wierklech leed. Dofir hu mir en neien Datum fonnt, de Samschdeg 18. Januar, mam selwechten Enseignant a mam selwechte Programm. Wann Iech den Datum net passt, kritt Dir natierlech de ganze Betrag zeréckbezuelt. Sot mir w.e.g. bis e Freideg Bescheed, wat Dir léiwer hätt. Mat beschte Gréiss, Anna Holm.",
+   "rubric": "Da la noticia al principio con «leider», muestra empatía, ofrece una alternativa y un reembolso, y aplica la inversión tras al menos dos adverbios iniciales."
+  }
+ }
+}

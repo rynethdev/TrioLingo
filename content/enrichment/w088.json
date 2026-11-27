@@ -1,0 +1,79 @@
+{
+ "week": 88,
+ "da": {
+  "dialogue2": {
+   "context": "Por teléfono, una empleada nueva recibe de su jefe un encargo vago para una visita y pide precisiones antes de ponerse a ello.",
+   "lines": [
+    {"text": "Kan du gøre mødelokalet klar til besøget i morgen?", "es": "¿Puedes preparar la sala de reuniones para la visita de mañana?"},
+    {"text": "Selvfølgelig. Må jeg spørge, hvor mange gæster vi forventer?", "es": "Claro. ¿Puedo preguntar cuántos invitados esperamos?"},
+    {"text": "Omkring otte, tror jeg. Måske ti.", "es": "Unos ocho, creo. Quizá diez."},
+    {"text": "Og ved du, om de skal have frokost, eller om det kun er kaffe?", "es": "¿Y sabes si van a comer o si solo será café?"},
+    {"text": "Godt spørgsmål. Det har jeg faktisk ikke tænkt over.", "es": "Buena pregunta. La verdad es que no lo había pensado."},
+    {"text": "Så bestiller jeg sandwich til ti, som vi kan afbestille inden klokken ni.", "es": "Entonces pido bocadillos para diez, que podemos cancelar antes de las nueve."},
+    {"text": "Fint, og jeg bekræfter antallet i aften.", "es": "Bien, y yo confirmo el número esta noche."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo resuelve la empleada la falta de información?",
+   "choices": ["Encarga comida para el máximo de personas y deja la opción de cancelar", "Espera a que el jefe confirme antes de hacer nada", "Prepara solo café porque no sabe cuántos vienen"]
+  },
+  "grammar": {
+   "focus": "Preguntas indirectas con «om» y pronombres interrogativos",
+   "explain": "Las preguntas indirectas llevan orden de subordinada: «Ved du, om de kommer?», «Må jeg spørge, hvor mange der kommer?». Si no hay interrogativo se usa «om» (si); si el interrogativo funciona como sujeto, se añade «der».",
+   "items": [
+    {"prompt": "Ved du, ___ mødet er blevet flyttet til torsdag? (si)", "answer": "om", "es": "¿Sabes si la reunión se ha cambiado al jueves?"},
+    {"prompt": "Må jeg spørge, hvor mange gæster ___ kommer? (marca de sujeto)", "answer": "der", "es": "¿Puedo preguntar cuántos invitados vienen?"},
+    {"prompt": "Kan du sige mig, ___ jeg skal sende filen til? (a quién)", "answer": "hvem", "es": "¿Puedes decirme a quién tengo que mandar el archivo?"}
+   ]
+  },
+  "vocab": [
+   {"text": "tænkt over", "es": "pensado en (algo)", "example": "Det har jeg ikke tænkt over.", "example_es": "No lo había pensado."},
+   {"text": "afbestille", "es": "cancelar (un pedido o una reserva)", "example": "Vi kan afbestille maden inden klokken ni.", "example_es": "Podemos cancelar la comida antes de las nueve."},
+   {"text": "bekræfte", "es": "confirmar", "example": "Kan du bekræfte antallet i aften?", "example_es": "¿Puedes confirmar el número esta noche?"},
+   {"text": "for en sikkerheds skyld", "es": "por si acaso", "example": "Jeg spørger lige for en sikkerheds skyld.", "example_es": "Pregunto por si acaso."}
+  ],
+  "transfer": {
+   "prompt": "Tu casero te escribe: «Pasaré la semana que viene para revisar algo en el piso». Respóndele por correo (4–5 frases, registro cortés) pidiendo las precisiones necesarias con preguntas indirectas.",
+   "model": "Hej Henrik, tak for beskeden. Må jeg spørge, hvilken dag og omtrent hvornår du regner med at komme? Jeg vil også gerne vide, om det drejer sig om varmen eller noget andet, så jeg kan forberede mig. Hvis jeg ikke selv er hjemme, kan jeg give nøglen til naboen. Lad mig vide, om det passer dig. Venlig hilsen, Laura.",
+   "rubric": "Agradece, formula al menos dos preguntas indirectas (una con «om» y otra con un interrogativo) con orden de subordinada y ofrece una solución práctica."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Por teléfono, una empleada nueva recibe de su jefe un encargo vago para una visita y pide precisiones antes de ponerse a ello.",
+   "lines": [
+    {"text": "Kanns du muer de Sëtzungssall fir de Besuch preparéieren?", "es": "¿Puedes preparar mañana la sala de reuniones para la visita?"},
+    {"text": "Natierlech. Dierft ech froen, wéi vill Gäscht mir erwaarden?", "es": "Claro. ¿Puedo preguntar cuántos invitados esperamos?"},
+    {"text": "Ongeféier aacht, mengen ech. Vläicht zéng.", "es": "Unos ocho, creo. Quizá diez."},
+    {"text": "A weess du, ob si Mëttegiesse kréien oder just Kaffi?", "es": "¿Y sabes si van a comer o solo tomarán café?"},
+    {"text": "Gutt Fro. Doriwwer hunn ech éierlech gesot nach net nogeduecht.", "es": "Buena pregunta. La verdad es que todavía no lo había pensado."},
+    {"text": "Da bestellen ech Schmiere fir zéng, déi mir bis néng Auer ofbestelle kënnen.", "es": "Entonces pido bocadillos para diez, que podemos cancelar hasta las nueve."},
+    {"text": "Gutt, an ech confirméieren d'Zuel haut den Owend.", "es": "Bien, y yo confirmo el número esta noche."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo resuelve la empleada la falta de información?",
+   "choices": ["Encarga comida para el máximo de personas y deja la opción de cancelar", "Espera a que el jefe confirme antes de hacer nada", "Prepara solo café porque no sabe cuántos vienen"]
+  },
+  "grammar": {
+   "focus": "Preguntas indirectas con «ob» y pronombres interrogativos",
+   "explain": "En la pregunta indirecta el verbo conjugado va al final: «Weess du, ob si kommen?», «Dierft ech froen, wéi vill Leit kommen?». Si no hay interrogativo se usa «ob» (si).",
+   "items": [
+    {"prompt": "Weess du, ___ d'Reunioun op en Donneschdeg verluecht gouf? (si)", "answer": "ob", "es": "¿Sabes si la reunión se ha pasado al jueves?"},
+    {"prompt": "Dierft ech froen, wéi vill Leit muer ___? (kommen, al final)", "answer": "kommen", "es": "¿Puedo preguntar cuánta gente viene mañana?"},
+    {"prompt": "Kanns du mir soen, ___ ech de Fichier schécke soll? (a quién)", "answer": "wiem", "es": "¿Puedes decirme a quién tengo que mandar el archivo?"}
+   ]
+  },
+  "vocab": [
+   {"text": "nogeduecht", "es": "pensado (en algo)", "example": "Doriwwer hunn ech nach net nogeduecht.", "example_es": "Todavía no lo había pensado."},
+   {"text": "ofbestellen", "es": "cancelar (un pedido o una reserva)", "example": "Mir kënnen d'Iessen nach bis néng Auer ofbestellen.", "example_es": "Todavía podemos cancelar la comida hasta las nueve."},
+   {"text": "confirméieren", "es": "confirmar", "example": "Kanns du d'Zuel haut den Owend confirméieren?", "example_es": "¿Puedes confirmar el número esta noche?"},
+   {"text": "sécher ass sécher", "es": "más vale prevenir", "example": "Ech froen nach eng Kéier no, sécher ass sécher.", "example_es": "Vuelvo a preguntar; más vale prevenir."}
+  ],
+  "transfer": {
+   "prompt": "Tu casero te escribe: «Pasaré la semana que viene para revisar algo en el piso». Respóndele por correo (4–5 frases, registro cortés) pidiendo las precisiones necesarias con preguntas indirectas.",
+   "model": "Moien Här Hoffmann, merci fir Äre Message. Dierft ech froen, wéi en Dag an ongeféier um wéi vill Auer Dir kommt? Ech géif och gär wëssen, ob et ëm d'Heizung oder ëm eppes anescht geet, fir datt ech mech virbereede kann. Wann ech selwer net doheem sinn, kann ech dem Noper de Schlëssel ginn. Sot mir w.e.g. Bescheed, ob Iech dat passt. Mat beschte Gréiss, Laura.",
+   "rubric": "Agradece, formula al menos dos preguntas indirectas (una con «ob» y otra con un interrogativo) con el verbo al final y ofrece una solución práctica."
+  }
+ }
+}

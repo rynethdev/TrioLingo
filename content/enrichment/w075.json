@@ -1,0 +1,77 @@
+{
+ "week": 75,
+ "da": {
+  "dialogue2": {
+   "context": "Una amiga piensa mudarse a tu barrio y te pregunta por teléfono cómo es vivir allí.",
+   "lines": [
+    {"text": "Jeg overvejer en lejlighed i dit kvarter. Hvordan er der?", "es": "Estoy pensando en un piso en tu barrio. ¿Cómo es?"},
+    {"text": "Der er mange små butikker og et hyggeligt torv.", "es": "Hay muchas tiendas pequeñas y una plaza muy agradable."},
+    {"text": "Lyder godt. Hvad med larm om aftenen?", "es": "Suena bien. ¿Y el ruido por la noche?"},
+    {"text": "Fredag og lørdag er der lidt larm fra barerne.", "es": "Viernes y sábado hay algo de jaleo de los bares."},
+    {"text": "Det gør ikke noget. Er der gode forbindelser?", "es": "No importa. ¿Está bien comunicado?"},
+    {"text": "Ja, metroen er fem minutter væk, men parkering er et mareridt.", "es": "Sí, el metro está a cinco minutos, pero aparcar es una pesadilla."}
+   ]
+  },
+  "listening2": {
+   "prompt": "Según la descripción, ¿para quién sería menos práctico este barrio?",
+   "choices": ["Para alguien que va a todas partes en coche", "Para alguien que usa el metro a diario", "Para alguien a quien le gusta comprar en tiendas pequeñas"]
+  },
+  "grammar": {
+   "focus": "Concordancia del adjetivo",
+   "explain": "El adjetivo añade -t con palabras «et» en singular indefinido (et hyggeligt torv) y -e en plural o tras artículo definido (små butikker, den gamle kirke). «Lille» no cambia en singular: den lille park.",
+   "items": [
+    {"prompt": "Vi har et ___ bibliotek tæt på. (stor)", "answer": "stort", "es": "Tenemos una biblioteca grande cerca."},
+    {"prompt": "Der er mange ___ caféer på gaden. (billig)", "answer": "billige", "es": "En la calle hay muchas cafeterías baratas."},
+    {"prompt": "Den ___ park ved søen er min favorit. (lille)", "answer": "lille", "es": "El parquecito junto al lago es mi favorito."}
+   ]
+  },
+  "vocab": [
+   {"text": "overvejer", "es": "estoy pensando en, me planteo", "example": "Jeg overvejer en lejlighed i dit kvarter.", "example_es": "Me estoy planteando un piso en tu barrio."},
+   {"text": "et hyggeligt torv", "es": "una plaza agradable", "example": "Midt i kvarteret er der et hyggeligt torv.", "example_es": "En el centro del barrio hay una plaza agradable."},
+   {"text": "larm", "es": "ruido, jaleo", "example": "Der er lidt larm fra barerne i weekenden.", "example_es": "El fin de semana hay algo de jaleo de los bares."},
+   {"text": "et mareridt", "es": "una pesadilla", "example": "Parkering er et mareridt her.", "example_es": "Aparcar aquí es una pesadilla."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un mensaje a un compañero de trabajo que va a visitar tu ciudad: describe tu barrio con dos o tres cosas buenas y una que falta, y recomiéndale un sitio (4 frases).",
+   "model": "Mit kvarter ligger tæt på centrum, men det er stille om aftenen. Der er et stort marked om lørdagen og mange billige restauranter. Det eneste, der mangler, er en ordentlig svømmehal. Du skal prøve den lille tapasbar ved kirken!",
+   "rubric": "Usa al menos tres adjetivos con la concordancia correcta (-t, -e), menciona algo que falta y haz una recomendación."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una amiga piensa mudarse a tu barrio y te pregunta por teléfono cómo es vivir allí.",
+   "lines": [
+    {"text": "Ech iwwerleeën, eng Wunneng an dengem Quartier ze huelen. Wéi ass et do?", "es": "Estoy pensando en coger un piso en tu barrio. ¿Cómo es?"},
+    {"text": "Et gëtt vill kleng Geschäfter an eng flott Place.", "es": "Hay muchas tiendas pequeñas y una plaza bonita."},
+    {"text": "Kléngt gutt. A wéi ass et owes mam Kaméidi?", "es": "Suena bien. ¿Y qué tal el ruido por la noche?"},
+    {"text": "Freides a samschdes ass et e bëssen haart wéinst de Bistroen.", "es": "Viernes y sábado hay algo de jaleo por los bares."},
+    {"text": "Dat mécht näischt. Gëtt et gutt Verbindungen?", "es": "No importa. ¿Está bien comunicado?"},
+    {"text": "Jo, den Tram ass fënnef Minutten ewech, mee et gëtt kaum Parkplazen.", "es": "Sí, el tranvía está a cinco minutos, pero casi no hay sitio para aparcar."}
+   ]
+  },
+  "listening2": {
+   "prompt": "Según la descripción, ¿para quién sería menos práctico este barrio?",
+   "choices": ["Para alguien que va a todas partes en coche", "Para alguien que usa el tranvía a diario", "Para alguien a quien le gusta comprar en tiendas pequeñas"]
+  },
+  "grammar": {
+   "focus": "«Et gëtt» + acusativo y la negación con «kee/keng»",
+   "explain": "Para decir qué hay se usa «et gëtt» + acusativo: Et gëtt e Park, eng Bäckerei, vill Geschäfter. La negación es «keen/kee» (masculino y neutro) o «keng» (femenino y plural): Et gëtt kee Kino, et gëtt keng Parkplazen.",
+   "items": [
+    {"prompt": "An eiser Strooss gëtt et ___ Apdikt. (ninguna, femenino)", "answer": "keng", "es": "En nuestra calle no hay farmacia."},
+    {"prompt": "Leider gëtt et ___ Kino am Quartier. (ninguno, masculino)", "answer": "kee", "es": "Por desgracia, en el barrio no hay cine."},
+    {"prompt": "Et ___ vill Bistroen ronderëm d'Place. (ginn)", "answer": "gëtt", "es": "Hay muchos bares alrededor de la plaza."}
+   ]
+  },
+  "vocab": [
+   {"text": "iwwerleeën", "es": "pensarse, plantearse", "example": "Ech iwwerleeën, an däi Quartier ze plënneren.", "example_es": "Me estoy planteando mudarme a tu barrio."},
+   {"text": "Kaméidi", "es": "ruido, jaleo", "example": "Am Weekend ass et e bësse Kaméidi.", "example_es": "El fin de semana hay algo de jaleo."},
+   {"text": "kaum Parkplazen", "es": "casi no hay aparcamiento", "example": "Bei eis gëtt et kaum Parkplazen.", "example_es": "En nuestra zona casi no hay sitio para aparcar."},
+   {"text": "eng flott Place", "es": "una plaza bonita", "example": "Mëtten am Quartier ass eng flott Place.", "example_es": "En el centro del barrio hay una plaza bonita."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un mensaje a un compañero de trabajo que va a visitar tu ciudad: describe tu barrio con dos o tres cosas buenas y una que falta, y recomiéndale un sitio (4 frases).",
+   "model": "Mäi Quartier ass no beim Zentrum, mee owes ass et ganz stëll. Samschdes gëtt et e grousse Maart, an et gëtt vill bëlleg Restauranten. Dat Eenzegt, wat feelt, ass eng gutt Schwämm. Du muss déi kleng Tapas-Bar bei der Kierch probéieren!",
+   "rubric": "Usa «et gëtt» y al menos una negación con «kee/keng» o algo que falta, y haz una recomendación."
+  }
+ }
+}

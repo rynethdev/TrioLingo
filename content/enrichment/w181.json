@@ -1,0 +1,81 @@
+{
+ "week": 181,
+ "da": {
+  "dialogue2": {
+   "context": "Una columnista discute con su editor el borrador de un artículo sobre prohibir los móviles en clase; él le reprocha que la postura contraria parezca una caricatura.",
+   "lines": [
+    {"text": "Du lader modstanderne sige: „Børn skal have lov at gøre, hvad de vil.“ Det siger ingen.", "es": "Haces decir a los contrarios: «Los niños deben poder hacer lo que quieran». Eso no lo dice nadie."},
+    {"text": "Nej, men det er det, de mener.", "es": "No, pero es lo que piensan."},
+    {"text": "Det er det, du tror, de mener. Deres bedste argument er et andet.", "es": "Es lo que tú crees que piensan. Su mejor argumento es otro."},
+    {"text": "Og hvad er det så?", "es": "¿Y cuál es?"},
+    {"text": "At et forbud flytter problemet hjem, hvor ingen voksne lærer børnene at styre telefonen.", "es": "Que la prohibición traslada el problema a casa, donde ningún adulto enseña a los niños a controlar el móvil."},
+    {"text": "Det er faktisk et godt argument. Det svækker min konklusion.", "es": "La verdad es que es un buen argumento. Debilita mi conclusión."},
+    {"text": "Eller styrker den, hvis du kan svare på det.", "es": "O la refuerza, si sabes responderle."},
+    {"text": "Så skriver jeg det ind på den ene side — og mit svar på den anden.", "es": "Entonces lo pongo en un platillo de la balanza, y mi respuesta en el otro."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir el editor con «O la refuerza, si sabes responderle»?",
+   "choices": ["Que rebatir el mejor argumento contrario hace más creíble la conclusión", "Que la columnista debería cambiar de opinión", "Que el argumento contrario es fácil de desmontar"]
+  },
+  "grammar": {
+   "focus": "Correlativos para equilibrar posturas: på den ene side … på den anden side, både … og, dels … dels",
+   "explain": "Los correlativos dan simetría a un texto equilibrado: På den ene side styrker forbuddet koncentrationen; på den anden side… «Både … og» suma dos elementos (tanto… como); «dels … dels» enumera razones paralelas (en parte… en parte).",
+   "items": [
+    {"prompt": "På den ene side styrker forbuddet koncentrationen; på den ___ side flytter det problemet hjem. (otra)", "answer": "anden", "es": "Por un lado, la prohibición refuerza la concentración; por otro, traslada el problema a casa."},
+    {"prompt": "Forbuddet påvirker ___ eleverne og lærerne. (tanto … como)", "answer": "både", "es": "La prohibición afecta tanto a los alumnos como a los profesores."},
+    {"prompt": "Skolen indfører reglen, ___ for at skabe ro, dels for at mindske mobning. (en parte … en parte)", "answer": "dels", "es": "El colegio introduce la norma, en parte para crear calma y en parte para reducir el acoso."}
+   ]
+  },
+  "vocab": [
+   {"text": "en stråmand", "es": "un hombre de paja", "example": "Du har gjort modstandernes argument til en stråmand.", "example_es": "Has convertido el argumento de los contrarios en un hombre de paja."},
+   {"text": "veje for og imod", "es": "sopesar los pros y los contras", "example": "Læseren skal se dig veje for og imod.", "example_es": "El lector tiene que verte sopesar los pros y los contras."},
+   {"text": "giver modparten ordet", "es": "da la palabra a la otra parte", "example": "En god kronik giver modparten ordet.", "example_es": "Una buena tribuna da la palabra a la otra parte."},
+   {"text": "alt taget i betragtning", "es": "considerándolo todo", "example": "Alt taget i betragtning støtter jeg et forbud i timerne.", "example_es": "Considerándolo todo, apoyo una prohibición en horas de clase."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el párrafo central (6–8 frases) de un artículo de opinión sobre prohibir los móviles en los colegios: expón con fuerza la postura que no compartes, después la tuya, y concluye con una posición matizada.",
+   "model": "Modstanderne af et mobilforbud har et stærkere argument, end debatten ofte giver dem: et forbud løser ikke problemet, men flytter det hjem, hvor ingen voksne lærer børnene at styre deres skærmtid. Det er en reel indvending, for skolen er netop det sted, hvor man kunne øve selvkontrol under opsyn. På den anden side viser erfaringerne fra skoler med forbud både mere ro i timerne og mere leg i frikvartererne. Selvkontrol lærer man desuden sjældent midt i en konstant strøm af notifikationer. Alt taget i betragtning støtter jeg derfor et forbud i undervisningen, men ikke på hele skolen. Skolen bør dels sikre ro i timerne, dels afsætte tid til at lære eleverne at bruge telefonen klogt. Så tager vi modstandernes pointe alvorligt uden at opgive vores egen.",
+   "rubric": "Presenta la postura contraria en su versión más fuerte, sin caricatura; la reconoce como legítima; expone la propia con evidencia; usa correlativos para equilibrar («på den ene side…», «dels … dels»); llega a una conclusión matizada que integra la objeción."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una columnista discute con su editor el borrador de un artículo sobre prohibir los móviles en clase; él le reprocha que la postura contraria parezca una caricatura.",
+   "lines": [
+    {"text": "Du léiss d'Géigner soen: „Kanner sollen dierfen, wat se wëllen.“ Dat seet keen.", "es": "Haces decir a los contrarios: «Los niños deben poder hacer lo que quieran». Eso no lo dice nadie."},
+    {"text": "Neen, mä dat ass dat, wat se mengen.", "es": "No, pero es lo que piensan."},
+    {"text": "Dat ass dat, wat s du mengs, datt se mengen. Hiert bescht Argument ass en anert.", "es": "Es lo que tú crees que piensan. Su mejor argumento es otro."},
+    {"text": "A wat ass et dann?", "es": "¿Y cuál es?"},
+    {"text": "Datt e Verbuet d'Problem heem verlagert, wou keen Erwuessenen de Kanner bäibréngt, mam Handy ëmzegoen.", "es": "Que la prohibición traslada el problema a casa, donde ningún adulto enseña a los niños a manejar el móvil."},
+    {"text": "Dat ass tatsächlech e gutt Argument. Et schwächt meng Konklusioun.", "es": "La verdad es que es un buen argumento. Debilita mi conclusión."},
+    {"text": "Oder et stäerkt se, wann s du drop äntwere kanns.", "es": "O la refuerza, si sabes responderle."},
+    {"text": "Da schreiwen ech et op déi eng Säit — a meng Äntwert op déi aner.", "es": "Entonces lo pongo en un lado de la balanza, y mi respuesta en el otro."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir el editor con «O la refuerza, si sabes responderle»?",
+   "choices": ["Que rebatir el mejor argumento contrario hace más creíble la conclusión", "Que la columnista debería cambiar de opinión", "Que el argumento contrario es fácil de desmontar"]
+  },
+  "grammar": {
+   "focus": "Correlativos para equilibrar posturas: engersäits … anerersäits, souwuel … wéi och, deels … deels",
+   "explain": "Los correlativos dan simetría a un texto equilibrado: Engersäits stäerkt e Verbuet d'Konzentratioun, anerersäits… «Souwuel … wéi och» suma dos elementos (tanto… como); «deels … deels» enumera razones paralelas (en parte… en parte).",
+   "items": [
+    {"prompt": "Engersäits stäerkt e Verbuet d'Konzentratioun, ___ verlagert et d'Problem heem. (por otro lado)", "answer": "anerersäits", "es": "Por un lado, una prohibición refuerza la concentración; por otro, traslada el problema a casa."},
+    {"prompt": "D'Reegel betrëfft ___ d'Schüler wéi och d'Enseignanten. (tanto … como)", "answer": "souwuel", "es": "La norma afecta tanto a los alumnos como a los profesores."},
+    {"prompt": "D'Schoul féiert d'Reegel an, ___ fir Rou ze schafen, deels fir d'Mobbing ze reduzéieren. (en parte … en parte)", "answer": "deels", "es": "El colegio introduce la norma, en parte para crear calma y en parte para reducir el acoso."}
+   ]
+  },
+  "vocab": [
+   {"text": "eng Karikatur", "es": "una caricatura", "example": "Du méchs eng Karikatur aus dem Argument vun der Géigensäit.", "example_es": "Haces una caricatura del argumento de la otra parte."},
+   {"text": "Virdeeler an Nodeeler", "es": "pros y contras", "example": "De Lieser soll gesinn, datt s du Virdeeler an Nodeeler ofwéis.", "example_es": "El lector tiene que ver que sopesas los pros y los contras."},
+   {"text": "der Géigensäit d'Wuert", "es": "(dar) la palabra a la otra parte", "example": "E gudde Kommentar gëtt der Géigensäit d'Wuert.", "example_es": "Una buena columna da la palabra a la otra parte."},
+   {"text": "alles an allem", "es": "en definitiva, considerándolo todo", "example": "Alles an allem ënnerstëtzen ech e Verbuet an de Coursen.", "example_es": "En definitiva, apoyo una prohibición en horas de clase."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el párrafo central (6–8 frases) de un artículo de opinión sobre prohibir los móviles en los colegios: expón con fuerza la postura que no compartes, después la tuya, y concluye con una posición matizada.",
+   "model": "D'Géigner vun engem Handysverbuet hunn e méi staarkt Argument, wéi d'Debatt hinnen dacks zougesteet: e Verbuet léist d'Problem net, mä verlagert et heem, wou keen Erwuessenen de Kanner bäibréngt, hir Schiermzäit ze kontrolléieren. Dat ass e berechtegten Awand, well grad d'Schoul déi Plaz wier, wou een ënner Opsiicht Selbstkontroll léiere kéint. Anerersäits weisen d'Erfarunge vu Schoulen mat Verbuet souwuel méi Rou an de Course wéi och méi Spill an der Paus. Selbstkontroll léiert een och seelen an engem stännege Floss vun Notifikatiounen. Alles an allem ënnerstëtzen ech dofir e Verbuet an de Coursen, mä net an der ganzer Schoul. D'Schoul sollt deels fir Rou an de Coursen suergen, deels Zäit dofir areechnen, de Schüler e verstännegen Ëmgang mam Handy bäizebréngen. Esou huele mir d'Argument vun der Géigensäit eescht, ouni eist eegent opzeginn.",
+   "rubric": "Presenta la postura contraria en su versión más fuerte, sin caricatura; la reconoce como legítima; expone la propia con evidencia; usa correlativos para equilibrar («engersäits … anerersäits», «deels … deels»); llega a una conclusión matizada que integra la objeción."
+  }
+ }
+}

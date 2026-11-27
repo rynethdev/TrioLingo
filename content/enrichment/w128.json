@@ -1,0 +1,81 @@
+{
+ "week": 128,
+ "da": {
+  "dialogue2": {
+   "context": "Un analista presenta datos de uso de la biblioteca municipal; la concejala duda de que justifiquen recortar el horario de tarde.",
+   "lines": [
+    {"text": "Tallene viser, at aftenbesøgene er faldet med fyrre procent på tre år.", "es": "Las cifras muestran que las visitas de tarde han caído un cuarenta por ciento en tres años."},
+    {"text": "Det er ikke nødvendigvis, fordi folk ikke vil komme; måske passer åbningstiderne dem bare dårligt.", "es": "No es necesariamente porque la gente no quiera venir; quizá simplemente el horario no les viene bien."},
+    {"text": "Det er en vigtig pointe, og det er netop derfor, at vi også har spurgt brugerne direkte.", "es": "Es una observación importante, y precisamente por eso también hemos preguntado directamente a los usuarios."},
+    {"text": "Og hvad svarede de?", "es": "¿Y qué respondieron?"},
+    {"text": "Det er især de digitale lån, der vokser, mens kun en lille gruppe savner aftenåbningen.", "es": "Lo que crece sobre todo son los préstamos digitales, mientras que solo un grupo pequeño echa de menos la apertura de tarde."},
+    {"text": "Så det, du anbefaler, er altså at skære i aftentimerne og flytte pengene til e-bøger?", "es": "¿O sea que lo que recomiendas es recortar las horas de tarde y pasar el dinero a libros electrónicos?"},
+    {"text": "Ja, men det er de faste aftenbrugere, vi skal holde fast i, for eksempel med selvbetjening to aftener om ugen.", "es": "Sí, pero son los usuarios habituales de la tarde a quienes debemos retener, por ejemplo con autoservicio dos tardes por semana."},
+    {"text": "Det lyder afbalanceret; skriv det op med tallene, så jeg kan forelægge det for udvalget.", "es": "Suena equilibrado; ponlo por escrito con las cifras para que pueda presentarlo ante la comisión."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué duda plantea la concejala sobre los datos?",
+   "choices": ["Que la caída de visitas puede deberse al horario y no a la falta de interés", "Que las cifras de préstamos digitales están mal calculadas", "Que la biblioteca debería cerrar también por las mañanas"]
+  },
+  "grammar": {
+   "focus": "Oraciones hendidas: det er … der / at",
+   "explain": "Para destacar un elemento se usa «det er/var X, …». Si X es el sujeto de lo que sigue, se usa «der» (det er lånene, der vokser); si X es un complemento circunstancial (tiempo, causa, lugar), se usa «at» (det var i 2022, at faldet begyndte).",
+   "items": [
+    {"prompt": "Det er især de digitale lån, ___ vokser. (der / at)", "answer": "der", "es": "Lo que crece sobre todo son los préstamos digitales."},
+    {"prompt": "Det var først i 2022, ___ faldet for alvor tog fart. (der / at)", "answer": "at", "es": "No fue hasta 2022 cuando la caída se aceleró de verdad."},
+    {"prompt": "Det er ikke antallet af besøg, ___ kvaliteten af dem, der tæller. (conector: «sino»)", "answer": "men", "es": "Lo que cuenta no es el número de visitas, sino su calidad."}
+   ]
+  },
+  "vocab": [
+   {"text": "nødvendigvis", "es": "necesariamente", "example": "Et fald i besøg betyder ikke nødvendigvis faldende interesse.", "example_es": "Una caída de visitas no significa necesariamente menos interés."},
+   {"text": "holde fast i", "es": "retener, no perder", "example": "Vi skal holde fast i de trofaste aftenbrugere.", "example_es": "Tenemos que retener a los usuarios fieles de la tarde."},
+   {"text": "skære i", "es": "recortar (en)", "example": "Vi foreslår at skære i aftentimerne, ikke i bogbudgettet.", "example_es": "Proponemos recortar las horas de tarde, no el presupuesto de libros."},
+   {"text": "forelægge", "es": "presentar (ante un órgano)", "example": "Jeg vil forelægge anbefalingen for udvalget i næste uge.", "example_es": "Presentaré la recomendación ante la comisión la semana que viene."}
+  ],
+  "transfer": {
+   "prompt": "Con tres datos (visitas de tarde −40 %, préstamos digitales +65 %, un 12 % de usuarios echa de menos la tarde), redacta una recomendación de 5–7 frases para la comisión: dato → interpretación prudente → recomendación → medida para el grupo afectado.",
+   "model": "Besøgstallet om aftenen er faldet med 40 procent på tre år, mens de digitale lån er steget med 65 procent. Tallene tyder på, at brugernes vaner er ved at ændre sig, selvom vi ikke kan udelukke, at åbningstiderne også spiller ind. Det er især de digitale tilbud, der skaber vækst, og det er dér, at vores investeringer giver mest værdi. Vi anbefaler derfor at reducere den bemandede aftenåbning fra fem til to aftener om ugen og flytte de frigjorte midler til e-bøger. For de 12 procent, der savner aftenåbningen, foreslår vi selvbetjening med adgangskort. Ordningen evalueres efter et år på baggrund af nye brugertal.",
+   "rubric": "Cita los datos con precisión; interpreta con atenuación («tyder på», «kan ikke udelukke»); usa al menos una oración hendida para destacar el dato clave; formula la recomendación con «anbefaler» o «foreslår»; prevé una medida para el grupo afectado y un criterio de evaluación."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un analista presenta datos de uso de la biblioteca municipal; la concejala duda de que justifiquen recortar el horario de tarde.",
+   "lines": [
+    {"text": "D'Zuele weisen, datt d'Besucherzuel owes an dräi Joer ëm véierzeg Prozent erofgaangen ass.", "es": "Las cifras muestran que el número de visitantes por la tarde ha caído un cuarenta por ciento en tres años."},
+    {"text": "Dat ass net onbedéngt, well d'Leit net wëlle kommen; vläicht passen hinnen d'Ëffnungszäiten einfach net.", "es": "No es necesariamente porque la gente no quiera venir; quizá el horario simplemente no les viene bien."},
+    {"text": "Dat ass e wichtege Punkt, an et ass genee dofir, datt mir d'Benotzer och direkt gefrot hunn.", "es": "Es una observación importante, y precisamente por eso también hemos preguntado directamente a los usuarios."},
+    {"text": "A wat hu si geäntwert?", "es": "¿Y qué respondieron?"},
+    {"text": "Et sinn virun allem d'E-Bicher, déi méi gefrot sinn, wärend nëmmen eng kleng Grupp d'Owesëffnung vermësst.", "es": "Lo que tiene más demanda son sobre todo los libros electrónicos, mientras que solo un grupo pequeño echa de menos la apertura de tarde."},
+    {"text": "Dat, wat s du recommandéiers, ass also, d'Owesstonnen ze reduzéieren an d'Suen an E-Bicher ze stiechen?", "es": "¿O sea que lo que recomiendas es reducir las horas de tarde e invertir el dinero en libros electrónicos?"},
+    {"text": "Jo, mä et sinn déi trei Owesbenotzer, déi mir net verléiere wëllen, zum Beispill mat engem Zougang per Badge zweemol d'Woch.", "es": "Sí, pero son los usuarios fieles de la tarde a quienes no queremos perder, por ejemplo con acceso con tarjeta dos veces por semana."},
+    {"text": "Dat kléngt equilibréiert; schreif et mat den Zuelen op, da leeën ech et der Kommissioun vir.", "es": "Suena equilibrado; ponlo por escrito con las cifras y lo presento ante la comisión."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué duda plantea la concejala sobre los datos?",
+   "choices": ["Que la caída de visitas puede deberse al horario y no a la falta de interés", "Que las cifras de libros electrónicos están mal calculadas", "Que la biblioteca debería cerrar también por las mañanas"]
+  },
+  "grammar": {
+   "focus": "Oraciones hendidas: et ass/sinn … deen/déi/dat o datt",
+   "explain": "Para destacar un elemento: «Et ass/sinn X, deen/déi/dat …» cuando X es el sujeto de lo que sigue (et sinn d'E-Bicher, déi wuessen); con un complemento circunstancial se usa «datt» (et ass dofir, datt mir gefrot hunn). El verbo concuerda con X: «et ass» en singular, «et sinn» en plural.",
+   "items": [
+    {"prompt": "Et ___ virun allem d'E-Bicher, déi méi gefrot sinn. (sinn: concordancia con el elemento destacado)", "answer": "sinn", "es": "Lo que tiene más demanda son sobre todo los libros electrónicos."},
+    {"prompt": "Et war eréischt 2022, ___ de Réckgang richteg ugefaangen huet. (deen / datt)", "answer": "datt", "es": "No fue hasta 2022 cuando el descenso empezó de verdad."},
+    {"prompt": "Et ass d'Ëffnungszäit, ___ de Leit am meeschte feelt. (déi / datt)", "answer": "déi", "es": "Es el horario de apertura lo que más echa de menos la gente."}
+   ]
+  },
+  "vocab": [
+   {"text": "net onbedéngt", "es": "no necesariamente", "example": "E Réckgang bedeit net onbedéngt manner Interessi.", "example_es": "Un descenso no significa necesariamente menos interés."},
+   {"text": "stiechen", "es": "invertir (Suen an eppes stiechen)", "example": "Mir wëllen d'Suen an E-Bicher stiechen.", "example_es": "Queremos invertir el dinero en libros electrónicos."},
+   {"text": "virleeën", "es": "presentar (ante un órgano)", "example": "Ech wëll der Kommissioun d'Recommandatioun virleeën.", "example_es": "Quiero presentar la recomendación ante la comisión."},
+   {"text": "de Réckgang", "es": "el descenso", "example": "De Réckgang vun de Besucher ass owes am stäerksten.", "example_es": "El descenso de visitantes es más fuerte por la tarde."}
+  ],
+  "transfer": {
+   "prompt": "Con tres datos (visitas de tarde −40 %, préstamos de libros electrónicos +65 %, un 12 % de usuarios echa de menos la tarde), redacta una recomendación de 5–7 frases para la comisión: dato → interpretación prudente → recomendación → medida para el grupo afectado.",
+   "model": "Owes ass d'Besucherzuel an dräi Joer ëm 40 Prozent erofgaangen, wärend d'Ausléine vun E-Bicher ëm 65 Prozent geklomme sinn. D'Zuelen deiten drop hin, datt sech d'Gewunnechte vun de Benotzer änneren, och wa mir net ausschléisse kënnen, datt d'Ëffnungszäiten och eng Roll spillen. Et sinn virun allem déi digital Offeren, déi wuessen, an et ass do, wou eis Investitiounen am meeschte bréngen. Mir recommandéieren dofir, d'Owesëffnung mat Personal vu fënnef op zwee Deeg d'Woch ze reduzéieren an déi gespuert Suen an E-Bicher ze stiechen. Fir déi 12 Prozent, déi d'Owesëffnung vermëssen, proposéiere mir en Zougang per Badge. D'Moossnam gëtt no engem Joer op Basis vun neie Benotzerzuelen evaluéiert.",
+   "rubric": "Cita los datos con precisión; interpreta con atenuación («deiten drop hin», «net ausschléissen»); usa al menos una oración hendida para destacar el dato clave; formula la recomendación con «recommandéieren» o «proposéieren»; prevé una medida para el grupo afectado y un criterio de evaluación."
+  }
+ }
+}

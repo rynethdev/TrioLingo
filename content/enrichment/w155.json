@@ -1,0 +1,81 @@
+{
+ "week": 155,
+ "da": {
+  "dialogue2": {
+   "context": "En una reunión vecinal, un vecino ataca personalmente a la concejala por las obras de su calle; ella mantiene la calma y reconduce la conversación hacia una solución.",
+   "lines": [
+    {"text": "I politikere er da ligeglade; I bor jo ikke selv på vores vej!", "es": "A vosotros los políticos os da igual; ¡si ni siquiera vivís en nuestra calle!"},
+    {"text": "Jeg kan høre, at byggeriet fylder meget i jeres hverdag.", "es": "Oigo que las obras están pesando mucho en vuestro día a día."},
+    {"text": "Fylder? Vi har ikke kunnet sove ordentligt i tre uger!", "es": "¿Pesando? ¡Llevamos tres semanas sin poder dormir bien!"},
+    {"text": "Det tager jeg alvorligt; skal vi se på, hvad der konkret kan ændres?", "es": "Me lo tomo en serio; ¿vemos qué se puede cambiar concretamente?"},
+    {"text": "Start med at stoppe maskinerne klokken seks om morgenen.", "es": "Empiece por parar las máquinas a las seis de la mañana."},
+    {"text": "Lad os undersøge, om arbejdet kan begynde klokken syv i stedet; det kan jeg ikke love i aften, men jeg kan love et svar fredag.", "es": "Vamos a estudiar si las obras pueden empezar a las siete; eso no lo puedo prometer esta noche, pero sí una respuesta el viernes."},
+    {"text": "Og hvem garanterer, at vi overhovedet får det svar?", "es": "¿Y quién nos garantiza que vayamos a recibir esa respuesta?"},
+    {"text": "Det gør jeg; jeg skriver mit nummer her, så I kan ringe direkte til mig, hvis I ikke har hørt noget.", "es": "Yo; apunto aquí mi número para que me llaméis directamente si no sabéis nada."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué estrategia usa la concejala ante el ataque personal?",
+   "choices": ["No responde al ataque, reconoce el malestar y propone algo concreto con plazo y compromiso personal", "Defiende su trayectoria y explica que ella también vive en el barrio", "Promete detener las obras de inmediato para calmar al vecino"]
+  },
+  "grammar": {
+   "focus": "Propuestas inclusivas: lad os, skal vi, vi kunne",
+   "explain": "Para reconducir una conversación tensa hacia la acción se usan fórmulas en primera persona del plural: «Lad os + infinitivo» (vamos a…), «Skal vi + infinitivo?» (¿y si…?) y «Vi kunne + infinitivo» (podríamos…). Tras «lad os» el infinitivo va sin «at».",
+   "items": [
+    {"prompt": "___ os undersøge, om arbejdet kan begynde senere. (vamos a…)", "answer": "Lad", "es": "Vamos a estudiar si las obras pueden empezar más tarde."},
+    {"prompt": "___ vi se på, hvad der konkret kan ændres? (¿y si…?, pregunta)", "answer": "Skal", "es": "¿Vemos qué se puede cambiar concretamente?"},
+    {"prompt": "Vi ___ mødes igen om to uger og gøre status. (kan, pretérito: propuesta suave)", "answer": "kunne", "es": "Podríamos volver a reunirnos dentro de dos semanas y hacer balance."}
+   ]
+  },
+  "vocab": [
+   {"text": "ligeglade", "es": "indiferentes (være ligeglad: dar igual)", "example": "Mange tror, at politikerne er ligeglade.", "example_es": "Mucha gente cree que a los políticos les da igual."},
+   {"text": "fylder meget", "es": "pesa mucho, ocupa mucho (en la vida de alguien)", "example": "Byggeriet fylder meget i beboernes hverdag.", "example_es": "Las obras pesan mucho en el día a día de los vecinos."},
+   {"text": "love", "es": "prometer", "example": "Jeg kan ikke love en løsning i aften, men et svar.", "example_es": "No puedo prometer una solución esta noche, pero sí una respuesta."},
+   {"text": "gøre status", "es": "hacer balance", "example": "Lad os gøre status om to uger.", "example_es": "Hagamos balance dentro de dos semanas."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el mensaje (5–6 frases) que la concejala envía al día siguiente a los vecinos de la calle: reconoce el malestar sin repetir el ataque, resume lo hablado, propone acciones en primera persona del plural y fija un compromiso.",
+   "model": "Tak for et engageret møde i går aftes. Jeg forstår, at byggeriet på Skovvej har fyldt meget i jeres hverdag, og at især støjen tidligt om morgenen har været en stor belastning. Lad os tage det mest presserende først: Jeg har bedt entreprenøren undersøge, om arbejdet kan begynde kl. 7 i stedet for kl. 6, og I får et svar senest fredag. Derudover kunne vi mødes igen om to uger og gøre status sammen. Hvis I har spørgsmål inden da, er I velkomne til at ringe direkte til mig.",
+   "rubric": "No reproduce ni comenta el ataque personal; reconoce el malestar con hechos concretos; usa al menos dos fórmulas inclusivas (lad os, vi kunne, skal vi); fija un plazo y un canal de contacto; mantiene un tono sereno."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En una reunión vecinal, un vecino ataca personalmente a la concejala por las obras de su calle; ella mantiene la calma y reconduce la conversación hacia una solución.",
+   "lines": [
+    {"text": "Iech Politiker ass dat dach egal; Dir wunnt jo net selwer an eiser Strooss!", "es": "A ustedes los políticos les da igual; ¡si ni siquiera viven en nuestra calle!"},
+    {"text": "Ech héieren, datt d'Bauaarbechten Ären Alldag staark belaaschten.", "es": "Oigo que las obras están pesando mucho en su día a día."},
+    {"text": "Belaaschten? Mir hunn zënter dräi Wochen net méi richteg geschlof!", "es": "¿Pesando? ¡Llevamos tres semanas sin dormir bien!"},
+    {"text": "Dat huelen ech eescht; solle mir kucken, wat sech konkret ännere léisst?", "es": "Me lo tomo en serio; ¿vemos qué se puede cambiar concretamente?"},
+    {"text": "Fänkt domat un, d'Maschinne moies um sechs Auer ofzestellen.", "es": "Empiece por apagar las máquinas a las seis de la mañana."},
+    {"text": "Loosse mir nokucken, ob d'Aarbechten eréischt um siwen Auer ufänke kënnen; dat kann ech Iech haut den Owend net verspriechen, mä eng Äntwert bis Freideg.", "es": "Vamos a comprobar si las obras pueden empezar a las siete; eso no se lo puedo prometer esta noche, pero sí una respuesta antes del viernes."},
+    {"text": "A wien garantéiert eis, datt mir déi Äntwert iwwerhaapt kréien?", "es": "¿Y quién nos garantiza que vayamos a recibir esa respuesta?"},
+    {"text": "Ech; ech schreiwen hei meng Nummer op, da kënnt Dir mech direkt uruffen, wann Dir näischt héiert.", "es": "Yo; apunto aquí mi número y así me pueden llamar directamente si no saben nada."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué estrategia usa la concejala ante el ataque personal?",
+   "choices": ["No responde al ataque, reconoce el malestar y propone algo concreto con plazo y compromiso personal", "Defiende su trayectoria y explica que ella también vive en el barrio", "Promete detener las obras de inmediato para calmar al vecino"]
+  },
+  "grammar": {
+   "focus": "Propuestas inclusivas: loosse mir, solle mir, mir kéinten",
+   "explain": "Para reconducir una conversación tensa hacia la acción: «Loosse mir + infinitivo» (vamos a…), «Solle mir + infinitivo?» (¿y si…?) y «Mir kéinten + infinitivo» (podríamos…). El infinitivo va al final de la frase.",
+   "items": [
+    {"prompt": "___ mir nokucken, ob d'Aarbechte méi spéit ufänke kënnen. (vamos a…)", "answer": "Loosse", "es": "Vamos a comprobar si las obras pueden empezar más tarde."},
+    {"prompt": "___ mir kucken, wat sech konkret ännere léisst? (¿y si…?, pregunta)", "answer": "Solle", "es": "¿Vemos qué se puede cambiar concretamente?"},
+    {"prompt": "Mir ___ eis an zwou Woche nach eng Kéier treffen. (kënnen, Konjunktiv II)", "answer": "kéinten", "es": "Podríamos volver a reunirnos dentro de dos semanas."}
+   ]
+  },
+  "vocab": [
+   {"text": "belaaschten", "es": "pesar, suponer una carga", "example": "D'Aarbechte belaaschten den Alldag vun de Bewunner.", "example_es": "Las obras pesan en el día a día de los vecinos."},
+   {"text": "eescht huelen", "es": "tomar en serio", "example": "Mir mussen dës Suergen eescht huelen.", "example_es": "Tenemos que tomarnos en serio estas preocupaciones."},
+   {"text": "verspriechen", "es": "prometer", "example": "Ech ka keng Léisung verspriechen, mä eng Äntwert.", "example_es": "No puedo prometer una solución, pero sí una respuesta."},
+   {"text": "e Bilan", "es": "un balance", "example": "An zwou Woche zéie mir zesummen e Bilan.", "example_es": "Dentro de dos semanas hacemos balance juntos."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el mensaje (5–6 frases) que la concejala envía al día siguiente a los vecinos de la calle: reconoce el malestar sin repetir el ataque, resume lo hablado, propone acciones en primera persona del plural y fija un compromiso.",
+   "model": "Merci fir déi engagéiert Versammlung vu gëschter den Owend. Ech verstinn, datt d'Bauaarbechten an der Bëschstrooss Ären Alldag staark belaascht hunn an datt virun allem de Kaméidi fréi moies eng grouss Belaaschtung war. Loosse mir mat deem Dréngendsten ufänken: Ech hunn d'Entreprise gebieden ze kucken, ob d'Aarbechten um 7 Auer amplaz um 6 Auer ufänke kënnen, an Dir kritt eng Äntwert bis spéitstens e Freideg. Doriwwer eraus kéinte mir eis an zwou Woche nach eng Kéier treffen an zesummen e Bilan zéien. Wann Dir virdrun Froen hutt, kënnt Dir mech gär direkt uruffen.",
+   "rubric": "No reproduce ni comenta el ataque personal; reconoce el malestar con hechos concretos; usa al menos dos fórmulas inclusivas (loosse mir, mir kéinten, solle mir); fija un plazo y un canal de contacto; mantiene un tono sereno."
+  }
+ }
+}

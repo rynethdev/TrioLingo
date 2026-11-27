@@ -1,0 +1,81 @@
+{
+ "week": 189,
+ "da": {
+  "dialogue2": {
+   "context": "En un debate electoral en la radio local, un periodista pregunta a una candidata si su partido «ha abandonado a los pueblos»; ella corrige la premisa sin negar lo que sí ocurrió.",
+   "lines": [
+    {"text": "Er det ikke rigtigt, at jeres parti har svigtet landsbyerne?", "es": "¿No es cierto que su partido ha abandonado a los pueblos?"},
+    {"text": "Nej, det er ikke rigtigt — men jeg forstår godt, hvorfor spørgsmålet bliver stillet.", "es": "No, no es cierto; pero entiendo bien por qué se plantea la pregunta."},
+    {"text": "Så I har ikke lukket skolen i Ørslev?", "es": "¿Así que no han cerrado la escuela de Ørslev?"},
+    {"text": "Jo, det har vi, og det var en hård beslutning. Men vi har samtidig fordoblet busforbindelserne.", "es": "Sí, la hemos cerrado, y fue una decisión dura. Pero al mismo tiempo hemos duplicado las conexiones de autobús."},
+    {"text": "Det er vel en ringe trøst for forældrene.", "es": "Supongo que es un pobre consuelo para los padres."},
+    {"text": "For nogle, ja. Og det vil jeg ikke bortforklare.", "es": "Para algunos, sí. Y no voy a justificarlo con excusas."},
+    {"text": "Så indrømmer De, at landsbyerne har tabt?", "es": "¿Entonces admite que los pueblos han salido perdiendo?"},
+    {"text": "Jeg indrømmer, at én landsby har mistet sin skole. Det er noget andet end at svigte dem alle.", "es": "Admito que un pueblo ha perdido su escuela. Eso es distinto de abandonarlos a todos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué estrategia usa la candidata en su última respuesta?",
+   "choices": ["Reconoce el hecho concreto pero rechaza la generalización que encierra la pregunta", "Niega que la escuela se haya cerrado", "Evita responder cambiando de tema"]
+  },
+  "grammar": {
+   "focus": "Responder a preguntas negativas: ja, jo, nej",
+   "explain": "A una pregunta negativa se responde «jo» para contradecir la negación (sí que…) y «nej» para confirmarla: Har I ikke lukket skolen? — Jo (sí, la hemos cerrado) / Nej (no, no la hemos cerrado). «Ja» solo responde afirmativamente a preguntas afirmativas.",
+   "items": [
+    {"prompt": "Har I ikke lukket skolen? — ___, det har vi desværre. (afirmar ante pregunta negativa)", "answer": "Jo", "es": "¿No han cerrado la escuela? — Sí, por desgracia sí."},
+    {"prompt": "Har I svigtet landsbyerne? — ___, det har vi ikke. (negar)", "answer": "Nej", "es": "¿Han abandonado a los pueblos? — No, no lo hemos hecho."},
+    {"prompt": "Er det rigtigt, at busserne kører oftere? — ___, dobbelt så ofte. (afirmar ante pregunta afirmativa)", "answer": "Ja", "es": "¿Es cierto que los autobuses pasan más a menudo? — Sí, el doble."}
+   ]
+  },
+  "vocab": [
+   {"text": "bortforklare", "es": "justificar con excusas, escamotear", "example": "Jeg vil ikke bortforklare beslutningen.", "example_es": "No voy a escamotear la decisión con excusas."},
+   {"text": "en ringe trøst", "es": "un pobre consuelo", "example": "Det er en ringe trøst for forældrene.", "example_es": "Es un pobre consuelo para los padres."},
+   {"text": "ord i munden", "es": "(poner) palabras en la boca", "example": "Nu lægger du mig ord i munden.", "example_es": "Ahora me estás poniendo palabras en la boca."},
+   {"text": "svigte", "es": "abandonar, fallar a", "example": "Vi har ikke svigtet landsbyerne.", "example_es": "No hemos abandonado a los pueblos."}
+  ],
+  "transfer": {
+   "prompt": "En una entrevista escrita para el periódico local te preguntan: «¿Por qué ha dejado su ayuntamiento morir el centro del pueblo?». Escribe tu respuesta (6–8 frases): corrige la premisa sin ponerte a la defensiva, reconoce lo que sí es cierto y aporta datos.",
+   "model": "Tak for spørgsmålet, men jeg må først rette dets forudsætning: bymidten er ikke ved at dø, og kommunen har ikke opgivet den. Det er rigtigt, at tre butikker har lukket i år, og det tager jeg alvorligt. Samtidig er der åbnet fem nye virksomheder, og antallet af tomme lokaler er det laveste i ti år. Hvad der derimod er sket, er, at handlen har flyttet sig fra hovedgaden til sidegaderne. Det stiller nye krav til parkering og skiltning, og der har vi været for langsomme. Derfor fremlægger vi i næste måned en plan for hele bymidten, ikke kun for hovedgaden. Jeg svarer gerne på det reelle problem, men påstanden om en døende bymidte kan jeg ikke lade stå uimodsagt.",
+   "rubric": "Identifica y corrige la premisa de forma explícita y serena; reconoce lo que sí es cierto; aporta datos verificables; diferencia el problema real del exagerado; anuncia una medida; tono firme sin hostilidad."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En un debate electoral en la radio local, un periodista pregunta a una candidata si su partido «ha abandonado a los pueblos»; ella corrige la premisa sin negar lo que sí ocurrió.",
+   "lines": [
+    {"text": "Ass et net wouer, datt Är Partei d'Dierfer am Stach gelooss huet?", "es": "¿No es cierto que su partido ha dejado tirados a los pueblos?"},
+    {"text": "Neen, dat ass net wouer — mä ech verstinn, firwat d'Fro gestallt gëtt.", "es": "No, no es cierto; pero entiendo por qué se plantea la pregunta."},
+    {"text": "Also hutt Dir d'Schoul zu Biekerech net zougemaach?", "es": "¿Así que no han cerrado la escuela de Biekerech?"},
+    {"text": "Dach, dat hu mir, an dat war eng schwéier Decisioun. Mä mir hu gläichzäiteg d'Busverbindunge verduebelt.", "es": "Sí, la hemos cerrado, y fue una decisión dura. Pero al mismo tiempo hemos duplicado las conexiones de autobús."},
+    {"text": "Dat ass wuel e schwaachen Trouscht fir d'Elteren.", "es": "Supongo que es un pobre consuelo para los padres."},
+    {"text": "Fir e puer, jo. An ech wëll dat och net schéi schwätzen.", "es": "Para algunos, sí. Y tampoco quiero edulcorarlo."},
+    {"text": "Da gitt Dir zou, datt d'Dierfer verluer hunn?", "es": "¿Entonces admite que los pueblos han salido perdiendo?"},
+    {"text": "Ech ginn zou, datt een Duerf seng Schoul verluer huet. Dat ass eppes anescht, wéi se all am Stach ze loossen.", "es": "Admito que un pueblo ha perdido su escuela. Eso es distinto de dejarlos tirados a todos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué estrategia usa la candidata en su última respuesta?",
+   "choices": ["Reconoce el hecho concreto pero rechaza la generalización que encierra la pregunta", "Niega que la escuela se haya cerrado", "Evita responder cambiando de tema"]
+  },
+  "grammar": {
+   "focus": "Responder a preguntas negativas: dach, jo, neen",
+   "explain": "A una pregunta negativa se responde «dach» para contradecir la negación (sí que…) y «neen» para confirmarla: Hutt Dir d'Schoul net zougemaach? — Dach (sí, la cerramos) / Neen (no, no la cerramos). «Jo» responde afirmativamente a preguntas afirmativas.",
+   "items": [
+    {"prompt": "Hutt Dir d'Schoul net zougemaach? — ___, dat hu mir leider. (afirmar ante pregunta negativa)", "answer": "Dach", "es": "¿No han cerrado la escuela? — Sí, por desgracia sí."},
+    {"prompt": "Hutt Dir d'Dierfer am Stach gelooss? — ___, dat hu mir net. (negar)", "answer": "Neen", "es": "¿Han dejado tirados a los pueblos? — No, no lo hemos hecho."},
+    {"prompt": "Fueren d'Bussen elo méi dacks? — ___, duebel esou dacks. (afirmar ante pregunta afirmativa)", "answer": "Jo", "es": "¿Pasan ahora los autobuses más a menudo? — Sí, el doble."}
+   ]
+  },
+  "vocab": [
+   {"text": "am Stach", "es": "(dejar) en la estacada", "example": "D'Gemeng huet d'Dierfer net am Stach gelooss.", "example_es": "El ayuntamiento no ha dejado a los pueblos en la estacada."},
+   {"text": "e schwaachen Trouscht", "es": "un pobre consuelo", "example": "Dat ass e schwaachen Trouscht fir d'Elteren.", "example_es": "Es un pobre consuelo para los padres."},
+   {"text": "schéi schwätzen", "es": "edulcorar, maquillar", "example": "Ech wëll d'Decisioun net schéi schwätzen.", "example_es": "No quiero edulcorar la decisión."},
+   {"text": "Wierder an de Mond", "es": "(poner) palabras en la boca", "example": "Elo leet Dir mir Wierder an de Mond.", "example_es": "Ahora me está poniendo palabras en la boca."}
+  ],
+  "transfer": {
+   "prompt": "En una entrevista escrita para el periódico local te preguntan: «¿Por qué ha dejado su ayuntamiento morir el centro del pueblo?». Escribe tu respuesta (6–8 frases): corrige la premisa sin ponerte a la defensiva, reconoce lo que sí es cierto y aporta datos.",
+   "model": "Merci fir d'Fro, mä ech muss als éischt hir Viraussetzung riichtstellen: den Zentrum stierft net, an d'Gemeng huet en och net opginn. Et stëmmt, datt dëst Joer dräi Geschäfter zougemaach hunn, an dat huelen ech eescht. Gläichzäiteg hu fënnef nei Betriber opgemaach, an et stinn esou wéineg Geschäftsraim eidel wéi zënter zéng Joer net méi. Wat sech dogéint geännert huet, ass, datt de Commerce sech vun der Haaptstrooss an d'Niewestroosse verlagert huet. Dat stellt nei Ufuerderungen u Parking a Beschëlderung, an do si mir ze lues gewiescht. Dofir stelle mir de nächste Mount e Plang fir de ganzen Zentrum vir, net nëmme fir d'Haaptstrooss. Ech äntweren gär op dat reellt Problem, mä d'Behaaptung vun engem stierwenden Zentrum kann ech net esou stoe loossen.",
+   "rubric": "Identifica y corrige la premisa de forma explícita y serena; reconoce lo que sí es cierto; aporta datos verificables; diferencia el problema real del exagerado; anuncia una medida; tono firme sin hostilidad."
+  }
+ }
+}

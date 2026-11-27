@@ -1,0 +1,81 @@
+{
+ "week": 199,
+ "da": {
+  "dialogue2": {
+   "context": "Una empleada que deja la empresa tras un conflicto con su jefe enseña a una amiga su correo de despedida; el borrador termina con una pulla velada.",
+   "lines": [
+    {"text": "Hør min sidste sætning: „Tak til alle — og især til dem, der lærte mig, hvordan man ikke skal lede.“", "es": "Escucha mi última frase: «Gracias a todos, y en especial a quienes me enseñaron cómo no se debe dirigir»."},
+    {"text": "Den er sjov. Den bliver også videresendt inden frokost.", "es": "Tiene gracia. Y la habrán reenviado antes de comer."},
+    {"text": "Han fortjener det.", "es": "Se lo merece."},
+    {"text": "Måske. Men det er dig, folk vil huske den for — ikke ham.", "es": "Quizá. Pero a quien recordarán por ella es a ti, no a él."},
+    {"text": "Så skal jeg lade, som om alt var godt?", "es": "¿Entonces tengo que fingir que todo fue bien?"},
+    {"text": "Nej, du skal bare skrive det, du faktisk er taknemmelig for. Det er der nok af.", "es": "No, solo tienes que escribir aquello por lo que de verdad estás agradecida. De eso hay de sobra."},
+    {"text": "Kollegerne. Kunderne. At jeg lærte at sige fra.", "es": "Los compañeros. Los clientes. Haber aprendido a plantarme."},
+    {"text": "Der har du det. Det sidste siger alt uden at nævne nogen.", "es": "Ahí lo tienes. Lo último lo dice todo sin nombrar a nadie."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir la amiga con «Lo último lo dice todo sin nombrar a nadie»?",
+   "choices": ["Que esa frase deja entrever el conflicto con elegancia, sin un ataque directo", "Que la empleada debería nombrar a su jefe", "Que la frase no tiene ningún significado especial"]
+  },
+  "grammar": {
+   "focus": "Régimen preposicional de adjetivos de sentimiento: taknemmelig for, stolt af, glad for",
+   "explain": "Los adjetivos que expresan sentimientos rigen preposiciones fijas: taknemmelig for (agradecido por), stolt af (orgulloso de), glad for (contento de, con), ked af (apenado por).",
+   "items": [
+    {"prompt": "Jeg er taknemmelig ___ de fem år hos jer. (por)", "answer": "for", "es": "Estoy agradecida por los cinco años con vosotros."},
+    {"prompt": "Jeg er stolt ___ det, vi byggede op sammen. (de)", "answer": "af", "es": "Estoy orgullosa de lo que construimos juntos."},
+    {"prompt": "Hun er glad ___ at have lært at sige fra. (de)", "answer": "for", "es": "Está contenta de haber aprendido a plantarse."}
+   ]
+  },
+  "vocab": [
+   {"text": "videresendt", "es": "reenviado", "example": "Sådan en mail bliver videresendt på få minutter.", "example_es": "Un correo así se reenvía en pocos minutos."},
+   {"text": "sige fra", "es": "plantarse, decir que no", "example": "Her har jeg lært at sige fra.", "example_es": "Aquí he aprendido a plantarme."},
+   {"text": "en stikpille", "es": "una pulla", "example": "En afskedsmail er ikke stedet for en stikpille.", "example_es": "Un correo de despedida no es lugar para una pulla."},
+   {"text": "med oprejst pande", "es": "con la cabeza alta", "example": "Jeg vil gå med oprejst pande.", "example_es": "Quiero irme con la cabeza alta."}
+  ],
+  "transfer": {
+   "prompt": "Escribe tu correo de despedida (6–8 frases) a toda la empresa tras una salida no del todo feliz: agradecimientos concretos, un aprendizaje, ninguna pulla y una puerta abierta.",
+   "model": "Kære alle, efter fem år er det i dag min sidste dag, og jeg vil ikke gå uden at sige ordentligt farvel. Jeg er taknemmelig for de mange kolleger, der gjorde selv de travleste uger lettere — og for de kunder, der lærte mig, hvad god service egentlig betyder. Jeg er stolt af det kundeteam, vi byggede op sammen, og glad for, at det står stærkt i dag. Her har jeg også lært at sige fra, når noget ikke giver mening, og den lektie tager jeg med videre. Ikke alt har været let, men det hele har gjort mig klogere. Fra den 1. maj er jeg et nyt sted, men verden er lille, og jeg håber, vores veje krydses igen. Skriv endelig, hvis I får brug for mig — eller bare trænger til en kop kaffe.",
+   "rubric": "Agradece de forma concreta (personas, situaciones); nombra un aprendizaje sin reproche; evita pullas y ajustes de cuentas; usa con corrección el régimen preposicional («taknemmelig for», «stolt af»); deja una puerta abierta; tono digno y cálido."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una empleada que deja la empresa tras un conflicto con su jefe enseña a una amiga su correo de despedida; el borrador termina con una pulla velada.",
+   "lines": [
+    {"text": "Lauschter mol mäi leschte Saz: „Merci un all — a besonnesch deenen, déi mir bäibruecht hunn, wéi een net féiert.“", "es": "Escucha mi última frase: «Gracias a todos, y en especial a quienes me enseñaron cómo no se debe dirigir»."},
+    {"text": "Dee Saz ass witzeg. E gëtt och nach virum Mëttegiesse weidergeschéckt.", "es": "Tiene gracia. Y la reenviarán antes de comer."},
+    {"text": "Hien huet et verdéngt.", "es": "Se lo ha ganado."},
+    {"text": "Vläicht. Mä d'Leit erënnere sech domat un dech — net un hien.", "es": "Quizá. Pero la gente te recordará a ti por ella, no a él."},
+    {"text": "Soll ech dann esou dinn, wéi wann alles gutt gewiescht wier?", "es": "¿Entonces tengo que fingir que todo fue bien?"},
+    {"text": "Neen, schreif just dat, fir wat s du wierklech dankbar bass. Dovu gëtt et genuch.", "es": "No, escribe solo aquello por lo que de verdad estás agradecida. De eso hay de sobra."},
+    {"text": "D'Kolleegen. D'Clienten. Datt ech geléiert hunn, nee ze soen.", "es": "Los compañeros. Los clientes. Haber aprendido a decir que no."},
+    {"text": "Do hues du et. Dat Lescht seet alles, ouni een ze nennen.", "es": "Ahí lo tienes. Lo último lo dice todo sin nombrar a nadie."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir la amiga con «Lo último lo dice todo sin nombrar a nadie»?",
+   "choices": ["Que esa frase deja entrever el conflicto con elegancia, sin un ataque directo", "Que la empleada debería nombrar a su jefe", "Que la frase no tiene ningún significado especial"]
+  },
+  "grammar": {
+   "focus": "Régimen preposicional de adjetivos de sentimiento: dankbar fir, houfreg op, frou iwwer",
+   "explain": "Los adjetivos que expresan sentimientos rigen preposiciones fijas: dankbar fir (agradecido por), houfreg op (orgulloso de), frou iwwer (contento de, por), traureg iwwer (triste por).",
+   "items": [
+    {"prompt": "Ech si dankbar ___ déi fënnef Joer bei Iech. (por)", "answer": "fir", "es": "Estoy agradecida por los cinco años con ustedes."},
+    {"prompt": "Ech si houfreg ___ dat, wat mir zesummen opgebaut hunn. (de)", "answer": "op", "es": "Estoy orgullosa de lo que construimos juntos."},
+    {"prompt": "Si ass frou ___ d'Zesummenaarbecht mat de Clienten. (por)", "answer": "iwwer", "es": "Está contenta por la colaboración con los clientes."}
+   ]
+  },
+  "vocab": [
+   {"text": "weidergeschéckt", "es": "reenviado", "example": "Esou eng Mail gëtt bannent e puer Minutte weidergeschéckt.", "example_es": "Un correo así se reenvía en pocos minutos."},
+   {"text": "nee ze soen", "es": "decir que no, plantarse", "example": "Hei hunn ech geléiert, nee ze soen.", "example_es": "Aquí he aprendido a decir que no."},
+   {"text": "eng verstoppt Attack", "es": "un ataque velado, una pulla", "example": "Eng Äddi-Mail ass net de Moment fir eng verstoppt Attack.", "example_es": "Un correo de despedida no es momento para una pulla."},
+   {"text": "mam Kapp héich", "es": "con la cabeza alta", "example": "Ech wëll mam Kapp héich goen.", "example_es": "Quiero irme con la cabeza alta."}
+  ],
+  "transfer": {
+   "prompt": "Escribe tu correo de despedida (6–8 frases) a toda la empresa tras una salida no del todo feliz: agradecimientos concretos, un aprendizaje, ninguna pulla y una puerta abierta.",
+   "model": "Léif alleguer, no fënnef Joer ass haut mäi leschten Dag, an ech wëll net goen, ouni uerdentlech Äddi ze soen. Ech si dankbar fir all d'Kolleegen, déi souguer déi stressegst Woche méi liicht gemaach hunn — a fir d'Clienten, déi mir gewisen hunn, wat gudde Service wierklech heescht. Ech si houfreg op d'Clientenequipe, déi mir zesummen opgebaut hunn, a frou iwwer d'Tatsaach, datt se haut staark do steet. Hei hunn ech och geléiert, nee ze soen, wann eppes kee Sënn mécht, an déi Lektioun huelen ech mat. Net alles war einfach, mä alles huet mech méi schlau gemaach. Den 1. Mee fänken ech op enger neier Plaz un, mä d'Welt ass kleng, an ech hoffen, datt eis Weeër sech nees kräizen. Schreift mir gär, wann dir mech braucht — oder einfach Loscht op e Kaffi hutt.",
+   "rubric": "Agradece de forma concreta (personas, situaciones); nombra un aprendizaje sin reproche; evita pullas y ajustes de cuentas; usa con corrección el régimen preposicional («dankbar fir», «houfreg op»); deja una puerta abierta; tono digno y cálido."
+  }
+ }
+}

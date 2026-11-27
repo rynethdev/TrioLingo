@@ -1,0 +1,81 @@
+{
+ "week": 152,
+ "da": {
+  "dialogue2": {
+   "context": "En una entrevista de trabajo, la reclutadora pregunta por un fracaso; la candidata empieza culpando al contexto y, ante la repregunta, asume su parte y extrae una lección.",
+   "lines": [
+    {"text": "Fortæl om et projekt, der ikke gik, som du havde håbet.", "es": "Cuéntame un proyecto que no salió como esperabas."},
+    {"text": "Vores app-lancering floppede, primært fordi markedet ændrede sig undervejs.", "es": "El lanzamiento de nuestra app fracasó, sobre todo porque el mercado cambió por el camino."},
+    {"text": "Det er markedet; hvad var din egen andel i det?", "es": "Eso es el mercado; ¿cuál fue tu propia parte en ello?"},
+    {"text": "Ærligt talt testede vi for sent; hvis vi havde vist en prototype til brugerne tidligere, havde vi opdaget problemet.", "es": "Sinceramente, probamos demasiado tarde; si hubiéramos enseñado antes un prototipo a los usuarios, habríamos detectado el problema."},
+    {"text": "Og hvad gør du anderledes i dag?", "es": "¿Y qué haces de otra manera hoy?"},
+    {"text": "Jeg tester i det små inden for de første fire uger, selv når holdet er sikkert på idéen.", "es": "Pruebo a pequeña escala en las primeras cuatro semanas, aunque el equipo esté convencido de la idea."},
+    {"text": "Ville projektet have klaret sig, hvis I havde gjort det dengang?", "es": "¿Habría salido adelante el proyecto si lo hubierais hecho entonces?"},
+    {"text": "Ikke nødvendigvis, men vi ville have tabt langt færre penge, før vi stoppede.", "es": "No necesariamente, pero habríamos perdido mucho menos dinero antes de pararlo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué cambia en la respuesta de la candidata tras la repregunta?",
+   "choices": ["Pasa de atribuir el fracaso al mercado a asumir su propia responsabilidad", "Retira el ejemplo y elige otro proyecto que sí salió bien", "Culpa ahora a su equipo en lugar de al mercado"]
+  },
+  "grammar": {
+   "focus": "Condicional irreal en pasado: hvis … havde + participio, ville have / havde + participio",
+   "explain": "Para hablar de lo que habría pasado: «Hvis vi havde testet tidligere, ville vi have opdaget det» (o, más oral, «… havde vi opdaget det»). Sin «hvis» se invierte el auxiliar: «Havde vi testet tidligere, …».",
+   "items": [
+    {"prompt": "Hvis vi ___ testet tidligere, havde vi opdaget problemet. (have, pretérito)", "answer": "havde", "es": "Si hubiéramos probado antes, habríamos detectado el problema."},
+    {"prompt": "Vi ville ___ tabt færre penge, hvis vi havde stoppet i tide. (have, infinitivo)", "answer": "have", "es": "Habríamos perdido menos dinero si hubiéramos parado a tiempo."},
+    {"prompt": "___ vi vist prototypen til brugerne, var fejlen blevet fundet. (condicional sin «hvis», inversión)", "answer": "Havde", "es": "De haber enseñado el prototipo a los usuarios, se habría encontrado el error."}
+   ]
+  },
+  "vocab": [
+   {"text": "floppede", "es": "fracasó (floppe)", "example": "Lanceringen floppede trods en stor kampagne.", "example_es": "El lanzamiento fracasó pese a una gran campaña."},
+   {"text": "din egen andel", "es": "tu propia parte (de responsabilidad)", "example": "Hvad var din egen andel i resultatet?", "example_es": "¿Cuál fue tu propia parte en el resultado?"},
+   {"text": "i det små", "es": "a pequeña escala", "example": "Vi afprøver altid nye idéer i det små først.", "example_es": "Siempre probamos las ideas nuevas primero a pequeña escala."},
+   {"text": "i tide", "es": "a tiempo", "example": "Hvis vi havde stoppet i tide, var tabet blevet mindre.", "example_es": "Si hubiéramos parado a tiempo, la pérdida habría sido menor."}
+  ],
+  "transfer": {
+   "prompt": "Escribe la respuesta (5–7 frases) a la pregunta de entrevista «Háblame de un fracaso»: situación breve, tu parte de responsabilidad, una hipótesis contrafactual, la lección y cómo la aplicas hoy.",
+   "model": "For to år siden ledte jeg lanceringen af en app til booking af træningstider, som blev lukket efter seks måneder. Markedet ændrede sig ganske vist undervejs, men min egen andel var, at vi først testede med rigtige brugere tre uger før lanceringen. Havde vi vist en simpel prototype allerede i første måned, ville vi have opdaget, at brugerne foretrak at booke via deres træningscenters egen app. Projektet var måske ikke blevet en succes, men vi ville have sparet både tid og penge. Lektien for mig er, at holdets begejstring aldrig kan erstatte reaktioner fra brugerne. I dag tester jeg derfor altid en idé i det små inden for de første fire uger, uanset hvor sikre vi er.",
+   "rubric": "Describe la situación con brevedad y sin dramatizar; asume una responsabilidad concreta propia; usa al menos un condicional irreal en pasado (havde … ville have / havde vi …); formula la lección en una frase; muestra cómo se aplica hoy."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En una entrevista de trabajo, la reclutadora pregunta por un fracaso; la candidata empieza culpando al contexto y, ante la repregunta, asume su parte y extrae una lección.",
+   "lines": [
+    {"text": "Erzielt mer vun engem Projet, deen net esou gelaf ass, wéi Dir gehofft hat.", "es": "Cuénteme un proyecto que no salió como esperaba."},
+    {"text": "Eisen App-Lancement war e Flop, virun allem well de Maart sech ënnerwee geännert huet.", "es": "El lanzamiento de nuestra app fue un fracaso, sobre todo porque el mercado cambió por el camino."},
+    {"text": "Dat ass de Maart; wat war Ären eegenen Undeel dorun?", "es": "Eso es el mercado; ¿cuál fue su propia parte en ello?"},
+    {"text": "Éierlech gesot hu mir ze spéit getest; wa mir de Benotzer méi fréi e Prototyp gewisen hätten, hätte mir de Problem entdeckt.", "es": "Sinceramente, probamos demasiado tarde; si hubiéramos enseñado antes un prototipo a los usuarios, habríamos detectado el problema."},
+    {"text": "A wat maacht Dir haut anescht?", "es": "¿Y qué hace de otra manera hoy?"},
+    {"text": "Ech teste bannent de véier éischte Wochen am Klengen, och wann d'Equipe vun der Iddi iwwerzeegt ass.", "es": "Pruebo a pequeña escala en las primeras cuatro semanas, aunque el equipo esté convencido de la idea."},
+    {"text": "Hätt de Projet et gepackt, wann Dir dat deemools gemaach hätt?", "es": "¿Habría salido adelante el proyecto si lo hubiera hecho entonces?"},
+    {"text": "Net onbedéngt, mä mir hätte vill manner Suen verluer, ier mir gestoppt hunn.", "es": "No necesariamente, pero habríamos perdido mucho menos dinero antes de pararlo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué cambia en la respuesta de la candidata tras la repregunta?",
+   "choices": ["Pasa de atribuir el fracaso al mercado a asumir su propia responsabilidad", "Retira el ejemplo y elige otro proyecto que sí salió bien", "Culpa ahora a su equipo en lugar de al mercado"]
+  },
+  "grammar": {
+   "focus": "Condicional irreal en pasado: wann … hätt / wier + participio",
+   "explain": "Para hablar de lo que habría pasado: «Wa mir méi fréi getest hätten, hätte mir de Problem entdeckt». En la subordinada el auxiliar va al final; en la principal, en segunda posición. Los verbos que forman el perfecto con «sinn» usan «wier»: «wier … gelaf».",
+   "items": [
+    {"prompt": "Wa mir méi fréi getest ___, hätte mir de Problem entdeckt. (hunn, Konjunktiv II plural)", "answer": "hätten", "es": "Si hubiéramos probado antes, habríamos detectado el problema."},
+    {"prompt": "Mir ___ vill manner Suen verluer, wa mir rechtzäiteg gestoppt hätten. (hunn, Konjunktiv II plural ante consonante)", "answer": "hätte", "es": "Habríamos perdido mucho menos dinero si hubiéramos parado a tiempo."},
+    {"prompt": "Wann de Prototyp fréier fäerdeg gewiescht ___, wier alles anescht gelaf. (sinn, Konjunktiv II)", "answer": "wier", "es": "Si el prototipo hubiera estado listo antes, todo habría ido de otra manera."}
+   ]
+  },
+  "vocab": [
+   {"text": "e Flop", "es": "un fracaso (coloquial)", "example": "De Lancement war trotz enger grousser Campagne e Flop.", "example_es": "El lanzamiento fue un fracaso pese a una gran campaña."},
+   {"text": "Undeel", "es": "parte (de responsabilidad)", "example": "Wat war Ären eegenen Undeel um Resultat?", "example_es": "¿Cuál fue su propia parte en el resultado?"},
+   {"text": "am Klengen", "es": "a pequeña escala", "example": "Mir testen nei Iddien ëmmer fir d'éischt am Klengen.", "example_es": "Siempre probamos las ideas nuevas primero a pequeña escala."},
+   {"text": "rechtzäiteg", "es": "a tiempo", "example": "Wa mir rechtzäiteg gestoppt hätten, wier de Verloscht méi kleng gewiescht.", "example_es": "Si hubiéramos parado a tiempo, la pérdida habría sido menor."}
+  ],
+  "transfer": {
+   "prompt": "Escribe la respuesta (5–7 frases) a la pregunta de entrevista «Háblame de un fracaso»: situación breve, tu parte de responsabilidad, una hipótesis contrafactual, la lección y cómo la aplicas hoy.",
+   "model": "Virun zwee Joer hunn ech de Lancement vun enger App geleet, mat där ee Trainingszäite buche konnt an déi no sechs Méint zougemaach gouf. De Maart huet sech zwar ënnerwee geännert, mä mäin eegenen Undeel war, datt mir eréischt dräi Woche virum Lancement mat richtege Benotzer getest hunn. Wa mir schonn am éischte Mount e simple Prototyp gewisen hätten, hätte mir entdeckt, datt d'Leit léiwer iwwer d'App vun hirem Fitnessstudio buchen. De Projet wier vläicht keen Erfolleg ginn, mä mir hätten Zäit a Suen gespuert. D'Lektioun fir mech ass, datt d'Begeeschterung vun enger Equipe ni d'Reaktioune vun de Benotzer ersetze kann. Haut testen ech dofir all Iddi bannent de véier éischte Wochen am Klengen, egal wéi sécher mir eis sinn.",
+   "rubric": "Describe la situación con brevedad y sin dramatizar; asume una responsabilidad concreta propia; usa al menos un condicional irreal en pasado (wa mir … hätten, hätte mir …); formula la lección en una frase; muestra cómo se aplica hoy."
+  }
+ }
+}

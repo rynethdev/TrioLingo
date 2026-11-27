@@ -1,0 +1,81 @@
+{
+ "week": 134,
+ "da": {
+  "dialogue2": {
+   "context": "Una jefa descubre que la persona a la que delegó un evento ha cambiado el lugar sin consultarle; aclara el margen de decisión sin desmotivarla.",
+   "lines": [
+    {"text": "Jeg kan se, at du har flyttet arrangementet til et andet sted; hvad var baggrunden?", "es": "Veo que has trasladado el evento a otro sitio; ¿cuál fue el motivo?"},
+    {"text": "Det første sted kunne ikke garantere adgang for kørestole, så jeg handlede hurtigt.", "es": "El primer sitio no podía garantizar el acceso en silla de ruedas, así que actué rápido."},
+    {"text": "Det er en god grund, og jeg er glad for, at du tænkte på det.", "es": "Es un buen motivo, y me alegra que pensaras en ello."},
+    {"text": "Men du synes, jeg burde have spurgt først?", "es": "¿Pero crees que debería haber preguntado antes?"},
+    {"text": "Ja, for stedet påvirker budgettet, og budgettet er en af de ting, du ikke må ændre alene.", "es": "Sí, porque el lugar afecta al presupuesto, y el presupuesto es una de las cosas que no puedes cambiar tú sola."},
+    {"text": "Prisen er faktisk den samme, så jeg troede ikke, det var nødvendigt.", "es": "En realidad el precio es el mismo, así que pensé que no hacía falta."},
+    {"text": "Så skulle du i det mindste have givet mig besked; du behøver ikke min tilladelse til alt, men jeg skal vide det, når rammerne berøres.", "es": "Entonces al menos deberías haberme avisado; no necesitas mi permiso para todo, pero tengo que saberlo cuando se tocan los límites acordados."},
+    {"text": "Forstået. Næste gang sender jeg en kort besked, inden jeg skriver under på noget.", "es": "Entendido. La próxima vez mando un mensaje breve antes de firmar nada."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué distinción hace la jefa en su respuesta?",
+   "choices": ["Que no hace falta pedir permiso para todo, pero sí avisar cuando se tocan los límites acordados", "Que el cambio de lugar fue un error y habrá que deshacerlo", "Que a partir de ahora todas las decisiones tendrán que pasar por ella"]
+  },
+  "grammar": {
+   "focus": "Modales deónticos: skal, må ikke, behøver ikke, bør",
+   "explain": "«Skal» expresa obligación; «må ikke», prohibición (no significa «no tener que»); «behøver ikke», que algo no es necesario; «bør», recomendación. «Du må ikke ændre budgettet» = no puedes cambiar el presupuesto.",
+   "items": [
+    {"prompt": "Budgettet ___ du ikke ændre uden at spørge mig. (prohibición)", "answer": "må", "es": "El presupuesto no puedes cambiarlo sin preguntarme."},
+    {"prompt": "Du ___ ikke min tilladelse til hver eneste detalje. (no es necesario)", "answer": "behøver", "es": "No necesitas mi permiso para cada detalle."},
+    {"prompt": "Du ___ give mig besked, så snart rammerne berøres. (obligación)", "answer": "skal", "es": "Tienes que avisarme en cuanto se toquen los límites acordados."}
+   ]
+  },
+  "vocab": [
+   {"text": "give besked", "es": "avisar", "example": "Husk at give besked, hvis noget ændrer sig.", "example_es": "Acuérdate de avisar si algo cambia."},
+   {"text": "baggrunden", "es": "el motivo, el trasfondo", "example": "Hvad var baggrunden for beslutningen?", "example_es": "¿Cuál fue el motivo de la decisión?"},
+   {"text": "skrive under på", "es": "firmar", "example": "Du må ikke skrive under på noget, før vi har talt sammen.", "example_es": "No firmes nada antes de que hayamos hablado."},
+   {"text": "en tilladelse", "es": "un permiso", "example": "Du har ikke brug for en tilladelse til små ændringer.", "example_es": "No necesitas permiso para cambios pequeños."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el mensaje de delegación (5–7 frases) para la persona que organizará el próximo evento: objetivo, lo que es fijo, lo que decide sola, cuándo debe informar y cuándo debe consultar.",
+   "model": "Jeg vil gerne overlade planlægningen af sommerfesten til dig. Målet er en uformel aften, hvor alle medarbejdere føler sig velkomne. Dato og et budget på 40.000 kr. ligger fast og må ikke ændres uden min godkendelse. Mad, musik og program bestemmer du selv, og du behøver ikke spørge mig om detaljer. Skifter du leverandør eller sted, skal du dog give mig besked samme dag. Overstiger en enkelt udgift 5.000 kr., bør vi tage en kort snak, før du skriver under. Jeg glæder mig til at se, hvad du finder på.",
+   "rubric": "Formula el objetivo antes de los límites; distingue con modales precisos lo obligatorio (skal), lo prohibido (må ikke), lo innecesario (behøver ikke) y lo recomendable (bør); fija al menos un umbral concreto; cierra con un mensaje de confianza."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una jefa descubre que la persona a la que delegó un evento ha cambiado el lugar sin consultarle; aclara el margen de decisión sin desmotivarla.",
+   "lines": [
+    {"text": "Ech gesinn, datt s du den Event op eng aner Plaz verluecht hues; wat war de Grond?", "es": "Veo que has trasladado el evento a otro sitio; ¿cuál fue el motivo?"},
+    {"text": "Déi éischt Plaz konnt keen Zougang fir Rollstill garantéieren, also hunn ech séier gehandelt.", "es": "El primer sitio no podía garantizar el acceso en silla de ruedas, así que actué rápido."},
+    {"text": "Dat ass e gudde Grond, an ech si frou, datt s du un dat geduecht hues.", "es": "Es un buen motivo, y me alegra que pensaras en ello."},
+    {"text": "Mä du fënns, ech hätt fir d'éischt solle froen?", "es": "¿Pero crees que debería haber preguntado antes?"},
+    {"text": "Jo, well d'Plaz de Budget beaflosst, an de Budget gehéiert zu deene Saachen, déi s du net eleng änneren darfs.", "es": "Sí, porque el lugar afecta al presupuesto, y el presupuesto es de las cosas que no puedes cambiar tú sola."},
+    {"text": "De Präis ass iwwregens dee selwechten, also hunn ech geduecht, et wier net néideg.", "es": "Por cierto, el precio es el mismo, así que pensé que no hacía falta."},
+    {"text": "Da hätts du mer op d'mannst Bescheed solle soen; du brauchs net fir alles meng Erlaabnis, mä ech muss et wëssen, wann de Kader beréiert gëtt.", "es": "Entonces al menos deberías haberme avisado; no necesitas mi permiso para todo, pero tengo que saberlo cuando se tocan los límites acordados."},
+    {"text": "Verstanen. Déi nächste Kéier schécken ech eng kuerz Noriicht, ier ech eppes ënnerschreiwen.", "es": "Entendido. La próxima vez mando un mensaje breve antes de firmar nada."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué distinción hace la jefa en su respuesta?",
+   "choices": ["Que no hace falta pedir permiso para todo, pero sí avisar cuando se tocan los límites acordados", "Que el cambio de lugar fue un error y habrá que deshacerlo", "Que a partir de ahora todas las decisiones tendrán que pasar por ella"]
+  },
+  "grammar": {
+   "focus": "Modales deónticos: mussen, net däerfen, net brauchen ze",
+   "explain": "«Mussen» expresa obligación; «net däerfen», prohibición; «net brauchen ze», que algo no es necesario (Du brauchs net ze froen); «sollen», recomendación o encargo. Ojo: «du brauchs net ze froen» significa «no hace falta que preguntes», no «no puedes preguntar».",
+   "items": [
+    {"prompt": "De Budget ___ du net ouni meng Zoustëmmung änneren. (prohibición, 2.ª persona)", "answer": "darfs", "es": "El presupuesto no puedes cambiarlo sin mi aprobación."},
+    {"prompt": "Du brauchs mech net fir all Detail ___ froen. (no es necesario: brauchen net …)", "answer": "ze", "es": "No hace falta que me preguntes por cada detalle."},
+    {"prompt": "Du ___ mer Bescheed soen, soubal de Kader beréiert gëtt. (obligación)", "answer": "muss", "es": "Tienes que avisarme en cuanto se toquen los límites acordados."}
+   ]
+  },
+  "vocab": [
+   {"text": "Bescheed soen", "es": "avisar", "example": "Du muss mer just Bescheed soen, wann sech eppes ännert.", "example_es": "Solo tienes que avisarme si algo cambia."},
+   {"text": "de Grond", "es": "el motivo", "example": "Wat war de Grond fir dës Ännerung?", "example_es": "¿Cuál fue el motivo de este cambio?"},
+   {"text": "ënnerschreiwen", "es": "firmar", "example": "Virum Ënnerschreiwen huelen ech kuerz Récksprooch mat dir.", "example_es": "Antes de firmar lo consulto brevemente contigo."},
+   {"text": "Erlaabnis", "es": "permiso (d'Erlaabnis)", "example": "Fir kleng Ännerunge brauchs du keng Erlaabnis.", "example_es": "Para cambios pequeños no necesitas permiso."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el mensaje de delegación (5–7 frases) para la persona que organizará el próximo evento: objetivo, lo que es fijo, lo que decide sola, cuándo debe informar y cuándo debe consultar.",
+   "model": "Ech géif der gär d'Organisatioun vum Summerfest iwwerloossen. D'Zil ass en ongezwongenen Owend, wou all Mataarbechter sech wëllkomm fillen. Den Datum an de Budget vu 40.000 € si fix an däerfen net ouni meng Zoustëmmung geännert ginn. Iessen, Musek a Programm decidéiers du selwer, an du brauchs mech net iwwer all Detail ze froen. Wann s du de Fournisseur oder d'Plaz wiessels, muss du mer awer nach deeselwechten Dag Bescheed soen. Wann eng eenzel Ausgab iwwer 5.000 € läit, solle mir kuerz schwätzen, ier s du ënnerschreifs. Ech si gespaant, wat s du dir afale léiss.",
+   "rubric": "Formula el objetivo antes de los límites; distingue con modales precisos lo obligatorio (mussen), lo prohibido (net däerfen), lo innecesario (net brauchen ze) y lo recomendable (sollen); fija al menos un umbral concreto; cierra con un mensaje de confianza."
+  }
+ }
+}

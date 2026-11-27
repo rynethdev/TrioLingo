@@ -1,0 +1,81 @@
+{
+ "week": 144,
+ "da": {
+  "dialogue2": {
+   "context": "Una responsable de RR. HH. presenta el borrador de una norma sobre correos fuera de horario; un jefe de equipo la encuentra ambigua y pide precisar el alcance.",
+   "lines": [
+    {"text": "Udkastet siger, at medarbejderne ikke forventes at svare på mails efter kl. 18.", "es": "El borrador dice que no se espera que la plantilla conteste correos después de las 18."},
+    {"text": "Fint, men gælder det for alle, også vagtholdet og kundeservice?", "es": "Bien, pero ¿vale para todos, también para el equipo de guardia y atención al cliente?"},
+    {"text": "Nej, med undtagelse af vagtholdet, som er reguleret i en særskilt aftale.", "es": "No, con excepción del equipo de guardia, que se rige por un acuerdo aparte."},
+    {"text": "Så bør det stå eksplicit, ellers tolker folk reglen hver på sin måde.", "es": "Entonces debería figurar de forma explícita; si no, cada uno interpreta la norma a su manera."},
+    {"text": "Enig. Og for så vidt angår ledere, foreslår jeg, at de heller ikke sender mails om aftenen.", "es": "De acuerdo. Y en lo que respecta a los jefes, propongo que tampoco envíen correos por la noche."},
+    {"text": "Det bliver svært; skal det være et forbud eller en anbefaling?", "es": "Eso va a ser difícil; ¿debe ser una prohibición o una recomendación?"},
+    {"text": "En anbefaling: de må gerne skrive, men mailen skal planlægges til næste morgen.", "es": "Una recomendación: pueden escribir, pero el correo debe programarse para la mañana siguiente."},
+    {"text": "Det er en klar formulering; så kan folk se både formålet og grænserne.", "es": "Es una formulación clara; así la gente ve tanto el objetivo como los límites."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué solución dan al caso de los jefes que escriben por la noche?",
+   "choices": ["Una recomendación: pueden escribir, pero programando el envío para la mañana siguiente", "Una prohibición total de escribir correos fuera de horario", "Una excepción que les permite enviar correos sin ningún límite"]
+  },
+  "grammar": {
+   "focus": "Expresiones formales de alcance: med undtagelse af, i henhold til, for så vidt angår",
+   "explain": "Las normas delimitan su alcance con expresiones fijas: «med undtagelse af» (con excepción de), «i henhold til» (conforme a) y «for så vidt angår» (en lo que respecta a). Todas van seguidas de un sustantivo.",
+   "items": [
+    {"prompt": "Reglen gælder for alle ansatte med ___ af vagtholdet. (excepción)", "answer": "undtagelse", "es": "La norma se aplica a toda la plantilla, con excepción del equipo de guardia."},
+    {"prompt": "Vagtholdet arbejder i ___ til en særskilt aftale. (conforme a)", "answer": "henhold", "es": "El equipo de guardia trabaja conforme a un acuerdo aparte."},
+    {"prompt": "For så vidt ___ ledere, gælder reglen som en anbefaling. (en lo que respecta a)", "answer": "angår", "es": "En lo que respecta a los jefes, la norma rige como recomendación."}
+   ]
+  },
+  "vocab": [
+   {"text": "særskilt", "es": "aparte, específico", "example": "Vagtholdet er reguleret i en særskilt aftale.", "example_es": "El equipo de guardia se rige por un acuerdo aparte."},
+   {"text": "eksplicit", "es": "de forma explícita", "example": "Undtagelsen skal stå eksplicit i teksten.", "example_es": "La excepción debe figurar de forma explícita en el texto."},
+   {"text": "hver på sin måde", "es": "cada uno a su manera", "example": "Uden klare ord tolker folk reglen hver på sin måde.", "example_es": "Sin palabras claras, cada uno interpreta la norma a su manera."},
+   {"text": "grænserne", "es": "los límites", "example": "Teksten skal vise både formålet og grænserne.", "example_es": "El texto debe mostrar tanto el objetivo como los límites."}
+  ],
+  "transfer": {
+   "prompt": "Redacta la norma definitiva (5–7 frases) sobre correos fuera de horario: objetivo, regla, alcance, excepción y qué se recomienda a los jefes; usa expresiones formales de alcance.",
+   "model": "Politik for mails uden for arbejdstid. Formålet er at sikre medarbejderne reel restitution og forebygge stress. Medarbejderne forventes ikke at læse eller besvare arbejdsmails mellem kl. 18 og kl. 7 samt i weekenderne. Reglen gælder for alle ansatte med undtagelse af vagtholdet, som arbejder i henhold til en særskilt vagtaftale. For så vidt angår ledere, anbefales det, at mails skrevet om aftenen planlægges til afsendelse næste morgen. Politikken evalueres efter et år.",
+   "rubric": "Abre con el objetivo; formula la regla de forma inequívoca; delimita alcance y excepción con expresiones formales (med undtagelse af, i henhold til, for så vidt angår); distingue entre obligación y recomendación; prevé una revisión."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una responsable de RR. HH. presenta el borrador de una norma sobre correos fuera de horario; un jefe de equipo la encuentra ambigua y pide precisar el alcance.",
+   "lines": [
+    {"text": "Am Entworf steet, datt vun de Mataarbechter net erwaart gëtt, no 18 Auer op Mailen z'äntweren.", "es": "El borrador dice que no se espera que la plantilla conteste correos después de las 18."},
+    {"text": "Gutt, mä gëllt dat fir jiddereen, och fir d'Permanence an de Clientsservice?", "es": "Bien, pero ¿vale para todos, también para el equipo de guardia y atención al cliente?"},
+    {"text": "Neen, mat Ausnam vun der Permanence, déi an enger separater Ofmaachung gereegelt ass.", "es": "No, con excepción del equipo de guardia, que se rige por un acuerdo aparte."},
+    {"text": "Da sollt dat explizit drastoen, soss interpretéiert jiddereen d'Reegel op seng Manéier.", "es": "Entonces debería figurar de forma explícita; si no, cada uno interpreta la norma a su manera."},
+    {"text": "D'accord. A wat d'Cheffen ugeet, proposéieren ech, datt si owes och keng Mailen ofschécken.", "es": "De acuerdo. Y en lo que respecta a los jefes, propongo que tampoco envíen correos por la noche."},
+    {"text": "Dat gëtt schwéier; soll dat e Verbuet sinn oder eng Recommandatioun?", "es": "Eso va a ser difícil; ¿debe ser una prohibición o una recomendación?"},
+    {"text": "Eng Recommandatioun: si dierfe schreiwen, mä d'Mail muss op de nächste Moie programméiert ginn.", "es": "Una recomendación: pueden escribir, pero el correo debe programarse para la mañana siguiente."},
+    {"text": "Dat ass eng kloer Formuléierung; esou gesinn d'Leit souwuel d'Zil wéi och d'Grenzen.", "es": "Es una formulación clara; así la gente ve tanto el objetivo como los límites."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué solución dan al caso de los jefes que escriben por la noche?",
+   "choices": ["Una recomendación: pueden escribir, pero programando el envío para la mañana siguiente", "Una prohibición total de escribir correos fuera de horario", "Una excepción que les permite enviar correos sin ningún límite"]
+  },
+  "grammar": {
+   "focus": "Expresiones formales de alcance: mat Ausnam vun, geméiss, wat … ugeet",
+   "explain": "Las normas delimitan su alcance con fórmulas fijas: «mat Ausnam vun» (con excepción de), «geméiss» + dativo (conforme a) y «wat … ugeet» (en lo que respecta a), que ocupa la primera posición: Wat d'Cheffen ugeet, gëllt …",
+   "items": [
+    {"prompt": "D'Reegel gëllt fir all Mataarbechter mat ___ vun der Permanence. (excepción)", "answer": "Ausnam", "es": "La norma se aplica a toda la plantilla, con excepción del equipo de guardia."},
+    {"prompt": "D'Permanence schafft ___ enger separater Ofmaachung. (conforme a)", "answer": "geméiss", "es": "El equipo de guardia trabaja conforme a un acuerdo aparte."},
+    {"prompt": "Wat d'Cheffen ___, gëllt d'Reegel als Recommandatioun. (en lo que respecta a)", "answer": "ugeet", "es": "En lo que respecta a los jefes, la norma rige como recomendación."}
+   ]
+  },
+  "vocab": [
+   {"text": "separat", "es": "aparte, específico", "example": "D'Permanence ass an enger separater Ofmaachung gereegelt.", "example_es": "El equipo de guardia se rige por un acuerdo aparte."},
+   {"text": "explizit", "es": "de forma explícita", "example": "D'Ausnam muss explizit am Text stoen.", "example_es": "La excepción debe figurar de forma explícita en el texto."},
+   {"text": "op seng Manéier", "es": "a su manera", "example": "Soss interpretéiert jiddereen d'Reegel op seng Manéier.", "example_es": "Si no, cada uno interpreta la norma a su manera."},
+   {"text": "d'Grenzen", "es": "los límites", "example": "D'Grenzen an d'Zil musse kloer sinn.", "example_es": "Los límites y el objetivo tienen que estar claros."}
+  ],
+  "transfer": {
+   "prompt": "Redacta la norma definitiva (5–7 frases) sobre correos fuera de horario: objetivo, regla, alcance, excepción y qué se recomienda a los jefes; usa expresiones formales de alcance.",
+   "model": "Reegel fir Mailen ausserhalb vun der Aarbechtszäit. D'Zil ass, de Mataarbechter eng richteg Erhuelung z'erméiglechen a Stress virzebeugen. Vun de Mataarbechter gëtt net erwaart, datt se tëschent 18 an 7 Auer an um Weekend Aarbechtsmaile liesen oder beäntweren. D'Reegel gëllt fir all Mataarbechter mat Ausnam vun der Permanence, déi geméiss enger separater Ofmaachung schafft. Wat d'Cheffen ugeet, gëtt recommandéiert, owes geschriwwe Mailen op de nächste Moie ze programméieren. D'Reegel gëtt no engem Joer evaluéiert.",
+   "rubric": "Abre con el objetivo; formula la regla de forma inequívoca; delimita alcance y excepción con fórmulas formales (mat Ausnam vun, geméiss, wat … ugeet); distingue entre obligación y recomendación; prevé una revisión."
+  }
+ }
+}

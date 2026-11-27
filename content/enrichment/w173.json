@@ -1,0 +1,81 @@
+{
+ "week": 173,
+ "da": {
+  "dialogue2": {
+   "context": "El portavoz de una compañía ferroviaria atiende por teléfono a una periodista durante una avería de señalización que ha paralizado la red; ella presiona para arrancarle una hora de reanudación.",
+   "lines": [
+    {"text": "Togene har holdt stille i to timer. Hvornår kører de igen?", "es": "Los trenes llevan dos horas parados. ¿Cuándo vuelven a circular?"},
+    {"text": "Det kan jeg ikke love et tidspunkt for. Fejlen er fundet, men ikke rettet.", "es": "No puedo comprometerme a una hora. La avería está localizada, pero no reparada."},
+    {"text": "Mine kilder siger, at det kan tage hele aftenen.", "es": "Mis fuentes dicen que puede llevar toda la noche."},
+    {"text": "Det kan jeg hverken be- eller afkræfte. Det, jeg ved, er, at vi har sat busser ind på de vigtigste strækninger.", "es": "No puedo ni confirmarlo ni desmentirlo. Lo que sé es que hemos puesto autobuses en los tramos principales."},
+    {"text": "Det lyder som en undskyldning for ikke at svare.", "es": "Suena a excusa para no responder."},
+    {"text": "Det er et forsøg på ikke at give folk et tal, der viser sig at være forkert.", "es": "Es un intento de no dar a la gente una cifra que luego resulte falsa."},
+    {"text": "Og hvornår ved I mere?", "es": "¿Y cuándo sabréis más?"},
+    {"text": "Klokken atten melder vi ud igen — også hvis der ikke er nyt.", "es": "A las seis volvemos a informar, aunque no haya novedades."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué se niega el portavoz a dar una hora de reanudación?",
+   "choices": ["Porque una hora incumplida dañaría más la confianza que reconocer la incertidumbre", "Porque oculta que la avería es mucho más grave", "Porque no está autorizado a hablar con la prensa"]
+  },
+  "grammar": {
+   "focus": "Perfecto con «i» y «siden» para situaciones que continúan",
+   "explain": "Para algo que empezó en el pasado y sigue, el danés usa el perfecto: Togene har holdt stille i to timer (llevan dos horas parados). «I» va con una duración; «siden», con el punto de inicio: Vi har arbejdet på det siden klokken 14.",
+   "items": [
+    {"prompt": "Signalfejlen ___ lammet nettet siden klokken fjorten. (have)", "answer": "har", "es": "La avería de señalización tiene paralizada la red desde las dos."},
+    {"prompt": "Vi har arbejdet på fejlen ___ to timer. (duración)", "answer": "i", "es": "Llevamos dos horas trabajando en la avería."},
+    {"prompt": "Passagererne har ventet ___ middag. (punto de inicio)", "answer": "siden", "es": "Los pasajeros esperan desde mediodía."}
+   ]
+  },
+  "vocab": [
+   {"text": "hverken be- eller afkræfte", "es": "ni confirmar ni desmentir", "example": "Det rygte kan vi hverken be- eller afkræfte.", "example_es": "Ese rumor no podemos ni confirmarlo ni desmentirlo."},
+   {"text": "melder ud", "es": "comunica, informa (públicamente)", "example": "Selskabet melder ud igen klokken atten.", "example_es": "La compañía vuelve a informar a las seis."},
+   {"text": "på nuværende tidspunkt", "es": "en este momento", "example": "På nuværende tidspunkt kender vi ikke årsagen.", "example_es": "En este momento no conocemos la causa."},
+   {"text": "vise sig at være", "es": "resultar ser", "example": "Et forhastet tal kan vise sig at være forkert.", "example_es": "Una cifra precipitada puede resultar falsa."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el mensaje (6–8 frases) que la compañía publica en su web y redes durante la avería. Público: viajeros enfadados; propósito: informar con transparencia de lo que se sabe y lo que no, de las alternativas y de la próxima actualización.",
+   "model": "Siden klokken 14.10 har en signalfejl ved hovedbanegården standset al togtrafik i regionen. Vi har fundet fejlen og arbejder på at rette den, men vi kan endnu ikke sige, hvornår togene kører igen. Vi vil hellere være ærlige om det end give jer et tidspunkt, vi ikke kan holde. Der er sat busser ind mellem de største stationer, og de kører hvert kvarter. Billetter til i dag gælder også i busserne og til en senere rejse. Vi ved, at det rammer mange på vej hjem, og vi beklager det dybt. Næste opdatering kommer senest klokken 18.00 — også selv om der ikke er nyt.",
+   "rubric": "Distingue claramente lo sabido de lo desconocido; no especula ni da plazos sin respaldo; ofrece alternativas concretas; reconoce el perjuicio sin fórmulas vacías; fija una hora para la próxima actualización; frases breves y claras."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "El portavoz de una compañía ferroviaria atiende por teléfono a una periodista durante una avería de señalización que ha paralizado la red; ella presiona para arrancarle una hora de reanudación.",
+   "lines": [
+    {"text": "D'Zich stinn zënter zwou Stonnen. Wéini fuere se erëm?", "es": "Los trenes llevan dos horas parados. ¿Cuándo vuelven a circular?"},
+    {"text": "Do kann ech keng Auerzäit verspriechen. De Feeler ass fonnt, mä nach net reparéiert.", "es": "No puedo prometer ninguna hora. La avería está localizada, pero aún no reparada."},
+    {"text": "Meng Quelle soen, datt et de ganzen Owend dauere kéint.", "es": "Mis fuentes dicen que podría durar toda la noche."},
+    {"text": "Dat kann ech weder bestätegen nach dementéieren. Wat ech weess: mir hunn op den Haaptstrecken Bussen agesat.", "es": "No puedo ni confirmarlo ni desmentirlo. Lo que sé es que hemos puesto autobuses en las líneas principales."},
+    {"text": "Dat klengt wéi eng Ausried, fir net ze äntweren.", "es": "Suena a excusa para no responder."},
+    {"text": "Et ass de Versuch, de Leit keng Zuel ze ginn, déi sech herno als falsch erausstellt.", "es": "Es el intento de no dar a la gente una cifra que luego resulte falsa."},
+    {"text": "A wéini wësst Dir méi?", "es": "¿Y cuándo sabrán más?"},
+    {"text": "Um sechs Auer melle mir eis erëm — och wann et näischt Neies gëtt.", "es": "A las seis volvemos a informar, aunque no haya novedades."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué se niega el portavoz a dar una hora de reanudación?",
+   "choices": ["Porque una hora incumplida dañaría más la confianza que reconocer la incertidumbre", "Porque oculta que la avería es mucho más grave", "Porque no está autorizado a hablar con la prensa"]
+  },
+  "grammar": {
+   "focus": "«zënter» + presente para situaciones que continúan",
+   "explain": "Para algo que empezó en el pasado y sigue, el luxemburgués usa el presente con «zënter», tanto para la duración como para el punto de inicio: D'Zich stinn zënter zwou Stonnen; mir schaffen zënter 14 Auer drun. «Schonn» refuerza la idea de duración.",
+   "items": [
+    {"prompt": "D'Netz ___ zënter 14 Auer lamgeluecht. (sinn, presente)", "answer": "ass", "es": "La red está paralizada desde las dos."},
+    {"prompt": "Mir schaffen ___ zwou Stonnen um Feeler. (desde hace)", "answer": "zënter", "es": "Llevamos dos horas trabajando en la avería."},
+    {"prompt": "D'Passagéier waarde ___ zënter Mëtteg. (refuerzo: ya)", "answer": "schonn", "es": "Los pasajeros esperan ya desde mediodía."}
+   ]
+  },
+  "vocab": [
+   {"text": "weder bestätegen nach dementéieren", "es": "ni confirmar ni desmentir", "example": "Dat Gerücht kënne mir weder bestätegen nach dementéieren.", "example_es": "Ese rumor no podemos ni confirmarlo ni desmentirlo."},
+   {"text": "erëm mellen", "es": "volver a informar", "example": "Mir wäerten eis um sechs Auer erëm mellen.", "example_es": "Volveremos a informar a las seis."},
+   {"text": "de Moment", "es": "en este momento", "example": "De Moment kenne mir d'Ursaach nach net.", "example_es": "En este momento aún no conocemos la causa."},
+   {"text": "als falsch erausstellen", "es": "resultar falso", "example": "Eng virschnell Zuel kann sech als falsch erausstellen.", "example_es": "Una cifra precipitada puede resultar falsa."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el mensaje (6–8 frases) que la compañía publica en su web y redes durante la avería. Público: viajeros enfadados; propósito: informar con transparencia de lo que se sabe y lo que no, de las alternativas y de la próxima actualización.",
+   "model": "Zënter 14.10 Auer leeft wéinst engem Feeler un der Signalisatioun keen Zuch méi um ganzen Netz. Mir hunn d'Ursaach fonnt a schaffen drun, mä mir kënnen nach net soen, wéini d'Zich erëm fueren. Mir si léiwer éierlech, wéi Iech eng Auerzäit ze nennen, déi mir net halen. Tëscht de gréissten Statioune fuere Bussen all Véierelstonn. D'Billjeeë fir haut gëllen och an de Bussen a fir eng spéider Rees. Mir wëssen, datt dat vill Leit op hirem Heemwee trëfft, an et deet eis wierklech leed. Déi nächst Informatioun kënnt spéitstens um 18 Auer — och wann et bis dohinner näischt Neies gëtt.",
+   "rubric": "Distingue claramente lo sabido de lo desconocido; no especula ni da plazos sin respaldo; ofrece alternativas concretas; reconoce el perjuicio sin fórmulas vacías; fija una hora para la próxima actualización; frases breves y claras."
+  }
+ }
+}

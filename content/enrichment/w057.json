@@ -1,0 +1,77 @@
+{
+ "week": 57,
+ "da": {
+  "dialogue2": {
+   "context": "Por teléfono: un empleado de una tienda informa a su jefa, que está de viaje, de una fuga de agua en el almacén.",
+   "lines": [
+    {"text": "Hej Lise, der var et problem i butikken i morges.", "es": "Hola, Lise, esta mañana hubo un problema en la tienda."},
+    {"text": "Åh nej, hvad er der sket?", "es": "Vaya, ¿qué ha pasado?"},
+    {"text": "Et rør gik i stykker, og der stod vand på lageret.", "es": "Se rompió una tubería y había agua en el almacén."},
+    {"text": "Blev nogen af varerne ødelagt?", "es": "¿Se estropeó parte de la mercancía?"},
+    {"text": "Kun nogle papkasser. Jeg flyttede resten og ringede til en VVS'er.", "es": "Solo unas cajas de cartón. Moví el resto y llamé a un fontanero."},
+    {"text": "Godt klaret. Send mig nogle billeder, så jeg kan melde det til forsikringen.", "es": "Bien hecho. Mándame unas fotos para que pueda dar parte al seguro."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué está satisfecha la jefa con el empleado?",
+   "choices": ["Porque reaccionó rápido: salvó la mercancía y llamó a un fontanero", "Porque no se dañó nada en todo el almacén", "Porque él mismo arregló la tubería rota"]
+  },
+  "grammar": {
+   "focus": "Datid de verbos regulares (-ede / -te)",
+   "explain": "Los verbos regulares forman la datid con -ede (flytte → flyttede, ringe → ringede) o con -te (købe → købte, sende → sendte). Se usa para hechos terminados en un momento concreto.",
+   "items": [
+    {"prompt": "I går ___ jeg alle kasserne ind på lageret. (flytte)", "answer": "flyttede", "es": "Ayer metí todas las cajas en el almacén."},
+    {"prompt": "Hun ___ billederne til chefen med det samme. (sende)", "answer": "sendte", "es": "Mandó las fotos a la jefa enseguida."},
+    {"prompt": "Vi ___ efter en VVS'er klokken syv. (ringe)", "answer": "ringede", "es": "Llamamos a un fontanero a las siete."}
+   ]
+  },
+  "vocab": [
+   {"text": "gik i stykker", "es": "se rompió", "example": "Et rør gik i stykker i nat.", "example_es": "Esta noche se rompió una tubería."},
+   {"text": "ødelagt", "es": "estropeado", "example": "Nogle papkasser blev ødelagt af vandet.", "example_es": "El agua estropeó algunas cajas de cartón."},
+   {"text": "Godt klaret", "es": "Bien hecho", "example": "Godt klaret, du reagerede hurtigt.", "example_es": "Bien hecho, reaccionaste rápido."},
+   {"text": "melde det til forsikringen", "es": "dar parte al seguro", "example": "Jeg skal melde det til forsikringen i dag.", "example_es": "Hoy tengo que dar parte al seguro."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo breve a tu jefe sobre un incidente de ayer en la oficina: se fue la luz durante una hora. Di qué pasó, cuándo y qué hiciste (4 frases).",
+   "model": "Hej Jens. I går klokken tre gik strømmen i hele kontoret. Computerne slukkede, og vi mistede noget arbejde. Jeg ringede til elektrikeren og informerede kunderne om forsinkelsen. Efter en time virkede alt igen.",
+   "rubric": "Usa al menos tres verbos en datid, indica la hora y termina con lo que hiciste o el resultado."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Por teléfono: un empleado de una tienda informa a su jefa, que está de viaje, de una fuga de agua en el almacén.",
+   "lines": [
+    {"text": "Moien Lise, mir haten de Moien e Problem am Geschäft.", "es": "Hola, Lise, esta mañana hemos tenido un problema en la tienda."},
+    {"text": "Oh nee, wat ass lass?", "es": "Vaya, ¿qué pasa?"},
+    {"text": "E Rouer ass futti gaangen, an am Lager war alles naass.", "es": "Se rompió una tubería y en el almacén estaba todo mojado."},
+    {"text": "Ass eppes vun der Wuer beschiedegt ginn?", "es": "¿Se ha dañado parte de la mercancía?"},
+    {"text": "Nëmmen e puer Kartongen. Ech hunn de Rescht ewechgedroen an en Installateur ugeruff.", "es": "Solo unas cajas de cartón. Saqué el resto y llamé a un fontanero."},
+    {"text": "Gutt gemaach. Schéck mir Fotoen, da kann ech et der Versécherung mellen.", "es": "Bien hecho. Mándame fotos, así puedo dar parte al seguro."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué está satisfecha la jefa con el empleado?",
+   "choices": ["Porque reaccionó rápido: salvó la mercancía y llamó a un fontanero", "Porque no se dañó nada en todo el almacén", "Porque él mismo arregló la tubería rota"]
+  },
+  "grammar": {
+   "focus": "Participios irregulares en el Perfekt",
+   "explain": "Muchos verbos frecuentes tienen participio irregular: falen → gefall, huelen → geholl, uruffen → ugeruff, droen → gedroen. El auxiliar (hunn o sinn) va en segunda posición y el participio al final.",
+   "items": [
+    {"prompt": "D'Këscht ass vum Camion ___. (falen)", "answer": "gefall", "es": "La caja se cayó del camión."},
+    {"prompt": "Ech hunn direkt den Installateur ___. (uruffen)", "answer": "ugeruff", "es": "Llamé enseguida al fontanero."},
+    {"prompt": "Wien huet de Schlëssel vum Lager ___? (huelen)", "answer": "geholl", "es": "¿Quién ha cogido la llave del almacén?"}
+   ]
+  },
+  "vocab": [
+   {"text": "futti gaangen", "es": "se ha roto", "example": "E Rouer ass futti gaangen.", "example_es": "Se ha roto una tubería."},
+   {"text": "naass", "es": "mojado", "example": "Am Lager war alles naass.", "example_es": "En el almacén estaba todo mojado."},
+   {"text": "Gutt gemaach", "es": "Bien hecho", "example": "Gutt gemaach, du hues séier reagéiert.", "example_es": "Bien hecho, reaccionaste rápido."},
+   {"text": "der Versécherung mellen", "es": "dar parte al seguro", "example": "Ech muss de Schued haut der Versécherung mellen.", "example_es": "Hoy tengo que dar parte de los daños al seguro."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo breve a tu jefe sobre un incidente de ayer en la oficina: se fue la luz durante una hora. Di qué pasó, cuándo y qué hiciste (4 frases).",
+   "model": "Moien Jos, gëschter um dräi Auer ass am ganze Büro de Stroum ausgefall. D'Computeren sinn ausgaangen, a mir hunn e bëssen Aarbecht verluer. Ech hunn den Elektriker ugeruff an d'Clienten informéiert. No enger Stonn huet alles erëm funktionéiert.",
+   "rubric": "Usa al menos tres verbos en Perfekt (incluido algún participio irregular), indica la hora y termina con lo que hiciste o el resultado."
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "week": 146,
+ "da": {
+  "dialogue2": {
+   "context": "La víspera de una jornada profesional, la ponente principal cancela; la coordinadora reorganiza el programa con un compañero que está agobiado.",
+   "lines": [
+    {"text": "Hovedtaleren har lige meldt afbud; hun er syg og kan ikke komme i morgen.", "es": "La ponente principal acaba de cancelar; está enferma y no puede venir mañana."},
+    {"text": "Det er en katastrofe; hele programmet er bygget op omkring hende.", "es": "Es una catástrofe; todo el programa está construido en torno a ella."},
+    {"text": "Lad os lige trække vejret; vi har stadig atten timer, inden dørene åbner.", "es": "Respiremos un momento; todavía tenemos dieciocho horas antes de que se abran las puertas."},
+    {"text": "Okay. Hvad gør vi med det tomme tidsrum kl. 10?", "es": "Vale. ¿Qué hacemos con la franja vacía de las 10?"},
+    {"text": "Vi rykker paneldebatten frem og forlænger den, indtil frokosten begynder.", "es": "Adelantamos el debate y lo alargamos hasta que empiece la comida."},
+    {"text": "Og hvem giver deltagerne besked?", "es": "¿Y quién avisa a los participantes?"},
+    {"text": "Det gør jeg, så snart vi har det nye program på plads, og du opdaterer skærmene i salen, mens jeg skriver.", "es": "Yo, en cuanto tengamos listo el nuevo programa, y tú actualizas las pantallas de la sala mientras escribo."},
+    {"text": "Godt; så længe ingen først hører om det om morgenen, kan det faktisk godt gå.", "es": "Bien; mientras nadie se entere por la mañana, puede salir bien de verdad."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué hace la coordinadora, además de reorganizar el programa?",
+   "choices": ["Calma a su compañero y reparte tareas concretas en un orden claro", "Busca a toda prisa otra ponente principal que sustituya a la enferma", "Decide cancelar la jornada y devolver el dinero de las inscripciones"]
+  },
+  "grammar": {
+   "focus": "Conectores temporales: inden, indtil, mens, så snart",
+   "explain": "«Inden» (antes de que), «indtil» (hasta que), «mens» (mientras) y «så snart» (en cuanto) introducen subordinadas temporales con orden de subordinada. Si la subordinada va primero, la principal empieza por el verbo: Så snart programmet er klar, skriver jeg.",
+   "items": [
+    {"prompt": "Vi har atten timer, ___ dørene åbner. (inden / indtil / mens)", "answer": "inden", "es": "Tenemos dieciocho horas antes de que se abran las puertas."},
+    {"prompt": "Panelet fortsætter, ___ frokosten begynder. (inden / indtil / mens)", "answer": "indtil", "es": "El panel continúa hasta que empiece la comida."},
+    {"prompt": "Du opdaterer skærmene, ___ jeg skriver til deltagerne. (inden / indtil / mens)", "answer": "mens", "es": "Tú actualizas las pantallas mientras yo escribo a los participantes."}
+   ]
+  },
+  "vocab": [
+   {"text": "meldt afbud", "es": "cancelado su asistencia", "example": "Taleren har meldt afbud i sidste øjeblik.", "example_es": "La ponente ha cancelado en el último momento."},
+   {"text": "trække vejret", "es": "respirar hondo, tomar aire", "example": "Lad os lige trække vejret, før vi beslutter noget.", "example_es": "Respiremos un momento antes de decidir nada."},
+   {"text": "et tomt tidsrum", "es": "una franja vacía", "example": "Vi skal fylde et tomt tidsrum på en time.", "example_es": "Tenemos que llenar una franja vacía de una hora."},
+   {"text": "på plads", "es": "listo, resuelto", "example": "Så snart programmet er på plads, giver vi besked.", "example_es": "En cuanto el programa esté listo, avisamos."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el mensaje urgente (5–6 frases) a los participantes: informa del cambio sin dramatizar, presenta el nuevo programa con conectores temporales y di qué se mantiene igual.",
+   "model": "Kære deltagere. Desværre har vores hovedtaler, Ida Holm, meldt afbud på grund af sygdom. Programmet er derfor tilpasset: Paneldebatten rykkes frem til kl. 10 og fortsætter, indtil frokosten begynder kl. 12. Eftermiddagens workshops gennemføres som planlagt, og tider og lokaler er uændrede. Ida Holm har tilbudt at holde sit oplæg online, så snart hun er rask, og I får besked, når datoen ligger fast. Vi glæder os til at se jer i morgen.",
+   "rubric": "Comunica el cambio en las dos primeras frases sin dramatizar; describe el nuevo orden con al menos dos conectores temporales (indtil, så snart, inden, mens); indica explícitamente qué no cambia; mantiene un tono sereno y orientado a la acción."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "La víspera de una jornada profesional, la ponente principal cancela; la coordinadora reorganiza el programa con un compañero que está agobiado.",
+   "lines": [
+    {"text": "D'Haaptriednerin huet grad ofgesot; si ass krank a ka muer net kommen.", "es": "La ponente principal acaba de cancelar; está enferma y no puede venir mañana."},
+    {"text": "Dat ass eng Katastroph; dat ganzt Programm ass ronderëm si opgebaut.", "es": "Es una catástrofe; todo el programa está construido en torno a ella."},
+    {"text": "Loosse mir mol déif ootmen; mir hunn nach uechtzéng Stonnen, ier d'Dieren opginn.", "es": "Respiremos hondo; todavía tenemos dieciocho horas antes de que se abran las puertas."},
+    {"text": "Okay. Wat maache mir mam Créneau um 10 Auer, deen elo eidel ass?", "es": "Vale. ¿Qué hacemos con la franja de las 10, que ahora está vacía?"},
+    {"text": "Mir zéien d'Paneldiskussioun vir a verlängeren se, bis d'Mëttegiessen ufänkt.", "es": "Adelantamos el debate y lo alargamos hasta que empiece la comida."},
+    {"text": "A wien seet de Participante Bescheed?", "es": "¿Y quién avisa a los participantes?"},
+    {"text": "Dat maachen ech, soubal mir dat neit Programm fäerdeg hunn, an du aktualiséiers d'Schiermer am Sall, wärend ech schreiwen.", "es": "Yo, en cuanto tengamos listo el nuevo programa, y tú actualizas las pantallas de la sala mientras escribo."},
+    {"text": "Gutt; soulaang keen eréischt moies dovun héiert, kann et tatsächlech goen.", "es": "Bien; mientras nadie se entere por la mañana, puede salir bien de verdad."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué hace la coordinadora, además de reorganizar el programa?",
+   "choices": ["Calma a su compañero y reparte tareas concretas en un orden claro", "Busca a toda prisa otra ponente principal que sustituya a la enferma", "Decide cancelar la jornada y devolver el dinero de las inscripciones"]
+  },
+  "grammar": {
+   "focus": "Conectores temporales: ier, bis, wärend, soubal",
+   "explain": "«Ier» (antes de que), «bis» (hasta que), «wärend» (mientras) y «soubal» (en cuanto) introducen subordinadas con el verbo al final. Si la subordinada va delante, la principal empieza por el verbo: Soubal d'Programm fäerdeg ass, schreiwen ech.",
+   "items": [
+    {"prompt": "Mir hunn nach uechtzéng Stonnen, ___ d'Dieren opginn. (ier / bis / wärend)", "answer": "ier", "es": "Todavía tenemos dieciocho horas antes de que se abran las puertas."},
+    {"prompt": "D'Panel geet weider, ___ d'Mëttegiessen ufänkt. (ier / bis / wärend)", "answer": "bis", "es": "El panel continúa hasta que empiece la comida."},
+    {"prompt": "Du aktualiséiers d'Schiermer, ___ ech de Participante schreiwen. (ier / bis / wärend)", "answer": "wärend", "es": "Tú actualizas las pantallas mientras yo escribo a los participantes."}
+   ]
+  },
+  "vocab": [
+   {"text": "ofgesot", "es": "cancelado", "example": "D'Riednerin huet am leschte Moment ofgesot.", "example_es": "La ponente ha cancelado en el último momento."},
+   {"text": "déif ootmen", "es": "respirar hondo", "example": "Loosse mir mol déif ootmen, ier mir eppes decidéieren.", "example_es": "Respiremos hondo antes de decidir nada."},
+   {"text": "soulaang", "es": "mientras, siempre que", "example": "Soulaang d'Participanten et rechtzäiteg wëssen, ass alles an der Rei.", "example_es": "Mientras los participantes lo sepan a tiempo, todo está bien."},
+   {"text": "aktualiséieren", "es": "actualizar", "example": "Du muss nach d'Schiermer am Sall aktualiséieren.", "example_es": "Todavía tienes que actualizar las pantallas de la sala."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el mensaje urgente (5–6 frases) a los participantes: informa del cambio sin dramatizar, presenta el nuevo programa con conectores temporales y di qué se mantiene igual.",
+   "model": "Léif Participanten, eis Haaptriednerin, d'Ida Holm, huet leider wéinst Krankheet ofgesot. D'Programm gouf dofir ugepasst: D'Paneldiskussioun gëtt op 10 Auer virgezunn a leeft, bis d'Mëttegiessen um 12 Auer ufänkt. D'Workshoppe vum Nomëtteg fanne wéi geplangt statt, an d'Auerzäiten an d'Säll bleiwen onverännert. D'Ida Holm huet ugebueden, hire Virtrag online ze halen, soubal si erëm gesond ass, an Dir kritt Bescheed, wann den Datum fix ass. Mir freeën eis, Iech muer ze gesinn.",
+   "rubric": "Comunica el cambio en las dos primeras frases sin dramatizar; describe el nuevo orden con al menos dos conectores temporales (bis, soubal, ier, wärend); indica explícitamente qué no cambia; mantiene un tono sereno y orientado a la acción."
+  }
+ }
+}

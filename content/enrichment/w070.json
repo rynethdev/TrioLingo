@@ -1,0 +1,77 @@
+{
+ "week": 70,
+ "da": {
+  "dialogue2": {
+   "context": "Un cliente llama a su compañía eléctrica porque la última factura es el doble de lo normal.",
+   "lines": [
+    {"text": "Hej, min elregning er dobbelt så høj som normalt.", "es": "Hola, mi factura de la luz es el doble de lo normal."},
+    {"text": "Lad mig se. Har du sendt os en måleraflæsning for nylig?", "es": "Déjeme ver. ¿Nos ha enviado hace poco una lectura del contador?"},
+    {"text": "Nej, det har jeg ikke gjort i et år.", "es": "No, hace un año que no lo hago."},
+    {"text": "Så har vi beregnet forbruget ud fra et skøn.", "es": "Entonces hemos calculado el consumo con una estimación."},
+    {"text": "Okay. Hvis jeg sender aflæsningen i dag, bliver regningen så rettet?", "es": "Vale. Si mando la lectura hoy, ¿me corrigen la factura?"},
+    {"text": "Ja, så får du en ny regning inden for en uge.", "es": "Sí, entonces recibirá una factura nueva en el plazo de una semana."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué la factura salió tan alta?",
+   "choices": ["Porque calcularon el consumo con una estimación al no tener lecturas", "Porque el cliente gastó el doble de electricidad", "Porque le cobraron una cuota de instalación"]
+  },
+  "grammar": {
+   "focus": "Førnutid: har + participio",
+   "explain": "La førnutid (har + participio) se usa para acciones pasadas con efecto en el presente o sin momento concreto: Jeg har betalt regningen. Con «ikke»: Jeg har ikke modtaget den.",
+   "items": [
+    {"prompt": "Jeg har allerede ___ regningen. (betale)", "answer": "betalt", "es": "Ya he pagado la factura."},
+    {"prompt": "Vi har ikke ___ din mail endnu. (modtage)", "answer": "modtaget", "es": "Todavía no hemos recibido tu correo."},
+    {"prompt": "Har du ___ måleren i år? (aflæse)", "answer": "aflæst", "es": "¿Has leído el contador este año?"}
+   ]
+  },
+  "vocab": [
+   {"text": "elregning", "es": "factura de la luz", "example": "Min elregning er dobbelt så høj som normalt.", "example_es": "Mi factura de la luz es el doble de lo normal."},
+   {"text": "dobbelt så høj", "es": "el doble de alta", "example": "Regningen er dobbelt så høj som sidste år.", "example_es": "La factura es el doble que el año pasado."},
+   {"text": "for nylig", "es": "hace poco", "example": "Har du sendt os en aflæsning for nylig?", "example_es": "¿Nos ha mandado una lectura hace poco?"},
+   {"text": "et skøn", "es": "una estimación", "example": "Forbruget er beregnet ud fra et skøn.", "example_es": "El consumo está calculado con una estimación."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo a tu compañía de teléfono: en tu factura aparece una llamada internacional que no has hecho. Explica el problema, di qué has comprobado y pide una corrección (4 frases).",
+   "model": "Hej. På min regning for marts står der et opkald til Tyskland til 85 kroner. Jeg har ikke ringet til udlandet, og jeg har tjekket opkaldslisten på min telefon. Kan I undersøge sagen og rette regningen? På forhånd tak, Luis Pérez.",
+   "rubric": "Usa al menos dos verbos en førnutid (har ringet, har tjekket), describe el cargo con datos y pide una corrección."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un cliente llama a su compañía eléctrica porque la última factura es el doble de lo normal.",
+   "lines": [
+    {"text": "Moien, meng Stroumrechnung ass duebel esou héich wéi soss.", "es": "Hola, mi factura de la luz es el doble de lo normal."},
+    {"text": "Ech kucken. Hutt Dir eis viru Kuerzem de Stand vum Compteur geschéckt?", "es": "Déjeme ver. ¿Nos ha enviado hace poco la lectura del contador?"},
+    {"text": "Neen, dat hunn ech zënter engem Joer net méi gemaach.", "es": "No, hace un año que no lo hago."},
+    {"text": "Dann hu mir de Verbrauch geschat.", "es": "Entonces hemos estimado el consumo."},
+    {"text": "Ok. Wann ech de Stand haut schécken, gëtt d'Rechnung da korrigéiert?", "es": "Vale. Si mando la lectura hoy, ¿me corrigen la factura?"},
+    {"text": "Jo, da kritt Dir bannent enger Woch eng nei Rechnung.", "es": "Sí, entonces recibirá una factura nueva en el plazo de una semana."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué la factura salió tan alta?",
+   "choices": ["Porque calcularon el consumo con una estimación al no tener lecturas", "Porque el cliente gastó el doble de electricidad", "Porque le cobraron una cuota de instalación"]
+  },
+  "grammar": {
+   "focus": "Perfekt con «hunn»: participios con y sin ge-",
+   "explain": "El participio suele llevar ge- (schécken → geschéckt, kréien → kritt). Los verbos en -éieren y los que empiezan por be-, ver-, er- no lo llevan: bezuelt, kontrolléiert, verstanen.",
+   "items": [
+    {"prompt": "Ech hunn d'Rechnung scho ___. (bezuelen)", "answer": "bezuelt", "es": "Ya he pagado la factura."},
+    {"prompt": "Mir hunn Är Mail nach net ___. (kréien)", "answer": "kritt", "es": "Todavía no hemos recibido su correo."},
+    {"prompt": "Hutt Dir de Compteur dëst Joer ___? (kontrolléieren)", "answer": "kontrolléiert", "es": "¿Ha revisado el contador este año?"}
+   ]
+  },
+  "vocab": [
+   {"text": "Stroumrechnung", "es": "factura de la luz", "example": "Meng Stroumrechnung ass ze héich.", "example_es": "Mi factura de la luz es demasiado alta."},
+   {"text": "duebel esou héich", "es": "el doble de alta", "example": "D'Rechnung ass duebel esou héich wéi d'lescht Joer.", "example_es": "La factura es el doble que el año pasado."},
+   {"text": "viru Kuerzem", "es": "hace poco", "example": "Ech hunn de Stand viru Kuerzem geschéckt.", "example_es": "Mandé la lectura hace poco."},
+   {"text": "geschat", "es": "estimado", "example": "De Verbrauch gouf geschat.", "example_es": "El consumo se estimó."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo a tu compañía de teléfono: en tu factura aparece una llamada internacional que no has hecho. Explica el problema, di qué has comprobado y pide una corrección (4 frases).",
+   "model": "Moien, op menger Rechnung vum Mäerz steet en Uruff an Däitschland fir 12 Euro. Ech hunn net an d'Ausland ugeruff, an ech hunn d'Lëscht vu mengen Uriff kontrolléiert. Kënnt Dir dat w.e.g. nokucken an d'Rechnung korrigéieren? Merci am Viraus, Luis Pérez.",
+   "rubric": "Usa al menos dos verbos en Perfekt (hunn ugeruff, hunn kontrolléiert), describe el cargo con datos y pide una corrección."
+  }
+ }
+}

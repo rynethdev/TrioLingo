@@ -1,0 +1,81 @@
+{
+ "week": 130,
+ "da": {
+  "dialogue2": {
+   "context": "La presidenta de un club deportivo comunica a un entrenador que se suprimen los viajes a torneos en el extranjero; él reacciona molesto por el fondo y por las formas.",
+   "lines": [
+    {"text": "Bestyrelsen har besluttet at droppe udlandsturneringerne fra næste sæson.", "es": "La junta ha decidido suprimir los torneos en el extranjero a partir de la próxima temporada."},
+    {"text": "Det kommer til at ramme de unge hårdt; for mange er det årets højdepunkt.", "es": "Eso va a afectar mucho a los jóvenes; para muchos es el momento cumbre del año."},
+    {"text": "Det er jeg helt klar over, og beslutningen er ikke truffet let.", "es": "Soy plenamente consciente, y la decisión no se ha tomado a la ligera."},
+    {"text": "Men hvorfor nu, når turene næsten finansierer sig selv?", "es": "Pero ¿por qué ahora, si los viajes casi se financian solos?"},
+    {"text": "Det gør de desværre ikke længere; de stigende rejseudgifter har udhulet hele budgettet.", "es": "Lamentablemente ya no; el aumento de los gastos de viaje ha vaciado todo el presupuesto."},
+    {"text": "Kunne man ikke have spurgt forældrene, før beslutningen blev meldt ud?", "es": "¿No se podría haber consultado a los padres antes de anunciar la decisión?"},
+    {"text": "Det er en berettiget kritik, og derfor inviterer vi til et møde, hvor vi også ser på alternative turneringer i Danmark.", "es": "Es una crítica legítima, y por eso convocamos una reunión en la que también veremos torneos alternativos en Dinamarca."},
+    {"text": "Det er dog et skridt; jeg kommer, men jeg tager de skuffede spillere med.", "es": "Bueno, al menos es un paso; vendré, pero me traigo a los jugadores decepcionados."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué reconoce la presidenta como error en el proceso?",
+   "choices": ["No haber consultado a los padres antes de anunciar la decisión", "Haber calculado mal lo que cuestan los viajes", "Haber suprimido también los torneos nacionales"]
+  },
+  "grammar": {
+   "focus": "Participios con función adjetiva",
+   "explain": "El participio presente (-ende) describe un proceso en curso: de stigende udgifter. El participio pasado describe un resultado y concuerda con el sustantivo: en truffet beslutning, den trufne beslutning, de skuffede spillere.",
+   "items": [
+    {"prompt": "De ___ rejseudgifter har udhulet budgettet. (stige, participio presente)", "answer": "stigende", "es": "El aumento de los gastos de viaje ha vaciado el presupuesto."},
+    {"prompt": "Vi tager hensyn til de ___ spillere og deres forældre. (skuffe, participio pasado en plural)", "answer": "skuffede", "es": "Tenemos en cuenta a los jugadores decepcionados y a sus padres."},
+    {"prompt": "Den ___ beslutning kan desværre ikke omgøres. (træffe, participio pasado en forma definida)", "answer": "trufne", "es": "La decisión tomada, lamentablemente, no puede revocarse."}
+   ]
+  },
+  "vocab": [
+   {"text": "ramme hårdt", "es": "afectar duramente", "example": "Beslutningen kommer til at ramme hårdt i ungdomsafdelingen.", "example_es": "La decisión va a golpear con fuerza a la sección juvenil."},
+   {"text": "udhule", "es": "vaciar, socavar", "example": "Stigende priser har været med til at udhule budgettet.", "example_es": "La subida de precios ha contribuido a vaciar el presupuesto."},
+   {"text": "meldt ud", "es": "anunciado, comunicado", "example": "Beslutningen blev meldt ud, før forældrene blev hørt.", "example_es": "La decisión se anunció antes de consultar a los padres."},
+   {"text": "en berettiget kritik", "es": "una crítica legítima", "example": "Det er en berettiget kritik, som vi tager til os.", "example_es": "Es una crítica legítima que asumimos."}
+  ],
+  "transfer": {
+   "prompt": "Redacta el comunicado del club a las familias (5–7 frases): anuncia la decisión, justifícala con datos, reconoce el impacto y el error de comunicación, y propone una alternativa y una reunión.",
+   "model": "Kære forældre og spillere. Bestyrelsen har besluttet, at klubben fra næste sæson ikke længere deltager i turneringer i udlandet. Beslutningen er ikke truffet let, men rejseudgifterne er steget med 45 procent på to år og ville ellers udhule hele ungdomsbudgettet. Vi ved, at turene for mange har været årets højdepunkt, og vi forstår den skuffelse, nyheden skaber. Vi erkender også, at vi burde have inddraget jer, før beslutningen blev meldt ud. Derfor inviterer vi til forældremøde den 14. marts, hvor vi præsenterer en række alternative turneringer i Danmark og gerne hører jeres forslag.",
+   "rubric": "Anuncia la decisión sin rodeos al principio; la justifica con al menos un dato; reconoce explícitamente el impacto emocional; asume un error de proceso sin culpar a otros; usa al menos dos participios con función adjetiva; ofrece una alternativa y un espacio de diálogo."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "La presidenta de un club deportivo comunica a un entrenador que se suprimen los viajes a torneos en el extranjero; él reacciona molesto por el fondo y por las formas.",
+   "lines": [
+    {"text": "De Comité huet decidéiert, ab nächster Saison net méi un Tournoien am Ausland deelzehuelen.", "es": "La junta ha decidido no participar más en torneos en el extranjero a partir de la próxima temporada."},
+    {"text": "Dat trëfft déi Jonk haart; fir vill ass dat den Héichpunkt vum Joer.", "es": "Eso afecta mucho a los jóvenes; para muchos es el momento cumbre del año."},
+    {"text": "Dat ass mer voll bewosst, an d'Entscheedung ass eis net liicht gefall.", "es": "Soy plenamente consciente, y no nos ha resultado fácil tomar la decisión."},
+    {"text": "Mä firwat elo, wou d'Reese sech bal selwer finanzéieren?", "es": "Pero ¿por qué ahora, si los viajes casi se financian solos?"},
+    {"text": "Dat maache se leider net méi; déi klammend Reeskäschten hunn de ganze Budget opgefriess.", "es": "Lamentablemente ya no; el aumento de los gastos de viaje se ha comido todo el presupuesto."},
+    {"text": "Hätt een d'Elteren net kënne froen, ier d'Entscheedung matgedeelt gouf?", "es": "¿No se podría haber consultado a los padres antes de comunicar la decisión?"},
+    {"text": "Dat ass eng berechtegt Kritik, an dofir invitéiere mir op eng Versammlung, wou mir och aner Tournoien zu Lëtzebuerg ukucken.", "es": "Es una crítica legítima, y por eso convocamos una reunión en la que también veremos otros torneos en Luxemburgo."},
+    {"text": "Gutt, dat ass ëmmerhin e Schrëtt; ech kommen, mä ech bréngen déi enttäuscht Spiller mat.", "es": "Bueno, al menos es un paso; vendré, pero me traigo a los jugadores decepcionados."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué reconoce la presidenta como error en el proceso?",
+   "choices": ["No haber consultado a los padres antes de comunicar la decisión", "Haber calculado mal lo que cuestan los viajes", "Haber suprimido también los torneos nacionales"]
+  },
+  "grammar": {
+   "focus": "Participios con función adjetiva",
+   "explain": "El participio presente (-end) describe un proceso en curso: déi klammend Käschten. El participio pasado describe un resultado: déi enttäuscht Spiller. Ante un sustantivo masculino con artículo indefinido toma -en: e geplangten Tournoi.",
+   "items": [
+    {"prompt": "Déi ___ Reeskäschten hunn de Budget opgefriess. (klammen, participio presente)", "answer": "klammend", "es": "El aumento de los gastos de viaje se ha comido el presupuesto."},
+    {"prompt": "Mir huelen Récksiicht op déi ___ Spiller an hir Elteren. (enttäuschen, participio pasado)", "answer": "enttäuscht", "es": "Tenemos en cuenta a los jugadores decepcionados y a sus padres."},
+    {"prompt": "De Comité huet e laang ___ Tournoi gestrach. (plangen, participio pasado con -en)", "answer": "geplangten", "es": "La junta ha cancelado un torneo planeado desde hacía tiempo."}
+   ]
+  },
+  "vocab": [
+   {"text": "haart treffen", "es": "afectar duramente", "example": "Dës Entscheedung wäert d'Jugend haart treffen.", "example_es": "Esta decisión va a afectar duramente a los jóvenes."},
+   {"text": "net liicht gefall", "es": "no ha resultado fácil (una decisión)", "example": "D'Entscheedung ass eis wierklech net liicht gefall.", "example_es": "De verdad que no nos ha resultado fácil tomar la decisión."},
+   {"text": "matdeelen", "es": "comunicar", "example": "Mir wëllen d'Entscheedung den Elteren perséinlech matdeelen.", "example_es": "Queremos comunicar la decisión a los padres en persona."},
+   {"text": "ëmmerhin", "es": "al menos, por lo menos", "example": "Dat ass ëmmerhin e Schrëtt an déi richteg Richtung.", "example_es": "Al menos es un paso en la buena dirección."}
+  ],
+  "transfer": {
+   "prompt": "Redacta el comunicado del club a las familias (5–7 frases): anuncia la decisión, justifícala con datos, reconoce el impacto y el error de comunicación, y propone una alternativa y una reunión.",
+   "model": "Léif Elteren, léif Spiller, de Comité huet decidéiert, datt de Club ab nächster Saison net méi un Tournoien am Ausland deelhëlt. D'Entscheedung ass eis net liicht gefall, mä d'Reeskäschte sinn an zwee Joer ëm 45 Prozent geklommen a géifen de ganze Jugendbudget opfriessen. Mir wëssen, datt dës Reese fir vill den Héichpunkt vum Joer waren, a mir verstinn d'Enttäuschung, déi dës Neiegkeet auslöst. Mir ginn och zou, datt mir Iech hätten abanne missen, ier d'Entscheedung matgedeelt gouf. Dofir invitéiere mir Iech den 14. Mäerz op eng Elterenversammlung, wou mir eng Rei aner Tournoien zu Lëtzebuerg virstellen an Är Virschléi gär héieren.",
+   "rubric": "Anuncia la decisión sin rodeos al principio; la justifica con al menos un dato; reconoce explícitamente el impacto emocional; asume un error de proceso sin culpar a otros; usa al menos un participio con función adjetiva; ofrece una alternativa y un espacio de diálogo."
+  }
+ }
+}

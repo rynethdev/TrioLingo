@@ -1,0 +1,81 @@
+{
+ "week": 142,
+ "da": {
+  "dialogue2": {
+   "context": "Dos periodistas comparan un comunicado del ayuntamiento y un informe independiente sobre el coste de un puente; uno tiende a fiarse del comunicado.",
+   "lines": [
+    {"text": "Ifølge kommunens pressemeddelelse skulle broen kun have kostet 40 millioner.", "es": "Según el comunicado del ayuntamiento, el puente solo habría costado 40 millones."},
+    {"text": "Ja, men revisionsrapporten når frem til næsten det dobbelte.", "es": "Sí, pero el informe de auditoría llega a casi el doble."},
+    {"text": "Den rapport skulle efter sigende være bestilt af oppositionen, så den er vel heller ikke neutral.", "es": "Ese informe, según dicen, lo encargó la oposición, así que tampoco será neutral, ¿no?"},
+    {"text": "Måske, men den bilægger alle fakturaer, mens kommunen ikke oplyser, hvordan tallet er beregnet.", "es": "Quizá, pero adjunta todas las facturas, mientras que el ayuntamiento no explica cómo se ha calculado la cifra."},
+    {"text": "Så du mener, at gennemsigtighed tæller mere end afsenderen?", "es": "¿O sea que crees que la transparencia cuenta más que el emisor?"},
+    {"text": "Ikke helt; afsenderen tæller også, men tal, der kan kontrolleres, tæller mere.", "es": "No del todo; el emisor también cuenta, pero las cifras que se pueden comprobar cuentan más."},
+    {"text": "Skulle vi så ikke skrive begge tal og forklare forskellen?", "es": "¿Y no deberíamos entonces dar las dos cifras y explicar la diferencia?"},
+    {"text": "Jo, og spørge kommunen, om de vil fremlægge deres beregning; ellers skriver vi, at de har afslået.", "es": "Sí, y preguntar al ayuntamiento si quiere hacer público su cálculo; si no, escribimos que se ha negado."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿En qué criterio se apoya la periodista para dar más peso al informe?",
+   "choices": ["En que el informe aporta documentos comprobables y el comunicado no explica su cálculo", "En que el informe lo encargó la oposición y no el ayuntamiento", "En que la cifra del informe es más alta y, por tanto, más prudente"]
+  },
+  "grammar": {
+   "focus": "«Skulle» reportativo e información no verificada",
+   "explain": "«Skulle» + infinitivo indica que algo se afirma, pero el hablante no lo garantiza: Broen skulle have kostet 40 millioner (supuestamente). Se refuerza con «efter sigende» o «angiveligt».",
+   "items": [
+    {"prompt": "Rapporten ___ være bestilt af oppositionen, men det er ikke bekræftet. (modal reportativo)", "answer": "skulle", "es": "Al parecer el informe lo encargó la oposición, pero no está confirmado."},
+    {"prompt": "Broen skulle ___ kostet 40 millioner ifølge kommunen. (infinitivo perfecto)", "answer": "have", "es": "Según el ayuntamiento, el puente habría costado 40 millones."},
+    {"prompt": "Borgmesteren har ___ afvist at fremlægge beregningen. (adverbio: «supuestamente», empieza por a-)", "answer": "angiveligt", "es": "Supuestamente, el alcalde se ha negado a hacer público el cálculo."}
+   ]
+  },
+  "vocab": [
+   {"text": "efter sigende", "es": "según dicen", "example": "Rapporten er efter sigende bestilt af oppositionen.", "example_es": "Según dicen, el informe lo encargó la oposición."},
+   {"text": "ifølge", "es": "según", "example": "Ifølge kommunen kostede broen 40 millioner.", "example_es": "Según el ayuntamiento, el puente costó 40 millones."},
+   {"text": "afsenderen", "es": "el emisor", "example": "Afsenderen af en pressemeddelelse har altid en interesse.", "example_es": "El emisor de un comunicado siempre tiene un interés."},
+   {"text": "fremlægge", "es": "hacer público, presentar", "example": "Kommunen vil ikke fremlægge sin beregning.", "example_es": "El ayuntamiento no quiere hacer público su cálculo."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un párrafo de 5–7 frases para una nota informativa que contraste las dos fuentes: qué dice cada una, cómo te distancias de lo no verificado, qué criterio de fiabilidad aplicas y qué falta por aclarar.",
+   "model": "Der hersker uenighed om, hvad den nye bro ved havnen har kostet. Ifølge kommunens pressemeddelelse beløb udgifterne sig til 40 millioner kroner, men det fremgår ikke, hvordan tallet er beregnet. En uafhængig revisionsrapport når derimod frem til 78 millioner og bilægger samtlige fakturaer. Rapporten skulle efter sigende være bestilt af oppositionen, hvilket dog ikke er bekræftet. Da kun rapportens tal kan kontrolleres, tillægger vi foreløbig den størst vægt. Kommunen er blevet bedt om at fremlægge sin beregning, men har endnu ikke svaret.",
+   "rubric": "Atribuye cada dato a su fuente (ifølge, det fremgår ikke); marca lo no verificado con «skulle» o «efter sigende»; explicita el criterio de fiabilidad; separa hechos de valoración; termina indicando qué queda pendiente."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos periodistas comparan un comunicado del ayuntamiento y un informe independiente sobre el coste de un puente; uno tiende a fiarse del comunicado.",
+   "lines": [
+    {"text": "Laut der Pressematdeelung vun der Gemeng soll d'Bréck just 40 Millioune kascht hunn.", "es": "Según el comunicado del ayuntamiento, el puente solo habría costado 40 millones."},
+    {"text": "Jo, mä den Auditbericht kënnt op bal dat Duebelt.", "es": "Sí, pero el informe de auditoría llega a casi el doble."},
+    {"text": "Deen Bericht soll jo vun der Oppositioun bestallt gi sinn, also ass en och net onparteiesch.", "es": "Ese informe, según dicen, lo encargó la oposición, así que tampoco es imparcial."},
+    {"text": "Kann sinn, mä en huet all d'Rechnungen am Annex, wärend d'Gemeng net seet, wéi hir Zuel berechent gouf.", "es": "Puede ser, pero lleva todas las facturas en anexo, mientras que el ayuntamiento no dice cómo se calculó su cifra."},
+    {"text": "Du mengs also, Transparenz zielt méi wéi den Ofsender?", "es": "¿O sea que crees que la transparencia cuenta más que el emisor?"},
+    {"text": "Net ganz; den Ofsender zielt och, mä Zuelen, déi een iwwerpréiwe kann, zielen nach méi.", "es": "No del todo; el emisor también cuenta, pero las cifras que se pueden comprobar cuentan aún más."},
+    {"text": "Sollte mir dann net béid Zuele schreiwen an den Ënnerscheed erklären?", "es": "¿No deberíamos entonces dar las dos cifras y explicar la diferencia?"},
+    {"text": "Dach, an d'Gemeng froen, ob se hir Berechnung offeleeë wëll; soss schreiwe mir, datt se ofgeleent huet.", "es": "Sí, y preguntar al ayuntamiento si quiere hacer público su cálculo; si no, escribimos que se ha negado."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿En qué criterio se apoya la periodista para dar más peso al informe?",
+   "choices": ["En que el informe aporta documentos comprobables y el comunicado no explica su cálculo", "En que el informe lo encargó la oposición y no el ayuntamiento", "En que la cifra del informe es más alta y, por tanto, más prudente"]
+  },
+  "grammar": {
+   "focus": "«Sollen» reportativo y marcas de distancia (angeblech, laut)",
+   "explain": "«Soll» + infinitivo indica que algo se afirma sin que el hablante lo garantice: D'Bréck soll 40 Milliounen kascht hunn (supuestamente). «Angeblech» y «laut» + dativo (según) refuerzan la distancia respecto a la fuente.",
+   "items": [
+    {"prompt": "De Bericht ___ vun der Oppositioun bestallt gi sinn, mä dat ass net bestätegt. (modal reportativo)", "answer": "soll", "es": "Al parecer el informe lo encargó la oposición, pero no está confirmado."},
+    {"prompt": "D'Bréck soll 40 Millioune kascht ___. (auxiliar del infinitivo perfecto)", "answer": "hunn", "es": "El puente habría costado 40 millones."},
+    {"prompt": "___ der Gemeng war de Budget ëmmer ënner Kontroll. (según + dativo)", "answer": "Laut", "es": "Según el ayuntamiento, el presupuesto siempre estuvo bajo control."}
+   ]
+  },
+  "vocab": [
+   {"text": "angeblech", "es": "supuestamente", "example": "De Bericht ass angeblech vun der Oppositioun bestallt ginn.", "example_es": "Supuestamente, el informe lo encargó la oposición."},
+   {"text": "laut", "es": "según", "example": "Laut der Gemeng huet d'Bréck 40 Millioune kascht.", "example_es": "Según el ayuntamiento, el puente costó 40 millones."},
+   {"text": "den Ofsender", "es": "el emisor", "example": "Den Ofsender vun enger Pressematdeelung huet ëmmer en Interessi.", "example_es": "El emisor de un comunicado siempre tiene un interés."},
+   {"text": "offeleeën", "es": "hacer público, revelar", "example": "D'Gemeng wëll hir Berechnung net offeleeën.", "example_es": "El ayuntamiento no quiere hacer público su cálculo."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un párrafo de 5–7 frases para una nota informativa que contraste las dos fuentes: qué dice cada una, cómo te distancias de lo no verificado, qué criterio de fiabilidad aplicas y qué falta por aclarar.",
+   "model": "Iwwer d'Käschte vun der neier Bréck am Stadzentrum ginn et ënnerschiddlech Zuelen. Laut der Pressematdeelung vun der Gemeng hu sech d'Ausgaben op 40 Milliounen Euro belaf, mä et gëtt net gesot, wéi dës Zuel berechent gouf. En onofhängegen Auditbericht kënnt dogéint op 78 Milliounen a leet all d'Rechnungen derbäi. Dëse Bericht soll angeblech vun der Oppositioun bestallt gi sinn, wat allerdéngs net bestätegt ass. Well nëmmen d'Zuele vum Bericht sech iwwerpréiwe loossen, gi mir him fir de Moment dat gréissert Gewiicht. D'Gemeng gouf gefrot, hir Berechnung offenzeleeën, huet awer nach net geäntwert.",
+   "rubric": "Atribuye cada dato a su fuente (laut, et gëtt net gesot); marca lo no verificado con «soll» o «angeblech»; explicita el criterio de fiabilidad; separa hechos de valoración; termina indicando qué queda pendiente."
+  }
+ }
+}

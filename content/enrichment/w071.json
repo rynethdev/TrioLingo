@@ -1,0 +1,77 @@
+{
+ "week": 71,
+ "da": {
+  "dialogue2": {
+   "context": "Una empresa llama a Elena para ofrecerle un puesto, pero ella acaba de aceptar otro.",
+   "lines": [
+    {"text": "Vi vil meget gerne tilbyde dig stillingen som projektleder.", "es": "Nos gustaría mucho ofrecerte el puesto de jefa de proyecto."},
+    {"text": "Tusind tak, det glæder mig virkelig at høre.", "es": "Muchísimas gracias, me alegra mucho oírlo."},
+    {"text": "Men? Jeg kan høre, at der kommer et men.", "es": "¿Pero? Noto que viene un «pero»."},
+    {"text": "Ja, desværre. Selvom jobbet lyder spændende, har jeg lige sagt ja til et andet.", "es": "Sí, por desgracia. Aunque el puesto suena interesante, acabo de aceptar otro."},
+    {"text": "Det forstår jeg. Må vi gemme din ansøgning til en anden gang?", "es": "Lo entiendo. ¿Podemos guardar tu candidatura para otra ocasión?"},
+    {"text": "Ja, meget gerne. Jeg var rigtig glad for samtalen.", "es": "Sí, con mucho gusto. Me gustó mucho la entrevista."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo termina la conversación?",
+   "choices": ["Elena rechaza el puesto pero deja la puerta abierta para el futuro", "Elena acepta el puesto y renuncia al otro trabajo", "La empresa retira la oferta porque Elena tardó en contestar"]
+  },
+  "grammar": {
+   "focus": "Subordinadas concesivas con «selvom»",
+   "explain": "«Selvom» (aunque) introduce una subordinada con orden sujeto + verbo y con «ikke» delante del verbo. Si va primero, la principal empieza por el verbo: Selvom jobbet lyder godt, siger jeg nej.",
+   "items": [
+    {"prompt": "___ tilbuddet er godt, kan jeg ikke tage imod det.", "answer": "Selvom", "es": "Aunque la oferta es buena, no puedo aceptarla."},
+    {"prompt": "Hun tog jobbet, selvom hun ___ til Aarhus. (ikke / ville flytte)", "answer": "ikke ville flytte", "es": "Aceptó el trabajo aunque no quería mudarse a Aarhus."},
+    {"prompt": "Selvom jeg er glad for tilbuddet, ___ nej tak. (jeg / sige)", "answer": "siger jeg", "es": "Aunque me alegra la oferta, digo que no, gracias."}
+   ]
+  },
+  "vocab": [
+   {"text": "stillingen", "es": "el puesto", "example": "Vi vil gerne tilbyde dig stillingen.", "example_es": "Nos gustaría ofrecerte el puesto."},
+   {"text": "det glæder mig", "es": "me alegra", "example": "Tak, det glæder mig at høre.", "example_es": "Gracias, me alegra oírlo."},
+   {"text": "sagt ja til", "es": "aceptado", "example": "Jeg har lige sagt ja til et andet job.", "example_es": "Acabo de aceptar otro trabajo."},
+   {"text": "ansøgning", "es": "candidatura, solicitud", "example": "Må vi gemme din ansøgning?", "example_es": "¿Podemos guardar tu candidatura?"}
+  ],
+  "transfer": {
+   "prompt": "Un vecino te ofrece su coche viejo a buen precio, pero no lo necesitas. Escríbele agradeciendo la oferta, rechazándola con un motivo y proponiendo a otra persona que podría estar interesada (3–4 frases).",
+   "model": "Tusind tak for tilbuddet, det er meget venligt af dig. Selvom prisen er god, siger jeg nej tak, fordi jeg tager bussen alle steder hen. Men min kollega Thomas leder efter en billig bil, så jeg giver ham gerne dit nummer.",
+   "rubric": "Agradece, rechaza con «selvom» y un motivo, y ofrece una alternativa."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una empresa llama a Elena para ofrecerle un puesto, pero ella acaba de aceptar otro.",
+   "lines": [
+    {"text": "Mir géifen Iech ganz gär d'Plaz als Projetsleederin ubidden.", "es": "Nos gustaría mucho ofrecerle el puesto de jefa de proyecto."},
+    {"text": "Villmools Merci, dat freet mech wierklech.", "es": "Muchísimas gracias, me alegra mucho."},
+    {"text": "Mee? Ech héieren, datt elo e «mee» kënnt.", "es": "¿Pero? Noto que ahora viene un «pero»."},
+    {"text": "Jo, leider. Obwuel d'Plaz spannend kléngt, hunn ech grad eng aner ugeholl.", "es": "Sí, por desgracia. Aunque el puesto suena interesante, acabo de aceptar otro."},
+    {"text": "Dat verstinn ech. Dierfe mir Är Kandidatur fir eng aner Kéier behalen?", "es": "Lo entiendo. ¿Podemos guardar su candidatura para otra ocasión?"},
+    {"text": "Jo, ganz gär. D'Gespréich huet mir wierklech gutt gefall.", "es": "Sí, con mucho gusto. Me gustó mucho la entrevista."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo termina la conversación?",
+   "choices": ["Elena rechaza el puesto pero deja la puerta abierta para el futuro", "Elena acepta el puesto y renuncia al otro trabajo", "La empresa retira la oferta porque Elena tardó en contestar"]
+  },
+  "grammar": {
+   "focus": "Subordinadas concesivas con «obwuel»",
+   "explain": "«Obwuel» (aunque) lleva el verbo conjugado al final. Si la subordinada va primero, la principal empieza por el verbo: Obwuel d'Offer gutt ass, soen ech nee.",
+   "items": [
+    {"prompt": "___ d'Offer interessant ass, kann ech se net unhuelen.", "answer": "Obwuel", "es": "Aunque la oferta es interesante, no puedo aceptarla."},
+    {"prompt": "Si huet d'Plaz ugeholl, obwuel si net op Esch ___. (plënneren + wëllen, Imperfekt)", "answer": "plënnere wollt", "es": "Aceptó el puesto aunque no quería mudarse a Esch."},
+    {"prompt": "Obwuel ech frou iwwer d'Offer sinn, ___ nee merci. (ech / soen)", "answer": "soen ech", "es": "Aunque me alegra la oferta, digo que no, gracias."}
+   ]
+  },
+  "vocab": [
+   {"text": "ubidden", "es": "ofrecer", "example": "Mir géifen Iech d'Plaz gär ubidden.", "example_es": "Nos gustaría ofrecerle el puesto."},
+   {"text": "dat freet mech", "es": "me alegra", "example": "Merci, dat freet mech wierklech.", "example_es": "Gracias, me alegra de verdad."},
+   {"text": "ugeholl", "es": "aceptado", "example": "Ech hu grad eng aner Plaz ugeholl.", "example_es": "Acabo de aceptar otro puesto."},
+   {"text": "Är Kandidatur", "es": "su candidatura", "example": "Dierfe mir Är Kandidatur behalen?", "example_es": "¿Podemos guardar su candidatura?"}
+  ],
+  "transfer": {
+   "prompt": "Un vecino te ofrece su coche viejo a buen precio, pero no lo necesitas. Escríbele agradeciendo la oferta, rechazándola con un motivo y proponiendo a otra persona que podría estar interesada (3–4 frases).",
+   "model": "Villmools Merci fir d'Offer, dat ass ganz léif vun dir. Obwuel de Präis gutt ass, soen ech nee merci, well ech iwwerall mam Bus hifueren. Mee mäi Kolleg Tom sicht e bëllegen Auto, ech ginn him gär deng Nummer.",
+   "rubric": "Agradece, rechaza con «obwuel» (verbo al final) y un motivo, y ofrece una alternativa."
+  }
+ }
+}

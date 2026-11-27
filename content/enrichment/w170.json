@@ -1,0 +1,81 @@
+{
+ "week": 170,
+ "da": {
+  "dialogue2": {
+   "context": "Una editora negocia con una autora de éxito que exige un anticipo mayor para su segundo libro; la editora no puede subir la cifra, pero sí ofrecer otras cosas.",
+   "lines": [
+    {"text": "Uden et større forskud skriver jeg ikke bog nummer to hos jer.", "es": "Sin un anticipo mayor no escribo el segundo libro con vosotros."},
+    {"text": "Det forstår jeg godt. Forskuddet er dog den ene ting, jeg ikke kan flytte.", "es": "Lo entiendo. El anticipo es, sin embargo, lo único que no puedo mover."},
+    {"text": "Så har vi vel ikke meget at tale om.", "es": "Entonces supongo que no tenemos mucho de qué hablar."},
+    {"text": "Tværtimod. Hvad er det egentlig, et større forskud skal give dig?", "es": "Al contrario. ¿Qué es en realidad lo que tiene que darte un anticipo mayor?"},
+    {"text": "Ro. Jeg vil ikke tage freelanceopgaver ved siden af.", "es": "Tranquilidad. No quiero aceptar encargos como autónoma al margen."},
+    {"text": "Kan du leve med det nuværende forskud, hæver vi din royalty fra første solgte eksemplar og giver dig et halvt år mere.", "es": "Si puedes vivir con el anticipo actual, te subimos los derechos desde el primer ejemplar vendido y te damos medio año más."},
+    {"text": "Og hvis bogen sælger dårligt?", "es": "¿Y si el libro vende mal?"},
+    {"text": "Så har du stadig tiden. Og sælger den godt, tjener du mere, end et forskud nogensinde ville give.", "es": "Entonces sigues teniendo el tiempo. Y si vende bien, ganas más de lo que te daría nunca un anticipo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué busca la editora al preguntar qué tiene que darle a la autora un anticipo mayor?",
+   "choices": ["El interés real detrás de la exigencia, para satisfacerlo de otro modo", "Insinuar que la autora no merece más dinero", "Ganar tiempo antes de ceder finalmente en el anticipo"]
+  },
+  "grammar": {
+   "focus": "Condicionales sin «hvis»: inversión verbo-sujeto",
+   "explain": "En registro cuidado la condición puede expresarse poniendo el verbo al principio, sin «hvis»: Kan du leve med det, hæver vi royaltyen (si puedes vivir con ello, subimos…). La principal empieza con el verbo o con «så».",
+   "items": [
+    {"prompt": "___ I acceptere prisen, rykker vi gerne leveringen. (kunne, presente)", "answer": "Kan", "es": "Si podéis aceptar el precio, retrasamos con gusto la entrega."},
+    {"prompt": "___ bogen godt, tjener du mere end med et forskud. (sælge, presente)", "answer": "Sælger", "es": "Si el libro vende bien, ganas más que con un anticipo."},
+    {"prompt": "___ vi enige om tidsplanen, så sender jeg kontrakten i morgen. (være, presente)", "answer": "Er", "es": "Si estamos de acuerdo en el calendario, mañana envío el contrato."}
+   ]
+  },
+  "vocab": [
+   {"text": "tværtimod", "es": "al contrario", "example": "Det er tværtimod en god anledning til at tale sammen.", "example_es": "Al contrario, es una buena ocasión para hablar."},
+   {"text": "noget at handle med", "es": "margen para negociar", "example": "Vi har stadig noget at handle med på tidsplanen.", "example_es": "Aún tenemos margen para negociar en el calendario."},
+   {"text": "smertegrænsen", "es": "el límite de lo asumible", "example": "Forskuddet ligger allerede ved smertegrænsen.", "example_es": "El anticipo ya está en el límite de lo asumible."},
+   {"text": "mødes på midten", "es": "encontrarse a medio camino", "example": "Kan vi mødes på midten med leveringen?", "example_es": "¿Podemos encontrarnos a medio camino con la entrega?"}
+  ],
+  "transfer": {
+   "prompt": "Escribe el correo (6–8 frases) a la agente de la autora tras la reunión: confirma que el anticipo no cambia, presenta las concesiones en otros puntos como un paquete y mantén un tono cálido sin dejar resquicio para renegociar la cifra.",
+   "model": "Kære Louise, tak for en åben og konstruktiv samtale i går. Som jeg nævnte, ligger forskuddet allerede ved den grænse, vi kan forsvare, og det kan vi desværre ikke ændre. Til gengæld har vi lyttet til, hvad Annas egentlige behov er: ro til at skrive. Derfor tilbyder vi en forhøjet royalty fra første solgte eksemplar og en afleveringsfrist, der rykkes seks måneder. Sælger bogen som den første, vil Anna samlet tjene mere, end et højere forskud ville have givet. Tilbuddet hænger sammen som en helhed og bør læses sådan. Jeg håber, I vil se det som et udtryk for, hvor meget vi tror på bogen.",
+   "rubric": "Mantiene el punto esencial con firmeza y una justificación breve; reformula el interés real de la otra parte; presenta las concesiones como paquete; usa condicionales de registro cuidado; tono cálido sin ambigüedad sobre lo innegociable."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una editora negocia con una autora de éxito que exige un anticipo mayor para su segundo libro; la editora no puede subir la cifra, pero sí ofrecer otras cosas.",
+   "lines": [
+    {"text": "Ouni e méi héije Virschoss schreiwen ech dat zweet Buch net bei Iech.", "es": "Sin un anticipo mayor no escribo el segundo libro con ustedes."},
+    {"text": "Dat verstinn ech. De Virschoss ass awer déi eenzeg Saach, déi ech net beweege kann.", "es": "Lo entiendo. El anticipo, sin embargo, es lo único que no puedo mover."},
+    {"text": "Da gëtt et wuel net vill ze schwätzen.", "es": "Entonces supongo que no hay mucho de qué hablar."},
+    {"text": "Am Géigendeel. Wat soll e méi héije Virschoss dir dann eigentlech bréngen?", "es": "Al contrario. ¿Qué es en realidad lo que tiene que darte un anticipo mayor?"},
+    {"text": "Rou. Ech wëll net nach niewebäi Opträg als Freelance unhuelen.", "es": "Tranquilidad. No quiero aceptar encargos como autónoma al margen."},
+    {"text": "Wann s du mam aktuelle Virschoss liewe kéints, da géife mir däin Undeel um Verkaf vum éischten Exemplar un erhéijen an dir en hallwe Joer méi Zäit ginn.", "es": "Si pudieras vivir con el anticipo actual, te subiríamos tu porcentaje de ventas desde el primer ejemplar y te daríamos medio año más."},
+    {"text": "A wann d'Buch sech schlecht verkeeft?", "es": "¿Y si el libro se vende mal?"},
+    {"text": "Da hues du ëmmer nach d'Zäit. A verkeeft et sech gutt, verdéngs du méi, wéi e Virschoss der jee brénge géif.", "es": "Entonces sigues teniendo el tiempo. Y si se vende bien, ganas más de lo que te daría nunca un anticipo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué busca la editora al preguntar qué tiene que darle a la autora un anticipo mayor?",
+   "choices": ["El interés real detrás de la exigencia, para satisfacerlo de otro modo", "Insinuar que la autora no merece más dinero", "Ganar tiempo antes de ceder finalmente en el anticipo"]
+  },
+  "grammar": {
+   "focus": "Condicionales hipotéticas: «wann … da» con Konjunktiv II y condición sin «wann»",
+   "explain": "Para proponer un intercambio hipotético: «wann» + Konjunktiv II al final y, en la principal, «da» + géif/kéint: Wann s du dat akzeptéiere kéints, da géife mir… La condición también puede ir sin «wann», con el verbo delante: Verkeeft et sech gutt, verdéngs du méi.",
+   "items": [
+    {"prompt": "___ Dir de Präis akzeptéiere kéint, da géife mir d'Liwwerung verréckelen. (si)", "answer": "Wann", "es": "Si pudiera aceptar el precio, aplazaríamos la entrega."},
+    {"prompt": "Wann s du méi Zäit kriss, ___ du dann ouni Opträg schreiwe kënnen? (Konjunktiv II, 2.ª persona)", "answer": "géifs", "es": "Si tienes más tiempo, ¿podrías escribir entonces sin encargos?"},
+    {"prompt": "___ d'Buch sech gutt, verdéngs du méi wéi mat engem Virschoss. (verkafen, presente, condición sin «wann»)", "answer": "Verkeeft", "es": "Si el libro se vende bien, ganas más que con un anticipo."}
+   ]
+  },
+  "vocab": [
+   {"text": "Am Géigendeel", "es": "al contrario", "example": "Am Géigendeel: elo fänke mir eréischt richteg un.", "example_es": "Al contrario: ahora es cuando empezamos de verdad."},
+   {"text": "op hallwem Wee", "es": "a medio camino", "example": "Kënne mir eis beim Kalenner op hallwem Wee treffen?", "example_es": "¿Podemos encontrarnos a medio camino con el calendario?"},
+   {"text": "der Schmäerzgrenz", "es": "el límite de lo asumible", "example": "De Virschoss läit schonn un der Schmäerzgrenz.", "example_es": "El anticipo ya está en el límite de lo asumible."},
+   {"text": "net verhandelbar", "es": "innegociable", "example": "De Präis ass net verhandelbar, de Rescht schonn.", "example_es": "El precio es innegociable; lo demás, sí."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el correo (6–8 frases) a la agente de la autora tras la reunión: confirma que el anticipo no cambia, presenta las concesiones en otros puntos como un paquete y mantén un tono cálido sin dejar resquicio para renegociar la cifra.",
+   "model": "Léif Louise, merci fir d'Gespréich vu gëschter, dat wierklech oppen a konstruktiv war. Wéi ech gesot hunn, läit de Virschoss schonn un der Grenz vun deem, wat mir verantwerte kënnen, an dat kënne mir leider net änneren. Mir hunn awer nogelauschtert, wat d'Anna eigentlech brauch: Rou fir ze schreiwen. Dofir bidde mir en héijen Undeel um Verkaf vum éischten Exemplar un an eng Ofgabfrist, déi ëm sechs Méint no hanne verréckelt gëtt. Verkeeft d'Buch sech esou gutt wéi dat éischt, verdéngt d'Anna am Ganze méi, wéi e méi héije Virschoss et bruecht hätt. D'Offer ass e Pak a soll och esou gelies ginn. Ech hoffen, datt Dir se als Zeeche gesitt, wéi vill mir un dëst Buch gleewen.",
+   "rubric": "Mantiene el punto esencial con firmeza y una justificación breve; reformula el interés real de la otra parte; presenta las concesiones como paquete; usa condicionales hipotéticas con Konjunktiv II; tono cálido sin ambigüedad sobre lo innegociable."
+  }
+ }
+}

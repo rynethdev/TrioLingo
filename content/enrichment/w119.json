@@ -1,0 +1,81 @@
+{
+ "week": 119,
+ "da": {
+  "dialogue2": {
+   "context": "Una jefa de proyecto pide al responsable de otro departamento que le preste a un técnico durante dos semanas, sabiendo que él también va justo de personal.",
+   "lines": [
+    {"text": "Jeg ved godt, at I selv er presset lige nu, så jeg spørger nødigt.", "es": "Ya sé que vosotros también vais apretados ahora mismo, así que pregunto a disgusto."},
+    {"text": "Det lyder, som om du gerne vil låne en af mine folk.", "es": "Suena a que quieres que te preste a alguien de mi equipo."},
+    {"text": "Ja. Mon I kunne undvære Mikkel i to uger, mens vi får det nye system på plads?", "es": "Sí. ¿Habría alguna forma de que prescindierais de Mikkel dos semanas mientras ponemos en marcha el sistema nuevo?"},
+    {"text": "To uger er lang tid, når vi selv har en deadline i næste måned.", "es": "Dos semanas es mucho tiempo cuando nosotros mismos tenemos una fecha límite el mes que viene."},
+    {"text": "Det forstår jeg fuldt ud. Ville det hjælpe, hvis han kun var hos os om formiddagen?", "es": "Lo entiendo perfectamente. ¿Ayudaría que solo estuviera con nosotros por las mañanas?"},
+    {"text": "Det ville gøre en forskel, men så skal jeg også have noget igen.", "es": "Eso cambiaría las cosas, pero entonces yo también quiero algo a cambio."},
+    {"text": "Rimeligt nok. Vi kan låne jer en tester, når I når til jeres testfase.", "es": "Me parece justo. Podemos prestaros a un tester cuando lleguéis a vuestra fase de pruebas."},
+    {"text": "Så har vi en aftale, men lad os skrive det ned, så ingen bliver overrasket bagefter.", "es": "Entonces trato hecho, pero pongámoslo por escrito para que luego nadie se lleve sorpresas."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué hace que el responsable acepte finalmente la petición?",
+   "choices": ["Que el préstamo se limite a las mañanas y reciba a cambio un tester más adelante", "Que la jefa le recuerde que se trata de una orden de la dirección", "Que Mikkel haya pedido personalmente cambiarse al otro proyecto"]
+  },
+  "grammar": {
+   "focus": "Peticiones atenuadas con «mon» y modales en pretérito (kunne, ville)",
+   "explain": "El pretérito de los modales suaviza una petición: «Kunne du …?», «Jeg ville sætte pris på …». La partícula «mon» al inicio convierte la pregunta en una conjetura prudente: «Mon du kunne nå det?» (¿crees que podrías…?).",
+   "items": [
+    {"prompt": "___ du kunne nå at kigge på det inden fredag? (partícula de conjetura: «¿crees que…?»)", "answer": "Mon", "es": "¿Crees que podrías echarle un vistazo antes del viernes?"},
+    {"prompt": "Jeg ___ sætte stor pris på, hvis du kunne sende mig hovedpunkterne i dag. (vil, en pretérito)", "answer": "ville", "es": "Te agradecería mucho que pudieras enviarme los puntos principales hoy."},
+    {"prompt": "Hvis I ___ undvære ham om formiddagen, ville det redde vores tidsplan. (kan, en pretérito)", "answer": "kunne", "es": "Si pudierais prescindir de él por las mañanas, salvaría nuestro calendario."}
+   ]
+  },
+  "vocab": [
+   {"text": "nødigt", "es": "a disgusto, de mala gana", "example": "Jeg spørger nødigt, men vi har virkelig brug for hjælp.", "example_es": "Pregunto a disgusto, pero de verdad necesitamos ayuda."},
+   {"text": "at undvære", "es": "prescindir de", "example": "Det er svært at undvære en tekniker midt i en deadline.", "example_es": "Es difícil prescindir de un técnico en plena fecha límite."},
+   {"text": "have noget igen", "es": "recibir algo a cambio", "example": "Jeg hjælper gerne, men jeg vil også have noget igen.", "example_es": "Ayudo con gusto, pero también quiero algo a cambio."},
+   {"text": "stå i en klemme", "es": "estar en un aprieto", "example": "Uden hans hjælp kommer vi til at stå i en klemme.", "example_es": "Sin su ayuda nos vamos a ver en un aprieto."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo (5–6 frases) al responsable de otro departamento pidiendo prestada a una persona de su equipo: reconoce su carga, formula la petición con atenuación, limita lo que pides y ofrece una contrapartida.",
+   "model": "Jeg ved, at jeres team selv har travlt op til næste måneds deadline, så jeg skriver ikke denne mail med let hjerte. Mon I kunne undvære Mikkel om formiddagen i de næste to uger, mens vi får det nye system på plads? Hans erfaring med integrationen ville spare os for adskillige dages fejlsøgning. Til gengæld kan vi låne jer en af vores testere, når I går i gang med jeres testfase. Hvis forslaget ikke passer ind i jeres planlægning, vil jeg meget gerne høre, hvad der kunne fungere for jer i stedet.",
+   "rubric": "Reconoce la situación del destinatario antes de pedir; usa al menos dos fórmulas atenuadas (mon, kunne, ville); delimita la petición en tiempo o alcance; ofrece una contrapartida concreta; deja una salida abierta sin renunciar al objetivo."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una jefa de proyecto pide al responsable de otro departamento que le preste a un técnico durante dos semanas, sabiendo que él también va justo de personal.",
+   "lines": [
+    {"text": "Ech weess, datt dir selwer knapp besat sidd, dofir froen ech dat net gär.", "es": "Sé que vosotros también vais justos de personal, por eso no me gusta tener que pedirlo."},
+    {"text": "Dat kléngt, wéi wann s du ee vu menge Leit ausléine wëlls.", "es": "Suena a que quieres que te preste a alguien de mi equipo."},
+    {"text": "Jo. Wier et denkbar, datt de Marc eis zwou Woche laang hëlleft, bis den neie System leeft?", "es": "Sí. ¿Sería concebible que Marc nos ayudara dos semanas, hasta que funcione el sistema nuevo?"},
+    {"text": "Zwou Wochen ass laang, wa mir selwer nächste Mount eng Deadline hunn.", "es": "Dos semanas es mucho cuando nosotros mismos tenemos una fecha límite el mes que viene."},
+    {"text": "Dat verstinn ech ganz gutt. Géif et der hëllefen, wann hien nëmme moies bei eis wier?", "es": "Lo entiendo muy bien. ¿Te ayudaría que solo estuviera con nosotros por las mañanas?"},
+    {"text": "Dat géif en Ënnerscheed maachen, mä da wëll ech och eppes zréck.", "es": "Eso cambiaría las cosas, pero entonces yo también quiero algo a cambio."},
+    {"text": "Dat ass fair. Mir léinen iech en Tester aus, soubal dir an d'Testphas kommt.", "es": "Me parece justo. Os prestamos a un tester en cuanto lleguéis a la fase de pruebas."},
+    {"text": "Da gi mir eis eens, mä loosse mir et kuerz opschreiwen, fir datt herno keen iwwerrascht ass.", "es": "Entonces estamos de acuerdo, pero apuntémoslo brevemente para que luego nadie se lleve sorpresas."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué hace que el responsable acepte finalmente la petición?",
+   "choices": ["Que el préstamo se limite a las mañanas y reciba a cambio un tester más adelante", "Que la jefa le recuerde que se trata de una orden de la dirección", "Que Marc haya pedido personalmente cambiarse al otro proyecto"]
+  },
+  "grammar": {
+   "focus": "Konjunktiv II de cortesía: wier, hätt, géif",
+   "explain": "Para suavizar una petición se usa el Konjunktiv II: «Wier et méiglech …?», «Hätt Dir e Moment Zäit?». Con verbos léxicos se forma con «géif» + infinitivo al final: «Et géif eis vill hëllefen».",
+   "items": [
+    {"prompt": "___ et méiglech, eis den Dossier bis Donneschdeg ze schécken? (sinn)", "answer": "Wier", "es": "¿Sería posible enviarnos el expediente antes del jueves?"},
+    {"prompt": "___ Dir eventuell e Moment Zäit fir eng kuerz Fro? (hunn)", "answer": "Hätt", "es": "¿Tendría usted quizá un momento para una pregunta breve?"},
+    {"prompt": "Et ___ eis enorm hëllefen, wann de Marc moies bei eis wier. (auxiliar de Konjunktiv II)", "answer": "géif", "es": "Nos ayudaría enormemente que Marc estuviera con nosotros por las mañanas."}
+   ]
+  },
+  "vocab": [
+   {"text": "knapp besat", "es": "con poco personal", "example": "Mir si selwer knapp besat, dofir ass et schwéier.", "example_es": "Nosotros mismos vamos justos de personal, por eso es difícil."},
+   {"text": "ausléinen", "es": "prestar (a alguien o algo)", "example": "Kënnt dir eis de Marc zwou Woche laang ausléinen?", "example_es": "¿Podéis prestarnos a Marc durante dos semanas?"},
+   {"text": "en Ënnerscheed maachen", "es": "marcar la diferencia", "example": "Schonn dräi Stonne moies géifen en Ënnerscheed maachen.", "example_es": "Solo tres horas por la mañana ya marcarían la diferencia."},
+   {"text": "eens ginn", "es": "ponerse de acuerdo", "example": "Ech si sécher, datt mir eis eens ginn.", "example_es": "Estoy seguro de que nos pondremos de acuerdo."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo (5–6 frases) al responsable de otro departamento pidiendo prestada a una persona de su equipo: reconoce su carga, formula la petición con atenuación, limita lo que pides y ofrece una contrapartida.",
+   "model": "Ech weess, datt Är Equipe virun der Deadline vum nächste Mount selwer knapp besat ass, dofir fält et mir net liicht, Iech dës Fro ze stellen. Wier et denkbar, datt de Marc eis an den nächsten zwou Wochen all Moien ënnerstëtzt, bis den neie System leeft? Seng Erfarung mat der Integratioun géif eis etlech Deeg Feelersich erspueren. Am Géigenzuch léine mir Iech gär ee vun eisen Tester aus, soubal Dir an d'Testphas gitt. Sollt dës Propositioun net an Är Planung passen, wier ech Iech dankbar, wann Dir mir sot, wat fir Iech méiglech wier.",
+   "rubric": "Reconoce la situación del destinatario antes de pedir; usa al menos dos formas de Konjunktiv II (wier, géif, hätt, kéint); delimita la petición en tiempo o alcance; ofrece una contrapartida concreta; deja una salida abierta sin renunciar al objetivo."
+  }
+ }
+}

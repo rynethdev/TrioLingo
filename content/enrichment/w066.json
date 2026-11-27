@@ -1,0 +1,77 @@
+{
+ "week": 66,
+ "da": {
+  "dialogue2": {
+   "context": "Por teléfono: una mujer pide presupuesto a una empresa de mudanzas y le preguntan los detalles.",
+   "lines": [
+    {"text": "Hej, jeg skal flytte i juni og vil gerne høre om en pris.", "es": "Hola, me mudo en junio y querría saber un precio."},
+    {"text": "Selvfølgelig. Hvor stor er lejligheden, og hvilken etage ligger den på?", "es": "Claro. ¿Cómo de grande es el piso y en qué planta está?"},
+    {"text": "Tre værelser på tredje sal, og der er ingen elevator.", "es": "Tres habitaciones en un tercero, y no hay ascensor."},
+    {"text": "Skal møblerne også pakkes ned?", "es": "¿Hay que embalar también los muebles?"},
+    {"text": "Nej, det klarer vi selv. Det hele skal bare køres.", "es": "No, eso lo hacemos nosotros. Solo hay que transportarlo todo."},
+    {"text": "Så sender jeg et uforpligtende tilbud på mail i morgen.", "es": "Entonces mañana le mando un presupuesto sin compromiso por correo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué servicio contrata finalmente la clienta?",
+   "choices": ["Solo el transporte, porque ellos mismos embalan", "La mudanza completa, con embalaje incluido", "Un elevador exterior para el tercer piso"]
+  },
+  "grammar": {
+   "focus": "Pasiva con -s y con «blive»",
+   "explain": "La pasiva con -s es frecuente con modales y en instrucciones: Møblerne skal pakkes. Con «blive» + participio se cuenta un hecho concreto: Sofaen blev leveret i går.",
+   "items": [
+    {"prompt": "Alle kasser skal ___ inden fredag. (pakke, pasiva con -s)", "answer": "pakkes", "es": "Todas las cajas tienen que estar embaladas antes del viernes."},
+    {"prompt": "Sofaen ___ leveret i går. (blive, datid)", "answer": "blev", "es": "El sofá se entregó ayer."},
+    {"prompt": "Prisen kan ___ på mail. (sende, pasiva con -s)", "answer": "sendes", "es": "El precio se puede mandar por correo."}
+   ]
+  },
+  "vocab": [
+   {"text": "uforpligtende", "es": "sin compromiso", "example": "Vi sender gerne et uforpligtende tilbud.", "example_es": "Le mandamos con gusto un presupuesto sin compromiso."},
+   {"text": "på tredje sal", "es": "en un tercer piso", "example": "Lejligheden ligger på tredje sal.", "example_es": "El piso está en una tercera planta."},
+   {"text": "det klarer vi selv", "es": "eso lo hacemos nosotros", "example": "Nej tak, det klarer vi selv.", "example_es": "No, gracias, eso lo hacemos nosotros."},
+   {"text": "høre om en pris", "es": "pedir un precio", "example": "Jeg vil gerne høre om en pris på flytningen.", "example_es": "Querría saber el precio de la mudanza."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo a un jardinero: necesitas que te corten el seto y limpien el jardín. Describe el trabajo, cuándo lo necesitas y pide un presupuesto por escrito (4 frases).",
+   "model": "Hej. Jeg har brug for hjælp i min have i Roskilde. Hækken skal klippes, og græsplænen skal ryddes for blade. Arbejdet skal helst laves inden midten af oktober. Kan du sende mig et skriftligt tilbud? Venlig hilsen, Carmen Díaz.",
+   "rubric": "Describe el trabajo con al menos dos pasivas (skal klippes, skal ryddes…), indica un plazo y pide el presupuesto por escrito."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Por teléfono: una mujer pide presupuesto a una empresa de mudanzas y le preguntan los detalles.",
+   "lines": [
+    {"text": "Moien, ech plënneren am Juni an hätt gär e Präis.", "es": "Hola, me mudo en junio y querría un precio."},
+    {"text": "Natierlech. Wéi grouss ass d'Wunneng, an op wéi engem Stack ass se?", "es": "Claro. ¿Cómo de grande es el piso y en qué planta está?"},
+    {"text": "Dräi Zëmmer um drëtte Stack, an et gëtt kee Lift.", "es": "Tres habitaciones en un tercero, y no hay ascensor."},
+    {"text": "Sollen d'Miwwelen och vun eis agepaakt ginn?", "es": "¿Embalamos también nosotros los muebles?"},
+    {"text": "Neen, dat maache mir selwer. Et muss just alles transportéiert ginn.", "es": "No, eso lo hacemos nosotros. Solo hay que transportarlo todo."},
+    {"text": "Da schécken ech Iech muer e Präis per Mail, ouni Verflichtung.", "es": "Entonces mañana le mando un precio por correo, sin compromiso."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué servicio contrata finalmente la clienta?",
+   "choices": ["Solo el transporte, porque ellos mismos embalan", "La mudanza completa, con embalaje incluido", "Un elevador exterior para el tercer piso"]
+  },
+  "grammar": {
+   "focus": "Pasiva con «ginn»",
+   "explain": "La pasiva se forma con «ginn» + participio al final: D'Miwwele ginn agepaakt. Con un modal, «ginn» va al final: Alles muss transportéiert ginn. En pasado se usa «sinn … ginn»: De Sofa ass geliwwert ginn.",
+   "items": [
+    {"prompt": "All d'Këschte musse bis e Freideg ___ ginn. (apaken)", "answer": "agepaakt", "es": "Todas las cajas tienen que estar embaladas antes del viernes."},
+    {"prompt": "De Sofa ___ gëschter geliwwert ginn. (sinn)", "answer": "ass", "es": "El sofá se entregó ayer."},
+    {"prompt": "D'Zëmmer ___ nächst Woch gemoolt. (ginn)", "answer": "ginn", "es": "Las habitaciones se pintan la semana que viene."}
+   ]
+  },
+  "vocab": [
+   {"text": "ouni Verflichtung", "es": "sin compromiso", "example": "Ech schécken Iech e Präis ouni Verflichtung.", "example_es": "Le mando un precio sin compromiso."},
+   {"text": "um drëtte Stack", "es": "en el tercer piso", "example": "D'Wunneng ass um drëtte Stack.", "example_es": "El piso está en la tercera planta."},
+   {"text": "dat maache mir selwer", "es": "eso lo hacemos nosotros", "example": "Merci, mee dat maache mir selwer.", "example_es": "Gracias, pero eso lo hacemos nosotros."},
+   {"text": "transportéiert", "es": "transportado", "example": "Et muss just alles transportéiert ginn.", "example_es": "Solo hay que transportarlo todo."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo a un jardinero: necesitas que te corten el seto y limpien el jardín. Describe el trabajo, cuándo lo necesitas y pide un presupuesto por escrito (4 frases).",
+   "model": "Moien, ech bräicht Hëllef a mengem Gaart zu Miersch. D'Heck muss geschnidde ginn, an de Gaart muss gebotzt ginn. D'Aarbecht sollt bis Mëtt Oktober gemaach ginn. Kënnt Dir mir e schrëftleche Käschtevoranschlag schécken? Mat beschte Gréiss, Carmen Díaz.",
+   "rubric": "Describe el trabajo con al menos dos pasivas con «ginn», indica un plazo y pide el presupuesto por escrito."
+  }
+ }
+}

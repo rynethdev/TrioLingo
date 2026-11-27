@@ -1,0 +1,79 @@
+{
+ "week": 111,
+ "da": {
+  "dialogue2": {
+   "context": "Un comprador ensaya con una compañera la llamada a un proveedor que quiere subir los precios un 15 %; ella hace de abogada del diablo.",
+   "lines": [
+    {"text": "Jeg ringer til leverandøren om en time. Kan du spille ham, så jeg kan øve mig?", "es": "Llamo al proveedor dentro de una hora. ¿Puedes hacer de él para que ensaye?"},
+    {"text": "Klart. «Vores priser stiger med 15 procent fra januar, det er desværre nødvendigt.»", "es": "Claro. «Nuestros precios suben un 15 % desde enero, por desgracia es necesario.»"},
+    {"text": "Det forstår jeg, men så kommer vi til at se os om efter andre leverandører.", "es": "Lo entiendo, pero entonces vamos a tener que buscar otros proveedores."},
+    {"text": "Pas på. Hvis du starter med en trussel, vil han lukke af med det samme.", "es": "Cuidado. Si empiezas con una amenaza, se va a cerrar en banda enseguida."},
+    {"text": "Du har ret. Jeg vil hellere starte med vores lange samarbejde og så spørge til hans omkostninger.", "es": "Tienes razón. Prefiero empezar por nuestra larga colaboración y luego preguntarle por sus costes."},
+    {"text": "Godt. Og hvad er din smertegrænse?", "es": "Bien. ¿Y cuál es tu límite?"},
+    {"text": "Otte procent. Over det kommer jeg til at involvere indkøbschefen.", "es": "Un ocho por ciento. Por encima de eso, tendré que implicar a la jefa de compras."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué cambia el comprador en su estrategia después del ensayo?",
+   "choices": ["Empezar destacando la colaboración en vez de amenazar con irse", "Aceptar la subida del 15 % sin discutir", "Dejar que la jefa de compras haga la llamada"]
+  },
+  "grammar": {
+   "focus": "Futuro: vil, skal y kommer til at",
+   "explain": "«Vil» expresa intención o predicción: «Han vil lukke af». «Skal» indica algo planeado u obligatorio: «Jeg skal ringe kl. 14». «Kommer til at» expresa una consecuencia esperable, a menudo no elegida: «Så kommer vi til at skifte leverandør».",
+   "items": [
+    {"prompt": "Hvis prisen stiger, ___ vi til at hæve vores egne priser. (consecuencia)", "answer": "kommer", "es": "Si sube el precio, vamos a tener que subir nuestros propios precios."},
+    {"prompt": "Jeg ___ ringe til leverandøren klokken 14; det står i kalenderen. (plan fijado)", "answer": "skal", "es": "Tengo que llamar al proveedor a las 14; está en la agenda."},
+    {"prompt": "Jeg tror, han ___ sige nej til vores første tilbud. (predicción)", "answer": "vil", "es": "Creo que dirá que no a nuestra primera oferta."}
+   ]
+  },
+  "vocab": [
+   {"text": "se os om efter", "es": "buscar (alternativas)", "example": "Vi må se os om efter en ny leverandør.", "example_es": "Tenemos que buscar un proveedor nuevo."},
+   {"text": "lukke af", "es": "cerrarse en banda", "example": "Hvis du presser for hårdt, vil han lukke af.", "example_es": "Si presionas demasiado, se cerrará en banda."},
+   {"text": "smertegrænse", "es": "límite (lo máximo que aceptas)", "example": "Vores smertegrænse er en stigning på otte procent.", "example_es": "Nuestro límite es una subida del ocho por ciento."},
+   {"text": "djævelens advokat", "es": "abogado del diablo", "example": "Jeg spiller lige djævelens advokat.", "example_es": "Voy a hacer de abogado del diablo."}
+  ],
+  "transfer": {
+   "prompt": "Mañana tienes que llamar a tu casero para decirle que dejarás el piso dos meses antes de lo previsto en el contrato. Escribe tu plan de llamada (5–6 frases): cómo empiezas, qué quieres conseguir, qué ofreces y qué harás si dice que no. Usa formas de futuro.",
+   "model": "Jeg vil starte med at takke for to gode år i lejligheden. Derefter skal jeg forklare, at jeg har fået job i Aalborg og derfor flytter til 1. februar. Mit mål er at slippe for at betale husleje for marts og april. Jeg vil tilbyde selv at finde en ny lejer og vise lejligheden frem. Hvis han siger nej, kommer jeg til at betale én måned ekstra, men ikke to. Bagefter skal jeg huske at bekræfte aftalen på mail.",
+   "rubric": "Ordena la llamada (inicio, objetivo, oferta, plan B), usa al menos dos formas de futuro distintas (vil, skal, kommer til at) y fija un límite claro."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un comprador ensaya con una compañera la llamada a un proveedor que quiere subir los precios un 15 %; ella hace de abogada del diablo.",
+   "lines": [
+    {"text": "Ech ruffen an enger Stonn de Fournisseur un. Kanns du hie spillen, fir datt ech iwwe kann?", "es": "Llamo al proveedor dentro de una hora. ¿Puedes hacer de él para que ensaye?"},
+    {"text": "Kloer. „Eis Präisser klamme vum Januar un ëm 15 Prozent, dat ass leider néideg.“", "es": "Claro. «Nuestros precios suben un 15 % desde enero, por desgracia es necesario.»"},
+    {"text": "Dat verstinn ech, mee da wäerte mir eis no anere Fournisseuren ëmkucken.", "es": "Lo entiendo, pero entonces buscaremos otros proveedores."},
+    {"text": "Opgepasst. Wann s du mat enger Dreeung ufänks, wäert hie sech direkt zoumaachen.", "es": "Cuidado. Si empiezas con una amenaza, se va a cerrar en banda enseguida."},
+    {"text": "Do hues du Recht. Ech fänke léiwer mat eiser laanger Zesummenaarbecht un a froen dann no senge Käschten.", "es": "Tienes razón. Prefiero empezar por nuestra larga colaboración y luego preguntarle por sus costes."},
+    {"text": "Gutt. A wat ass deng Schmäerzgrenz?", "es": "Bien. ¿Y cuál es tu límite?"},
+    {"text": "Aacht Prozent. Driwwer wäert ech d'Akaafschefin abannen.", "es": "Un ocho por ciento. Por encima de eso, implicaré a la jefa de compras."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué cambia el comprador en su estrategia después del ensayo?",
+   "choices": ["Empezar destacando la colaboración en vez de amenazar con irse", "Aceptar la subida del 15 % sin discutir", "Dejar que la jefa de compras haga la llamada"]
+  },
+  "grammar": {
+   "focus": "Futuro con «wäerten» + infinitivo y presente con valor de futuro",
+   "explain": "El luxemburgués expresa el futuro a menudo con presente + una expresión de tiempo («Ech ruffen muer un»). Para predicciones o intenciones firmes se usa «wäerten» + infinitivo: «Hie wäert sech zoumaachen», «Mir wäerten eis ëmkucken».",
+   "items": [
+    {"prompt": "Wann d'Präisser klammen, ___ mir eis eege Präisser misse erhéijen. (wäerten)", "answer": "wäerte", "es": "Si suben los precios, tendremos que subir nuestros propios precios."},
+    {"prompt": "Ech mengen, hie ___ eis éischt Offer refuséieren. (wäerten, 3.ª persona)", "answer": "wäert", "es": "Creo que rechazará nuestra primera oferta."},
+    {"prompt": "Ech ___ de Fournisseur muer um zwou Auer un. (uruffen, presente con valor de futuro)", "answer": "ruffen", "es": "Llamo al proveedor mañana a las dos."}
+   ]
+  },
+  "vocab": [
+   {"text": "ëmkucken", "es": "buscar (alternativas)", "example": "Mir mussen eis no engem neie Fournisseur ëmkucken.", "example_es": "Tenemos que buscar un proveedor nuevo."},
+   {"text": "zoumaachen", "es": "cerrarse en banda", "example": "Wann s du ze vill dréckst, wäert hie sech zoumaachen.", "example_es": "Si presionas demasiado, se cerrará en banda."},
+   {"text": "Schmäerzgrenz", "es": "límite (lo máximo que aceptas)", "example": "Eis Schmäerzgrenz ass eng Erhéijung vun aacht Prozent.", "example_es": "Nuestro límite es una subida del ocho por ciento."},
+   {"text": "abannen", "es": "implicar, involucrar", "example": "Mir sollten d'Personalabteilung fréi abannen.", "example_es": "Deberíamos implicar pronto a Recursos Humanos."}
+  ],
+  "transfer": {
+   "prompt": "Mañana tienes que llamar a tu casero para decirle que dejarás el piso dos meses antes de lo previsto en el contrato. Escribe tu plan de llamada (5–6 frases): cómo empiezas, qué quieres conseguir, qué ofreces y qué harás si dice que no. Usa formas de futuro.",
+   "model": "Ech wäert mat engem Merci fir zwee gutt Joer an der Wunneng ufänken. Duerno erklären ech, datt ech eng Aarbecht zu Ettelbréck fonnt hunn an dofir den 1. Februar plënneren. Mäi Zil ass, kee Loyer fir Mäerz an Abrëll ze bezuelen. Ech wäert ubidden, selwer en neie Locataire ze sichen an d'Wunneng ze weisen. Wann hie Nee seet, bezuelen ech ee Mount extra, mee net zwee. Duerno wäert ech d'Ofmaachung per Mail confirméieren.",
+   "rubric": "Ordena la llamada (inicio, objetivo, oferta, plan B), usa «wäerten» + infinitivo al menos dos veces y algún presente con valor de futuro, y fija un límite claro."
+  }
+ }
+}

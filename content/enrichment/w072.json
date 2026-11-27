@@ -1,0 +1,77 @@
+{
+ "week": 72,
+ "da": {
+  "dialogue2": {
+   "context": "Un repartidor llama a una clienta porque no encuentra la entrada de su edificio.",
+   "lines": [
+    {"text": "Hej, jeg står ved nummer 12, men jeg kan ikke finde opgang C.", "es": "Hola, estoy en el número 12, pero no encuentro el portal C."},
+    {"text": "Gå forbi den røde postkasse og om bag ved bygningen.", "es": "Pase el buzón rojo y vaya por detrás del edificio."},
+    {"text": "Bag ved bygningen? Der er kun en parkeringsplads.", "es": "¿Por detrás del edificio? Solo hay un aparcamiento."},
+    {"text": "Ja, opgang C ligger lige over for parkeringspladsen, ved siden af containerne.", "es": "Sí, el portal C está justo enfrente del aparcamiento, al lado de los contenedores."},
+    {"text": "Nu ser jeg den. Hvilken etage bor du på?", "es": "Ya lo veo. ¿En qué planta vive?"},
+    {"text": "Fjerde sal til venstre. Jeg trykker dig ind nu.", "es": "Cuarto izquierda. Le abro ahora."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué no encontraba el repartidor la entrada?",
+   "choices": ["Porque el portal C no da a la calle, sino a la parte de atrás", "Porque se había equivocado de número de calle", "Porque los contenedores tapaban la puerta"]
+  },
+  "grammar": {
+   "focus": "Preposiciones de lugar: forbi, bag ved, over for, ved siden af",
+   "explain": "«Forbi» = pasando junto a algo, «bag ved» = detrás de, «over for» = enfrente de, «ved siden af» = al lado de: Bageren ligger over for kirken. Gå forbi skolen.",
+   "items": [
+    {"prompt": "Cyklerne står ___ indgangen. (al lado de)", "answer": "ved siden af", "es": "Las bicis están al lado de la entrada."},
+    {"prompt": "Gå ___ supermarkedet og drej til højre. (pasando por delante de)", "answer": "forbi", "es": "Pase por delante del supermercado y gire a la derecha."},
+    {"prompt": "Parkeringspladsen ligger ___ huset. (detrás de)", "answer": "bag ved", "es": "El aparcamiento está detrás de la casa."}
+   ]
+  },
+  "vocab": [
+   {"text": "opgang", "es": "portal, escalera", "example": "Jeg kan ikke finde opgang C.", "example_es": "No encuentro el portal C."},
+   {"text": "om bag ved", "es": "por detrás de", "example": "Gå om bag ved bygningen.", "example_es": "Vaya por detrás del edificio."},
+   {"text": "lige over for", "es": "justo enfrente de", "example": "Opgangen ligger lige over for parkeringspladsen.", "example_es": "El portal está justo enfrente del aparcamiento."},
+   {"text": "trykker dig ind", "es": "te abro (con el portero automático)", "example": "Vent lidt, jeg trykker dig ind.", "example_es": "Espera, te abro."}
+  ],
+  "transfer": {
+   "prompt": "Una amiga viene a cenar por primera vez y llega en autobús. Escríbele cómo llegar desde la parada hasta tu portal (3–4 frases con al menos dos referencias visibles).",
+   "model": "Stå af ved stoppestedet Rådhuset. Gå forbi apoteket og drej til højre ved den store kirke. Mit hus ligger over for en lille park, ved siden af en blomsterbutik. Jeg bor på anden sal, og navnet står ved ringeklokken.",
+   "rubric": "Usa al menos tres preposiciones de lugar (forbi, over for, ved siden af…) y referencias visibles en orden."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un repartidor llama a una clienta porque no encuentra la entrada de su edificio.",
+   "lines": [
+    {"text": "Moien, ech sti virun der Nummer 12, mee ech fannen d'Entrée C net.", "es": "Hola, estoy delante del número 12, pero no encuentro el portal C."},
+    {"text": "Gitt laanscht déi rout Bréifboîte an hannert d'Gebai.", "es": "Pase el buzón rojo y vaya por detrás del edificio."},
+    {"text": "Hannert dem Gebai? Do ass just e Parking.", "es": "¿Detrás del edificio? Solo hay un aparcamiento."},
+    {"text": "Jo, d'Entrée C ass vis-à-vis vum Parking, nieft de Poubellen.", "es": "Sí, el portal C está enfrente del aparcamiento, al lado de los cubos de basura."},
+    {"text": "Elo gesinn ech se. Op wéi engem Stack wunnt Dir?", "es": "Ya lo veo. ¿En qué planta vive?"},
+    {"text": "Véierte Stack lénks. Ech maachen Iech elo op.", "es": "Cuarto izquierda. Le abro ahora."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué no encontraba el repartidor la entrada?",
+   "choices": ["Porque el portal C no da a la calle, sino a la parte de atrás", "Porque se había equivocado de número de calle", "Porque los cubos de basura tapaban la puerta"]
+  },
+  "grammar": {
+   "focus": "Preposiciones de lugar: laanscht, hannert, vis-à-vis vun, nieft",
+   "explain": "«Laanscht» = pasando junto a, «hannert» = detrás de, «vis-à-vis vun» = enfrente de, «nieft» = al lado de. Para decir dónde está algo se usa dativo: nieft dem Gebai, hannert der Kierch.",
+   "items": [
+    {"prompt": "D'Poubelle stinn ___ der Entrée. (al lado de)", "answer": "nieft", "es": "Los cubos de basura están al lado de la entrada."},
+    {"prompt": "Gitt ___ de Supermarché a béit dann riets of. (pasando por delante de)", "answer": "laanscht", "es": "Pase por delante del supermercado y luego gire a la derecha."},
+    {"prompt": "De Parking ass ___ dem Haus. (detrás de)", "answer": "hannert", "es": "El aparcamiento está detrás de la casa."}
+   ]
+  },
+  "vocab": [
+   {"text": "laanscht", "es": "pasando por, junto a", "example": "Gitt laanscht déi rout Bréifboîte.", "example_es": "Pase junto al buzón rojo."},
+   {"text": "Bréifboîte", "es": "buzón", "example": "Bei der rouder Bréifboîte musst Dir hannert d'Gebai goen.", "example_es": "En el buzón rojo tiene que ir por detrás del edificio."},
+   {"text": "vis-à-vis vum", "es": "enfrente de", "example": "D'Entrée ass vis-à-vis vum Parking.", "example_es": "El portal está enfrente del aparcamiento."},
+   {"text": "Op wéi engem Stack", "es": "En qué planta", "example": "Op wéi engem Stack wunnt Dir?", "example_es": "¿En qué planta vive?"}
+  ],
+  "transfer": {
+   "prompt": "Una amiga viene a cenar por primera vez y llega en autobús. Escríbele cómo llegar desde la parada hasta tu portal (3–4 frases con al menos dos referencias visibles).",
+   "model": "Klëmm um Arrêt Stadhaus aus. Géi laanscht d'Apdikt a béi bei der grousser Kierch riets of. Mäin Haus ass vis-à-vis vun engem klenge Park, nieft engem Blummebuttek. Ech wunnen um zweete Stack, an den Numm steet bei der Klack.",
+   "rubric": "Usa al menos tres preposiciones de lugar (laanscht, vis-à-vis vun, nieft…) y referencias visibles en orden."
+  }
+ }
+}

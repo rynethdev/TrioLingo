@@ -1,0 +1,201 @@
+{
+ "week": 120,
+ "da": {
+  "dialogue2": {
+   "context": "En una comunidad de vecinos, la presidenta transmite a un vecino la postura de otra vecina sobre un aparcabicis en el patio y busca un punto común entre ambos.",
+   "lines": [
+    {
+     "text": "Jeg har talt med Hanne, og hun sagde, at hun ikke var imod et cykelskur som sådan.",
+     "es": "He hablado con Hanne y dijo que no estaba en contra de un aparcabicis como tal."
+    },
+    {
+     "text": "Det lød ellers helt anderledes på generalforsamlingen, hvor hun talte om at ødelægge gården.",
+     "es": "Pues en la asamblea sonó muy distinto, cuando habló de destrozar el patio."
+    },
+    {
+     "text": "Hun forklarede, at hendes bekymring især gjaldt de to gamle frugttræer.",
+     "es": "Explicó que su preocupación tenía que ver sobre todo con los dos frutales viejos."
+    },
+    {
+     "text": "Så det er altså ikke cyklerne, hun har noget imod, men placeringen?",
+     "es": "¿O sea que lo que le molesta no son las bicis, sino el sitio?"
+    },
+    {
+     "text": "Præcis. Og du har jo selv sagt, at du bare ønsker et tørt og sikkert sted til cyklerne.",
+     "es": "Exacto. Y tú mismo has dicho que solo quieres un sitio seco y seguro para las bicis."
+    },
+    {
+     "text": "Ja, det er det eneste, jeg går op i; hvor skuret står, er mig egentlig ligegyldigt.",
+     "es": "Sí, es lo único que me importa; dónde esté el cobertizo me da, en realidad, igual."
+    },
+    {
+     "text": "Så foreslår jeg, at vi kigger på hjørnet ved containerne, hvor der ikke står nogen træer.",
+     "es": "Entonces propongo que miremos la esquina junto a los contenedores, donde no hay árboles."
+    },
+    {
+     "text": "Det kan jeg godt leve med, hvis Hanne også kan.",
+     "es": "Puedo vivir con eso, si Hanne también puede."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué descubre el vecino gracias a la mediación?",
+   "choices": [
+    "Que la objeción de Hanne se refiere al lugar y no al aparcabicis en sí",
+    "Que Hanne retira su queja porque la asamblea le llevó la contraria",
+    "Que habrá que talar los frutales para hacer sitio al cobertizo"
+   ]
+  },
+  "grammar": {
+   "focus": "Estilo indirecto: concordancia de tiempos y posición de «ikke»",
+   "explain": "Tras un verbo introductorio en pasado (sagde, forklarede), el verbo de la subordinada suele pasar a pretérito (er → var, vil → ville, kan → kunne), y adverbios como «ikke» o «godt» van delante del verbo: Hun sagde, at hun ikke var imod det.",
+   "items": [
+    {
+     "prompt": "Hanne: «Jeg er ikke imod skuret.» → Hanne sagde, at hun ikke ___ imod skuret.",
+     "answer": "var",
+     "es": "Hanne dijo que no estaba en contra del cobertizo."
+    },
+    {
+     "prompt": "Peter: «Jeg vil gerne have et tørt sted.» → Peter sagde, at han gerne ___ have et tørt sted.",
+     "answer": "ville",
+     "es": "Peter dijo que le gustaría tener un sitio seco."
+    },
+    {
+     "prompt": "Formanden: «Vi kan godt finde en løsning.» → Formanden mente, at de godt ___ finde en løsning.",
+     "answer": "kunne",
+     "es": "La presidenta opinaba que sí podían encontrar una solución."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "som sådan",
+    "es": "como tal, en sí",
+    "example": "Hun er ikke imod cykelskure som sådan.",
+    "example_es": "No está en contra de los aparcabicis en sí."
+   },
+   {
+    "text": "noget imod",
+    "es": "algo en contra",
+    "example": "Han har ikke noget imod cyklerne, kun imod placeringen.",
+    "example_es": "No tiene nada en contra de las bicis, solo del sitio."
+   },
+   {
+    "text": "er mig ligegyldigt",
+    "es": "me da igual",
+    "example": "Hvor det står, er mig ligegyldigt.",
+    "example_es": "Dónde esté me da igual."
+   },
+   {
+    "text": "leve med",
+    "es": "aceptar, vivir con (algo)",
+    "example": "Den løsning kan jeg godt leve med, hvis træerne bliver stående.",
+    "example_es": "Esa solución la puedo aceptar si los árboles se quedan."
+   }
+  ],
+  "transfer": {
+   "prompt": "Redacta el acta breve de la mediación para el tablón del edificio (5–6 frases): resume con neutralidad ambas posturas en estilo indirecto, nombra el interés común y la propuesta, sin tomar partido.",
+   "model": "På mødet den 12. maj drøftede bestyrelsen placeringen af et nyt cykelskur i gården. Hanne Larsen oplyste, at hun ikke var imod et skur, men at hun ønskede at bevare de to gamle frugttræer. Peter Holm forklarede, at han først og fremmest havde brug for et tørt og sikkert sted til cyklerne. Begge parter gav udtryk for, at gården fortsat skulle være et rart sted for alle beboere. Formanden foreslog derfor at undersøge hjørnet ved containerne, hvor der ikke står træer. Forslaget sendes til alle beboere inden næste møde.",
+   "rubric": "Usa al menos tres verbos introductorios distintos (oplyste, forklarede, gav udtryk for); respeta la concordancia de tiempos del estilo indirecto; presenta ambas posturas con el mismo peso y sin adjetivos valorativos; nombra el interés común antes de la propuesta."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En una comunidad de vecinos, la presidenta transmite a un vecino la postura de otra vecina sobre un cobertizo para bicis en el patio y busca un punto común entre ambos.",
+   "lines": [
+    {
+     "text": "Ech hu mam Martine geschwat, an hatt sot, et wier u sech net géint e Vëlosschapp.",
+     "es": "He hablado con Martine y dijo que, en sí, no estaba en contra de un cobertizo para bicis."
+    },
+    {
+     "text": "Op der Generalversammlung huet dat awer ganz anescht geklongen.",
+     "es": "Pues en la asamblea general sonó muy distinto."
+    },
+    {
+     "text": "Hatt huet erkläert, seng Suerg géif virun allem déi zwee al Uebstbeem betreffen.",
+     "es": "Explicó que su preocupación tenía que ver sobre todo con los dos frutales viejos."
+    },
+    {
+     "text": "Also huet et näischt géint d'Vëloen, just eppes géint d'Plaz?",
+     "es": "¿O sea que no tiene nada contra las bicis, solo contra el sitio?"
+    },
+    {
+     "text": "Genee. An du hues jo selwer gesot, et géif der just drëm goen, datt d'Vëloen dréchen a sécher stinn.",
+     "es": "Exacto. Y tú mismo dijiste que lo único que te importaba era que las bicis estuvieran secas y seguras."
+    },
+    {
+     "text": "Jo, dat ass dat Eenzegt, wat mer wichteg ass; wou de Schapp steet, ass mer eigentlech egal.",
+     "es": "Sí, es lo único que me importa; dónde esté el cobertizo me da, en realidad, igual."
+    },
+    {
+     "text": "Da proposéieren ech, datt mir den Eck bei de Containeren ukucken, wou keng Beem stinn.",
+     "es": "Entonces propongo que miremos la esquina junto a los contenedores, donde no hay árboles."
+    },
+    {
+     "text": "Ech kéint domat liewen, wann d'Martine och domat liewe kann.",
+     "es": "Podría vivir con eso, si Martine también puede."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué descubre el vecino gracias a la mediación?",
+   "choices": [
+    "Que la objeción de Martine se refiere al lugar y no al cobertizo en sí",
+    "Que Martine retira su queja porque la asamblea le llevó la contraria",
+    "Que habrá que talar los frutales para hacer sitio al cobertizo"
+   ]
+  },
+  "grammar": {
+   "focus": "Estilo indirecto con Konjunktiv II (wier, hätt, kéint, géif)",
+   "explain": "Para referir con neutralidad lo que dijo otra persona, el luxemburgués usa el Konjunktiv II: «Hatt sot, et wier net dogéint». Con verbos léxicos se recurre a «géif» + infinitivo: «hie sot, hie géif nokucken».",
+   "items": [
+    {
+     "prompt": "D'Martine: „Ech sinn net dogéint.“ → D'Martine sot, et ___ net dogéint.",
+     "answer": "wier",
+     "es": "Martine dijo que no estaba en contra."
+    },
+    {
+     "prompt": "De Paul: „Ech hu keng Zäit fir d'Versammlung.“ → De Paul sot, hien ___ keng Zäit fir d'Versammlung.",
+     "answer": "hätt",
+     "es": "Paul dijo que no tenía tiempo para la reunión."
+    },
+    {
+     "prompt": "D'Presidentin: „Mir kënnen eng Léisung fannen.“ → D'Presidentin mengt, mir ___ eng Léisung fannen.",
+     "answer": "kéinten",
+     "es": "La presidenta opina que podríamos encontrar una solución."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "u sech",
+    "es": "en sí, como tal",
+    "example": "Hatt ass u sech net géint de Schapp.",
+    "example_es": "En sí, no está en contra del cobertizo."
+   },
+   {
+    "text": "näischt géint",
+    "es": "nada en contra",
+    "example": "Hien huet näischt géint d'Vëloen, just géint d'Plaz.",
+    "example_es": "No tiene nada contra las bicis, solo contra el sitio."
+   },
+   {
+    "text": "ass mer egal",
+    "es": "me da igual",
+    "example": "Wou de Schapp steet, ass mer egal.",
+    "example_es": "Dónde esté el cobertizo me da igual."
+   },
+   {
+    "text": "domat liewen",
+    "es": "aceptarlo, vivir con ello",
+    "example": "Ech kéint domat liewen, wann d'Beem bleiwen.",
+    "example_es": "Podría aceptarlo si los árboles se quedan."
+   }
+  ],
+  "transfer": {
+   "prompt": "Redacta el acta breve de la mediación para el tablón del edificio (5–6 frases): resume con neutralidad ambas posturas en estilo indirecto, nombra el interés común y la propuesta, sin tomar partido.",
+   "model": "Op der Versammlung vum 12. Mee huet de Comité iwwer d'Plaz vun engem neie Vëlosschapp am Haff diskutéiert. D'Martine Weber huet erkläert, et wier u sech net géint e Schapp, et géif awer déi zwee al Uebstbeem gär erhalen. De Paul Hoffmann huet gesot, hie bräicht virun allem eng Plaz, wou d'Vëloen dréchen a sécher stinn. Béid Säiten hu betount, datt den Haff fir all Bewunner eng agreabel Plaz bleiwe soll. D'Presidentin huet dofir virgeschloen, den Eck bei de Containeren méi genee unzekucken, wou keng Beem stinn. D'Propositioun gëtt virun der nächster Versammlung un all Bewunner verschéckt.",
+   "rubric": "Usa al menos tres verbos introductorios distintos (erkläert, gesot, betount); emplea el Konjunktiv II para el estilo indirecto (wier, géif, bräicht); presenta ambas posturas con el mismo peso y sin adjetivos valorativos; nombra el interés común antes de la propuesta."
+  }
+ }
+}

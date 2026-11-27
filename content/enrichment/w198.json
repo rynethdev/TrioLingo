@@ -1,0 +1,81 @@
+{
+ "week": 198,
+ "da": {
+  "dialogue2": {
+   "context": "Una vulcanóloga invitada a un programa de televisión es presionada por el presentador para que responda con un simple sí o no a si el volcán entrará en erupción.",
+   "lines": [
+    {"text": "Professor, ja eller nej: Går vulkanen i udbrud i år?", "es": "Profesora, sí o no: ¿entrará el volcán en erupción este año?"},
+    {"text": "Det kan ingen svare ja eller nej på. Men jeg kan sige, hvad vi ved.", "es": "Nadie puede responder a eso con un sí o un no. Pero puedo decir lo que sabemos."},
+    {"text": "Seerne vil have et klart svar.", "es": "Los espectadores quieren una respuesta clara."},
+    {"text": "Så her er det klare: jorden hæver sig, og det sker uden tvivl af en grund.", "es": "Pues aquí va lo claro: el suelo se está elevando, y sin duda eso ocurre por algo."},
+    {"text": "Og det betyder udbrud?", "es": "¿Y eso significa erupción?"},
+    {"text": "Efter alt at dømme øger det risikoen. Hvornår, ved jeg ikke — og det gør ingen andre heller.", "es": "A juzgar por todo, aumenta el riesgo. Cuándo, no lo sé, y nadie más lo sabe tampoco."},
+    {"text": "Det lyder ikke særlig betryggende.", "es": "No suena muy tranquilizador."},
+    {"text": "Nej, men det er ærligt. Og det er ærlighed, folk skal kunne stole på, når det gælder.", "es": "No, pero es honesto. Y es en la honestidad en lo que la gente tiene que poder confiar cuando importa."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué implica la vulcanóloga con «y nadie más lo sabe tampoco»?",
+   "choices": ["Que su incertidumbre es la del conocimiento científico, no una falta de competencia suya", "Que sus colegas no son competentes", "Que se niega a dar información a la televisión"]
+  },
+  "grammar": {
+   "focus": "Marcadores epistémicos de autoridad: uden tvivl, efter alt at dømme, så vidt jeg ved",
+   "explain": "Hablar con autoridad sin arrogancia exige graduar la certeza: «uden tvivl» (sin duda) para lo comprobado, «efter alt at dømme» (a juzgar por todo) para lo muy probable, «efter min vurdering» (en mi opinión experta) y «så vidt jeg ved» (que yo sepa) para lo que tiene límites.",
+   "items": [
+    {"prompt": "Jorden hæver sig ___ tvivl. (sin duda)", "answer": "uden", "es": "El suelo se está elevando, sin duda."},
+    {"prompt": "Efter alt at ___ øger det risikoen. (a juzgar por todo)", "answer": "dømme", "es": "A juzgar por todo, eso aumenta el riesgo."},
+    {"prompt": "Så ___ jeg ved, er der endnu ingen tegn på gas. (que yo sepa)", "answer": "vidt", "es": "Que yo sepa, todavía no hay indicios de gas."}
+   ]
+  },
+  "vocab": [
+   {"text": "når det gælder", "es": "cuando de verdad importa", "example": "Man skal kunne stole på eksperterne, når det gælder.", "example_es": "Hay que poder confiar en los expertos cuando de verdad importa."},
+   {"text": "betryggende", "es": "tranquilizador", "example": "Svaret var ikke betryggende, men ærligt.", "example_es": "La respuesta no era tranquilizadora, pero sí honesta."},
+   {"text": "står på mål for", "es": "respondo de, avalo", "example": "Jeg står på mål for de tal, jeg nævner.", "example_es": "Respondo de las cifras que doy."},
+   {"text": "kortene på bordet", "es": "las cartas sobre la mesa", "example": "Hun lagde kortene på bordet fra første minut.", "example_es": "Puso las cartas sobre la mesa desde el primer minuto."}
+  ],
+  "transfer": {
+   "prompt": "Escribe la respuesta por escrito (6–8 frases) de una experta a un periodista que exige una predicción tajante sobre un tema incierto de su campo. Propósito: mostrar dominio, distinguir lo seguro de lo probable y de lo desconocido, sin cerrar el diálogo.",
+   "model": "Jeg forstår godt ønsket om et klart ja eller nej, men det ville være uansvarligt af mig at give det. Det, vi ved uden tvivl, er, at jorden under vulkanen har hævet sig fire centimeter siden august. Efter alt at dømme skyldes det, at magma samler sig i et kammer cirka seks kilometer nede. Det øger risikoen for et udbrud, men siger intet sikkert om tidspunktet; tidligere har de samme tegn både ført til udbrud inden for uger og til ingenting. Efter min vurdering er det derfor rigtigt at forberede evakueringsplanerne nu uden at skabe panik. Jeg står på mål for disse oplysninger og opdaterer dem, så snart målingerne ændrer sig. Har I spørgsmål til metoderne, svarer jeg gerne.",
+   "rubric": "Distingue explícitamente lo comprobado, lo probable y lo desconocido; usa marcadores epistémicos precisos; aporta datos concretos; reconoce los límites sin perder autoridad; propone una conclusión práctica; deja abierto el diálogo."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una vulcanóloga invitada a un programa de televisión es presionada por el presentador para que responda con un simple sí o no a si el volcán entrará en erupción.",
+   "lines": [
+    {"text": "Madame Professer, jo oder neen: brécht de Vulkan dëst Joer aus?", "es": "Profesora, sí o no: ¿entrará el volcán en erupción este año?"},
+    {"text": "Dorop kann kee mat jo oder neen äntweren. Mä ech kann soen, wat mir wëssen.", "es": "Nadie puede responder a eso con un sí o un no. Pero puedo decir lo que sabemos."},
+    {"text": "D'Zuschauer wëllen eng kloer Äntwert.", "es": "Los espectadores quieren una respuesta clara."},
+    {"text": "Da kënnt hei dat Kloert: de Buedem hieft sech, an dat geschitt ouni Zweifel net ouni Grond.", "es": "Pues aquí va lo claro: el suelo se está elevando, y sin duda eso no ocurre sin motivo."},
+    {"text": "An dat heescht Ausbroch?", "es": "¿Y eso significa erupción?"},
+    {"text": "No allem, wat mir gesinn, klëmmt de Risiko. Wéini, weess ech net — an dat weess och soss keen.", "es": "A juzgar por todo lo que vemos, el riesgo aumenta. Cuándo, no lo sé, y nadie más lo sabe tampoco."},
+    {"text": "Dat klengt net besonnesch berouegend.", "es": "No suena muy tranquilizador."},
+    {"text": "Neen, mä et ass éierlech. An op Éierlechkeet mussen d'Leit sech verloosse kënnen, wann et drop ukënnt.", "es": "No, pero es honesto. Y en la honestidad tiene que poder confiar la gente cuando de verdad importa."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué implica la vulcanóloga con «y nadie más lo sabe tampoco»?",
+   "choices": ["Que su incertidumbre es la del conocimiento científico, no una falta de competencia suya", "Que sus colegas no son competentes", "Que se niega a dar información a la televisión"]
+  },
+  "grammar": {
+   "focus": "Marcadores epistémicos de autoridad: ouni Zweifel, souwäit ech weess, no menger Aschätzung",
+   "explain": "Hablar con autoridad sin arrogancia exige graduar la certeza: «ouni Zweifel» (sin duda) para lo comprobado, «no allem, wat mir gesinn» (a juzgar por todo) para lo probable, «no menger Aschätzung» (en mi valoración experta) y «souwäit ech weess» (que yo sepa) para lo que tiene límites.",
+   "items": [
+    {"prompt": "De Buedem hieft sech ___ Zweifel. (sin duda)", "answer": "ouni", "es": "El suelo se está elevando, sin duda."},
+    {"prompt": "___ ech weess, gëtt et nach keng Zeeche vu Gas. (que yo sepa)", "answer": "Souwäit", "es": "Que yo sepa, todavía no hay indicios de gas."},
+    {"prompt": "No menger ___ sollte mir d'Evakuéierung elo virbereeden. (valoración experta)", "answer": "Aschätzung", "es": "En mi valoración, deberíamos preparar ya la evacuación."}
+   ]
+  },
+  "vocab": [
+   {"text": "wann et drop ukënnt", "es": "cuando de verdad importa", "example": "Op d'Experte muss ee sech verloosse kënnen, wann et drop ukënnt.", "example_es": "En los expertos hay que poder confiar cuando de verdad importa."},
+   {"text": "berouegend", "es": "tranquilizador", "example": "D'Äntwert war net berouegend, mä éierlech.", "example_es": "La respuesta no era tranquilizadora, pero sí honesta."},
+   {"text": "verloosse kënnen", "es": "poder fiarse", "example": "D'Leit mussen sech op d'Wëssenschaft verloosse kënnen.", "example_es": "La gente tiene que poder fiarse de la ciencia."},
+   {"text": "ouni Ëmweeër", "es": "sin rodeos", "example": "Si huet ouni Ëmweeër gesot, wat se weess a wat net.", "example_es": "Dijo sin rodeos lo que sabe y lo que no."}
+  ],
+  "transfer": {
+   "prompt": "Escribe la respuesta por escrito (6–8 frases) de una experta a un periodista que exige una predicción tajante sobre un tema incierto de su campo. Propósito: mostrar dominio, distinguir lo seguro de lo probable y de lo desconocido, sin cerrar el diálogo.",
+   "model": "Ech verstinn de Wonsch no engem kloere Jo oder Neen, mä et wier onverantwortlech vu mir, en ze ginn. Wat mir ouni Zweifel wëssen, ass, datt de Buedem ënner dem Vulkan sech zënter August ëm véier Zentimeter gehuewen huet. No allem, wat mir gesinn, läit dat dorun, datt sech Magma an enger Kummer ongeféier sechs Kilometer déif sammelt. Dat erhéicht de Risiko vun engem Ausbroch, seet awer näischt Sécheres iwwer den Zäitpunkt; fréier hunn déi selwecht Zeechen esouwuel bannent e puer Wochen zu engem Ausbroch gefouert wéi och zu guer näischt. No menger Aschätzung ass et dofir richteg, d'Evakuéierungspläng elo virzebereeden, ouni Panik ze maachen. Ech stinn zu dësen Informatiounen an aktualiséieren se, soubal sech d'Miessungen änneren. Wann Dir Froen zu de Methoden hutt, äntweren ech gär.",
+   "rubric": "Distingue explícitamente lo comprobado, lo probable y lo desconocido; usa marcadores epistémicos precisos; aporta datos concretos; reconoce los límites sin perder autoridad; propone una conclusión práctica; deja abierto el diálogo."
+  }
+ }
+}

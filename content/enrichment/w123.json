@@ -1,0 +1,81 @@
+{
+ "week": 123,
+ "da": {
+  "dialogue2": {
+   "context": "El organizador de un festival al aire libre presiona a una meteoróloga para obtener un sí o un no; ella insiste en matizar el grado de certeza.",
+   "lines": [
+    {"text": "Jeg skal bare have et klart svar: regner det på lørdag eller ej?", "es": "Solo necesito una respuesta clara: ¿llueve el sábado o no?"},
+    {"text": "Et klart ja eller nej kan jeg ikke give dig, men jeg kan sige, hvor sikre vi er.", "es": "Un sí o un no rotundo no te lo puedo dar, pero sí decirte hasta qué punto estamos seguros."},
+    {"text": "Fint, så sig det på den måde.", "es": "Vale, pues dímelo así."},
+    {"text": "Om formiddagen bliver det næppe vådt; risikoen for byger er højst ti procent.", "es": "Por la mañana difícilmente lloverá; el riesgo de chubascos es como mucho del diez por ciento."},
+    {"text": "Og om aftenen, når hovednavnet spiller?", "es": "¿Y por la noche, cuando toque el cabeza de cartel?"},
+    {"text": "Dér er billedet mere usikkert: modellerne peger på regn, men de er ikke enige om tidspunktet.", "es": "Ahí el panorama es más incierto: los modelos apuntan a lluvia, pero no coinciden en la hora."},
+    {"text": "Så du ville altså ikke aflyse nu, men have en plan B klar?", "es": "¿O sea que tú no cancelarías ahora, sino que tendrías listo un plan B?"},
+    {"text": "Netop; når torsdagens prognose kommer, ved vi sandsynligvis mere, og så kan du træffe beslutningen.", "es": "Exacto; cuando salga el pronóstico del jueves probablemente sabremos más, y entonces podrás tomar la decisión."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué le recomienda implícitamente la meteoróloga al organizador?",
+   "choices": ["No cancelar todavía, pero preparar una alternativa para la noche", "Cancelar ya el concierto principal para no correr riesgos", "Adelantar todo el festival a la mañana, cuando seguro que no llueve"]
+  },
+  "grammar": {
+   "focus": "Adverbios de modalidad epistémica: formentlig, næppe, muligvis",
+   "explain": "Gradúan la certeza de una afirmación: «formentlig / sandsynligvis» (probablemente), «muligvis» (posiblemente) y «næppe» (difícilmente, casi seguro que no). Van tras el verbo conjugado: Det bliver næppe vådt.",
+   "items": [
+    {"prompt": "Det bliver ___ tørt om formiddagen; risikoen er under ti procent. (formentlig / næppe / muligvis: «probablemente»)", "answer": "formentlig", "es": "Probablemente estará seco por la mañana; el riesgo es inferior al diez por ciento."},
+    {"prompt": "Med så mange forsinkelser når vi ___ at blive færdige til tiden. (formentlig / næppe / muligvis: «difícilmente»)", "answer": "næppe", "es": "Con tantos retrasos difícilmente terminaremos a tiempo."},
+    {"prompt": "Prognosen er usikker, så der kommer ___ en byge sidst på aftenen. (formentlig / næppe / muligvis: «posiblemente»)", "answer": "muligvis", "es": "El pronóstico es incierto, así que posiblemente caiga un chubasco al final de la tarde."}
+   ]
+  },
+  "vocab": [
+   {"text": "et klart svar", "es": "una respuesta clara", "example": "Ledelsen vil have et klart svar inden fredag.", "example_es": "La dirección quiere una respuesta clara antes del viernes."},
+   {"text": "peger på", "es": "apunta a, indica", "example": "Alt peger på regn sidst på aftenen.", "example_es": "Todo apunta a lluvia al final de la tarde."},
+   {"text": "en plan B", "es": "un plan B", "example": "Vi har en plan B klar, hvis det begynder at regne.", "example_es": "Tenemos un plan B preparado por si empieza a llover."},
+   {"text": "træffe beslutningen", "es": "tomar la decisión", "example": "Du kan træffe beslutningen, når prognosen er mere sikker.", "example_es": "Puedes tomar la decisión cuando el pronóstico sea más seguro."}
+  ],
+  "transfer": {
+   "prompt": "Redacta un aviso (5–6 frases) para el equipo del festival: separa lo que se sabe con seguridad, lo probable y lo incierto, e indica cuándo y cómo se tomará la decisión final.",
+   "model": "Status for lørdagens vejr: Det er sikkert, at festivalen åbner som planlagt kl. 11. Formiddagen bliver efter alt at dømme tør, da risikoen for byger er under ti procent. Om aftenen er billedet mere usikkert; regn er sandsynlig, men tidspunktet kan endnu ikke fastlægges. Vi gør derfor teltet ved hovedscenen klar som plan B. Den endelige beslutning træffes torsdag kl. 14 på baggrund af den nyeste prognose og meddeles straks på denne kanal.",
+   "rubric": "Distingue explícitamente al menos tres grados de certeza; usa expresiones epistémicas variadas (sikkert, efter alt at dømme, sandsynlig, kan endnu ikke); propone una medida preventiva concreta; fija fecha, hora y canal de la decisión."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "El organizador de un festival al aire libre presiona a una meteoróloga para obtener un sí o un no; ella insiste en matizar el grado de certeza.",
+   "lines": [
+    {"text": "Ech brauch just eng kloer Äntwert: reent et e Samschdeg oder net?", "es": "Solo necesito una respuesta clara: ¿llueve el sábado o no?"},
+    {"text": "E kloert Jo oder Nee kann ech der net ginn, mä ech ka soen, wéi sécher mir sinn.", "es": "Un sí o un no rotundo no te lo puedo dar, pero sí decirte hasta qué punto estamos seguros."},
+    {"text": "Gutt, da so et mer esou.", "es": "Vale, pues dímelo así."},
+    {"text": "Moies gëtt et kaum naass; de Risiko fir Schaueren läit bei héchstens zéng Prozent.", "es": "Por la mañana difícilmente lloverá; el riesgo de chubascos es como mucho del diez por ciento."},
+    {"text": "An owes, wann d'Haaptband spillt?", "es": "¿Y por la noche, cuando toque el grupo principal?"},
+    {"text": "Do ass d'Bild méi onsécher: d'Modeller deiten op Reen hin, mä si sinn sech net eens iwwer d'Auerzäit.", "es": "Ahí el panorama es más incierto: los modelos apuntan a lluvia, pero no coinciden en la hora."},
+    {"text": "Du géifs also elo nach net ofsoen, mä e Plang B prett halen?", "es": "¿O sea que tú no cancelarías todavía, sino que tendrías listo un plan B?"},
+    {"text": "Genee; wann d'Previsioun vum Donneschdeg do ass, wësse mir wahrscheinlech méi, an da kanns du entscheeden.", "es": "Exacto; cuando llegue el pronóstico del jueves probablemente sabremos más, y entonces podrás decidir."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué le recomienda implícitamente la meteoróloga al organizador?",
+   "choices": ["No cancelar todavía, pero preparar una alternativa para la noche", "Cancelar ya el concierto principal para no correr riesgos", "Adelantar todo el festival a la mañana, cuando seguro que no llueve"]
+  },
+  "grammar": {
+   "focus": "Modalidad epistémica: wahrscheinlech, kaum, eventuell",
+   "explain": "Estos adverbios gradúan la certeza: «sécher» (seguro), «wahrscheinlech» (probablemente), «eventuell / méiglecherweis» (posiblemente), «kaum» (difícilmente). El Konjunktiv «dierft» también indica probabilidad: «Et dierft dréche bleiwen».",
+   "items": [
+    {"prompt": "Moies bleift et ___ dréchen; de Risiko läit ënner zéng Prozent. (wahrscheinlech / kaum / eventuell: «probablemente»)", "answer": "wahrscheinlech", "es": "Por la mañana probablemente seguirá seco; el riesgo está por debajo del diez por ciento."},
+    {"prompt": "Mat esou vill Retarde gi mir ___ zäitgerecht fäerdeg. (wahrscheinlech / kaum / eventuell: «difícilmente»)", "answer": "kaum", "es": "Con tantos retrasos difícilmente terminaremos a tiempo."},
+    {"prompt": "D'Previsioun ass onsécher, et kéint owes ___ nach e Schauer ginn. (wahrscheinlech / kaum / eventuell: «posiblemente»)", "answer": "eventuell", "es": "El pronóstico es incierto; posiblemente caiga todavía un chubasco por la noche."}
+   ]
+  },
+  "vocab": [
+   {"text": "eng kloer Äntwert", "es": "una respuesta clara", "example": "D'Direktioun wëll eng kloer Äntwert bis Freideg.", "example_es": "La dirección quiere una respuesta clara antes del viernes."},
+   {"text": "deiten op", "es": "apuntan a (deiten op … hin)", "example": "All d'Zeeche deiten op Reen hin.", "example_es": "Todas las señales apuntan a lluvia."},
+   {"text": "e Plang B", "es": "un plan B", "example": "Mir hunn e Plang B prett, wann et ufänkt ze reenen.", "example_es": "Tenemos un plan B preparado por si empieza a llover."},
+   {"text": "héchstens", "es": "como mucho, a lo sumo", "example": "De Risiko läit bei héchstens zéng Prozent.", "example_es": "El riesgo es, como mucho, del diez por ciento."}
+  ],
+  "transfer": {
+   "prompt": "Redacta un aviso (5–6 frases) para el equipo del festival: separa lo que se sabe con seguridad, lo probable y lo incierto, e indica cuándo y cómo se tomará la decisión final.",
+   "model": "Stand vum Wieder fir e Samschdeg: Sécher ass, datt de Festival wéi geplangt um 11 Auer opgeet. Moies bleift et no allem, wat mir wëssen, dréchen, well de Risiko fir Schaueren ënner zéng Prozent läit. Owes ass d'Bild méi onsécher: Reen ass wahrscheinlech, mä d'Auerzäit léisst sech nach net festleeën. Dofir gëtt d'Zelt bei der Haaptbün als Plang B virbereet. Déi definitiv Entscheedung gëtt en Donneschdeg um 14 Auer op Basis vun der neister Previsioun geholl an direkt op dësem Kanal matgedeelt.",
+   "rubric": "Distingue explícitamente al menos tres grados de certeza; usa expresiones epistémicas variadas (sécher, no allem wat mir wëssen, wahrscheinlech, léisst sech nach net); propone una medida preventiva concreta; fija fecha, hora y canal de la decisión."
+  }
+ }
+}

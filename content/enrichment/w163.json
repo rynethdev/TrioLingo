@@ -1,0 +1,81 @@
+{
+ "week": 163,
+ "da": {
+  "dialogue2": {
+   "context": "Una gestora de proyectos lee a su colega la respuesta de un posible socio a su propuesta de colaboración; discuten qué significa de verdad y cómo contestar sin perder la oportunidad.",
+   "lines": [
+    {"text": "Hør her: „Vi har med stor interesse læst jeres forslag og vender tilbage, så snart vores prioriteringer for næste år er på plads.“", "es": "Escucha: «Hemos leído vuestra propuesta con gran interés y os responderemos en cuanto nuestras prioridades para el próximo año estén definidas»."},
+    {"text": "„Med stor interesse“ er det, man skriver, når man ikke har læst den.", "es": "«Con gran interés» es lo que se escribe cuando no se ha leído."},
+    {"text": "Nu er du lige lovlig kynisk. De lukker jo ikke døren.", "es": "Ahora te estás pasando de cínico. No cierran la puerta."},
+    {"text": "Nej, men de sætter heller ingen dato. Og næste års prioriteringer lægges først i marts.", "es": "No, pero tampoco ponen fecha. Y las prioridades del año que viene no se fijan hasta marzo."},
+    {"text": "Så vi hører fra dem om et halvt år — i bedste fald.", "es": "Así que sabremos de ellos dentro de medio año, en el mejor de los casos."},
+    {"text": "Eller vi ringer nu og spørger, hvad der skal til for at komme med i marts.", "es": "O llamamos ya y preguntamos qué hace falta para entrar en marzo."},
+    {"text": "Uden at det lyder, som om vi har gennemskuet dem?", "es": "¿Sin que parezca que les hemos calado?"},
+    {"text": "Netop. Vi svarer lige så høfligt som de — og stiller et konkret spørgsmål.", "es": "Exacto. Respondemos con la misma cortesía que ellos, y hacemos una pregunta concreta."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué deduce el colega de que el correo no ponga ninguna fecha?",
+   "choices": ["Que la propuesta no es prioritaria y puede quedar aparcada meses", "Que el socio rechaza definitivamente la colaboración", "Que el socio responderá en cuanto termine de leerla"]
+  },
+  "grammar": {
+   "focus": "Cortesía distanciadora: el pasado de los modales (ville, kunne, skulle)",
+   "explain": "El pasado de los modales suaviza y crea una distancia cortés: Vi ville sætte pris på… (agradeceríamos…), Kunne I…? (¿podríais…?), Det skulle glæde os… (nos complacería…). Es la base del estilo diplomático escrito.",
+   "items": [
+    {"prompt": "Vi ___ sætte stor pris på en tilbagemelding inden udgangen af måneden. (agradeceríamos)", "answer": "ville", "es": "Agradeceríamos mucho una respuesta antes de fin de mes."},
+    {"prompt": "___ I eventuelt oplyse, hvilke kriterier der lægges vægt på? (¿podríais…?)", "answer": "Kunne", "es": "¿Podríais indicarnos, si es posible, qué criterios se tienen en cuenta?"},
+    {"prompt": "Det ___ glæde os at præsentere projektet for jeres bestyrelse. (fórmula fija: nos complacería)", "answer": "skulle", "es": "Nos complacería presentar el proyecto a vuestra junta directiva."}
+   ]
+  },
+  "vocab": [
+   {"text": "lige lovlig", "es": "un poco demasiado", "example": "Nu er du lige lovlig kynisk.", "example_es": "Ahora te estás pasando de cínico."},
+   {"text": "i bedste fald", "es": "en el mejor de los casos", "example": "Vi hører fra dem i bedste fald til foråret.", "example_es": "Sabremos de ellos, en el mejor de los casos, en primavera."},
+   {"text": "døren på klem", "es": "la puerta entornada", "example": "Svaret holder døren på klem, men heller ikke mere.", "example_es": "La respuesta deja la puerta entornada, pero nada más."},
+   {"text": "en høflighedsfrase", "es": "una fórmula de cortesía", "example": "„Med stor interesse“ er som regel en høflighedsfrase.", "example_es": "«Con gran interés» suele ser una fórmula de cortesía."}
+  ],
+  "transfer": {
+   "prompt": "Responde al socio del correo (6–8 frases). Propósito: mantener su tono cortés, dejar ver que has entendido que no hay compromiso y obtener, sin presionar, una información concreta (plazo o criterios).",
+   "model": "Kære Henrik Lund, tak for jeres venlige svar og for den tid, I har brugt på vores forslag. Vi har fuld forståelse for, at prioriteringerne for næste år først skal falde på plads. Netop derfor ville det være en stor hjælp for os at kende tidsplanen for jeres beslutningsproces. Kunne I eventuelt oplyse, hvornår prioriteringerne forventes vedtaget, og hvilke kriterier der vil veje tungest? Så kan vi tilpasse forslaget, så det passer bedst muligt ind i jeres overvejelser. Det skulle glæde os at uddybe projektet på et kort møde, hvis det kan være til nytte. Med venlig hilsen, Sara Holm",
+   "rubric": "Mantiene el registro cortés del interlocutor; reconoce la situación sin reprochar; formula la petición con modales en pasado; pide información concreta y verificable; ofrece algo a cambio (adaptar, reunirse); cierre formal adecuado."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una gestora de proyectos lee a su colega la respuesta de un posible socio a su propuesta de colaboración; discuten qué significa de verdad y cómo contestar sin perder la oportunidad.",
+   "lines": [
+    {"text": "Lauschter: „Mir hunn Äre Virschlag mat groussem Interessi gelies a mellen eis, soubal eis Prioritéite fir d'nächst Joer feststinn.“", "es": "Escucha: «Hemos leído su propuesta con gran interés y nos pondremos en contacto en cuanto estén fijadas nuestras prioridades para el próximo año»."},
+    {"text": "„Mat groussem Interessi“ schreift een, wann een en net gelies huet.", "es": "«Con gran interés» se escribe cuando no se ha leído."},
+    {"text": "Elo bass du awer e bëssen ze zynesch. Si maachen d'Dier jo net zou.", "es": "Ahora te pasas un poco de cínico. No cierran la puerta."},
+    {"text": "Neen, mä si nennen och keen Datum. An d'Prioritéite ginn eréischt am Mäerz festgeluecht.", "es": "No, pero tampoco dan fecha. Y las prioridades no se fijan hasta marzo."},
+    {"text": "Also héiere mir an engem hallwe Joer vun hinnen — am beschte Fall.", "es": "Así que sabremos de ellos dentro de medio año, en el mejor de los casos."},
+    {"text": "Oder mir ruffen elo un a froen, wat et brauch, fir am Mäerz mat dobäi ze sinn.", "es": "O llamamos ya y preguntamos qué hace falta para entrar en marzo."},
+    {"text": "Ouni datt et klengt, wéi wa mir se duerchschaut hätten?", "es": "¿Sin que parezca que les hemos calado?"},
+    {"text": "Genee. Mir bleiwen esou héiflech wéi si — a stellen eng konkret Fro.", "es": "Exacto. Seguimos igual de corteses que ellos, y hacemos una pregunta concreta."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué deduce el colega de que el correo no ponga ninguna fecha?",
+   "choices": ["Que la propuesta no es prioritaria y puede quedar aparcada meses", "Que el socio rechaza definitivamente la colaboración", "Que el socio responderá en cuanto termine de leerla"]
+  },
+  "grammar": {
+   "focus": "Konjunktiv II de cortesía en el estilo diplomático (géif, kéint, wier)",
+   "explain": "El Konjunktiv II suaviza peticiones y propuestas y crea una distancia cortés: Mir géifen eis freeën (nos alegraría), Kéint Dir…? (¿podría usted…?), Et wier hëllefräich (sería útil).",
+   "items": [
+    {"prompt": "Mir ___ eis iwwer eng Äntwert bis Enn vum Mount freeën. (nos alegraría)", "answer": "géifen", "es": "Nos alegraría recibir una respuesta antes de fin de mes."},
+    {"prompt": "___ Dir eis matdeelen, wéi eng Critèren den Ausschlag ginn? (¿podría usted…?)", "answer": "Kéint", "es": "¿Podría indicarnos qué criterios son decisivos?"},
+    {"prompt": "Et ___ eis eng grouss Hëllef, Ären Zäitplang ze kennen. (sería)", "answer": "wier", "es": "Nos sería de gran ayuda conocer su calendario."}
+   ]
+  },
+  "vocab": [
+   {"text": "am beschte Fall", "es": "en el mejor de los casos", "example": "Mir héiere vun hinnen am beschte Fall am Fréijoer.", "example_es": "Sabremos de ellos, en el mejor de los casos, en primavera."},
+   {"text": "d'Dier net zou", "es": "(no cerrar) la puerta", "example": "D'Äntwert mécht d'Dier net zou, mä och net méi op.", "example_es": "La respuesta no cierra la puerta, pero tampoco la abre más."},
+   {"text": "op spéider", "es": "para más adelante", "example": "Si verréckelen d'Decisioun op spéider.", "example_es": "Aplazan la decisión para más adelante."},
+   {"text": "eng Héiflechkeetsformel", "es": "una fórmula de cortesía", "example": "„Mat groussem Interessi“ ass meeschtens eng Héiflechkeetsformel.", "example_es": "«Con gran interés» suele ser una fórmula de cortesía."}
+  ],
+  "transfer": {
+   "prompt": "Responde al socio del correo (6–8 frases). Propósito: mantener su tono cortés, dejar ver que has entendido que no hay compromiso y obtener, sin presionar, una información concreta (plazo o criterios).",
+   "model": "Léiwen Här Weber, villmools Merci fir Är frëndlech Äntwert a fir d'Zäit, déi Dir eisem Virschlag gewidmet hutt. Mir verstinn gutt, datt Är Prioritéite fir d'nächst Joer fir d'éischt musse festgeluecht ginn. Grad dofir wier et eis eng grouss Hëllef, den Zäitplang vun Ärer Decisioun ze kennen. Kéint Dir eis matdeelen, wéini d'Prioritéite festgeluecht ginn a wéi eng Critèren dobäi am meeschte weien? Da kéinte mir eise Virschlag esou upassen, datt e beschtméiglech an Är Iwwerleeungen passt. Mir géifen eis och freeën, de Projet bei engem kuerze Gespréich méi am Detail virzestellen. Mat beschte Gréiss, Sara Hoffmann",
+   "rubric": "Mantiene el registro cortés del interlocutor; reconoce la situación sin reprochar; formula la petición en Konjunktiv II; pide información concreta y verificable; ofrece algo a cambio (adaptar, reunirse); cierre formal adecuado."
+  }
+ }
+}

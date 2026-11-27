@@ -1,0 +1,81 @@
+{
+ "week": 149,
+ "da": {
+  "dialogue2": {
+   "context": "En la revisión del presupuesto, un miembro del consejo cuestiona la partida para una jornada de equipo fuera de la oficina; la responsable la defiende con datos y cede en parte.",
+   "lines": [
+    {"text": "Femogtyve tusind kroner til en teamdag uden for huset; er det ikke en luksus?", "es": "Veinticinco mil coronas para una jornada de equipo fuera de la oficina; ¿no es un lujo?"},
+    {"text": "Det kan godt se sådan ud, men pengene er afsat, for at to afdelinger, der netop er lagt sammen, kan lære hinanden at kende.", "es": "Puede parecerlo, pero el dinero está asignado para que dos departamentos recién fusionados se conozcan."},
+    {"text": "Det kan de vel også gøre i kantinen?", "es": "Eso también pueden hacerlo en el comedor, ¿no?"},
+    {"text": "Delvis, men sidste år halverede en lignende dag antallet af interne klager i den efterfølgende måned.", "es": "En parte, pero el año pasado una jornada parecida redujo a la mitad las quejas internas del mes siguiente."},
+    {"text": "Har du dokumentation for den sammenhæng?", "es": "¿Tienes pruebas de esa relación?"},
+    {"text": "Vi har tallene fra HR, men jeg vil ikke påstå, at dagen alene forklarer faldet.", "es": "Tenemos las cifras de RR. HH., pero no voy a afirmar que la jornada por sí sola explique el descenso."},
+    {"text": "Kunne beløbet reduceres, så det står i forhold til gevinsten?", "es": "¿Se podría reducir el importe para que guarde proporción con el beneficio?"},
+    {"text": "Ja, vi kan holde dagen i egne lokaler og spare cirka en tredjedel uden at miste formålet.", "es": "Sí, podemos hacer la jornada en nuestras instalaciones y ahorrar aproximadamente un tercio sin perder el objetivo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo refuerza la responsable su credibilidad ante el consejo?",
+   "choices": ["Aporta un dato, admite que no prueba por sí solo la relación causal y ofrece un recorte", "Insiste en que la jornada es imprescindible y no admite ningún recorte", "Retira la partida para evitar el conflicto con el consejo"]
+  },
+  "grammar": {
+   "focus": "Oraciones finales: for at + infinitivo / så + oración",
+   "explain": "«For at» + infinitivo expresa finalidad cuando el sujeto es el mismo o general (Vi gør det for at spare penge). Con otro sujeto se usa «for at» + oración completa o «så (at)»: Vi reducerer beløbet, så det står i forhold til gevinsten.",
+   "items": [
+    {"prompt": "Vi holder dagen i egne lokaler ___ at spare penge. (finalidad)", "answer": "for", "es": "Hacemos la jornada en nuestras instalaciones para ahorrar dinero."},
+    {"prompt": "Vi reducerer beløbet, ___ det står i forhold til gevinsten. (finalidad con otro sujeto, una palabra)", "answer": "så", "es": "Reducimos el importe para que guarde proporción con el beneficio."},
+    {"prompt": "Posten er afsat, for at afdelingerne ___ hinanden at kende. (lære, presente)", "answer": "lærer", "es": "La partida está asignada para que los departamentos se conozcan."}
+   ]
+  },
+  "vocab": [
+   {"text": "afsat", "es": "asignado (en un presupuesto)", "example": "Der er afsat 25.000 kr. til teamdagen.", "example_es": "Hay 25.000 coronas asignadas a la jornada de equipo."},
+   {"text": "stå i forhold til", "es": "guardar proporción con", "example": "Udgiften skal stå i forhold til gevinsten.", "example_es": "El gasto debe guardar proporción con el beneficio."},
+   {"text": "dokumentation", "es": "pruebas, documentación", "example": "Har du dokumentation for den påstand?", "example_es": "¿Tienes pruebas de esa afirmación?"},
+   {"text": "lagt sammen", "es": "fusionados", "example": "De to afdelinger er netop blevet lagt sammen.", "example_es": "Los dos departamentos acaban de fusionarse."}
+  ],
+  "transfer": {
+   "prompt": "Escribe una nota (5–6 frases) para el consejo que defienda una partida discutida: finalidad, dato de apoyo presentado con prudencia, concesión y propuesta de ajuste.",
+   "model": "Posten på 25.000 kr. til en fælles teamdag er afsat for at styrke samarbejdet mellem de to afdelinger, der blev lagt sammen i januar. Erfaringen fra sidste år peger på, at en lignende dag kan mindske konflikter: Antallet af interne klager blev halveret i den efterfølgende måned. Vi kan dog ikke påvise, at dagen alene forklarer faldet. For at udgiften kan stå i forhold til gevinsten, foreslår vi at afholde dagen i egne lokaler. Det reducerer posten til ca. 16.000 kr., uden at formålet går tabt.",
+   "rubric": "Explica la finalidad con «for at» o «så»; apoya la partida con un dato concreto; reconoce el límite del dato (correlación no es causalidad); propone un ajuste cuantificado; mantiene un tono sobrio."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En la revisión del presupuesto, un miembro del consejo cuestiona la partida para una jornada de equipo fuera de la oficina; la responsable la defiende con datos y cede en parte.",
+   "lines": [
+    {"text": "25.000 € fir en Teamdag ausserhalb vum Büro; ass dat net e Luxus?", "es": "25.000 € para una jornada de equipo fuera de la oficina; ¿no es un lujo?"},
+    {"text": "Dat kann esou ausgesinn, mä d'Suen si virgesinn, fir datt zwou Abteilungen, déi grad fusionéiert gi sinn, sech kenneléieren.", "es": "Puede parecerlo, pero el dinero está previsto para que dos departamentos recién fusionados se conozcan."},
+    {"text": "Dat kënne se dach och an der Kantin maachen?", "es": "Eso también pueden hacerlo en el comedor, ¿no?"},
+    {"text": "Deelweis, mä d'lescht Joer huet en ähnlechen Dag d'Zuel vun internen Reklamatiounen am Mount drop hallbéiert.", "es": "En parte, pero el año pasado una jornada parecida redujo a la mitad las quejas internas del mes siguiente."},
+    {"text": "Hutt Dir Beleeër fir dësen Zesummenhang?", "es": "¿Tiene pruebas de esa relación?"},
+    {"text": "Mir hunn d'Zuele vum HR, mä ech wëll net behaapten, datt den Dag eleng de Réckgang erkläert.", "es": "Tenemos las cifras de RR. HH., pero no voy a afirmar que la jornada por sí sola explique el descenso."},
+    {"text": "Kéint de Montant reduzéiert ginn, fir datt en am Verhältnis zum Gewënn steet?", "es": "¿Se podría reducir el importe para que guarde proporción con el beneficio?"},
+    {"text": "Jo, mir kënnen den Dag an eise Raimlechkeeten halen an ongeféier en Drëttel spueren, ouni den Zweck ze verléieren.", "es": "Sí, podemos hacer la jornada en nuestras instalaciones y ahorrar aproximadamente un tercio sin perder el objetivo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo refuerza la responsable su credibilidad ante el consejo?",
+   "choices": ["Aporta un dato, admite que no prueba por sí solo la relación causal y ofrece un recorte", "Insiste en que la jornada es imprescindible y no admite ningún recorte", "Retira la partida para evitar el conflicto con el consejo"]
+  },
+  "grammar": {
+   "focus": "Oraciones finales: fir … ze / fir datt",
+   "explain": "«Fir … ze» + infinitivo expresa finalidad con el mismo sujeto o un sujeto general (Mir maachen et, fir Suen ze spueren). Con otro sujeto se usa «fir datt» + oración con el verbo al final: … fir datt d'Abteilunge sech kenneléieren.",
+   "items": [
+    {"prompt": "Mir halen den Dag an eise Raimlechkeeten, fir Suen ___ spueren. (partícula del infinitivo)", "answer": "ze", "es": "Hacemos la jornada en nuestras instalaciones para ahorrar dinero."},
+    {"prompt": "D'Suen si virgesinn, fir ___ d'Abteilunge sech kenneléieren. (finalidad con otro sujeto)", "answer": "datt", "es": "El dinero está previsto para que los departamentos se conozcan."},
+    {"prompt": "Mir reduzéieren de Montant, fir datt en am Verhältnis zum Gewënn ___. (stoen, presente)", "answer": "steet", "es": "Reducimos el importe para que guarde proporción con el beneficio."}
+   ]
+  },
+  "vocab": [
+   {"text": "virgesinn", "es": "previsto, asignado", "example": "Fir den Teamdag si 25.000 € virgesinn.", "example_es": "Para la jornada de equipo hay 25.000 € previstos."},
+   {"text": "am Verhältnis", "es": "en proporción", "example": "D'Ausgab muss am Verhältnis zum Gewënn stoen.", "example_es": "El gasto debe guardar proporción con el beneficio."},
+   {"text": "Beleeër", "es": "pruebas, justificantes", "example": "Hutt Dir Beleeër fir dës Behaaptung?", "example_es": "¿Tiene pruebas de esa afirmación?"},
+   {"text": "fusionéiert", "es": "fusionado", "example": "Déi zwou Abteilunge goufen am Januar fusionéiert.", "example_es": "Los dos departamentos se fusionaron en enero."}
+  ],
+  "transfer": {
+   "prompt": "Escribe una nota (5–6 frases) para el consejo que defienda una partida discutida: finalidad, dato de apoyo presentado con prudencia, concesión y propuesta de ajuste.",
+   "model": "De Posten vu 25.000 € fir e gemeinsamen Teamdag ass virgesinn, fir d'Zesummenaarbecht tëscht deenen zwou Abteilungen ze stäerken, déi am Januar fusionéiert goufen. D'Erfarung vum leschte Joer deit drop hin, datt esou en Dag Konflikter reduzéiere kann: D'Zuel vun internen Reklamatioune gouf am Mount drop hallbéiert. Mir kënnen allerdéngs net beweisen, datt den Dag eleng de Réckgang erkläert. Fir datt d'Ausgab am Verhältnis zum Gewënn steet, proposéiere mir, den Dag an eise Raimlechkeeten ze halen. Domat geet de Posten op ongeféier 16.000 € erof, ouni datt den Zweck verluer geet.",
+   "rubric": "Explica la finalidad con «fir … ze» o «fir datt»; apoya la partida con un dato concreto; reconoce el límite del dato (correlación no es causalidad); propone un ajuste cuantificado; mantiene un tono sobrio."
+  }
+ }
+}

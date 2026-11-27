@@ -1,0 +1,77 @@
+{
+ "week": 54,
+ "da": {
+  "dialogue2": {
+   "context": "En la escalera, dos vecinas comentan una noticia: la piscina del barrio va a cerrar por obras.",
+   "lines": [
+    {"text": "Har du set, at svømmehallen lukker i et halvt år?", "es": "¿Has visto que la piscina cierra medio año?"},
+    {"text": "Nej! Hvorfor det?", "es": "¡No! ¿Y eso por qué?"},
+    {"text": "Der står i avisen, at taget skal renoveres.", "es": "Dice el periódico que hay que renovar el tejado."},
+    {"text": "Det er træls, for mine børn går til svømning der.", "es": "Qué fastidio, porque mis hijos van a natación allí."},
+    {"text": "Kommunen skriver, at der kører en gratis bus til nabobyen.", "es": "El ayuntamiento dice que habrá un autobús gratis al pueblo de al lado."},
+    {"text": "Godt, så må vi prøve det, men jeg synes, det er for længe.", "es": "Bueno, pues habrá que probarlo, aunque me parece demasiado tiempo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué opina al final la vecina de la noticia?",
+   "choices": ["Aceptará la solución del autobús, pero el cierre le parece demasiado largo", "Está contenta porque así sus hijos dejarán la natación", "Cree que el periódico se equivoca y la piscina no cerrará"]
+  },
+  "grammar": {
+   "focus": "Estilo indirecto con «at»: posición de «ikke»",
+   "explain": "Para contar lo que dice una noticia se usa «at» + subordinada: Avisen skriver, at svømmehallen lukker. En la subordinada, «ikke» va delante del verbo: …, at bussen ikke kører.",
+   "items": [
+    {"prompt": "Kommunen skriver, at biblioteket ___ åbent om søndagen. (ikke / være)", "answer": "ikke er", "es": "El ayuntamiento dice que la biblioteca no abre los domingos."},
+    {"prompt": "Naboen siger, at hun ___ nyheden. (ikke / have læst)", "answer": "ikke har læst", "es": "La vecina dice que no ha leído la noticia."},
+    {"prompt": "Der står i avisen, ___ markedet flytter til torvet.", "answer": "at", "es": "El periódico dice que el mercado se traslada a la plaza."}
+   ]
+  },
+  "vocab": [
+   {"text": "Der står i avisen", "es": "Dice el periódico", "example": "Der står i avisen, at taget skal renoveres.", "example_es": "Dice el periódico que hay que renovar el tejado."},
+   {"text": "træls", "es": "un fastidio (coloquial)", "example": "Det er træls, at svømmehallen lukker.", "example_es": "Es un fastidio que cierre la piscina."},
+   {"text": "kommunen", "es": "el ayuntamiento", "example": "Kommunen sætter en gratis bus ind.", "example_es": "El ayuntamiento pone un autobús gratuito."},
+   {"text": "renoveres", "es": "ser renovado", "example": "Taget skal renoveres i år.", "example_es": "El tejado se tiene que renovar este año."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un comentario en el grupo de vecinos sobre una noticia: van a cerrar la calle principal a los coches los domingos. Resume la noticia y da tu opinión con un argumento (3–4 frases).",
+   "model": "Har I læst, at kommunen lukker hovedgaden for biler om søndagen? Der står i avisen, at der så kommer marked og aktiviteter for børn. Jeg synes, det er en god idé, fordi der bliver mere roligt. Men de folk, som bor der, skal parkere et andet sted.",
+   "rubric": "Usa al menos dos subordinadas con «at», separa la noticia de tu opinión («jeg synes») y da un argumento."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En la escalera, dos vecinas comentan una noticia: la piscina del barrio va a cerrar por obras.",
+   "lines": [
+    {"text": "Hues du gesinn, datt d'Schwämm en halleft Joer zoumécht?", "es": "¿Has visto que la piscina cierra medio año?"},
+    {"text": "Neen! Firwat dat dann?", "es": "¡No! ¿Y eso por qué?"},
+    {"text": "An der Zeitung steet, datt den Daach renovéiert gëtt.", "es": "Dice el periódico que van a renovar el tejado."},
+    {"text": "Dat ass ärgerlech, meng Kanner ginn do schwammen.", "es": "Qué fastidio, mis hijos van allí a nadar."},
+    {"text": "D'Gemeng schreift, datt e gratis Bus an d'Nopeschduerf fiert.", "es": "El ayuntamiento dice que habrá un autobús gratis al pueblo de al lado."},
+    {"text": "Gutt, da probéiere mir dat, mee ech fannen, datt dat ze laang ass.", "es": "Bueno, lo probaremos, pero me parece demasiado tiempo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué opina al final la vecina de la noticia?",
+   "choices": ["Aceptará la solución del autobús, pero el cierre le parece demasiado largo", "Está contenta porque así sus hijos dejarán la natación", "Cree que el periódico se equivoca y la piscina no cerrará"]
+  },
+  "grammar": {
+   "focus": "Estilo indirecto con «datt»: verbo al final",
+   "explain": "Para contar una noticia se usa «datt» y el verbo conjugado va al final: D'Zeitung schreift, datt d'Schwämm zoumécht. Los separables se vuelven a unir: …, datt d'Bibliothéik net opmécht.",
+   "items": [
+    {"prompt": "D'Gemeng schreift, datt d'Bibliothéik e Sonndeg net ___. (opmaachen)", "answer": "opmécht", "es": "El ayuntamiento dice que la biblioteca no abre los domingos."},
+    {"prompt": "Meng Nopesch seet, datt si d'Noriicht nach net ___. (liesen, Perfekt)", "answer": "gelies huet", "es": "Mi vecina dice que todavía no ha leído la noticia."},
+    {"prompt": "An der Zeitung steet, ___ de Maart op d'Place verplënnert.", "answer": "datt", "es": "El periódico dice que el mercado se traslada a la plaza."}
+   ]
+  },
+  "vocab": [
+   {"text": "An der Zeitung steet", "es": "Dice el periódico", "example": "An der Zeitung steet, datt den Daach renovéiert gëtt.", "example_es": "Dice el periódico que van a renovar el tejado."},
+   {"text": "ärgerlech", "es": "fastidioso", "example": "Et ass ärgerlech, datt d'Schwämm zoumécht.", "example_es": "Es un fastidio que cierre la piscina."},
+   {"text": "d'Gemeng", "es": "el ayuntamiento", "example": "D'Gemeng setzt e gratis Bus an.", "example_es": "El ayuntamiento pone un autobús gratuito."},
+   {"text": "renovéiert", "es": "renovado", "example": "Den Daach gëtt dëst Joer renovéiert.", "example_es": "El tejado se renueva este año."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un comentario en el grupo de vecinos sobre una noticia: van a cerrar la calle principal a los coches los domingos. Resume la noticia y da tu opinión con un argumento (3–4 frases).",
+   "model": "Hutt Dir gelies, datt d'Gemeng d'Haaptstrooss e Sonndeg fir d'Autoe spärt? An der Zeitung steet, datt do dann e Maart a Spiller fir Kanner sinn. Ech fannen dat eng gutt Iddi, well et méi roueg gëtt. Mee d'Leit, déi do wunnen, mussen hiren Auto anzwousch parken.",
+   "rubric": "Usa al menos dos subordinadas con «datt» (verbo al final), separa la noticia de tu opinión («ech fannen») y da un argumento."
+  }
+ }
+}

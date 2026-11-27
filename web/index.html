@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12243b">
+  <title>Idiomas · Práctica para tu mudanza</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/app.js" type="module"></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="frame topbar">
+      <a href="#hoy" class="brand"><span class="brand-icon" aria-hidden="true">▤</span>Idiomas</a>
+      <nav aria-label="Navegación principal">
+        <a href="#hoy" id="today-link">Hoy</a>
+        <a href="#curso" id="course-link">Curso</a>
+        <a href="#vocabulario" id="vocab-link">Vocabulario</a>
+        <a href="#practica/hoy" id="practice-link">Práctica</a>
+        <a href="#repaso" id="review-link">Repaso <span id="due-count" hidden></span></a>
+        <a href="#progreso" id="progress-link">Progreso</a>
+        <a href="#voz" id="voice-link">Mis grabaciones</a>
+        <button id="settings" class="plain" type="button">Ajustes</button>
+      </nav>
+    </div>
+  </header>
+  <main class="frame" id="app" aria-live="off"><p role="status">Cargando las lecciones…</p></main>
+  <dialog id="settings-dialog" aria-labelledby="settings-title">
+    <form method="dialog">
+      <h2 id="settings-title">Ajustes</h2>
+      <p>La versión local guarda tu progreso en este Mac. Tu voz se procesa en el Mac. Las grabaciones que decidas guardar estarán en Mis grabaciones.</p>
+      <h3>Conversación libre</h3>
+      <p id="cloud-help"></p>
+      <label class="toggle"><input type="checkbox" id="cloud-option"> Habilitar conversación libre con OpenAI</label>
+      <button class="button primary" value="close">Cerrar</button>
+    </form>
+  </dialog>
+</body>
+</html>

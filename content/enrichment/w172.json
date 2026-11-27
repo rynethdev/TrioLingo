@@ -1,0 +1,81 @@
+{
+ "week": 172,
+ "da": {
+  "dialogue2": {
+   "context": "Un investigador sénior comenta el borrador de artículo de una doctoranda que se pone a la defensiva; él tiene que ser honesto sin desanimarla.",
+   "lines": [
+    {"text": "Du har vel læst det hele? Du har kun skrevet tre kommentarer.", "es": "Supongo que lo has leído todo. Solo has escrito tres comentarios."},
+    {"text": "Ja, og det er et godt tegn. Men den tredje er stor.", "es": "Sí, y es buena señal. Pero el tercero es de peso."},
+    {"text": "Metodeafsnittet, ikke? Jeg vidste det.", "es": "La sección de método, ¿no? Lo sabía."},
+    {"text": "Metoden er fin. Det er rækkefølgen: læseren møder resultatet, før hun ved, hvad du har målt.", "es": "El método está bien. Es el orden: el lector se encuentra el resultado antes de saber qué has medido."},
+    {"text": "Så jeg skal skrive det hele om?", "es": "¿O sea que tengo que reescribirlo todo?"},
+    {"text": "Nej, du kunne nøjes med at flytte to afsnit. Indholdet bør stå, som det står.", "es": "No, podrías limitarte a mover dos apartados. El contenido debería quedarse como está."},
+    {"text": "Det lyder næsten for nemt.", "es": "Suena casi demasiado fácil."},
+    {"text": "Det er tit de små greb, der løfter en tekst. Og din er tæt på.", "es": "A menudo son los pequeños ajustes los que elevan un texto. Y el tuyo está cerca."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere transmitir el investigador al decir que tres comentarios «es buena señal»?",
+   "choices": ["Que el borrador es sólido en general y solo necesita ajustes concretos", "Que no ha tenido tiempo de leerlo con atención", "Que el texto es perfecto y no requiere cambios"]
+  },
+  "grammar": {
+   "focus": "Modales de sugerencia en la crítica: kunne, burde, må gerne",
+   "explain": "Una crítica constructiva convierte la orden en propuesta: Du kunne flytte afsnittet (podrías…), Afsnittet burde komme før (debería…), Konklusionen må gerne være kortere (no estaría mal que fuera…).",
+   "items": [
+    {"prompt": "Du ___ overveje at flytte resultaterne længere ned. (podrías)", "answer": "kunne", "es": "Podrías plantearte mover los resultados más abajo."},
+    {"prompt": "Metodeafsnittet ___ komme før diskussionen. (debería)", "answer": "burde", "es": "La sección de método debería ir antes de la discusión."},
+    {"prompt": "Indledningen ___ gerne være lidt kortere. (no estaría mal que)", "answer": "må", "es": "No estaría mal que la introducción fuera algo más corta."}
+   ]
+  },
+  "vocab": [
+   {"text": "et godt tegn", "es": "una buena señal", "example": "Få kommentarer er et godt tegn.", "example_es": "Pocos comentarios son buena señal."},
+   {"text": "nøjes med", "es": "limitarse a, conformarse con", "example": "Du kan nøjes med at flytte to afsnit.", "example_es": "Puedes limitarte a mover dos apartados."},
+   {"text": "små greb", "es": "pequeños ajustes", "example": "Små greb kan løfte en hel tekst.", "example_es": "Pequeños ajustes pueden elevar todo un texto."},
+   {"text": "gå i forsvarsposition", "es": "ponerse a la defensiva", "example": "Det er naturligt at gå i forsvarsposition over for kritik.", "example_es": "Es natural ponerse a la defensiva ante la crítica."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el comentario general (6–8 frases) que acompaña tus correcciones al informe de un compañero más joven e inseguro. Propósito: señalar con precisión el problema principal, reconocer lo logrado y proponer cambios concretos con modales de sugerencia.",
+   "model": "Kære Mads, tak fordi jeg måtte læse din rapport — den er klart bedre end første udkast. Analysen af kundedata er grundig, og figurerne taler deres tydelige sprog. Det største problem er rækkefølgen: anbefalingerne kommer først på side ni, og en travl læser når sjældent så langt. Du kunne overveje at rykke dem op i et kort resumé på første side. Metodeafsnittet burde samtidig forkortes, da detaljerne passer bedre i et bilag. Konklusionen må også gerne være mere bestemt; dine data bærer en tydeligere anbefaling, end du tør give. Med de ændringer er rapporten klar til ledelsen.",
+   "rubric": "Empieza con un reconocimiento concreto, no genérico; identifica el problema principal con precisión; cada crítica va acompañada de una propuesta; usa modales de sugerencia («kunne», «burde», «må gerne»); tono alentador y honesto; cierra con una valoración del estado final."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un investigador sénior comenta el borrador de artículo de una doctoranda que se pone a la defensiva; él tiene que ser honesto sin desanimarla.",
+   "lines": [
+    {"text": "Du hues dach alles gelies? Du hues just dräi Kommentarer geschriwwen.", "es": "Lo has leído todo, ¿no? Solo has escrito tres comentarios."},
+    {"text": "Jo, an dat ass e gutt Zeechen. Mä deen drëtten ass grouss.", "es": "Sí, y es buena señal. Pero el tercero es de peso."},
+    {"text": "D'Method, oder? Ech wousst et.", "es": "El método, ¿no? Lo sabía."},
+    {"text": "D'Method ass an der Rei. Et ass d'Reiefolleg: de Lieser gesäit d'Resultat, ier e weess, wat s du gemooss hues.", "es": "El método está bien. Es el orden: el lector ve el resultado antes de saber qué has medido."},
+    {"text": "Also muss ech alles nei schreiwen?", "es": "¿O sea que tengo que reescribirlo todo?"},
+    {"text": "Neen, du kéints just zwee Paragrafen ëmstellen. Den Inhalt sollt esou bleiwen, wéi en ass.", "es": "No, podrías limitarte a cambiar de sitio dos párrafos. El contenido debería quedarse como está."},
+    {"text": "Dat klengt bal ze einfach.", "es": "Suena casi demasiado fácil."},
+    {"text": "Dacks sinn et déi kleng Ännerungen, déi en Text ophiewen. An däin ass no drun.", "es": "A menudo son los pequeños cambios los que elevan un texto. Y el tuyo está cerca."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere transmitir el investigador al decir que tres comentarios «es buena señal»?",
+   "choices": ["Que el borrador es sólido en general y solo necesita ajustes concretos", "Que no ha tenido tiempo de leerlo con atención", "Que el texto es perfecto y no requiere cambios"]
+  },
+  "grammar": {
+   "focus": "Modales en Konjunktiv II para sugerencias críticas: kéint, sollt, misst",
+   "explain": "La crítica constructiva convierte la orden en sugerencia: Du kéints de Paragraf ëmstellen (podrías…), Den Text sollt méi kuerz sinn (debería…), Dat misst nach gekläert ginn (habría que…).",
+   "items": [
+    {"prompt": "Du ___ iwwerleeën, d'Resultater méi spéit ze bréngen. (podrías)", "answer": "kéints", "es": "Podrías plantearte presentar los resultados más tarde."},
+    {"prompt": "D'Method ___ virun der Diskussioun kommen. (debería)", "answer": "sollt", "es": "El método debería ir antes de la discusión."},
+    {"prompt": "D'Konklusioun ___ nach eng Kéier iwwerschafft ginn. (habría que)", "answer": "misst", "es": "Habría que revisar la conclusión una vez más."}
+   ]
+  },
+  "vocab": [
+   {"text": "e gutt Zeechen", "es": "una buena señal", "example": "Wéineg Kommentarer sinn e gutt Zeechen.", "example_es": "Pocos comentarios son buena señal."},
+   {"text": "an d'Defensiv", "es": "(ponerse) a la defensiva", "example": "Et ass normal, bei Kritik an d'Defensiv ze goen.", "example_es": "Es normal ponerse a la defensiva ante la crítica."},
+   {"text": "d'Reiefolleg", "es": "el orden, la secuencia", "example": "D'Problem ass net den Inhalt, mä d'Reiefolleg.", "example_es": "El problema no es el contenido, sino el orden."},
+   {"text": "no drun", "es": "cerca de lograrlo", "example": "Däin Text ass no drun, fäerdeg ze sinn.", "example_es": "Tu texto está cerca de estar terminado."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el comentario general (6–8 frases) que acompaña tus correcciones al informe de un compañero más joven e inseguro. Propósito: señalar con precisión el problema principal, reconocer lo logrado y proponer cambios concretos con modales de sugerencia.",
+   "model": "Léiwe Mads, merci, datt ech däi Bericht liese konnt — en ass däitlech besser wéi den éischten Entworf. D'Analys vun de Clientsdonnéeën ass grëndlech, an d'Grafike schwätze fir sech. Dat gréisst Problem ass d'Reiefolleg: d'Empfehlunge kommen eréischt op der Säit néng, an e gestresste Lieser kënnt selten esou wäit. Du kéints iwwerleeën, se an engem kuerze Resumé op déi éischt Säit ze huelen. De Paragraf iwwer d'Method sollt gläichzäiteg méi kuerz sinn, well d'Detailer besser an en Annex passen. D'Konklusioun misst och méi kloer sinn; deng Donnéeën droen eng däitlech Empfehlung, déi s du dech net traus ze formuléieren. Mat dësen Ännerunge kann de Bericht bei d'Direktioun goen.",
+   "rubric": "Empieza con un reconocimiento concreto, no genérico; identifica el problema principal con precisión; cada crítica va acompañada de una propuesta; usa modales en Konjunktiv II («kéints», «sollt», «misst»); tono alentador y honesto; cierra con una valoración del estado final."
+  }
+ }
+}

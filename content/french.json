@@ -1,0 +1,810 @@
+[
+  {
+    "id": "fr-a1-salut",
+    "lang": "fr",
+    "level": "A1",
+    "week": 1,
+    "checkpoint": false,
+    "title": "Pedir que cambien al francés",
+    "goal": "Saluda, pide cambiar de idioma y di de dónde vienes.",
+    "setup": "Entras en un comercio de barrio. El saludo es en luxemburgués y quieres seguir en francés.",
+    "dialogue": [
+      {
+        "text": "Moien! Kann ech Iech hëllefen?",
+        "es": "¡Hola! ¿Puedo ayudarle?",
+        "speaker": 0,
+        "lang": "lb"
+      },
+      {
+        "text": "Bonjour ! Est-ce qu’on peut parler français, s’il vous plaît ?",
+        "es": "¡Hola! ¿Podemos hablar francés, por favor?",
+        "speaker": 1,
+        "lang": "fr"
+      },
+      {
+        "text": "Bien sûr. Vous venez d’où ?",
+        "es": "Por supuesto. ¿De dónde viene?",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Je viens du Chili. J’habite ici depuis peu.",
+        "es": "Vengo de Chile. Hace poco que vivo aquí.",
+        "speaker": 1,
+        "lang": "fr"
+      },
+      {
+        "text": "Vous cherchez quelque chose ?",
+        "es": "¿Busca algo?",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Oui, je cherche un plan du quartier.",
+        "es": "Sí, busco un plano del barrio.",
+        "speaker": 1,
+        "lang": "fr"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Bien sûr. Vous venez d’où ?",
+        "es": "Responde a esta intervención. Saluda, pide cambiar de idioma y di de dónde vienes.",
+        "model": "Je viens du Chili. J’habite ici depuis peu.",
+        "model_es": "Vengo de Chile. Hace poco que vivo aquí.",
+        "accepted": [],
+        "tip": "Con je, el verbo venir en presente toma la forma viens."
+      },
+      {
+        "prompt": "Vous cherchez quelque chose ?",
+        "es": "Responde a esta intervención. Saluda, pide cambiar de idioma y di de dónde vienes.",
+        "model": "Oui, je cherche un plan du quartier.",
+        "model_es": "Sí, busco un plano del barrio.",
+        "accepted": [],
+        "tip": "Con je, el verbo venir en presente toma la forma viens."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué busca la persona?",
+      "choices": [
+        "Un plano del barrio",
+        "Una tarjeta",
+        "Un billete"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "Bienvenue ! Nous parlons luxembourgeois et français. Demandez-nous un plan du quartier à la caisse.",
+      "prompt": "¿Dónde se pide el plano?",
+      "choices": [
+        "En la entrada",
+        "En caja",
+        "En internet"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe un saludo y pregunta si puedes hablar francés.",
+      "model": "Bonjour ! Est-ce qu’on peut parler français, s’il vous plaît ?",
+      "rubric": "Incluye el saludo, una pregunta y una fórmula amable."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Je ___ du Chili.",
+        "answer": "viens",
+        "explanation": "Con je, el verbo venir en presente toma la forma viens."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «el barrio» en francés?",
+        "answer": "le quartier",
+        "explanation": "Un plan du quartier."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «por supuesto» en francés?",
+        "answer": "bien sûr",
+        "explanation": "Bien sûr, on peut parler français."
+      }
+    ]
+  },
+  {
+    "id": "fr-a1-achat",
+    "lang": "fr",
+    "level": "A1",
+    "week": 2,
+    "checkpoint": false,
+    "title": "Comprar y pedir el recibo",
+    "goal": "Pide dos productos, entiende el importe y pide recibo.",
+    "setup": "En una panadería del barrio quieres pan y una botella de agua.",
+    "dialogue": [
+      {
+        "text": "Bonjour, qu’est-ce que je vous sers ?",
+        "es": "Buenos días, ¿qué le sirvo?",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Une baguette et une bouteille d’eau, s’il vous plaît.",
+        "es": "Una baguette y una botella de agua, por favor.",
+        "speaker": 1,
+        "lang": "fr"
+      },
+      {
+        "text": "Ça fait quatre euros cinquante. Vous voulez le ticket ?",
+        "es": "Son cuatro euros cincuenta. ¿Quiere el recibo?",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Oui, le ticket, s’il vous plaît.",
+        "es": "Sí, el recibo, por favor.",
+        "speaker": 1,
+        "lang": "fr"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Bonjour, qu’est-ce que je vous sers ?",
+        "es": "Responde a esta intervención. Pide dos productos, entiende el importe y pide recibo.",
+        "model": "Une baguette et une bouteille d’eau, s’il vous plaît.",
+        "model_es": "Una baguette y una botella de agua, por favor.",
+        "accepted": [],
+        "tip": "De se convierte en d’ delante de eau."
+      },
+      {
+        "prompt": "Ça fait quatre euros cinquante. Vous voulez le ticket ?",
+        "es": "Responde a esta intervención. Pide dos productos, entiende el importe y pide recibo.",
+        "model": "Oui, le ticket, s’il vous plaît.",
+        "model_es": "Sí, el recibo, por favor.",
+        "accepted": [],
+        "tip": "De se convierte en d’ delante de eau."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Cuánto cuesta?",
+      "choices": [
+        "4,15 €",
+        "4,50 €",
+        "5 €"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Pain maison : 2 €. Paiement par carte à partir de 5 €.",
+      "prompt": "¿A partir de qué importe aceptan tarjeta?",
+      "choices": [
+        "2 €",
+        "4 €",
+        "5 €"
+      ],
+      "answer": 2
+    },
+    "writing": {
+      "prompt": "Escribe cómo pedirías una botella de agua y el recibo.",
+      "model": "Une bouteille d’eau et le ticket, s’il vous plaît.",
+      "rubric": "Nombra lo que quieres y añade una fórmula de cortesía."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Une bouteille ___, s’il vous plaît.",
+        "answer": "d’eau",
+        "explanation": "De se convierte en d’ delante de eau."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «el recibo» en francés?",
+        "answer": "le ticket",
+        "explanation": "Vous voulez le ticket ?"
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «una botella» en francés?",
+        "answer": "une bouteille",
+        "explanation": "Une bouteille d’eau."
+      }
+    ]
+  },
+  {
+    "id": "fr-a1-adresse",
+    "lang": "fr",
+    "level": "A1",
+    "week": 3,
+    "checkpoint": false,
+    "title": "Indicar tu dirección",
+    "goal": "Da el nombre de la calle y el número.",
+    "setup": "Te piden la dirección para una entrega.",
+    "dialogue": [
+      {
+        "text": "À quelle adresse est la livraison ?",
+        "es": "¿A qué dirección es la entrega?",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Au douze, rue des Tilleuls.",
+        "es": "Al número doce de la rue des Tilleuls.",
+        "speaker": 1,
+        "lang": "fr"
+      },
+      {
+        "text": "À quel étage ?",
+        "es": "¿En qué piso?",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Au deuxième étage, porte à gauche.",
+        "es": "En el segundo piso, puerta a la izquierda.",
+        "speaker": 1,
+        "lang": "fr"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "À quelle adresse est la livraison ?",
+        "es": "Responde a esta intervención. Da el nombre de la calle y el número.",
+        "model": "Au douze, rue des Tilleuls.",
+        "model_es": "Al número doce de la rue des Tilleuls.",
+        "accepted": [],
+        "tip": "À + le se contrae en au."
+      },
+      {
+        "prompt": "À quel étage ?",
+        "es": "Responde a esta intervención. Da el nombre de la calle y el número.",
+        "model": "Au deuxième étage, porte à gauche.",
+        "model_es": "En el segundo piso, puerta a la izquierda.",
+        "accepted": [],
+        "tip": "À + le se contrae en au."
+      }
+    ],
+    "listening": {
+      "prompt": "¿En qué piso vive la persona?",
+      "choices": [
+        "Primero",
+        "Segundo",
+        "Tercero"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Livraison jeudi entre neuf heures et onze heures. Merci d’indiquer votre numéro de porte.",
+      "prompt": "¿Qué día harán la entrega?",
+      "choices": [
+        "Jueves",
+        "Miércoles",
+        "Viernes"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Escribe una dirección ficticia e indica el piso.",
+      "model": "J’habite au douze, rue des Tilleuls, au deuxième étage.",
+      "rubric": "Incluye calle, número y piso."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "___ deuxième étage.",
+        "answer": "Au",
+        "explanation": "À + le se contrae en au."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «la entrega» en francés?",
+        "answer": "la livraison",
+        "explanation": "À quelle adresse est la livraison ?"
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «a la izquierda» en francés?",
+        "answer": "à gauche",
+        "explanation": "La porte est à gauche."
+      }
+    ]
+  },
+  {
+    "id": "fr-a1-horaire",
+    "lang": "fr",
+    "level": "A1",
+    "week": 4,
+    "checkpoint": true,
+    "title": "Control A1 · Consultar un horario",
+    "goal": "Pregunta cuándo abre y confirma el día.",
+    "setup": "Quieres visitar una oficina el sábado.",
+    "dialogue": [
+      {
+        "text": "Bonjour, vous avez une question ?",
+        "es": "Buenos días, ¿tiene alguna pregunta?",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Vous ouvrez à quelle heure samedi ?",
+        "es": "¿A qué hora abren el sábado?",
+        "speaker": 1,
+        "lang": "fr"
+      },
+      {
+        "text": "Samedi, on ouvre à dix heures.",
+        "es": "El sábado abrimos a las diez.",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "D’accord, samedi à dix heures. Merci !",
+        "es": "De acuerdo, el sábado a las diez. ¡Gracias!",
+        "speaker": 1,
+        "lang": "fr"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Bonjour, vous avez une question ?",
+        "es": "Responde a esta intervención. Pregunta cuándo abre y confirma el día.",
+        "model": "Vous ouvrez à quelle heure samedi ?",
+        "model_es": "¿A qué hora abren el sábado?",
+        "accepted": [],
+        "tip": "Usa à al indicar una hora puntual."
+      },
+      {
+        "prompt": "Samedi, on ouvre à dix heures.",
+        "es": "Responde a esta intervención. Pregunta cuándo abre y confirma el día.",
+        "model": "D’accord, samedi à dix heures. Merci !",
+        "model_es": "De acuerdo, el sábado a las diez. ¡Gracias!",
+        "accepted": [],
+        "tip": "Usa à al indicar una hora puntual."
+      }
+    ],
+    "listening": {
+      "prompt": "¿A qué hora abre el sábado?",
+      "choices": [
+        "A las ocho",
+        "A las nueve",
+        "A las diez"
+      ],
+      "answer": 2
+    },
+    "reading": {
+      "text": "Ouvert du lundi au samedi. Fermé le dimanche.",
+      "prompt": "¿Qué día está cerrado?",
+      "choices": [
+        "Lunes",
+        "Domingo",
+        "Sábado"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe preguntando si abre el sábado por la mañana.",
+      "model": "Est-ce que vous ouvrez samedi matin ?",
+      "rubric": "Incluye el día y el momento del día."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "On ouvre ___ dix heures.",
+        "answer": "à",
+        "explanation": "Usa à al indicar una hora puntual."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «abrir» en francés?",
+        "answer": "ouvrir",
+        "explanation": "On ouvre à dix heures."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «cerrado» en francés?",
+        "answer": "fermé",
+        "explanation": "Fermé le dimanche."
+      }
+    ]
+  },
+  {
+    "id": "fr-a2-logement",
+    "lang": "fr",
+    "level": "A2",
+    "week": 1,
+    "checkpoint": false,
+    "title": "Confirmar una visita de alquiler",
+    "goal": "Pide una visita y verifica qué gastos están incluidos.",
+    "setup": "Al llamar te atienden en luxemburgués. Pide continuar en francés y habla del anuncio.",
+    "dialogue": [
+      {
+        "text": "Moien, Dir sidd bei der Agence.",
+        "es": "Hola, llamó a la agencia.",
+        "speaker": 0,
+        "lang": "lb"
+      },
+      {
+        "text": "Bonjour, est-ce qu’on peut continuer en français ?",
+        "es": "Hola, ¿podemos continuar en francés?",
+        "speaker": 1,
+        "lang": "fr"
+      },
+      {
+        "text": "Oui, bien sûr. C’est pour quel appartement ?",
+        "es": "Sí, por supuesto. ¿Por qué piso llama?",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Celui du deuxième étage. Est-ce que je peux le visiter mardi ?",
+        "es": "El del segundo piso. ¿Puedo visitarlo el martes?",
+        "speaker": 1,
+        "lang": "fr"
+      },
+      {
+        "text": "Mardi à dix-sept heures, ça vous convient ?",
+        "es": "¿Le viene bien el martes a las cinco?",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Oui. Les charges sont-elles comprises dans le loyer ?",
+        "es": "Sí. ¿Están incluidos los gastos en el alquiler?",
+        "speaker": 1,
+        "lang": "fr"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Oui, bien sûr. C’est pour quel appartement ?",
+        "es": "Responde a esta intervención. Pide una visita y verifica qué gastos están incluidos.",
+        "model": "Celui du deuxième étage. Est-ce que je peux le visiter mardi ?",
+        "model_es": "El del segundo piso. ¿Puedo visitarlo el martes?",
+        "accepted": [],
+        "tip": "Charges está en plural y concuerda con sont comprises."
+      },
+      {
+        "prompt": "Mardi à dix-sept heures, ça vous convient ?",
+        "es": "Responde a esta intervención. Pide una visita y verifica qué gastos están incluidos.",
+        "model": "Oui. Les charges sont-elles comprises dans le loyer ?",
+        "model_es": "Sí. ¿Están incluidos los gastos en el alquiler?",
+        "accepted": [],
+        "tip": "Charges está en plural y concuerda con sont comprises."
+      }
+    ],
+    "listening": {
+      "prompt": "¿A qué hora proponen la visita?",
+      "choices": [
+        "A las 15",
+        "A las 16",
+        "A las 17"
+      ],
+      "answer": 2
+    },
+    "reading": {
+      "text": "Loyer : 1 200 euros. Charges : 160 euros par mois. Visite sur rendez-vous.",
+      "prompt": "¿Cuánto se paga por gastos al mes?",
+      "choices": [
+        "160 euros",
+        "1 200 euros",
+        "No se indica"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Envía una solicitud corta de visita y pregunta por los gastos.",
+      "model": "Bonjour, je voudrais visiter l’appartement mardi. Les charges sont-elles comprises ?",
+      "rubric": "Pide un día y distingue alquiler de gastos."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Les charges ___ comprises dans le loyer.",
+        "answer": "sont",
+        "explanation": "Charges está en plural y concuerda con sont comprises."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «el alquiler» en francés?",
+        "answer": "le loyer",
+        "explanation": "Le montant du loyer."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «los gastos» en francés?",
+        "answer": "les charges",
+        "explanation": "Les charges sont-elles comprises ?"
+      }
+    ]
+  },
+  {
+    "id": "fr-a2-entretien",
+    "lang": "fr",
+    "level": "A2",
+    "week": 2,
+    "checkpoint": false,
+    "title": "Presentarte en una entrevista",
+    "goal": "Habla de tu experiencia y di cuándo podrías empezar.",
+    "setup": "Te entrevistan para un puesto de atención al cliente.",
+    "dialogue": [
+      {
+        "text": "Vous avez déjà travaillé avec des clients ?",
+        "es": "¿Ha trabajado antes con clientes?",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Oui, j’ai travaillé deux ans dans un magasin.",
+        "es": "Sí, trabajé dos años en una tienda.",
+        "speaker": 1,
+        "lang": "fr"
+      },
+      {
+        "text": "Vous seriez disponible à partir de quand ?",
+        "es": "¿A partir de cuándo estaría disponible?",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Je peux commencer lundi prochain.",
+        "es": "Puedo empezar el próximo lunes.",
+        "speaker": 1,
+        "lang": "fr"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Vous avez déjà travaillé avec des clients ?",
+        "es": "Responde a esta intervención. Habla de tu experiencia y di cuándo podrías empezar.",
+        "model": "Oui, j’ai travaillé deux ans dans un magasin.",
+        "model_es": "Sí, trabajé dos años en una tienda.",
+        "accepted": [],
+        "tip": "El passé composé de travailler usa avoir."
+      },
+      {
+        "prompt": "Vous seriez disponible à partir de quand ?",
+        "es": "Responde a esta intervención. Habla de tu experiencia y di cuándo podrías empezar.",
+        "model": "Je peux commencer lundi prochain.",
+        "model_es": "Puedo empezar el próximo lunes.",
+        "accepted": [],
+        "tip": "El passé composé de travailler usa avoir."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Cuándo puede empezar?",
+      "choices": [
+        "Este viernes",
+        "El próximo lunes",
+        "El próximo martes"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Joignez votre CV au courriel. Les entretiens auront lieu le matin.",
+      "prompt": "¿Qué hay que adjuntar?",
+      "choices": [
+        "Una carta",
+        "Un diploma",
+        "El currículum"
+      ],
+      "answer": 2
+    },
+    "writing": {
+      "prompt": "Escribe una presentación breve para enviar antes de la entrevista.",
+      "model": "Bonjour, j’ai deux ans d’expérience en magasin. Je suis disponible à partir de lundi.",
+      "rubric": "Da una experiencia concreta y una fecha de disponibilidad."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "J’___ travaillé deux ans.",
+        "answer": "ai",
+        "explanation": "El passé composé de travailler usa avoir."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «una entrevista» en francés?",
+        "answer": "un entretien",
+        "explanation": "Un entretien d’embauche."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «disponible» en francés?",
+        "answer": "disponible",
+        "explanation": "Je suis disponible lundi."
+      }
+    ]
+  },
+  {
+    "id": "fr-a2-dossier",
+    "lang": "fr",
+    "level": "A2",
+    "week": 3,
+    "checkpoint": false,
+    "title": "Preguntar por un documento",
+    "goal": "Comprueba qué falta y cómo puedes enviarlo.",
+    "setup": "Atienden tu consulta en una oficina. Estás practicando una situación ficticia.",
+    "dialogue": [
+      {
+        "text": "Votre dossier est presque complet. Il manque une pièce.",
+        "es": "Su expediente está casi completo. Falta un documento.",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Quel document manque-t-il ?",
+        "es": "¿Qué documento falta?",
+        "speaker": 1,
+        "lang": "fr"
+      },
+      {
+        "text": "Il nous faut un justificatif de domicile.",
+        "es": "Necesitamos un justificante de domicilio.",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Est-ce que je peux vous l’envoyer par courriel ?",
+        "es": "¿Se lo puedo enviar por correo electrónico?",
+        "speaker": 1,
+        "lang": "fr"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Votre dossier est presque complet. Il manque une pièce.",
+        "es": "Responde a esta intervención. Comprueba qué falta y cómo puedes enviarlo.",
+        "model": "Quel document manque-t-il ?",
+        "model_es": "¿Qué documento falta?",
+        "accepted": [],
+        "tip": "Con je, el presente de pouvoir toma la forma peux."
+      },
+      {
+        "prompt": "Il nous faut un justificatif de domicile.",
+        "es": "Responde a esta intervención. Comprueba qué falta y cómo puedes enviarlo.",
+        "model": "Est-ce que je peux vous l’envoyer par courriel ?",
+        "model_es": "¿Se lo puedo enviar por correo electrónico?",
+        "accepted": [],
+        "tip": "Con je, el presente de pouvoir toma la forma peux."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué falta?",
+      "choices": [
+        "El justificante de domicilio",
+        "El diploma",
+        "La foto"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "Ajoutez la référence du dossier dans l’objet du message.",
+      "prompt": "¿Dónde debe aparecer la referencia?",
+      "choices": [
+        "Al pie del mensaje",
+        "En el asunto",
+        "En el archivo"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe el mensaje que acompañaría al documento.",
+      "model": "Bonjour, vous trouverez ci-joint le justificatif de domicile. Merci de me confirmer la réception.",
+      "rubric": "Identifica el documento y pide confirmación."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Est-ce que je ___ vous l’envoyer par courriel ?",
+        "answer": "peux",
+        "explanation": "Con je, el presente de pouvoir toma la forma peux."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «un justificante» en francés?",
+        "answer": "un justificatif",
+        "explanation": "Un justificatif de domicile."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «por correo electrónico» en francés?",
+        "answer": "par courriel",
+        "explanation": "Vous pouvez me répondre par courriel."
+      }
+    ]
+  },
+  {
+    "id": "fr-a2-retour",
+    "lang": "fr",
+    "level": "A2",
+    "week": 4,
+    "checkpoint": true,
+    "title": "Control A2 · Cambiar una compra",
+    "goal": "Describe el problema, pide otra talla y confirma el paso siguiente.",
+    "setup": "Compraste una chaqueta demasiado pequeña. Regresa a la tienda.",
+    "dialogue": [
+      {
+        "text": "Quel est le problème avec la veste ?",
+        "es": "¿Cuál es el problema con la chaqueta?",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Elle est trop petite. Vous avez la taille au-dessus ?",
+        "es": "Es demasiado pequeña. ¿Tienen la talla superior?",
+        "speaker": 1,
+        "lang": "fr"
+      },
+      {
+        "text": "Oui. Vous avez gardé le ticket ?",
+        "es": "Sí. ¿Ha guardado el recibo?",
+        "speaker": 0,
+        "lang": "fr"
+      },
+      {
+        "text": "Oui, je l’ai ici. Est-ce qu’on peut faire l’échange aujourd’hui ?",
+        "es": "Sí, lo tengo aquí. ¿Podemos hacer el cambio hoy?",
+        "speaker": 1,
+        "lang": "fr"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Quel est le problème avec la veste ?",
+        "es": "Responde a esta intervención. Describe el problema, pide otra talla y confirma el paso siguiente.",
+        "model": "Elle est trop petite. Vous avez la taille au-dessus ?",
+        "model_es": "Es demasiado pequeña. ¿Tienen la talla superior?",
+        "accepted": [],
+        "tip": "Trop indica un exceso. Très solo indica intensidad."
+      },
+      {
+        "prompt": "Oui. Vous avez gardé le ticket ?",
+        "es": "Responde a esta intervención. Describe el problema, pide otra talla y confirma el paso siguiente.",
+        "model": "Oui, je l’ai ici. Est-ce qu’on peut faire l’échange aujourd’hui ?",
+        "model_es": "Sí, lo tengo aquí. ¿Podemos hacer el cambio hoy?",
+        "accepted": [],
+        "tip": "Trop indica un exceso. Très solo indica intensidad."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Por qué quiere cambiar la chaqueta?",
+      "choices": [
+        "Le queda grande",
+        "Le queda pequeña",
+        "Tiene un defecto"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Échange possible en magasin avec le ticket. Adressez-vous à l’accueil.",
+      "prompt": "¿A dónde debe dirigirse?",
+      "choices": [
+        "A atención al cliente",
+        "Al probador",
+        "A la caja de autoservicio"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Envía un mensaje solicitando el cambio de talla.",
+      "model": "Bonjour, la veste est trop petite. Est-ce que je peux l’échanger contre une taille plus grande ?",
+      "rubric": "Explica el problema y pide una alternativa concreta."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Elle est ___ petite.",
+        "answer": "trop",
+        "explanation": "Trop indica un exceso. Très solo indica intensidad."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «la talla» en francés?",
+        "answer": "la taille",
+        "explanation": "La taille au-dessus."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «un cambio» en francés?",
+        "answer": "un échange",
+        "explanation": "Est-ce qu’on peut faire l’échange ?"
+      }
+    ]
+  }
+]

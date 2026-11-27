@@ -1,0 +1,81 @@
+{
+ "week": 182,
+ "da": {
+  "dialogue2": {
+   "context": "En la asamblea de un club deportivo, dos bandos discuten si invertir en el equipo femenino o en el césped; el presidente obliga a cada uno a reformular la postura del otro antes de seguir.",
+   "lines": [
+    {"text": "Inden du svarer, Henrik: Kan du gengive, hvad Lene lige sagde?", "es": "Antes de responder, Henrik: ¿puedes repetir lo que acaba de decir Lene?"},
+    {"text": "Hun vil bruge alle pengene på kvindeholdet.", "es": "Quiere gastarse todo el dinero en el equipo femenino."},
+    {"text": "Det var ikke helt det, hun sagde. Hun spurgte, hvorfor kvindeholdet aldrig kommer først.", "es": "No es exactamente lo que dijo. Preguntó por qué el equipo femenino nunca va primero."},
+    {"text": "Okay. Hun spørger, om vi overhovedet tager holdet alvorligt.", "es": "Vale. Pregunta si de verdad nos tomamos en serio al equipo."},
+    {"text": "Præcis. Og hvad er dit eget spørgsmål?", "es": "Exacto. ¿Y cuál es tu propia pregunta?"},
+    {"text": "Hvordan vi skal spille kampe, hvis banen er ødelagt.", "es": "Cómo vamos a jugar partidos si el campo está destrozado."},
+    {"text": "Godt. Så har vi to legitime spørgsmål — ikke to fjender.", "es": "Bien. Entonces tenemos dos preguntas legítimas, no dos enemigos."},
+    {"text": "Det lyder pænere, end det føltes for fem minutter siden.", "es": "Suena más bonito de lo que se sentía hace cinco minutos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Para qué obliga el presidente a Henrik a reformular la postura de Lene?",
+   "choices": ["Para que escuche lo que ella plantea de verdad y no una versión exagerada", "Para dejarle en evidencia delante del club", "Para ganar tiempo antes de la votación"]
+  },
+  "grammar": {
+   "focus": "Preguntas indirectas: orden de palabras",
+   "explain": "En la pregunta indirecta no hay inversión, y adverbios como «ikke», «aldrig» u «overhovedet» van delante del verbo: Hvorfor kommer holdet aldrig først? → Hun spurgte, hvorfor holdet aldrig kommer først. Las preguntas de sí/no se introducen con «om».",
+   "items": [
+    {"prompt": "Hun spørger, ___ vi overhovedet tager holdet alvorligt. (si, pregunta de sí/no)", "answer": "om", "es": "Pregunta si de verdad nos tomamos en serio al equipo."},
+    {"prompt": "Jeg forstår ikke, hvorfor de ___ vil lytte til hinanden. (negación, posición en la indirecta)", "answer": "ikke", "es": "No entiendo por qué no quieren escucharse."},
+    {"prompt": "Kan du gengive, ___ Lene lige sagde? (qué)", "answer": "hvad", "es": "¿Puedes repetir lo que acaba de decir Lene?"}
+   ]
+  },
+  "vocab": [
+   {"text": "gengive", "es": "reproducir, reformular", "example": "Kan du gengive hendes synspunkt med dine egne ord?", "example_es": "¿Puedes reformular su punto de vista con tus palabras?"},
+   {"text": "komme til orde", "es": "poder tomar la palabra", "example": "Alle skal komme til orde, før vi stemmer.", "example_es": "Todos deben poder hablar antes de votar."},
+   {"text": "står stejlt over for hinanden", "es": "están frontalmente enfrentados", "example": "De to grupper står stejlt over for hinanden.", "example_es": "Los dos grupos están frontalmente enfrentados."},
+   {"text": "spore af", "es": "descarrilar, desviarse", "example": "Diskussionen må ikke spore af igen.", "example_es": "La discusión no puede volver a descarrilar."}
+  ],
+  "transfer": {
+   "prompt": "Como presidente del club, escribe el acta-resumen (6–8 frases) de la asamblea: recoge con neutralidad las dos posturas en forma de preguntas indirectas y el procedimiento acordado para decidir.",
+   "model": "Referat af medlemsmødet den 12. maj. Mødet handlede om, hvordan klubbens overskud på 80.000 kroner skal bruges. Den ene gruppe spurgte, hvorfor kvindeholdet aldrig kommer først, når der fordeles penge. Den anden gruppe spurgte, hvordan klubben overhovedet kan spille kampe, hvis banen ikke bliver renoveret. Begge spørgsmål blev anerkendt som legitime, og ingen af grupperne blev afbrudt under deres indlæg. Bestyrelsen undersøger nu, om banen kan renoveres i etaper, så en del af beløbet kan gå til kvindeholdet allerede i år. Forslaget sendes til alle medlemmer, inden der stemmes på mødet den 2. juni.",
+   "rubric": "Recoge ambas posturas con la misma extensión y neutralidad; las formula como preguntas indirectas con el orden correcto; evita adjetivos valorativos; deja constancia del procedimiento; incluye fechas y cifras; registro propio de un acta."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En la asamblea de un club deportivo, dos bandos discuten si invertir en el equipo femenino o en el césped; el presidente obliga a cada uno a reformular la postura del otro antes de seguir.",
+   "lines": [
+    {"text": "Ier s du äntwers, Henri: Kanns du widderhuelen, wat d'Lena grad gesot huet?", "es": "Antes de responder, Henri: ¿puedes repetir lo que acaba de decir Lena?"},
+    {"text": "Si wëll all d'Suen an d'Fraenequipe stiechen.", "es": "Quiere meter todo el dinero en el equipo femenino."},
+    {"text": "Dat war net ganz dat, wat si gesot huet. Si huet gefrot, firwat d'Fraenequipe ni als éischt drukënnt.", "es": "No es exactamente lo que dijo. Preguntó por qué al equipo femenino nunca le toca primero."},
+    {"text": "Okay. Si freet, ob mir d'Equipe iwwerhaapt eescht huelen.", "es": "Vale. Pregunta si de verdad nos tomamos en serio al equipo."},
+    {"text": "Genee. A wat ass deng eege Fro?", "es": "Exacto. ¿Y cuál es tu propia pregunta?"},
+    {"text": "Wéi mir nach Matcher spille sollen, wann den Terrain futti ass.", "es": "Cómo vamos a seguir jugando partidos si el campo está destrozado."},
+    {"text": "Gutt. Da hu mir zwou berechtegt Froen — net zwee Feinden.", "es": "Bien. Entonces tenemos dos preguntas legítimas, no dos enemigos."},
+    {"text": "Dat klengt méi schéin, wéi et sech viru fënnef Minutten ugefillt huet.", "es": "Suena más bonito de lo que se sentía hace cinco minutos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Para qué obliga el presidente a Henri a reformular la postura de Lena?",
+   "choices": ["Para que escuche lo que ella plantea de verdad y no una versión exagerada", "Para dejarle en evidencia delante del club", "Para ganar tiempo antes de la votación"]
+  },
+  "grammar": {
+   "focus": "Preguntas indirectas: verbo al final",
+   "explain": "En la pregunta indirecta el verbo conjugado va al final: Firwat kënnt d'Equipe ni als éischt drun? → Si freet, firwat d'Equipe ni als éischt drukënnt. Las preguntas de sí/no se introducen con «ob».",
+   "items": [
+    {"prompt": "Si freet, ___ mir d'Equipe iwwerhaapt eescht huelen. (si, pregunta de sí/no)", "answer": "ob", "es": "Pregunta si de verdad nos tomamos en serio al equipo."},
+    {"prompt": "Hie wëll wëssen, wéi mir Matcher spille ___. (sollen, 1.ª pl., al final)", "answer": "sollen", "es": "Quiere saber cómo vamos a jugar partidos."},
+    {"prompt": "Kanns du widderhuelen, ___ d'Lena grad gesot huet? (qué)", "answer": "wat", "es": "¿Puedes repetir lo que acaba de decir Lena?"}
+   ]
+  },
+  "vocab": [
+   {"text": "zu Wuert kommen", "es": "poder tomar la palabra", "example": "Jidderee soll zu Wuert kommen, ier mir ofstëmmen.", "example_es": "Todos deben poder hablar antes de votar."},
+   {"text": "géinteneen", "es": "unos contra otros", "example": "Déi zwou Gruppe schaffe géinteneen amplaz mateneen.", "example_es": "Los dos grupos trabajan unos contra otros en vez de juntos."},
+   {"text": "vum Thema ofkommen", "es": "desviarse del tema", "example": "Mir sollten net erëm vum Thema ofkommen.", "example_es": "No deberíamos volver a desviarnos del tema."},
+   {"text": "berechtegt Froen", "es": "preguntas legítimas", "example": "Dat sinn zwou berechtegt Froen, keng Attacken.", "example_es": "Son dos preguntas legítimas, no ataques."}
+  ],
+  "transfer": {
+   "prompt": "Como presidente del club, escribe el acta-resumen (6–8 frases) de la asamblea: recoge con neutralidad las dos posturas en forma de preguntas indirectas y el procedimiento acordado para decidir.",
+   "model": "Protokoll vun der Generalversammlung vum 12. Mee. D'Versammlung huet doriwwer diskutéiert, wéi den Iwwerschoss vum Club vun 80.000 Euro soll benotzt ginn. Déi eng Grupp huet gefrot, firwat d'Fraenequipe ni als éischt drukënnt, wann Suen opgedeelt ginn. Déi aner Grupp huet gefrot, wéi de Club iwwerhaapt nach Matcher spille kann, wann den Terrain net renovéiert gëtt. Béid Froe goufen als berechtegt unerkannt, a keng vun de Gruppe gouf wärend hirer Interventioun ënnerbrach. De Comité kläert elo of, ob den Terrain an Etappen renovéiert ka ginn, sou datt en Deel vum Montant nach dëst Joer der Fraenequipe zegutt kënnt. De Virschlag gëtt un all Membere geschéckt, ier op der Versammlung vum 2. Juni ofgestëmmt gëtt.",
+   "rubric": "Recoge ambas posturas con la misma extensión y neutralidad; las formula como preguntas indirectas con el verbo al final; evita adjetivos valorativos; deja constancia del procedimiento; incluye fechas y cifras; registro propio de un acta."
+  }
+ }
+}

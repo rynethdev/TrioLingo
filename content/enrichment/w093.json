@@ -1,0 +1,81 @@
+{
+ "week": 93,
+ "da": {
+  "dialogue2": {
+   "context": "Un cliente llama, molesto, porque le han entregado el sofá equivocado; la primera solución no le convence y la empleada busca otra.",
+   "lines": [
+    {"text": "Jeg bestilte en grå sofa, men i går blev der leveret en grøn.", "es": "Pedí un sofá gris, pero ayer me entregaron uno verde."},
+    {"text": "Det beklager jeg virkelig. Der er tydeligvis sket en fejl på vores lager.", "es": "Lo siento de verdad. Está claro que ha habido un error en nuestro almacén."},
+    {"text": "Det har jeg forstået. Men jeg har allerede ventet seks uger.", "es": "Eso ya lo he entendido. Pero ya he esperado seis semanas."},
+    {"text": "Vi kan bytte den, men den grå er desværre først på lager igen i januar.", "es": "Podemos cambiarlo, pero por desgracia el gris no vuelve a estar en stock hasta enero."},
+    {"text": "Så vil jeg hellere have pengene tilbage.", "es": "Entonces prefiero que me devuelvan el dinero."},
+    {"text": "Det forstår jeg godt. Beløbet bliver overført inden for fem dage, og sofaen bliver hentet gratis.", "es": "Lo entiendo perfectamente. El importe se transferirá en cinco días y el sofá se recogerá gratis."},
+    {"text": "Fint. Og hvornår bliver den hentet?", "es": "Vale. ¿Y cuándo lo recogen?"},
+    {"text": "Vores chauffør ringer til dig i morgen og aftaler et tidspunkt med dig.", "es": "Nuestro conductor te llama mañana y acuerda una hora contigo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué acaba el cliente pidiendo el reembolso en lugar del cambio?",
+   "choices": ["Porque el sofá correcto no estará disponible hasta enero", "Porque el sofá verde llegó roto", "Porque la tienda no hace cambios"]
+  },
+  "grammar": {
+   "focus": "Pasiva con «blive» en presente, pasado y perfecto",
+   "explain": "«Blive» + participio forma la pasiva: «sofaen bliver hentet» (se recoge / se recogerá), «der blev leveret en grøn» (se entregó), «fejlen er blevet rettet» (se ha corregido). Si se menciona quién lo hace, va con «af».",
+   "items": [
+    {"prompt": "Pakken ___ leveret til den forkerte adresse i sidste uge. (blive, pasado)", "answer": "blev", "es": "El paquete se entregó en la dirección equivocada la semana pasada."},
+    {"prompt": "Beløbet ___ overført til din konto i morgen. (blive, presente)", "answer": "bliver", "es": "El importe se transferirá a tu cuenta mañana."},
+    {"prompt": "Fejlen er nu ___ rettet af vores it-afdeling. (blive, participio)", "answer": "blevet", "es": "El error ya ha sido corregido por nuestro departamento de informática."}
+   ]
+  },
+  "vocab": [
+   {"text": "det beklager jeg", "es": "lo lamento", "example": "Det beklager jeg meget, det skulle ikke være sket.", "example_es": "Lo lamento mucho, no tendría que haber pasado."},
+   {"text": "på lager", "es": "en stock, en existencias", "example": "Modellen er ikke på lager lige nu.", "example_es": "El modelo no está en stock ahora mismo."},
+   {"text": "pengene tilbage", "es": "la devolución del dinero", "example": "Jeg vil gerne have pengene tilbage.", "example_es": "Quiero que me devuelvan el dinero."},
+   {"text": "beløbet", "es": "el importe", "example": "Beløbet står på din konto inden fredag.", "example_es": "El importe estará en tu cuenta antes del viernes."}
+  ],
+  "transfer": {
+   "prompt": "Llevas un pequeño restaurante. Un cliente se ha quejado por escrito de que su reserva para un cumpleaños se perdió y tuvieron que esperar 40 minutos. Escribe la respuesta (4–6 frases, formal y empática): reconoce el problema, discúlpate, explica qué pasó y ofrece una compensación concreta.",
+   "model": "Kære Jens Holm. Tak, fordi du skrev til os, og undskyld de 40 minutters ventetid til din fødselsdag. Din reservation blev desværre ikke registreret korrekt, fordi vores bookingsystem var nede den dag. Det beklager vi meget, især da det var en særlig aften for dig. Systemet er nu blevet opdateret, og alle reservationer bliver fremover bekræftet på sms. Vi vil meget gerne invitere dig og tre gæster på middag hos os, når det passer dig. Med venlig hilsen, Line Berg.",
+   "rubric": "Reconoce el problema concreto, se disculpa, explica la causa con al menos una pasiva con «blive», describe una medida para el futuro y ofrece una compensación concreta."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un cliente llama, molesto, porque le han entregado el sofá equivocado; la primera solución no le convence y la empleada busca otra.",
+   "lines": [
+    {"text": "Ech hunn e groe Canapé bestallt, mee gëschter gouf mir e grénge geliwwert.", "es": "Pedí un sofá gris, pero ayer me entregaron uno verde."},
+    {"text": "Dat deet mir wierklech leed. Do ass ganz kloer e Feeler an eisem Lager geschitt.", "es": "Lo siento de verdad. Está claro que ha habido un error en nuestro almacén."},
+    {"text": "Dat hunn ech verstanen. Mee ech waarde schonn zënter sechs Wochen.", "es": "Eso ya lo he entendido. Pero llevo seis semanas esperando."},
+    {"text": "Mir kënnen en ëmtauschen, mee de groen ass leider eréischt am Januar nees um Lager.", "es": "Podemos cambiarlo, pero por desgracia el gris no vuelve a estar en stock hasta enero."},
+    {"text": "Da wëll ech léiwer d'Suen zeréck.", "es": "Entonces prefiero que me devuelvan el dinero."},
+    {"text": "Dat verstinn ech gutt. De Betrag gëtt bannent fënnef Deeg iwwerwisen, an de Canapé gëtt gratis ofgeholl.", "es": "Lo entiendo perfectamente. El importe se transferirá en cinco días y el sofá se recogerá gratis."},
+    {"text": "Gutt. A wéini gëtt en ofgeholl?", "es": "Vale. ¿Y cuándo lo recogen?"},
+    {"text": "Eise Chauffeur rifft Iech muer un a mécht en Termin mat Iech aus.", "es": "Nuestro conductor le llama mañana y acuerda una hora con usted."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué acaba el cliente pidiendo el reembolso en lugar del cambio?",
+   "choices": ["Porque el sofá correcto no estará disponible hasta enero", "Porque el sofá verde llegó roto", "Porque la tienda no hace cambios"]
+  },
+  "grammar": {
+   "focus": "Pasiva con «ginn» en presente, pasado y perfecto",
+   "explain": "«Ginn» + participio forma la pasiva: «de Canapé gëtt ofgeholl» (se recoge), «e grénge gouf geliwwert» (se entregó), «de Feeler ass korrigéiert ginn» (se ha corregido). Si se menciona quién lo hace, va con «vun».",
+   "items": [
+    {"prompt": "De Pak ___ déi lescht Woch un déi falsch Adress geliwwert. (ginn, pasado)", "answer": "gouf", "es": "El paquete se entregó en la dirección equivocada la semana pasada."},
+    {"prompt": "De Betrag ___ muer op Äre Kont iwwerwisen. (ginn, presente)", "answer": "gëtt", "es": "El importe se transferirá mañana a su cuenta."},
+    {"prompt": "De Feeler ass elo vun eiser IT-Abteilung korrigéiert ___.", "answer": "ginn", "es": "El error ya ha sido corregido por nuestro departamento de informática."}
+   ]
+  },
+  "vocab": [
+   {"text": "deet mir leed", "es": "lo siento", "example": "Et deet mir leed, dat hätt net dierfe geschéien.", "example_es": "Lo siento, eso no tendría que haber pasado."},
+   {"text": "um Lager", "es": "en stock, en existencias", "example": "De Modell ass de Moment net um Lager.", "example_es": "El modelo no está en stock en este momento."},
+   {"text": "de Betrag", "es": "el importe", "example": "De Betrag ass bis e Freideg op Ärem Kont.", "example_es": "El importe estará en su cuenta antes del viernes."},
+   {"text": "ofgeholl", "es": "recogido", "example": "De Canapé gëtt gratis ofgeholl.", "example_es": "El sofá se recoge gratis."}
+  ],
+  "transfer": {
+   "prompt": "Llevas un pequeño restaurante. Un cliente se ha quejado por escrito de que su reserva para un cumpleaños se perdió y tuvieron que esperar 40 minutos. Escribe la respuesta (4–6 frases, formal y empática): reconoce el problema, discúlpate, explica qué pasó y ofrece una compensación concreta.",
+   "model": "Léiwen Här Holm, merci, datt Dir eis geschriwwen hutt, an entschëllegt w.e.g. déi 40 Minutte Waardezäit op Ärem Gebuertsdag. Är Reservatioun gouf leider net richteg registréiert, well eise Reservatiounssystem deen Dag ausgefall war. Dat deet eis immens leed, besonnesch well et fir Iech e speziellen Owend war. De System ass elo aktualiséiert ginn, an all Reservatioun gëtt vun elo un per SMS confirméiert. Mir géifen Iech an dräi Gäscht gär op en Iessen bei eis invitéieren, wann et Iech passt. Mat beschte Gréiss, Line Berg.",
+   "rubric": "Reconoce el problema concreto, se disculpa, explica la causa con al menos una pasiva con «ginn», describe una medida para el futuro y ofrece una compensación concreta."
+  }
+ }
+}

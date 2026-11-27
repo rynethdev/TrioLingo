@@ -1,0 +1,81 @@
+{
+ "week": 153,
+ "da": {
+  "dialogue2": {
+   "context": "En una evaluación anual, una empleada no está de acuerdo con una crítica sobre su comunicación con otro departamento; la jefa matiza, da un ejemplo y acuerdan un objetivo.",
+   "lines": [
+    {"text": "Jeg synes ærligt talt ikke, at min kommunikation med salg har været et problem.", "es": "Sinceramente, no creo que mi comunicación con Ventas haya sido un problema."},
+    {"text": "Det forstår jeg, og det er heller ikke et stort problem, men den kunne godt være en anelse mere proaktiv.", "es": "Lo entiendo, y tampoco es un gran problema, pero podría ser un poquito más proactiva."},
+    {"text": "Hvad mener du konkret med proaktiv?", "es": "¿Qué quieres decir concretamente con proactiva?"},
+    {"text": "Da leveringen til Hansen blev forsinket i maj, hørte salg det først fra kunden.", "es": "Cuando la entrega a Hansen se retrasó en mayo, Ventas se enteró primero por el cliente."},
+    {"text": "Det er rigtigt, men jeg havde travlt med at løse selve problemet.", "es": "Es verdad, pero estaba ocupada resolviendo el problema en sí."},
+    {"text": "Det tvivler jeg ikke på, og løsningen var god; det er bare timingen, der kunne have været lidt bedre.", "es": "No lo dudo, y la solución fue buena; es solo el momento de avisar lo que podría haber sido algo mejor."},
+    {"text": "Okay, det kan jeg godt se. Hvad foreslår du?", "es": "Vale, eso lo veo. ¿Qué propones?"},
+    {"text": "At du fremover giver salg en kort status inden for to timer, når en vigtig levering skrider; kan vi skrive det som mål?", "es": "Que a partir de ahora des a Ventas un breve estado de la situación en un plazo de dos horas cuando se retrase una entrega importante; ¿lo ponemos como objetivo?"}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo consigue la jefa que la empleada acepte la crítica?",
+   "choices": ["Reduce su alcance, da un ejemplo concreto y reconoce lo que sí hizo bien", "Le recuerda que la evaluación influye en su salario", "Retira la crítica porque la empleada no está de acuerdo"]
+  },
+  "grammar": {
+   "focus": "Atenuación en la crítica: en anelse, lidt, kunne godt + infinitivo",
+   "explain": "Para suavizar una crítica sin vaciarla, se reduce su alcance («en anelse», «lidt») y se usa el modal en pretérito («kunne godt være …», «kunne have været …»): Den kunne godt være en anelse mere proaktiv.",
+   "items": [
+    {"prompt": "Kommunikationen kunne godt være en ___ mere proaktiv. (un poquito)", "answer": "anelse", "es": "La comunicación podría ser un poquito más proactiva."},
+    {"prompt": "Timingen kunne have ___ lidt bedre. (være, participio)", "answer": "været", "es": "El momento podría haber sido algo mejor."},
+    {"prompt": "Rapporten er god, men den ___ godt være lidt kortere. (kan, pretérito atenuado)", "answer": "kunne", "es": "El informe es bueno, pero podría ser algo más corto."}
+   ]
+  },
+  "vocab": [
+   {"text": "en anelse", "es": "un poquito", "example": "Indledningen kunne være en anelse kortere.", "example_es": "La introducción podría ser un poquito más corta."},
+   {"text": "proaktiv", "es": "proactivo", "example": "Prøv at være mere proaktiv over for salg.", "example_es": "Intenta ser más proactiva con Ventas."},
+   {"text": "skrider", "es": "se retrasa, se desliza (un plan)", "example": "Giv besked, så snart en tidsplan skrider.", "example_es": "Avisa en cuanto un calendario se retrase."},
+   {"text": "tvivler jeg ikke på", "es": "no lo dudo", "example": "Det tvivler jeg ikke på, men resultatet kom for sent.", "example_es": "No lo dudo, pero el resultado llegó demasiado tarde."}
+  ],
+  "transfer": {
+   "prompt": "Redacta el resumen escrito de la evaluación (5–6 frases): un punto fuerte con ejemplo, un área de mejora formulada con atenuación y ejemplo, la postura de la empleada y el objetivo acordado con indicador.",
+   "model": "Opsummering af medarbejdersamtalen den 4. december. Line har i år vist stærk faglighed i kontakten med kunderne, blandt andet ved den hurtige løsning af leveringsproblemet hos Hansen i maj. Et udviklingspunkt er, at kommunikationen med salg kunne være en anelse mere proaktiv; i det nævnte tilfælde hørte salg først om forsinkelsen fra kunden. Line påpegede, at hun prioriterede at løse selve problemet, hvilket var en forståelig afvejning. Vi aftalte, at Line fremover giver salg en kort status senest to timer efter, at en vigtig levering skrider. Målet evalueres ved halvårssamtalen i juni.",
+   "rubric": "Equilibra punto fuerte y área de mejora con un ejemplo cada uno; atenúa la crítica sin vaciarla (en anelse, kunne være); recoge con neutralidad la postura de la empleada; fija un objetivo observable con plazo y momento de revisión."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En una evaluación anual, una empleada no está de acuerdo con una crítica sobre su comunicación con otro departamento; la jefa matiza, da un ejemplo y acuerdan un objetivo.",
+   "lines": [
+    {"text": "Éierlech gesot fannen ech net, datt meng Kommunikatioun mam Verkaf e Problem war.", "es": "Sinceramente, no creo que mi comunicación con Ventas haya sido un problema."},
+    {"text": "Dat verstinn ech, an et ass och kee grousse Problem, mä si kéint e bësse méi proaktiv sinn.", "es": "Lo entiendo, y tampoco es un gran problema, pero podría ser un poco más proactiva."},
+    {"text": "Wat mengt Dir konkret mat proaktiv?", "es": "¿Qué quiere decir concretamente con proactiva?"},
+    {"text": "Wéi d'Liwwerung un d'Firma Hansen am Mee sech verspéit huet, huet de Verkaf et eréischt vum Client erfuer.", "es": "Cuando la entrega a la empresa Hansen se retrasó en mayo, Ventas se enteró primero por el cliente."},
+    {"text": "Dat stëmmt, mä ech war beschäftegt, de Problem selwer ze léisen.", "es": "Es verdad, pero estaba ocupada resolviendo el problema en sí."},
+    {"text": "Dorun zweiwelen ech net, an d'Léisung war gutt; et ass just den Timing, deen e bësse besser hätt kënne sinn.", "es": "No lo dudo, y la solución fue buena; es solo el momento de avisar lo que podría haber sido algo mejor."},
+    {"text": "Okay, dat gesinn ech an. Wat proposéiert Dir?", "es": "Vale, eso lo reconozco. ¿Qué propone?"},
+    {"text": "Datt Dir dem Verkaf an Zukunft bannent zwou Stonnen e kuerze Stand gitt, wann eng wichteg Liwwerung sech verspéit; kënne mir dat als Zil festhalen?", "es": "Que a partir de ahora dé a Ventas un breve estado de la situación en dos horas cuando se retrase una entrega importante; ¿lo dejamos fijado como objetivo?"}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo consigue la jefa que la empleada acepte la crítica?",
+   "choices": ["Reduce su alcance, da un ejemplo concreto y reconoce lo que sí hizo bien", "Le recuerda que la evaluación influye en su salario", "Retira la crítica porque la empleada no está de acuerdo"]
+  },
+  "grammar": {
+   "focus": "Atenuación en la crítica: e bëssen, kéint, hätt … kënne",
+   "explain": "Para suavizar una crítica sin vaciarla, se reduce su alcance («e bëssen») y se usa el Konjunktiv II («kéint … sinn», «hätt … kënne sinn», «dierft … sinn»): Si kéint e bësse méi proaktiv sinn.",
+   "items": [
+    {"prompt": "D'Kommunikatioun ___ e bësse méi proaktiv sinn. (kënnen, Konjunktiv II)", "answer": "kéint", "es": "La comunicación podría ser un poco más proactiva."},
+    {"prompt": "Den Timing hätt e bësse besser ___ sinn. (kënnen, infinitivo ante «sinn»)", "answer": "kënne", "es": "El momento podría haber sido algo mejor."},
+    {"prompt": "De Bericht ass gutt, mä en ___ e bësse méi kuerz sinn. (dierfen, Konjunktiv II: «podría permitirse»)", "answer": "dierft", "es": "El informe es bueno, pero podría ser algo más corto."}
+   ]
+  },
+  "vocab": [
+   {"text": "e bësse méi", "es": "un poco más", "example": "D'Aleedung kéint e bësse méi kuerz sinn.", "example_es": "La introducción podría ser un poco más corta."},
+   {"text": "proaktiv", "es": "proactivo", "example": "Probéiert, méi proaktiv mam Verkaf ze kommunizéieren.", "example_es": "Intente comunicarse de forma más proactiva con Ventas."},
+   {"text": "verspéit", "es": "se retrasa (sech verspéiten)", "example": "Gitt direkt Bescheed, wann eng Liwwerung sech verspéit.", "example_es": "Avise enseguida cuando una entrega se retrase."},
+   {"text": "zweiwelen ech net", "es": "no lo dudo", "example": "Dorun zweiwelen ech net, mä d'Resultat koum ze spéit.", "example_es": "No lo dudo, pero el resultado llegó demasiado tarde."}
+  ],
+  "transfer": {
+   "prompt": "Redacta el resumen escrito de la evaluación (5–6 frases): un punto fuerte con ejemplo, un área de mejora formulada con atenuación y ejemplo, la postura de la empleada y el objetivo acordado con indicador.",
+   "model": "Resumé vum Evaluatiounsgespréich vum 4. Dezember. D'Line huet dëst Joer am Kontakt mat de Clienten eng staark fachlech Kompetenz gewisen, ënner anerem bei der séierer Léisung vum Liwwerproblem bei der Firma Hansen am Mee. En Entwécklungspunkt ass, datt d'Kommunikatioun mam Verkaf e bësse méi proaktiv kéint sinn; am genannte Fall huet de Verkaf eréischt vum Client vum Retard erfuer. D'Line huet drop higewisen, datt hatt d'Prioritéit op d'Léisung vum Problem gesat hat, wat eng verständlech Ofweiung war. Mir hunn ofgemaach, datt d'Line dem Verkaf an Zukunft spéitstens zwou Stonnen, nodeems eng wichteg Liwwerung sech verspéit, e kuerze Stand gëtt. D'Zil gëtt beim Halbjoresgespréich am Juni evaluéiert.",
+   "rubric": "Equilibra punto fuerte y área de mejora con un ejemplo cada uno; atenúa la crítica sin vaciarla (e bëssen, kéint); recoge con neutralidad la postura de la empleada; fija un objetivo observable con plazo y momento de revisión."
+  }
+ }
+}

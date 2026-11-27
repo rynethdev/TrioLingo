@@ -1,0 +1,81 @@
+{
+ "week": 190,
+ "da": {
+  "dialogue2": {
+   "context": "Una archivera revisa con un técnico el manual de procedimientos que él ha escrito: está lleno de «el año pasado», «el nuevo sistema» y «actualmente».",
+   "lines": [
+    {"text": "Du skriver „det nye system“. Hvor nyt er det om fem år?", "es": "Escribes «el nuevo sistema». ¿Cómo de nuevo será dentro de cinco años?"},
+    {"text": "Godt spørgsmål. Det hedder Lagerweb.", "es": "Buena pregunta. Se llama Lagerweb."},
+    {"text": "Og „sidste år blev rutinen ændret“ — hvilket år?", "es": "Y «el año pasado se cambió la rutina»: ¿qué año?"},
+    {"text": "2025. Jeg troede, det var indlysende.", "es": "2025. Creía que era evidente."},
+    {"text": "Det er det i dag. Om ti år er det en gåde.", "es": "Hoy lo es. Dentro de diez años es un enigma."},
+    {"text": "Så skriver jeg „i 2025“ og „året efter“ i stedet for „sidste år“ og „i år“.", "es": "Entonces escribo «en 2025» y «el año siguiente» en vez de «el año pasado» y «este año»."},
+    {"text": "Og forklar, hvorfor rutinen blev ændret. Årsagen forældes langsommere end datoen.", "es": "Y explica por qué se cambió la rutina. La causa envejece más despacio que la fecha."},
+    {"text": "Den sætning stjæler jeg til forordet.", "es": "Esa frase te la robo para el prólogo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir la archivera con «La causa envejece más despacio que la fecha»?",
+   "choices": ["Que explicar el porqué mantiene útil el texto aunque los datos concretos queden atrás", "Que las fechas no tienen importancia en un manual", "Que el manual tendrá que reescribirse cada año"]
+  },
+  "grammar": {
+   "focus": "Deixis temporal: de referencias relativas a absolutas",
+   "explain": "En un texto que debe durar, las referencias ancladas al momento de escribir (i går, sidste år, nu) se sustituyen por referencias independientes: i 2025, dagen før (el día anterior), året efter (el año siguiente), på det tidspunkt (en aquel momento), dengang (entonces).",
+   "items": [
+    {"prompt": "Rutinen blev ændret i 2025, og ___ efter blev den evalueret. (el año siguiente)", "answer": "året", "es": "La rutina se cambió en 2025 y al año siguiente se evaluó."},
+    {"prompt": "Systemet gik ned den 3. marts; ___ før var der blevet installeret en opdatering. (el día anterior)", "answer": "dagen", "es": "El sistema se cayó el 3 de marzo; el día anterior se había instalado una actualización."},
+    {"prompt": "På det ___ var der kun to medarbejdere på lageret. (en aquel momento)", "answer": "tidspunkt", "es": "En aquel momento solo había dos empleados en el almacén."}
+   ]
+  },
+  "vocab": [
+   {"text": "forældes", "es": "se queda anticuado", "example": "Modeord forældes hurtigt.", "example_es": "Las palabras de moda se quedan anticuadas enseguida."},
+   {"text": "indlysende", "es": "evidente", "example": "Det, der er indlysende i dag, er en gåde om ti år.", "example_es": "Lo que hoy es evidente, dentro de diez años es un enigma."},
+   {"text": "holder i længden", "es": "aguanta a la larga", "example": "En klar forklaring holder i længden.", "example_es": "Una explicación clara aguanta a la larga."},
+   {"text": "stå sig", "es": "mantenerse vigente", "example": "Teksten skal kunne stå sig om ti år.", "example_es": "El texto tiene que poder mantenerse vigente dentro de diez años."}
+  ],
+  "transfer": {
+   "prompt": "Reescribe (6–8 frases) un párrafo de un manual interno lleno de referencias que caducan («el nuevo sistema», «el año pasado», «actualmente», «como todos sabéis») para que siga siendo claro dentro de diez años.",
+   "model": "Lagerstyringen foregår i systemet Lagerweb, som blev indført i marts 2025 og erstattede papirlister. Skiftet skete, fordi papirlisterne gav for mange fejl ved optælling: i 2024 blev hver tiende vare registreret forkert. Året efter faldt fejlraten til under én procent. Hver vare registreres ved modtagelsen og igen ved udlevering, så beholdningen altid kan følges. Princippet bag rutinen er enkelt: en vare må aldrig flytte sig uden at blive registreret. Skulle systemet senere blive udskiftet, gælder princippet stadig. Fremgangsmåden er beskrevet trin for trin i bilag A, som opdateres ved hver ændring.",
+   "rubric": "Sustituye todas las referencias deícticas por fechas o expresiones absolutas; nombra los sistemas por su nombre; explica el porqué, no solo el qué; separa el principio duradero del detalle cambiante; estilo claro y sobrio."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una archivera revisa con un técnico el manual de procedimientos que él ha escrito: está lleno de «el año pasado», «el nuevo sistema» y «actualmente».",
+   "lines": [
+    {"text": "Du schreifs „den neie System“. Wéi nei ass en a fënnef Joer?", "es": "Escribes «el nuevo sistema». ¿Cómo de nuevo será dentro de cinco años?"},
+    {"text": "Gutt Fro. Hien heescht Lagerweb.", "es": "Buena pregunta. Se llama Lagerweb."},
+    {"text": "An „d'lescht Joer gouf d'Routine geännert“ — wat fir e Joer?", "es": "Y «el año pasado se cambió la rutina»: ¿qué año?"},
+    {"text": "2025. Ech hu geduecht, dat wier evident.", "es": "2025. Creía que era evidente."},
+    {"text": "Haut ass et dat. An zéng Joer ass et e Rätsel.", "es": "Hoy lo es. Dentro de diez años es un enigma."},
+    {"text": "Da schreiwen ech „2025“ an „d'Joer drop“ amplaz „d'lescht Joer“ an „dëst Joer“.", "es": "Entonces escribo «2025» y «el año siguiente» en vez de «el año pasado» y «este año»."},
+    {"text": "An erklär, firwat d'Routine geännert gouf. De Grond gëtt méi lues al wéi den Datum.", "es": "Y explica por qué se cambió la rutina. La causa envejece más despacio que la fecha."},
+    {"text": "Dee Saz klauen ech mir fir d'Virwuert.", "es": "Esa frase me la robo para el prólogo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir la archivera con «La causa envejece más despacio que la fecha»?",
+   "choices": ["Que explicar el porqué mantiene útil el texto aunque los datos concretos queden atrás", "Que las fechas no tienen importancia en un manual", "Que el manual tendrá que reescribirse cada año"]
+  },
+  "grammar": {
+   "focus": "Deixis temporal: de referencias relativas a absolutas",
+   "explain": "En un texto que debe durar, las referencias ancladas al momento de escribir (gëschter, d'lescht Joer, elo) se sustituyen por referencias independientes: am Joer 2025, den Dag virdrun (el día anterior), d'Joer drop (el año siguiente), deemools (entonces, en aquella época).",
+   "items": [
+    {"prompt": "D'Routine gouf 2025 geännert, an d'Joer ___ gouf se evaluéiert. (el año siguiente)", "answer": "drop", "es": "La rutina se cambió en 2025 y al año siguiente se evaluó."},
+    {"prompt": "De System ass den 3. Mäerz ausgefall; den Dag ___ war en Update installéiert ginn. (el día anterior)", "answer": "virdrun", "es": "El sistema se cayó el 3 de marzo; el día anterior se había instalado una actualización."},
+    {"prompt": "___ waren nëmmen zwee Mataarbechter am Lager. (entonces, en aquella época)", "answer": "Deemools", "es": "Entonces solo había dos empleados en el almacén."}
+   ]
+  },
+  "vocab": [
+   {"text": "iwwerholl", "es": "desfasado, superado", "example": "Dat Moudewuert ass séier iwwerholl.", "example_es": "Esa palabra de moda queda desfasada enseguida."},
+   {"text": "evident", "es": "evidente", "example": "Wat haut evident ass, ass an zéng Joer e Rätsel.", "example_es": "Lo que hoy es evidente, dentro de diez años es un enigma."},
+   {"text": "op Dauer", "es": "a la larga", "example": "Eng kloer Erklärung hält op Dauer.", "example_es": "Una explicación clara aguanta a la larga."},
+   {"text": "Bestand hunn", "es": "perdurar, mantenerse vigente", "example": "Den Text soll och an zéng Joer Bestand hunn.", "example_es": "El texto debe seguir vigente dentro de diez años."}
+  ],
+  "transfer": {
+   "prompt": "Reescribe (6–8 frases) un párrafo de un manual interno lleno de referencias que caducan («el nuevo sistema», «el año pasado», «actualmente», «como todos sabéis») para que siga siendo claro dentro de diez años.",
+   "model": "D'Gestioun vum Lager leeft iwwer de System Lagerweb, deen am Mäerz 2025 agefouert gouf an d'Lëschten op Pabeier ersat huet. D'Ëmstellung koum, well d'Pabeierlëschte beim Zielen ze vill Feeler produzéiert hunn: 2024 gouf all zéngten Artikel falsch erfaasst. D'Joer drop ass d'Feelerquot ënner engem Prozent gefall. All Artikel gëtt beim Empfang an nach eng Kéier bei der Ausgab erfaasst, sou datt een de Bestand ëmmer nokucke kann. D'Prinzip hannert der Routine ass einfach: keen Artikel däerf sech beweegen, ouni erfaasst ze ginn. Sollt de System spéider ersat ginn, gëllt dëst Prinzip weider. De genauen Oflaf ass Schrëtt fir Schrëtt am Annex A beschriwwen, deen no all Ännerung aktualiséiert gëtt.",
+   "rubric": "Sustituye todas las referencias deícticas por fechas o expresiones absolutas; nombra los sistemas por su nombre; explica el porqué, no solo el qué; separa el principio duradero del detalle cambiante; estilo claro y sobrio."
+  }
+ }
+}

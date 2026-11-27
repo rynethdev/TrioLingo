@@ -1,0 +1,81 @@
+{
+ "week": 175,
+ "da": {
+  "dialogue2": {
+   "context": "Una directora de hospital ensaya con su jefe de comunicación cómo anunciar el cierre nocturno de urgencias: primero a la junta directiva, después al personal de enfermería.",
+   "lines": [
+    {"text": "Til bestyrelsen skriver jeg: „Omlægningen af nattevagterne medfører en besparelse på fire procent.“", "es": "Para la junta escribo: «La reorganización de los turnos de noche supone un ahorro del cuatro por ciento»."},
+    {"text": "Fint. Men siger du det samme til sygeplejerskerne, hører de kun ordet „besparelse“.", "es": "Bien. Pero si les dices lo mismo a las enfermeras, solo oirán la palabra «ahorro»."},
+    {"text": "Det er jo sandt, at vi sparer.", "es": "Es que es verdad que ahorramos."},
+    {"text": "Ja, men det, de spørger om, er: Hvem arbejder hvornår, og bliver nogen fyret?", "es": "Sí, pero lo que ellas preguntan es: ¿quién trabaja cuándo, y despiden a alguien?"},
+    {"text": "Ingen bliver fyret. Seks flytter fra nat til aften.", "es": "No despiden a nadie. Seis pasan del turno de noche al de tarde."},
+    {"text": "Så start der. Med verber og mennesker, ikke med navneord og procenter.", "es": "Pues empieza por ahí. Con verbos y personas, no con sustantivos y porcentajes."},
+    {"text": "Og hvis bestyrelsen læser begge breve?", "es": "¿Y si la junta lee las dos cartas?"},
+    {"text": "Så skal de se de samme fakta — bare set fra to sider.", "es": "Entonces deben ver los mismos hechos, solo vistos desde dos lados."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir el jefe de comunicación con «con verbos y personas, no con sustantivos y porcentajes»?",
+   "choices": ["Que al personal hay que contarle en estilo directo qué cambia concretamente para cada uno", "Que hay que ocultar al personal las cifras de ahorro", "Que el mensaje para la junta está mal redactado"]
+  },
+  "grammar": {
+   "focus": "Estilo nominal (dirección) frente a estilo verbal (plantilla)",
+   "explain": "El estilo nominal condensa y distancia: Omlægningen af vagterne medfører en besparelse. El estilo verbal es más directo y humano: Vi lægger vagterne om, og derfor sparer vi. Los sustantivos se forman con -ing, -else o el tema verbal: omlægge → omlægningen, spare → besparelsen, beslutte → beslutningen.",
+   "items": [
+    {"prompt": "Bestyrelsen har truffet ___ om at lukke afdelingen om natten. (sustantivo de «beslutte», forma definida)", "answer": "beslutningen", "es": "La junta ha tomado la decisión de cerrar el servicio por la noche."},
+    {"prompt": "___ af vagtplanen træder i kraft den 1. marts. (sustantivo de «ændre», forma definida)", "answer": "Ændringen", "es": "El cambio del cuadrante entra en vigor el 1 de marzo."},
+    {"prompt": "Vi ___ vagterne om, så ingen mister sit job. (estilo verbal de «omlægningen», presente)", "answer": "lægger", "es": "Reorganizamos los turnos para que nadie pierda su empleo."}
+   ]
+  },
+  "vocab": [
+   {"text": "træder i kraft", "es": "entra en vigor", "example": "Den nye vagtplan træder i kraft i marts.", "example_es": "El nuevo cuadrante entra en vigor en marzo."},
+   {"text": "set fra to sider", "es": "visto desde dos lados", "example": "Det er de samme fakta, set fra to sider.", "example_es": "Son los mismos hechos, vistos desde dos lados."},
+   {"text": "berører", "es": "afecta", "example": "Ændringen berører seks sygeplejersker.", "example_es": "El cambio afecta a seis enfermeras."},
+   {"text": "står ved", "es": "mantenemos, respondemos de", "example": "Vi står ved beslutningen, også over for personalet.", "example_es": "Mantenemos la decisión, también ante el personal."}
+  ],
+  "transfer": {
+   "prompt": "Escribe dos versiones breves (3 frases cada una) del anuncio del cierre nocturno de urgencias: una para la junta directiva (estilo nominal, cifras, riesgos) y otra para el personal (estilo verbal, consecuencias concretas). Los hechos deben coincidir exactamente.",
+   "model": "Til bestyrelsen: Lukningen af skadestuen i tidsrummet 23–07 medfører en årlig besparelse på 4,2 millioner kroner. Patienterne henvises i denne periode til regionshospitalet, hvis kapacitet er bekræftet. Den væsentligste risiko er længere transporttid, som overvåges månedligt. Til personalet: Fra den 1. marts holder skadestuen lukket om natten. Det betyder, at seks af jer flytter fra nattevagt til aftenvagt — ingen mister sit job. Vi taler med hver enkelt af jer om ønsker og tider inden udgangen af januar.",
+   "rubric": "Los hechos (fecha, cifras, número de personas) coinciden en ambas versiones; la versión para la junta usa estilo nominal, cifras y riesgos; la del personal usa verbos, segunda persona y consecuencias concretas; ninguna oculta ni maquilla; registro adecuado a cada destinatario."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una directora de hospital ensaya con su jefe de comunicación cómo anunciar el cierre nocturno de urgencias: primero a la junta directiva, después al personal de enfermería.",
+   "lines": [
+    {"text": "Fir de Conseil d'administration schreiwen ech: „D'Ëmstellung vun den Nuetsdéngschter bréngt eng Käschtereduktioun vu véier Prozent.“", "es": "Para la junta escribo: «La reorganización de los turnos de noche supone una reducción de costes del cuatro por ciento»."},
+    {"text": "Gutt. Mä wann s du den Infirmièren datselwecht sees, héiere si just d'Wuert „Reduktioun“.", "es": "Bien. Pero si les dices lo mismo a las enfermeras, solo oirán la palabra «reducción»."},
+    {"text": "Et stëmmt jo, datt mir spueren.", "es": "Es que es verdad que ahorramos."},
+    {"text": "Jo, mä si froen eppes anescht: wie schafft wéini, a gëtt een entlooss?", "es": "Sí, pero ellas preguntan otra cosa: ¿quién trabaja cuándo, y despiden a alguien?"},
+    {"text": "Kee gëtt entlooss. Sechs wiessele vun der Nuecht op den Owend.", "es": "No despiden a nadie. Seis pasan del turno de noche al de tarde."},
+    {"text": "Da fänk do un. Mat Verben a Mënschen, net mat Nomen an Zuelen.", "es": "Pues empieza por ahí. Con verbos y personas, no con sustantivos y cifras."},
+    {"text": "A wann de Conseil béid Bréiwer liest?", "es": "¿Y si la junta lee las dos cartas?"},
+    {"text": "Da muss en déi selwecht Fakte gesinn — just vun zwou Säiten aus.", "es": "Entonces tiene que ver los mismos hechos, solo desde dos lados."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir el jefe de comunicación con «con verbos y personas, no con sustantivos y cifras»?",
+   "choices": ["Que al personal hay que contarle en estilo directo qué cambia concretamente para cada uno", "Que hay que ocultar al personal las cifras de ahorro", "Que el mensaje para la junta está mal redactado"]
+  },
+  "grammar": {
+   "focus": "Estilo nominal (dirección) frente a estilo verbal (plantilla)",
+   "explain": "El estilo nominal condensa y distancia: D'Ëmstellung vun den Déngschter bréngt eng Käschtereduktioun. El estilo verbal es más directo: Mir stellen d'Déngschter ëm, a sou spuere mir. Muchos sustantivos se forman con -ung: ëmstellen → d'Ëmstellung, entscheeden → d'Entscheedung.",
+   "items": [
+    {"prompt": "De Conseil huet d'___ geholl, d'Urgence nuets zouzemaachen. (sustantivo de «entscheeden»)", "answer": "Entscheedung", "es": "La junta ha tomado la decisión de cerrar urgencias por la noche."},
+    {"prompt": "D'___ vum Déngschtplang gëllt ab dem 1. Mäerz. (sustantivo de «änneren»)", "answer": "Ännerung", "es": "El cambio del cuadrante rige a partir del 1 de marzo."},
+    {"prompt": "Mir ___ d'Déngschter ëm, sou datt kee säi Posten verléiert. (estilo verbal de «d'Ëmstellung», presente)", "answer": "stellen", "es": "Reorganizamos los turnos para que nadie pierda su puesto."}
+   ]
+  },
+  "vocab": [
+   {"text": "a Kraaft", "es": "(entrar) en vigor", "example": "Den neien Déngschtplang trëtt am Mäerz a Kraaft.", "example_es": "El nuevo cuadrante entra en vigor en marzo."},
+   {"text": "vun zwou Säiten", "es": "desde dos lados", "example": "Et sinn déi selwecht Fakten, vun zwou Säiten aus gesinn.", "example_es": "Son los mismos hechos, vistos desde dos lados."},
+   {"text": "betrëfft", "es": "afecta", "example": "D'Ännerung betrëfft sechs Infirmièren.", "example_es": "El cambio afecta a seis enfermeras."},
+   {"text": "stinn zu", "es": "mantenemos, respondemos de", "example": "Mir stinn zu der Entscheedung, och virum Personal.", "example_es": "Mantenemos la decisión, también ante el personal."}
+  ],
+  "transfer": {
+   "prompt": "Escribe dos versiones breves (3 frases cada una) del anuncio del cierre nocturno de urgencias: una para la junta directiva (estilo nominal, cifras, riesgos) y otra para el personal (estilo verbal, consecuencias concretas). Los hechos deben coincidir exactamente.",
+   "model": "Fir de Conseil d'administration: D'Zoumaache vun der Urgence tëscht 23 a 7 Auer bréngt eng jäerlech Käschtereduktioun vu 4,2 Milliounen Euro. D'Patiente ginn an där Zäit an dat regional Spidol weidergeleet, wou d'Kapazitéit bestätegt ass. De wichtegste Risiko ass déi méi laang Transportzäit, déi all Mount iwwerwaacht gëtt. Fir d'Personal: Ab dem 1. Mäerz ass d'Urgence nuets zou. Dat heescht, datt sechs vun iech vum Nuetsdéngscht an den Owesdéngscht wiesselen — kee verléiert säi Posten. Mir schwätze bis Enn Januar mat jidderengem vun iech iwwer Wënsch an Zäiten.",
+   "rubric": "Los hechos (fecha, cifras, número de personas) coinciden en ambas versiones; la versión para la junta usa estilo nominal, cifras y riesgos; la del personal usa verbos, segunda persona y consecuencias concretas; ninguna oculta ni maquilla; registro adecuado a cada destinatario."
+  }
+ }
+}

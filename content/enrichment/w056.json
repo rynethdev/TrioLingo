@@ -1,0 +1,77 @@
+{
+ "week": 56,
+ "da": {
+  "dialogue2": {
+   "context": "Una clienta llama a una inmobiliaria; su agente no está y la recepcionista toma el recado.",
+   "lines": [
+    {"text": "Goddag, jeg vil gerne tale med Mikkel Holm.", "es": "Buenos días, querría hablar con Mikkel Holm."},
+    {"text": "Han er til et møde. Skal jeg tage en besked?", "es": "Está en una reunión. ¿Quiere dejarle un recado?"},
+    {"text": "Ja tak. Det handler om fremvisningen af lejligheden på lørdag.", "es": "Sí, gracias. Es sobre la visita al piso del sábado."},
+    {"text": "Og hvad skal jeg sige til ham?", "es": "¿Y qué le digo?"},
+    {"text": "At jeg først kan klokken tolv. Han må gerne ringe mig op i eftermiddag.", "es": "Que no puedo hasta las doce. Puede llamarme esta tarde."},
+    {"text": "Det skriver jeg ned. Hvad er dit nummer?", "es": "Lo apunto. ¿Cuál es su número?"}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere comunicar la clienta con su recado?",
+   "choices": ["Que no puede ir a la visita del piso antes de las doce", "Que cancela la visita del sábado definitivamente", "Que quiere asistir a la reunión de Mikkel"]
+  },
+  "grammar": {
+   "focus": "Verbos con partícula: ringe op, skrive ned, komme tilbage",
+   "explain": "Algunos verbos llevan una partícula acentuada que cambia su sentido: ringe op (llamar), skrive ned (apuntar), komme tilbage (volver). Un pronombre objeto va entre el verbo y la partícula: Ring mig op! Skriv det ned.",
+   "items": [
+    {"prompt": "Kan du ringe ___ op i morgen tidlig? (yo)", "answer": "mig", "es": "¿Puedes llamarme mañana temprano?"},
+    {"prompt": "Jeg har skrevet nummeret ___, så jeg ikke glemmer det.", "answer": "ned", "es": "He apuntado el número para no olvidarlo."},
+    {"prompt": "Han er gået, men han kommer ___ efter frokost.", "answer": "tilbage", "es": "Se ha ido, pero vuelve después de comer."}
+   ]
+  },
+  "vocab": [
+   {"text": "tage en besked", "es": "tomar un recado", "example": "Skal jeg tage en besked til ham?", "example_es": "¿Quiere que le tome un recado?"},
+   {"text": "Det handler om", "es": "Se trata de", "example": "Det handler om fremvisningen på lørdag.", "example_es": "Se trata de la visita del sábado."},
+   {"text": "en fremvisning", "es": "una visita (a un piso)", "example": "Der er en fremvisning af lejligheden på lørdag.", "example_es": "El sábado hay una visita al piso."},
+   {"text": "skriver det ned", "es": "lo apunto", "example": "Vent lidt, jeg skriver det ned.", "example_es": "Espere un momento, lo apunto."}
+  ],
+  "transfer": {
+   "prompt": "Deja (por escrito) un mensaje de voz para la secretaría del colegio de tu hijo: mañana no irá a la excursión. Di quién eres, el motivo y cómo pueden contactarte (3–4 frases).",
+   "model": "Hej, det er Ana Ruiz, mor til Leo i 3.B. Leo kan ikke tage med på udflugten i morgen, fordi han skal til tandlægen. Ring mig gerne op, hvis I har spørgsmål. Mit nummer er 28 45 61 90.",
+   "rubric": "Se presenta, da el motivo y deja un número; usa al menos un verbo con partícula (ringe op, tage med)."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una clienta llama a una inmobiliaria; su agente no está y la recepcionista toma el recado.",
+   "lines": [
+    {"text": "Gudde Moien, ech géif gär mam Här Holm schwätzen.", "es": "Buenos días, querría hablar con el señor Holm."},
+    {"text": "Hien ass an enger Versammlung. Soll ech him eppes ausriichten?", "es": "Está en una reunión. ¿Quiere que le dé un recado?"},
+    {"text": "Jo, w.e.g. Et geet ëm d'Visite vun der Wunneng e Samschdeg.", "es": "Sí, por favor. Es sobre la visita al piso del sábado."},
+    {"text": "A wat soll ech him soen?", "es": "¿Y qué le digo?"},
+    {"text": "Datt ech eréischt um zwielef Auer komme kann. Hie ka mech nomëttes uruffen.", "es": "Que no puedo venir hasta las doce. Puede llamarme por la tarde."},
+    {"text": "Ech schreiwen et op. Wéi ass Är Nummer?", "es": "Lo apunto. ¿Cuál es su número?"}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere comunicar la clienta con su recado?",
+   "choices": ["Que no puede ir a la visita del piso antes de las doce", "Que cancela la visita del sábado definitivamente", "Que quiere asistir a la reunión del señor Holm"]
+  },
+  "grammar": {
+   "focus": "Verbos separables: opschreiwen, uruffen, zeréckkommen",
+   "explain": "En la oración principal el prefijo se separa y va al final: Ech ruffen Iech muer un. Con un modal o en subordinada se queda unido: Ech kann Iech uruffen; …, datt hien zeréckkënnt.",
+   "items": [
+    {"prompt": "Ech ___ d'Nummer op, soss vergiessen ech se. (opschreiwen)", "answer": "schreiwen", "es": "Apunto el número, si no, se me olvida."},
+    {"prompt": "Kënnt Dir de Kolleg muer ___? (uruffen)", "answer": "uruffen", "es": "¿Puede llamar mañana al compañero?"},
+    {"prompt": "Si kënnt no der Mëttespaus ___. (zeréckkommen)", "answer": "zeréck", "es": "Vuelve después de la pausa del mediodía."}
+   ]
+  },
+  "vocab": [
+   {"text": "ausriichten", "es": "dar un recado", "example": "Soll ech him eppes ausriichten?", "example_es": "¿Quiere que le dé un recado?"},
+   {"text": "Et geet ëm", "es": "Se trata de", "example": "Et geet ëm d'Visite e Samschdeg.", "example_es": "Se trata de la visita del sábado."},
+   {"text": "d'Visite", "es": "la visita", "example": "D'Visite vun der Wunneng ass e Samschdeg.", "example_es": "La visita al piso es el sábado."},
+   {"text": "opschreiwen", "es": "apuntar", "example": "Kënnt Dir d'Nummer opschreiwen?", "example_es": "¿Puede apuntar el número?"}
+  ],
+  "transfer": {
+   "prompt": "Deja (por escrito) un mensaje de voz para la secretaría del colegio de tu hijo: mañana no irá a la excursión. Di quién eres, el motivo y cómo pueden contactarte (3–4 frases).",
+   "model": "Moien, hei ass d'Ana Ruiz, d'Mamm vum Leo aus der 3B. De Leo kann muer net mat op den Ausfluch goen, well hie bei den Zänndokter muss. Rufft mech w.e.g. un, wann Dir Froen hutt. Meng Nummer ass 621 456 190.",
+   "rubric": "Se presenta, da el motivo con «well» y deja un número; usa al menos un verbo separable (uruffen, matgoen)."
+  }
+ }
+}

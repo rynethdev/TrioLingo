@@ -1,0 +1,81 @@
+{
+ "week": 192,
+ "da": {
+  "dialogue2": {
+   "context": "Un profesor de estadística explica el «sesgo de supervivencia» a un periodista deportivo que escribe sobre jóvenes futbolistas y quiere una explicación sin jerga.",
+   "lines": [
+    {"text": "„Overlevelsesbias“ — kan du sige det, så min onkel forstår det?", "es": "«Sesgo de supervivencia»: ¿puedes decirlo de forma que lo entienda mi tío?"},
+    {"text": "Man ser kun dem, der klarede den, og glemmer dem, der faldt fra.", "es": "Uno solo ve a los que lo lograron y olvida a los que se quedaron por el camino."},
+    {"text": "Giv mig et eksempel fra fodbold.", "es": "Dame un ejemplo de fútbol."},
+    {"text": "Alle stjernerne trænede fire gange om ugen som børn. Det gjorde tusindvis af andre også — dem hører man bare aldrig om.", "es": "Todas las estrellas entrenaban cuatro veces por semana de niños. Miles de otros también; de esos simplemente nunca se oye hablar."},
+    {"text": "Så træningen er ligegyldig?", "es": "¿Entonces el entrenamiento no importa?"},
+    {"text": "Nej, men den forklarer ikke alene, hvorfor netop de blev stjerner. Det er hele pointen.", "es": "No, pero no explica por sí solo por qué precisamente ellos llegaron a estrellas. Esa es toda la cuestión."},
+    {"text": "Det er enkelt nok til min onkel.", "es": "Es lo bastante sencillo para mi tío."},
+    {"text": "Og præcist nok til min kollega. Det er kunsten.", "es": "Y lo bastante preciso para mi colega. Ahí está el arte."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir el profesor con «Y lo bastante preciso para mi colega»?",
+   "choices": ["Que la explicación sencilla no sacrifica el rigor que exigiría un experto", "Que su colega no entendería una explicación técnica", "Que el periodista debería consultar a otro experto"]
+  },
+  "grammar": {
+   "focus": "El sujeto genérico: man, en, ens",
+   "explain": "Para formular verdades generales sin jerga se usa «man» como sujeto (Man ser kun vinderne); como objeto o tras preposición, «en» (Statistikken kan narre en); y como posesivo, «ens» (ens egne erfaringer).",
+   "items": [
+    {"prompt": "___ ser kun dem, der klarede den. (sujeto genérico)", "answer": "Man", "es": "Uno solo ve a los que lo lograron."},
+    {"prompt": "Statistikken kan let narre ___. (objeto genérico)", "answer": "en", "es": "La estadística puede engañarle a uno fácilmente."},
+    {"prompt": "Man stoler for meget på ___ egne erfaringer. (posesivo genérico)", "answer": "ens", "es": "Uno se fía demasiado de su propia experiencia."}
+   ]
+  },
+  "vocab": [
+   {"text": "klare den", "es": "lograrlo, salir adelante", "example": "Ikke alle, der træner hårdt, kan klare den.", "example_es": "No todos los que entrenan duro lo logran."},
+   {"text": "falder fra", "es": "se quedan por el camino", "example": "Mange talenter falder fra undervejs.", "example_es": "Muchos talentos se quedan por el camino."},
+   {"text": "ikke alene", "es": "no por sí solo", "example": "Træning forklarer ikke alene succesen.", "example_es": "El entrenamiento no explica por sí solo el éxito."},
+   {"text": "uden fagsprog", "es": "sin jerga técnica", "example": "Kan du forklare det uden fagsprog?", "example_es": "¿Puedes explicarlo sin jerga técnica?"}
+  ],
+  "transfer": {
+   "prompt": "Explica en un párrafo (6–8 frases) para una revista de divulgación el «sesgo de supervivencia», con un ejemplo de la vida cotidiana. Público: lectores sin formación estadística; propósito: que entiendan el concepto sin perder precisión.",
+   "model": "Overlevelsesbias er en tankefejl, de fleste af os begår uden at vide det. Man ser kun dem, der klarede sig igennem, og glemmer dem, der faldt fra undervejs. Tag gamle huse: man siger ofte, at man byggede bedre i gamle dage, fordi de gamle huse, vi ser, stadig står solidt. Men de dårligt byggede huse fra samme tid er for længst revet ned — dem ser man bare ikke. Konklusionen bygger altså kun på vinderne. Det betyder ikke, at de gamle håndværkere var dårlige, men at det, der har overlevet, ikke alene kan fortælle os det. Næste gang en succeshistorie virker for god til at være sand, kan det betale sig at spørge: hvem hører vi ikke om?",
+   "rubric": "Define el concepto en una frase sin jerga; usa un ejemplo cotidiano que respeta el mecanismo; muestra el error de razonamiento y no solo el ejemplo; usa el sujeto genérico con naturalidad; cierra con una pauta aplicable."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un profesor de estadística explica el «sesgo de supervivencia» a un periodista deportivo que escribe sobre jóvenes futbolistas y quiere una explicación sin jerga.",
+   "lines": [
+    {"text": "„Iwwerliewensbias“ — kanns du dat esou soen, datt mäi Monni et versteet?", "es": "«Sesgo de supervivencia»: ¿puedes decirlo de forma que lo entienda mi tío?"},
+    {"text": "Ee gesäit nëmmen déi, déi et gepackt hunn, a vergësst déi, déi ënnerwee opginn hunn.", "es": "Uno solo ve a los que lo lograron y olvida a los que abandonaron por el camino."},
+    {"text": "Gëff mir e Beispill aus dem Fussball.", "es": "Dame un ejemplo de fútbol."},
+    {"text": "All Stären hunn als Kanner véiermol d'Woch trainéiert. Dat hunn dausende vun aneren och — vun deenen héiert een einfach ni eppes.", "es": "Todas las estrellas entrenaban cuatro veces por semana de niños. Miles de otros también; de esos simplemente nunca se oye nada."},
+    {"text": "Also ass den Training egal?", "es": "¿Entonces el entrenamiento da igual?"},
+    {"text": "Neen, mä en erkläert net eleng, firwat grad si Stäre gi sinn. Dat ass de ganze Punkt.", "es": "No, pero no explica por sí solo por qué precisamente ellos llegaron a estrellas. Esa es toda la cuestión."},
+    {"text": "Dat ass einfach genuch fir mäi Monni.", "es": "Es lo bastante sencillo para mi tío."},
+    {"text": "A präzis genuch fir meng Kolleegin. Dat ass d'Konscht.", "es": "Y lo bastante preciso para mi colega. Ahí está el arte."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir el profesor con «Y lo bastante preciso para mi colega»?",
+   "choices": ["Que la explicación sencilla no sacrifica el rigor que exigiría un experto", "Que su colega no entendería una explicación técnica", "Que el periodista debería consultar a otro experto"]
+  },
+  "grammar": {
+   "focus": "El sujeto genérico: een / ee, engem",
+   "explain": "Para formular verdades generales se usa «een» (uno, se), que pierde la -n ante consonante: Ee gesäit nëmmen d'Gewënner, pero Wat een net gesäit… Como objeto también «een/ee», y como dativo «engem»: D'Statistik kann engem e Streech spillen.",
+   "items": [
+    {"prompt": "___ gesäit nëmmen déi, déi et gepackt hunn. (sujeto genérico ante consonante)", "answer": "Ee", "es": "Uno solo ve a los que lo lograron."},
+    {"prompt": "Dat kann ___ liicht an d'Ier féieren. (objeto genérico ante consonante)", "answer": "ee", "es": "Eso puede confundirle a uno fácilmente."},
+    {"prompt": "D'Statistik kann ___ e Streech spillen. (dativo genérico)", "answer": "engem", "es": "La estadística puede jugarle a uno una mala pasada."}
+   ]
+  },
+  "vocab": [
+   {"text": "packt et", "es": "lo logra", "example": "Net jiddereen, deen haart trainéiert, packt et.", "example_es": "No todo el que entrena duro lo logra."},
+   {"text": "ënnerwee op", "es": "(abandonar) por el camino", "example": "Vill Talenter ginn ënnerwee op.", "example_es": "Muchos talentos abandonan por el camino."},
+   {"text": "net eleng", "es": "no por sí solo", "example": "Den Training erkläert net eleng den Erfolleg.", "example_es": "El entrenamiento no explica por sí solo el éxito."},
+   {"text": "ouni Fachsprooch", "es": "sin jerga técnica", "example": "Kanns du dat ouni Fachsprooch erklären?", "example_es": "¿Puedes explicarlo sin jerga técnica?"}
+  ],
+  "transfer": {
+   "prompt": "Explica en un párrafo (6–8 frases) para una revista de divulgación el «sesgo de supervivencia», con un ejemplo de la vida cotidiana. Público: lectores sin formación estadística; propósito: que entiendan el concepto sin perder precisión.",
+   "model": "Den Iwwerliewensbias ass en Denkfeeler, deen déi meescht vun eis maachen, ouni et ze wëssen. Ee gesäit nëmmen déi, déi et gepackt hunn, a vergësst déi, déi ënnerwee opginn hunn. Huelt al Haiser: dacks heescht et, fréier gouf besser gebaut, well déi al Haiser, déi mir gesinn, nach ëmmer solid do stinn. Mä déi schlecht gebaute Haiser aus där selwechter Zäit si scho laang ofgerappt — déi gesäit een einfach net méi. D'Konklusioun baséiert also nëmmen op de Gewënner. Dat heescht net, datt d'Handwierker vu fréier schlecht waren, mä datt dat, wat iwwerlieft huet, eis dat net eleng soe kann. Wann eng Erfollegsgeschicht nächst Kéier ze schéin klengt, fir wouer ze sinn, lount et sech ze froen: vu wiem héiere mir näischt?",
+   "rubric": "Define el concepto en una frase sin jerga; usa un ejemplo cotidiano que respeta el mecanismo; muestra el error de razonamiento y no solo el ejemplo; usa el sujeto genérico («een/ee») con naturalidad; cierra con una pauta aplicable."
+  }
+ }
+}

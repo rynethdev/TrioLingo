@@ -1,0 +1,81 @@
+{
+ "week": 154,
+ "da": {
+  "dialogue2": {
+   "context": "Un revisor lee la introducción de un informe sobre movilidad urbana y critica que parece una clase de historia; la autora defiende el contexto y acuerdan reducirlo.",
+   "lines": [
+    {"text": "Din indledning bruger to sider på byens trafikhistorie, før man ser, hvad rapporten handler om.", "es": "Tu introducción dedica dos páginas a la historia del tráfico de la ciudad antes de que se vea de qué trata el informe."},
+    {"text": "Konteksten er vigtig for at forstå, hvorfor problemet er opstået.", "es": "El contexto es importante para entender por qué ha surgido el problema."},
+    {"text": "Enig, men den kan klares i tre sætninger; resten kan flyttes til et bilag.", "es": "De acuerdo, pero se puede resolver en tres frases; el resto puede pasar a un anexo."},
+    {"text": "Og hvad skal der så stå i stedet?", "es": "¿Y qué debería ir en su lugar?"},
+    {"text": "Formålet, de to spørgsmål, du vil besvare, og hvad du bevidst lader ude.", "es": "El objetivo, las dos preguntas que quieres responder y lo que dejas fuera a propósito."},
+    {"text": "Det er cykelstierne og den kollektive trafik; førstnævnte analyserer jeg grundigt, sidstnævnte kun overordnet.", "es": "Son los carriles bici y el transporte público; los primeros los analizo a fondo, el segundo solo a grandes rasgos."},
+    {"text": "Så skriv netop det, og begrund, hvorfor bilismen helt er udeladt.", "es": "Pues escribe justo eso y justifica por qué el tráfico en coche queda totalmente excluido."},
+    {"text": "Godt; i det følgende afsnit kan jeg så gå direkte til metoden.", "es": "Bien; en el apartado siguiente puedo pasar entonces directamente al método."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué compromiso alcanzan sobre el contexto histórico?",
+   "choices": ["Mantenerlo en pocas frases y pasar el resto a un anexo", "Eliminarlo por completo porque no aporta nada", "Ampliarlo, ya que explica el origen del problema"]
+  },
+  "grammar": {
+   "focus": "Referencia textual formal: førstnævnte, sidstnævnte, nærværende, i det følgende",
+   "explain": "Los informes remiten a elementos del propio texto con expresiones fijas: «førstnævnte / sidstnævnte» (el primero / el último mencionado), «nærværende rapport» (el presente informe) e «i det følgende» (a continuación).",
+   "items": [
+    {"prompt": "Rapporten behandler cykelstier og kollektiv trafik; ___ analyseres grundigt. (el primero mencionado)", "answer": "førstnævnte", "es": "El informe trata los carriles bici y el transporte público; el primero se analiza a fondo."},
+    {"prompt": "Bilismen indgår ikke i ___ rapport. (el presente, registro formal)", "answer": "nærværende", "es": "El tráfico en coche no forma parte del presente informe."},
+    {"prompt": "I det ___ redegøres for metoden. (a continuación)", "answer": "følgende", "es": "A continuación se expone el método."}
+   ]
+  },
+  "vocab": [
+   {"text": "et bilag", "es": "un anexo", "example": "Den historiske baggrund er flyttet til et bilag.", "example_es": "El trasfondo histórico se ha pasado a un anexo."},
+   {"text": "bevidst", "es": "deliberadamente, a propósito", "example": "Vi har bevidst udeladt bilismen.", "example_es": "Hemos excluido deliberadamente el tráfico en coche."},
+   {"text": "redegør for", "es": "expone, da cuenta de", "example": "Kapitel 2 redegør for metoden.", "example_es": "El capítulo 2 expone el método."},
+   {"text": "overordnet", "es": "a grandes rasgos", "example": "Den kollektive trafik behandles kun overordnet.", "example_es": "El transporte público solo se trata a grandes rasgos."}
+  ],
+  "transfer": {
+   "prompt": "Escribe la introducción (5–7 frases) de un informe breve sobre un tema de tu elección: contexto mínimo, objetivo, preguntas, alcance con lo que se excluye y por qué, y anuncio de la estructura.",
+   "model": "Trafikken i bymidten er vokset med 30 procent siden 2015, og kommunen har derfor besluttet at styrke de grønne transportformer. Formålet med nærværende rapport er at vurdere, hvilke tiltag der hurtigst kan få flere borgere til at vælge cyklen eller bussen. Rapporten besvarer to spørgsmål: Hvor er cykelstinettet mest mangelfuldt, og hvordan kan busforbindelserne koordineres bedre? Førstnævnte analyseres grundigt på baggrund af trafiktællinger, mens sidstnævnte kun behandles overordnet. Bilismen er bevidst udeladt, da den behandles i en særskilt rapport. I det følgende redegøres først for metoden, hvorefter resultaterne præsenteres.",
+   "rubric": "Limita el contexto a una o dos frases; formula objetivo y preguntas de forma explícita; delimita el alcance y justifica lo excluido; usa al menos dos expresiones de referencia textual (nærværende, førstnævnte/sidstnævnte, i det følgende); anuncia la estructura."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un revisor lee la introducción de un informe sobre movilidad urbana y critica que parece una clase de historia; la autora defiende el contexto y acuerdan reducirlo.",
+   "lines": [
+    {"text": "Deng Aleedung brauch zwou Säite fir d'Geschicht vum Verkéier an der Stad, ier ee gesäit, wouriwwer de Rapport geet.", "es": "Tu introducción necesita dos páginas para la historia del tráfico de la ciudad antes de que se vea de qué trata el informe."},
+    {"text": "De Kontext ass wichteg, fir ze verstoen, firwat de Problem entstanen ass.", "es": "El contexto es importante para entender por qué ha surgido el problema."},
+    {"text": "D'accord, mä dat geet an dräi Sätz; de Rescht kann an en Annex.", "es": "De acuerdo, pero eso cabe en tres frases; el resto puede ir a un anexo."},
+    {"text": "A wat soll dann amplaz do stoen?", "es": "¿Y qué debería ir en su lugar?"},
+    {"text": "D'Zil, déi zwou Froen, déi s du beäntwere wëlls, a wat s du bewosst ausléiss.", "es": "El objetivo, las dos preguntas que quieres responder y lo que dejas fuera a propósito."},
+    {"text": "Dat sinn d'Vëlospisten an den ëffentlechen Transport; déi éischt analyséieren ech grëndlech, de leschten nëmmen a groussen Zich.", "es": "Son los carriles bici y el transporte público; los primeros los analizo a fondo, el último solo a grandes rasgos."},
+    {"text": "Da schreif genee dat, a begrënn, firwat den Autosverkéier ganz ausgeklammert ass.", "es": "Pues escribe justo eso y justifica por qué el tráfico en coche queda totalmente excluido."},
+    {"text": "Gutt; am nächste Kapitel kann ech dann direkt op d'Method agoen.", "es": "Bien; en el capítulo siguiente puedo pasar entonces directamente al método."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué compromiso alcanzan sobre el contexto histórico?",
+   "choices": ["Mantenerlo en pocas frases y pasar el resto a un anexo", "Eliminarlo por completo porque no aporta nada", "Ampliarlo, ya que explica el origen del problema"]
+  },
+  "grammar": {
+   "focus": "Referencia textual formal: dëse Rapport, déi éischt / de leschten, am Folgenden",
+   "explain": "Los informes remiten al propio texto: «dëse Rapport» (el presente informe), «déi éischt / de leschten» (el primero / el último mencionado) y «am Folgenden» (a continuación). Ojo con la regla de Eifel: «am Folgenden ass», pero «am Folgende gëtt».",
+   "items": [
+    {"prompt": "Den Autosverkéier ass net Deel vun ___ Rapport. (el presente: dëse, en dativo masculino)", "answer": "dësem", "es": "El tráfico en coche no forma parte del presente informe."},
+    {"prompt": "Am ___ ass d'Method beschriwwen. (a continuación)", "answer": "Folgenden", "es": "A continuación se describe el método."},
+    {"prompt": "De Rapport behandelt Vëlospisten an de Bus; déi ___ ginn am Detail analyséiert. (los primeros mencionados)", "answer": "éischt", "es": "El informe trata los carriles bici y el autobús; los primeros se analizan en detalle."}
+   ]
+  },
+  "vocab": [
+   {"text": "en Annex", "es": "un anexo", "example": "Den historesche Kontext ass an en Annex geréckelt.", "example_es": "El contexto histórico se ha pasado a un anexo."},
+   {"text": "bewosst", "es": "deliberadamente, a propósito", "example": "Mir hunn den Autosverkéier bewosst ausgeklammert.", "example_es": "Hemos excluido deliberadamente el tráfico en coche."},
+   {"text": "ausgeklammert", "es": "excluido, dejado fuera", "example": "Dëst Thema gëtt am Rapport ausgeklammert.", "example_es": "Este tema queda fuera del informe."},
+   {"text": "a groussen Zich", "es": "a grandes rasgos", "example": "Den ëffentlechen Transport gëtt nëmmen a groussen Zich behandelt.", "example_es": "El transporte público solo se trata a grandes rasgos."}
+  ],
+  "transfer": {
+   "prompt": "Escribe la introducción (5–7 frases) de un informe breve sobre un tema de tu elección: contexto mínimo, objetivo, preguntas, alcance con lo que se excluye y por qué, y anuncio de la estructura.",
+   "model": "De Verkéier am Stadzentrum ass zënter 2015 ëm 30 Prozent geklommen, an d'Gemeng huet dofir decidéiert, déi gréng Mobilitéit ze stäerken. D'Zil vun dësem Rapport ass ze bewäerten, wéi eng Moossnamen am séiersten dozou féieren, datt méi Bierger de Vëlo oder de Bus huelen. De Rapport beäntwert zwou Froen: Wou ass d'Vëlospistennetz am lückenhaftsten, a wéi kënnen d'Busverbindunge besser koordinéiert ginn? Déi éischt Fro gëtt op Basis vu Verkéierszielungen am Detail analyséiert, déi zweet nëmmen a groussen Zich. Den Autosverkéier ass bewosst ausgeklammert, well en an engem separate Rapport behandelt gëtt. Am Folgenden ass als éischt d'Method beschriwwen; duerno ginn d'Resultater presentéiert.",
+   "rubric": "Limita el contexto a una o dos frases; formula objetivo y preguntas de forma explícita; delimita el alcance y justifica lo excluido; usa al menos dos expresiones de referencia textual (dëse Rapport, déi éischt / déi zweet, am Folgenden); anuncia la estructura."
+  }
+ }
+}

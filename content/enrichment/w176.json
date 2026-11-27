@@ -1,0 +1,81 @@
+{
+ "week": 176,
+ "da": {
+  "dialogue2": {
+   "context": "En un seminario para directivos, una filósofa y un gerente discuten sobre la «confianza» en los equipos; ella le hace ver que él usa la palabra en dos sentidos distintos.",
+   "lines": [
+    {"text": "Jeg har tillid til mit team. Derfor tjekker jeg alt, før det går ud.", "es": "Confío en mi equipo. Por eso reviso todo antes de que salga."},
+    {"text": "Det er en interessant brug af ordet „derfor“.", "es": "Es un uso interesante de la expresión «por eso»."},
+    {"text": "Jeg mener, at jeg stoler på deres vilje, ikke på at de aldrig laver fejl.", "es": "Quiero decir que me fío de su voluntad, no de que nunca cometan errores."},
+    {"text": "Så taler du om to ting: tillid til motiver og tillid til kompetence.", "es": "Entonces hablas de dos cosas: confianza en los motivos y confianza en la competencia."},
+    {"text": "Er det ikke hårkløveri?", "es": "¿No es hilar demasiado fino?"},
+    {"text": "Ikke når dit team kun mærker den ene. De oplever kontrol snarere end tillid.", "es": "No cuando tu equipo solo nota una. Perciben control más que confianza."},
+    {"text": "Hvad skulle jeg så gøre i stedet?", "es": "¿Y qué debería hacer en su lugar?"},
+    {"text": "Sige højt, hvilken slags tillid du giver — og hvor du endnu ikke gør det.", "es": "Decir en voz alta qué tipo de confianza das, y dónde todavía no."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué insinúa la filósofa con «Es un uso interesante de la expresión “por eso”»?",
+   "choices": ["Que revisarlo todo contradice la confianza que él dice tener", "Que el gerente se expresa mal en danés", "Que admira su rigor como jefe"]
+  },
+  "grammar": {
+   "focus": "Corrección contrastiva: ikke … men, snarere end, frem for",
+   "explain": "Para distinguir conceptos se niega un término y se afirma otro: Det er ikke kontrol, men tillid. «Snarere end» (más que) matiza: kontrol snarere end tillid. «Frem for» (antes que, en lugar de) expresa preferencia: tillid frem for kontrol.",
+   "items": [
+    {"prompt": "Det handler ikke om kompetence, ___ om motiver. (sino)", "answer": "men", "es": "No se trata de competencia, sino de motivos."},
+    {"prompt": "Teamet oplever kontrol ___ end tillid. (más que)", "answer": "snarere", "es": "El equipo percibe control más que confianza."},
+    {"prompt": "Vi vælger dialog ___ for kontrol. (antes que)", "answer": "frem", "es": "Elegimos el diálogo antes que el control."}
+   ]
+  },
+  "vocab": [
+   {"text": "hårkløveri", "es": "sutilezas, hilar demasiado fino", "example": "Er det ikke bare hårkløveri?", "example_es": "¿No es solo hilar demasiado fino?"},
+   {"text": "over én kam", "es": "(medir) por el mismo rasero", "example": "Man skal ikke skære alle former for tillid over én kam.", "example_es": "No hay que medir todas las formas de confianza por el mismo rasero."},
+   {"text": "sige højt", "es": "decir en voz alta, explicitar", "example": "Det hjælper at sige højt, hvad man forventer.", "example_es": "Ayuda decir en voz alta lo que uno espera."},
+   {"text": "dækker over", "es": "abarca, encierra", "example": "Ordet tillid dækker over to forskellige ting.", "example_es": "La palabra confianza encierra dos cosas distintas."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un párrafo argumentativo (6–8 frases) para una revista de gestión defendiendo que la «confianza en los equipos» debe entenderse en dos sentidos. Público: directivos; propósito: aclarar el concepto y extraer una consecuencia práctica.",
+   "model": "Når ledere taler om tillid, mener de sjældent én ting, men to. Den første er tillid til motiver: overbevisningen om, at medarbejderne vil det samme som virksomheden. Den anden er tillid til kompetence: forventningen om, at de også kan løse opgaven uden indblanding. De to hænger sammen, men de er ikke det samme, og man kan sagtens have den ene uden den anden. Problemet opstår, når en leder giver den første, men ikke den anden, og alligevel kalder det hele for tillid. Så oplever medarbejderne kontrol snarere end tillid — og de har ret. Den praktiske konsekvens er enkel: sig højt, hvilken slags tillid du giver, og hvor du endnu ikke giver den.",
+   "rubric": "Introduce la distinción al principio; define cada concepto con precisión; muestra que pueden darse por separado; ilustra el problema que causa la confusión; usa conectores contrastivos («ikke … men», «snarere end»); extrae una consecuencia práctica clara."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En un seminario para directivos, una filósofa y un gerente discuten sobre la «confianza» en los equipos; ella le hace ver que él usa la palabra en dos sentidos distintos.",
+   "lines": [
+    {"text": "Ech hu Vertrauen a mäin Team. Dofir kontrolléieren ech alles, ier et erausgeet.", "es": "Confío en mi equipo. Por eso lo reviso todo antes de que salga."},
+    {"text": "Dat ass eng interessant Notzung vum Wuert „dofir“.", "es": "Es un uso interesante de la palabra «por eso»."},
+    {"text": "Ech mengen, ech vertrauen hirem Wëllen, net drop, datt se ni Feeler maachen.", "es": "Quiero decir que confío en su voluntad, no en que nunca cometan errores."},
+    {"text": "Da schwätz du vun zwou Saachen: Vertrauen an d'Motiver a Vertrauen an d'Kompetenz.", "es": "Entonces hablas de dos cosas: confianza en los motivos y confianza en la competencia."},
+    {"text": "Ass dat net e bësse spëtzfindeg?", "es": "¿No es un poco rebuscado?"},
+    {"text": "Net, wann däin Team just dat eent spiert. Si erliewen éischter Kontroll wéi Vertrauen.", "es": "No, si tu equipo solo nota una. Perciben más bien control que confianza."},
+    {"text": "Wat sollt ech dann amplaz maachen?", "es": "¿Y qué debería hacer en su lugar?"},
+    {"text": "Haart soen, wéi eng Zort Vertrauen s du gëss — a wou nach net.", "es": "Decir en voz alta qué tipo de confianza das, y dónde todavía no."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué insinúa la filósofa con «Es un uso interesante de la palabra “por eso”»?",
+   "choices": ["Que revisarlo todo contradice la confianza que él dice tener", "Que el gerente se expresa mal en luxemburgués", "Que admira su rigor como jefe"]
+  },
+  "grammar": {
+   "focus": "Corrección contrastiva: net … mä, éischter … wéi, amplaz",
+   "explain": "Para distinguir conceptos se niega un término y se afirma otro: Et ass net Kontroll, mä Vertrauen. «Éischter … wéi» (más bien … que) matiza: éischter Kontroll wéi Vertrauen. «Amplaz» (en lugar de) expresa sustitución: Dialog amplaz Kontroll.",
+   "items": [
+    {"prompt": "Et geet net ëm d'Kompetenz, ___ ëm d'Motiver. (sino)", "answer": "mä", "es": "No se trata de la competencia, sino de los motivos."},
+    {"prompt": "D'Team erlieft ___ Kontroll wéi Vertrauen. (más bien)", "answer": "éischter", "es": "El equipo percibe más bien control que confianza."},
+    {"prompt": "Mir setzen op Dialog ___ Kontroll. (en lugar de)", "answer": "amplaz", "es": "Apostamos por el diálogo en lugar del control."}
+   ]
+  },
+  "vocab": [
+   {"text": "spëtzfindeg", "es": "rebuscado, sutil en exceso", "example": "Déi Ënnerscheedung ass net spëtzfindeg, mä wichteg.", "example_es": "Esa distinción no es rebuscada, sino importante."},
+   {"text": "an een Dëppe geheien", "es": "meter en el mismo saco", "example": "Mir sollten net all Zorte vu Vertrauen an een Dëppe geheien.", "example_es": "No deberíamos meter todos los tipos de confianza en el mismo saco."},
+   {"text": "haart ze soen", "es": "decir en voz alta, explicitar", "example": "Et hëlleft, haart ze soen, wat ee erwaart.", "example_es": "Ayuda decir en voz alta lo que uno espera."},
+   {"text": "ëmfaasst", "es": "abarca, encierra", "example": "D'Wuert Vertrauen ëmfaasst zwou verschidde Saachen.", "example_es": "La palabra confianza encierra dos cosas distintas."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un párrafo argumentativo (6–8 frases) para una revista de gestión defendiendo que la «confianza en los equipos» debe entenderse en dos sentidos. Público: directivos; propósito: aclarar el concepto y extraer una consecuencia práctica.",
+   "model": "Wann Cheffe vu Vertrauen schwätzen, mengen se seelen eng Saach, mä zwou. Déi éischt ass Vertrauen an d'Motiver: d'Iwwerzeegung, datt d'Mataarbechter datselwecht wëlle wéi d'Firma. Déi zweet ass Vertrauen an d'Kompetenz: d'Erwaardung, datt se d'Aufgab och ouni Amëschung léise kënnen. Déi zwou hänke matenee zesummen, mä si sinn net datselwecht, an et kann een déi eng ouni déi aner hunn. D'Problem entsteet, wann e Chef déi éischt gëtt, mä net déi zweet, an trotzdeem alles Vertrauen nennt. Da erliewen d'Mataarbechter éischter Kontroll wéi Vertrauen — a si hunn Recht. Déi praktesch Konsequenz ass einfach: so haart, wéi eng Zort Vertrauen s du gëss, a wou s du se nach net gëss.",
+   "rubric": "Introduce la distinción al principio; define cada concepto con precisión; muestra que pueden darse por separado; ilustra el problema que causa la confusión; usa conectores contrastivos («net … mä», «éischter … wéi»); extrae una consecuencia práctica clara."
+  }
+ }
+}

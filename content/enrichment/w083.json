@@ -1,0 +1,77 @@
+{
+ "week": 83,
+ "da": {
+  "dialogue2": {
+   "context": "Dos compañeros revisan el borrador de un correo a un proveedor que se ha retrasado; el primer borrador suena demasiado duro.",
+   "lines": [
+    {"text": "Kan du lige læse min mail til leverandøren, før jeg sender den?", "es": "¿Puedes leer un momento mi correo al proveedor antes de que lo envíe?"},
+    {"text": "Den er lidt skarp. «I har igen svigtet os» lyder næsten som en anklage.", "es": "Es un poco dura. «Nos habéis vuelto a fallar» suena casi a acusación."},
+    {"text": "Men de har jo faktisk været forsinket tre gange i år.", "es": "Pero es que de verdad se han retrasado tres veces este año."},
+    {"text": "Enig, men skriv hellere fakta, og bed om en forklaring.", "es": "De acuerdo, pero mejor escribe los hechos y pide una explicación."},
+    {"text": "Så noget i retning af: «Vi har bemærket flere forsinkelser og vil gerne forstå årsagen»?", "es": "¿Entonces algo como: «Hemos notado varios retrasos y nos gustaría entender la causa»?"},
+    {"text": "Præcis. Så er du stadig tydelig, men du lukker ikke døren for samarbejdet.", "es": "Exacto. Así sigues siendo claro, pero no le cierras la puerta a la colaboración."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué cambio propone el compañero en el correo?",
+   "choices": ["Mantener la queja, pero basarla en hechos y pedir una explicación", "No mencionar los retrasos para no molestar al proveedor", "Amenazar con cambiar de proveedor"]
+  },
+  "grammar": {
+   "focus": "Verbos con preposición fija",
+   "explain": "Muchos verbos llevan siempre la misma preposición: «takke for», «henvise til», «svare på», «se frem til». Si se cambia la preposición, la frase suena mal o cambia de sentido.",
+   "items": [
+    {"prompt": "Vi takker ___ dit hurtige svar.", "answer": "for", "es": "Te agradecemos tu rápida respuesta."},
+    {"prompt": "Jeg henviser ___ vores aftale fra den 3. marts.", "answer": "til", "es": "Me remito a nuestro acuerdo del 3 de marzo."},
+    {"prompt": "Kan du svare ___ kundens spørgsmål inden fredag?", "answer": "på", "es": "¿Puedes responder a la pregunta del cliente antes del viernes?"}
+   ]
+  },
+  "vocab": [
+   {"text": "en anklage", "es": "una acusación", "example": "Den sætning lyder som en anklage.", "example_es": "Esa frase suena a acusación."},
+   {"text": "i retning af", "es": "algo como, en la línea de", "example": "Skriv noget i retning af: «Vi vil gerne forstå årsagen».", "example_es": "Escribe algo como: «Nos gustaría entender la causa»."},
+   {"text": "lukke døren", "es": "cerrar la puerta", "example": "Vi skal passe på ikke at lukke døren for et godt samarbejde.", "example_es": "Tenemos que tener cuidado de no cerrarle la puerta a una buena colaboración."},
+   {"text": "med venlig hilsen", "es": "atentamente, un cordial saludo", "example": "Mailen slutter med «Med venlig hilsen» og dit fulde navn.", "example_es": "El correo termina con «Un cordial saludo» y tu nombre completo."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo breve y formal (4–6 frases) a la administración de tu edificio porque la calefacción lleva una semana sin funcionar bien. Firme pero educado, con hechos concretos y una petición clara.",
+   "model": "Kære administration. Jeg skriver til jer angående varmen i opgang B, som ikke har fungeret ordentligt siden mandag den 4. november. Temperaturen i lejligheden har ligget på omkring 16 grader, selv om radiatorerne står på fuldt. Jeg henviser til min telefonbesked fra onsdag, som jeg desværre ikke har fået svar på. Jeg vil derfor bede jer om at sende en tekniker inden fredag. På forhånd tak og med venlig hilsen, Ana Ruiz.",
+   "rubric": "Usa saludo y despedida formales, da al menos un dato concreto (fecha, temperatura), incluye un verbo con preposición fija (henvise til, svare på…) y termina con una petición con plazo."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos compañeros revisan el borrador de un correo a un proveedor que se ha retrasado; el primer borrador suena demasiado duro.",
+   "lines": [
+    {"text": "Kanns du séier meng Mail un de Fournisseur liesen, ier ech se schécken?", "es": "¿Puedes leer un momento mi correo al proveedor antes de que lo envíe?"},
+    {"text": "Déi ass e bësse schaarf. „Dir hutt eis nees am Stach gelooss“ kléngt bal wéi e Virworf.", "es": "Es un poco dura. «Nos habéis vuelto a dejar tirados» suena casi a reproche."},
+    {"text": "Mee si hu jo dëst Joer schonn dräimol ze spéit geliwwert.", "es": "Pero es que este año ya han entregado tarde tres veces."},
+    {"text": "Dat stëmmt, mee schreif léiwer d'Fakten a fro no enger Erklärung.", "es": "Es verdad, pero mejor escribe los hechos y pide una explicación."},
+    {"text": "Also eppes wéi: „Mir hu méi Verspéidungen festgestallt a géifen de Grond gär verstoen“?", "es": "¿Entonces algo como: «Hemos constatado varios retrasos y nos gustaría entender la causa»?"},
+    {"text": "Genau. Esou bass du kloer, mee du méchs d'Dier fir d'Zesummenaarbecht net zou.", "es": "Exacto. Así eres claro, pero no le cierras la puerta a la colaboración."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué cambio propone el compañero en el correo?",
+   "choices": ["Mantener la queja, pero basarla en hechos y pedir una explicación", "No mencionar los retrasos para no molestar al proveedor", "Amenazar con cambiar de proveedor"]
+  },
+  "grammar": {
+   "focus": "Verbos con preposición fija",
+   "explain": "Muchos verbos llevan siempre la misma preposición: «sech bedanke fir», «sech bezéien op», «äntweren op», «froen no». La preposición no se traduce siempre igual que en español: «froen no» es «preguntar por».",
+   "items": [
+    {"prompt": "Mir bedanken eis ___ Är séier Äntwert.", "answer": "fir", "es": "Le agradecemos su rápida respuesta."},
+    {"prompt": "Ech bezéie mech ___ eis Ofmaachung vum 3. Mäerz.", "answer": "op", "es": "Me remito a nuestro acuerdo del 3 de marzo."},
+    {"prompt": "Ech froen nach eng Kéier ___ dem aktuelle Stand vum Dossier.", "answer": "no", "es": "Vuelvo a preguntar por el estado actual del expediente."}
+   ]
+  },
+  "vocab": [
+   {"text": "e Virworf", "es": "un reproche", "example": "Dee Saz kléngt wéi e Virworf.", "example_es": "Esa frase suena a reproche."},
+   {"text": "am Stach loossen", "es": "dejar en la estacada", "example": "Mir wëllen eis Clienten net am Stach loossen.", "example_es": "No queremos dejar tirados a nuestros clientes."},
+   {"text": "Mat beschte Gréiss", "es": "Un cordial saludo", "example": "Ech schléisse meng Mail mat „Mat beschte Gréiss“ of.", "example_es": "Cierro mi correo con «Un cordial saludo»."},
+   {"text": "héiflech", "es": "cortés, educado", "example": "Bleif héiflech, och wann de Fournisseur ze spéit ass.", "example_es": "Sé educado, aunque el proveedor llegue tarde."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo breve y formal (4–6 frases) a la administración de tu edificio porque la calefacción lleva una semana sin funcionar bien. Firme pero educado, con hechos concretos y una petición clara.",
+   "model": "Sehr geéiert Dammen an Hären, ech schreiwen Iech wéinst der Heizung am Gebai B, déi zënter Méindeg, de 4. November, net méi richteg funktionéiert. An eiser Wunneng sinn et nëmmen ongeféier 16 Grad, obwuel d'Radiatoren op voll stinn. Ech bezéie mech op mäin Telefonsuruff vu Mëttwoch, op deen ech leider nach keng Äntwert kritt hunn. Dofir géif ech Iech bieden, bis e Freideg en Techniker ze schécken. Merci am Viraus a mat beschte Gréiss, Ana Ruiz.",
+   "rubric": "Usa saludo y despedida formales, da al menos un dato concreto (fecha, temperatura), incluye un verbo con preposición fija (sech bezéien op, äntweren op…) y termina con una petición con plazo."
+  }
+ }
+}

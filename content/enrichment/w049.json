@@ -1,0 +1,77 @@
+{
+ "week": 49,
+ "da": {
+  "dialogue2": {
+   "context": "A las cinco y cuarto, un padre llega tarde a recoger a su hija a la guardería y habla con la educadora.",
+   "lines": [
+    {"text": "Undskyld, jeg ved godt, at I lukker klokken fem.", "es": "Perdón, ya sé que cerráis a las cinco."},
+    {"text": "Det er okay, men vi har prøvet at ringe til dig.", "es": "No pasa nada, pero hemos intentado llamarte."},
+    {"text": "Min telefon var løbet tør for strøm, så jeg kunne ikke ringe.", "es": "Me quedé sin batería, así que no pude llamar."},
+    {"text": "Næste gang må du gerne sende en sms fra en kollegas telefon.", "es": "La próxima vez puedes mandar un SMS desde el móvil de un compañero."},
+    {"text": "Selvfølgelig. Det sker ikke igen.", "es": "Claro. No volverá a pasar."},
+    {"text": "Godt. Hun har leget fint, mens hun ventede.", "es": "Bien. Ha jugado tranquila mientras esperaba."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué le preocupó realmente a la educadora?",
+   "choices": ["Que no pudieran localizar al padre por teléfono", "Que la niña se portara mal mientras esperaba", "Que el padre llegara tarde por un accidente de tren"]
+  },
+  "grammar": {
+   "focus": "Subordinada con «fordi»: posición de «ikke»",
+   "explain": "En la subordinada, «ikke» va delante del verbo conjugado: Jeg kom for sent, fordi bussen ikke kom. En la oración principal va detrás: Bussen kom ikke.",
+   "items": [
+    {"prompt": "Jeg kom for sent, fordi bussen ___ til tiden. (ikke / komme, datid)", "answer": "ikke kom", "es": "Llegué tarde porque el autobús no vino a su hora."},
+    {"prompt": "Hun blev hjemme, fordi hun ___ sig godt. (ikke / føle, datid)", "answer": "ikke følte", "es": "Se quedó en casa porque no se encontraba bien."},
+    {"prompt": "Vi nåede ikke toget, fordi vi ___ billetterne. (ikke / kunne finde, datid)", "answer": "ikke kunne finde", "es": "Perdimos el tren porque no encontrábamos los billetes."}
+   ]
+  },
+  "vocab": [
+   {"text": "for sent", "es": "tarde (más de la cuenta)", "example": "Undskyld, at jeg kommer for sent.", "example_es": "Perdón por llegar tarde."},
+   {"text": "løbet tør for strøm", "es": "quedarse sin batería", "example": "Min telefon var løbet tør for strøm.", "example_es": "Me había quedado sin batería en el móvil."},
+   {"text": "Det sker ikke igen", "es": "No volverá a pasar", "example": "Undskyld, det sker ikke igen.", "example_es": "Perdón, no volverá a pasar."},
+   {"text": "nåede ikke at", "es": "no me dio tiempo a", "example": "Jeg nåede ikke at ringe til dig.", "example_es": "No me dio tiempo a llamarte."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo breve a tu profesora de idiomas: ayer llegaste veinte minutos tarde a clase. Explica la causa, asume tu parte y di cómo lo vas a evitar (3–4 frases).",
+   "model": "Kære Hanne. Undskyld, at jeg kom tyve minutter for sent i går. Det var, fordi min bus ikke kørte, og jeg ikke havde tjekket trafikken. Næste gang tager jeg et tidligere tog. Kan du sende mig dagens opgaver?",
+   "rubric": "Usa «fordi» con «ikke» delante del verbo, reconoce tu parte de culpa y propone una medida concreta."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "A las cinco y cuarto, un padre llega tarde a recoger a su hija a la guardería y habla con la educadora.",
+   "lines": [
+    {"text": "Entschëllegt, ech weess, datt Dir um fënnef Auer zoumaacht.", "es": "Perdón, ya sé que cierran a las cinco."},
+    {"text": "Et ass gutt, mee mir hu probéiert, Iech unzeruffen.", "es": "No pasa nada, pero hemos intentado llamarle."},
+    {"text": "Meng Batterie war eidel, dofir konnt ech net uruffen.", "es": "Me quedé sin batería, por eso no pude llamar."},
+    {"text": "Déi nächst Kéier kënnt Dir eis vum Telefon vun engem Kolleg uruffen.", "es": "La próxima vez puede llamarnos desde el teléfono de un compañero."},
+    {"text": "Natierlech. Dat geschitt net méi.", "es": "Claro. No volverá a pasar."},
+    {"text": "Gutt. D'Lea huet roueg gespillt, wärend se gewaart huet.", "es": "Bien. Lea ha jugado tranquila mientras esperaba."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué le preocupó realmente a la educadora?",
+   "choices": ["Que no pudieran localizar al padre por teléfono", "Que la niña se portara mal mientras esperaba", "Que el padre llegara tarde por un accidente de tren"]
+  },
+  "grammar": {
+   "focus": "Subordinada con «well»: el verbo va al final",
+   "explain": "Tras «well», el verbo conjugado pasa al final: Ech war ze spéit, well de Bus net komm ass. Si hay dos verbos, el conjugado va el último: …, well ech net uruffe konnt.",
+   "items": [
+    {"prompt": "Ech war ze spéit, well de Bus net ___. (kommen, Perfekt)", "answer": "komm ass", "es": "Llegué tarde porque el autobús no vino."},
+    {"prompt": "Si ass doheem bliwwen, well si sech net gutt ___. (fillen, Perfekt)", "answer": "gefillt huet", "es": "Se quedó en casa porque no se encontraba bien."},
+    {"prompt": "Mir hunn den Zuch verpasst, well mir d'Billjeeën net ___. (fannen + kënnen, Imperfekt)", "answer": "fanne konnten", "es": "Perdimos el tren porque no encontrábamos los billetes."}
+   ]
+  },
+  "vocab": [
+   {"text": "ze spéit", "es": "tarde (más de la cuenta)", "example": "Entschëllegt, datt ech ze spéit sinn.", "example_es": "Perdón por llegar tarde."},
+   {"text": "eidel", "es": "vacío, sin batería", "example": "Meng Batterie war eidel.", "example_es": "Me había quedado sin batería."},
+   {"text": "Dat geschitt net méi", "es": "No volverá a pasar", "example": "Entschëllegt, dat geschitt net méi.", "example_es": "Perdón, no volverá a pasar."},
+   {"text": "dofir", "es": "por eso", "example": "Meng Batterie war eidel, dofir konnt ech net uruffen.", "example_es": "Me quedé sin batería, por eso no pude llamar."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo breve a tu profesora de idiomas: ayer llegaste veinte minutos tarde a clase. Explica la causa, asume tu parte y di cómo lo vas a evitar (3–4 frases).",
+   "model": "Léif Madame Weber, entschëllegt, datt ech gëschter zwanzeg Minutten ze spéit an de Cours komm sinn. Mäi Bus ass net gefuer, an ech hat de Verkéier net nogekuckt. Déi nächst Kéier huelen ech e méi fréien Zuch. Kënnt Dir mir d'Übunge vu gëschter schécken?",
+   "rubric": "Usa «well» o «datt» con el verbo al final, reconoce tu parte de culpa y propone una medida concreta."
+  }
+ }
+}

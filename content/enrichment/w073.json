@@ -1,0 +1,77 @@
+{
+ "week": 73,
+ "da": {
+  "dialogue2": {
+   "context": "En la entrevista anual, la jefa pregunta a un empleado por el curso de Excel que hizo en primavera.",
+   "lines": [
+    {"text": "Du var på Excel-kursus i foråret. Hvordan gik det?", "es": "En primavera hiciste el curso de Excel. ¿Qué tal fue?"},
+    {"text": "Det var lidt for let i starten, men sidste dag var rigtig god.", "es": "Al principio era un poco fácil, pero el último día estuvo muy bien."},
+    {"text": "Hvad lærte du den sidste dag?", "es": "¿Qué aprendiste el último día?"},
+    {"text": "At lave tabeller, der opdaterer sig selv. Det sparer mig en time om ugen.", "es": "A hacer tablas que se actualizan solas. Me ahorra una hora a la semana."},
+    {"text": "Flot. Kunne du vise det til resten af teamet?", "es": "Genial. ¿Podrías enseñárselo al resto del equipo?"},
+    {"text": "Gerne. Jeg har faktisk lyst til at prøve at undervise lidt.", "es": "Con gusto. De hecho, me apetece probar a enseñar un poco."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué valoración hace el empleado del curso?",
+   "choices": ["Empezó flojo, pero aprendió algo que le ahorra tiempo", "Fue demasiado difícil y no le sirvió para nada", "Le gustó todo porque ya sabía usar Excel"]
+  },
+  "grammar": {
+   "focus": "Infinitivo con y sin «at»",
+   "explain": "Tras los modales (kan, skal, vil, må) el infinitivo va sin «at»: Vi skal holde et kursus. Tras otros verbos y expresiones (lære, prøve, have lyst til, det er svært) se usa «at»: Jeg lærte at lave tabeller.",
+   "items": [
+    {"prompt": "Det er svært ___ formlerne i starten. (forstå)", "answer": "at forstå", "es": "Al principio es difícil entender las fórmulas."},
+    {"prompt": "Vi skal ___ en ny kursusdag i maj. (holde)", "answer": "holde", "es": "En mayo vamos a hacer otra jornada de formación."},
+    {"prompt": "Jeg prøver ___ en time om ugen. (spare)", "answer": "at spare", "es": "Intento ahorrar una hora a la semana."}
+   ]
+  },
+  "vocab": [
+   {"text": "i foråret", "es": "en primavera (pasada)", "example": "Jeg tog et kursus i foråret.", "example_es": "Hice un curso en primavera."},
+   {"text": "opdaterer sig selv", "es": "se actualiza solo", "example": "Tabellen opdaterer sig selv hver morgen.", "example_es": "La tabla se actualiza sola cada mañana."},
+   {"text": "sparer mig", "es": "me ahorra", "example": "Det sparer mig en time om ugen.", "example_es": "Me ahorra una hora a la semana."},
+   {"text": "har lyst til", "es": "tener ganas de, apetecer", "example": "Jeg har lyst til at undervise lidt.", "example_es": "Me apetece enseñar un poco."}
+  ],
+  "transfer": {
+   "prompt": "Escribe para tu perfil profesional (o tu CV) un párrafo sobre un curso que hiciste: qué curso, qué aprendiste y para qué te sirve en el trabajo (3–4 frases).",
+   "model": "I 2024 tog jeg et kursus i kundeservice på telefonen. Jeg lærte at håndtere vrede kunder og at skrive korte, klare mails. Nu er det lettere for mig at løse problemer hurtigt. Jeg vil gerne fortsætte med et kursus i salg.",
+   "rubric": "Usa al menos dos infinitivos con «at» y uno sin «at» tras un modal, y explica para qué te sirve."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En la entrevista anual, la jefa pregunta a un empleado por el curso de Excel que hizo en primavera.",
+   "lines": [
+    {"text": "Du waars am Fréijoer op engem Excel-Cours. Wéi war et?", "es": "En primavera hiciste un curso de Excel. ¿Qué tal fue?"},
+    {"text": "Am Ufank war et e bëssen ze einfach, mee de leschten Dag war super.", "es": "Al principio era un poco fácil, pero el último día estuvo genial."},
+    {"text": "Wat hues du dee leschten Dag geléiert?", "es": "¿Qué aprendiste el último día?"},
+    {"text": "Tabellen ze maachen, déi sech selwer aktualiséieren. Dat spuert mir eng Stonn d'Woch.", "es": "A hacer tablas que se actualizan solas. Me ahorra una hora a la semana."},
+    {"text": "Flott. Kéints du dat dem Rescht vun der Equipe weisen?", "es": "Genial. ¿Podrías enseñárselo al resto del equipo?"},
+    {"text": "Gär. Ech hätt Loscht, et emol selwer ze erklären.", "es": "Con gusto. Me apetecería explicarlo yo por una vez."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué valoración hace el empleado del curso?",
+   "choices": ["Empezó flojo, pero aprendió algo que le ahorra tiempo", "Fue demasiado difícil y no le sirvió para nada", "Le gustó todo porque ya sabía usar Excel"]
+  },
+  "grammar": {
+   "focus": "Infinitivo con y sin «ze»",
+   "explain": "Tras los modales (kënnen, mussen, wëllen) el infinitivo va sin «ze»: Mir mussen e Cours organiséieren. Tras otros verbos y expresiones (probéieren, Loscht hunn, et ass schwéier) se usa «ze»; en los separables va en medio: opzemaachen.",
+   "items": [
+    {"prompt": "Et ass schwéier, d'Formelen am Ufank ___. (verstoen)", "answer": "ze verstoen", "es": "Al principio es difícil entender las fórmulas."},
+    {"prompt": "Mir mussen am Mee nach e Cours ___. (organiséieren)", "answer": "organiséieren", "es": "En mayo tenemos que organizar otro curso."},
+    {"prompt": "Ech probéieren, all Woch eng Stonn ___. (spueren)", "answer": "ze spueren", "es": "Intento ahorrar una hora cada semana."}
+   ]
+  },
+  "vocab": [
+   {"text": "am Fréijoer", "es": "en primavera", "example": "Ech hunn am Fréijoer e Cours gemaach.", "example_es": "Hice un curso en primavera."},
+   {"text": "aktualiséieren", "es": "actualizar", "example": "D'Tabelle sollen sech all Moien aktualiséieren.", "example_es": "Las tablas tienen que actualizarse cada mañana."},
+   {"text": "spuert mir", "es": "me ahorra", "example": "Dat spuert mir vill Zäit.", "example_es": "Eso me ahorra mucho tiempo."},
+   {"text": "Loscht", "es": "ganas", "example": "Ech hätt Loscht, et emol selwer ze erklären.", "example_es": "Me apetecería explicarlo yo por una vez."}
+  ],
+  "transfer": {
+   "prompt": "Escribe para tu perfil profesional (o tu CV) un párrafo sobre un curso que hiciste: qué curso, qué aprendiste y para qué te sirve en el trabajo (3–4 frases).",
+   "model": "2024 hunn ech e Cours iwwer Clientsservice um Telefon gemaach. Do hunn ech geléiert, mat rosene Clienten ëmzegoen a kuerz, kloer Mailen ze schreiwen. Elo ass et méi einfach fir mech, Problemer séier ze léisen. Duerno wëll ech nach e Cours am Verkaf maachen.",
+   "rubric": "Usa al menos dos infinitivos con «ze» y uno sin «ze» tras un modal, y explica para qué te sirve."
+  }
+ }
+}

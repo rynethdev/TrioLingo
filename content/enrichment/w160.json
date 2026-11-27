@@ -1,0 +1,81 @@
+{
+ "week": 160,
+ "da": {
+  "dialogue2": {
+   "context": "En una reunión editorial, una periodista quiere titular con un solo estudio y su editor le pide integrar los otros dos sin falsear el conjunto.",
+   "lines": [
+    {"text": "Overskriften skriver sig selv: „Kaffe forlænger livet“.", "es": "El titular se escribe solo: «El café alarga la vida»."},
+    {"text": "Ifølge én af tre undersøgelser, ja. De to andre peger i en anden retning.", "es": "Según uno de tres estudios, sí. Los otros dos apuntan en otra dirección."},
+    {"text": "Men den ene er nu engang den største.", "es": "Pero es que ese es el más grande."},
+    {"text": "Størst er ikke det samme som bedst. Den måler kun mænd over tres.", "es": "Más grande no es lo mismo que mejor. Solo mide a hombres mayores de sesenta."},
+    {"text": "Så du vil have, at jeg skriver, at ingen ved noget?", "es": "¿Entonces quieres que escriba que nadie sabe nada?"},
+    {"text": "Nej, at vi ved noget om nogle grupper — og hvorfor resultaterne ikke flugter.", "es": "No: que sabemos algo sobre algunos grupos, y por qué los resultados no coinciden."},
+    {"text": "Det er en dårligere overskrift.", "es": "Es un titular peor."},
+    {"text": "Men en bedre artikel. Og den holder også i morgen.", "es": "Pero un artículo mejor. Y además seguirá en pie mañana."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué da a entender el editor con «Más grande no es lo mismo que mejor»?",
+   "choices": ["Que el estudio grande no se puede generalizar a toda la población", "Que el estudio grande está mal hecho y hay que descartarlo", "Que prefiere los estudios pequeños por principio"]
+  },
+  "grammar": {
+   "focus": "El modal evidencial «skal» y el adverbio «angiveligt» para referir afirmaciones ajenas",
+   "explain": "«Skal» + infinitivo indica que la afirmación procede de otra fuente y que no la asumes: Kaffe skal være sundt = se dice que el café es sano; Han skal have sagt det = al parecer lo dijo. «Angiveligt» cumple la misma función como adverbio.",
+   "items": [
+    {"prompt": "Ifølge den amerikanske undersøgelse ___ kaffe forlænge livet. (modal evidencial, presente)", "answer": "skal", "es": "Según el estudio estadounidense, el café alargaría la vida."},
+    {"prompt": "Forfatterne ___ have overset en vigtig variabel. (modal evidencial, presente)", "answer": "skal", "es": "Al parecer, los autores pasaron por alto una variable importante."},
+    {"prompt": "Metoden er ___ blevet ændret undervejs, men det fremgår ikke af rapporten. (adverbio: supuestamente)", "answer": "angiveligt", "es": "Supuestamente el método se cambió por el camino, pero el informe no lo refleja."}
+   ]
+  },
+  "vocab": [
+   {"text": "i hver sin retning", "es": "cada uno en una dirección distinta", "example": "De to undersøgelser peger i hver sin retning.", "example_es": "Los dos estudios apuntan cada uno en una dirección."},
+   {"text": "med forbehold for", "es": "con la reserva de", "example": "Resultatet gælder med forbehold for den lille stikprøve.", "example_es": "El resultado vale con la reserva de que la muestra es pequeña."},
+   {"text": "sætte tingene i perspektiv", "es": "poner las cosas en perspectiva", "example": "Den tredje kilde hjælper os med at sætte tingene i perspektiv.", "example_es": "La tercera fuente nos ayuda a poner las cosas en perspectiva."},
+   {"text": "et tyndt grundlag", "es": "una base endeble", "example": "Én undersøgelse er et tyndt grundlag for en overskrift.", "example_es": "Un solo estudio es una base endeble para un titular."}
+  ],
+  "transfer": {
+   "prompt": "Escribe para el boletín de tu organización un párrafo de síntesis (6–8 frases) sobre tres fuentes que discrepan sobre el teletrabajo y la productividad. Lectores no especialistas pero exigentes; propósito: llegar a una conclusión propia sin ocultar las discrepancias.",
+   "model": "Tre nyere kilder vurderer hjemmearbejdets betydning for produktiviteten vidt forskelligt. Den første, en stor spørgeskemaundersøgelse, finder en klar fremgang, men bygger udelukkende på medarbejdernes egen vurdering. Den anden måler output direkte og ser et lille fald, dog kun i de første måneder. Den tredje skal ifølge forfatterne selv læses med forbehold, da den kun omfatter én branche. Lagt side om side modsiger kilderne hinanden mindre, end overskrifterne antyder: de måler forskellige ting på forskellige tidspunkter. Min konklusion er derfor forsigtig, men ikke tom: efter en indkøringsperiode ser hjemmearbejde ud til at holde produktiviteten stabil, mens den oplevede produktivitet stiger. Hvad det betyder på længere sigt, kan ingen af dem endnu sige.",
+   "rubric": "Identifica qué mide cada fuente; localiza la discrepancia con precisión (método, momento, alcance); marca la distancia con fórmulas evidenciales («skal», «ifølge»); formula una conclusión propia y matizada; registro claro, sin jerga gratuita."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En una reunión editorial, una periodista quiere titular con un solo estudio y su editor le pide integrar los otros dos sin falsear el conjunto.",
+   "lines": [
+    {"text": "Den Titel schreift sech eleng: „Kaffi verlängert d'Liewen“.", "es": "El titular se escribe solo: «El café alarga la vida»."},
+    {"text": "Laut enger vun dräi Studien, jo. Déi aner zwou weisen an eng aner Richtung.", "es": "Según uno de tres estudios, sí. Los otros dos apuntan en otra dirección."},
+    {"text": "Mä déi eng ass awer déi gréisst.", "es": "Pero ese es el más grande."},
+    {"text": "Déi gréisst ass net automatesch déi bescht. Si moosst nëmme Männer iwwer sechzeg.", "es": "El más grande no es automáticamente el mejor. Solo mide a hombres mayores de sesenta."},
+    {"text": "Also soll ech schreiwen, datt keen eppes weess?", "es": "¿Entonces tengo que escribir que nadie sabe nada?"},
+    {"text": "Neen: datt mir eppes iwwer verschidde Gruppe wëssen — a firwat d'Resultater net iwwereneestëmmen.", "es": "No: que sabemos algo sobre algunos grupos, y por qué los resultados no coinciden."},
+    {"text": "Dat gëtt e méi schwaachen Titel.", "es": "Eso da un titular más flojo."},
+    {"text": "Mä den Artikel gëtt besser — an hie stëmmt och muer nach.", "es": "Pero el artículo mejora, y mañana seguirá siendo cierto."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué da a entender el editor con «El más grande no es automáticamente el mejor»?",
+   "choices": ["Que el estudio grande no se puede generalizar a toda la población", "Que el estudio grande está mal hecho y hay que descartarlo", "Que prefiere los estudios pequeños por principio"]
+  },
+  "grammar": {
+   "focus": "Konjunktiv II en el discurso referido (wier, hätt, géif)",
+   "explain": "Para referir lo que afirma una fuente sin hacerlo propio, el luxemburgués usa el Konjunktiv II: D'Studie seet, Kaffi wier gesond (según el estudio, el café es sano). Con la mayoría de verbos se usa «géif» + infinitivo: Si behaapt, den Effekt géif verschwannen.",
+   "items": [
+    {"prompt": "D'Auteure behaapten, den Effekt ___ statistesch kloer. (sinn)", "answer": "wier", "es": "Los autores afirman que el efecto es estadísticamente claro."},
+    {"prompt": "Laut der zweeter Studie ___ d'Participanten manner geschlof. (hunn, plural)", "answer": "hätten", "es": "Según el segundo estudio, los participantes habrían dormido menos."},
+    {"prompt": "De Professer seet, d'Resultat ___ sech no zwee Joer änneren. (Konjunktiv II + infinitivo)", "answer": "géif", "es": "El profesor dice que el resultado cambiaría al cabo de dos años."}
+   ]
+  },
+  "vocab": [
+   {"text": "an eng aner Richtung", "es": "en otra dirección", "example": "Déi zwou aner Studie weisen an eng aner Richtung.", "example_es": "Los otros dos estudios apuntan en otra dirección."},
+   {"text": "mat Virbehalt", "es": "con reservas", "example": "Dëst Resultat gëllt nëmme mat Virbehalt.", "example_es": "Este resultado solo vale con reservas."},
+   {"text": "an de Kontext setzen", "es": "poner en contexto", "example": "Mir mussen d'Zuelen an de Kontext setzen.", "example_es": "Tenemos que poner las cifras en contexto."},
+   {"text": "op wackelege Féiss", "es": "sobre bases poco sólidas", "example": "Eng eenzeg Studie steet op wackelege Féiss.", "example_es": "Un solo estudio se sostiene sobre bases poco sólidas."}
+  ],
+  "transfer": {
+   "prompt": "Escribe para el boletín de tu organización un párrafo de síntesis (6–8 frases) sobre tres fuentes que discrepan sobre el teletrabajo y la productividad. Lectores no especialistas pero exigentes; propósito: llegar a una conclusión propia sin ocultar las discrepancias.",
+   "model": "Dräi nei Quelle bewäerten den Afloss vum Homeoffice op d'Produktivitéit ganz ënnerschiddlech. Déi éischt, eng grouss Ëmfro, fënnt e kloere Fortschrëtt, baséiert awer nëmmen op der eegener Aschätzung vun de Mataarbechter. Déi zweet moosst d'Resultater direkt a gesäit e klenge Réckgang, allerdéngs nëmmen an den éischte Méint. Déi drëtt, sou d'Auteuren, wier mat Virbehalt ze liesen, well se nëmmen eng Branche ëmfaasst. Am Vergläich widderspriechen d'Quelle sech manner, wéi d'Titele suggeréieren: si moossen ënnerschiddlech Saachen zu ënnerschiddlechen Zäitpunkten. Meng Konklusioun ass dofir virsiichteg, awer net eidel: no enger Iwwergangszäit schéngt den Homeoffice d'Produktivitéit stabil ze halen, wärend déi gefillte Produktivitéit klëmmt. Wat dat op laang Siicht bedeit, kann nach keng vun hinne soen.",
+   "rubric": "Identifica qué mide cada fuente; localiza la discrepancia con precisión (método, momento, alcance); marca la distancia con Konjunktiv II («wier», «géif») o «laut»; formula una conclusión propia y matizada; registro claro, sin jerga gratuita."
+  }
+ }
+}

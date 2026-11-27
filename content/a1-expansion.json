@@ -1,0 +1,2642 @@
+[
+ {
+  "id": "lb-a1-w06",
+  "lang": "lb",
+  "level": "A1",
+  "week": 6,
+  "title": "Hablar de tu familia",
+  "goal": "Presenta a dos familiares y di dónde viven.",
+  "setup": "Presenta a dos familiares y di dónde viven.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Moien, hues du Geschwëster?",
+    "es": "Hola, ¿tienes hermanos?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jo, ech hunn eng Schwëster.",
+    "es": "Sí, tengo una hermana."
+   },
+   {
+    "speaker": 0,
+    "text": "Wou wunnt si?",
+    "es": "¿Dónde vive ella?"
+   },
+   {
+    "speaker": 1,
+    "text": "Si wunnt hei an der Stad.",
+    "es": "Vive aquí en la ciudad."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Sí, tengo una hermana.",
+    "Hola, ¿tienes hermanos?",
+    "Vive aquí en la ciudad."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Moien, hues du Geschwëster?",
+    "es": "Responde: Sí, tengo una hermana.",
+    "model": "Jo, ech hunn eng Schwëster.",
+    "model_es": "Sí, tengo una hermana.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Wou wunnt si?",
+    "es": "Responde: Vive aquí en la ciudad.",
+    "model": "Si wunnt hei an der Stad.",
+    "model_es": "Vive aquí en la ciudad.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Meng Schwëster wunnt an der Stad. Mir gesinn eis e Samschdeg.",
+   "prompt": "¿Dónde vive la hermana?",
+   "choices": [
+    "En la ciudad",
+    "En otra casa",
+    "En el campo"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Escribe dos frases sobre tu familia.",
+   "model": "Ech hunn eng Schwëster. Si wunnt an der Stad.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «una hermana» en esta escena?",
+    "answer": "eng Schwëster",
+    "explanation": "eng Schwëster = una hermana."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «en la ciudad» en esta escena?",
+    "answer": "an der Stad",
+    "explanation": "an der Stad = en la ciudad."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a1-w07",
+  "lang": "lb",
+  "level": "A1",
+  "week": 7,
+  "title": "Describir tu casa",
+  "goal": "Describe una habitación y pregunta por un objeto.",
+  "setup": "Describe una habitación y pregunta por un objeto.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Wéi ass deng Wunneng?",
+    "es": "¿Cómo es tu piso?"
+   },
+   {
+    "speaker": 1,
+    "text": "Si ass kleng, mee hell.",
+    "es": "Es pequeño, pero luminoso."
+   },
+   {
+    "speaker": 0,
+    "text": "Wou ass d’Kichen?",
+    "es": "¿Dónde está la cocina?"
+   },
+   {
+    "speaker": 1,
+    "text": "Si ass nieft der Stuff.",
+    "es": "Está al lado del salón."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Es pequeño, pero luminoso.",
+    "Está al lado del salón.",
+    "¿Cómo es tu piso?"
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Wéi ass deng Wunneng?",
+    "es": "Responde: Es pequeño, pero luminoso.",
+    "model": "Si ass kleng, mee hell.",
+    "model_es": "Es pequeño, pero luminoso.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Wou ass d’Kichen?",
+    "es": "Responde: Está al lado del salón.",
+    "model": "Si ass nieft der Stuff.",
+    "model_es": "Está al lado del salón.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "De Schlëssel läit um Dësch. D’Kichen ass lénks.",
+   "prompt": "¿Dónde está la llave?",
+   "choices": [
+    "En el bolsillo",
+    "En la cocina",
+    "En la mesa"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Describe tu casa con dos frases.",
+   "model": "Meng Wunneng ass kleng. D’Kichen ass nieft der Stuff.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «pequeño» en esta escena?",
+    "answer": "kleng",
+    "explanation": "kleng = pequeño."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «junto al salón» en esta escena?",
+    "answer": "nieft der Stuff",
+    "explanation": "nieft der Stuff = junto al salón."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a1-w08",
+  "lang": "lb",
+  "level": "A1",
+  "week": 8,
+  "title": "Contar tu rutina",
+  "goal": "Di cuándo te levantas y cómo vas al trabajo.",
+  "setup": "Di cuándo te levantas y cómo vas al trabajo.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Wéini stees du op?",
+    "es": "¿Cuándo te levantas?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ech stinn um siwen Auer op.",
+    "es": "Me levanto a las siete."
+   },
+   {
+    "speaker": 0,
+    "text": "Wéi gees du op d’Aarbecht?",
+    "es": "¿Cómo vas al trabajo?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ech fuere mam Bus.",
+    "es": "Voy en autobús."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "¿Cuándo te levantas?",
+    "Voy en autobús.",
+    "Me levanto a las siete."
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Wéini stees du op?",
+    "es": "Responde: Me levanto a las siete.",
+    "model": "Ech stinn um siwen Auer op.",
+    "model_es": "Me levanto a las siete.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Wéi gees du op d’Aarbecht?",
+    "es": "Responde: Voy en autobús.",
+    "model": "Ech fuere mam Bus.",
+    "model_es": "Voy en autobús.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Ech ginn um aacht Auer aus dem Haus. De Bus kënnt um hallwer néng.",
+   "prompt": "¿A qué hora sale de casa?",
+   "choices": [
+    "A las siete",
+    "A las nueve",
+    "A las ocho"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Escribe una rutina de mañana.",
+   "model": "Ech stinn um siwen Auer op a fuere mam Bus.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «a las siete» en esta escena?",
+    "answer": "um siwen Auer",
+    "explanation": "um siwen Auer = a las siete."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «en autobús» en esta escena?",
+    "answer": "mam Bus",
+    "explanation": "mam Bus = en autobús."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a1-w09",
+  "lang": "lb",
+  "level": "A1",
+  "week": 9,
+  "title": "Hablar del tiempo",
+  "goal": "Entiende el pronóstico y adapta un plan.",
+  "setup": "Entiende el pronóstico y adapta un plan.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Wéi ass d’Wieder haut?",
+    "es": "¿Qué tiempo hace hoy?"
+   },
+   {
+    "speaker": 1,
+    "text": "Et ass kal an et reent.",
+    "es": "Hace frío y llueve."
+   },
+   {
+    "speaker": 0,
+    "text": "Gees du an de Park?",
+    "es": "¿Vas al parque?"
+   },
+   {
+    "speaker": 1,
+    "text": "Nee, ech bleiwen doheem.",
+    "es": "No, me quedo en casa."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "¿Qué tiempo hace hoy?",
+    "Hace frío y llueve.",
+    "No, me quedo en casa."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Wéi ass d’Wieder haut?",
+    "es": "Responde: Hace frío y llueve.",
+    "model": "Et ass kal an et reent.",
+    "model_es": "Hace frío y llueve.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Gees du an de Park?",
+    "es": "Responde: No, me quedo en casa.",
+    "model": "Nee, ech bleiwen doheem.",
+    "model_es": "No, me quedo en casa.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Et ass haut kal. Huel eng Jackett mat, wann s du erausgees.",
+   "prompt": "¿Qué recomiendan llevar?",
+   "choices": [
+    "Un paraguas",
+    "Una chaqueta",
+    "Un sombrero"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Escribe qué tiempo hace y qué harás.",
+   "model": "Et reent haut. Ech bleiwen doheem.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «llueve» en esta escena?",
+    "answer": "et reent",
+    "explanation": "et reent = llueve."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «me quedo en casa» en esta escena?",
+    "answer": "ech bleiwen doheem",
+    "explanation": "ech bleiwen doheem = me quedo en casa."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a1-w10",
+  "lang": "lb",
+  "level": "A1",
+  "week": 10,
+  "title": "Pedir en un restaurante",
+  "goal": "Pide comida y una bebida con cortesía.",
+  "setup": "Pide comida y una bebida con cortesía.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Gudde Mëtteg, wat wëllt Dir iessen?",
+    "es": "Buenas tardes, ¿qué desea comer?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ech hätt gär eng Zopp.",
+    "es": "Querría una sopa."
+   },
+   {
+    "speaker": 0,
+    "text": "A wat wëllt Dir drénken?",
+    "es": "¿Y qué desea beber?"
+   },
+   {
+    "speaker": 1,
+    "text": "E Waasser, wann ech gelift.",
+    "es": "Un agua, por favor."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Querría una sopa.",
+    "Buenas tardes, ¿qué desea comer?",
+    "Un agua, por favor."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Gudde Mëtteg, wat wëllt Dir iessen?",
+    "es": "Responde: Querría una sopa.",
+    "model": "Ech hätt gär eng Zopp.",
+    "model_es": "Querría una sopa.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "A wat wëllt Dir drénken?",
+    "es": "Responde: Un agua, por favor.",
+    "model": "E Waasser, wann ech gelift.",
+    "model_es": "Un agua, por favor.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "De Menü huet eng Zopp an eng Zalot. D’Gedrénks kaschten extra.",
+   "prompt": "¿Qué incluye el menú?",
+   "choices": [
+    "Un postre",
+    "Una sopa",
+    "Un café"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Pide una comida y una bebida.",
+   "model": "Ech hätt gär eng Zopp an e Waasser, wann ech gelift.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «una sopa» en esta escena?",
+    "answer": "eng Zopp",
+    "explanation": "eng Zopp = una sopa."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «un agua» en esta escena?",
+    "answer": "e Waasser",
+    "explanation": "e Waasser = un agua."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a1-w11",
+  "lang": "lb",
+  "level": "A1",
+  "week": 11,
+  "title": "Tomar el autobús",
+  "goal": "Pregunta por una parada y entiende un horario.",
+  "setup": "Pregunta por una parada y entiende un horario.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Fiert dëse Bus an den Zentrum?",
+    "es": "¿Va este autobús al centro?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jo, awer eréischt an zéng Minutten.",
+    "es": "Sí, pero dentro de diez minutos."
+   },
+   {
+    "speaker": 0,
+    "text": "Wou muss ech ausklammen?",
+    "es": "¿Dónde tengo que bajar?"
+   },
+   {
+    "speaker": 1,
+    "text": "Bei der nächster Haltestell.",
+    "es": "En la próxima parada."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "¿Va este autobús al centro?",
+    "Sí, pero dentro de diez minutos.",
+    "En la próxima parada."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Fiert dëse Bus an den Zentrum?",
+    "es": "Responde: Sí, pero dentro de diez minutos.",
+    "model": "Jo, awer eréischt an zéng Minutten.",
+    "model_es": "Sí, pero dentro de diez minutos.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Wou muss ech ausklammen?",
+    "es": "Responde: En la próxima parada.",
+    "model": "Bei der nächster Haltestell.",
+    "model_es": "En la próxima parada.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Den nächste Bus fiert um néng Auer. D’Haltestell ass virun der Schoul.",
+   "prompt": "¿Cuándo sale el próximo autobús?",
+   "choices": [
+    "A las nueve",
+    "A las ocho",
+    "A las diez"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Pregunta cómo llegar a una parada.",
+   "model": "Fiert dëse Bus an den Zentrum? Wou muss ech ausklammen?",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «al centro» en esta escena?",
+    "answer": "an den Zentrum",
+    "explanation": "an den Zentrum = al centro."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «la próxima parada» en esta escena?",
+    "answer": "d’nächst Haltestell",
+    "explanation": "d’nächst Haltestell = la próxima parada."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a1-w12",
+  "lang": "lb",
+  "level": "A1",
+  "week": 12,
+  "title": "Comprar ropa",
+  "goal": "Pregunta por una talla y decide si te queda bien.",
+  "setup": "Pregunta por una talla y decide si te queda bien.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Hutt Dir dës Jackett a mëttlerer Gréisst?",
+    "es": "¿Tiene esta chaqueta en talla mediana?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jo, hei ass se.",
+    "es": "Sí, aquí está."
+   },
+   {
+    "speaker": 0,
+    "text": "Kann ech se undoen?",
+    "es": "¿Puedo probármela?"
+   },
+   {
+    "speaker": 1,
+    "text": "Natierlech. D’Kabinn ass do.",
+    "es": "Por supuesto. El probador está allí."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Sí, aquí está.",
+    "Por supuesto. El probador está allí.",
+    "¿Tiene esta chaqueta en talla mediana?"
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Hutt Dir dës Jackett a mëttlerer Gréisst?",
+    "es": "Responde: Sí, aquí está.",
+    "model": "Jo, hei ass se.",
+    "model_es": "Sí, aquí está.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Kann ech se undoen?",
+    "es": "Responde: Por supuesto. El probador está allí.",
+    "model": "Natierlech. D’Kabinn ass do.",
+    "model_es": "Por supuesto. El probador está allí.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Déi mëttler Gréisst ass do. Déi grouss Gréisst ass ausverkaaft.",
+   "prompt": "¿Qué talla está disponible?",
+   "choices": [
+    "La grande",
+    "La pequeña",
+    "La mediana"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Pide probarte una prenda de otra talla.",
+   "model": "Hutt Dir dës Jackett a mëttlerer Gréisst? Kann ech se undoen?",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «esta chaqueta» en esta escena?",
+    "answer": "dës Jackett",
+    "explanation": "dës Jackett = esta chaqueta."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el probador» en esta escena?",
+    "answer": "d’Kabinn",
+    "explanation": "d’Kabinn = el probador."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a1-w13",
+  "lang": "lb",
+  "level": "A1",
+  "week": 13,
+  "title": "Seguir una dirección",
+  "goal": "Pregunta por un lugar y sigue una indicación sencilla.",
+  "setup": "Pregunta por un lugar y sigue una indicación sencilla.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Entschëllegt, wou ass de Musée?",
+    "es": "Disculpe, ¿dónde está el museo?"
+   },
+   {
+    "speaker": 1,
+    "text": "Gitt riichtaus an dann no lénks.",
+    "es": "Siga recto y luego a la izquierda."
+   },
+   {
+    "speaker": 0,
+    "text": "Ass et wäit vun hei?",
+    "es": "¿Está lejos de aquí?"
+   },
+   {
+    "speaker": 1,
+    "text": "Nee, et dauert nëmme fënnef Minutten.",
+    "es": "No, se tarda solo cinco minutos."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Siga recto y luego a la izquierda.",
+    "No, se tarda solo cinco minutos.",
+    "Disculpe, ¿dónde está el museo?"
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Entschëllegt, wou ass de Musée?",
+    "es": "Responde: Siga recto y luego a la izquierda.",
+    "model": "Gitt riichtaus an dann no lénks.",
+    "model_es": "Siga recto y luego a la izquierda.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Ass et wäit vun hei?",
+    "es": "Responde: No, se tarda solo cinco minutos.",
+    "model": "Nee, et dauert nëmme fënnef Minutten.",
+    "model_es": "No, se tarda solo cinco minutos.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "De Musée ass nieft dem Park. Gitt bei der Bréck no lénks.",
+   "prompt": "¿Qué hay junto al museo?",
+   "choices": [
+    "La farmacia",
+    "La estación",
+    "El parque"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Escribe cómo llegar a un lugar cercano.",
+   "model": "Gitt riichtaus an dann no lénks. De Musée ass no beim Park.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «recto» en esta escena?",
+    "answer": "riichtaus",
+    "explanation": "riichtaus = recto."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «a la izquierda» en esta escena?",
+    "answer": "no lénks",
+    "explanation": "no lénks = a la izquierda."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a1-w14",
+  "lang": "lb",
+  "level": "A1",
+  "week": 14,
+  "title": "Concertar una cita",
+  "goal": "Pregunta por un día y confirma una hora.",
+  "setup": "Pregunta por un día y confirma una hora.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Kënne mir eis e Freideg treffen?",
+    "es": "¿Podemos vernos el viernes?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jo, um dräi Auer?",
+    "es": "Sí, ¿a las tres?"
+   },
+   {
+    "speaker": 0,
+    "text": "Dat passt mir gutt.",
+    "es": "Me viene bien."
+   },
+   {
+    "speaker": 1,
+    "text": "Also, bis e Freideg!",
+    "es": "Entonces, ¡hasta el viernes!"
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "¿Podemos vernos el viernes?",
+    "Entonces, ¡hasta el viernes!",
+    "Sí, ¿a las tres?"
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Kënne mir eis e Freideg treffen?",
+    "es": "Responde: Sí, ¿a las tres?",
+    "model": "Jo, um dräi Auer?",
+    "model_es": "Sí, ¿a las tres?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Dat passt mir gutt.",
+    "es": "Responde: Entonces, ¡hasta el viernes!",
+    "model": "Also, bis e Freideg!",
+    "model_es": "Entonces, ¡hasta el viernes!",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "De Büro ass sonndes zou. Samschdes ass en bis mëttes op.",
+   "prompt": "¿Qué día está cerrado?",
+   "choices": [
+    "El lunes",
+    "El domingo",
+    "El sábado"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Propón una cita con día y hora.",
+   "model": "Kënne mir eis e Freideg um dräi Auer treffen?",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el viernes» en esta escena?",
+    "answer": "e Freideg",
+    "explanation": "e Freideg = el viernes."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «a las tres» en esta escena?",
+    "answer": "um dräi Auer",
+    "explanation": "um dräi Auer = a las tres."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a1-w15",
+  "lang": "lb",
+  "level": "A1",
+  "week": 15,
+  "title": "Quedar con amigos",
+  "goal": "Invita a alguien y acuerda dónde encontraros.",
+  "setup": "Invita a alguien y acuerda dónde encontraros.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Hues du e Samschdeg Zäit?",
+    "es": "¿Tienes tiempo el sábado?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jo, wat wëlls du maachen?",
+    "es": "Sí, ¿qué quieres hacer?"
+   },
+   {
+    "speaker": 0,
+    "text": "Komme mir an de Kino?",
+    "es": "¿Vamos al cine?"
+   },
+   {
+    "speaker": 1,
+    "text": "Gär! Mir treffen eis virun der Entrée.",
+    "es": "¡Claro! Nos vemos frente a la entrada."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Sí, ¿qué quieres hacer?",
+    "¿Tienes tiempo el sábado?",
+    "¡Claro! Nos vemos frente a la entrada."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Hues du e Samschdeg Zäit?",
+    "es": "Responde: Sí, ¿qué quieres hacer?",
+    "model": "Jo, wat wëlls du maachen?",
+    "model_es": "Sí, ¿qué quieres hacer?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Komme mir an de Kino?",
+    "es": "Responde: ¡Claro! Nos vemos frente a la entrada.",
+    "model": "Gär! Mir treffen eis virun der Entrée.",
+    "model_es": "¡Claro! Nos vemos frente a la entrada.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "De Film fänkt um siwen Auer un. Mir treffen eis virun der Entrée.",
+   "prompt": "¿Dónde se verán?",
+   "choices": [
+    "En el café",
+    "En la plaza",
+    "En la entrada"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Invita a un amigo a una actividad.",
+   "model": "Hues du e Samschdeg Zäit? Mir kënnen an de Kino goen.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el sábado» en esta escena?",
+    "answer": "e Samschdeg",
+    "explanation": "e Samschdeg = el sábado."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «frente a la entrada» en esta escena?",
+    "answer": "virun der Entrée",
+    "explanation": "virun der Entrée = frente a la entrada."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a1-w16",
+  "lang": "lb",
+  "level": "A1",
+  "week": 16,
+  "title": "Una mañana de trabajo",
+  "goal": "Saluda a un colega y aclara una tarea.",
+  "setup": "Saluda a un colega y aclara una tarea.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Moien, wou ass d’Versammlung?",
+    "es": "Hola, ¿dónde es la reunión?"
+   },
+   {
+    "speaker": 1,
+    "text": "An deem klenge Sall um éischte Stack.",
+    "es": "En la sala pequeña del primer piso."
+   },
+   {
+    "speaker": 0,
+    "text": "Wat soll ech matbréngen?",
+    "es": "¿Qué debo llevar?"
+   },
+   {
+    "speaker": 1,
+    "text": "Deng Notizen, wann ech gelift.",
+    "es": "Tus notas, por favor."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Hola, ¿dónde es la reunión?",
+    "En la sala pequeña del primer piso.",
+    "Tus notas, por favor."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Moien, wou ass d’Versammlung?",
+    "es": "Responde: En la sala pequeña del primer piso.",
+    "model": "An deem klenge Sall um éischte Stack.",
+    "model_es": "En la sala pequeña del primer piso.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Wat soll ech matbréngen?",
+    "es": "Responde: Tus notas, por favor.",
+    "model": "Deng Notizen, wann ech gelift.",
+    "model_es": "Tus notas, por favor.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "D’Versammlung ass am klenge Sall. Bréng deng Notize mat.",
+   "prompt": "¿Dónde está la reunión?",
+   "choices": [
+    "En la sala pequeña",
+    "En la cocina",
+    "En casa"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Escribe una pregunta breve a un colega.",
+   "model": "Moien, wou ass d’Versammlung? Ech bréngen meng Notize mat.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «la reunión» en esta escena?",
+    "answer": "d’Versammlung",
+    "explanation": "d’Versammlung = la reunión."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «mis notas» en esta escena?",
+    "answer": "meng Notizen",
+    "explanation": "meng Notizen = mis notas."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a1-w17",
+  "lang": "lb",
+  "level": "A1",
+  "week": 17,
+  "title": "Contar el fin de semana",
+  "goal": "Di qué hiciste y haz una pregunta sencilla.",
+  "setup": "Di qué hiciste y haz una pregunta sencilla.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Wat hues du de Weekend gemaach?",
+    "es": "¿Qué hiciste el fin de semana?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ech hunn eng Frëndin besicht.",
+    "es": "Visité a una amiga."
+   },
+   {
+    "speaker": 0,
+    "text": "War et flott?",
+    "es": "¿Estuvo bien?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jo, mir hunn zesumme gekacht.",
+    "es": "Sí, cocinamos juntos."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Sí, cocinamos juntos.",
+    "¿Qué hiciste el fin de semana?",
+    "Visité a una amiga."
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "Wat hues du de Weekend gemaach?",
+    "es": "Responde: Visité a una amiga.",
+    "model": "Ech hunn eng Frëndin besicht.",
+    "model_es": "Visité a una amiga.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "War et flott?",
+    "es": "Responde: Sí, cocinamos juntos.",
+    "model": "Jo, mir hunn zesumme gekacht.",
+    "model_es": "Sí, cocinamos juntos.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "E Samschdeg hunn ech eng Frëndin besicht. E Sonndeg war ech doheem.",
+   "prompt": "¿Qué hizo el sábado?",
+   "choices": [
+    "Fue al cine",
+    "Trabajó",
+    "Visitó a una amiga"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Cuenta dos cosas que hiciste.",
+   "model": "Ech hunn eng Frëndin besicht. Mir hunn zesumme gekacht.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el fin de semana» en esta escena?",
+    "answer": "de Weekend",
+    "explanation": "de Weekend = el fin de semana."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «cocinado juntos» en esta escena?",
+    "answer": "zesumme gekacht",
+    "explanation": "zesumme gekacht = cocinado juntos."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a1-w18",
+  "lang": "lb",
+  "level": "A1",
+  "week": 18,
+  "title": "Llegar a un alojamiento",
+  "goal": "Da tu nombre y pregunta por la habitación.",
+  "setup": "Da tu nombre y pregunta por la habitación.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Moien, ech hunn eng Reservatioun.",
+    "es": "Hola, tengo una reserva."
+   },
+   {
+    "speaker": 1,
+    "text": "Op wéi engem Numm?",
+    "es": "¿A nombre de quién?"
+   },
+   {
+    "speaker": 0,
+    "text": "Op den Numm García.",
+    "es": "A nombre de García."
+   },
+   {
+    "speaker": 1,
+    "text": "Äert Zëmmer ass um zweete Stack.",
+    "es": "Su habitación está en el segundo piso."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "¿A nombre de quién?",
+    "Su habitación está en el segundo piso.",
+    "Hola, tengo una reserva."
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Moien, ech hunn eng Reservatioun.",
+    "es": "Responde: ¿A nombre de quién?",
+    "model": "Op wéi engem Numm?",
+    "model_es": "¿A nombre de quién?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Op den Numm García.",
+    "es": "Responde: Su habitación está en el segundo piso.",
+    "model": "Äert Zëmmer ass um zweete Stack.",
+    "model_es": "Su habitación está en el segundo piso.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "De Kaffi gëtt um aacht Auer zerwéiert. Äert Zëmmer ass um zweete Stack.",
+   "prompt": "¿A qué hora se sirve el desayuno?",
+   "choices": [
+    "A las ocho",
+    "A las siete",
+    "A las nueve"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Pregunta por la hora del desayuno.",
+   "model": "Wéini gëtt de Kaffi zerwéiert? Ech hunn eng Reservatioun.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «una reserva» en esta escena?",
+    "answer": "eng Reservatioun",
+    "explanation": "eng Reservatioun = una reserva."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «su habitación» en esta escena?",
+    "answer": "Äert Zëmmer",
+    "explanation": "Äert Zëmmer = su habitación."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a1-w19",
+  "lang": "lb",
+  "level": "A1",
+  "week": 19,
+  "title": "Dejar un mensaje",
+  "goal": "Di quién llama y pide que te devuelvan la llamada.",
+  "setup": "Di quién llama y pide que te devuelvan la llamada.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Moien, kann ech mam Tom schwätzen?",
+    "es": "Hola, ¿puedo hablar con Tom?"
+   },
+   {
+    "speaker": 1,
+    "text": "Hien ass elo net do.",
+    "es": "Ahora no está."
+   },
+   {
+    "speaker": 0,
+    "text": "Kann ech e Message hannerloossen?",
+    "es": "¿Puedo dejar un mensaje?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jo, ech soen him, datt Dir ugeruff hutt.",
+    "es": "Sí, le diré que ha llamado."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Ahora no está.",
+    "Sí, le diré que ha llamado.",
+    "Hola, ¿puedo hablar con Tom?"
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Moien, kann ech mam Tom schwätzen?",
+    "es": "Responde: Ahora no está.",
+    "model": "Hien ass elo net do.",
+    "model_es": "Ahora no está.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Kann ech e Message hannerloossen?",
+    "es": "Responde: Sí, le diré que ha llamado.",
+    "model": "Jo, ech soen him, datt Dir ugeruff hutt.",
+    "model_es": "Sí, le diré que ha llamado.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Den Tom kënnt haut de Mëtteg zeréck. Hannerloosst w.e.g. Är Nummer.",
+   "prompt": "¿Cuándo volverá la persona?",
+   "choices": [
+    "Mañana",
+    "Por la tarde",
+    "Por la mañana"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Deja un mensaje con tu nombre.",
+   "model": "Moien, hei ass d’Ana. Kënnt Dir mech zeréckruffen?",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «un mensaje» en esta escena?",
+    "answer": "e Message",
+    "explanation": "e Message = un mensaje."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «por la tarde» en esta escena?",
+    "answer": "de Mëtteg",
+    "explanation": "de Mëtteg = por la tarde."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a1-w20",
+  "lang": "lb",
+  "level": "A1",
+  "week": 20,
+  "title": "Cerrar un día en la ciudad",
+  "goal": "Resuelve un pequeño cambio de plan con cortesía.",
+  "setup": "Resuelve un pequeño cambio de plan con cortesía.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "De Buttek mécht gläich zou.",
+    "es": "La tienda está a punto de cerrar."
+   },
+   {
+    "speaker": 1,
+    "text": "Da gi mir fir d’éischt dohin.",
+    "es": "Entonces vamos allí primero."
+   },
+   {
+    "speaker": 0,
+    "text": "A wat maache mir duerno?",
+    "es": "¿Y qué hacemos después?"
+   },
+   {
+    "speaker": 1,
+    "text": "Duerno drénke mir e Kaffi.",
+    "es": "Después tomamos un café."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "La tienda está a punto de cerrar.",
+    "Después tomamos un café.",
+    "Entonces vamos allí primero."
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "De Buttek mécht gläich zou.",
+    "es": "Responde: Entonces vamos allí primero.",
+    "model": "Da gi mir fir d’éischt dohin.",
+    "model_es": "Entonces vamos allí primero.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "A wat maache mir duerno?",
+    "es": "Responde: Después tomamos un café.",
+    "model": "Duerno drénke mir e Kaffi.",
+    "model_es": "Después tomamos un café.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "De Buttek mécht um sechs Auer zou. De Café ass bis aacht Auer op.",
+   "prompt": "¿Qué cierra primero?",
+   "choices": [
+    "La estación",
+    "La tienda",
+    "El café"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Explica un cambio de plan y propón una alternativa.",
+   "model": "De Buttek mécht zou. Mir ginn als éischt dohin an duerno an de Café.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «primero» en esta escena?",
+    "answer": "fir d’éischt",
+    "explanation": "fir d’éischt = primero."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «después» en esta escena?",
+    "answer": "duerno",
+    "explanation": "duerno = después."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w06",
+  "lang": "da",
+  "level": "A1",
+  "week": 6,
+  "title": "Hablar de tu familia",
+  "goal": "Presenta a dos familiares y di dónde viven.",
+  "setup": "Presenta a dos familiares y di dónde viven.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Hej, har du søskende?",
+    "es": "Hola, ¿tienes hermanos?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ja, jeg har en søster.",
+    "es": "Sí, tengo una hermana."
+   },
+   {
+    "speaker": 0,
+    "text": "Hvor bor hun?",
+    "es": "¿Dónde vive ella?"
+   },
+   {
+    "speaker": 1,
+    "text": "Hun bor her i byen.",
+    "es": "Vive aquí en la ciudad."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Vive aquí en la ciudad.",
+    "Sí, tengo una hermana.",
+    "Hola, ¿tienes hermanos?"
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "Hej, har du søskende?",
+    "es": "Responde: Sí, tengo una hermana.",
+    "model": "Ja, jeg har en søster.",
+    "model_es": "Sí, tengo una hermana.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Hvor bor hun?",
+    "es": "Responde: Vive aquí en la ciudad.",
+    "model": "Hun bor her i byen.",
+    "model_es": "Vive aquí en la ciudad.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Min søster bor i byen. Vi ses på lørdag.",
+   "prompt": "¿Dónde vive la hermana?",
+   "choices": [
+    "En otra casa",
+    "En el campo",
+    "En la ciudad"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Escribe dos frases sobre tu familia.",
+   "model": "Jeg har en søster. Hun bor i byen.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «una hermana» en esta escena?",
+    "answer": "en søster",
+    "explanation": "en søster = una hermana."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «en la ciudad» en esta escena?",
+    "answer": "i byen",
+    "explanation": "i byen = en la ciudad."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w07",
+  "lang": "da",
+  "level": "A1",
+  "week": 7,
+  "title": "Describir tu casa",
+  "goal": "Describe una habitación y pregunta por un objeto.",
+  "setup": "Describe una habitación y pregunta por un objeto.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Hvordan er din lejlighed?",
+    "es": "¿Cómo es tu piso?"
+   },
+   {
+    "speaker": 1,
+    "text": "Den er lille, men lys.",
+    "es": "Es pequeño, pero luminoso."
+   },
+   {
+    "speaker": 0,
+    "text": "Hvor er køkkenet?",
+    "es": "¿Dónde está la cocina?"
+   },
+   {
+    "speaker": 1,
+    "text": "Det er ved siden af stuen.",
+    "es": "Está al lado del salón."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "¿Cómo es tu piso?",
+    "Está al lado del salón.",
+    "Es pequeño, pero luminoso."
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Hvordan er din lejlighed?",
+    "es": "Responde: Es pequeño, pero luminoso.",
+    "model": "Den er lille, men lys.",
+    "model_es": "Es pequeño, pero luminoso.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Hvor er køkkenet?",
+    "es": "Responde: Está al lado del salón.",
+    "model": "Det er ved siden af stuen.",
+    "model_es": "Está al lado del salón.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Nøglen ligger på bordet. Køkkenet er til venstre.",
+   "prompt": "¿Dónde está la llave?",
+   "choices": [
+    "En la mesa",
+    "En el bolsillo",
+    "En la cocina"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Describe tu casa con dos frases.",
+   "model": "Min lejlighed er lille. Køkkenet er ved siden af stuen.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «pequeño» en esta escena?",
+    "answer": "lille",
+    "explanation": "lille = pequeño."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «junto al salón» en esta escena?",
+    "answer": "ved siden af stuen",
+    "explanation": "ved siden af stuen = junto al salón."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w08",
+  "lang": "da",
+  "level": "A1",
+  "week": 8,
+  "title": "Contar tu rutina",
+  "goal": "Di cuándo te levantas y cómo vas al trabajo.",
+  "setup": "Di cuándo te levantas y cómo vas al trabajo.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Hvornår står du op?",
+    "es": "¿Cuándo te levantas?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jeg står op klokken syv.",
+    "es": "Me levanto a las siete."
+   },
+   {
+    "speaker": 0,
+    "text": "Hvordan kommer du på arbejde?",
+    "es": "¿Cómo vas al trabajo?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jeg tager bussen.",
+    "es": "Voy en autobús."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "¿Cuándo te levantas?",
+    "Voy en autobús.",
+    "Me levanto a las siete."
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Hvornår står du op?",
+    "es": "Responde: Me levanto a las siete.",
+    "model": "Jeg står op klokken syv.",
+    "model_es": "Me levanto a las siete.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Hvordan kommer du på arbejde?",
+    "es": "Responde: Voy en autobús.",
+    "model": "Jeg tager bussen.",
+    "model_es": "Voy en autobús.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Jeg går hjemmefra klokken otte. Bussen kommer halv ni.",
+   "prompt": "¿A qué hora sale de casa?",
+   "choices": [
+    "A las ocho",
+    "A las siete",
+    "A las nueve"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Escribe una rutina de mañana.",
+   "model": "Jeg står op klokken syv og tager bussen.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «a las siete» en esta escena?",
+    "answer": "klokken syv",
+    "explanation": "klokken syv = a las siete."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «voy en autobús» en esta escena?",
+    "answer": "tager bussen",
+    "explanation": "tager bussen = voy en autobús."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w09",
+  "lang": "da",
+  "level": "A1",
+  "week": 9,
+  "title": "Hablar del tiempo",
+  "goal": "Entiende el pronóstico y adapta un plan.",
+  "setup": "Entiende el pronóstico y adapta un plan.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Hvordan er vejret i dag?",
+    "es": "¿Qué tiempo hace hoy?"
+   },
+   {
+    "speaker": 1,
+    "text": "Det er koldt, og det regner.",
+    "es": "Hace frío y llueve."
+   },
+   {
+    "speaker": 0,
+    "text": "Skal du i parken?",
+    "es": "¿Vas al parque?"
+   },
+   {
+    "speaker": 1,
+    "text": "Nej, jeg bliver hjemme.",
+    "es": "No, me quedo en casa."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Hace frío y llueve.",
+    "¿Qué tiempo hace hoy?",
+    "No, me quedo en casa."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Hvordan er vejret i dag?",
+    "es": "Responde: Hace frío y llueve.",
+    "model": "Det er koldt, og det regner.",
+    "model_es": "Hace frío y llueve.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Skal du i parken?",
+    "es": "Responde: No, me quedo en casa.",
+    "model": "Nej, jeg bliver hjemme.",
+    "model_es": "No, me quedo en casa.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Det er koldt i dag. Tag en jakke med, hvis du går ud.",
+   "prompt": "¿Qué recomiendan llevar?",
+   "choices": [
+    "Una chaqueta",
+    "Un paraguas",
+    "Un sombrero"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Escribe qué tiempo hace y qué harás.",
+   "model": "Det regner i dag. Jeg bliver hjemme.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «llueve» en esta escena?",
+    "answer": "det regner",
+    "explanation": "det regner = llueve."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «me quedo en casa» en esta escena?",
+    "answer": "bliver hjemme",
+    "explanation": "bliver hjemme = me quedo en casa."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w10",
+  "lang": "da",
+  "level": "A1",
+  "week": 10,
+  "title": "Pedir en un restaurante",
+  "goal": "Pide comida y una bebida con cortesía.",
+  "setup": "Pide comida y una bebida con cortesía.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Goddag, hvad vil du gerne spise?",
+    "es": "Buenas tardes, ¿qué deseas comer?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jeg vil gerne have en suppe.",
+    "es": "Querría una sopa."
+   },
+   {
+    "speaker": 0,
+    "text": "Og hvad vil du drikke?",
+    "es": "¿Y qué quieres beber?"
+   },
+   {
+    "speaker": 1,
+    "text": "Et glas vand, tak.",
+    "es": "Un vaso de agua, por favor."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Querría una sopa.",
+    "Buenas tardes, ¿qué deseas comer?",
+    "Un vaso de agua, por favor."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Goddag, hvad vil du gerne spise?",
+    "es": "Responde: Querría una sopa.",
+    "model": "Jeg vil gerne have en suppe.",
+    "model_es": "Querría una sopa.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Og hvad vil du drikke?",
+    "es": "Responde: Un vaso de agua, por favor.",
+    "model": "Et glas vand, tak.",
+    "model_es": "Un vaso de agua, por favor.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Menuen har en suppe og en salat. Drikkevarer koster ekstra.",
+   "prompt": "¿Qué incluye el menú?",
+   "choices": [
+    "Un postre",
+    "Un café",
+    "Una sopa"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Pide una comida y una bebida.",
+   "model": "Jeg vil gerne have en suppe og et glas vand, tak.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «una sopa» en esta escena?",
+    "answer": "en suppe",
+    "explanation": "en suppe = una sopa."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «un vaso de agua» en esta escena?",
+    "answer": "et glas vand",
+    "explanation": "et glas vand = un vaso de agua."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w11",
+  "lang": "da",
+  "level": "A1",
+  "week": 11,
+  "title": "Tomar el autobús",
+  "goal": "Pregunta por una parada y entiende un horario.",
+  "setup": "Pregunta por una parada y entiende un horario.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Kører denne bus til centrum?",
+    "es": "¿Va este autobús al centro?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ja, men først om ti minutter.",
+    "es": "Sí, pero dentro de diez minutos."
+   },
+   {
+    "speaker": 0,
+    "text": "Hvor skal jeg stå af?",
+    "es": "¿Dónde tengo que bajar?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ved næste stoppested.",
+    "es": "En la próxima parada."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "¿Va este autobús al centro?",
+    "En la próxima parada.",
+    "Sí, pero dentro de diez minutos."
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Kører denne bus til centrum?",
+    "es": "Responde: Sí, pero dentro de diez minutos.",
+    "model": "Ja, men først om ti minutter.",
+    "model_es": "Sí, pero dentro de diez minutos.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Hvor skal jeg stå af?",
+    "es": "Responde: En la próxima parada.",
+    "model": "Ved næste stoppested.",
+    "model_es": "En la próxima parada.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Den næste bus kører klokken ni. Stoppestedet er foran skolen.",
+   "prompt": "¿Cuándo sale el próximo autobús?",
+   "choices": [
+    "A las ocho",
+    "A las diez",
+    "A las nueve"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Pregunta cómo llegar a una parada.",
+   "model": "Kører denne bus til centrum? Hvor skal jeg stå af?",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «al centro» en esta escena?",
+    "answer": "til centrum",
+    "explanation": "til centrum = al centro."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «la próxima parada» en esta escena?",
+    "answer": "næste stoppested",
+    "explanation": "næste stoppested = la próxima parada."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w12",
+  "lang": "da",
+  "level": "A1",
+  "week": 12,
+  "title": "Comprar ropa",
+  "goal": "Pregunta por una talla y decide si te queda bien.",
+  "setup": "Pregunta por una talla y decide si te queda bien.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Har I denne jakke i medium?",
+    "es": "¿Tiene esta chaqueta en talla mediana?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ja, her er den.",
+    "es": "Sí, aquí está."
+   },
+   {
+    "speaker": 0,
+    "text": "Må jeg prøve den?",
+    "es": "¿Puedo probármela?"
+   },
+   {
+    "speaker": 1,
+    "text": "Selvfølgelig. Prøverummet er derovre.",
+    "es": "Por supuesto. El probador está allí."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "¿Tiene esta chaqueta en talla mediana?",
+    "Por supuesto. El probador está allí.",
+    "Sí, aquí está."
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Har I denne jakke i medium?",
+    "es": "Responde: Sí, aquí está.",
+    "model": "Ja, her er den.",
+    "model_es": "Sí, aquí está.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Må jeg prøve den?",
+    "es": "Responde: Por supuesto. El probador está allí.",
+    "model": "Selvfølgelig. Prøverummet er derovre.",
+    "model_es": "Por supuesto. El probador está allí.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Størrelse medium er på lager. Den store størrelse er udsolgt.",
+   "prompt": "¿Qué talla está disponible?",
+   "choices": [
+    "La grande",
+    "La mediana",
+    "La pequeña"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Pide probarte una prenda de otra talla.",
+   "model": "Har I denne jakke i medium? Må jeg prøve den?",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «esta chaqueta» en esta escena?",
+    "answer": "denne jakke",
+    "explanation": "denne jakke = esta chaqueta."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el probador» en esta escena?",
+    "answer": "prøverummet",
+    "explanation": "prøverummet = el probador."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w13",
+  "lang": "da",
+  "level": "A1",
+  "week": 13,
+  "title": "Seguir una dirección",
+  "goal": "Pregunta por un lugar y sigue una indicación sencilla.",
+  "setup": "Pregunta por un lugar y sigue una indicación sencilla.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Undskyld, hvor ligger museet?",
+    "es": "Disculpe, ¿dónde está el museo?"
+   },
+   {
+    "speaker": 1,
+    "text": "Gå ligeud og derefter til venstre.",
+    "es": "Siga recto y luego a la izquierda."
+   },
+   {
+    "speaker": 0,
+    "text": "Er det langt herfra?",
+    "es": "¿Está lejos de aquí?"
+   },
+   {
+    "speaker": 1,
+    "text": "Nej, det tager kun fem minutter.",
+    "es": "No, se tarda solo cinco minutos."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Siga recto y luego a la izquierda.",
+    "No, se tarda solo cinco minutos.",
+    "Disculpe, ¿dónde está el museo?"
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Undskyld, hvor ligger museet?",
+    "es": "Responde: Siga recto y luego a la izquierda.",
+    "model": "Gå ligeud og derefter til venstre.",
+    "model_es": "Siga recto y luego a la izquierda.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Er det langt herfra?",
+    "es": "Responde: No, se tarda solo cinco minutos.",
+    "model": "Nej, det tager kun fem minutter.",
+    "model_es": "No, se tarda solo cinco minutos.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Museet ligger ved siden af parken. Drej til venstre ved broen.",
+   "prompt": "¿Qué hay junto al museo?",
+   "choices": [
+    "La farmacia",
+    "El parque",
+    "La estación"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Escribe cómo llegar a un lugar cercano.",
+   "model": "Gå ligeud og drej til venstre. Museet ligger ved parken.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «recto» en esta escena?",
+    "answer": "ligeud",
+    "explanation": "ligeud = recto."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «a la izquierda» en esta escena?",
+    "answer": "til venstre",
+    "explanation": "til venstre = a la izquierda."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w14",
+  "lang": "da",
+  "level": "A1",
+  "week": 14,
+  "title": "Concertar una cita",
+  "goal": "Pregunta por un día y confirma una hora.",
+  "setup": "Pregunta por un día y confirma una hora.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Kan vi mødes på fredag?",
+    "es": "¿Podemos vernos el viernes?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ja, klokken tre?",
+    "es": "Sí, ¿a las tres?"
+   },
+   {
+    "speaker": 0,
+    "text": "Det passer mig godt.",
+    "es": "Me viene bien."
+   },
+   {
+    "speaker": 1,
+    "text": "Så ses vi på fredag!",
+    "es": "Entonces, ¡hasta el viernes!"
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Entonces, ¡hasta el viernes!",
+    "¿Podemos vernos el viernes?",
+    "Sí, ¿a las tres?"
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "Kan vi mødes på fredag?",
+    "es": "Responde: Sí, ¿a las tres?",
+    "model": "Ja, klokken tre?",
+    "model_es": "Sí, ¿a las tres?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Det passer mig godt.",
+    "es": "Responde: Entonces, ¡hasta el viernes!",
+    "model": "Så ses vi på fredag!",
+    "model_es": "Entonces, ¡hasta el viernes!",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Kontoret er lukket om søndagen. Om lørdagen er der åbent til middag.",
+   "prompt": "¿Qué día está cerrado?",
+   "choices": [
+    "El sábado",
+    "El lunes",
+    "El domingo"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Propón una cita con día y hora.",
+   "model": "Kan vi mødes på fredag klokken tre?",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el viernes» en esta escena?",
+    "answer": "på fredag",
+    "explanation": "på fredag = el viernes."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «a las tres» en esta escena?",
+    "answer": "klokken tre",
+    "explanation": "klokken tre = a las tres."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w15",
+  "lang": "da",
+  "level": "A1",
+  "week": 15,
+  "title": "Quedar con amigos",
+  "goal": "Invita a alguien y acuerda dónde encontraros.",
+  "setup": "Invita a alguien y acuerda dónde encontraros.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Har du tid på lørdag?",
+    "es": "¿Tienes tiempo el sábado?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ja, hvad vil du lave?",
+    "es": "Sí, ¿qué quieres hacer?"
+   },
+   {
+    "speaker": 0,
+    "text": "Skal vi gå i biografen?",
+    "es": "¿Vamos al cine?"
+   },
+   {
+    "speaker": 1,
+    "text": "Gerne! Vi mødes foran indgangen.",
+    "es": "¡Claro! Nos vemos frente a la entrada."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "¿Tienes tiempo el sábado?",
+    "¡Claro! Nos vemos frente a la entrada.",
+    "Sí, ¿qué quieres hacer?"
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Har du tid på lørdag?",
+    "es": "Responde: Sí, ¿qué quieres hacer?",
+    "model": "Ja, hvad vil du lave?",
+    "model_es": "Sí, ¿qué quieres hacer?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Skal vi gå i biografen?",
+    "es": "Responde: ¡Claro! Nos vemos frente a la entrada.",
+    "model": "Gerne! Vi mødes foran indgangen.",
+    "model_es": "¡Claro! Nos vemos frente a la entrada.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Filmen starter klokken syv. Vi mødes foran indgangen.",
+   "prompt": "¿Dónde se verán?",
+   "choices": [
+    "En la plaza",
+    "En el café",
+    "En la entrada"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Invita a un amigo a una actividad.",
+   "model": "Har du tid på lørdag? Vi kan gå i biografen.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el sábado» en esta escena?",
+    "answer": "på lørdag",
+    "explanation": "på lørdag = el sábado."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «frente a la entrada» en esta escena?",
+    "answer": "foran indgangen",
+    "explanation": "foran indgangen = frente a la entrada."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w16",
+  "lang": "da",
+  "level": "A1",
+  "week": 16,
+  "title": "Una mañana de trabajo",
+  "goal": "Saluda a un colega y aclara una tarea.",
+  "setup": "Saluda a un colega y aclara una tarea.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Hej, hvor er mødet?",
+    "es": "Hola, ¿dónde es la reunión?"
+   },
+   {
+    "speaker": 1,
+    "text": "I det lille lokale på første sal.",
+    "es": "En la sala pequeña del primer piso."
+   },
+   {
+    "speaker": 0,
+    "text": "Hvad skal jeg tage med?",
+    "es": "¿Qué debo llevar?"
+   },
+   {
+    "speaker": 1,
+    "text": "Dine noter, tak.",
+    "es": "Tus notas, por favor."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "En la sala pequeña del primer piso.",
+    "Hola, ¿dónde es la reunión?",
+    "Tus notas, por favor."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Hej, hvor er mødet?",
+    "es": "Responde: En la sala pequeña del primer piso.",
+    "model": "I det lille lokale på første sal.",
+    "model_es": "En la sala pequeña del primer piso.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Hvad skal jeg tage med?",
+    "es": "Responde: Tus notas, por favor.",
+    "model": "Dine noter, tak.",
+    "model_es": "Tus notas, por favor.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Mødet er i det lille lokale. Tag dine noter med.",
+   "prompt": "¿Dónde está la reunión?",
+   "choices": [
+    "En la cocina",
+    "En casa",
+    "En la sala pequeña"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Escribe una pregunta breve a un colega.",
+   "model": "Hej, hvor er mødet? Jeg tager mine noter med.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «la reunión» en esta escena?",
+    "answer": "mødet",
+    "explanation": "mødet = la reunión."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «mis notas» en esta escena?",
+    "answer": "mine noter",
+    "explanation": "mine noter = mis notas."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w17",
+  "lang": "da",
+  "level": "A1",
+  "week": 17,
+  "title": "Contar el fin de semana",
+  "goal": "Di qué hiciste y haz una pregunta sencilla.",
+  "setup": "Di qué hiciste y haz una pregunta sencilla.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Hvad lavede du i weekenden?",
+    "es": "¿Qué hiciste el fin de semana?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jeg besøgte en veninde.",
+    "es": "Visité a una amiga."
+   },
+   {
+    "speaker": 0,
+    "text": "Var det hyggeligt?",
+    "es": "¿Estuvo bien?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ja, vi lavede mad sammen.",
+    "es": "Sí, cocinamos juntos."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Visité a una amiga.",
+    "¿Qué hiciste el fin de semana?",
+    "Sí, cocinamos juntos."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Hvad lavede du i weekenden?",
+    "es": "Responde: Visité a una amiga.",
+    "model": "Jeg besøgte en veninde.",
+    "model_es": "Visité a una amiga.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Var det hyggeligt?",
+    "es": "Responde: Sí, cocinamos juntos.",
+    "model": "Ja, vi lavede mad sammen.",
+    "model_es": "Sí, cocinamos juntos.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Om lørdagen besøgte jeg en veninde. Om søndagen var jeg hjemme.",
+   "prompt": "¿Qué hizo el sábado?",
+   "choices": [
+    "Trabajó",
+    "Visitó a una amiga",
+    "Fue al cine"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Cuenta dos cosas que hiciste.",
+   "model": "Jeg besøgte en veninde. Vi lavede mad sammen.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el fin de semana» en esta escena?",
+    "answer": "i weekenden",
+    "explanation": "i weekenden = el fin de semana."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «cocinamos juntos» en esta escena?",
+    "answer": "lavede mad sammen",
+    "explanation": "lavede mad sammen = cocinamos juntos."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w18",
+  "lang": "da",
+  "level": "A1",
+  "week": 18,
+  "title": "Llegar a un alojamiento",
+  "goal": "Da tu nombre y pregunta por la habitación.",
+  "setup": "Da tu nombre y pregunta por la habitación.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Hej, jeg har en reservation.",
+    "es": "Hola, tengo una reserva."
+   },
+   {
+    "speaker": 1,
+    "text": "Hvilket navn står reservationen i?",
+    "es": "¿A nombre de quién está la reserva?"
+   },
+   {
+    "speaker": 0,
+    "text": "Den står i navnet García.",
+    "es": "Está a nombre de García."
+   },
+   {
+    "speaker": 1,
+    "text": "Dit værelse er på anden sal.",
+    "es": "Su habitación está en el segundo piso."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Hola, tengo una reserva.",
+    "¿A nombre de quién está la reserva?",
+    "Su habitación está en el segundo piso."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Hej, jeg har en reservation.",
+    "es": "Responde: ¿A nombre de quién está la reserva?",
+    "model": "Hvilket navn står reservationen i?",
+    "model_es": "¿A nombre de quién está la reserva?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Den står i navnet García.",
+    "es": "Responde: Su habitación está en el segundo piso.",
+    "model": "Dit værelse er på anden sal.",
+    "model_es": "Su habitación está en el segundo piso.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Morgenmaden serveres klokken otte. Dit værelse er på anden sal.",
+   "prompt": "¿A qué hora se sirve el desayuno?",
+   "choices": [
+    "A las ocho",
+    "A las siete",
+    "A las nueve"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Pregunta por la hora del desayuno.",
+   "model": "Hvornår serveres morgenmaden? Jeg har en reservation.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «una reserva» en esta escena?",
+    "answer": "en reservation",
+    "explanation": "en reservation = una reserva."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «su habitación» en esta escena?",
+    "answer": "dit værelse",
+    "explanation": "dit værelse = su habitación."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w19",
+  "lang": "da",
+  "level": "A1",
+  "week": 19,
+  "title": "Dejar un mensaje",
+  "goal": "Di quién llama y pide que te devuelvan la llamada.",
+  "setup": "Di quién llama y pide que te devuelvan la llamada.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Hej, må jeg tale med Tom?",
+    "es": "Hola, ¿puedo hablar con Tom?"
+   },
+   {
+    "speaker": 1,
+    "text": "Han er her ikke lige nu.",
+    "es": "Ahora no está."
+   },
+   {
+    "speaker": 0,
+    "text": "Må jeg lægge en besked?",
+    "es": "¿Puedo dejar un mensaje?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ja, jeg siger, at du har ringet.",
+    "es": "Sí, le diré que has llamado."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Hola, ¿puedo hablar con Tom?",
+    "Ahora no está.",
+    "Sí, le diré que has llamado."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Hej, må jeg tale med Tom?",
+    "es": "Responde: Ahora no está.",
+    "model": "Han er her ikke lige nu.",
+    "model_es": "Ahora no está.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Må jeg lægge en besked?",
+    "es": "Responde: Sí, le diré que has llamado.",
+    "model": "Ja, jeg siger, at du har ringet.",
+    "model_es": "Sí, le diré que has llamado.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Tom kommer tilbage i eftermiddag. Læg venligst dit nummer.",
+   "prompt": "¿Cuándo volverá la persona?",
+   "choices": [
+    "Por la tarde",
+    "Por la mañana",
+    "Mañana"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Deja un mensaje con tu nombre.",
+   "model": "Hej, det er Ana. Kan du ringe tilbage?",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «un mensaje» en esta escena?",
+    "answer": "en besked",
+    "explanation": "en besked = un mensaje."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «por la tarde» en esta escena?",
+    "answer": "i eftermiddag",
+    "explanation": "i eftermiddag = por la tarde."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a1-w20",
+  "lang": "da",
+  "level": "A1",
+  "week": 20,
+  "title": "Cerrar un día en la ciudad",
+  "goal": "Resuelve un pequeño cambio de plan con cortesía.",
+  "setup": "Resuelve un pequeño cambio de plan con cortesía.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Butikken lukker snart.",
+    "es": "La tienda está a punto de cerrar."
+   },
+   {
+    "speaker": 1,
+    "text": "Så går vi derhen først.",
+    "es": "Entonces vamos allí primero."
+   },
+   {
+    "speaker": 0,
+    "text": "Og hvad gør vi bagefter?",
+    "es": "¿Y qué hacemos después?"
+   },
+   {
+    "speaker": 1,
+    "text": "Bagefter drikker vi en kop kaffe.",
+    "es": "Después tomamos un café."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué dice la última persona?",
+   "choices": [
+    "Entonces vamos allí primero.",
+    "La tienda está a punto de cerrar.",
+    "Después tomamos un café."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Butikken lukker snart.",
+    "es": "Responde: Entonces vamos allí primero.",
+    "model": "Så går vi derhen først.",
+    "model_es": "Entonces vamos allí primero.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Og hvad gør vi bagefter?",
+    "es": "Responde: Después tomamos un café.",
+    "model": "Bagefter drikker vi en kop kaffe.",
+    "model_es": "Después tomamos un café.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Butikken lukker klokken seks. Caféen har åbent til klokken otte.",
+   "prompt": "¿Qué cierra primero?",
+   "choices": [
+    "La estación",
+    "El café",
+    "La tienda"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Explica un cambio de plan y propón una alternativa.",
+   "model": "Butikken lukker snart. Vi går derhen først og bagefter på café.",
+   "rubric": "Incluye la información solicitada con una frase clara."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «primero» en esta escena?",
+    "answer": "først",
+    "explanation": "først = primero."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «después» en esta escena?",
+    "answer": "bagefter",
+    "explanation": "bagefter = después."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ }
+]

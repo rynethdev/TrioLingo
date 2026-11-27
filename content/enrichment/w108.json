@@ -1,0 +1,79 @@
+{
+ "week": 108,
+ "da": {
+  "dialogue2": {
+   "context": "Una jefa de equipo habla con un empleado que discute a menudo con su compañera por el ruido en la oficina abierta y busca con él un punto medio.",
+   "lines": [
+    {"text": "Jeg har talt med Line. Hun siger, at I tit skændes om larmen.", "es": "He hablado con Line. Dice que discutís a menudo por el ruido."},
+    {"text": "Ja, men jeg er nødt til at ringe til kunder. Det er mit job.", "es": "Sí, pero tengo que llamar a clientes. Es mi trabajo."},
+    {"text": "Det er der ingen, der betvivler. Hun har bare brug for ro til sine analyser.", "es": "Nadie lo pone en duda. Ella solo necesita tranquilidad para sus análisis."},
+    {"text": "Hvad foreslår du så?", "es": "¿Y qué propones?"},
+    {"text": "I kunne bruge det lille mødelokale på skift: du om formiddagen, hun om eftermiddagen.", "es": "Podríais usar la sala pequeña por turnos: tú por la mañana, ella por la tarde."},
+    {"text": "Det lyder fair. Men så skal vi mødes og aftale det ordentligt, os tre.", "es": "Suena justo. Pero entonces tenemos que reunirnos los tres y acordarlo bien."},
+    {"text": "Selvfølgelig. Jeg indkalder til et kort møde i morgen.", "es": "Por supuesto. Convoco una reunión corta mañana."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué propone la jefa para resolver el conflicto?",
+   "choices": ["Que usen la sala pequeña por turnos, uno por la mañana y otro por la tarde", "Que el empleado deje de llamar a clientes desde la oficina", "Que la compañera trabaje desde casa"]
+  },
+  "grammar": {
+   "focus": "Verbos recíprocos en -s (skændes, mødes, enes)",
+   "explain": "Algunos verbos terminados en -s expresan una acción mutua: «skændes» (discutir entre sí), «mødes» (reunirse, verse), «enes» (ponerse de acuerdo). No necesitan «hinanden»: «Vi mødes kl. 9». En pasado: mødtes, skændtes, entes.",
+   "items": [
+    {"prompt": "Vi ___ første gang på et kursus i 2019. (mødes, pasado)", "answer": "mødtes", "es": "Nos conocimos en un curso en 2019."},
+    {"prompt": "I går ___ de igen om vinduet. (skændes, pasado)", "answer": "skændtes", "es": "Ayer volvieron a discutir por la ventana."},
+    {"prompt": "Det lykkedes dem til sidst at ___ om en løsning. (ponerse de acuerdo, infinitivo)", "answer": "enes", "es": "Al final consiguieron ponerse de acuerdo en una solución."}
+   ]
+  },
+  "vocab": [
+   {"text": "skændes", "es": "discutir (entre sí)", "example": "De skændes tit om temperaturen.", "example_es": "Discuten a menudo por la temperatura."},
+   {"text": "betvivler", "es": "pone en duda", "example": "Ingen betvivler, at du gør dit bedste.", "example_es": "Nadie pone en duda que haces lo que puedes."},
+   {"text": "brug for ro", "es": "necesidad de tranquilidad", "example": "Jeg har brug for ro, når jeg skriver.", "example_es": "Necesito tranquilidad cuando escribo."},
+   {"text": "indkalder til", "es": "convoca (a una reunión)", "example": "Chefen indkalder til møde på fredag.", "example_es": "El jefe convoca una reunión el viernes."}
+  ],
+  "transfer": {
+   "prompt": "Dos amigos de tu grupo discuten porque uno siempre organiza las cenas en su barrio y el otro vive lejos. Escribe un mensaje a los dos (4–5 frases, informal y conciliador) recogiendo ambas posturas y proponiendo un punto medio.",
+   "model": "Hej begge to! Jeg kan godt forstå Jonas, fordi det er nemmest for ham at holde middagene i nærheden. Men Emil har også ret i, at han bruger over en time på at komme hjem bagefter. Hvad med at hver anden middag foregår i Emils kvarter? Så kan vi også mødes et sted midt imellem engang imellem. Lad os enes om det, før vi planlægger den næste!",
+   "rubric": "Resume las dos posturas sin tomar partido, propone un punto medio concreto, usa al menos un verbo recíproco (mødes, enes, skændes) y mantiene un tono conciliador."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una jefa de equipo habla con un empleado que discute a menudo con su compañera por el ruido en la oficina abierta y busca con él un punto medio.",
+   "lines": [
+    {"text": "Ech hu mat der Line geschwat. Si seet, datt dir iech dacks wéinst dem Kaméidi streit.", "es": "He hablado con Line. Dice que discutís a menudo por el ruido."},
+    {"text": "Jo, mee ech muss Clienten uruffen. Dat ass meng Aarbecht.", "es": "Sí, pero tengo que llamar a clientes. Es mi trabajo."},
+    {"text": "Dat stellt keen a Fro. Si brauch just Rou fir hir Analysen.", "es": "Nadie lo pone en duda. Ella solo necesita tranquilidad para sus análisis."},
+    {"text": "Wat proposéiers du dann?", "es": "¿Y qué propones?"},
+    {"text": "Dir kéint de klenge Sëtzungssall ofwiesselnd benotzen: du moies, si mëttes.", "es": "Podríais usar la sala pequeña por turnos: tú por la mañana, ella por la tarde."},
+    {"text": "Dat kléngt fair. Mee da sollte mir eis zu dräi treffen an dat richteg ausmaachen.", "es": "Suena justo. Pero entonces tenemos que reunirnos los tres y acordarlo bien."},
+    {"text": "Natierlech. Ech ruffe fir muer eng kuerz Reunioun zesummen.", "es": "Por supuesto. Convoco una reunión corta para mañana."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué propone la jefa para resolver el conflicto?",
+   "choices": ["Que usen la sala pequeña por turnos, uno por la mañana y otro por la tarde", "Que el empleado deje de llamar a clientes desde la oficina", "Que la compañera trabaje desde casa"]
+  },
+  "grammar": {
+   "focus": "Verbos reflexivos con valor recíproco (sech streiden, sech treffen, sech eenegen)",
+   "explain": "Para acciones mutuas se usan verbos con pronombre reflexivo: «mir treffen eis», «dir streit iech», «si eenegen sech». El pronombre cambia con la persona: eis (nosotros), iech (vosotros), sech (ellos).",
+   "items": [
+    {"prompt": "Mir hunn ___ fir d'éischt op engem Cours am Joer 2019 getraff.", "answer": "eis", "es": "Nos conocimos en un curso en 2019."},
+    {"prompt": "Firwat streit dir ___ ëmmer wéinst der Fënster?", "answer": "iech", "es": "¿Por qué discutís siempre por la ventana?"},
+    {"prompt": "Um Enn hu si ___ op eng Léisung geeenegt.", "answer": "sech", "es": "Al final se pusieron de acuerdo en una solución."}
+   ]
+  },
+  "vocab": [
+   {"text": "streiden", "es": "discutir, pelearse", "example": "Si streiden sech dacks iwwer d'Temperatur.", "example_es": "Discuten a menudo por la temperatura."},
+   {"text": "a Fro stellen", "es": "poner en duda", "example": "Keen wëll deng Aarbecht a Fro stellen.", "example_es": "Nadie quiere poner en duda tu trabajo."},
+   {"text": "Rou", "es": "tranquilidad", "example": "Fir dës Analyse brauch ech Rou.", "example_es": "Para este análisis necesito tranquilidad."},
+   {"text": "ofwiesselnd", "es": "por turnos, alternadamente", "example": "Mir benotzen de Sall ofwiesselnd.", "example_es": "Usamos la sala por turnos."}
+  ],
+  "transfer": {
+   "prompt": "Dos amigos de tu grupo discuten porque uno siempre organiza las cenas en su barrio y el otro vive lejos. Escribe un mensaje a los dos (4–5 frases, informal y conciliador) recogiendo ambas posturas y proponiendo un punto medio.",
+   "model": "Salut dir zwee! Ech verstinn de Jonas, well et fir hien am einfachste ass, d'Iessen bei sech an der Géigend ze organiséieren. Mee den Emil huet och Recht, datt hien duerno méi wéi eng Stonn bis heem brauch. Wéi wier et, wa mir eis ofwiesselen an all zweet Iessen an dem Emil sengem Quartier stattfënnt? Esou kéinte mir eis och emol an der Mëtt treffen. Loosst eis eis eenegen, ier mir dat nächst Iessen plangen!",
+   "rubric": "Resume las dos posturas sin tomar partido, propone un punto medio concreto, usa al menos un verbo reflexivo recíproco (sech treffen, sech eenegen, sech ofwiesselen) y mantiene un tono conciliador."
+  }
+ }
+}

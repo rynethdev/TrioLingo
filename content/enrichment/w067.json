@@ -1,0 +1,77 @@
+{
+ "week": 67,
+ "da": {
+  "dialogue2": {
+   "context": "En un taller de carpintería, una veterana para a un compañero nuevo que iba a usar la sierra sin prepararse.",
+   "lines": [
+    {"text": "Vent! Har du taget høreværn på?", "es": "¡Espera! ¿Te has puesto los protectores auditivos?"},
+    {"text": "Nej, det er jo kun et kort snit.", "es": "No, si solo es un corte corto."},
+    {"text": "Det er lige meget. Før du tænder saven, skal du altid have det på.", "es": "Da igual. Antes de encender la sierra, siempre tienes que llevarlos."},
+    {"text": "Okay. Er der andet, jeg skal huske?", "es": "Vale. ¿Hay algo más que tenga que recordar?"},
+    {"text": "Når du er færdig, slukker du og fejer gulvet.", "es": "Cuando termines, apagas y barres el suelo."},
+    {"text": "Forstået. Jeg henter høreværnet, inden jeg går i gang.", "es": "Entendido. Voy a por los protectores antes de ponerme a trabajar."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué error iba a cometer el compañero nuevo?",
+   "choices": ["Usar la sierra sin protección para los oídos por ser un corte rápido", "Dejar la sierra encendida al terminar", "Barrer el suelo con la sierra en marcha"]
+  },
+  "grammar": {
+   "focus": "Subordinadas de tiempo: før, når, efter at",
+   "explain": "«Før» indica lo que va antes (før du tænder saven), «når» lo que ocurre cada vez o en el futuro (når du er færdig) y «efter at» lo que va después. Si la subordinada va primero, la principal empieza por el verbo: Når du er færdig, slukker du.",
+   "items": [
+    {"prompt": "___ du bruger maskinen, skal du læse vejledningen. (antes de que)", "answer": "Før", "es": "Antes de usar la máquina, tienes que leer las instrucciones."},
+    {"prompt": "Når du er færdig, ___ du døren til værkstedet. (låse)", "answer": "låser", "es": "Cuando termines, cierras con llave la puerta del taller."},
+    {"prompt": "Tag altid handsker på, ___ du arbejder med maling. (cada vez que)", "answer": "når", "es": "Ponte siempre guantes cuando trabajes con pintura."}
+   ]
+  },
+  "vocab": [
+   {"text": "høreværn", "es": "protectores auditivos", "example": "Har du taget høreværn på?", "example_es": "¿Te has puesto los protectores auditivos?"},
+   {"text": "Det er lige meget", "es": "Da igual", "example": "Det er lige meget, om det er et kort snit.", "example_es": "Da igual que sea un corte corto."},
+   {"text": "tænde saven", "es": "encender la sierra", "example": "Du må ikke tænde saven uden høreværn.", "example_es": "No puedes encender la sierra sin protectores auditivos."},
+   {"text": "Er der andet", "es": "¿Hay algo más?", "example": "Er der andet, jeg skal huske?", "example_es": "¿Hay algo más que tenga que recordar?"}
+  ],
+  "transfer": {
+   "prompt": "Una amiga va a ayudarte a pintar tu cocina. Escríbele un mensaje con tres medidas de seguridad: qué hacer antes, durante y después (3–4 frases).",
+   "model": "Tak, fordi du vil hjælpe i morgen! Før vi begynder, åbner vi vinduerne og dækker gulvet med plastik. Når du står på stigen, holder jeg den. Efter at vi er færdige, vasker vi penslerne og lufter godt ud.",
+   "rubric": "Usa «før», «når» y «efter at» con el orden de palabras correcto y menciona al menos tres medidas concretas."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En un taller de carpintería, una veterana para a un compañero nuevo que iba a usar la sierra sin prepararse.",
+   "lines": [
+    {"text": "Waart! Hues du de Gehéierschutz un?", "es": "¡Espera! ¿Llevas puestos los protectores auditivos?"},
+    {"text": "Neen, et ass jo just e kuerze Schnëtt.", "es": "No, si solo es un corte corto."},
+    {"text": "Dat ass egal. Ier een d'Seeg uschalt, muss een en ëmmer undoen.", "es": "Da igual. Antes de encender la sierra, siempre hay que ponérselos."},
+    {"text": "Ok. Gëtt et nach eppes, wat ech mierke muss?", "es": "Vale. ¿Hay algo más que tenga que recordar?"},
+    {"text": "Wann een fäerdeg ass, schalt een d'Seeg aus a kiert de Buedem.", "es": "Cuando terminas, apagas la sierra y barres el suelo."},
+    {"text": "Verstanen. Ech huelen de Gehéierschutz, ier ech ufänken.", "es": "Entendido. Voy a por los protectores antes de empezar."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué error iba a cometer el compañero nuevo?",
+   "choices": ["Usar la sierra sin protección para los oídos por ser un corte rápido", "Dejar la sierra encendida al terminar", "Barrer el suelo con la sierra en marcha"]
+  },
+  "grammar": {
+   "focus": "Subordinadas de tiempo: ier, wann, nodeems",
+   "explain": "«Ier» = antes de que, «wann» = cuando (cada vez o en el futuro), «nodeems» = después de que. El verbo va al final de la subordinada y, si esta va primero, la principal empieza por el verbo: Wann een fäerdeg ass, kiert een de Buedem.",
+   "items": [
+    {"prompt": "___ een d'Maschinn benotzt, muss een d'Uleedung liesen. (antes de que)", "answer": "Ier", "es": "Antes de usar la máquina, hay que leer las instrucciones."},
+    {"prompt": "Wann d'Sara fäerdeg ass, ___ si d'Dier vum Atelier. (spären)", "answer": "spärt", "es": "Cuando Sara termina, cierra con llave la puerta del taller."},
+    {"prompt": "Mir botzen de Buedem, ___ mir d'Maschinnen ausgeschalt hunn. (después de que)", "answer": "nodeems", "es": "Limpiamos el suelo después de haber apagado las máquinas."}
+   ]
+  },
+  "vocab": [
+   {"text": "de Gehéierschutz", "es": "los protectores auditivos", "example": "Hues du de Gehéierschutz un?", "example_es": "¿Llevas puestos los protectores auditivos?"},
+   {"text": "Dat ass egal", "es": "Da igual", "example": "Dat ass egal, och fir e kuerze Schnëtt.", "example_es": "Da igual, también para un corte corto."},
+   {"text": "uschalten", "es": "encender", "example": "Du däerfs d'Seeg net ouni Gehéierschutz uschalten.", "example_es": "No puedes encender la sierra sin protectores auditivos."},
+   {"text": "mierken", "es": "recordar, retener", "example": "Dat muss ech mir mierken.", "example_es": "Eso tengo que recordarlo."}
+  ],
+  "transfer": {
+   "prompt": "Una amiga va a ayudarte a pintar tu cocina. Escríbele un mensaje con tres medidas de seguridad: qué hacer antes, durante y después (3–4 frases).",
+   "model": "Merci fir deng Hëllef muer! Ier mir ufänken, maache mir d'Fënsteren op a leeë Plastik op de Buedem. Wann ee vun eis op der Leeder steet, hält deen aneren se fest. Nodeems mir fäerdeg sinn, wäsche mir d'Pinselen a lëfte gutt.",
+   "rubric": "Usa «ier», «wann» y «nodeems» con el verbo al final y menciona al menos tres medidas concretas."
+  }
+ }
+}

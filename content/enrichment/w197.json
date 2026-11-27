@@ -1,0 +1,81 @@
+{
+ "week": 197,
+ "da": {
+  "dialogue2": {
+   "context": "Dos críticos de teatro graban un pódcast sobre un «Hamlet» ambientado en una oficina; uno sale entusiasmado y la otra matiza con criterios.",
+   "lines": [
+    {"text": "Jeg synes, det er årets bedste forestilling. Punktum.", "es": "Creo que es el mejor montaje del año. Punto."},
+    {"text": "Den er ret god. Men „årets bedste“ er et stort ord i november.", "es": "Está bastante bien. Pero «el mejor del año» es mucho decir en noviembre."},
+    {"text": "Hvad mangler den så?", "es": "¿Y qué le falta?"},
+    {"text": "Kontoret er en forholdsvis skarp idé de første tyve minutter. Derefter bliver det en gimmick.", "es": "La oficina es una idea relativamente aguda los primeros veinte minutos. Después se convierte en un truco."},
+    {"text": "Men skuespilleren, der spiller Hamlet, er da overordentlig god.", "es": "Pero el actor que hace de Hamlet es extraordinariamente bueno, ¿no?"},
+    {"text": "Enig, og det er netop problemet: han spiller bedre, end konceptet tillader.", "es": "De acuerdo, y ese es justamente el problema: actúa mejor de lo que el concepto le permite."},
+    {"text": "Så du anbefaler den ikke?", "es": "¿Así que no la recomiendas?"},
+    {"text": "Jo, for hans skyld. Ikke for idéens. Det er langtfra det samme.", "es": "Sí, por él. No por la idea. No es ni de lejos lo mismo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir la crítica con «actúa mejor de lo que el concepto le permite»?",
+   "choices": ["Que el actor es excelente pero la puesta en escena lo limita", "Que el actor sobreactúa", "Que el concepto es mejor que la interpretación"]
+  },
+  "grammar": {
+   "focus": "Graduación del juicio: ret, forholdsvis, overordentlig, langtfra",
+   "explain": "Una reseña justa gradúa sus valoraciones: «ret» y «temmelig» (bastante), «forholdsvis» (relativamente), «overordentlig» (extraordinariamente, registro culto), «langtfra» (ni de lejos).",
+   "items": [
+    {"prompt": "Idéen er ___ skarp i begyndelsen, men holder ikke. (relativamente)", "answer": "forholdsvis", "es": "La idea es relativamente aguda al principio, pero no se sostiene."},
+    {"prompt": "Hovedrolleindehaveren er ___ god. (extraordinariamente, culto)", "answer": "overordentlig", "es": "El protagonista es extraordinariamente bueno."},
+    {"prompt": "Forestillingen er ___ så original, som plakaten lover. (ni de lejos)", "answer": "langtfra", "es": "El montaje no es ni de lejos tan original como promete el cartel."}
+   ]
+  },
+  "vocab": [
+   {"text": "et stort ord", "es": "mucho decir, una palabra mayor", "example": "„Mesterværk“ er et stort ord.", "example_es": "«Obra maestra» es mucho decir."},
+   {"text": "en gimmick", "es": "un truco efectista", "example": "Kontoret bliver hurtigt en gimmick.", "example_es": "La oficina se convierte enseguida en un truco efectista."},
+   {"text": "bærer hele forestillingen", "es": "sostiene toda la función", "example": "Han bærer hele forestillingen alene.", "example_es": "Él solo sostiene toda la función."},
+   {"text": "hele vejen", "es": "hasta el final", "example": "Idéen holder ikke hele vejen.", "example_es": "La idea no aguanta hasta el final."}
+  ],
+  "transfer": {
+   "prompt": "Escribe una reseña breve (6–8 frases) de un espectáculo, libro o exposición para un periódico cultural: con criterios explícitos, valoraciones graduadas (ni elogio ni condena absolutos) y una recomendación matizada.",
+   "model": "Teatrets nye „Hamlet“ flytter Helsingør ind i et moderne kontorlandskab, og jeg har vurderet forestillingen ud fra tre kriterier: idé, spil og helhed. Idéen er forholdsvis skarp de første tyve minutter, hvor intrigerne ved kaffeautomaten giver et overraskende genkendeligt hof. Derefter bliver kontoret dog en gimmick, der gentager sig selv. Spillet er til gengæld overordentlig stærkt: hovedrolleindehaveren bærer hele forestillingen og spiller bedre, end konceptet tillader. Helheden halter derfor; forestillingen er langtfra så modig, som plakaten lover. Alligevel er den værd at se — for skuespillerens skyld, ikke for idéens. Tre stjerner ud af seks, med en ekstra stjerne til Hamlet selv.",
+   "rubric": "Explicita los criterios antes de valorar; gradúa los juicios con adverbios precisos; equilibra puntos fuertes y débiles con ejemplos concretos; evita el elogio y la condena absolutos; cierra con una recomendación matizada."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos críticos de teatro graban un pódcast sobre un «Hamlet» ambientado en una oficina; uno sale entusiasmado y la otra matiza con criterios.",
+   "lines": [
+    {"text": "Fir mech ass et déi bescht Inszenéierung vum Joer. Punkt.", "es": "Para mí es el mejor montaje del año. Punto."},
+    {"text": "Si ass zimmlech gutt. Mä „déi bescht vum Joer“ ass vill gesot am November.", "es": "Está bastante bien. Pero «el mejor del año» es mucho decir en noviembre."},
+    {"text": "Wat feelt hir dann?", "es": "¿Y qué le falta?"},
+    {"text": "De Büro ass déi éischt zwanzeg Minutten eng relativ schaarf Iddi. Duerno gëtt en zum Gimmick.", "es": "La oficina es una idea relativamente aguda los primeros veinte minutos. Después se convierte en un truco."},
+    {"text": "Mä de Schauspiller, deen den Hamlet spillt, ass dach aussergewéinlech gutt.", "es": "Pero el actor que hace de Hamlet es extraordinariamente bueno, ¿no?"},
+    {"text": "Averstanen, an dat ass grad d'Problem: hie spillt besser, wéi d'Konzept et zouléisst.", "es": "De acuerdo, y ese es justamente el problema: actúa mejor de lo que el concepto le permite."},
+    {"text": "Also recommandéiers du se net?", "es": "¿Así que no la recomiendas?"},
+    {"text": "Dach, fir hien. Net fir d'Iddi. Dat ass bei wäitem net datselwecht.", "es": "Sí, por él. No por la idea. No es ni de lejos lo mismo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir la crítica con «actúa mejor de lo que el concepto le permite»?",
+   "choices": ["Que el actor es excelente pero la puesta en escena lo limita", "Que el actor sobreactúa", "Que el concepto es mejor que la interpretación"]
+  },
+  "grammar": {
+   "focus": "Graduación del juicio: zimmlech, relativ, aussergewéinlech, bei wäitem net",
+   "explain": "Una reseña justa gradúa sus valoraciones: «zimmlech» (bastante), «relativ» (relativamente), «aussergewéinlech» (extraordinariamente), «bei wäitem net» (ni de lejos).",
+   "items": [
+    {"prompt": "D'Iddi ass am Ufank ___ schaarf, mä si hält net. (relativamente)", "answer": "relativ", "es": "La idea es relativamente aguda al principio, pero no se sostiene."},
+    {"prompt": "Den Haaptdarsteller ass ___ gutt. (extraordinariamente)", "answer": "aussergewéinlech", "es": "El protagonista es extraordinariamente bueno."},
+    {"prompt": "D'Stéck ass ___ wäitem net esou original, wéi d'Plakat versprécht. (ni de lejos: primera palabra)", "answer": "bei", "es": "La obra no es ni de lejos tan original como promete el cartel."}
+   ]
+  },
+  "vocab": [
+   {"text": "vill gesot", "es": "mucho decir", "example": "„Meeschterwierk“ ass vill gesot.", "example_es": "«Obra maestra» es mucho decir."},
+   {"text": "Gimmick", "es": "truco efectista", "example": "De Büro gëtt séier zu engem Gimmick.", "example_es": "La oficina se convierte enseguida en un truco efectista."},
+   {"text": "dréit déi ganz Virstellung", "es": "sostiene toda la función", "example": "Hien dréit déi ganz Virstellung eleng.", "example_es": "Él solo sostiene toda la función."},
+   {"text": "bis zum Schluss", "es": "hasta el final", "example": "D'Iddi hält net bis zum Schluss.", "example_es": "La idea no aguanta hasta el final."}
+  ],
+  "transfer": {
+   "prompt": "Escribe una reseña breve (6–8 frases) de un espectáculo, libro o exposición para un periódico cultural: con criterios explícitos, valoraciones graduadas (ni elogio ni condena absolutos) y una recomendación matizada.",
+   "model": "Den neien „Hamlet“ vum Theater verleet Helsingør an e moderne Grousraumbüro, an ech hunn d'Inszenéierung no dräi Critèren bewäert: Iddi, Spill a Ganzt. D'Iddi ass déi éischt zwanzeg Minutte relativ schaarf, wou d'Intrigen um Kaffisautomat iwwerraschend un e Kinnekshaff erënneren. Duerno gëtt de Büro awer zu engem Gimmick, deen sech widderhëlt. D'Spill ass dogéint aussergewéinlech staark: den Haaptdarsteller dréit déi ganz Virstellung a spillt besser, wéi d'Konzept et zouléisst. Am Ganze klappt et dowéinst net richteg; d'Stéck ass bei wäitem net esou couragéiert, wéi d'Plakat versprécht. Trotzdeem lount et sech — wéinst dem Schauspiller, net wéinst der Iddi. Dräi Stäre vu sechs, mat engem Stär extra fir den Hamlet selwer.",
+   "rubric": "Explicita los criterios antes de valorar; gradúa los juicios con adverbios precisos; equilibra puntos fuertes y débiles con ejemplos concretos; evita el elogio y la condena absolutos; cierra con una recomendación matizada."
+  }
+ }
+}

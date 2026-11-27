@@ -1,0 +1,77 @@
+{
+ "week": 51,
+ "da": {
+  "dialogue2": {
+   "context": "Dos amigos planean una escapada de fin de semana y no se ponen de acuerdo entre la costa y la ciudad.",
+   "lines": [
+    {"text": "Skal vi tage til Skagen eller til København i weekenden?", "es": "¿Vamos a Skagen o a Copenhague el fin de semana?"},
+    {"text": "Jeg vil hellere til Skagen, fordi jeg trænger til ro.", "es": "Prefiero Skagen, porque necesito tranquilidad."},
+    {"text": "Men vejret bliver dårligt, og der er ikke meget at lave.", "es": "Pero va a hacer mal tiempo y no hay mucho que hacer."},
+    {"text": "Okay, i København kan vi i det mindste gå på museum.", "es": "Vale, en Copenhague al menos podemos ir a algún museo."},
+    {"text": "Præcis, og vi kan spise på den nye fiskerestaurant.", "es": "Exacto, y podemos comer en el nuevo restaurante de pescado."},
+    {"text": "Så tager vi til Skagen en anden gang, når det er sommer.", "es": "Pues vamos a Skagen en otra ocasión, cuando sea verano."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué eligen al final la ciudad?",
+   "choices": ["Porque hará mal tiempo y en la costa hay poco que hacer", "Porque en Skagen no encontraron alojamiento", "Porque los dos prefieren la ciudad a la tranquilidad"]
+  },
+  "grammar": {
+   "focus": "Expresar preferencia: gerne, hellere, helst",
+   "explain": "«Gerne» expresa gusto (Jeg spiser gerne fisk), «hellere» compara dos opciones, a menudo con «end» (Jeg drikker hellere te end kaffe), y «helst» marca la favorita entre varias (Helst om morgenen).",
+   "items": [
+    {"prompt": "Om aftenen drikker jeg ___ te end kaffe.", "answer": "hellere", "es": "Por la noche prefiero té a café."},
+    {"prompt": "Af de tre hoteller vil jeg ___ bo på det ved havnen.", "answer": "helst", "es": "De los tres hoteles, el que más me apetece es el del puerto."},
+    {"prompt": "Jeg spiser ___ fisk, men i dag vil jeg hellere have kylling.", "answer": "gerne", "es": "Me gusta comer pescado, pero hoy prefiero pollo."}
+   ]
+  },
+  "vocab": [
+   {"text": "trænger til", "es": "necesitar, tener ganas de", "example": "Jeg trænger til ro og frisk luft.", "example_es": "Necesito tranquilidad y aire fresco."},
+   {"text": "i det mindste", "es": "al menos", "example": "I København kan vi i det mindste gå på museum.", "example_es": "En Copenhague al menos podemos ir a un museo."},
+   {"text": "en anden gang", "es": "en otra ocasión", "example": "Vi tager til Skagen en anden gang.", "example_es": "Iremos a Skagen en otra ocasión."},
+   {"text": "foretrækker", "es": "prefiero", "example": "Jeg foretrækker byen frem for stranden.", "example_es": "Prefiero la ciudad a la playa."}
+  ],
+  "transfer": {
+   "prompt": "Un amigo te propone dos planes para el sábado: ir al cine o hacer senderismo. Contéstale por mensaje diciendo cuál prefieres, por qué y qué hacéis con la otra opción (3–4 frases).",
+   "model": "Tak for invitationen! Jeg vil hellere gå tur end se film, fordi jeg sidder ned hele ugen på arbejdet. Helst et sted med udsigt over vandet. Biografen kan vi tage en anden gang, når det regner.",
+   "rubric": "Usa «hellere … end» o «helst», justifica con «fordi» y propone algo para la otra opción."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos amigos planean una escapada de fin de semana y dudan entre el Éislek (el norte rural de Luxemburgo) y Bruselas.",
+   "lines": [
+    {"text": "Fuere mir de Weekend an d'Éislek oder op Bréissel?", "es": "¿Vamos el fin de semana al Éislek o a Bruselas?"},
+    {"text": "Ech géif léiwer an d'Éislek fueren, well ech Rou brauch.", "es": "Yo preferiría el Éislek, porque necesito tranquilidad."},
+    {"text": "Mee d'Wieder gëtt schlecht, an do ass net vill lass.", "es": "Pero va a hacer mal tiempo y allí no hay mucho que hacer."},
+    {"text": "Ok, zu Bréissel kënne mir op d'mannst an e Musée goen.", "es": "Vale, en Bruselas al menos podemos ir a algún museo."},
+    {"text": "Genee, an do kënne mir am neie Fëschrestaurant iessen.", "es": "Exacto, y allí podemos comer en el nuevo restaurante de pescado."},
+    {"text": "Da fuere mir eng aner Kéier an d'Éislek, wann et Summer ass.", "es": "Pues vamos al Éislek en otra ocasión, cuando sea verano."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué eligen al final la ciudad?",
+   "choices": ["Porque hará mal tiempo y en el Éislek hay poco que hacer", "Porque en el Éislek no encontraron alojamiento", "Porque los dos prefieren la ciudad a la tranquilidad"]
+  },
+  "grammar": {
+   "focus": "Expresar preferencia: gär, léiwer, am léifsten",
+   "explain": "«Gär» expresa gusto (Ech iesse gär Fësch), «léiwer» compara dos opciones con «wéi» (Ech drénke léiwer Téi wéi Kaffi) y «am léifsten» marca la favorita (Am léifste fueren ech mam Zuch).",
+   "items": [
+    {"prompt": "Owes drénken ech ___ Téi wéi Kaffi.", "answer": "léiwer", "es": "Por la noche prefiero té a café."},
+    {"prompt": "Vun de véier Joreszäiten hunn ech de Summer ___.", "answer": "am léifsten", "es": "De las cuatro estaciones, la que más me gusta es el verano."},
+    {"prompt": "Ech iesse ___ Fësch, mee haut hätt ech léiwer Poulet.", "answer": "gär", "es": "Me gusta comer pescado, pero hoy prefiero pollo."}
+   ]
+  },
+  "vocab": [
+   {"text": "op d'mannst", "es": "al menos", "example": "Zu Bréissel kënne mir op d'mannst an e Musée goen.", "example_es": "En Bruselas al menos podemos ir a un museo."},
+   {"text": "eng aner Kéier", "es": "en otra ocasión", "example": "Mir fueren eng aner Kéier an d'Éislek.", "example_es": "Iremos al Éislek en otra ocasión."},
+   {"text": "net vill lass", "es": "poco ambiente, poco que hacer", "example": "Am Wanter ass do net vill lass.", "example_es": "En invierno allí no hay mucho que hacer."},
+   {"text": "d'Wieder", "es": "el tiempo (meteorológico)", "example": "D'Wieder gëtt de Weekend schlecht.", "example_es": "El fin de semana va a hacer mal tiempo."}
+  ],
+  "transfer": {
+   "prompt": "Un amigo te propone dos planes para el sábado: ir al cine o hacer senderismo. Contéstale por mensaje diciendo cuál prefieres, por qué y qué hacéis con la otra opción (3–4 frases).",
+   "model": "Merci fir d'Invitatioun! Ech géif léiwer trëppele goen wéi an de Kino, well ech déi ganz Woch um Büro sëtzen. Am léifste géif ech laanscht d'Sauer goen. An de Kino kënne mir eng aner Kéier goen, wann et reent.",
+   "rubric": "Usa «léiwer … wéi» o «am léifsten», justifica con «well» (verbo al final) y propone algo para la otra opción."
+  }
+ }
+}

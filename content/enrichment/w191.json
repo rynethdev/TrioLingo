@@ -1,0 +1,81 @@
+{
+ "week": 191,
+ "da": {
+  "dialogue2": {
+   "context": "Un jefe de obra advierte al director de la constructora, muy seguro de sí mismo y con prisa por firmar, de que el calendario de una obra en invierno es irreal.",
+   "lines": [
+    {"text": "Må jeg komme med en bekymring, inden vi skriver under?", "es": "¿Puedo plantear una preocupación antes de firmar?"},
+    {"text": "Hvis den er kort. Kunden venter.", "es": "Si es breve. El cliente espera."},
+    {"text": "Tidsplanen forudsætter, at betonen hærder på ti dage. I november tager det tyve.", "es": "El calendario da por hecho que el hormigón fragua en diez días. En noviembre tarda veinte."},
+    {"text": "Vi har klaret stramme planer før.", "es": "Ya hemos sacado adelante calendarios ajustados."},
+    {"text": "Det har vi, og det er netop derfor, jeg siger det nu og ikke i januar.", "es": "Así es, y precisamente por eso lo digo ahora y no en enero."},
+    {"text": "Og hvad foreslår du så? At vi taber ordren?", "es": "¿Y qué propones? ¿Que perdamos el encargo?"},
+    {"text": "Nej. At vi tilbyder samme pris med aflevering i marts — eller varmeovne til støbningen.", "es": "No. Que ofrezcamos el mismo precio con entrega en marzo, o calefactores para el hormigonado."},
+    {"text": "Varmeovne. Send mig et tal inden frokost.", "es": "Calefactores. Mándame una cifra antes de comer."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué dice el jefe de obra «por eso lo digo ahora y no en enero»?",
+   "choices": ["Porque advertir a tiempo es lo que permite corregir, y la experiencia pasada lo respalda", "Porque en enero estará de vacaciones", "Porque quiere demostrar que el director se equivoca"]
+  },
+  "grammar": {
+   "focus": "Fórmulas de atenuación ante un superior: må jeg, jeg tillader mig, ville det",
+   "explain": "Para advertir a quien tiene más autoridad sin sonar insolente se piden permiso o se presenta la propuesta como pregunta: Må jeg komme med en bekymring? Jeg tillader mig at påpege… (me permito señalar), Ville det være en idé at…? (¿no sería buena idea…?).",
+   "items": [
+    {"prompt": "___ jeg komme med en bekymring, inden vi går videre? (pedir permiso)", "answer": "Må", "es": "¿Puedo plantear una preocupación antes de seguir?"},
+    {"prompt": "Jeg ___ mig at påpege en risiko ved tidsplanen. (fórmula formal: me permito)", "answer": "tillader", "es": "Me permito señalar un riesgo en el calendario."},
+    {"prompt": "___ det være en idé at dele byggeriet op i to faser? (¿no sería…?)", "answer": "Ville", "es": "¿No sería buena idea dividir la obra en dos fases?"}
+   ]
+  },
+  "vocab": [
+   {"text": "skrive under", "es": "firmar", "example": "Lad os vente med at skrive under til i morgen.", "example_es": "Esperemos a mañana para firmar."},
+   {"text": "stram tidsplan", "es": "calendario ajustado", "example": "Det er en stram tidsplan for et vinterbyggeri.", "example_es": "Es un calendario ajustado para una obra en invierno."},
+   {"text": "sige fra i tide", "es": "advertir a tiempo", "example": "Det er bedre at sige fra i tide end at undskylde bagefter.", "example_es": "Es mejor advertir a tiempo que disculparse después."},
+   {"text": "komme med en bekymring", "es": "plantear una preocupación", "example": "Det er lettere at komme med en bekymring tidligt end sent.", "example_es": "Es más fácil plantear una preocupación pronto que tarde."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo (6–8 frases) a tu directora, que ya ha anunciado públicamente una fecha de lanzamiento, para advertirle de un riesgo serio: reconoce su decisión, presenta hechos, cuantifica la consecuencia y ofrece dos alternativas, sin dramatizar.",
+   "model": "Kære Karin, tak for en klar melding om lanceringen den 1. april — jeg kan godt se, hvorfor datoen er vigtig for os. Jeg tillader mig alligevel at gøre opmærksom på en risiko, før planen ligger helt fast. Testfasen er i den nuværende plan sat til to uger, men ved de seneste tre lanceringer tog den i gennemsnit fem. Hvis vi lancerer med uafsluttede tests, risikerer vi fejl hos de største kunder i de første uger. Efter min vurdering er der to muligheder: at lancere en mindre version den 1. april og resten i maj, eller at hente to ekstra testere ind fra næste uge. Begge dele kan holde datoen, i det mindste delvist. Jeg uddyber gerne tallene, når det passer dig.",
+   "rubric": "Reconoce la decisión del superior sin adulación; usa fórmulas de atenuación adecuadas («tillader mig», «efter min vurdering»); presenta hechos y cifras, no opiniones; cuantifica la consecuencia; ofrece alternativas concretas; tono respetuoso y firme."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un jefe de obra advierte al director de la constructora, muy seguro de sí mismo y con prisa por firmar, de que el calendario de una obra en invierno es irreal.",
+   "lines": [
+    {"text": "Erlaabt Dir mir eng Bemierkung, ier mir ënnerschreiwen?", "es": "¿Me permite un comentario antes de firmar?"},
+    {"text": "Wann se kuerz ass. De Client waart.", "es": "Si es breve. El cliente espera."},
+    {"text": "Den Zäitplang geet dovun aus, datt de Bëton an zéng Deeg hart gëtt. Am November dauert et zwanzeg.", "es": "El calendario da por hecho que el hormigón fragua en diez días. En noviembre tarda veinte."},
+    {"text": "Mir hunn och schonn enk Zäitpläng gepackt.", "es": "Ya hemos sacado adelante calendarios ajustados."},
+    {"text": "Dat hu mir, a grad dofir soen ech et elo an net am Januar.", "es": "Así es, y precisamente por eso lo digo ahora y no en enero."},
+    {"text": "A wat proposéiert Dir dann? Datt mir den Optrag verléieren?", "es": "¿Y qué propone? ¿Que perdamos el encargo?"},
+    {"text": "Neen. Datt mir dee selwechte Präis mat enger Liwwerung am Mäerz ubidden — oder Heizapparater fir de Betonnage.", "es": "No. Que ofrezcamos el mismo precio con entrega en marzo, o calefactores para el hormigonado."},
+    {"text": "Heizapparater. Schéckt mir eng Zuel virum Mëttegiessen.", "es": "Calefactores. Mándeme una cifra antes de comer."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué dice el jefe de obra «por eso lo digo ahora y no en enero»?",
+   "choices": ["Porque advertir a tiempo es lo que permite corregir, y la experiencia pasada lo respalda", "Porque en enero estará de vacaciones", "Porque quiere demostrar que el director se equivoca"]
+  },
+  "grammar": {
+   "focus": "Formas de cortesía ante un superior: Dir, Iech, Är",
+   "explain": "Ante un superior se mantiene la forma de cortesía: Dir (usted, sujeto), Iech (a usted), Är (su, de usted; Ären ante vocal y d, t, z, h). Combinadas con fórmulas como «Erlaabt Dir…?» o «Wann Dir erlaabt…» suavizan la advertencia sin restarle firmeza.",
+   "items": [
+    {"prompt": "Ech wollt ___ op e Risiko opmierksam maachen. (a usted)", "answer": "Iech", "es": "Quería advertirle de un riesgo."},
+    {"prompt": "Ech respektéieren ___ Entscheedung voll a ganz. (su, de usted; femenino)", "answer": "Är", "es": "Respeto plenamente su decisión."},
+    {"prompt": "Wann ___ erlaabt, hätt ech e Virschlag. (usted, sujeto)", "answer": "Dir", "es": "Si me lo permite, tendría una propuesta."}
+   ]
+  },
+  "vocab": [
+   {"text": "ënnerschreiwen", "es": "firmar", "example": "Mir sollten net ze séier ënnerschreiwen.", "example_es": "No deberíamos firmar demasiado deprisa."},
+   {"text": "en enken Zäitplang", "es": "un calendario ajustado", "example": "Dat ass en enken Zäitplang fir eng Bauplaz am Wanter.", "example_es": "Es un calendario ajustado para una obra en invierno."},
+   {"text": "opmierksam maachen", "es": "advertir, llamar la atención (sobre)", "example": "Ech wëll Iech op eng Gefor opmierksam maachen.", "example_es": "Quiero advertirle de un peligro."},
+   {"text": "rechtzäiteg", "es": "a tiempo", "example": "Et ass besser, rechtzäiteg ze warnen, wéi sech herno ze entschëllegen.", "example_es": "Es mejor advertir a tiempo que disculparse después."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo (6–8 frases) a tu directora, que ya ha anunciado públicamente una fecha de lanzamiento, para advertirle de un riesgo serio: reconoce su decisión, presenta hechos, cuantifica la consecuencia y ofrece dos alternativas, sin dramatizar.",
+   "model": "Léif Madame Weis, merci fir déi kloer Annonce vum Lancement den 1. Abrëll — ech verstinn gutt, firwat den Datum fir eis wichteg ass. Ech erlabe mir awer, Iech op e Risiko opmierksam ze maachen, ier de Plang definitiv steet. Am aktuelle Plang sinn zwou Woche fir d'Tester virgesinn, mä bei de leschten dräi Lancementer hunn se am Duerchschnëtt fënnef gedauert. Wa mir mat net ofgeschlossenen Tester lancéieren, riskéiere mir Feeler bei eise gréisste Clienten an den éischte Wochen. No menger Aschätzung gëtt et zwou Méiglechkeeten: den 1. Abrëll eng kleng Versioun ze lancéieren an de Rescht am Mee, oder ab nächster Woch zwee zousätzlech Tester eranzehuelen. Béid kéinten den Datum op d'mannst deelweis halen. Ech erklären Iech d'Zuele gär méi am Detail, wann et Iech passt.",
+   "rubric": "Reconoce la decisión de la superiora sin adulación; mantiene la cortesía (Dir, Iech, Är) y fórmulas de atenuación («Ech erlabe mir», «No menger Aschätzung»); presenta hechos y cifras; cuantifica la consecuencia; ofrece alternativas concretas; tono respetuoso y firme."
+  }
+ }
+}

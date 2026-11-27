@@ -1,0 +1,4514 @@
+[
+  {
+    "id": "lb-a1-presentarte",
+    "lang": "lb",
+    "level": "A1",
+    "week": 2,
+    "checkpoint": false,
+    "title": "Conocer a una vecina",
+    "goal": "Presentarte y decir de dónde vienes.",
+    "setup": "Te acabas de mudar y te presentan en el portal.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Moien! Wéi heeschs du?",
+        "es": "¡Hola! ¿Cómo te llamas?"
+      },
+      {
+        "speaker": 1,
+        "text": "Ech heeschen Ana. Et freet mech!",
+        "es": "Me llamo Ana. ¡Encantada!"
+      },
+      {
+        "speaker": 0,
+        "text": "Vu wou kënns du?",
+        "es": "¿De dónde vienes?"
+      },
+      {
+        "speaker": 1,
+        "text": "Ech kommen aus Chile a wunnen elo hei.",
+        "es": "Vengo de Chile y ahora vivo aquí."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Moien! Wéi heeschs du?",
+        "es": "Di tu nombre.",
+        "model": "Ech heeschen Ana. Et freet mech!",
+        "model_es": "Me llamo Ana. ¡Encantada!",
+        "accepted": [],
+        "tip": "Aprende la fórmula fija para dar tu nombre."
+      },
+      {
+        "prompt": "Vu wou kënns du?",
+        "es": "Di que vienes de Chile y ahora vives aquí.",
+        "model": "Ech kommen aus Chile a wunnen elo hei.",
+        "model_es": "Vengo de Chile y ahora vivo aquí.",
+        "accepted": [],
+        "tip": "El verbo en presente te sirve para decir dónde vives ahora."
+      }
+    ],
+    "listening": {
+      "prompt": "¿De dónde viene la persona nueva?",
+      "choices": [
+        "Chile",
+        "España",
+        "Dinamarca"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "Moien! Ech heesche Lena. Ech wunnen an der Nummer aacht.",
+      "prompt": "¿Quién vive en el número ocho?",
+      "choices": [
+        "Ana",
+        "Lena",
+        "Lina"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe un saludo breve con tu nombre y tu lugar de origen.",
+      "model": "Moien, ech heeschen Ana an ech kommen aus Chile.",
+      "rubric": "Incluye un saludo, tu nombre y tu lugar de origen."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Ech kommen ___ Chile a wunnen elo hei.",
+        "answer": "aus",
+        "explanation": "El verbo en presente te sirve para decir dónde vives ahora."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «ahora» en esta escena?",
+        "answer": "elo",
+        "explanation": "En la escena: Elo wunnen ech hei."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «vivir» en esta escena?",
+        "answer": "wunnen",
+        "explanation": "En la escena: Ech wunnen hei."
+      }
+    ]
+  },
+  {
+    "id": "da-a1-presentarte",
+    "lang": "da",
+    "level": "A1",
+    "week": 2,
+    "checkpoint": false,
+    "title": "Conocer a una vecina",
+    "goal": "Presentarte y decir de dónde vienes.",
+    "setup": "Te acabas de mudar y te presentan en el portal.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hej! Hvad hedder du?",
+        "es": "¡Hola! ¿Cómo te llamas?"
+      },
+      {
+        "speaker": 1,
+        "text": "Jeg hedder Ana. Hyggeligt at møde dig!",
+        "es": "Me llamo Ana. ¡Encantada!"
+      },
+      {
+        "speaker": 0,
+        "text": "Hvor kommer du fra?",
+        "es": "¿De dónde vienes?"
+      },
+      {
+        "speaker": 1,
+        "text": "Jeg kommer fra Chile og bor her nu.",
+        "es": "Vengo de Chile y ahora vivo aquí."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Hej! Hvad hedder du?",
+        "es": "Di tu nombre.",
+        "model": "Jeg hedder Ana. Hyggeligt at møde dig!",
+        "model_es": "Me llamo Ana. ¡Encantada!",
+        "accepted": [],
+        "tip": "Aprende la fórmula fija para dar tu nombre."
+      },
+      {
+        "prompt": "Hvor kommer du fra?",
+        "es": "Di que vienes de Chile y ahora vives aquí.",
+        "model": "Jeg kommer fra Chile og bor her nu.",
+        "model_es": "Vengo de Chile y ahora vivo aquí.",
+        "accepted": [],
+        "tip": "El verbo en presente te sirve para decir dónde vives ahora."
+      }
+    ],
+    "listening": {
+      "prompt": "¿De dónde viene la persona nueva?",
+      "choices": [
+        "Chile",
+        "España",
+        "Dinamarca"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "Hej! Jeg hedder Lena. Jeg bor i nummer otte.",
+      "prompt": "¿Quién vive en el número ocho?",
+      "choices": [
+        "Ana",
+        "Lena",
+        "Lina"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe un saludo breve con tu nombre y tu lugar de origen.",
+      "model": "Hej, jeg hedder Ana, og jeg kommer fra Chile.",
+      "rubric": "Incluye un saludo, tu nombre y tu lugar de origen."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Jeg kommer ___ Chile og bor her nu.",
+        "answer": "fra",
+        "explanation": "El verbo en presente te sirve para decir dónde vives ahora."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «ahora» en esta escena?",
+        "answer": "nu",
+        "explanation": "En la escena: Jeg bor her nu."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «vivo» en esta escena?",
+        "answer": "bor",
+        "explanation": "En la escena: Jeg bor her."
+      }
+    ]
+  },
+  {
+    "id": "lb-a1-anden",
+    "lang": "lb",
+    "level": "A1",
+    "week": 3,
+    "checkpoint": false,
+    "title": "Encontrar el andén",
+    "goal": "Entender números y preguntar por el andén.",
+    "setup": "Quieres tomar un tren. Pregunta desde dónde sale y a qué hora.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Gudde Moien. Kann ech Iech hëllefen?",
+        "es": "Buenos días. ¿Puedo ayudarle?"
+      },
+      {
+        "speaker": 1,
+        "text": "Vun wéi engem Gleis fiert den Zuch?",
+        "es": "¿De qué vía sale el tren?"
+      },
+      {
+        "speaker": 0,
+        "text": "E fiert vum Gleis zwee.",
+        "es": "Sale de la vía dos."
+      },
+      {
+        "speaker": 1,
+        "text": "Fiert en um néng Auer?",
+        "es": "¿Sale a las nueve?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Gudde Moien. Kann ech Iech hëllefen?",
+        "es": "Pregunta de qué vía sale el tren.",
+        "model": "Vun wéi engem Gleis fiert den Zuch?",
+        "model_es": "¿De qué vía sale el tren?",
+        "accepted": [],
+        "tip": "Pon la palabra interrogativa al comienzo."
+      },
+      {
+        "prompt": "E fiert vum Gleis zwee.",
+        "es": "Comprueba si sale a las nueve.",
+        "model": "Fiert en um néng Auer?",
+        "model_es": "¿Sale a las nueve?",
+        "accepted": [],
+        "tip": "Una pregunta de sí o no puede comenzar por el verbo."
+      }
+    ],
+    "listening": {
+      "prompt": "¿A qué hora pregunta si sale el tren?",
+      "choices": [
+        "A las ocho",
+        "A las nueve",
+        "A las diez"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Den Zuch fiert haut vum Gleis dräi.",
+      "prompt": "¿Qué vía señala el aviso escrito?",
+      "choices": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2
+    },
+    "writing": {
+      "prompt": "Pregunta por escrito desde qué vía sale el tren.",
+      "model": "Moien, vun wéi engem Gleis fiert den Zuch?",
+      "rubric": "Identifica el tren y pregunta por la vía."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Fiert en um ___ Auer?",
+        "answer": "néng",
+        "explanation": "Una pregunta de sí o no puede comenzar por el verbo."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «el tren» en esta escena?",
+        "answer": "den Zuch",
+        "explanation": "En la escena: Den Zuch fiert."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «la vía del tren» en esta escena?",
+        "answer": "d’Gleis",
+        "explanation": "En la escena: Gleis zwee."
+      }
+    ]
+  },
+  {
+    "id": "da-a1-anden",
+    "lang": "da",
+    "level": "A1",
+    "week": 3,
+    "checkpoint": false,
+    "title": "Encontrar el andén",
+    "goal": "Entender números y preguntar por el andén.",
+    "setup": "Quieres tomar un tren. Pregunta desde dónde sale y a qué hora.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Godmorgen. Kan jeg hjælpe dig?",
+        "es": "Buenos días. ¿Puedo ayudarle?"
+      },
+      {
+        "speaker": 1,
+        "text": "Hvilket spor kører toget fra?",
+        "es": "¿De qué vía sale el tren?"
+      },
+      {
+        "speaker": 0,
+        "text": "Det kører fra spor to.",
+        "es": "Sale de la vía dos."
+      },
+      {
+        "speaker": 1,
+        "text": "Kører det klokken ni?",
+        "es": "¿Sale a las nueve?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Godmorgen. Kan jeg hjælpe dig?",
+        "es": "Pregunta de qué vía sale el tren.",
+        "model": "Hvilket spor kører toget fra?",
+        "model_es": "¿De qué vía sale el tren?",
+        "accepted": [],
+        "tip": "Pon la palabra interrogativa al comienzo."
+      },
+      {
+        "prompt": "Det kører fra spor to.",
+        "es": "Comprueba si sale a las nueve.",
+        "model": "Kører det klokken ni?",
+        "model_es": "¿Sale a las nueve?",
+        "accepted": [],
+        "tip": "Una pregunta de sí o no puede comenzar por el verbo."
+      }
+    ],
+    "listening": {
+      "prompt": "¿A qué hora pregunta si sale el tren?",
+      "choices": [
+        "A las ocho",
+        "A las nueve",
+        "A las diez"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Toget kører fra spor tre i dag.",
+      "prompt": "¿Qué vía señala el aviso escrito?",
+      "choices": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2
+    },
+    "writing": {
+      "prompt": "Pregunta por escrito desde qué vía sale el tren.",
+      "model": "Hej, hvilket spor kører toget fra?",
+      "rubric": "Identifica el tren y pregunta por la vía."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Kører det klokken ___?",
+        "answer": "ni",
+        "explanation": "Una pregunta de sí o no puede comenzar por el verbo."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «el tren» en esta escena?",
+        "answer": "toget",
+        "explanation": "En la escena: Toget kører."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «vía del tren» en esta escena?",
+        "answer": "spor",
+        "explanation": "En la escena: Spor to."
+      }
+    ]
+  },
+  {
+    "id": "lb-a1-horarios",
+    "lang": "lb",
+    "level": "A1",
+    "week": 4,
+    "checkpoint": false,
+    "title": "Ir al supermercado",
+    "goal": "Pedir ayuda y entender instrucciones breves.",
+    "setup": "Necesitas leche y quieres saber cuándo cierra la tienda.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Moien, wat sicht Dir?",
+        "es": "Hola, ¿qué busca?"
+      },
+      {
+        "speaker": 1,
+        "text": "Wou ass d’Mëllech, wann ech gelift?",
+        "es": "¿Dónde está la leche, por favor?"
+      },
+      {
+        "speaker": 0,
+        "text": "Si ass hannen op der lénkser Säit.",
+        "es": "Está al fondo, a la izquierda."
+      },
+      {
+        "speaker": 1,
+        "text": "Um wéi vill Auer maacht Dir haut zou?",
+        "es": "¿A qué hora cierran hoy?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Moien, wat sicht Dir?",
+        "es": "Pregunta dónde está la leche.",
+        "model": "Wou ass d’Mëllech, wann ech gelift?",
+        "model_es": "¿Dónde está la leche, por favor?",
+        "accepted": [],
+        "tip": "Puedes añadir una fórmula de cortesía al final."
+      },
+      {
+        "prompt": "Si ass hannen op der lénkser Säit.",
+        "es": "Pregunta a qué hora cierran hoy.",
+        "model": "Um wéi vill Auer maacht Dir haut zou?",
+        "model_es": "¿A qué hora cierran hoy?",
+        "accepted": [],
+        "tip": "Aprende la expresión completa que se utiliza para preguntar la hora."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Dónde está la leche?",
+      "choices": [
+        "Junto a la caja",
+        "Al fondo",
+        "Al lado de la entrada"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Sonndes ass de Buttek zou.",
+      "prompt": "¿Cuándo está cerrada la tienda?",
+      "choices": [
+        "Hoy",
+        "El sábado",
+        "El domingo"
+      ],
+      "answer": 2
+    },
+    "writing": {
+      "prompt": "Escribe una pregunta para averiguar dónde está la leche.",
+      "model": "Wou ass d’Mëllech, wann ech gelift?",
+      "rubric": "Usa una fórmula cortés y nombra el producto."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Um wéi vill Auer maacht Dir ___ zou?",
+        "answer": "haut",
+        "explanation": "Aprende la expresión completa que se utiliza para preguntar la hora."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «la leche» en esta escena?",
+        "answer": "d’Mëllech",
+        "explanation": "En la escena: Wou ass d’Mëllech?."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «cerrado» en esta escena?",
+        "answer": "zou",
+        "explanation": "En la escena: De Buttek ass zou."
+      }
+    ]
+  },
+  {
+    "id": "da-a1-horarios",
+    "lang": "da",
+    "level": "A1",
+    "week": 4,
+    "checkpoint": false,
+    "title": "Ir al supermercado",
+    "goal": "Pedir ayuda y entender instrucciones breves.",
+    "setup": "Necesitas leche y quieres saber cuándo cierra la tienda.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hej, hvad leder du efter?",
+        "es": "Hola, ¿qué busca?"
+      },
+      {
+        "speaker": 1,
+        "text": "Hvor står mælken?",
+        "es": "¿Dónde está la leche, por favor?"
+      },
+      {
+        "speaker": 0,
+        "text": "Den står bagerst til venstre.",
+        "es": "Está al fondo, a la izquierda."
+      },
+      {
+        "speaker": 1,
+        "text": "Hvad tid lukker I i dag?",
+        "es": "¿A qué hora cierran hoy?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Hej, hvad leder du efter?",
+        "es": "Pregunta dónde está la leche.",
+        "model": "Hvor står mælken?",
+        "model_es": "¿Dónde está la leche, por favor?",
+        "accepted": [],
+        "tip": "Puedes añadir una fórmula de cortesía al final."
+      },
+      {
+        "prompt": "Den står bagerst til venstre.",
+        "es": "Pregunta a qué hora cierran hoy.",
+        "model": "Hvad tid lukker I i dag?",
+        "model_es": "¿A qué hora cierran hoy?",
+        "accepted": [],
+        "tip": "Aprende la expresión completa que se utiliza para preguntar la hora."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Dónde está la leche?",
+      "choices": [
+        "Junto a la caja",
+        "Al fondo",
+        "Al lado de la entrada"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Butikken er lukket om søndagen.",
+      "prompt": "¿Cuándo está cerrada la tienda?",
+      "choices": [
+        "Hoy",
+        "El sábado",
+        "El domingo"
+      ],
+      "answer": 2
+    },
+    "writing": {
+      "prompt": "Escribe una pregunta para averiguar dónde está la leche.",
+      "model": "Hej, kan du sige mig, hvor mælken står?",
+      "rubric": "Usa una fórmula cortés y nombra el producto."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Hvad tid ___ I i dag?",
+        "answer": "lukker",
+        "explanation": "Aprende la expresión completa que se utiliza para preguntar la hora."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «la leche» en esta escena?",
+        "answer": "mælken",
+        "explanation": "En la escena: Hvor står mælken?."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «a la izquierda» en esta escena?",
+        "answer": "til venstre",
+        "explanation": "En la escena: Den står til venstre."
+      }
+    ]
+  },
+  {
+    "id": "lb-a1-farmacia",
+    "lang": "lb",
+    "level": "A1",
+    "week": 5,
+    "checkpoint": true,
+    "title": "Control A1 · En la farmacia",
+    "goal": "Resolver una compra con las expresiones de A1.",
+    "setup": "Necesitas unas tiritas y quieres conocer el precio.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Gudde Moien, wat braucht Dir?",
+        "es": "Buenos días, ¿qué necesita?"
+      },
+      {
+        "speaker": 1,
+        "text": "Ech hätt gär e Plooschter, wann ech gelift.",
+        "es": "Quisiera unas tiritas, por favor."
+      },
+      {
+        "speaker": 0,
+        "text": "Hei ass e klenge Pak.",
+        "es": "Aquí tiene un paquete pequeño."
+      },
+      {
+        "speaker": 1,
+        "text": "Wéi vill kascht de Pak?",
+        "es": "¿Cuánto cuesta el paquete?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Gudde Moien, wat braucht Dir?",
+        "es": "Pide tiritas.",
+        "model": "Ech hätt gär e Plooschter, wann ech gelift.",
+        "model_es": "Quisiera unas tiritas, por favor.",
+        "accepted": [],
+        "tip": "El condicional de preferencia sirve para pedir con cortesía."
+      },
+      {
+        "prompt": "Hei ass e klenge Pak.",
+        "es": "Pregunta cuánto cuesta el paquete.",
+        "model": "Wéi vill kascht de Pak?",
+        "model_es": "¿Cuánto cuesta el paquete?",
+        "accepted": [],
+        "tip": "Distingue una pregunta de precio de una de hora."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué pide la persona?",
+      "choices": [
+        "Tiritas",
+        "Agua",
+        "Una bolsa"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "D’Apdikt mécht um aacht Auer op.",
+      "prompt": "¿Cuándo abre la farmacia?",
+      "choices": [
+        "A las siete",
+        "A las ocho",
+        "A las nueve"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe un mensaje corto preguntando si venden tiritas.",
+      "model": "Moien, hutt Dir Plooschteren?",
+      "rubric": "Usa una pregunta sencilla y menciona las tiritas."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Wéi vill ___ de Pak?",
+        "answer": "kascht",
+        "explanation": "Distingue una pregunta de precio de una de hora."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «un paquete pequeño» en esta escena?",
+        "answer": "e klenge Pak",
+        "explanation": "En la escena: Hei ass e klenge Pak."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «la farmacia» en esta escena?",
+        "answer": "d’Apdikt",
+        "explanation": "En la escena: D’Apdikt mécht op."
+      }
+    ]
+  },
+  {
+    "id": "da-a1-farmacia",
+    "lang": "da",
+    "level": "A1",
+    "week": 5,
+    "checkpoint": true,
+    "title": "Control A1 · En la farmacia",
+    "goal": "Resolver una compra con las expresiones de A1.",
+    "setup": "Necesitas unas tiritas y quieres conocer el precio.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Godmorgen, hvad har du brug for?",
+        "es": "Buenos días, ¿qué necesita?"
+      },
+      {
+        "speaker": 1,
+        "text": "Jeg vil gerne have nogle plastre, tak.",
+        "es": "Quisiera unas tiritas, por favor."
+      },
+      {
+        "speaker": 0,
+        "text": "Her er en lille pakke.",
+        "es": "Aquí tiene un paquete pequeño."
+      },
+      {
+        "speaker": 1,
+        "text": "Hvad koster pakken?",
+        "es": "¿Cuánto cuesta el paquete?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Godmorgen, hvad har du brug for?",
+        "es": "Pide tiritas.",
+        "model": "Jeg vil gerne have nogle plastre, tak.",
+        "model_es": "Quisiera unas tiritas, por favor.",
+        "accepted": [],
+        "tip": "El condicional de preferencia sirve para pedir con cortesía."
+      },
+      {
+        "prompt": "Her er en lille pakke.",
+        "es": "Pregunta cuánto cuesta el paquete.",
+        "model": "Hvad koster pakken?",
+        "model_es": "¿Cuánto cuesta el paquete?",
+        "accepted": [],
+        "tip": "Distingue una pregunta de precio de una de hora."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué pide la persona?",
+      "choices": [
+        "Tiritas",
+        "Agua",
+        "Una bolsa"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "Apoteket åbner klokken otte.",
+      "prompt": "¿Cuándo abre la farmacia?",
+      "choices": [
+        "A las siete",
+        "A las ocho",
+        "A las nueve"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe un mensaje corto preguntando si venden tiritas.",
+      "model": "Hej, sælger I plastre?",
+      "rubric": "Usa una pregunta sencilla y menciona las tiritas."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Hvad ___ pakken?",
+        "answer": "koster",
+        "explanation": "Distingue una pregunta de precio de una de hora."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «un paquete pequeño» en esta escena?",
+        "answer": "en lille pakke",
+        "explanation": "En la escena: Her er en lille pakke."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «la farmacia» en esta escena?",
+        "answer": "apoteket",
+        "explanation": "En la escena: Apoteket åbner."
+      }
+    ]
+  },
+  {
+    "id": "lb-a2-entrega",
+    "lang": "lb",
+    "level": "A2",
+    "week": 2,
+    "checkpoint": false,
+    "title": "Recoger un paquete",
+    "goal": "Pedir aclaración y comprobar instrucciones.",
+    "setup": "El aviso dice que alguien puede recogerlo por ti. Comprueba qué necesita.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Moien, wéi kann ech dir hëllefen?",
+        "es": "Hola, ¿en qué puedo ayudarte?"
+      },
+      {
+        "speaker": 1,
+        "text": "Ech géif gär e Pak ofhuelen.",
+        "es": "Vengo a recoger un paquete."
+      },
+      {
+        "speaker": 0,
+        "text": "Hues du d’Nummer vum Pak?",
+        "es": "¿Tienes el número del paquete?"
+      },
+      {
+        "speaker": 1,
+        "text": "Kann meng Schwëster en och ofhuelen?",
+        "es": "¿Puede también recogerlo mi hermana?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Moien, wéi kann ech dir hëllefen?",
+        "es": "Di que vienes a recoger un paquete.",
+        "model": "Ech géif gär e Pak ofhuelen.",
+        "model_es": "Vengo a recoger un paquete.",
+        "accepted": [],
+        "tip": "Practica el verbo compuesto de recogida."
+      },
+      {
+        "prompt": "Hues du d’Nummer vum Pak?",
+        "es": "Pregunta si tu hermana puede recogerlo.",
+        "model": "Kann meng Schwëster en och ofhuelen?",
+        "model_es": "¿Puede también recogerlo mi hermana?",
+        "accepted": [],
+        "tip": "Añade también a la pregunta para plantear una alternativa."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué pide el personal para buscar el paquete?",
+      "choices": [
+        "El número del paquete",
+        "La dirección de la persona",
+        "El precio del envío"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "Eng aner Persoun brauch eng Vollmacht an eng Identitéitskaart.",
+      "prompt": "¿Qué debe llevar otra persona?",
+      "choices": [
+        "Solo el número",
+        "El código del mensaje",
+        "Una identificación y una autorización"
+      ],
+      "answer": 2
+    },
+    "writing": {
+      "prompt": "Escribe una autorización corta para tu hermana.",
+      "model": "Meng Schwëster däerf mäi Pak ofhuelen.",
+      "rubric": "Identifica a tu hermana y especifica que puede recoger el paquete."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Kann meng Schwëster en ___ ofhuelen?",
+        "answer": "och",
+        "explanation": "Añade también a la pregunta para plantear una alternativa."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «recoger» en esta escena?",
+        "answer": "ofhuelen",
+        "explanation": "En la escena: Ech muss e Pak ofhuelen."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «una autorización» en esta escena?",
+        "answer": "eng Vollmacht",
+        "explanation": "En la escena: Eng aner Persoun brauch eng Vollmacht."
+      }
+    ]
+  },
+  {
+    "id": "da-a2-entrega",
+    "lang": "da",
+    "level": "A2",
+    "week": 2,
+    "checkpoint": false,
+    "title": "Recoger un paquete",
+    "goal": "Pedir aclaración y comprobar instrucciones.",
+    "setup": "El aviso dice que alguien puede recogerlo por ti. Comprueba qué necesita.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hej, hvad kan jeg hjælpe med?",
+        "es": "Hola, ¿en qué puedo ayudarte?"
+      },
+      {
+        "speaker": 1,
+        "text": "Jeg vil gerne hente en pakke.",
+        "es": "Vengo a recoger un paquete."
+      },
+      {
+        "speaker": 0,
+        "text": "Har du pakkenummeret?",
+        "es": "¿Tienes el número del paquete?"
+      },
+      {
+        "speaker": 1,
+        "text": "Kan min søster også hente den?",
+        "es": "¿Puede también recogerlo mi hermana?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Hej, hvad kan jeg hjælpe med?",
+        "es": "Di que vienes a recoger un paquete.",
+        "model": "Jeg vil gerne hente en pakke.",
+        "model_es": "Vengo a recoger un paquete.",
+        "accepted": [],
+        "tip": "Practica el verbo compuesto de recogida."
+      },
+      {
+        "prompt": "Har du pakkenummeret?",
+        "es": "Pregunta si tu hermana puede recogerlo.",
+        "model": "Kan min søster også hente den?",
+        "model_es": "¿Puede también recogerlo mi hermana?",
+        "accepted": [],
+        "tip": "Añade también a la pregunta para plantear una alternativa."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué pide el personal para buscar el paquete?",
+      "choices": [
+        "El número del paquete",
+        "La dirección de la persona",
+        "El precio del envío"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "En anden person skal have en fuldmagt og legitimation med.",
+      "prompt": "¿Qué debe llevar otra persona?",
+      "choices": [
+        "Solo el número",
+        "El código del mensaje",
+        "Una identificación y una autorización"
+      ],
+      "answer": 2
+    },
+    "writing": {
+      "prompt": "Escribe una autorización corta para tu hermana.",
+      "model": "Min søster må gerne hente min pakke for mig.",
+      "rubric": "Identifica a tu hermana y especifica que puede recoger el paquete."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Kan min søster ___ hente den?",
+        "answer": "også",
+        "explanation": "Añade también a la pregunta para plantear una alternativa."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «recoger» en esta escena?",
+        "answer": "hente",
+        "explanation": "En la escena: Jeg vil gerne hente en pakke."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «una autorización» en esta escena?",
+        "answer": "en fuldmagt",
+        "explanation": "En la escena: Du skal have en fuldmagt med."
+      }
+    ]
+  },
+  {
+    "id": "lb-a2-invitacion",
+    "lang": "lb",
+    "level": "A2",
+    "week": 3,
+    "checkpoint": false,
+    "title": "Responder a una invitación",
+    "goal": "Agradecer, confirmar y ajustar un plan.",
+    "setup": "Te invitan a cenar. Llegas más tarde y quieres llevar algo.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Kënns du haut den Owend iessen?",
+        "es": "¿Vienes a cenar esta noche?"
+      },
+      {
+        "speaker": 1,
+        "text": "Merci. Ech kann um siwen Auer kommen.",
+        "es": "Gracias. Puedo llegar a las siete."
+      },
+      {
+        "speaker": 0,
+        "text": "Perfekt, bis herno.",
+        "es": "Perfecto, nos vemos luego."
+      },
+      {
+        "speaker": 1,
+        "text": "Kann ech en Dessert matbréngen?",
+        "es": "¿Puedo llevar un postre?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Kënns du haut den Owend iessen?",
+        "es": "Agradece y di que puedes llegar a las siete.",
+        "model": "Merci. Ech kann um siwen Auer kommen.",
+        "model_es": "Gracias. Puedo llegar a las siete.",
+        "accepted": [],
+        "tip": "Una respuesta amable puede empezar por agradecer antes de hablar de la hora."
+      },
+      {
+        "prompt": "Perfekt, bis herno.",
+        "es": "Pregunta si puedes llevar un postre.",
+        "model": "Kann ech en Dessert matbréngen?",
+        "model_es": "¿Puedo llevar un postre?",
+        "accepted": [],
+        "tip": "Aprende el verbo de llevar algo a un encuentro."
+      }
+    ],
+    "listening": {
+      "prompt": "¿A qué hora puede llegar la persona invitada?",
+      "choices": [
+        "A las siete",
+        "A las seis",
+        "A las ocho"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "So eis w.e.g. Bescheed, wann s du eng Allergie hues.",
+      "prompt": "¿Qué pide el mensaje de invitación?",
+      "choices": [
+        "Traer bebida",
+        "Avisar si hay alergias",
+        "Confirmar antes del mediodía"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe una respuesta breve a la invitación.",
+      "model": "Merci fir d’Aluedung. Ech kommen um siwen a bréngen en Dessert mat.",
+      "rubric": "Agradece, da una hora y ofrece llevar algo."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Kann ech en Dessert ___?",
+        "answer": "matbréngen",
+        "explanation": "Aprende el verbo de llevar algo a un encuentro."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «esta noche» en esta escena?",
+        "answer": "haut den Owend",
+        "explanation": "En la escena: Kënns du haut den Owend?."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «hasta luego» en esta escena?",
+        "answer": "bis herno",
+        "explanation": "En la escena: Perfekt, bis herno."
+      }
+    ]
+  },
+  {
+    "id": "da-a2-invitacion",
+    "lang": "da",
+    "level": "A2",
+    "week": 3,
+    "checkpoint": false,
+    "title": "Responder a una invitación",
+    "goal": "Agradecer, confirmar y ajustar un plan.",
+    "setup": "Te invitan a cenar. Llegas más tarde y quieres llevar algo.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Kommer du til middag i aften?",
+        "es": "¿Vienes a cenar esta noche?"
+      },
+      {
+        "speaker": 1,
+        "text": "Tak. Jeg kan komme klokken syv.",
+        "es": "Gracias. Puedo llegar a las siete."
+      },
+      {
+        "speaker": 0,
+        "text": "Perfekt, vi ses senere.",
+        "es": "Perfecto, nos vemos luego."
+      },
+      {
+        "speaker": 1,
+        "text": "Må jeg tage en dessert med?",
+        "es": "¿Puedo llevar un postre?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Kommer du til middag i aften?",
+        "es": "Agradece y di que puedes llegar a las siete.",
+        "model": "Tak. Jeg kan komme klokken syv.",
+        "model_es": "Gracias. Puedo llegar a las siete.",
+        "accepted": [],
+        "tip": "Una respuesta amable puede empezar por agradecer antes de hablar de la hora."
+      },
+      {
+        "prompt": "Perfekt, vi ses senere.",
+        "es": "Pregunta si puedes llevar un postre.",
+        "model": "Må jeg tage en dessert med?",
+        "model_es": "¿Puedo llevar un postre?",
+        "accepted": [],
+        "tip": "Aprende el verbo de llevar algo a un encuentro."
+      }
+    ],
+    "listening": {
+      "prompt": "¿A qué hora puede llegar la persona invitada?",
+      "choices": [
+        "A las siete",
+        "A las seis",
+        "A las ocho"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "Giv os besked, hvis du har en allergi.",
+      "prompt": "¿Qué pide el mensaje de invitación?",
+      "choices": [
+        "Traer bebida",
+        "Avisar si hay alergias",
+        "Confirmar antes del mediodía"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe una respuesta breve a la invitación.",
+      "model": "Tak for invitationen. Jeg kommer klokken syv og tager en dessert med.",
+      "rubric": "Agradece, da una hora y ofrece llevar algo."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Må jeg tage en ___ med?",
+        "answer": "dessert",
+        "explanation": "Aprende el verbo de llevar algo a un encuentro."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «esta noche» en esta escena?",
+        "answer": "i aften",
+        "explanation": "En la escena: Kommer du i aften?."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «nos vemos luego» en esta escena?",
+        "answer": "vi ses senere",
+        "explanation": "En la escena: Perfekt, vi ses senere."
+      }
+    ]
+  },
+  {
+    "id": "lb-a2-perdido",
+    "lang": "lb",
+    "level": "A2",
+    "week": 4,
+    "checkpoint": false,
+    "title": "Recuperar una mochila",
+    "goal": "Describir objetos y decir cuándo los viste.",
+    "setup": "Perdiste la mochila en el autobús. Da una descripción y deja tu contacto.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Wat hutt Dir verluer?",
+        "es": "¿Qué ha perdido?"
+      },
+      {
+        "speaker": 1,
+        "text": "Ech hunn e bloe Rucksak vergiess.",
+        "es": "Me dejé una mochila azul."
+      },
+      {
+        "speaker": 0,
+        "text": "Wéini war dat?",
+        "es": "¿Cuándo fue?"
+      },
+      {
+        "speaker": 1,
+        "text": "Gëschter, wéi ech erausgeklomme sinn.",
+        "es": "Ayer, cuando me bajé."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Wat hutt Dir verluer?",
+        "es": "Di que olvidaste una mochila azul.",
+        "model": "Ech hunn e bloe Rucksak vergiess.",
+        "model_es": "Me dejé una mochila azul.",
+        "accepted": [],
+        "tip": "Usa el pasado para decir qué ocurrió."
+      },
+      {
+        "prompt": "Wéini war dat?",
+        "es": "Di que ocurrió ayer al bajar.",
+        "model": "Gëschter, wéi ech erausgeklomme sinn.",
+        "model_es": "Ayer, cuando me bajé.",
+        "accepted": [],
+        "tip": "Recuerda la expresión que se usa para bajarse de un transporte."
+      }
+    ],
+    "listening": {
+      "prompt": "¿De qué color era la mochila?",
+      "choices": [
+        "Negra",
+        "Azul",
+        "Verde"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Gitt d’Buslinn an eng Beschreiwung vum Objet un.",
+      "prompt": "¿Qué debe incluir un aviso de objeto perdido?",
+      "choices": [
+        "Solo el nombre",
+        "El valor del objeto",
+        "La línea y una descripción"
+      ],
+      "answer": 2
+    },
+    "writing": {
+      "prompt": "Escribe un aviso para objetos perdidos.",
+      "model": "Ech hunn e bloe Rucksak gëschter am Bus vergiess.",
+      "rubric": "Da el objeto, su color y el momento aproximado."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "___, wéi ech erausgeklomme sinn.",
+        "answer": "Gëschter",
+        "explanation": "Recuerda la expresión que se usa para bajarse de un transporte."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «una mochila azul» en esta escena?",
+        "answer": "e bloe Rucksak",
+        "explanation": "En la escena: Ech hunn e bloe Rucksak."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «perdido» en esta escena?",
+        "answer": "verluer",
+        "explanation": "En la escena: Wat hutt Dir verluer?."
+      }
+    ]
+  },
+  {
+    "id": "da-a2-perdido",
+    "lang": "da",
+    "level": "A2",
+    "week": 4,
+    "checkpoint": false,
+    "title": "Recuperar una mochila",
+    "goal": "Describir objetos y decir cuándo los viste.",
+    "setup": "Perdiste la mochila en el autobús. Da una descripción y deja tu contacto.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hvad har du mistet?",
+        "es": "¿Qué ha perdido?"
+      },
+      {
+        "speaker": 1,
+        "text": "Jeg har glemt en blå rygsæk.",
+        "es": "Me dejé una mochila azul."
+      },
+      {
+        "speaker": 0,
+        "text": "Hvornår var det?",
+        "es": "¿Cuándo fue?"
+      },
+      {
+        "speaker": 1,
+        "text": "I går, da jeg steg af.",
+        "es": "Ayer, cuando me bajé."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Hvad har du mistet?",
+        "es": "Di que olvidaste una mochila azul.",
+        "model": "Jeg har glemt en blå rygsæk.",
+        "model_es": "Me dejé una mochila azul.",
+        "accepted": [],
+        "tip": "Usa el pasado para decir qué ocurrió."
+      },
+      {
+        "prompt": "Hvornår var det?",
+        "es": "Di que ocurrió ayer al bajar.",
+        "model": "I går, da jeg steg af.",
+        "model_es": "Ayer, cuando me bajé.",
+        "accepted": [],
+        "tip": "Recuerda la expresión que se usa para bajarse de un transporte."
+      }
+    ],
+    "listening": {
+      "prompt": "¿De qué color era la mochila?",
+      "choices": [
+        "Negra",
+        "Azul",
+        "Verde"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Oplys buslinjen og giv en beskrivelse af genstanden.",
+      "prompt": "¿Qué debe incluir un aviso de objeto perdido?",
+      "choices": [
+        "Solo el nombre",
+        "El valor del objeto",
+        "La línea y una descripción"
+      ],
+      "answer": 2
+    },
+    "writing": {
+      "prompt": "Escribe un aviso para objetos perdidos.",
+      "model": "Jeg glemte en blå rygsæk i bussen i går.",
+      "rubric": "Da el objeto, su color y el momento aproximado."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "I går, da jeg ___.",
+        "answer": "steg af",
+        "explanation": "Recuerda la expresión que se usa para bajarse de un transporte."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «una mochila azul» en esta escena?",
+        "answer": "en blå rygsæk",
+        "explanation": "En la escena: Jeg har glemt en blå rygsæk."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «perdido» en esta escena?",
+        "answer": "mistet",
+        "explanation": "En la escena: Hvad har du mistet?."
+      }
+    ]
+  },
+  {
+    "id": "lb-a2-devolucion",
+    "lang": "lb",
+    "level": "A2",
+    "week": 5,
+    "checkpoint": true,
+    "title": "Control A2 · Cambiar una compra",
+    "goal": "Explicar el problema y pedir una alternativa.",
+    "setup": "Compraste una chaqueta que te queda pequeña. Pregunta por el cambio.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Firwat wëllt Dir d’Jackett ëmtauschen?",
+        "es": "¿Por qué quiere cambiar la chaqueta?"
+      },
+      {
+        "speaker": 1,
+        "text": "Si ass mir ze kleng.",
+        "es": "Me queda demasiado pequeña."
+      },
+      {
+        "speaker": 0,
+        "text": "Mir kënnen no de Gréisste kucken.",
+        "es": "Podemos mirar las tallas."
+      },
+      {
+        "speaker": 1,
+        "text": "Hutt Dir eng méi grouss Gréisst?",
+        "es": "¿Tiene una talla más grande?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Firwat wëllt Dir d’Jackett ëmtauschen?",
+        "es": "Di que la chaqueta te queda pequeña.",
+        "model": "Si ass mir ze kleng.",
+        "model_es": "Me queda demasiado pequeña.",
+        "accepted": [],
+        "tip": "La estructura de demasiado + adjetivo expresa el problema."
+      },
+      {
+        "prompt": "Mir kënnen no de Gréisste kucken.",
+        "es": "Pregunta si tienen una talla más grande.",
+        "model": "Hutt Dir eng méi grouss Gréisst?",
+        "model_es": "¿Tiene una talla más grande?",
+        "accepted": [],
+        "tip": "Un comparativo permite pedir una talla distinta."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Por qué quiere cambiarla?",
+      "choices": [
+        "Es cara",
+        "Le queda pequeña",
+        "El color es distinto"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Beim Ëmtausch braucht Dir de Bong.",
+      "prompt": "¿Qué documento solicita el aviso de devoluciones?",
+      "choices": [
+        "El recibo",
+        "El pasaporte",
+        "La tarjeta del transporte"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Escribe una petición breve de cambio.",
+      "model": "D’Jackett ass mir ze kleng. Hutt Dir eng méi grouss Gréisst?",
+      "rubric": "Explica el problema y pide una talla mayor."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Hutt Dir eng ___ Gréisst?",
+        "answer": "méi grouss",
+        "explanation": "Un comparativo permite pedir una talla distinta."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «demasiado pequeño» en esta escena?",
+        "answer": "ze kleng",
+        "explanation": "En la escena: Si ass mir ze kleng."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «el recibo» en esta escena?",
+        "answer": "de Bong",
+        "explanation": "En la escena: Dir braucht de Bong."
+      }
+    ]
+  },
+  {
+    "id": "da-a2-devolucion",
+    "lang": "da",
+    "level": "A2",
+    "week": 5,
+    "checkpoint": true,
+    "title": "Control A2 · Cambiar una compra",
+    "goal": "Explicar el problema y pedir una alternativa.",
+    "setup": "Compraste una chaqueta que te queda pequeña. Pregunta por el cambio.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hvorfor vil du bytte jakken?",
+        "es": "¿Por qué quiere cambiar la chaqueta?"
+      },
+      {
+        "speaker": 1,
+        "text": "Den er for lille til mig.",
+        "es": "Me queda demasiado pequeña."
+      },
+      {
+        "speaker": 0,
+        "text": "Vi kan kigge på størrelserne.",
+        "es": "Podemos mirar las tallas."
+      },
+      {
+        "speaker": 1,
+        "text": "Har I en større størrelse?",
+        "es": "¿Tiene una talla más grande?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Hvorfor vil du bytte jakken?",
+        "es": "Di que la chaqueta te queda pequeña.",
+        "model": "Den er for lille til mig.",
+        "model_es": "Me queda demasiado pequeña.",
+        "accepted": [],
+        "tip": "La estructura de demasiado + adjetivo expresa el problema."
+      },
+      {
+        "prompt": "Vi kan kigge på størrelserne.",
+        "es": "Pregunta si tienen una talla más grande.",
+        "model": "Har I en større størrelse?",
+        "model_es": "¿Tiene una talla más grande?",
+        "accepted": [],
+        "tip": "Un comparativo permite pedir una talla distinta."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Por qué quiere cambiarla?",
+      "choices": [
+        "Es cara",
+        "Le queda pequeña",
+        "El color es distinto"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Ved ombytning skal du have kvitteringen med.",
+      "prompt": "¿Qué documento solicita el aviso de devoluciones?",
+      "choices": [
+        "El recibo",
+        "El pasaporte",
+        "La tarjeta del transporte"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Escribe una petición breve de cambio.",
+      "model": "Jakken er for lille til mig. Kan jeg få den i en større størrelse?",
+      "rubric": "Explica el problema y pide una talla mayor."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Har I en ___ størrelse?",
+        "answer": "større",
+        "explanation": "Un comparativo permite pedir una talla distinta."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «demasiado pequeño» en esta escena?",
+        "answer": "for lille",
+        "explanation": "En la escena: Den er for lille."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «el recibo» en esta escena?",
+        "answer": "kvitteringen",
+        "explanation": "En la escena: Husk kvitteringen."
+      }
+    ]
+  },
+  {
+    "id": "lb-b1-consulta",
+    "lang": "lb",
+    "level": "B1",
+    "week": 2,
+    "checkpoint": false,
+    "title": "Explicar un problema en consulta",
+    "goal": "Ordenar un relato y contestar preguntas de seguimiento.",
+    "setup": "En recepción te preguntan por un dolor de rodilla. Describe cuándo empezó y qué lo agrava.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Zënter wéini deet Äre Knéi wéi?",
+        "es": "¿Desde cuándo le duele la rodilla?"
+      },
+      {
+        "speaker": 1,
+        "text": "Et huet virun dräi Deeg no engem Spadséiergang ugefaangen.",
+        "es": "Empezó hace tres días después de caminar."
+      },
+      {
+        "speaker": 0,
+        "text": "Gëtt de Wéi bei eppes méi schlëmm?",
+        "es": "¿Hay algo que empeore el dolor?"
+      },
+      {
+        "speaker": 1,
+        "text": "Et deet méi wéi, wann ech d’Trap eropginn.",
+        "es": "Duele más cuando subo escaleras."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Zënter wéini deet Äre Knéi wéi?",
+        "es": "Explica que empezó hace tres días después de una caminata.",
+        "model": "Et huet virun dräi Deeg no engem Spadséiergang ugefaangen.",
+        "model_es": "Empezó hace tres días después de caminar.",
+        "accepted": [],
+        "tip": "Ubica el inicio y el acontecimiento anterior en la misma frase."
+      },
+      {
+        "prompt": "Gëtt de Wéi bei eppes méi schlëmm?",
+        "es": "Di que al subir escaleras empeora.",
+        "model": "Et deet méi wéi, wann ech d’Trap eropginn.",
+        "model_es": "Duele más cuando subo escaleras.",
+        "accepted": [],
+        "tip": "Introduce la situación que se repite con una subordinada temporal."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué empeora el dolor?",
+      "choices": [
+        "Estar sentado",
+        "Subir escaleras",
+        "Comer"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Bréngt w.e.g. Är Kaart an eng Lëscht mat Äre Medikamenter mat.",
+      "prompt": "¿Qué pide llevar además de la tarjeta?",
+      "choices": [
+        "Una lista de medicamentos",
+        "Una foto",
+        "La dirección del trabajo"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Describe el problema para preparar la consulta.",
+      "model": "Mäi Knéi deet zënter dräi Deeg wéi. Beim Trapegoen deet et méi wéi.",
+      "rubric": "Incluye cuándo empezó, qué hiciste antes y qué lo agrava."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Et deet méi wéi, ___ ech d’Trap eropginn.",
+        "answer": "wann",
+        "explanation": "Introduce la situación que se repite con una subordinada temporal."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «hace tres días» en esta escena?",
+        "answer": "virun dräi Deeg",
+        "explanation": "En la escena: Et huet virun dräi Deeg ugefaangen."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «la escalera» en esta escena?",
+        "answer": "d’Trap",
+        "explanation": "En la escena: Ech ginn d’Trap erop."
+      }
+    ]
+  },
+  {
+    "id": "da-b1-consulta",
+    "lang": "da",
+    "level": "B1",
+    "week": 2,
+    "checkpoint": false,
+    "title": "Explicar un problema en consulta",
+    "goal": "Ordenar un relato y contestar preguntas de seguimiento.",
+    "setup": "En recepción te preguntan por un dolor de rodilla. Describe cuándo empezó y qué lo agrava.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hvor længe har du haft ondt i knæet?",
+        "es": "¿Desde cuándo le duele la rodilla?"
+      },
+      {
+        "speaker": 1,
+        "text": "Det begyndte for tre dage siden efter en gåtur.",
+        "es": "Empezó hace tres días después de caminar."
+      },
+      {
+        "speaker": 0,
+        "text": "Er der noget, der gør smerten værre?",
+        "es": "¿Hay algo que empeore el dolor?"
+      },
+      {
+        "speaker": 1,
+        "text": "Det gør mere ondt, når jeg går op ad trapper.",
+        "es": "Duele más cuando subo escaleras."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Hvor længe har du haft ondt i knæet?",
+        "es": "Explica que empezó hace tres días después de una caminata.",
+        "model": "Det begyndte for tre dage siden efter en gåtur.",
+        "model_es": "Empezó hace tres días después de caminar.",
+        "accepted": [],
+        "tip": "Ubica el inicio y el acontecimiento anterior en la misma frase."
+      },
+      {
+        "prompt": "Er der noget, der gør smerten værre?",
+        "es": "Di que al subir escaleras empeora.",
+        "model": "Det gør mere ondt, når jeg går op ad trapper.",
+        "model_es": "Duele más cuando subo escaleras.",
+        "accepted": [],
+        "tip": "Introduce la situación que se repite con una subordinada temporal."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué empeora el dolor?",
+      "choices": [
+        "Estar sentado",
+        "Subir escaleras",
+        "Comer"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Medbring dit kort og en liste over din medicin.",
+      "prompt": "¿Qué pide llevar además de la tarjeta?",
+      "choices": [
+        "Una lista de medicamentos",
+        "Una foto",
+        "La dirección del trabajo"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Describe el problema para preparar la consulta.",
+      "model": "Jeg har haft ondt i knæet i tre dage. Det bliver værre, når jeg går op ad trapper.",
+      "rubric": "Incluye cuándo empezó, qué hiciste antes y qué lo agrava."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Det gør mere ondt, ___ jeg går op ad trapper.",
+        "answer": "når",
+        "explanation": "Introduce la situación que se repite con una subordinada temporal."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «hace tres días» en esta escena?",
+        "answer": "for tre dage siden",
+        "explanation": "En la escena: Det begyndte for tre dage siden."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «dolor de rodilla» en esta escena?",
+        "answer": "ondt i knæet",
+        "explanation": "En la escena: Jeg har ondt i knæet."
+      }
+    ]
+  },
+  {
+    "id": "lb-b1-empleo",
+    "lang": "lb",
+    "level": "B1",
+    "week": 3,
+    "checkpoint": false,
+    "title": "Contar tu experiencia laboral",
+    "goal": "Hablar de experiencia pasada y disponibilidad.",
+    "setup": "Te llaman por una oferta y quieren saber qué has hecho y cuándo podrías empezar.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hutt Dir Erfarung mat Clienten?",
+        "es": "¿Tiene experiencia con clientes?"
+      },
+      {
+        "speaker": 1,
+        "text": "Ech hunn zwee Joer am Clientsdéngscht geschafft.",
+        "es": "Trabajé dos años en atención al cliente."
+      },
+      {
+        "speaker": 0,
+        "text": "Wéini kënnt Dir ufänken?",
+        "es": "¿Cuándo podría empezar?"
+      },
+      {
+        "speaker": 1,
+        "text": "Wann et néideg ass, kann ech d’nächst Woch ufänken.",
+        "es": "Si hace falta, puedo empezar la semana próxima."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Hutt Dir Erfarung mat Clienten?",
+        "es": "Explica que trabajaste dos años en atención al cliente.",
+        "model": "Ech hunn zwee Joer am Clientsdéngscht geschafft.",
+        "model_es": "Trabajé dos años en atención al cliente.",
+        "accepted": [],
+        "tip": "Pon la duración junto a la actividad pasada."
+      },
+      {
+        "prompt": "Wéini kënnt Dir ufänken?",
+        "es": "Di que puedes empezar la semana próxima si hace falta.",
+        "model": "Wann et néideg ass, kann ech d’nächst Woch ufänken.",
+        "model_es": "Si hace falta, puedo empezar la semana próxima.",
+        "accepted": [],
+        "tip": "Presenta disponibilidad con una condición breve."
+      }
+    ],
+    "listening": {
+      "prompt": "¿En qué tiene experiencia la persona?",
+      "choices": [
+        "Atención al cliente",
+        "Contabilidad",
+        "Reparto"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "Schéckt Är Kandidatur spéitstens e Freideg.",
+      "prompt": "¿Cuándo hay que enviar la solicitud?",
+      "choices": [
+        "El lunes como máximo",
+        "El jueves como máximo",
+        "El viernes como máximo"
+      ],
+      "answer": 2
+    },
+    "writing": {
+      "prompt": "Escribe dos frases para presentarte a la empresa.",
+      "model": "Ech hunn zwee Joer am Clientsdéngscht geschafft. Ech kann d’nächst Woch ufänken.",
+      "rubric": "Incluye experiencia y disponibilidad."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Wann et ___ ass, kann ech d’nächst Woch ufänken.",
+        "answer": "néideg",
+        "explanation": "Presenta disponibilidad con una condición breve."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «la atención al cliente» en esta escena?",
+        "answer": "de Clientsdéngscht",
+        "explanation": "En la escena: Ech hunn am Clientsdéngscht geschafft."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «empezar» en esta escena?",
+        "answer": "ufänken",
+        "explanation": "En la escena: Wéini kënnt Dir ufänken?."
+      }
+    ]
+  },
+  {
+    "id": "da-b1-empleo",
+    "lang": "da",
+    "level": "B1",
+    "week": 3,
+    "checkpoint": false,
+    "title": "Contar tu experiencia laboral",
+    "goal": "Hablar de experiencia pasada y disponibilidad.",
+    "setup": "Te llaman por una oferta y quieren saber qué has hecho y cuándo podrías empezar.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Har du erfaring med kunder?",
+        "es": "¿Tiene experiencia con clientes?"
+      },
+      {
+        "speaker": 1,
+        "text": "Jeg arbejdede i kundeservice i to år.",
+        "es": "Trabajé dos años en atención al cliente."
+      },
+      {
+        "speaker": 0,
+        "text": "Hvornår kan du begynde?",
+        "es": "¿Cuándo podría empezar?"
+      },
+      {
+        "speaker": 1,
+        "text": "Hvis det er nødvendigt, kan jeg begynde i næste uge.",
+        "es": "Si hace falta, puedo empezar la semana próxima."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Har du erfaring med kunder?",
+        "es": "Explica que trabajaste dos años en atención al cliente.",
+        "model": "Jeg arbejdede i kundeservice i to år.",
+        "model_es": "Trabajé dos años en atención al cliente.",
+        "accepted": [],
+        "tip": "Pon la duración junto a la actividad pasada."
+      },
+      {
+        "prompt": "Hvornår kan du begynde?",
+        "es": "Di que puedes empezar la semana próxima si hace falta.",
+        "model": "Hvis det er nødvendigt, kan jeg begynde i næste uge.",
+        "model_es": "Si hace falta, puedo empezar la semana próxima.",
+        "accepted": [],
+        "tip": "Presenta disponibilidad con una condición breve."
+      }
+    ],
+    "listening": {
+      "prompt": "¿En qué tiene experiencia la persona?",
+      "choices": [
+        "Atención al cliente",
+        "Contabilidad",
+        "Reparto"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "Send din ansøgning senest fredag.",
+      "prompt": "¿Cuándo hay que enviar la solicitud?",
+      "choices": [
+        "El lunes como máximo",
+        "El jueves como máximo",
+        "El viernes como máximo"
+      ],
+      "answer": 2
+    },
+    "writing": {
+      "prompt": "Escribe dos frases para presentarte a la empresa.",
+      "model": "Jeg har to års erfaring med kundeservice. Jeg kan begynde i næste uge.",
+      "rubric": "Incluye experiencia y disponibilidad."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Hvis det er ___, kan jeg begynde i næste uge.",
+        "answer": "nødvendigt",
+        "explanation": "Presenta disponibilidad con una condición breve."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «atención al cliente» en esta escena?",
+        "answer": "kundeservice",
+        "explanation": "En la escena: Jeg arbejdede i kundeservice."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «la semana próxima» en esta escena?",
+        "answer": "i næste uge",
+        "explanation": "En la escena: Jeg kan begynde i næste uge."
+      }
+    ]
+  },
+  {
+    "id": "lb-b1-municipio",
+    "lang": "lb",
+    "level": "B1",
+    "week": 4,
+    "checkpoint": false,
+    "title": "Orientarte en una oficina municipal",
+    "goal": "Confirmar requisitos y plazos en una conversación.",
+    "setup": "Te falta un documento. Averigua si puedes presentar una copia digital después.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hutt Dir all Dokumenter matbruecht?",
+        "es": "¿Trajo todos los documentos?"
+      },
+      {
+        "speaker": 1,
+        "text": "Ech hunn alles ausser den Noweis vu menger Adress.",
+        "es": "Tengo todo salvo el justificante de domicilio."
+      },
+      {
+        "speaker": 0,
+        "text": "Dir kënnt eng Kopie noreechen.",
+        "es": "Puede presentar una copia después."
+      },
+      {
+        "speaker": 1,
+        "text": "Bis wéini kann ech Iech déi schécken?",
+        "es": "¿Hasta cuándo se la puedo enviar?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Hutt Dir all Dokumenter matbruecht?",
+        "es": "Di que tienes todo salvo el justificante de domicilio.",
+        "model": "Ech hunn alles ausser den Noweis vu menger Adress.",
+        "model_es": "Tengo todo salvo el justificante de domicilio.",
+        "accepted": [],
+        "tip": "La expresión de excepción ayuda a indicar exactamente qué falta."
+      },
+      {
+        "prompt": "Dir kënnt eng Kopie noreechen.",
+        "es": "Pregunta hasta cuándo tienes para enviarlo.",
+        "model": "Bis wéini kann ech Iech déi schécken?",
+        "model_es": "¿Hasta cuándo se la puedo enviar?",
+        "accepted": [],
+        "tip": "Formula una pregunta directa sobre el plazo."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué documento falta?",
+      "choices": [
+        "Un certificado de trabajo",
+        "La identificación",
+        "El justificante de domicilio"
+      ],
+      "answer": 2
+    },
+    "reading": {
+      "text": "Zousätzlech Dokumenter kënnt Dir per E-Mail eraschécken.",
+      "prompt": "¿Cómo se pide enviar documentos adicionales?",
+      "choices": [
+        "Por correo electrónico",
+        "Por teléfono",
+        "En papel"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Escribe un mensaje para aportar el documento que falta.",
+      "model": "Ech schécken Iech den Noweis vu menger Adress. Kënnt Dir den Empfang bestätegen?",
+      "rubric": "Menciona el documento y pide confirmación de recepción."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "___ kann ech Iech déi schécken?",
+        "answer": "Bis wéini",
+        "explanation": "Formula una pregunta directa sobre el plazo."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «salvo» en esta escena?",
+        "answer": "ausser",
+        "explanation": "En la escena: Ech hunn alles ausser den Noweis."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «presentar después» en esta escena?",
+        "answer": "noreechen",
+        "explanation": "En la escena: Dir kënnt eng Kopie noreechen."
+      }
+    ]
+  },
+  {
+    "id": "da-b1-municipio",
+    "lang": "da",
+    "level": "B1",
+    "week": 4,
+    "checkpoint": false,
+    "title": "Orientarte en una oficina municipal",
+    "goal": "Confirmar requisitos y plazos en una conversación.",
+    "setup": "Te falta un documento. Averigua si puedes presentar una copia digital después.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Har du alle dokumenterne med?",
+        "es": "¿Trajo todos los documentos?"
+      },
+      {
+        "speaker": 1,
+        "text": "Jeg har alt undtagen dokumentation for min adresse.",
+        "es": "Tengo todo salvo el justificante de domicilio."
+      },
+      {
+        "speaker": 0,
+        "text": "Du kan sende en kopi bagefter.",
+        "es": "Puede presentar una copia después."
+      },
+      {
+        "speaker": 1,
+        "text": "Hvornår skal jeg senest sende den?",
+        "es": "¿Hasta cuándo se la puedo enviar?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Har du alle dokumenterne med?",
+        "es": "Di que tienes todo salvo el justificante de domicilio.",
+        "model": "Jeg har alt undtagen dokumentation for min adresse.",
+        "model_es": "Tengo todo salvo el justificante de domicilio.",
+        "accepted": [],
+        "tip": "La expresión de excepción ayuda a indicar exactamente qué falta."
+      },
+      {
+        "prompt": "Du kan sende en kopi bagefter.",
+        "es": "Pregunta hasta cuándo tienes para enviarlo.",
+        "model": "Hvornår skal jeg senest sende den?",
+        "model_es": "¿Hasta cuándo se la puedo enviar?",
+        "accepted": [],
+        "tip": "Formula una pregunta directa sobre el plazo."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué documento falta?",
+      "choices": [
+        "Un certificado de trabajo",
+        "La identificación",
+        "El justificante de domicilio"
+      ],
+      "answer": 2
+    },
+    "reading": {
+      "text": "Supplerende dokumenter kan sendes med e-mail.",
+      "prompt": "¿Cómo se pide enviar documentos adicionales?",
+      "choices": [
+        "Por correo electrónico",
+        "Por teléfono",
+        "En papel"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Escribe un mensaje para aportar el documento que falta.",
+      "model": "Jeg sender dokumentation for min adresse. Vil I bekræfte modtagelsen?",
+      "rubric": "Menciona el documento y pide confirmación de recepción."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Hvornår skal jeg ___ sende den?",
+        "answer": "senest",
+        "explanation": "Formula una pregunta directa sobre el plazo."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «salvo» en esta escena?",
+        "answer": "undtagen",
+        "explanation": "En la escena: Jeg har alt undtagen dokumentation."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «después» en esta escena?",
+        "answer": "bagefter",
+        "explanation": "En la escena: Du kan sende en kopi bagefter."
+      }
+    ]
+  },
+  {
+    "id": "lb-b1-trayecto",
+    "lang": "lb",
+    "level": "B1",
+    "week": 5,
+    "checkpoint": true,
+    "title": "Control B1 · Un trayecto interrumpido",
+    "goal": "Reaccionar ante imprevistos y explicar un plan.",
+    "setup": "Cancelaron tu tren. Habla con un empleado y explica qué conexión puedes tomar.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Wéi eng Verbindung musst Dir kréien?",
+        "es": "¿Cuál es su conexión?"
+      },
+      {
+        "speaker": 1,
+        "text": "Ech hunn eng Verbindung um sechs Auer.",
+        "es": "Tengo una conexión a las seis."
+      },
+      {
+        "speaker": 0,
+        "text": "Et fiert en Ersatzbus.",
+        "es": "Hay un autobús de sustitución."
+      },
+      {
+        "speaker": 1,
+        "text": "Kommen ech nach mat Zäit un, wann ech dee Bus huelen?",
+        "es": "¿Llegaré a tiempo si tomo ese autobús?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Wéi eng Verbindung musst Dir kréien?",
+        "es": "Di que tienes una conexión a las seis.",
+        "model": "Ech hunn eng Verbindung um sechs Auer.",
+        "model_es": "Tengo una conexión a las seis.",
+        "accepted": [],
+        "tip": "Aprende la expresión para una conexión de transporte."
+      },
+      {
+        "prompt": "Et fiert en Ersatzbus.",
+        "es": "Pregunta si llegarás a tiempo tomando el autobús.",
+        "model": "Kommen ech nach mat Zäit un, wann ech dee Bus huelen?",
+        "model_es": "¿Llegaré a tiempo si tomo ese autobús?",
+        "accepted": [],
+        "tip": "Combina el efecto esperado con una condición posible."
+      }
+    ],
+    "listening": {
+      "prompt": "¿A qué hora sale la conexión?",
+      "choices": [
+        "A las cinco",
+        "A las seis",
+        "A las siete"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Den Ersatzbus hält virun der Gare.",
+      "prompt": "¿Dónde para el transporte alternativo?",
+      "choices": [
+        "Frente a la estación",
+        "En el andén dos",
+        "En la entrada trasera"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Avisa a alguien de que posiblemente llegarás tarde.",
+      "model": "Mäin Zuch fält aus. Ech huelen den Ersatzbus a komme vläicht méi spéit.",
+      "rubric": "Explica la causa y qué piensas hacer."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Kommen ech nach mat Zäit un, ___ ech dee Bus huelen?",
+        "answer": "wann",
+        "explanation": "Combina el efecto esperado con una condición posible."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «la conexión» en esta escena?",
+        "answer": "d’Verbindung",
+        "explanation": "En la escena: Ech hunn eng Verbindung um sechs."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «a tiempo» en esta escena?",
+        "answer": "mat Zäit",
+        "explanation": "En la escena: Komm ech nach mat Zäit un?."
+      }
+    ]
+  },
+  {
+    "id": "da-b1-trayecto",
+    "lang": "da",
+    "level": "B1",
+    "week": 5,
+    "checkpoint": true,
+    "title": "Control B1 · Un trayecto interrumpido",
+    "goal": "Reaccionar ante imprevistos y explicar un plan.",
+    "setup": "Cancelaron tu tren. Habla con un empleado y explica qué conexión puedes tomar.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hvilken forbindelse skal du nå?",
+        "es": "¿Cuál es su conexión?"
+      },
+      {
+        "speaker": 1,
+        "text": "Jeg har en forbindelse klokken seks.",
+        "es": "Tengo una conexión a las seis."
+      },
+      {
+        "speaker": 0,
+        "text": "Der kører en erstatningsbus.",
+        "es": "Hay un autobús de sustitución."
+      },
+      {
+        "speaker": 1,
+        "text": "Når jeg frem i tide, hvis jeg tager den bus?",
+        "es": "¿Llegaré a tiempo si tomo ese autobús?"
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Hvilken forbindelse skal du nå?",
+        "es": "Di que tienes una conexión a las seis.",
+        "model": "Jeg har en forbindelse klokken seks.",
+        "model_es": "Tengo una conexión a las seis.",
+        "accepted": [],
+        "tip": "Aprende la expresión para una conexión de transporte."
+      },
+      {
+        "prompt": "Der kører en erstatningsbus.",
+        "es": "Pregunta si llegarás a tiempo tomando el autobús.",
+        "model": "Når jeg frem i tide, hvis jeg tager den bus?",
+        "model_es": "¿Llegaré a tiempo si tomo ese autobús?",
+        "accepted": [],
+        "tip": "Combina el efecto esperado con una condición posible."
+      }
+    ],
+    "listening": {
+      "prompt": "¿A qué hora sale la conexión?",
+      "choices": [
+        "A las cinco",
+        "A las seis",
+        "A las siete"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Erstatningsbussen holder foran stationen.",
+      "prompt": "¿Dónde para el transporte alternativo?",
+      "choices": [
+        "Frente a la estación",
+        "En el andén dos",
+        "En la entrada trasera"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Avisa a alguien de que posiblemente llegarás tarde.",
+      "model": "Mit tog er aflyst. Jeg tager erstatningsbussen og kommer måske lidt senere.",
+      "rubric": "Explica la causa y qué piensas hacer."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Når jeg frem i tide, ___ jeg tager den bus?",
+        "answer": "hvis",
+        "explanation": "Combina el efecto esperado con una condición posible."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «una conexión» en esta escena?",
+        "answer": "en forbindelse",
+        "explanation": "En la escena: Jeg har en forbindelse klokken seks."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «a tiempo» en esta escena?",
+        "answer": "i tide",
+        "explanation": "En la escena: Når jeg frem i tide?."
+      }
+    ]
+  },
+  {
+    "id": "lb-b2-contrato",
+    "lang": "lb",
+    "level": "B2",
+    "week": 2,
+    "checkpoint": false,
+    "title": "Aclarar condiciones de un alquiler",
+    "goal": "Solicitar condiciones claras antes de aceptar.",
+    "setup": "Te piden aceptar un coste de limpieza sin presupuesto. Pregunta y condiciona tu acuerdo.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Am Kontrakt steet eng Klausel iwwer d’Botzen.",
+        "es": "El contrato incluye una cláusula de limpieza."
+      },
+      {
+        "speaker": 1,
+        "text": "Steet de Präis am Viraus fest?",
+        "es": "¿El precio se fija de antemano?"
+      },
+      {
+        "speaker": 0,
+        "text": "Déi genee Käschte weess een eréischt beim Ausplënneren.",
+        "es": "El coste exacto se conocerá cuando se vaya del piso."
+      },
+      {
+        "speaker": 1,
+        "text": "Ier ech zoustëmmen, hätt ech gär e schrëftleche Käschtevirschlag.",
+        "es": "Antes de aceptar, quisiera un presupuesto por escrito."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Am Kontrakt steet eng Klausel iwwer d’Botzen.",
+        "es": "Pregunta si el precio está fijado de antemano.",
+        "model": "Steet de Präis am Viraus fest?",
+        "model_es": "¿El precio se fija de antemano?",
+        "accepted": [],
+        "tip": "Formular la pregunta de forma neutra deja abierta la negociación."
+      },
+      {
+        "prompt": "Déi genee Käschte weess een eréischt beim Ausplënneren.",
+        "es": "Pide un presupuesto escrito antes de aceptar.",
+        "model": "Ier ech zoustëmmen, hätt ech gär e schrëftleche Käschtevirschlag.",
+        "model_es": "Antes de aceptar, quisiera un presupuesto por escrito.",
+        "accepted": [],
+        "tip": "Antes de aceptar fija una condición concreta sin rechazar la oferta."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué se sabrá solo al salir del piso?",
+      "choices": [
+        "La fecha de entrada",
+        "El precio exacto de la limpieza",
+        "La duración del contrato"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "D’Botze gëtt berechent, wann d’Wunneng net propper iwwerreecht gëtt.",
+      "prompt": "¿En qué caso se cobra limpieza?",
+      "choices": [
+        "Siempre",
+        "Si el piso no se entrega limpio",
+        "Solo si hay mascotas"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe al arrendador para concretar las condiciones.",
+      "model": "Kënnt Dir mir d’Käschte fir d’Botzen am Viraus schrëftlech matdeelen?",
+      "rubric": "Distingue la limpieza de otros cargos y pide una cifra por escrito."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "___ ech zoustëmmen, hätt ech gär e schrëftleche Käschtevirschlag.",
+        "answer": "Ier",
+        "explanation": "Antes de aceptar fija una condición concreta sin rechazar la oferta."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «de antemano» en esta escena?",
+        "answer": "am Viraus",
+        "explanation": "En la escena: Steet de Präis am Viraus fest?."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «dar el consentimiento» en esta escena?",
+        "answer": "zoustëmmen",
+        "explanation": "En la escena: Ier ech zoustëmmen."
+      }
+    ]
+  },
+  {
+    "id": "da-b2-contrato",
+    "lang": "da",
+    "level": "B2",
+    "week": 2,
+    "checkpoint": false,
+    "title": "Aclarar condiciones de un alquiler",
+    "goal": "Solicitar condiciones claras antes de aceptar.",
+    "setup": "Te piden aceptar un coste de limpieza sin presupuesto. Pregunta y condiciona tu acuerdo.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Kontrakten har en klausul om rengøring.",
+        "es": "El contrato incluye una cláusula de limpieza."
+      },
+      {
+        "speaker": 1,
+        "text": "Bliver prisen fastsat på forhånd?",
+        "es": "¿El precio se fija de antemano?"
+      },
+      {
+        "speaker": 0,
+        "text": "Den præcise pris kendes først ved fraflytning.",
+        "es": "El coste exacto se conocerá cuando se vaya del piso."
+      },
+      {
+        "speaker": 1,
+        "text": "Inden jeg siger ja, vil jeg gerne have et skriftligt prisoverslag.",
+        "es": "Antes de aceptar, quisiera un presupuesto por escrito."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Kontrakten har en klausul om rengøring.",
+        "es": "Pregunta si el precio está fijado de antemano.",
+        "model": "Bliver prisen fastsat på forhånd?",
+        "model_es": "¿El precio se fija de antemano?",
+        "accepted": [],
+        "tip": "Formular la pregunta de forma neutra deja abierta la negociación."
+      },
+      {
+        "prompt": "Den præcise pris kendes først ved fraflytning.",
+        "es": "Pide un presupuesto escrito antes de aceptar.",
+        "model": "Inden jeg siger ja, vil jeg gerne have et skriftligt prisoverslag.",
+        "model_es": "Antes de aceptar, quisiera un presupuesto por escrito.",
+        "accepted": [],
+        "tip": "Antes de aceptar fija una condición concreta sin rechazar la oferta."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué se sabrá solo al salir del piso?",
+      "choices": [
+        "La fecha de entrada",
+        "El precio exacto de la limpieza",
+        "La duración del contrato"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Rengøring opkræves, hvis boligen ikke afleveres ren.",
+      "prompt": "¿En qué caso se cobra limpieza?",
+      "choices": [
+        "Siempre",
+        "Si el piso no se entrega limpio",
+        "Solo si hay mascotas"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe al arrendador para concretar las condiciones.",
+      "model": "Vil du sende mig et skriftligt overslag over udgifterne til rengøring?",
+      "rubric": "Distingue la limpieza de otros cargos y pide una cifra por escrito."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "___ jeg siger ja, vil jeg gerne have et skriftligt prisoverslag.",
+        "answer": "Inden",
+        "explanation": "Antes de aceptar fija una condición concreta sin rechazar la oferta."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «de antemano» en esta escena?",
+        "answer": "på forhånd",
+        "explanation": "En la escena: Bliver prisen fastsat på forhånd?."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «una estimación del precio» en esta escena?",
+        "answer": "et prisoverslag",
+        "explanation": "En la escena: Jeg vil gerne have et prisoverslag."
+      }
+    ]
+  },
+  {
+    "id": "lb-b2-reclamo",
+    "lang": "lb",
+    "level": "B2",
+    "week": 3,
+    "checkpoint": false,
+    "title": "Hacer una reclamación",
+    "goal": "Sostener una reclamación con hechos y una alternativa.",
+    "setup": "Tu pedido llegó incompleto y te ofrecen un vale. Explica qué solución te sirve.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Wat feelt bei Ärer Bestellung?",
+        "es": "¿Qué no cuadra con el pedido?"
+      },
+      {
+        "speaker": 1,
+        "text": "Een Deel feelt. Ech hunn Iech schonn eng Foto geschéckt.",
+        "es": "Falta una pieza. Ya les envié una foto."
+      },
+      {
+        "speaker": 0,
+        "text": "Mir kënnen Iech e Bong ubidden.",
+        "es": "Podemos ofrecerle un vale."
+      },
+      {
+        "speaker": 1,
+        "text": "Ech hätt léiwer den Deel. Wann dat net méiglech ass, géif ech e Remboursement froen.",
+        "es": "Prefiero la pieza. Si no es posible, pediría un reembolso."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Wat feelt bei Ärer Bestellung?",
+        "es": "Di que falta una pieza y que enviaste una foto.",
+        "model": "Een Deel feelt. Ech hunn Iech schonn eng Foto geschéckt.",
+        "model_es": "Falta una pieza. Ya les envié una foto.",
+        "accepted": [],
+        "tip": "Separa el problema de la evidencia que ya enviaste."
+      },
+      {
+        "prompt": "Mir kënnen Iech e Bong ubidden.",
+        "es": "Prefiere recibir la pieza y solicita un reembolso si es imposible.",
+        "model": "Ech hätt léiwer den Deel. Wann dat net méiglech ass, géif ech e Remboursement froen.",
+        "model_es": "Prefiero la pieza. Si no es posible, pediría un reembolso.",
+        "accepted": [],
+        "tip": "Expresa tanto tu preferencia como tu alternativa."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué ofrece primero la empresa?",
+      "choices": [
+        "Otra pieza",
+        "Un descuento futuro",
+        "Un vale"
+      ],
+      "answer": 2
+    },
+    "reading": {
+      "text": "Mir äntweren innerhalb vun zwee Schaffdeeg.",
+      "prompt": "¿Cuándo responderán según el mensaje?",
+      "choices": [
+        "En dos días hábiles",
+        "En una semana",
+        "En diez días"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Redacta la reclamación de manera cordial.",
+      "model": "Bei menger Bestellung feelt een Deel. Ech hunn eng Foto geschéckt. Kënnt Dir den Deel noschécken?",
+      "rubric": "Resume los hechos, menciona la foto y ordena las dos soluciones."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Ech hätt ___ den Deel. Wann dat net méiglech ass, géif ech e Remboursement froen.",
+        "answer": "léiwer",
+        "explanation": "Expresa tanto tu preferencia como tu alternativa."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «faltar» en esta escena?",
+        "answer": "feelen",
+        "explanation": "En la escena: Een Deel feelt."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «enviar por separado después» en esta escena?",
+        "answer": "noschécken",
+        "explanation": "En la escena: Kënnt Dir den Deel noschécken?."
+      }
+    ]
+  },
+  {
+    "id": "da-b2-reclamo",
+    "lang": "da",
+    "level": "B2",
+    "week": 3,
+    "checkpoint": false,
+    "title": "Hacer una reclamación",
+    "goal": "Sostener una reclamación con hechos y una alternativa.",
+    "setup": "Tu pedido llegó incompleto y te ofrecen un vale. Explica qué solución te sirve.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hvad er der galt med din bestilling?",
+        "es": "¿Qué no cuadra con el pedido?"
+      },
+      {
+        "speaker": 1,
+        "text": "Der mangler en del. Jeg har allerede sendt jer et billede.",
+        "es": "Falta una pieza. Ya les envié una foto."
+      },
+      {
+        "speaker": 0,
+        "text": "Vi kan tilbyde dig et tilgodebevis.",
+        "es": "Podemos ofrecerle un vale."
+      },
+      {
+        "speaker": 1,
+        "text": "Jeg vil helst have delen. Hvis det ikke er muligt, vil jeg bede om at få pengene tilbage.",
+        "es": "Prefiero la pieza. Si no es posible, pediría un reembolso."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Hvad er der galt med din bestilling?",
+        "es": "Di que falta una pieza y que enviaste una foto.",
+        "model": "Der mangler en del. Jeg har allerede sendt jer et billede.",
+        "model_es": "Falta una pieza. Ya les envié una foto.",
+        "accepted": [],
+        "tip": "Separa el problema de la evidencia que ya enviaste."
+      },
+      {
+        "prompt": "Vi kan tilbyde dig et tilgodebevis.",
+        "es": "Prefiere recibir la pieza y solicita un reembolso si es imposible.",
+        "model": "Jeg vil helst have delen. Hvis det ikke er muligt, vil jeg bede om at få pengene tilbage.",
+        "model_es": "Prefiero la pieza. Si no es posible, pediría un reembolso.",
+        "accepted": [],
+        "tip": "Expresa tanto tu preferencia como tu alternativa."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué ofrece primero la empresa?",
+      "choices": [
+        "Otra pieza",
+        "Un descuento futuro",
+        "Un vale"
+      ],
+      "answer": 2
+    },
+    "reading": {
+      "text": "Vi svarer inden for to arbejdsdage.",
+      "prompt": "¿Cuándo responderán según el mensaje?",
+      "choices": [
+        "En dos días hábiles",
+        "En una semana",
+        "En diez días"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Redacta la reclamación de manera cordial.",
+      "model": "Der mangler en del, som vist på billedet. Kan I sende delen eller refundere beløbet?",
+      "rubric": "Resume los hechos, menciona la foto y ordena las dos soluciones."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Jeg vil ___ have delen. Hvis det ikke er muligt, vil jeg bede om at få pengene tilbage.",
+        "answer": "helst",
+        "explanation": "Expresa tanto tu preferencia como tu alternativa."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «ya» en esta escena?",
+        "answer": "allerede",
+        "explanation": "En la escena: Jeg har allerede sendt et billede."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «un vale» en esta escena?",
+        "answer": "et tilgodebevis",
+        "explanation": "En la escena: Vi kan tilbyde et tilgodebevis."
+      }
+    ]
+  },
+  {
+    "id": "lb-b2-prioridades",
+    "lang": "lb",
+    "level": "B2",
+    "week": 4,
+    "checkpoint": false,
+    "title": "Priorizar dos entregas",
+    "goal": "Justificar una prioridad y negociar un plazo.",
+    "setup": "Dos tareas vencen el mismo día. Pide acordar cuál va primero sin prometer lo imposible.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Kënne mir déi zwou Saachen haut ofginn?",
+        "es": "¿No podemos entregar los dos trabajos hoy?"
+      },
+      {
+        "speaker": 1,
+        "text": "Wa mir un deenen zwee Delaië festhalen, riskéiere mir Feeler.",
+        "es": "Si mantenemos ambos plazos, correremos el riesgo de cometer errores."
+      },
+      {
+        "speaker": 0,
+        "text": "Wat wier d’Alternativ?",
+        "es": "¿Cuál sería la alternativa?"
+      },
+      {
+        "speaker": 1,
+        "text": "Ech proposéieren, de Resumé haut an de Rapport muer ofzeginn.",
+        "es": "Propongo entregar el resumen hoy y el informe mañana."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Kënne mir déi zwou Saachen haut ofginn?",
+        "es": "Explica la consecuencia de mantener los dos plazos.",
+        "model": "Wa mir un deenen zwee Delaië festhalen, riskéiere mir Feeler.",
+        "model_es": "Si mantenemos ambos plazos, correremos el riesgo de cometer errores.",
+        "accepted": [],
+        "tip": "Usa una condición para explicar un riesgo sin asegurar que ocurrirá."
+      },
+      {
+        "prompt": "Wat wier d’Alternativ?",
+        "es": "Propón entregar el resumen hoy y el informe mañana.",
+        "model": "Ech proposéieren, de Resumé haut an de Rapport muer ofzeginn.",
+        "model_es": "Propongo entregar el resumen hoy y el informe mañana.",
+        "accepted": [],
+        "tip": "Pon cada producto junto a su fecha de entrega."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué propone entregar hoy?",
+      "choices": [
+        "El informe",
+        "El resumen",
+        "Las tablas"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Mir kënnen d’Prioritéiten upassen, wann de Responsabel informéiert ass.",
+      "prompt": "¿Cuándo se pueden ajustar las prioridades?",
+      "choices": [
+        "Antes de empezar la jornada",
+        "Al aprobar el informe",
+        "Si se informa al responsable"
+      ],
+      "answer": 2
+    },
+    "writing": {
+      "prompt": "Escribe una propuesta breve de replanificación.",
+      "model": "Wa mir d’Prioritéiten änneren, kéint de Resumé haut fäerdeg sinn an de Rapport muer.",
+      "rubric": "Plantea el riesgo y ofrece fechas alternativas concretas."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Ech proposéieren, de Resumé haut an de Rapport ___ ofzeginn.",
+        "answer": "muer",
+        "explanation": "Pon cada producto junto a su fecha de entrega."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «mantener algo» en esta escena?",
+        "answer": "un eppes festhalen",
+        "explanation": "En la escena: Wa mir un den Delaië festhalen."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «entregar» en esta escena?",
+        "answer": "ofginn",
+        "explanation": "En la escena: Mir ginn de Rapport of."
+      }
+    ]
+  },
+  {
+    "id": "da-b2-prioridades",
+    "lang": "da",
+    "level": "B2",
+    "week": 4,
+    "checkpoint": false,
+    "title": "Priorizar dos entregas",
+    "goal": "Justificar una prioridad y negociar un plazo.",
+    "setup": "Dos tareas vencen el mismo día. Pide acordar cuál va primero sin prometer lo imposible.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Kan vi ikke aflevere begge dele i dag?",
+        "es": "¿No podemos entregar los dos trabajos hoy?"
+      },
+      {
+        "speaker": 1,
+        "text": "Hvis vi fastholder begge frister, risikerer vi at lave fejl.",
+        "es": "Si mantenemos ambos plazos, correremos el riesgo de cometer errores."
+      },
+      {
+        "speaker": 0,
+        "text": "Hvad er alternativet?",
+        "es": "¿Cuál sería la alternativa?"
+      },
+      {
+        "speaker": 1,
+        "text": "Jeg foreslår at aflevere resuméet i dag og rapporten i morgen.",
+        "es": "Propongo entregar el resumen hoy y el informe mañana."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Kan vi ikke aflevere begge dele i dag?",
+        "es": "Explica la consecuencia de mantener los dos plazos.",
+        "model": "Hvis vi fastholder begge frister, risikerer vi at lave fejl.",
+        "model_es": "Si mantenemos ambos plazos, correremos el riesgo de cometer errores.",
+        "accepted": [],
+        "tip": "Usa una condición para explicar un riesgo sin asegurar que ocurrirá."
+      },
+      {
+        "prompt": "Hvad er alternativet?",
+        "es": "Propón entregar el resumen hoy y el informe mañana.",
+        "model": "Jeg foreslår at aflevere resuméet i dag og rapporten i morgen.",
+        "model_es": "Propongo entregar el resumen hoy y el informe mañana.",
+        "accepted": [],
+        "tip": "Pon cada producto junto a su fecha de entrega."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué propone entregar hoy?",
+      "choices": [
+        "El informe",
+        "El resumen",
+        "Las tablas"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Prioriteringen kan ændres, hvis den ansvarlige får besked.",
+      "prompt": "¿Cuándo se pueden ajustar las prioridades?",
+      "choices": [
+        "Antes de empezar la jornada",
+        "Al aprobar el informe",
+        "Si se informa al responsable"
+      ],
+      "answer": 2
+    },
+    "writing": {
+      "prompt": "Escribe una propuesta breve de replanificación.",
+      "model": "For at undgå fejl foreslår jeg at sende resuméet i dag og rapporten i morgen.",
+      "rubric": "Plantea el riesgo y ofrece fechas alternativas concretas."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Jeg foreslår at aflevere resuméet i dag og rapporten ___.",
+        "answer": "i morgen",
+        "explanation": "Pon cada producto junto a su fecha de entrega."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «un plazo» en esta escena?",
+        "answer": "en frist",
+        "explanation": "En la escena: Vi fastholder begge frister."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «entregar» en esta escena?",
+        "answer": "aflevere",
+        "explanation": "En la escena: Jeg foreslår at aflevere rapporten."
+      }
+    ]
+  },
+  {
+    "id": "lb-b2-comunidad",
+    "lang": "lb",
+    "level": "B2",
+    "week": 5,
+    "checkpoint": true,
+    "title": "Control B2 · Defender una propuesta",
+    "goal": "Defender una postura y responder a una objeción concreta.",
+    "setup": "La comunidad debate si convertir una parte del garaje en aparcamiento para bicicletas.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Wann dat esou kënnt, verléiere mir Plaz.",
+        "es": "Si hacemos esto, perderemos espacio."
+      },
+      {
+        "speaker": 1,
+        "text": "Dat stëmmt, mee elo blockéieren d’Vëloen den Agang.",
+        "es": "Es cierto, pero ahora las bicicletas bloquean la entrada."
+      },
+      {
+        "speaker": 0,
+        "text": "Kënne mir de Plazverbrauch begrenzen?",
+        "es": "¿Podemos limitar cuánto ocupan?"
+      },
+      {
+        "speaker": 1,
+        "text": "Mir kéinten et e Mount laang an engem Eck testen.",
+        "es": "Podríamos probarlo en un rincón durante un mes."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Wann dat esou kënnt, verléiere mir Plaz.",
+        "es": "Admite el problema de espacio y explica por qué vale la pena.",
+        "model": "Dat stëmmt, mee elo blockéieren d’Vëloen den Agang.",
+        "model_es": "Es cierto, pero ahora las bicicletas bloquean la entrada.",
+        "accepted": [],
+        "tip": "Reconocer el argumento contrario fortalece tu respuesta."
+      },
+      {
+        "prompt": "Kënne mir de Plazverbrauch begrenzen?",
+        "es": "Propón probarlo en un rincón durante un mes.",
+        "model": "Mir kéinten et e Mount laang an engem Eck testen.",
+        "model_es": "Podríamos probarlo en un rincón durante un mes.",
+        "accepted": [],
+        "tip": "Expresa una solución gradual con un límite de espacio y tiempo."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué objeción se plantea primero?",
+      "choices": [
+        "La pérdida de espacio",
+        "El ruido",
+        "El coste de las bicicletas"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "No der Testphas gëtt gekuckt, ob d’Léisung bäibehale gëtt.",
+      "prompt": "¿Qué prevé el acta para decidir?",
+      "choices": [
+        "Una firma de la administración",
+        "Una evaluación después de la prueba",
+        "Una votación ese mismo día"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe una propuesta para el acta.",
+      "model": "Ech proposéieren, den Eck ee Mount ze testen an duerno d’Léisung ze evaluéieren.",
+      "rubric": "Reconoce la objeción y especifica alcance, duración y revisión."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Mir kéinten et e Mount laang an engem ___ testen.",
+        "answer": "Eck",
+        "explanation": "Expresa una solución gradual con un límite de espacio y tiempo."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «la bicicleta» en esta escena?",
+        "answer": "de Vëlo",
+        "explanation": "En la escena: D’Vëloen blockéieren den Agang."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «mantener» en esta escena?",
+        "answer": "bäibehalen",
+        "explanation": "En la escena: D’Léisung gëtt bäibehalen."
+      }
+    ]
+  },
+  {
+    "id": "da-b2-comunidad",
+    "lang": "da",
+    "level": "B2",
+    "week": 5,
+    "checkpoint": true,
+    "title": "Control B2 · Defender una propuesta",
+    "goal": "Defender una postura y responder a una objeción concreta.",
+    "setup": "La comunidad debate si convertir una parte del garaje en aparcamiento para bicicletas.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Så mister vi jo plads.",
+        "es": "Si hacemos esto, perderemos espacio."
+      },
+      {
+        "speaker": 1,
+        "text": "Det er rigtigt, men lige nu spærrer cyklerne for indgangen.",
+        "es": "Es cierto, pero ahora las bicicletas bloquean la entrada."
+      },
+      {
+        "speaker": 0,
+        "text": "Kan vi begrænse, hvor meget de fylder?",
+        "es": "¿Podemos limitar cuánto ocupan?"
+      },
+      {
+        "speaker": 1,
+        "text": "Vi kunne afprøve det i et hjørne i en måned.",
+        "es": "Podríamos probarlo en un rincón durante un mes."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Så mister vi jo plads.",
+        "es": "Admite el problema de espacio y explica por qué vale la pena.",
+        "model": "Det er rigtigt, men lige nu spærrer cyklerne for indgangen.",
+        "model_es": "Es cierto, pero ahora las bicicletas bloquean la entrada.",
+        "accepted": [],
+        "tip": "Reconocer el argumento contrario fortalece tu respuesta."
+      },
+      {
+        "prompt": "Kan vi begrænse, hvor meget de fylder?",
+        "es": "Propón probarlo en un rincón durante un mes.",
+        "model": "Vi kunne afprøve det i et hjørne i en måned.",
+        "model_es": "Podríamos probarlo en un rincón durante un mes.",
+        "accepted": [],
+        "tip": "Expresa una solución gradual con un límite de espacio y tiempo."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué objeción se plantea primero?",
+      "choices": [
+        "La pérdida de espacio",
+        "El ruido",
+        "El coste de las bicicletas"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "Efter prøveperioden vurderer vi, om løsningen skal fastholdes.",
+      "prompt": "¿Qué prevé el acta para decidir?",
+      "choices": [
+        "Una firma de la administración",
+        "Una evaluación después de la prueba",
+        "Una votación ese mismo día"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe una propuesta para el acta.",
+      "model": "Lad os afprøve løsningen i ét hjørne i en måned og vurdere den bagefter.",
+      "rubric": "Reconoce la objeción y especifica alcance, duración y revisión."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Vi kunne afprøve det i et ___ i en måned.",
+        "answer": "hjørne",
+        "explanation": "Expresa una solución gradual con un límite de espacio y tiempo."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «bloquear el paso» en esta escena?",
+        "answer": "spærre for",
+        "explanation": "En la escena: Cyklerne spærrer for indgangen."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «un periodo de prueba» en esta escena?",
+        "answer": "en prøveperiode",
+        "explanation": "En la escena: Efter prøveperioden tager vi stilling."
+      }
+    ]
+  },
+  {
+    "id": "lb-c1-criticas",
+    "lang": "lb",
+    "level": "C1",
+    "week": 2,
+    "checkpoint": false,
+    "title": "Responder a una crítica indirecta",
+    "goal": "Interpretar una crítica implícita y confirmar el sentido.",
+    "setup": "Un colega dice que el informe «ha ganado en agilidad». Pídele que concrete qué le preocupa.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "De Rapport ass méi straff ginn. Et bleift ofzewaarden, ob d’Direktioun d’Decisioun begrënne kann.",
+        "es": "El informe ha ganado en agilidad. Queda por ver si la dirección podrá justificar la decisión."
+      },
+      {
+        "speaker": 1,
+        "text": "Mengs du, datt ech beim Kierzten eppes Wichteges ewechgelooss hunn?",
+        "es": "¿Crees que al abreviarlo he dejado fuera algún elemento importante?"
+      },
+      {
+        "speaker": 0,
+        "text": "Genee. D’Käschte stinn dran, mee de Grond fir den Ënnerscheed ass net méi dran.",
+        "es": "Exacto. El coste está, pero la razón de la diferencia quedó en el tintero."
+      },
+      {
+        "speaker": 1,
+        "text": "Da setzen ech just deen Detail dobäi, deen ee brauch, fir d’Decisioun ze begrënnen.",
+        "es": "Entonces añadiré solo el detalle necesario para justificar la decisión."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "De Rapport ass méi straff ginn. Et bleift ofzewaarden, ob d’Direktioun d’Decisioun begrënne kann.",
+        "es": "Pregunta si la brevedad dejó fuera algo importante.",
+        "model": "Mengs du, datt ech beim Kierzten eppes Wichteges ewechgelooss hunn?",
+        "model_es": "¿Crees que al abreviarlo he dejado fuera algún elemento importante?",
+        "accepted": [],
+        "tip": "Una pregunta reformulada permite comprobar la implicación sin darla por hecha."
+      },
+      {
+        "prompt": "Genee. D’Käschte stinn dran, mee de Grond fir den Ënnerscheed ass net méi dran.",
+        "es": "Propón recuperar solo el detalle que hace falta para la decisión.",
+        "model": "Da setzen ech just deen Detail dobäi, deen ee brauch, fir d’Decisioun ze begrënnen.",
+        "model_es": "Entonces añadiré solo el detalle necesario para justificar la decisión.",
+        "accepted": [],
+        "tip": "Usa un limitador como solo para aclarar el alcance de la edición."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué preocupa de fondo al colega?",
+      "choices": [
+        "Que el informe tenga demasiadas páginas",
+        "Que falte justificar una decisión",
+        "Que se haya entregado tarde"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Detailer bleiwen am Rapport, wa se hëllefen, eng Decisioun ze verstoen.",
+      "prompt": "¿Cuál es el criterio para conservar detalles?",
+      "choices": [
+        "Si aclaran una decisión",
+        "Si los redactó la dirección",
+        "Si ya estaban en la primera versión"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Redacta una respuesta al comentario y concreta el cambio que harás.",
+      "model": "Merci fir den Hiweis. Ech ergänzen d’Begrënnung fir den Ënnerscheed bei de Käschten an halen de Rescht kuerz.",
+      "rubric": "Recoge la crítica sin atribuir mala intención. Delimita lo que vas a cambiar."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Da setzen ech ___ deen Detail dobäi, deen ee brauch, fir d’Decisioun ze begrënnen.",
+        "answer": "just",
+        "explanation": "Usa un limitador como solo para aclarar el alcance de la edición."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «omitir» en esta escena?",
+        "answer": "ewechloossen",
+        "explanation": "En la escena: Eppes Wichteges ewechloossen."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «justificar» en esta escena?",
+        "answer": "begrënnen",
+        "explanation": "En la escena: Eng Decisioun begrënnen."
+      }
+    ]
+  },
+  {
+    "id": "da-c1-criticas",
+    "lang": "da",
+    "level": "C1",
+    "week": 2,
+    "checkpoint": false,
+    "title": "Responder a una crítica indirecta",
+    "goal": "Interpretar una crítica implícita y confirmar el sentido.",
+    "setup": "Un colega dice que el informe «ha ganado en agilidad». Pídele que concrete qué le preocupa.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Rapporten er blevet mere stram. Spørgsmålet er, om ledelsen kan begrunde beslutningen.",
+        "es": "El informe ha ganado en agilidad. Queda por ver si la dirección podrá justificar la decisión."
+      },
+      {
+        "speaker": 1,
+        "text": "Mener du, at jeg har udeladt noget vigtigt ved at forkorte den?",
+        "es": "¿Crees que al abreviarlo he dejado fuera algún elemento importante?"
+      },
+      {
+        "speaker": 0,
+        "text": "Præcis. Udgiften står der, men forklaringen på forskellen faldt ud.",
+        "es": "Exacto. El coste está, pero la razón de la diferencia quedó en el tintero."
+      },
+      {
+        "speaker": 1,
+        "text": "Så tilføjer jeg kun den detalje, der skal til for at begrunde beslutningen.",
+        "es": "Entonces añadiré solo el detalle necesario para justificar la decisión."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Rapporten er blevet mere stram. Spørgsmålet er, om ledelsen kan begrunde beslutningen.",
+        "es": "Pregunta si la brevedad dejó fuera algo importante.",
+        "model": "Mener du, at jeg har udeladt noget vigtigt ved at forkorte den?",
+        "model_es": "¿Crees que al abreviarlo he dejado fuera algún elemento importante?",
+        "accepted": [],
+        "tip": "Una pregunta reformulada permite comprobar la implicación sin darla por hecha."
+      },
+      {
+        "prompt": "Præcis. Udgiften står der, men forklaringen på forskellen faldt ud.",
+        "es": "Propón recuperar solo el detalle que hace falta para la decisión.",
+        "model": "Så tilføjer jeg kun den detalje, der skal til for at begrunde beslutningen.",
+        "model_es": "Entonces añadiré solo el detalle necesario para justificar la decisión.",
+        "accepted": [],
+        "tip": "Usa un limitador como solo para aclarar el alcance de la edición."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué preocupa de fondo al colega?",
+      "choices": [
+        "Que el informe tenga demasiadas páginas",
+        "Que falte justificar una decisión",
+        "Que se haya entregado tarde"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Detaljer beholdes, hvis de gør det lettere at forstå en beslutning.",
+      "prompt": "¿Cuál es el criterio para conservar detalles?",
+      "choices": [
+        "Si aclaran una decisión",
+        "Si los redactó la dirección",
+        "Si ya estaban en la primera versión"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Redacta una respuesta al comentario y concreta el cambio que harás.",
+      "model": "Tak for bemærkningen. Jeg tilføjer forklaringen på forskellen i udgifterne og holder resten kort.",
+      "rubric": "Recoge la crítica sin atribuir mala intención. Delimita lo que vas a cambiar."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Så tilføjer jeg ___ den detalje, der skal til for at begrunde beslutningen.",
+        "answer": "kun",
+        "explanation": "Usa un limitador como solo para aclarar el alcance de la edición."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «omitir» en esta escena?",
+        "answer": "udelade",
+        "explanation": "En la escena: Jeg har udeladt noget vigtigt."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «justificar» en esta escena?",
+        "answer": "begrunde",
+        "explanation": "En la escena: Begrunde beslutningen."
+      }
+    ]
+  },
+  {
+    "id": "lb-c1-consulta-publica",
+    "lang": "lb",
+    "level": "C1",
+    "week": 3,
+    "checkpoint": false,
+    "title": "Intervenir en una consulta municipal",
+    "goal": "Matizar una postura y distinguir evidencia de una suposición.",
+    "setup": "Se propone cerrar una calle al tráfico. Apoya la idea y plantea una excepción bien delimitada.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Sidd Dir dofir, datt d’Strooss fir den Duerchgangsverkéier zougemaach gëtt?",
+        "es": "¿Está a favor de cerrar la calle al tráfico?"
+      },
+      {
+        "speaker": 1,
+        "text": "Am Prinzip jo, obwuel verschidde Geschäfter weiderhi Liwwerunge brauchen.",
+        "es": "En principio sí, aunque a algunos comercios les siguen haciendo falta las entregas."
+      },
+      {
+        "speaker": 0,
+        "text": "Wéi géift Dir dobäi d’Sécherheet vun de Foussgänger garantéieren?",
+        "es": "¿Cómo lo compatibilizaría con la seguridad peatonal?"
+      },
+      {
+        "speaker": 1,
+        "text": "Et kéint ee fréi moies eng Zäitspan fir d’Liwwerunge reservéieren.",
+        "es": "Podría reservarse una franja a primera hora para las entregas."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Sidd Dir dofir, datt d’Strooss fir den Duerchgangsverkéier zougemaach gëtt?",
+        "es": "Apoya la reducción de tráfico y expresa una reserva sobre las entregas.",
+        "model": "Am Prinzip jo, obwuel verschidde Geschäfter weiderhi Liwwerunge brauchen.",
+        "model_es": "En principio sí, aunque a algunos comercios les siguen haciendo falta las entregas.",
+        "accepted": [],
+        "tip": "En principio permite expresar acuerdo parcial antes de plantear una reserva."
+      },
+      {
+        "prompt": "Wéi géift Dir dobäi d’Sécherheet vun de Foussgänger garantéieren?",
+        "es": "Propón una franja de acceso para los repartos.",
+        "model": "Et kéint ee fréi moies eng Zäitspan fir d’Liwwerunge reservéieren.",
+        "model_es": "Podría reservarse una franja a primera hora para las entregas.",
+        "accepted": [],
+        "tip": "El condicional presenta la medida como una propuesta abierta a evaluación."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué problema concreto plantea la persona que interviene?",
+      "choices": [
+        "No hay datos de tráfico",
+        "Algunos negocios necesitan recibir entregas",
+        "Las bicicletas circulan demasiado rápido"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "D’Gemeng erfaasst d’Zuel vun de Visiteuren an d’Zäite vun de Liwwerungen.",
+      "prompt": "¿Qué datos recoge la propuesta escrita?",
+      "choices": [
+        "Afluencia y horarios de entrega",
+        "Solo testimonios de vecinos",
+        "Precio de locales"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Envía una observación formal a la consulta.",
+      "model": "Ech ënnerstëtzen d’Reduktioun vum Verkéier. Ech proposéieren awer eng limitéiert Zäitspan fréi moies fir d’Liwwerungen.",
+      "rubric": "Distingue el objetivo común, tu reserva y una excepción con horarios."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Et kéint ee fréi moies eng Zäitspan fir d’Liwwerunge ___.",
+        "answer": "reservéieren",
+        "explanation": "El condicional presenta la medida como una propuesta abierta a evaluación."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «aunque» en esta escena?",
+        "answer": "obwuel",
+        "explanation": "En la escena: Jo, obwuel dat eng Fro opléisst."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «una franja horaria» en esta escena?",
+        "answer": "eng Zäitspan",
+        "explanation": "En la escena: Eng Zäitspan fir d’Liwwerungen."
+      }
+    ]
+  },
+  {
+    "id": "da-c1-consulta-publica",
+    "lang": "da",
+    "level": "C1",
+    "week": 3,
+    "checkpoint": false,
+    "title": "Intervenir en una consulta municipal",
+    "goal": "Matizar una postura y distinguir evidencia de una suposición.",
+    "setup": "Se propone cerrar una calle al tráfico. Apoya la idea y plantea una excepción bien delimitada.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Støtter du forslaget om at lukke gaden for gennemkørende trafik?",
+        "es": "¿Está a favor de cerrar la calle al tráfico?"
+      },
+      {
+        "speaker": 1,
+        "text": "I princippet ja, selv om nogle forretninger stadig skal have leveret varer.",
+        "es": "En principio sí, aunque a algunos comercios les siguen haciendo falta las entregas."
+      },
+      {
+        "speaker": 0,
+        "text": "Hvordan vil du samtidig sikre fodgængernes sikkerhed?",
+        "es": "¿Cómo lo compatibilizaría con la seguridad peatonal?"
+      },
+      {
+        "speaker": 1,
+        "text": "Man kunne reservere et tidsrum tidligt om morgenen til leverancer.",
+        "es": "Podría reservarse una franja a primera hora para las entregas."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Støtter du forslaget om at lukke gaden for gennemkørende trafik?",
+        "es": "Apoya la reducción de tráfico y expresa una reserva sobre las entregas.",
+        "model": "I princippet ja, selv om nogle forretninger stadig skal have leveret varer.",
+        "model_es": "En principio sí, aunque a algunos comercios les siguen haciendo falta las entregas.",
+        "accepted": [],
+        "tip": "En principio permite expresar acuerdo parcial antes de plantear una reserva."
+      },
+      {
+        "prompt": "Hvordan vil du samtidig sikre fodgængernes sikkerhed?",
+        "es": "Propón una franja de acceso para los repartos.",
+        "model": "Man kunne reservere et tidsrum tidligt om morgenen til leverancer.",
+        "model_es": "Podría reservarse una franja a primera hora para las entregas.",
+        "accepted": [],
+        "tip": "El condicional presenta la medida como una propuesta abierta a evaluación."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué problema concreto plantea la persona que interviene?",
+      "choices": [
+        "No hay datos de tráfico",
+        "Algunos negocios necesitan recibir entregas",
+        "Las bicicletas circulan demasiado rápido"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Kommunen registrerer besøgstal og leveringstidspunkter.",
+      "prompt": "¿Qué datos recoge la propuesta escrita?",
+      "choices": [
+        "Afluencia y horarios de entrega",
+        "Solo testimonios de vecinos",
+        "Precio de locales"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Envía una observación formal a la consulta.",
+      "model": "Jeg støtter målet om mindre trafik, men foreslår et afgrænset tidsrum tidligt om morgenen til leverancer.",
+      "rubric": "Distingue el objetivo común, tu reserva y una excepción con horarios."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Man kunne reservere et ___ tidligt om morgenen til leverancer.",
+        "answer": "tidsrum",
+        "explanation": "El condicional presenta la medida como una propuesta abierta a evaluación."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «aunque» en esta escena?",
+        "answer": "selv om",
+        "explanation": "En la escena: Ja, selv om der er en udfordring."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «una franja horaria» en esta escena?",
+        "answer": "et tidsrum",
+        "explanation": "En la escena: Et tidsrum til leverancer."
+      }
+    ]
+  },
+  {
+    "id": "lb-c1-incertidumbre",
+    "lang": "lb",
+    "level": "C1",
+    "week": 4,
+    "checkpoint": false,
+    "title": "Comunicar un retraso incierto",
+    "goal": "Graduar la certeza y orientar a tus interlocutores.",
+    "setup": "La entrega de un proveedor puede demorarse. Informa al equipo sin convertir una estimación en un plazo firme.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Kënne mir domat rechnen, datt d’Liwwerung e Méindeg ukënnt?",
+        "es": "¿Podemos contar con que llegue el lunes?"
+      },
+      {
+        "speaker": 1,
+        "text": "De Méindeg ass fir de Moment eng Schätzung. De Fournisseur huet dat nach net bestätegt.",
+        "es": "Por el momento el lunes es una estimación. El proveedor aún no lo ha confirmado."
+      },
+      {
+        "speaker": 0,
+        "text": "Wéini kréie mir nei Informatiounen?",
+        "es": "¿Cuándo volveremos a saber algo?"
+      },
+      {
+        "speaker": 1,
+        "text": "Ech mellen Iech muer, wéi et steet, och wa mir nach keen definitiven Datum hunn.",
+        "es": "Les informaré mañana, aunque todavía no tengamos una fecha firme."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Kënne mir domat rechnen, datt d’Liwwerung e Méindeg ukënnt?",
+        "es": "Aclara que el lunes es una estimación y aún falta confirmación.",
+        "model": "De Méindeg ass fir de Moment eng Schätzung. De Fournisseur huet dat nach net bestätegt.",
+        "model_es": "Por el momento el lunes es una estimación. El proveedor aún no lo ha confirmado.",
+        "accepted": [],
+        "tip": "Separa con claridad una estimación de una confirmación."
+      },
+      {
+        "prompt": "Wéini kréie mir nei Informatiounen?",
+        "es": "Comprométete a dar novedades aunque no haya fecha firme.",
+        "model": "Ech mellen Iech muer, wéi et steet, och wa mir nach keen definitiven Datum hunn.",
+        "model_es": "Les informaré mañana, aunque todavía no tengamos una fecha firme.",
+        "accepted": [],
+        "tip": "Aunque expresa que darás noticias incluso si persiste la incertidumbre."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué representa el lunes?",
+      "choices": [
+        "Una fecha confirmada",
+        "Una estimación preliminar",
+        "La fecha en que se cancelará"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Esoubal den Datum bestätegt ass, gëtt de Plang ugepasst. Déi betraffe Leit ginn informéiert.",
+      "prompt": "¿Qué se hará cuando confirmen la fecha?",
+      "choices": [
+        "Actualizar el plan y avisar a los afectados",
+        "Reiniciar todo el proyecto",
+        "Cambiar de proveedor"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Redacta una actualización con dos escenarios.",
+      "model": "D’Liwwerung kéint e Méindeg ukommen. Wann den Datum net bestätegt gëtt, passe mir de Plang provisoresch un. Ech melle mech muer.",
+      "rubric": "Separa lo que se sabe, lo que falta confirmar y la próxima actualización."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Ech mellen Iech muer, wéi et steet, ___ mir nach keen definitiven Datum hunn.",
+        "answer": "och wa",
+        "explanation": "Aunque expresa que darás noticias incluso si persiste la incertidumbre."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «una estimación» en esta escena?",
+        "answer": "eng Schätzung",
+        "explanation": "En la escena: De Méindeg ass eng Schätzung."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «en cuanto» en esta escena?",
+        "answer": "esoubal",
+        "explanation": "En la escena: Esoubal den Datum bestätegt ass."
+      }
+    ]
+  },
+  {
+    "id": "da-c1-incertidumbre",
+    "lang": "da",
+    "level": "C1",
+    "week": 4,
+    "checkpoint": false,
+    "title": "Comunicar un retraso incierto",
+    "goal": "Graduar la certeza y orientar a tus interlocutores.",
+    "setup": "La entrega de un proveedor puede demorarse. Informa al equipo sin convertir una estimación en un plazo firme.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Kan vi regne med, at leverancen kommer mandag?",
+        "es": "¿Podemos contar con que llegue el lunes?"
+      },
+      {
+        "speaker": 1,
+        "text": "Mandag er foreløbig et skøn. Leverandøren har endnu ikke bekræftet det.",
+        "es": "Por el momento el lunes es una estimación. El proveedor aún no lo ha confirmado."
+      },
+      {
+        "speaker": 0,
+        "text": "Hvornår hører vi nyt?",
+        "es": "¿Cuándo volveremos a saber algo?"
+      },
+      {
+        "speaker": 1,
+        "text": "Jeg giver jer en opdatering i morgen, selv hvis datoen stadig ikke ligger fast.",
+        "es": "Les informaré mañana, aunque todavía no tengamos una fecha firme."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Kan vi regne med, at leverancen kommer mandag?",
+        "es": "Aclara que el lunes es una estimación y aún falta confirmación.",
+        "model": "Mandag er foreløbig et skøn. Leverandøren har endnu ikke bekræftet det.",
+        "model_es": "Por el momento el lunes es una estimación. El proveedor aún no lo ha confirmado.",
+        "accepted": [],
+        "tip": "Separa con claridad una estimación de una confirmación."
+      },
+      {
+        "prompt": "Hvornår hører vi nyt?",
+        "es": "Comprométete a dar novedades aunque no haya fecha firme.",
+        "model": "Jeg giver jer en opdatering i morgen, selv hvis datoen stadig ikke ligger fast.",
+        "model_es": "Les informaré mañana, aunque todavía no tengamos una fecha firme.",
+        "accepted": [],
+        "tip": "Aunque expresa que darás noticias incluso si persiste la incertidumbre."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué representa el lunes?",
+      "choices": [
+        "Una fecha confirmada",
+        "Una estimación preliminar",
+        "La fecha en que se cancelará"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Når datoen er bekræftet, opdateres planen, og de berørte får besked.",
+      "prompt": "¿Qué se hará cuando confirmen la fecha?",
+      "choices": [
+        "Actualizar el plan y avisar a los afectados",
+        "Reiniciar todo el proyecto",
+        "Cambiar de proveedor"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Redacta una actualización con dos escenarios.",
+      "model": "Leverancen kan komme mandag. Hvis datoen ikke bekræftes, arbejder vi videre med en foreløbig plan. Jeg giver nyt i morgen.",
+      "rubric": "Separa lo que se sabe, lo que falta confirmar y la próxima actualización."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Jeg giver jer en opdatering i morgen, ___ datoen stadig ikke ligger fast.",
+        "answer": "selv hvis",
+        "explanation": "Aunque expresa que darás noticias incluso si persiste la incertidumbre."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «una estimación» en esta escena?",
+        "answer": "et skøn",
+        "explanation": "En la escena: Mandag er foreløbig et skøn."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «estar definido» en esta escena?",
+        "answer": "ligge fast",
+        "explanation": "En la escena: Datoen ligger endnu ikke fast."
+      }
+    ]
+  },
+  {
+    "id": "lb-c1-comentarios",
+    "lang": "lb",
+    "level": "C1",
+    "week": 5,
+    "checkpoint": true,
+    "title": "Control C1 · Dar retroalimentación",
+    "goal": "Dar una observación precisa y graduar la fuerza de una afirmación.",
+    "setup": "Tienes que comentar un borrador cuya conclusión parece más segura que los datos.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Wéi fënns du den Entworf?",
+        "es": "¿Qué te pareció el borrador?"
+      },
+      {
+        "speaker": 1,
+        "text": "En ass kloer, mee bei esou wéinege Fäll schéngt et mer ze fréi, vun engem Trend ze schwätzen.",
+        "es": "Es claro, aunque llamar a esto tendencia con tan pocos casos me parece prematuro."
+      },
+      {
+        "speaker": 0,
+        "text": "Wéi géifs du dat ausdrécken?",
+        "es": "¿Cómo lo expresarías?"
+      },
+      {
+        "speaker": 1,
+        "text": "Ech géif soen, datt d’Resultater op eng Ännerung hindeiten an datt dat nach bestätegt muss ginn.",
+        "es": "Diría que los resultados apuntan a un cambio y que queda por confirmarlo."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Wéi fënns du den Entworf?",
+        "es": "Reconoce lo claro del borrador y cuestiona la conclusión.",
+        "model": "En ass kloer, mee bei esou wéinege Fäll schéngt et mer ze fréi, vun engem Trend ze schwätzen.",
+        "model_es": "Es claro, aunque llamar a esto tendencia con tan pocos casos me parece prematuro.",
+        "accepted": [],
+        "tip": "Una reserva acotada ayuda a mantener un tono constructivo."
+      },
+      {
+        "prompt": "Wéi géifs du dat ausdrécken?",
+        "es": "Propón describir los resultados como un indicio.",
+        "model": "Ech géif soen, datt d’Resultater op eng Ännerung hindeiten an datt dat nach bestätegt muss ginn.",
+        "model_es": "Diría que los resultados apuntan a un cambio y que queda por confirmarlo.",
+        "accepted": [],
+        "tip": "Distingue apuntar a algo de demostrarlo."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Cuál es la reserva?",
+      "choices": [
+        "Los datos son falsos",
+        "La muestra es escasa para afirmar una tendencia",
+        "El gráfico es demasiado grande"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Interpretatioune sollen zesumme mat de Limitte vun den Donnéeë presentéiert ginn.",
+      "prompt": "¿Qué debería acompañar las interpretaciones?",
+      "choices": [
+        "Las limitaciones de los datos",
+        "Una historia personal",
+        "Un nuevo título"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Formula un comentario de revisión con una redacción alternativa.",
+      "model": "Den Entworf ass kloer. D’Resultater deiten op eng Ännerung hin, mee déi kleng Zuel u Fäll léisst nach keng sécher Conclusioun zou.",
+      "rubric": "Conserva lo que los datos sí sugieren y modula lo que aún es incierto."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Ech géif soen, datt d’Resultater op eng Ännerung ___ an datt dat nach bestätegt muss ginn.",
+        "answer": "hindeiten",
+        "explanation": "Distingue apuntar a algo de demostrarlo."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «el borrador» en esta escena?",
+        "answer": "den Entworf",
+        "explanation": "En la escena: Wéi fënns du den Entworf?."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «apuntar a algo» en esta escena?",
+        "answer": "op eppes hindeiten",
+        "explanation": "En la escena: D’Resultater deiten op eng Ännerung hin."
+      }
+    ]
+  },
+  {
+    "id": "da-c1-comentarios",
+    "lang": "da",
+    "level": "C1",
+    "week": 5,
+    "checkpoint": true,
+    "title": "Control C1 · Dar retroalimentación",
+    "goal": "Dar una observación precisa y graduar la fuerza de una afirmación.",
+    "setup": "Tienes que comentar un borrador cuya conclusión parece más segura que los datos.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hvad synes du om udkastet?",
+        "es": "¿Qué te pareció el borrador?"
+      },
+      {
+        "speaker": 1,
+        "text": "Det er klart, men med så få tilfælde virker det for tidligt at tale om en tendens.",
+        "es": "Es claro, aunque llamar a esto tendencia con tan pocos casos me parece prematuro."
+      },
+      {
+        "speaker": 0,
+        "text": "Hvordan ville du formulere det?",
+        "es": "¿Cómo lo expresarías?"
+      },
+      {
+        "speaker": 1,
+        "text": "Jeg ville skrive, at resultaterne peger på en ændring, som endnu skal bekræftes.",
+        "es": "Diría que los resultados apuntan a un cambio y que queda por confirmarlo."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Hvad synes du om udkastet?",
+        "es": "Reconoce lo claro del borrador y cuestiona la conclusión.",
+        "model": "Det er klart, men med så få tilfælde virker det for tidligt at tale om en tendens.",
+        "model_es": "Es claro, aunque llamar a esto tendencia con tan pocos casos me parece prematuro.",
+        "accepted": [],
+        "tip": "Una reserva acotada ayuda a mantener un tono constructivo."
+      },
+      {
+        "prompt": "Hvordan ville du formulere det?",
+        "es": "Propón describir los resultados como un indicio.",
+        "model": "Jeg ville skrive, at resultaterne peger på en ændring, som endnu skal bekræftes.",
+        "model_es": "Diría que los resultados apuntan a un cambio y que queda por confirmarlo.",
+        "accepted": [],
+        "tip": "Distingue apuntar a algo de demostrarlo."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Cuál es la reserva?",
+      "choices": [
+        "Los datos son falsos",
+        "La muestra es escasa para afirmar una tendencia",
+        "El gráfico es demasiado grande"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Ved fortolkning skal begrænsningerne i datagrundlaget fremgå.",
+      "prompt": "¿Qué debería acompañar las interpretaciones?",
+      "choices": [
+        "Las limitaciones de los datos",
+        "Una historia personal",
+        "Un nuevo título"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Formula un comentario de revisión con una redacción alternativa.",
+      "model": "Udkastet er klart. Resultaterne giver en indikation af en ændring, men det lille datagrundlag gør konklusionen usikker.",
+      "rubric": "Conserva lo que los datos sí sugieren y modula lo que aún es incierto."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Jeg ville skrive, at resultaterne ___ en ændring, som endnu skal bekræftes.",
+        "answer": "peger på",
+        "explanation": "Distingue apuntar a algo de demostrarlo."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «un borrador» en esta escena?",
+        "answer": "et udkast",
+        "explanation": "En la escena: Hvad synes du om udkastet?."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «una tendencia» en esta escena?",
+        "answer": "en tendens",
+        "explanation": "En la escena: Det er tidligt at tale om en tendens."
+      }
+    ]
+  },
+  {
+    "id": "lb-c2-laboral",
+    "lang": "lb",
+    "level": "C2",
+    "week": 2,
+    "checkpoint": false,
+    "title": "Reformular una acusación",
+    "goal": "Distinguir hechos de juicios y reformular sin insinuaciones.",
+    "setup": "Un responsable culpa a una compañera por un retraso. Intervén preservando hechos, límites y responsabilidades.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Wann een seng Aarbecht gemaach hätt, wiere mir elo net hei.",
+        "es": "Si alguien hubiera hecho su trabajo, no estaríamos aquí."
+      },
+      {
+        "speaker": 1,
+        "text": "Wat mir festhale kënnen: Am Oflaf vun der Liwwerung war keng kloer Bestätegung virgesinn.",
+        "es": "Lo que sí podemos decir es que el proceso de entrega no incluía una confirmación clara."
+      },
+      {
+        "speaker": 0,
+        "text": "Wësse mir dann, firwat net bestätegt gouf?",
+        "es": "¿Entonces sabemos por qué no se confirmó?"
+      },
+      {
+        "speaker": 1,
+        "text": "Mir wëssen, datt d’Bestätegung gefeelt huet. De Grond muss nach gekläert ginn.",
+        "es": "Sabemos que faltaba la confirmación. El motivo aún está por aclarar."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Wann een seng Aarbecht gemaach hätt, wiere mir elo net hei.",
+        "es": "Reformula la acusación como un problema del proceso de confirmación.",
+        "model": "Wat mir festhale kënnen: Am Oflaf vun der Liwwerung war keng kloer Bestätegung virgesinn.",
+        "model_es": "Lo que sí podemos decir es que el proceso de entrega no incluía una confirmación clara.",
+        "accepted": [],
+        "tip": "Sustituye la imputación por una descripción verificable del proceso."
+      },
+      {
+        "prompt": "Wësse mir dann, firwat net bestätegt gouf?",
+        "es": "Diferencia el hecho comprobado de lo que aún hay que investigar.",
+        "model": "Mir wëssen, datt d’Bestätegung gefeelt huet. De Grond muss nach gekläert ginn.",
+        "model_es": "Sabemos que faltaba la confirmación. El motivo aún está por aclarar.",
+        "accepted": [],
+        "tip": "Reserva un verbo de certeza para el hecho y uno de investigación para la causa."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué información sigue sin comprobarse?",
+      "choices": [
+        "Que faltaba una confirmación",
+        "Por qué no se envió la confirmación",
+        "Que la entrega se retrasó"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Am Protokoll gëtt tëscht Observatiounen an zougeschriwwene Responsabilitéiten ënnerscheet.",
+      "prompt": "¿Qué pide el acta separar?",
+      "choices": [
+        "Fechas y precios",
+        "Observaciones y responsabilidades atribuidas",
+        "Departamentos y nombres"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe una nota del incidente para el acta.",
+      "model": "D’Liwwerung koum verspéit an d’Bestätegung huet gefeelt. Firwat dat geschitt ass, steet nach net fest. Den Oflaf gëtt iwwerpréift.",
+      "rubric": "Distingue la secuencia comprobada, lo no establecido y la acción siguiente."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Mir wëssen, datt d’Bestätegung gefeelt huet. De Grond muss nach ___ ginn.",
+        "answer": "gekläert",
+        "explanation": "Reserva un verbo de certeza para el hecho y uno de investigación para la causa."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «previsto» en esta escena?",
+        "answer": "virgesinn",
+        "explanation": "En la escena: Et war keng Bestätegung virgesinn."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «dejar constancia» en esta escena?",
+        "answer": "festhalen",
+        "explanation": "En la escena: Dat kënne mir esou festhalen."
+      }
+    ]
+  },
+  {
+    "id": "da-c2-laboral",
+    "lang": "da",
+    "level": "C2",
+    "week": 2,
+    "checkpoint": false,
+    "title": "Reformular una acusación",
+    "goal": "Distinguir hechos de juicios y reformular sin insinuaciones.",
+    "setup": "Un responsable culpa a una compañera por un retraso. Intervén preservando hechos, límites y responsabilidades.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hvis nogen havde gjort deres arbejde, stod vi ikke her.",
+        "es": "Si alguien hubiera hecho su trabajo, no estaríamos aquí."
+      },
+      {
+        "speaker": 1,
+        "text": "Det vi kan fastslå, er, at leveringsforløbet ikke omfattede en tydelig bekræftelse.",
+        "es": "Lo que sí podemos decir es que el proceso de entrega no incluía una confirmación clara."
+      },
+      {
+        "speaker": 0,
+        "text": "Ved vi så, hvorfor den ikke kom?",
+        "es": "¿Entonces sabemos por qué no se confirmó?"
+      },
+      {
+        "speaker": 1,
+        "text": "Vi ved, at bekræftelsen manglede. Årsagen er endnu ikke afklaret.",
+        "es": "Sabemos que faltaba la confirmación. El motivo aún está por aclarar."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Hvis nogen havde gjort deres arbejde, stod vi ikke her.",
+        "es": "Reformula la acusación como un problema del proceso de confirmación.",
+        "model": "Det vi kan fastslå, er, at leveringsforløbet ikke omfattede en tydelig bekræftelse.",
+        "model_es": "Lo que sí podemos decir es que el proceso de entrega no incluía una confirmación clara.",
+        "accepted": [],
+        "tip": "Sustituye la imputación por una descripción verificable del proceso."
+      },
+      {
+        "prompt": "Ved vi så, hvorfor den ikke kom?",
+        "es": "Diferencia el hecho comprobado de lo que aún hay que investigar.",
+        "model": "Vi ved, at bekræftelsen manglede. Årsagen er endnu ikke afklaret.",
+        "model_es": "Sabemos que faltaba la confirmación. El motivo aún está por aclarar.",
+        "accepted": [],
+        "tip": "Reserva un verbo de certeza para el hecho y uno de investigación para la causa."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué información sigue sin comprobarse?",
+      "choices": [
+        "Que faltaba una confirmación",
+        "Por qué no se envió la confirmación",
+        "Que la entrega se retrasó"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Referatet skelner mellem observationer og tildelt ansvar.",
+      "prompt": "¿Qué pide el acta separar?",
+      "choices": [
+        "Fechas y precios",
+        "Observaciones y responsabilidades atribuidas",
+        "Departamentos y nombres"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe una nota del incidente para el acta.",
+      "model": "Leverancen blev forsinket, og bekræftelsen manglede. Årsagen er ikke fastslået. Vi gennemgår nu processen.",
+      "rubric": "Distingue la secuencia comprobada, lo no establecido y la acción siguiente."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Vi ved, at bekræftelsen manglede. Årsagen er endnu ikke ___.",
+        "answer": "afklaret",
+        "explanation": "Reserva un verbo de certeza para el hecho y uno de investigación para la causa."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «establecer con certeza» en esta escena?",
+        "answer": "fastslå",
+        "explanation": "En la escena: Det vi kan fastslå."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «distinguir entre» en esta escena?",
+        "answer": "skelne mellem",
+        "explanation": "En la escena: Vi skelner mellem fakta og forklaringer."
+      }
+    ]
+  },
+  {
+    "id": "lb-c2-entrevista",
+    "lang": "lb",
+    "level": "C2",
+    "week": 3,
+    "checkpoint": false,
+    "title": "Matizar una entrevista pública",
+    "goal": "Detectar una falsa disyuntiva y ofrecer una respuesta matizada.",
+    "setup": "Una pregunta de radio presenta como incompatibles dos objetivos de la biblioteca. Reformula la premisa antes de responder.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Musst Dir Iech tëscht enger roueger Bibliothéik an enger Bibliothéik mat Aktivitéiten entscheeden?",
+        "es": "¿Van a elegir entre una biblioteca tranquila y una biblioteca con actividades?"
+      },
+      {
+        "speaker": 1,
+        "text": "Net onbedéngt. De Konflikt entsteet, wann alles gläichzäiteg am selwechte Sall stattfënnt.",
+        "es": "No necesariamente. La tensión aparece cuando todo se programa en la misma sala a la vez."
+      },
+      {
+        "speaker": 0,
+        "text": "Wat proposéiert Dir, fir datt béides méiglech ass?",
+        "es": "¿Qué propone para compatibilizarlo?"
+      },
+      {
+        "speaker": 1,
+        "text": "Mir kéinte bestëmmt Stonne reservéieren an duerno kucken, wéi d’Säll benotzt ginn.",
+        "es": "Reservemos ciertas horas y revisemos después cómo se usan las salas."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Musst Dir Iech tëscht enger roueger Bibliothéik an enger Bibliothéik mat Aktivitéiten entscheeden?",
+        "es": "Rechaza la dicotomía planteada y especifica cuándo surge la tensión.",
+        "model": "Net onbedéngt. De Konflikt entsteet, wann alles gläichzäiteg am selwechte Sall stattfënnt.",
+        "model_es": "No necesariamente. La tensión aparece cuando todo se programa en la misma sala a la vez.",
+        "accepted": [],
+        "tip": "Intervén sobre la premisa de la pregunta antes de conceder sus términos."
+      },
+      {
+        "prompt": "Wat proposéiert Dir, fir datt béides méiglech ass?",
+        "es": "Da una opción intermedia que se pueda revisar.",
+        "model": "Mir kéinte bestëmmt Stonne reservéieren an duerno kucken, wéi d’Säll benotzt ginn.",
+        "model_es": "Reservemos ciertas horas y revisemos después cómo se usan las salas.",
+        "accepted": [],
+        "tip": "Una medida reversible evita convertir un arreglo local en una regla absoluta."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué da por supuesto la pregunta inicial?",
+      "choices": [
+        "Que la biblioteca abrirá en verano",
+        "Que tranquilidad y actividades son incompatibles",
+        "Que faltan solicitudes de salas"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "D’Zäite ginn un déi effektiv Notzung vun de Säll ugepasst.",
+      "prompt": "¿Qué justifica ajustar los horarios?",
+      "choices": [
+        "El uso real de las salas",
+        "La edad de los socios",
+        "El coste de los libros"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Resume tu postura para que pueda citarse por separado.",
+      "model": "Et geet ëm d’Notzung vum Raum, net ëm e Choix tëscht Rou an Aktivitéiten. Mir testen ënnerschiddlech Zäiten a kucken, wat sech bewäert.",
+      "rubric": "Evita una frase que permita leer un cierre definitivo. Incluye una condición verificable."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Mir kéinte bestëmmt Stonne reservéieren an ___ kucken, wéi d’Säll benotzt ginn.",
+        "answer": "duerno",
+        "explanation": "Una medida reversible evita convertir un arreglo local en una regla absoluta."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «no necesariamente» en esta escena?",
+        "answer": "net onbedéngt",
+        "explanation": "En la escena: Net onbedéngt."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «al mismo tiempo» en esta escena?",
+        "answer": "gläichzäiteg",
+        "explanation": "En la escena: Alles geschitt gläichzäiteg."
+      }
+    ]
+  },
+  {
+    "id": "da-c2-entrevista",
+    "lang": "da",
+    "level": "C2",
+    "week": 3,
+    "checkpoint": false,
+    "title": "Matizar una entrevista pública",
+    "goal": "Detectar una falsa disyuntiva y ofrecer una respuesta matizada.",
+    "setup": "Una pregunta de radio presenta como incompatibles dos objetivos de la biblioteca. Reformula la premisa antes de responder.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Skal I vælge mellem et stille bibliotek og et bibliotek med aktiviteter?",
+        "es": "¿Van a elegir entre una biblioteca tranquila y una biblioteca con actividades?"
+      },
+      {
+        "speaker": 1,
+        "text": "Ikke nødvendigvis. Konflikten opstår, når alt foregår i samme lokale på samme tid.",
+        "es": "No necesariamente. La tensión aparece cuando todo se programa en la misma sala a la vez."
+      },
+      {
+        "speaker": 0,
+        "text": "Hvordan vil I få de to hensyn til at fungere sammen?",
+        "es": "¿Qué propone para compatibilizarlo?"
+      },
+      {
+        "speaker": 1,
+        "text": "Vi kan reservere bestemte timer og bagefter se, hvordan lokalerne bliver brugt.",
+        "es": "Reservemos ciertas horas y revisemos después cómo se usan las salas."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Skal I vælge mellem et stille bibliotek og et bibliotek med aktiviteter?",
+        "es": "Rechaza la dicotomía planteada y especifica cuándo surge la tensión.",
+        "model": "Ikke nødvendigvis. Konflikten opstår, når alt foregår i samme lokale på samme tid.",
+        "model_es": "No necesariamente. La tensión aparece cuando todo se programa en la misma sala a la vez.",
+        "accepted": [],
+        "tip": "Intervén sobre la premisa de la pregunta antes de conceder sus términos."
+      },
+      {
+        "prompt": "Hvordan vil I få de to hensyn til at fungere sammen?",
+        "es": "Da una opción intermedia que se pueda revisar.",
+        "model": "Vi kan reservere bestemte timer og bagefter se, hvordan lokalerne bliver brugt.",
+        "model_es": "Reservemos ciertas horas y revisemos después cómo se usan las salas.",
+        "accepted": [],
+        "tip": "Una medida reversible evita convertir un arreglo local en una regla absoluta."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué da por supuesto la pregunta inicial?",
+      "choices": [
+        "Que la biblioteca abrirá en verano",
+        "Que tranquilidad y actividades son incompatibles",
+        "Que faltan solicitudes de salas"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Åbningstiderne tilpasses den faktiske brug af lokalerne.",
+      "prompt": "¿Qué justifica ajustar los horarios?",
+      "choices": [
+        "El uso real de las salas",
+        "La edad de los socios",
+        "El coste de los libros"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Resume tu postura para que pueda citarse por separado.",
+      "model": "Ro og aktiviteter kan godt fungere side om side. Vi afprøver forskellige tidsrum og justerer efter den faktiske brug af lokalerne.",
+      "rubric": "Evita una frase que permita leer un cierre definitivo. Incluye una condición verificable."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Vi kan reservere bestemte timer og ___ se, hvordan lokalerne bliver brugt.",
+        "answer": "bagefter",
+        "explanation": "Una medida reversible evita convertir un arreglo local en una regla absoluta."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «no necesariamente» en esta escena?",
+        "answer": "ikke nødvendigvis",
+        "explanation": "En la escena: Ikke nødvendigvis."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «una consideración» en esta escena?",
+        "answer": "et hensyn",
+        "explanation": "En la escena: De to hensyn kan forenes."
+      }
+    ]
+  },
+  {
+    "id": "lb-c2-informe",
+    "lang": "lb",
+    "level": "C2",
+    "week": 4,
+    "checkpoint": false,
+    "title": "Contrastar dos versiones",
+    "goal": "Sintetizar evidencias sin borrar sus límites.",
+    "setup": "Un resumen afirma que un programa funcionó. El informe indica que solo mejoró un indicador con datos incompletos.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Am Resumé steet, datt de Programm d’Resultater verbessert huet.",
+        "es": "El resumen dice que el programa mejoró los resultados."
+      },
+      {
+        "speaker": 1,
+        "text": "Se hu sech bei deene verbessert, déi de Programm ofgeschloss hunn. Déi aner sinn net erfaasst.",
+        "es": "Mejoraron entre quienes completaron el programa. Los que abandonaron no figuran."
+      },
+      {
+        "speaker": 0,
+        "text": "Kënne mir op d’mannst soen, datt et villverspriechend ausgesäit?",
+        "es": "¿Podemos decir al menos que parece prometedor?"
+      },
+      {
+        "speaker": 1,
+        "text": "Mir kënnen an där Grupp vun engem Indice schwätzen. Den allgemengen Effekt bleift nach ze klären.",
+        "es": "Podemos hablar de un indicio en ese grupo; el efecto general sigue por determinar."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Am Resumé steet, datt de Programm d’Resultater verbessert huet.",
+        "es": "Aclara a qué grupo corresponde el resultado citado.",
+        "model": "Se hu sech bei deene verbessert, déi de Programm ofgeschloss hunn. Déi aner sinn net erfaasst.",
+        "model_es": "Mejoraron entre quienes completaron el programa. Los que abandonaron no figuran.",
+        "accepted": [],
+        "tip": "Delimita primero la población a la que sí se refieren los datos."
+      },
+      {
+        "prompt": "Kënne mir op d’mannst soen, datt et villverspriechend ausgesäit?",
+        "es": "Reformula la conclusión para distinguir indicio y efecto general.",
+        "model": "Mir kënnen an där Grupp vun engem Indice schwätzen. Den allgemengen Effekt bleift nach ze klären.",
+        "model_es": "Podemos hablar de un indicio en ese grupo; el efecto general sigue por determinar.",
+        "accepted": [],
+        "tip": "Un indicio acotado no autoriza una afirmación sobre todos los participantes."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Quiénes faltan en los resultados?",
+      "choices": [
+        "Quienes dejaron el programa",
+        "Quienes completaron la encuesta",
+        "Quienes coordinaban el programa"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "Prozentzuele sollen zesumme mat der Berechnungsgrondlag uginn ginn.",
+      "prompt": "¿Cómo se pide presentar los porcentajes?",
+      "choices": [
+        "Sin cifras absolutas",
+        "Junto a la base de cálculo",
+        "Solo en un gráfico"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe dos frases que ambas partes podrían aceptar.",
+      "model": "Bei deene Leit, déi de Programm ofgeschloss hunn, ass een Indicateur besser ginn. Fir eng allgemeng Ausso feelen d’Donnéeë vun deenen, déi opgehalen hunn.",
+      "rubric": "Menciona la mejora observada, el grupo observado y el dato faltante."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Mir kënnen an där Grupp vun engem Indice schwätzen. Den allgemengen Effekt ___ nach ze klären.",
+        "answer": "bleift",
+        "explanation": "Un indicio acotado no autoriza una afirmación sobre todos los participantes."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «por lo menos» en esta escena?",
+        "answer": "op d’mannst",
+        "explanation": "En la escena: Kënne mir op d’mannst dat soen?."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «registrar datos» en esta escena?",
+        "answer": "erfaassen",
+        "explanation": "En la escena: Déi aner sinn net erfaasst."
+      }
+    ]
+  },
+  {
+    "id": "da-c2-informe",
+    "lang": "da",
+    "level": "C2",
+    "week": 4,
+    "checkpoint": false,
+    "title": "Contrastar dos versiones",
+    "goal": "Sintetizar evidencias sin borrar sus límites.",
+    "setup": "Un resumen afirma que un programa funcionó. El informe indica que solo mejoró un indicador con datos incompletos.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Resuméet siger, at programmet forbedrede resultaterne.",
+        "es": "El resumen dice que el programa mejoró los resultados."
+      },
+      {
+        "speaker": 1,
+        "text": "Resultaterne blev bedre blandt dem, der fuldførte programmet. Dem, der stoppede, indgår ikke.",
+        "es": "Mejoraron entre quienes completaron el programa. Los que abandonaron no figuran."
+      },
+      {
+        "speaker": 0,
+        "text": "Kan vi i det mindste sige, at det ser lovende ud?",
+        "es": "¿Podemos decir al menos que parece prometedor?"
+      },
+      {
+        "speaker": 1,
+        "text": "Vi kan tale om en indikation i den gruppe. Den samlede virkning er endnu uafklaret.",
+        "es": "Podemos hablar de un indicio en ese grupo; el efecto general sigue por determinar."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Resuméet siger, at programmet forbedrede resultaterne.",
+        "es": "Aclara a qué grupo corresponde el resultado citado.",
+        "model": "Resultaterne blev bedre blandt dem, der fuldførte programmet. Dem, der stoppede, indgår ikke.",
+        "model_es": "Mejoraron entre quienes completaron el programa. Los que abandonaron no figuran.",
+        "accepted": [],
+        "tip": "Delimita primero la población a la que sí se refieren los datos."
+      },
+      {
+        "prompt": "Kan vi i det mindste sige, at det ser lovende ud?",
+        "es": "Reformula la conclusión para distinguir indicio y efecto general.",
+        "model": "Vi kan tale om en indikation i den gruppe. Den samlede virkning er endnu uafklaret.",
+        "model_es": "Podemos hablar de un indicio en ese grupo; el efecto general sigue por determinar.",
+        "accepted": [],
+        "tip": "Un indicio acotado no autoriza una afirmación sobre todos los participantes."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Quiénes faltan en los resultados?",
+      "choices": [
+        "Quienes dejaron el programa",
+        "Quienes completaron la encuesta",
+        "Quienes coordinaban el programa"
+      ],
+      "answer": 0
+    },
+    "reading": {
+      "text": "Procenttal angives sammen med beregningsgrundlaget.",
+      "prompt": "¿Cómo se pide presentar los porcentajes?",
+      "choices": [
+        "Sin cifras absolutas",
+        "Junto a la base de cálculo",
+        "Solo en un gráfico"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe dos frases que ambas partes podrían aceptar.",
+      "model": "En indikator steg blandt dem, der gennemførte forløbet. Uden oplysninger om dem, der stoppede, kan vi ikke udtale os om den samlede virkning.",
+      "rubric": "Menciona la mejora observada, el grupo observado y el dato faltante."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Vi kan tale om en ___ i den gruppe. Den samlede virkning er endnu uafklaret.",
+        "answer": "indikation",
+        "explanation": "Un indicio acotado no autoriza una afirmación sobre todos los participantes."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «por lo menos» en esta escena?",
+        "answer": "i det mindste",
+        "explanation": "En la escena: Kan vi i det mindste sige det?."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «la base de cálculo» en esta escena?",
+        "answer": "beregningsgrundlaget",
+        "explanation": "En la escena: Angiv beregningsgrundlaget."
+      }
+    ]
+  },
+  {
+    "id": "lb-c2-mediacion-publica",
+    "lang": "lb",
+    "level": "C2",
+    "week": 5,
+    "checkpoint": true,
+    "title": "Control C2 · Mediar bajo presión",
+    "goal": "Conservar la distinción entre consulta, preparación y decisión.",
+    "setup": "Un grupo acusa al comité de decidir a puerta cerrada. El comité dice que solo adelantó cuestiones técnicas.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Wéi schéin, datt mir nach dierfe matrieden, wou dach schonn alles decidéiert ass.",
+        "es": "Qué suerte que podamos opinar cuando ya está todo decidido."
+      },
+      {
+        "speaker": 1,
+        "text": "Wann ech dech richteg verstinn, méchs du dir Suergen, datt een um Resultat näischt méi ännere kann.",
+        "es": "Si te entiendo bien, te preocupa que ya no quede margen real para cambiar el resultado."
+      },
+      {
+        "speaker": 0,
+        "text": "Technesch Viraarbechte si gemaach, mee d’Approbatioun ass nach op.",
+        "es": "Se adelantó trabajo técnico, pero la aprobación sigue abierta."
+      },
+      {
+        "speaker": 1,
+        "text": "Loosse mir d’Viraarbechte bäibehalen an déi Decisiounen nach eng Kéier diskutéieren, déi d’Consultatioun ännere kann.",
+        "es": "Mantengamos los preparativos y volvamos a discutir las decisiones que la consulta todavía puede modificar."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Wéi schéin, datt mir nach dierfe matrieden, wou dach schonn alles decidéiert ass.",
+        "es": "Reformula la acusación como una preocupación por el margen de influencia.",
+        "model": "Wann ech dech richteg verstinn, méchs du dir Suergen, datt een um Resultat näischt méi ännere kann.",
+        "model_es": "Si te entiendo bien, te preocupa que ya no quede margen real para cambiar el resultado.",
+        "accepted": [],
+        "tip": "Convierte la ironía en una preocupación concreta por la participación."
+      },
+      {
+        "prompt": "Technesch Viraarbechte si gemaach, mee d’Approbatioun ass nach op.",
+        "es": "Propón una reparación que mantenga los preparativos técnicos y reabra lo decidido.",
+        "model": "Loosse mir d’Viraarbechte bäibehalen an déi Decisiounen nach eng Kéier diskutéieren, déi d’Consultatioun ännere kann.",
+        "model_es": "Mantengamos los preparativos y volvamos a discutir las decisiones que la consulta todavía puede modificar.",
+        "accepted": [],
+        "tip": "Distingue el trabajo preparatorio de una autorización definitiva y delimita lo revisable."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué pide realmente el grupo?",
+      "choices": [
+        "Que preparen más documentos",
+        "Que la consulta todavía pueda cambiar la decisión",
+        "Que dimita el comité"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "De Protokoll ënnerscheet tëscht Viraarbechten an der formeller Approbatioun.",
+      "prompt": "¿Qué diferencia hace el acta?",
+      "choices": [
+        "Entre preparativos y aprobación formal",
+        "Entre gastos corrientes y extraordinarios",
+        "Entre dos comités separados"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Redacta el cierre de la reunión con la decisión y quién puede intervenir.",
+      "model": "Déi technesch Viraarbechte bleiwe stoen. D’formell Approbatioun gëtt eréischt no der Consultatioun behandelt. Bis dohinner kann een Observatioune schécken.",
+      "rubric": "Deja claro qué queda abierto, qué se conserva y cómo se podrán presentar observaciones."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Loosse mir d’Viraarbechte ___ an déi Decisiounen nach eng Kéier diskutéieren, déi d’Consultatioun ännere kann.",
+        "answer": "bäibehalen",
+        "explanation": "Distingue el trabajo preparatorio de una autorización definitiva y delimita lo revisable."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «participar en la discusión» en esta escena?",
+        "answer": "matrieden",
+        "explanation": "En la escena: Mir dierfen nach matrieden."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «los preparativos» en esta escena?",
+        "answer": "d’Viraarbechten",
+        "explanation": "En la escena: Déi technesch Viraarbechte si gemaach."
+      }
+    ]
+  },
+  {
+    "id": "da-c2-mediacion-publica",
+    "lang": "da",
+    "level": "C2",
+    "week": 5,
+    "checkpoint": true,
+    "title": "Control C2 · Mediar bajo presión",
+    "goal": "Conservar la distinción entre consulta, preparación y decisión.",
+    "setup": "Un grupo acusa al comité de decidir a puerta cerrada. El comité dice que solo adelantó cuestiones técnicas.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hvor heldigt, at vi får lov til at sige noget, når alt allerede er besluttet.",
+        "es": "Qué suerte que podamos opinar cuando ya está todo decidido."
+      },
+      {
+        "speaker": 1,
+        "text": "Hvis jeg forstår dig rigtigt, er du bekymret for, om der overhovedet er plads til at ændre udfaldet.",
+        "es": "Si te entiendo bien, te preocupa que ya no quede margen real para cambiar el resultado."
+      },
+      {
+        "speaker": 0,
+        "text": "Det tekniske forarbejde er gjort, men godkendelsen ligger stadig åben.",
+        "es": "Se adelantó trabajo técnico, pero la aprobación sigue abierta."
+      },
+      {
+        "speaker": 1,
+        "text": "Lad os beholde forarbejdet og genåbne de beslutninger, som høringen stadig kan ændre.",
+        "es": "Mantengamos los preparativos y volvamos a discutir las decisiones que la consulta todavía puede modificar."
+      }
+    ],
+    "turns": [
+      {
+        "prompt": "Hvor heldigt, at vi får lov til at sige noget, når alt allerede er besluttet.",
+        "es": "Reformula la acusación como una preocupación por el margen de influencia.",
+        "model": "Hvis jeg forstår dig rigtigt, er du bekymret for, om der overhovedet er plads til at ændre udfaldet.",
+        "model_es": "Si te entiendo bien, te preocupa que ya no quede margen real para cambiar el resultado.",
+        "accepted": [],
+        "tip": "Convierte la ironía en una preocupación concreta por la participación."
+      },
+      {
+        "prompt": "Det tekniske forarbejde er gjort, men godkendelsen ligger stadig åben.",
+        "es": "Propón una reparación que mantenga los preparativos técnicos y reabra lo decidido.",
+        "model": "Lad os beholde forarbejdet og genåbne de beslutninger, som høringen stadig kan ændre.",
+        "model_es": "Mantengamos los preparativos y volvamos a discutir las decisiones que la consulta todavía puede modificar.",
+        "accepted": [],
+        "tip": "Distingue el trabajo preparatorio de una autorización definitiva y delimita lo revisable."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué pide realmente el grupo?",
+      "choices": [
+        "Que preparen más documentos",
+        "Que la consulta todavía pueda cambiar la decisión",
+        "Que dimita el comité"
+      ],
+      "answer": 1
+    },
+    "reading": {
+      "text": "Referatet skelner mellem forarbejde og formel godkendelse.",
+      "prompt": "¿Qué diferencia hace el acta?",
+      "choices": [
+        "Entre preparativos y aprobación formal",
+        "Entre gastos corrientes y extraordinarios",
+        "Entre dos comités separados"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Redacta el cierre de la reunión con la decisión y quién puede intervenir.",
+      "model": "Det tekniske forarbejde bevares. Den formelle godkendelse behandles efter høringen. Indtil da kan alle indsende bemærkninger.",
+      "rubric": "Deja claro qué queda abierto, qué se conserva y cómo se podrán presentar observaciones."
+    },
+    "exercises": [
+      {
+        "kind": "grammar",
+        "prompt": "Lad os beholde forarbejdet og ___ de beslutninger, som høringen stadig kan ændre.",
+        "answer": "genåbne",
+        "explanation": "Distingue el trabajo preparatorio de una autorización definitiva y delimita lo revisable."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «el resultado» en esta escena?",
+        "answer": "udfaldet",
+        "explanation": "En la escena: Ændre udfaldet af høringen."
+      },
+      {
+        "kind": "vocabulary",
+        "prompt": "¿Cómo se dice «aprobación formal» en esta escena?",
+        "answer": "formel godkendelse",
+        "explanation": "En la escena: Sagen afventer formel godkendelse."
+      }
+    ]
+  }
+]

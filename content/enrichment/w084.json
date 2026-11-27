@@ -1,0 +1,79 @@
+{
+ "week": 84,
+ "da": {
+  "dialogue2": {
+   "context": "Una jefa lee el borrador de un informe trimestral de atención al cliente y pide matizar una conclusión demasiado optimista.",
+   "lines": [
+    {"text": "Jeg har læst dit udkast. Klagerne er faldet, men hvad med svartiderne?", "es": "He leído tu borrador. Las quejas han bajado, pero ¿qué pasa con los tiempos de respuesta?"},
+    {"text": "De er desværre steget fra to til fire timer i gennemsnit.", "es": "Por desgracia han subido de dos a cuatro horas de media."},
+    {"text": "Så kan konklusionen ikke bare være, at alt går bedre.", "es": "Entonces la conclusión no puede ser simplemente que todo va mejor."},
+    {"text": "Rigtigt. Jeg skriver, at kvaliteten er blevet bedre, men at vi stadig halter bagefter på hastighed.", "es": "Cierto. Escribo que la calidad ha mejorado, pero que en rapidez seguimos rezagados."},
+    {"text": "Godt. Og nævn gerne årsagen, hvis du kender den.", "es": "Bien. Y menciona la causa, si la conoces."},
+    {"text": "To medarbejdere blev flyttet til en anden afdeling i august.", "es": "En agosto trasladaron a dos empleados a otro departamento."},
+    {"text": "Det skal med. Ellers bliver tallene misforstået.", "es": "Eso tiene que aparecer. Si no, las cifras se malinterpretarán."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo queda la conclusión del informe al final?",
+   "choices": ["Positiva en calidad, pero con un problema de rapidez que se explica", "Totalmente positiva, porque bajaron las quejas", "Negativa, porque subieron las quejas"]
+  },
+  "grammar": {
+   "focus": "Pasiva con «blive» y pasiva en -s",
+   "explain": "La pasiva con «blive» describe sobre todo acciones concretas: «To medarbejdere blev flyttet». La pasiva en -s es típica de textos formales, reglas y frases con modal: «Rapporten skal sendes i dag».",
+   "items": [
+    {"prompt": "Rapporten ___ godkendt af ledelsen i går. (blive, pasado)", "answer": "blev", "es": "El informe fue aprobado ayer por la dirección."},
+    {"prompt": "Tallene skal ___ inden fredag. (opdatere, pasiva en -s)", "answer": "opdateres", "es": "Las cifras deben actualizarse antes del viernes."},
+    {"prompt": "Hvert år ___ der over 2.000 henvendelser fra kunder. (modtage, pasiva en -s)", "answer": "modtages", "es": "Cada año se reciben más de 2.000 consultas de clientes."}
+   ]
+  },
+  "vocab": [
+   {"text": "et udkast", "es": "un borrador", "example": "Jeg sender dig et udkast i eftermiddag.", "example_es": "Te mando un borrador esta tarde."},
+   {"text": "i gennemsnit", "es": "de media", "example": "Svartiden er i gennemsnit fire timer.", "example_es": "El tiempo de respuesta es de cuatro horas de media."},
+   {"text": "halter bagefter", "es": "va rezagado", "example": "Vores kundeservice halter bagefter konkurrenternes.", "example_es": "Nuestra atención al cliente va por detrás de la de la competencia."},
+   {"text": "misforstået", "es": "malinterpretado", "example": "Tallene kan blive misforstået uden en forklaring.", "example_es": "Las cifras pueden malinterpretarse sin una explicación."}
+  ],
+  "transfer": {
+   "prompt": "Tu responsable te pide un resumen breve (4–5 frases, registro formal) sobre el uso del nuevo sistema de reserva de salas durante el último mes, para enviarlo a todo el departamento. Da dos datos, una explicación y una recomendación.",
+   "model": "I oktober blev der foretaget 312 bookinger i det nye system, hvilket er 40 procent flere end i september. Mødelokalerne på første sal blev brugt mest, især tirsdag og torsdag. Samtidig blev 25 bookinger aflyst mindre end en time før mødet. Det skyldes sandsynligvis, at påmindelser endnu ikke sendes automatisk. Vi anbefaler derfor, at funktionen aktiveres inden udgangen af november.",
+   "rubric": "Incluye al menos dos cifras, usa la pasiva al menos dos veces (con «blive» o en -s), da una causa con «det skyldes» o similar y cierra con una recomendación."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una jefa lee el borrador de un informe trimestral de atención al cliente y pide matizar una conclusión demasiado optimista.",
+   "lines": [
+    {"text": "Ech hunn däin Entworf gelies. D'Reklamatioune sinn erofgaangen, mee wéi gesäit et mat den Äntwertzäiten aus?", "es": "He leído tu borrador. Las reclamaciones han bajado, pero ¿qué pasa con los tiempos de respuesta?"},
+    {"text": "Déi sinn am Duerchschnëtt leider vun zwou op véier Stonnen eropgaangen.", "es": "Por desgracia han subido de dos a cuatro horas de media."},
+    {"text": "Da kann d'Konklusioun net einfach sinn, datt alles besser leeft.", "es": "Entonces la conclusión no puede ser simplemente que todo va mejor."},
+    {"text": "Richteg. Ech schreiwen, datt d'Qualitéit besser ginn ass, mee datt mir nach ze lues sinn.", "es": "Cierto. Escribo que la calidad ha mejorado, pero que todavía somos demasiado lentos."},
+    {"text": "Gutt. A schreif och dobäi, wourun dat läit.", "es": "Bien. Y añade también a qué se debe."},
+    {"text": "Am August goufen zwee Mataarbechter an eng aner Abteilung versat.", "es": "En agosto trasladaron a dos empleados a otro departamento."},
+    {"text": "Dat muss eran. Soss ginn d'Zuele falsch verstanen.", "es": "Eso tiene que aparecer. Si no, las cifras se malinterpretarán."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo queda la conclusión del informe al final?",
+   "choices": ["Positiva en calidad, pero con un problema de rapidez que se explica", "Totalmente positiva, porque bajaron las reclamaciones", "Negativa, porque subieron las reclamaciones"]
+  },
+  "grammar": {
+   "focus": "Pasiva con «ginn» (gi-Passiv)",
+   "explain": "La pasiva se forma con «ginn» + participio: presente «gëtt geschéckt», pasado «gouf geschéckt», perfecto «ass geschéckt ginn». Con un modal, «ginn» va al final: «muss geschéckt ginn».",
+   "items": [
+    {"prompt": "De Bericht ___ gëschter vun der Direktioun guttgeheescht. (ginn, pasado)", "answer": "gouf", "es": "El informe fue aprobado ayer por la dirección."},
+    {"prompt": "D'Zuele mussen nach virum Freideg aktualiséiert ___.", "answer": "ginn", "es": "Las cifras tienen que actualizarse antes del viernes."},
+    {"prompt": "Zënter Januar ___ all Ufro elektronesch registréiert. (ginn, presente)", "answer": "gëtt", "es": "Desde enero, cada solicitud se registra electrónicamente."}
+   ]
+  },
+  "vocab": [
+   {"text": "en Entworf", "es": "un borrador", "example": "Ech schécken der muer en Entworf.", "example_es": "Mañana te mando un borrador."},
+   {"text": "am Duerchschnëtt", "es": "de media", "example": "Mir äntweren am Duerchschnëtt no véier Stonnen.", "example_es": "Respondemos de media a las cuatro horas."},
+   {"text": "wourun dat läit", "es": "a qué se debe", "example": "Mir mussen erausfannen, wourun dat läit.", "example_es": "Tenemos que averiguar a qué se debe."},
+   {"text": "falsch verstoen", "es": "malinterpretar", "example": "Ouni Erklärung kann een d'Zuele falsch verstoen.", "example_es": "Sin explicación, las cifras se pueden malinterpretar."}
+  ],
+  "transfer": {
+   "prompt": "Tu responsable te pide un resumen breve (4–5 frases, registro formal) sobre el uso del nuevo sistema de reserva de salas durante el último mes, para enviarlo a todo el departamento. Da dos datos, una explicación y una recomendación.",
+   "model": "Am Oktober goufen am neie System 312 Reservatioune gemaach, dat sinn 40 Prozent méi wéi am September. D'Sëtzungssäll um éischte Stack goufe meeschtens dënschdes an donneschdes benotzt. Gläichzäiteg goufen 25 Reservatioune manner wéi eng Stonn virun der Reunioun annuléiert. Dat läit wahrscheinlech dorun, datt nach keng automatesch Erënnerunge verschéckt ginn. Dofir recommandéiere mir, dës Funktioun bis Enn November ze aktivéieren.",
+   "rubric": "Incluye al menos dos cifras, usa la pasiva con «ginn» al menos dos veces, da una causa con «dat läit dorun, datt» o similar y cierra con una recomendación."
+  }
+ }
+}

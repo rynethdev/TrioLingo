@@ -1,0 +1,81 @@
+{
+ "week": 200,
+ "da": {
+  "dialogue2": {
+   "context": "Una ingeniera presenta ante un jurado municipal su proyecto de huertos escolares en azoteas; un miembro del jurado la interrumpe con la objeción más temida: el peso sobre los edificios.",
+   "lines": [
+    {"text": "Før du fortsætter: Kan tagene overhovedet bære de haver?", "es": "Antes de que sigas: ¿pueden los tejados soportar siquiera esos huertos?"},
+    {"text": "Godt, at du spørger nu — det er den største indvending, og jeg havde tænkt mig at tage den op.", "es": "Bien que lo preguntes ahora: es la mayor objeción, y pensaba abordarla."},
+    {"text": "Så tag den op.", "es": "Pues abórdala."},
+    {"text": "For det første har vi kun valgt tage, som en ingeniør har godkendt. For det andet bruger vi letjord, der vejer en tredjedel af almindelig muld.", "es": "En primer lugar, solo hemos elegido tejados aprobados por un ingeniero. En segundo lugar, usamos sustrato ligero, que pesa un tercio de la tierra normal."},
+    {"text": "Og hvis et tag alligevel viser sig at være for svagt?", "es": "¿Y si un tejado resulta aun así demasiado débil?"},
+    {"text": "Så springer vi det over. Pilotprojektet omfatter tolv tage; vi behøver kun otte for at bevise idéen.", "es": "Entonces lo descartamos. El piloto incluye doce tejados; solo necesitamos ocho para demostrar la idea."},
+    {"text": "Hvad beder du konkret om?", "es": "¿Qué pides en concreto?"},
+    {"text": "Kort sagt: 400.000 kroner til et år med otte tage — og en evaluering, før vi beder om mere.", "es": "En resumen: 400.000 coronas para un año con ocho tejados, y una evaluación antes de pedir más."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué dice la ingeniera «Bien que lo preguntes ahora»?",
+   "choices": ["Porque había previsto la objeción y la recibe como una ocasión para reforzar su propuesta", "Porque quiere ganar tiempo para pensar una respuesta", "Porque el jurado la ha interrumpido de forma grosera"]
+  },
+  "grammar": {
+   "focus": "Conectores de estructuración del discurso: for det første, dernæst, kort sagt, med andre ord",
+   "explain": "En una defensa oral los conectores ordenan y señalizan: for det første / for det andet (en primer / segundo lugar), dernæst (a continuación), endelig (por último), kort sagt (en resumen), med andre ord (es decir). Tras ellos el verbo va en segunda posición.",
+   "items": [
+    {"prompt": "For det første er tagene godkendt; for det ___ bruger vi letjord. (en segundo lugar)", "answer": "andet", "es": "En primer lugar, los tejados están aprobados; en segundo lugar, usamos sustrato ligero."},
+    {"prompt": "___ sagt beder vi om 400.000 kroner til et pilotår. (en resumen)", "answer": "Kort", "es": "En resumen, pedimos 400.000 coronas para un año piloto."},
+    {"prompt": "Med andre ___: vi bruger kun de tage, der kan bære haverne. (es decir)", "answer": "ord", "es": "Es decir: solo usamos los tejados que pueden soportar los huertos."}
+   ]
+  },
+  "vocab": [
+   {"text": "tage den indvending op", "es": "abordar esa objeción", "example": "Jeg vil gerne tage den indvending op med det samme.", "example_es": "Quiero abordar esa objeción de inmediato."},
+   {"text": "bevise idéen", "es": "demostrar la idea", "example": "Otte tage er nok til at bevise idéen.", "example_es": "Ocho tejados bastan para demostrar la idea."},
+   {"text": "et pilotprojekt", "es": "un proyecto piloto", "example": "Vi starter med et pilotprojekt på et år.", "example_es": "Empezamos con un proyecto piloto de un año."},
+   {"text": "et solidt grundlag", "es": "una base sólida", "example": "Forslaget står på et solidt grundlag.", "example_es": "La propuesta se apoya en una base sólida."}
+  ],
+  "transfer": {
+   "prompt": "Escribe la defensa completa de un proyecto propio (8 frases) ante un comité de financiación: problema, propuesta, evidencia, objeción más fuerte y respuesta, petición concreta y próximo paso, con conectores que estructuren el discurso.",
+   "model": "Byens skoler mangler steder, hvor børn kan se, hvordan mad gror, og samtidig står hundredvis af flade tage ubrugte. Vores forslag er at omdanne otte skoletage til køkkenhaver, som eleverne passer i undervisningen. For det første viser et forsøg på én skole sidste år, at eleverne spiste mere grønt og blev mere engagerede i naturfag. For det andet kan haverne drives med frivillige forældre og koster derfor kun lidt at vedligeholde. Den største indvending er tagenes bæreevne, og den tager vi alvorligt: kun tage godkendt af en ingeniør indgår, og vi bruger letjord, der vejer en tredjedel af almindelig muld. Kort sagt beder vi om 400.000 kroner til et pilotår med otte tage. Næste skridt er en uafhængig evaluering efter tolv måneder, før vi beder om én krone mere. Med andre ord: lad os bevise idéen, før vi udvider den.",
+   "rubric": "Sigue la secuencia problema–propuesta–evidencia–objeción–petición–próximo paso; aporta datos concretos; formula y responde la objeción más fuerte; usa conectores de estructuración con precisión; la petición es concreta y medible; tono seguro sin arrogancia."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una ingeniera presenta ante un jurado municipal su proyecto de huertos escolares en azoteas; un miembro del jurado la interrumpe con la objeción más temida: el peso sobre los edificios.",
+   "lines": [
+    {"text": "Ier Dir weidermaacht: Kënnen d'Diecher déi Gäert iwwerhaapt droen?", "es": "Antes de que siga: ¿pueden los tejados soportar siquiera esos huertos?"},
+    {"text": "Gutt, datt Dir dat elo frot — dat ass de gréissten Awand, an ech wollt en esouwisou uschwätzen.", "es": "Bien que lo pregunte ahora: es la mayor objeción, y pensaba abordarla de todos modos."},
+    {"text": "Da schwätzt en un.", "es": "Pues abórdela."},
+    {"text": "Fir d'éischt hu mir nëmmen Diecher gewielt, déi en Ingenieur fräiginn huet. Zweetens benotze mir e liicht Substrat, dat en Drëttel vu normaler Äerd weit.", "es": "En primer lugar, solo hemos elegido tejados que ha aprobado un ingeniero. En segundo lugar, usamos un sustrato ligero que pesa un tercio de la tierra normal."},
+    {"text": "A wann en Daach sech trotzdeem als ze schwaach erausstellt?", "es": "¿Y si un tejado resulta aun así demasiado débil?"},
+    {"text": "Da loosse mir en ewech. De Pilot ëmfaasst zwielef Diecher; mir brauchen der nëmmen aacht, fir d'Iddi ze beweisen.", "es": "Entonces lo descartamos. El piloto incluye doce tejados; solo necesitamos ocho para demostrar la idea."},
+    {"text": "Wat frot Dir konkret?", "es": "¿Qué pide en concreto?"},
+    {"text": "Kuerz gesot: 50.000 Euro fir ee Joer mat aacht Diecher — an eng Evaluatioun, ier mir méi froen.", "es": "En resumen: 50.000 euros para un año con ocho tejados, y una evaluación antes de pedir más."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué dice la ingeniera «Bien que lo pregunte ahora»?",
+   "choices": ["Porque había previsto la objeción y la recibe como una ocasión para reforzar su propuesta", "Porque quiere ganar tiempo para pensar una respuesta", "Porque el jurado la ha interrumpido de forma grosera"]
+  },
+  "grammar": {
+   "focus": "Conectores de estructuración del discurso: fir d'éischt, zweetens, kuerz gesot, mat anere Wierder",
+   "explain": "En una defensa oral los conectores ordenan y señalizan: fir d'éischt (en primer lugar), zweetens (en segundo lugar), duerno (después), schliisslech (por último), kuerz gesot (en resumen), mat anere Wierder (es decir). Tras ellos el verbo va en segunda posición.",
+   "items": [
+    {"prompt": "Fir d'éischt si mir realistesch; ___ si mir bëlleg. (en segundo lugar)", "answer": "zweetens", "es": "En primer lugar, somos realistas; en segundo lugar, somos baratos."},
+    {"prompt": "Kuerz ___: mir froen 50.000 Euro fir e Pilotjoer. (en resumen)", "answer": "gesot", "es": "En resumen: pedimos 50.000 euros para un año piloto."},
+    {"prompt": "Mat anere ___: mir huelen nëmmen d'Diecher, déi d'Gäert droe kënnen. (es decir)", "answer": "Wierder", "es": "Es decir: solo usamos los tejados que pueden soportar los huertos."}
+   ]
+  },
+  "vocab": [
+   {"text": "Awand", "es": "objeción", "example": "Dat ass de stäerksten Awand géint de Projet.", "example_es": "Esa es la objeción más fuerte contra el proyecto."},
+   {"text": "d'Iddi ze beweisen", "es": "demostrar la idea", "example": "Aacht Diecher ginn duer, fir d'Iddi ze beweisen.", "example_es": "Ocho tejados bastan para demostrar la idea."},
+   {"text": "Pilotprojet", "es": "proyecto piloto", "example": "Mir fänke mat engem Pilotprojet vun engem Joer un.", "example_es": "Empezamos con un proyecto piloto de un año."},
+   {"text": "op enger solider Basis", "es": "sobre una base sólida", "example": "De Virschlag steet op enger solider Basis.", "example_es": "La propuesta se apoya en una base sólida."}
+  ],
+  "transfer": {
+   "prompt": "Escribe la defensa completa de un proyecto propio (8 frases) ante un comité de financiación: problema, propuesta, evidencia, objeción más fuerte y respuesta, petición concreta y próximo paso, con conectores que estructuren el discurso.",
+   "model": "Eise Schoule feele Plazen, wou Kanner gesi kënnen, wéi Iessen wiisst, a gläichzäiteg leien honnerte vu flaachen Diecher brooch. Eise Virschlag ass, aacht Schoulsdiecher a Geméisgäert ëmzebauen, déi d'Schüler am Ënnerrecht versuergen. Fir d'éischt weist e Versuch op enger Schoul d'lescht Joer, datt d'Kanner méi Geméis giess hunn a sech méi fir d'Naturwëssenschaften interesséiert hunn. Zweetens kënnen d'Gäert mat fräiwëllegen Eltere bedriwwe ginn a kaschten dofir wéineg am Ënnerhalt. De gréissten Awand ass d'Droekraaft vun den Diecher, an dee huele mir eescht: nëmmen Diecher, déi en Ingenieur fräiginn huet, kommen a Fro, a mir benotzen e liicht Substrat, dat en Drëttel vu normaler Äerd weit. Kuerz gesot froe mir 50.000 Euro fir e Pilotjoer mat aacht Diecher. Den nächste Schrëtt ass eng onofhängeg Evaluatioun no zwielef Méint, ier mir ee Cent méi froen. Mat anere Wierder: loosse mir d'Iddi beweisen, ier mir se ausbauen.",
+   "rubric": "Sigue la secuencia problema–propuesta–evidencia–objeción–petición–próximo paso; aporta datos concretos; formula y responde la objeción más fuerte; usa conectores de estructuración con precisión; la petición es concreta y medible; tono seguro sin arrogancia."
+  }
+ }
+}

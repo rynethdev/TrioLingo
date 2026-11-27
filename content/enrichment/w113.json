@@ -1,0 +1,81 @@
+{
+ "week": 113,
+ "da": {
+  "dialogue2": {
+   "context": "Por teléfono, una organizadora invita a una experta a un debate; ella no puede ir esa fecha, declina con cortesía y propone a una colega.",
+   "lines": [
+    {"text": "Vi holder en paneldebat om grøn mobilitet den 14. marts, og vi vil meget gerne have dig med.", "es": "Organizamos un debate sobre movilidad verde el 14 de marzo y nos encantaría contar contigo."},
+    {"text": "Tusind tak for invitationen, det er jeg virkelig beæret over.", "es": "Muchísimas gracias por la invitación, me siento muy honrada."},
+    {"text": "Men?", "es": "¿Pero?"},
+    {"text": "Men desværre er jeg på en konference i Bruxelles den uge, så jeg må melde afbud.", "es": "Pero por desgracia esa semana estoy en un congreso en Bruselas, así que tengo que declinar."},
+    {"text": "Ærgerligt. Kender du nogen, der kunne deltage i stedet?", "es": "Qué pena. ¿Conoces a alguien que pudiera participar en tu lugar?"},
+    {"text": "Min kollega Ida Brandt arbejder med det samme og er en fremragende taler.", "es": "Mi colega Ida Brandt trabaja en lo mismo y es una oradora excelente."},
+    {"text": "Perfekt. Vil du sende mig hendes kontaktoplysninger?", "es": "Perfecto. ¿Me mandas sus datos de contacto?"},
+    {"text": "Gerne, og jeg håber, I tænker på mig en anden gang.", "es": "Con gusto, y espero que penséis en mí en otra ocasión."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo responde la experta a la invitación?",
+   "choices": ["La rechaza por un viaje y recomienda a una colega", "La acepta pero pide cambiar la fecha", "La rechaza porque el tema no le interesa"]
+  },
+  "grammar": {
+   "focus": "Verbos con preposición fija en invitaciones",
+   "explain": "En invitaciones y respuestas aparecen verbos con preposición fija: «takke for» (agradecer), «være beæret over» (sentirse honrado por), «deltage i» (participar en), «tænke på» (pensar en), «glæde sig til» (tener ganas de).",
+   "items": [
+    {"prompt": "Vi glæder os meget ___ at se dig til konferencen.", "answer": "til", "es": "Tenemos muchas ganas de verte en el congreso."},
+    {"prompt": "Desværre kan jeg ikke deltage ___ mødet på torsdag.", "answer": "i", "es": "Por desgracia, no puedo participar en la reunión del jueves."},
+    {"prompt": "Mange tak ___ den venlige invitation.", "answer": "for", "es": "Muchas gracias por la amable invitación."}
+   ]
+  },
+  "vocab": [
+   {"text": "melde afbud", "es": "excusar la asistencia, declinar", "example": "Jeg må desværre melde afbud til middagen.", "example_es": "Por desgracia, no podré ir a la cena."},
+   {"text": "beæret", "es": "honrado", "example": "Vi er beæret over at have dig som gæst.", "example_es": "Es un honor tenerte como invitada."},
+   {"text": "fremragende", "es": "excelente", "example": "Hun er en fremragende taler.", "example_es": "Es una oradora excelente."},
+   {"text": "en anden gang", "es": "en otra ocasión", "example": "Jeg håber, vi ses en anden gang.", "example_es": "Espero que nos veamos en otra ocasión."}
+  ],
+  "transfer": {
+   "prompt": "Un antiguo profesor te invita a dar una charla a sus alumnos sobre tu experiencia profesional el último viernes del mes. Acepta por correo (4–5 frases, formal pero cálido): agradece, confirma y haz dos preguntas prácticas.",
+   "model": "Kære Henrik. Tusind tak for invitationen, som jeg er meget glad for. Jeg deltager meget gerne i undervisningen fredag den 28. februar og glæder mig til at møde de studerende. Må jeg spørge, hvor lang tid jeg har til mit oplæg, og om der er en projektor i lokalet? Jeg tænker at fortælle om mine første år som ingeniør og om de fejl, jeg lærte mest af. Venlig hilsen, Carmen.",
+   "rubric": "Agradece y acepta de forma explícita, confirma la fecha, formula dos preguntas prácticas y usa al menos dos verbos con preposición fija (takke for, glæde sig til, deltage i)."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Por teléfono, una organizadora invita a una experta a un debate; ella no puede ir esa fecha, declina con cortesía y propone a una colega.",
+   "lines": [
+    {"text": "Mir organiséieren den 14. Mäerz eng Diskussiounsronn iwwer gréng Mobilitéit, a mir hätten Iech ganz gär dobäi.", "es": "Organizamos un debate sobre movilidad verde el 14 de marzo y nos encantaría contar con usted."},
+    {"text": "Villmools Merci fir d'Invitatioun, dat ass eng grouss Éier fir mech.", "es": "Muchísimas gracias por la invitación, es un gran honor para mí."},
+    {"text": "Mee?", "es": "¿Pero?"},
+    {"text": "Mee leider sinn ech déi Woch op enger Konferenz zu Bréissel, dofir muss ech ofsoen.", "es": "Pero por desgracia esa semana estoy en un congreso en Bruselas, así que tengo que declinar."},
+    {"text": "Schued. Kennt Dir een, deen amplaz kéint deelhuelen?", "es": "Qué pena. ¿Conoce a alguien que pudiera participar en su lugar?"},
+    {"text": "Meng Kolleegin Ida Brandt schafft am selwechte Beräich an ass eng exzellent Riederin.", "es": "Mi colega Ida Brandt trabaja en el mismo ámbito y es una oradora excelente."},
+    {"text": "Perfekt. Kéint Dir mir hir Kontaktdaten schécken?", "es": "Perfecto. ¿Podría enviarme sus datos de contacto?"},
+    {"text": "Gär, an ech hoffen, datt Dir eng aner Kéier un mech denkt.", "es": "Con gusto, y espero que piensen en mí en otra ocasión."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo responde la experta a la invitación?",
+   "choices": ["La rechaza por un viaje y recomienda a una colega", "La acepta pero pide cambiar la fecha", "La rechaza porque el tema no le interesa"]
+  },
+  "grammar": {
+   "focus": "Verbos con preposición fija en invitaciones",
+   "explain": "En invitaciones aparecen verbos con preposición fija: «sech bedanke fir» (agradecer), «deelhuelen un» (participar en), «denken un» (pensar en), «sech freeën op» (tener ganas de). «Un» rige dativo: «un der Reunioun».",
+   "items": [
+    {"prompt": "Mir freeën eis immens ___ Äre Besuch op der Konferenz.", "answer": "op", "es": "Nos hace muchísima ilusión su visita al congreso."},
+    {"prompt": "Leider kann ech net ___ der Reunioun en Donneschdeg deelhuelen.", "answer": "un", "es": "Por desgracia, no puedo participar en la reunión del jueves."},
+    {"prompt": "Ech bedanke mech ___ déi frëndlech Invitatioun.", "answer": "fir", "es": "Le agradezco la amable invitación."}
+   ]
+  },
+  "vocab": [
+   {"text": "ofsoen", "es": "declinar, cancelar", "example": "Ech muss d'Iessen leider ofsoen.", "example_es": "Por desgracia tengo que cancelar la cena."},
+   {"text": "eng grouss Éier", "es": "un gran honor", "example": "Et ass eng grouss Éier, hei ze schwätzen.", "example_es": "Es un gran honor hablar aquí."},
+   {"text": "Riederin", "es": "oradora", "example": "Si ass eng exzellent Riederin.", "example_es": "Es una oradora excelente."},
+   {"text": "eng aner Kéier", "es": "en otra ocasión", "example": "Vläicht klappt et eng aner Kéier.", "example_es": "Quizá salga en otra ocasión."}
+  ],
+  "transfer": {
+   "prompt": "Un antiguo profesor te invita a dar una charla a sus alumnos sobre tu experiencia profesional el último viernes del mes. Acepta por correo (4–5 frases, formal pero cálido): agradece, confirma y haz dos preguntas prácticas.",
+   "model": "Léiwen Här Weber, villmools Merci fir Är Invitatioun, iwwer déi ech mech immens gefreet hunn. Ech huele ganz gär e Freideg, den 28. Februar, un Ärem Cours deel a freeë mech drop, d'Studente kennenzeléieren. Dierft ech froen, wéi vill Zäit ech fir mäi Virtrag hunn an ob et e Projecteur am Sall gëtt? Ech géif gär vu menge éischte Joren als Ingénieur erzielen a vun de Feeler, aus deenen ech am meeschte geléiert hunn. Mat beschte Gréiss, Carmen.",
+   "rubric": "Agradece y acepta de forma explícita, confirma la fecha, formula dos preguntas prácticas y usa al menos dos verbos con preposición fija (sech bedanke fir, sech freeën op, deelhuelen un)."
+  }
+ }
+}

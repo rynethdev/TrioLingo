@@ -1,0 +1,3384 @@
+[
+ {
+  "id": "lb-a2-w22",
+  "lang": "lb",
+  "level": "A2",
+  "week": 22,
+  "course_week": 22,
+  "title": "Inscribirte en una biblioteca",
+  "goal": "Pregunta por el carné y los documentos necesarios.",
+  "setup": "Pregunta por el carné y los documentos necesarios.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Moien, wéi kréien ech eng Bibliothéikskaart?",
+    "es": "Hola, ¿cómo consigo un carné de biblioteca?"
+   },
+   {
+    "speaker": 1,
+    "text": "Bréngt w.e.g. Är Identitéitskaart mat.",
+    "es": "Traiga su documento de identidad, por favor."
+   },
+   {
+    "speaker": 0,
+    "text": "Kann ech haut e Buch léinen?",
+    "es": "¿Puedo tomar prestado un libro hoy?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jo, soubal Dir ugemellt sidd.",
+    "es": "Sí, en cuanto esté inscrito."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Hola, ¿cómo consigo un carné de biblioteca?",
+    "Traiga su documento de identidad, por favor.",
+    "Sí, en cuanto esté inscrito."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Moien, wéi kréien ech eng Bibliothéikskaart?",
+    "es": "Responde: Traiga su documento de identidad, por favor.",
+    "model": "Bréngt w.e.g. Är Identitéitskaart mat.",
+    "model_es": "Traiga su documento de identidad, por favor.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Kann ech haut e Buch léinen?",
+    "es": "Responde: Sí, en cuanto esté inscrito.",
+    "model": "Jo, soubal Dir ugemellt sidd.",
+    "model_es": "Sí, en cuanto esté inscrito.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Dir kënnt Bicher fir dräi Woche léinen. Verlängert se virum Termin.",
+   "prompt": "¿Cuánto tiempo dura el préstamo?",
+   "choices": [
+    "Una semana",
+    "Dos días",
+    "Tres semanas"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Escribe un correo preguntando por el carné.",
+   "model": "Moien, ech wëll mech umellen. Wat muss ech matbréngen?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «tomar prestado un libro» en esta escena?",
+    "answer": "e Buch léinen",
+    "explanation": "e Buch léinen = tomar prestado un libro."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «su documento de identidad» en esta escena?",
+    "answer": "Är Identitéitskaart",
+    "explanation": "Är Identitéitskaart = su documento de identidad."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w23",
+  "lang": "lb",
+  "level": "A2",
+  "week": 23,
+  "course_week": 23,
+  "title": "Consultar un horario médico",
+  "goal": "Describe una molestia y pregunta cuándo te pueden atender.",
+  "setup": "Describe una molestia y pregunta cuándo te pueden atender.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Ech hunn zënter gëschter Halswéi.",
+    "es": "Me duele la garganta desde ayer."
+   },
+   {
+    "speaker": 1,
+    "text": "Hutt Dir och Féiwer?",
+    "es": "¿Tiene también fiebre?"
+   },
+   {
+    "speaker": 0,
+    "text": "Nee. Wéini kann ech kommen?",
+    "es": "No. ¿Cuándo puedo venir?"
+   },
+   {
+    "speaker": 1,
+    "text": "Muer um néng Auer ass eng Plaz fräi.",
+    "es": "Mañana a las nueve hay un hueco."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Me duele la garganta desde ayer.",
+    "¿Tiene también fiebre?",
+    "Mañana a las nueve hay un hueco."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Ech hunn zënter gëschter Halswéi.",
+    "es": "Responde: ¿Tiene también fiebre?",
+    "model": "Hutt Dir och Féiwer?",
+    "model_es": "¿Tiene también fiebre?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Nee. Wéini kann ech kommen?",
+    "es": "Responde: Mañana a las nueve hay un hueco.",
+    "model": "Muer um néng Auer ass eng Plaz fräi.",
+    "model_es": "Mañana a las nueve hay un hueco.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Méindes moies ass Consultatioun ouni Rendez-vous. Bréngt Är Kaart mat.",
+   "prompt": "¿Cuándo hay consulta sin cita?",
+   "choices": [
+    "El martes por la tarde",
+    "El viernes",
+    "El lunes por la mañana"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Escribe un mensaje breve solicitando una consulta.",
+   "model": "Ech hunn Halswéi. Kann ech muer fir eng Consultatioun kommen?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «dolor de garganta» en esta escena?",
+    "answer": "Halswéi",
+    "explanation": "Halswéi = dolor de garganta."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «un hueco libre» en esta escena?",
+    "answer": "eng Plaz fräi",
+    "explanation": "eng Plaz fräi = un hueco libre."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w24",
+  "lang": "lb",
+  "level": "A2",
+  "week": 24,
+  "course_week": 24,
+  "title": "Preguntar por una vivienda",
+  "goal": "Pregunta por el precio y una visita a un piso.",
+  "setup": "Pregunta por el precio y una visita a un piso.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Wéi vill kascht d’Wunneng pro Mount?",
+    "es": "¿Cuánto cuesta el piso al mes?"
+   },
+   {
+    "speaker": 1,
+    "text": "Nénghonnert Euro, ouni Stroum.",
+    "es": "Novecientos euros, sin electricidad."
+   },
+   {
+    "speaker": 0,
+    "text": "Kann ech d’Wunneng e Samschdeg kucken?",
+    "es": "¿Puedo visitar el piso el sábado?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jo, um eelef Auer.",
+    "es": "Sí, a las once."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Novecientos euros, sin electricidad.",
+    "¿Cuánto cuesta el piso al mes?",
+    "Sí, a las once."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Wéi vill kascht d’Wunneng pro Mount?",
+    "es": "Responde: Novecientos euros, sin electricidad.",
+    "model": "Nénghonnert Euro, ouni Stroum.",
+    "model_es": "Novecientos euros, sin electricidad.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Kann ech d’Wunneng e Samschdeg kucken?",
+    "es": "Responde: Sí, a las once.",
+    "model": "Jo, um eelef Auer.",
+    "model_es": "Sí, a las once.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "D’Waasser ass am Loyer abegraff. Stroum bezuelt Dir extra.",
+   "prompt": "¿Qué incluye el alquiler?",
+   "choices": [
+    "Internet",
+    "La electricidad",
+    "El agua"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Pregunta por el alquiler y los gastos.",
+   "model": "Wat ass am Loyer abegraff? Kann ech d’Wunneng kucken?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «al mes» en esta escena?",
+    "answer": "pro Mount",
+    "explanation": "pro Mount = al mes."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «sin electricidad» en esta escena?",
+    "answer": "ouni Stroum",
+    "explanation": "ouni Stroum = sin electricidad."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w25",
+  "lang": "lb",
+  "level": "A2",
+  "week": 25,
+  "course_week": 25,
+  "title": "Organizar una mudanza",
+  "goal": "Acuerda un horario y pide ayuda para llevar cajas.",
+  "setup": "Acuerda un horario y pide ayuda para llevar cajas.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Kanns du mir e Samschdeg beim Plënneren hëllefen?",
+    "es": "¿Puedes ayudarme con la mudanza el sábado?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jo, wéini soll ech kommen?",
+    "es": "Sí, ¿cuándo debo ir?"
+   },
+   {
+    "speaker": 0,
+    "text": "Um zéng Auer. Mir droen d’Këschten erof.",
+    "es": "A las diez. Bajamos las cajas."
+   },
+   {
+    "speaker": 1,
+    "text": "Gutt, ech sinn pünktlech do.",
+    "es": "Bien, estaré allí a tiempo."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Bien, estaré allí a tiempo.",
+    "Sí, ¿cuándo debo ir?",
+    "¿Puedes ayudarme con la mudanza el sábado?"
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "Kanns du mir e Samschdeg beim Plënneren hëllefen?",
+    "es": "Responde: Sí, ¿cuándo debo ir?",
+    "model": "Jo, wéini soll ech kommen?",
+    "model_es": "Sí, ¿cuándo debo ir?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Um zéng Auer. Mir droen d’Këschten erof.",
+    "es": "Responde: Bien, estaré allí a tiempo.",
+    "model": "Gutt, ech sinn pünktlech do.",
+    "model_es": "Bien, estaré allí a tiempo.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Setzt d’Këschte bis e Samschdeg am Gank of. Blockéiert d’Dier net.",
+   "prompt": "¿Dónde se dejan las cajas?",
+   "choices": [
+    "En el jardín",
+    "En el pasillo",
+    "En el coche"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Pide ayuda con una mudanza y ofrece una hora.",
+   "model": "Kanns du mir e Samschdeg um zéng Auer beim Plënneren hëllefen?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «con la mudanza» en esta escena?",
+    "answer": "beim Plënneren",
+    "explanation": "beim Plënneren = con la mudanza."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «las cajas» en esta escena?",
+    "answer": "d’Këschten",
+    "explanation": "d’Këschten = las cajas."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w27",
+  "lang": "lb",
+  "level": "A2",
+  "week": 27,
+  "course_week": 27,
+  "title": "Recoger una receta",
+  "goal": "Pregunta por una receta y confirma cómo tomar un medicamento.",
+  "setup": "Pregunta por una receta y confirma cómo tomar un medicamento.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Ass mäi Rezept scho prett?",
+    "es": "¿Está lista mi receta?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jo, ech hunn d’Medikament hei.",
+    "es": "Sí, tengo el medicamento aquí."
+   },
+   {
+    "speaker": 0,
+    "text": "Wéi dacks soll ech et huelen?",
+    "es": "¿Con qué frecuencia debo tomarlo?"
+   },
+   {
+    "speaker": 1,
+    "text": "Zweemol den Dag, wéi um Rezept steet.",
+    "es": "Dos veces al día, como dice la receta."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "¿Está lista mi receta?",
+    "Sí, tengo el medicamento aquí.",
+    "Dos veces al día, como dice la receta."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Ass mäi Rezept scho prett?",
+    "es": "Responde: Sí, tengo el medicamento aquí.",
+    "model": "Jo, ech hunn d’Medikament hei.",
+    "model_es": "Sí, tengo el medicamento aquí.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Wéi dacks soll ech et huelen?",
+    "es": "Responde: Dos veces al día, como dice la receta.",
+    "model": "Zweemol den Dag, wéi um Rezept steet.",
+    "model_es": "Dos veces al día, como dice la receta.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Huelt d’Medikament nom Iessen. Wann Dir Froe hutt, rufft un.",
+   "prompt": "¿Cuándo se toma el medicamento?",
+   "choices": [
+    "Por la mañana",
+    "Antes de dormir",
+    "Después de comer"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Escribe una pregunta clara sobre la dosis.",
+   "model": "Wéi dacks soll ech dëst Medikament huelen?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el medicamento» en esta escena?",
+    "answer": "d’Medikament",
+    "explanation": "d’Medikament = el medicamento."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «dos veces al día» en esta escena?",
+    "answer": "zweemol den Dag",
+    "explanation": "zweemol den Dag = dos veces al día."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w28",
+  "lang": "lb",
+  "level": "A2",
+  "week": 28,
+  "course_week": 28,
+  "title": "Avisar de una alergia",
+  "goal": "Explica una alergia y pregunta por los ingredientes.",
+  "setup": "Explica una alergia y pregunta por los ingredientes.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Ech sinn allergesch op Nëss.",
+    "es": "Soy alérgico a los frutos secos."
+   },
+   {
+    "speaker": 1,
+    "text": "Merci, datt Dir eis dat sot.",
+    "es": "Gracias por avisarnos."
+   },
+   {
+    "speaker": 0,
+    "text": "Sinn Nëss an dësem Plat?",
+    "es": "¿Hay frutos secos en este plato?"
+   },
+   {
+    "speaker": 1,
+    "text": "Nee, mee ech froen nach emol an der Kichen no.",
+    "es": "No, pero lo comprobaré otra vez en la cocina."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Gracias por avisarnos.",
+    "Soy alérgico a los frutos secos.",
+    "No, pero lo comprobaré otra vez en la cocina."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Ech sinn allergesch op Nëss.",
+    "es": "Responde: Gracias por avisarnos.",
+    "model": "Merci, datt Dir eis dat sot.",
+    "model_es": "Gracias por avisarnos.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Sinn Nëss an dësem Plat?",
+    "es": "Responde: No, pero lo comprobaré otra vez en la cocina.",
+    "model": "Nee, mee ech froen nach emol an der Kichen no.",
+    "model_es": "No, pero lo comprobaré otra vez en la cocina.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Dëse Plat enthält Mëllech. Frot eis no den aneren Zutaten.",
+   "prompt": "¿Qué ingrediente contiene el plato?",
+   "choices": [
+    "Frutos secos",
+    "Huevo",
+    "Leche"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Avisa de una alergia antes de pedir comida.",
+   "model": "Ech sinn allergesch op Nëss. Kënnt Dir d’Zutaten iwwerpréiwen?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «alérgico a los frutos secos» en esta escena?",
+    "answer": "allergesch op Nëss",
+    "explanation": "allergesch op Nëss = alérgico a los frutos secos."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «los ingredientes» en esta escena?",
+    "answer": "d’Zutaten",
+    "explanation": "d’Zutaten = los ingredientes."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w29",
+  "lang": "lb",
+  "level": "A2",
+  "week": 29,
+  "course_week": 29,
+  "title": "Comparar dos precios",
+  "goal": "Compara dos opciones y pregunta por un descuento.",
+  "setup": "Compara dos opciones y pregunta por un descuento.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Wat ass den Ënnerscheed tëscht dësen zwou Packungen?",
+    "es": "¿Cuál es la diferencia entre estos dos paquetes?"
+   },
+   {
+    "speaker": 1,
+    "text": "Déi grouss huet méi dran.",
+    "es": "El grande contiene más."
+   },
+   {
+    "speaker": 0,
+    "text": "Ass se och méi deier?",
+    "es": "¿También es más caro?"
+   },
+   {
+    "speaker": 1,
+    "text": "Haut net, et gëtt eng Remise.",
+    "es": "Hoy no, tiene descuento."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Hoy no, tiene descuento.",
+    "El grande contiene más.",
+    "¿Cuál es la diferencia entre estos dos paquetes?"
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "Wat ass den Ënnerscheed tëscht dësen zwou Packungen?",
+    "es": "Responde: El grande contiene más.",
+    "model": "Déi grouss huet méi dran.",
+    "model_es": "El grande contiene más.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Ass se och méi deier?",
+    "es": "Responde: Hoy no, tiene descuento.",
+    "model": "Haut net, et gëtt eng Remise.",
+    "model_es": "Hoy no, tiene descuento.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Déi grouss Packung huet haut eng Remise. D’Offer gëllt bis e Freideg.",
+   "prompt": "¿Qué producto tiene descuento?",
+   "choices": [
+    "Ninguno",
+    "El más pequeño",
+    "El más grande"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Pregunta cuál de dos productos cuesta menos.",
+   "model": "Wéi eng Packung kascht manner? Gëtt et eng Remise?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «más caro» en esta escena?",
+    "answer": "méi deier",
+    "explanation": "méi deier = más caro."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «un descuento» en esta escena?",
+    "answer": "eng Remise",
+    "explanation": "eng Remise = un descuento."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w30",
+  "lang": "lb",
+  "level": "A2",
+  "week": 30,
+  "course_week": 30,
+  "title": "Confirmar una dirección",
+  "goal": "Corrige una dirección de entrega y confirma los datos.",
+  "setup": "Corrige una dirección de entrega y confirma los datos.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Meng Liwweradress ass net richteg.",
+    "es": "Mi dirección de entrega no es correcta."
+   },
+   {
+    "speaker": 1,
+    "text": "Wéi ass déi richteg Adress?",
+    "es": "¿Cuál es la dirección correcta?"
+   },
+   {
+    "speaker": 0,
+    "text": "D’Nummer ass zwielef, net zwanzeg.",
+    "es": "El número es doce, no veinte."
+   },
+   {
+    "speaker": 1,
+    "text": "Ech änneren dat elo an Ärer Bestellung.",
+    "es": "Lo cambio ahora en su pedido."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "¿Cuál es la dirección correcta?",
+    "Mi dirección de entrega no es correcta.",
+    "Lo cambio ahora en su pedido."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Meng Liwweradress ass net richteg.",
+    "es": "Responde: ¿Cuál es la dirección correcta?",
+    "model": "Wéi ass déi richteg Adress?",
+    "model_es": "¿Cuál es la dirección correcta?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "D’Nummer ass zwielef, net zwanzeg.",
+    "es": "Responde: Lo cambio ahora en su pedido.",
+    "model": "Ech änneren dat elo an Ärer Bestellung.",
+    "model_es": "Lo cambio ahora en su pedido.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "D’Entrée ass am Haff. Klammt net d’Trap op der Strooss erop.",
+   "prompt": "¿Dónde está la entrada?",
+   "choices": [
+    "En la calle principal",
+    "En el patio",
+    "En el sótano"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Escribe una instrucción breve para la entrega.",
+   "model": "D’Nummer ass zwielef. D’Entrée ass am Haff.",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «la dirección correcta» en esta escena?",
+    "answer": "déi richteg Adress",
+    "explanation": "déi richteg Adress = la dirección correcta."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el pedido» en esta escena?",
+    "answer": "d’Bestellung",
+    "explanation": "d’Bestellung = el pedido."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w32",
+  "lang": "lb",
+  "level": "A2",
+  "week": 32,
+  "course_week": 32,
+  "title": "Entender un retraso",
+  "goal": "Pregunta por una conexión después de un retraso.",
+  "setup": "Pregunta por una conexión después de un retraso.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Mäin Zuch huet Verspéidung.",
+    "es": "Mi tren tiene retraso."
+   },
+   {
+    "speaker": 1,
+    "text": "Wou wëllt Dir hifueren?",
+    "es": "¿Adónde quiere viajar?"
+   },
+   {
+    "speaker": 0,
+    "text": "Ech muss zu Lëtzebuerg ëmsteigen.",
+    "es": "Tengo que hacer transbordo en Luxemburgo."
+   },
+   {
+    "speaker": 1,
+    "text": "Frot um Comptoir no enger anerer Verbindung.",
+    "es": "Pregunte en el mostrador por otra conexión."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "¿Adónde quiere viajar?",
+    "Pregunte en el mostrador por otra conexión.",
+    "Mi tren tiene retraso."
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Mäin Zuch huet Verspéidung.",
+    "es": "Responde: ¿Adónde quiere viajar?",
+    "model": "Wou wëllt Dir hifueren?",
+    "model_es": "¿Adónde quiere viajar?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Ech muss zu Lëtzebuerg ëmsteigen.",
+    "es": "Responde: Pregunte en el mostrador por otra conexión.",
+    "model": "Frot um Comptoir no enger anerer Verbindung.",
+    "model_es": "Pregunte en el mostrador por otra conexión.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Informatiounen iwwer nei Verbindunge kritt Dir um Comptoir.",
+   "prompt": "¿Dónde se recibe información?",
+   "choices": [
+    "En el mostrador",
+    "Por teléfono",
+    "En el tren"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Escribe una pregunta sobre una conexión perdida.",
+   "model": "Mäin Zuch huet Verspéidung. Wéi kommen ech weider?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «retraso» en esta escena?",
+    "answer": "Verspéidung",
+    "explanation": "Verspéidung = retraso."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «hacer transbordo» en esta escena?",
+    "answer": "ëmsteigen",
+    "explanation": "ëmsteigen = hacer transbordo."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w33",
+  "lang": "lb",
+  "level": "A2",
+  "week": 33,
+  "course_week": 33,
+  "title": "Comprar un billete",
+  "goal": "Elige un trayecto y comprueba si puedes cambiar el billete.",
+  "setup": "Elige un trayecto y comprueba si puedes cambiar el billete.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Ech brauch en Ticket fir muer.",
+    "es": "Necesito un billete para mañana."
+   },
+   {
+    "speaker": 1,
+    "text": "Nëmmen Hinfahrt oder och zeréck?",
+    "es": "¿Solo ida o también vuelta?"
+   },
+   {
+    "speaker": 0,
+    "text": "Hinfahrt. Kann ech den Ticket änneren?",
+    "es": "Ida. ¿Puedo cambiar el billete?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jo, wann Dir de flexibelen Ticket kaaft.",
+    "es": "Sí, si compra el billete flexible."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Necesito un billete para mañana.",
+    "Sí, si compra el billete flexible.",
+    "¿Solo ida o también vuelta?"
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Ech brauch en Ticket fir muer.",
+    "es": "Responde: ¿Solo ida o también vuelta?",
+    "model": "Nëmmen Hinfahrt oder och zeréck?",
+    "model_es": "¿Solo ida o también vuelta?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Hinfahrt. Kann ech den Ticket änneren?",
+    "es": "Responde: Sí, si compra el billete flexible.",
+    "model": "Jo, wann Dir de flexibelen Ticket kaaft.",
+    "model_es": "Sí, si compra el billete flexible.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "De flexibelen Ticket kënnt Dir änneren. De bëllegen Ticket net.",
+   "prompt": "¿Qué billete permite cambios?",
+   "choices": [
+    "El barato",
+    "El flexible",
+    "El de ida"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Pregunta por un billete que puedas cambiar.",
+   "model": "Ech brauch e flexibelen Ticket fir muer.",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «ida» en esta escena?",
+    "answer": "Hinfahrt",
+    "explanation": "Hinfahrt = ida."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «un billete flexible» en esta escena?",
+    "answer": "e flexibelen Ticket",
+    "explanation": "e flexibelen Ticket = un billete flexible."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w34",
+  "lang": "lb",
+  "level": "A2",
+  "week": 34,
+  "course_week": 34,
+  "title": "Pedir ayuda en el banco",
+  "goal": "Pregunta por un trámite y los documentos que debes llevar.",
+  "setup": "Pregunta por un trámite y los documentos que debes llevar.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Ech wëll e Kont opmaachen.",
+    "es": "Quiero abrir una cuenta."
+   },
+   {
+    "speaker": 1,
+    "text": "Hutt Dir eng Identitéitskaart dobäi?",
+    "es": "¿Trae un documento de identidad?"
+   },
+   {
+    "speaker": 0,
+    "text": "Jo. Braucht Dir nach eppes?",
+    "es": "Sí. ¿Necesita algo más?"
+   },
+   {
+    "speaker": 1,
+    "text": "Är aktuell Adress, wann ech gelift.",
+    "es": "Su dirección actual, por favor."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "¿Trae un documento de identidad?",
+    "Su dirección actual, por favor.",
+    "Quiero abrir una cuenta."
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Ech wëll e Kont opmaachen.",
+    "es": "Responde: ¿Trae un documento de identidad?",
+    "model": "Hutt Dir eng Identitéitskaart dobäi?",
+    "model_es": "¿Trae un documento de identidad?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Jo. Braucht Dir nach eppes?",
+    "es": "Responde: Su dirección actual, por favor.",
+    "model": "Är aktuell Adress, wann ech gelift.",
+    "model_es": "Su dirección actual, por favor.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Fir en neie Kont braucht Dir eng Identitéitskaart an Är Adress.",
+   "prompt": "¿Qué documento piden?",
+   "choices": [
+    "Un recibo",
+    "Un documento de identidad",
+    "Una foto"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Pregunta qué necesitas llevar al banco.",
+   "model": "Ech wëll e Kont opmaachen. Wat muss ech matbréngen?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «abrir una cuenta» en esta escena?",
+    "answer": "e Kont opmaachen",
+    "explanation": "e Kont opmaachen = abrir una cuenta."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «su dirección actual» en esta escena?",
+    "answer": "Är aktuell Adress",
+    "explanation": "Är aktuell Adress = su dirección actual."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w35",
+  "lang": "lb",
+  "level": "A2",
+  "week": 35,
+  "course_week": 35,
+  "title": "Actualizar un teléfono",
+  "goal": "Comunica un cambio de número y pide confirmación.",
+  "setup": "Comunica un cambio de número y pide confirmación.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Meng Telefonsnummer huet sech geännert.",
+    "es": "Mi número de teléfono ha cambiado."
+   },
+   {
+    "speaker": 1,
+    "text": "Kënnt Dir mir déi nei Nummer soen?",
+    "es": "¿Puede decirme el nuevo número?"
+   },
+   {
+    "speaker": 0,
+    "text": "Jo, ech schécken Iech se och schrëftlech.",
+    "es": "Sí, también se la envío por escrito."
+   },
+   {
+    "speaker": 1,
+    "text": "Gutt, mir bestätegen d’Ännerung.",
+    "es": "Bien, confirmamos el cambio."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "¿Puede decirme el nuevo número?",
+    "Bien, confirmamos el cambio.",
+    "Mi número de teléfono ha cambiado."
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Meng Telefonsnummer huet sech geännert.",
+    "es": "Responde: ¿Puede decirme el nuevo número?",
+    "model": "Kënnt Dir mir déi nei Nummer soen?",
+    "model_es": "¿Puede decirme el nuevo número?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Jo, ech schécken Iech se och schrëftlech.",
+    "es": "Responde: Bien, confirmamos el cambio.",
+    "model": "Gutt, mir bestätegen d’Ännerung.",
+    "model_es": "Bien, confirmamos el cambio.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "No der Ännerung kritt Dir eng Noriicht op Är nei Nummer.",
+   "prompt": "¿Cómo confirman el cambio?",
+   "choices": [
+    "Por carta",
+    "Por llamada",
+    "Por mensaje"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Escribe tu nuevo número en un mensaje claro.",
+   "model": "Meng nei Telefonsnummer ass hei. Kënnt Dir d’Ännerung bestätegen?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el nuevo número» en esta escena?",
+    "answer": "déi nei Nummer",
+    "explanation": "déi nei Nummer = el nuevo número."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el cambio» en esta escena?",
+    "answer": "d’Ännerung",
+    "explanation": "d’Ännerung = el cambio."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w37",
+  "lang": "lb",
+  "level": "A2",
+  "week": 37,
+  "course_week": 37,
+  "title": "Empezar en un empleo",
+  "goal": "Pregunta por tu horario y quién te ayudará el primer día.",
+  "setup": "Pregunta por tu horario y quién te ayudará el primer día.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Moien, et ass mäin éischten Dag hei.",
+    "es": "Hola, es mi primer día aquí."
+   },
+   {
+    "speaker": 1,
+    "text": "Wëllkomm! Mir weisen Iech alles.",
+    "es": "¡Bienvenido! Le enseñaremos todo."
+   },
+   {
+    "speaker": 0,
+    "text": "Wéini fänkt mäin Déngscht un?",
+    "es": "¿Cuándo empieza mi turno?"
+   },
+   {
+    "speaker": 1,
+    "text": "Um aacht Auer. D’Anna hëlleft Iech.",
+    "es": "A las ocho. Anna le ayudará."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "¡Bienvenido! Le enseñaremos todo.",
+    "Hola, es mi primer día aquí.",
+    "A las ocho. Anna le ayudará."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Moien, et ass mäin éischten Dag hei.",
+    "es": "Responde: ¡Bienvenido! Le enseñaremos todo.",
+    "model": "Wëllkomm! Mir weisen Iech alles.",
+    "model_es": "¡Bienvenido! Le enseñaremos todo.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Wéini fänkt mäin Déngscht un?",
+    "es": "Responde: A las ocho. Anna le ayudará.",
+    "model": "Um aacht Auer. D’Anna hëlleft Iech.",
+    "model_es": "A las ocho. Anna le ayudará.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Nei Mataarbechter melle sech fir d’éischt bei der Receptioun.",
+   "prompt": "¿Dónde se presenta la persona nueva?",
+   "choices": [
+    "En recepción",
+    "En la cocina",
+    "En casa"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Escribe una pregunta sobre tu primer día.",
+   "model": "Et ass mäin éischten Dag. Bei wiem soll ech mech mellen?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «mi primer día» en esta escena?",
+    "answer": "mäin éischten Dag",
+    "explanation": "mäin éischten Dag = mi primer día."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «mi turno» en esta escena?",
+    "answer": "mäin Déngscht",
+    "explanation": "mäin Déngscht = mi turno."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w38",
+  "lang": "lb",
+  "level": "A2",
+  "week": 38,
+  "course_week": 38,
+  "title": "Pedir un día libre",
+  "goal": "Pide un día libre y explica un motivo breve.",
+  "setup": "Pide un día libre y explica un motivo breve.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Ech brauch den nächste Freideg fräi.",
+    "es": "Necesito el próximo viernes libre."
+   },
+   {
+    "speaker": 1,
+    "text": "Kënnt Dir dat am Kalenner androen?",
+    "es": "¿Puede anotarlo en el calendario?"
+   },
+   {
+    "speaker": 0,
+    "text": "Jo, ech maachen et haut.",
+    "es": "Sí, lo haré hoy."
+   },
+   {
+    "speaker": 1,
+    "text": "Merci. Da kucke mir, wien Iech vertrëtt.",
+    "es": "Gracias. Entonces veremos quién le sustituye."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Gracias. Entonces veremos quién le sustituye.",
+    "¿Puede anotarlo en el calendario?",
+    "Necesito el próximo viernes libre."
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "Ech brauch den nächste Freideg fräi.",
+    "es": "Responde: ¿Puede anotarlo en el calendario?",
+    "model": "Kënnt Dir dat am Kalenner androen?",
+    "model_es": "¿Puede anotarlo en el calendario?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Jo, ech maachen et haut.",
+    "es": "Responde: Gracias. Entonces veremos quién le sustituye.",
+    "model": "Merci. Da kucke mir, wien Iech vertrëtt.",
+    "model_es": "Gracias. Entonces veremos quién le sustituye.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Mellt e fräien Dag op d’mannst eng Woch virdrun un.",
+   "prompt": "¿Con cuánto tiempo se avisa?",
+   "choices": [
+    "Una semana antes",
+    "Un mes antes",
+    "El mismo día"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Pide un día libre y ofrece otra fecha si hace falta.",
+   "model": "Ech brauch den nächste Freideg fräi. Ech droen et haut an.",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «necesitar libre» en esta escena?",
+    "answer": "fräi brauchen",
+    "explanation": "fräi brauchen = necesitar libre."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «en el calendario» en esta escena?",
+    "answer": "am Kalenner",
+    "explanation": "am Kalenner = en el calendario."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w39",
+  "lang": "lb",
+  "level": "A2",
+  "week": 39,
+  "course_week": 39,
+  "title": "Aclarar una tarea",
+  "goal": "Pide que repitan una instrucción y confirma un plazo.",
+  "setup": "Pide que repitan una instrucción y confirma un plazo.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Kanns du d’Instruktioun widderhuelen?",
+    "es": "¿Puedes repetir la instrucción?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jo, schéck d’Datei un d’Equipe.",
+    "es": "Sí, envía el archivo al equipo."
+   },
+   {
+    "speaker": 0,
+    "text": "Bis wéini soll ech dat maachen?",
+    "es": "¿Para cuándo debo hacerlo?"
+   },
+   {
+    "speaker": 1,
+    "text": "Bis en Donneschdeg, wann ech gelift.",
+    "es": "Para el jueves, por favor."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Sí, envía el archivo al equipo.",
+    "Para el jueves, por favor.",
+    "¿Puedes repetir la instrucción?"
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Kanns du d’Instruktioun widderhuelen?",
+    "es": "Responde: Sí, envía el archivo al equipo.",
+    "model": "Jo, schéck d’Datei un d’Equipe.",
+    "model_es": "Sí, envía el archivo al equipo.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Bis wéini soll ech dat maachen?",
+    "es": "Responde: Para el jueves, por favor.",
+    "model": "Bis en Donneschdeg, wann ech gelift.",
+    "model_es": "Para el jueves, por favor.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Schéckt d’Datei bis en Donneschdeg. Freides gëtt se gelies.",
+   "prompt": "¿Cuándo se entrega el trabajo?",
+   "choices": [
+    "El miércoles",
+    "El jueves",
+    "El lunes"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Escribe una confirmación del plazo.",
+   "model": "Ech schécken d’Datei bis en Donneschdeg. Ass dat richteg?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «repetir la instrucción» en esta escena?",
+    "answer": "d’Instruktioun widderhuelen",
+    "explanation": "d’Instruktioun widderhuelen = repetir la instrucción."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «para el jueves» en esta escena?",
+    "answer": "bis en Donneschdeg",
+    "explanation": "bis en Donneschdeg = para el jueves."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w40",
+  "lang": "lb",
+  "level": "A2",
+  "week": 40,
+  "course_week": 40,
+  "title": "Compartir un trayecto",
+  "goal": "Acuerda un punto de encuentro y avisa si vas tarde.",
+  "setup": "Acuerda un punto de encuentro y avisa si vas tarde.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Kënne mir zesummen op d’Aarbecht fueren?",
+    "es": "¿Podemos ir juntos al trabajo?"
+   },
+   {
+    "speaker": 1,
+    "text": "Jo, ech waarden um siwen Auer.",
+    "es": "Sí, espero a las siete."
+   },
+   {
+    "speaker": 0,
+    "text": "Ech kommen e bësse méi spéit.",
+    "es": "Llegaré un poco más tarde."
+   },
+   {
+    "speaker": 1,
+    "text": "Kee Problem. Schéck mir eng Noriicht.",
+    "es": "No hay problema. Envíame un mensaje."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "No hay problema. Envíame un mensaje.",
+    "¿Podemos ir juntos al trabajo?",
+    "Sí, espero a las siete."
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "Kënne mir zesummen op d’Aarbecht fueren?",
+    "es": "Responde: Sí, espero a las siete.",
+    "model": "Jo, ech waarden um siwen Auer.",
+    "model_es": "Sí, espero a las siete.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Ech kommen e bësse méi spéit.",
+    "es": "Responde: No hay problema. Envíame un mensaje.",
+    "model": "Kee Problem. Schéck mir eng Noriicht.",
+    "model_es": "No hay problema. Envíame un mensaje.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Den Auto waart virum Büro. Mellt Iech, wann Dir méi spéit kommt.",
+   "prompt": "¿Dónde espera el conductor?",
+   "choices": [
+    "Frente a la oficina",
+    "Junto a la estación",
+    "En casa"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Avisa por mensaje de que llegarás tarde.",
+   "model": "Ech kommen e bësse méi spéit. Ech schécken dir eng Noriicht.",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «ir juntos» en esta escena?",
+    "answer": "zesumme fueren",
+    "explanation": "zesumme fueren = ir juntos."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «un poco más tarde» en esta escena?",
+    "answer": "e bësse méi spéit",
+    "explanation": "e bësse méi spéit = un poco más tarde."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w42",
+  "lang": "lb",
+  "level": "A2",
+  "week": 42,
+  "course_week": 42,
+  "title": "Revisar una factura",
+  "goal": "Explica un cargo incorrecto y pide que revisen la factura.",
+  "setup": "Explica un cargo incorrecto y pide que revisen la factura.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Op menger Rechnung steet en extra Betrag.",
+    "es": "En mi factura aparece un importe adicional."
+   },
+   {
+    "speaker": 1,
+    "text": "Hutt Dir d’Rechnungsnummer?",
+    "es": "¿Tiene el número de factura?"
+   },
+   {
+    "speaker": 0,
+    "text": "Jo. Kënnt Dir de Betrag iwwerpréiwen?",
+    "es": "Sí. ¿Puede revisar el importe?"
+   },
+   {
+    "speaker": 1,
+    "text": "Mir kucken et haut no a mellen eis.",
+    "es": "Lo revisamos hoy y le avisamos."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Lo revisamos hoy y le avisamos.",
+    "En mi factura aparece un importe adicional.",
+    "¿Tiene el número de factura?"
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "Op menger Rechnung steet en extra Betrag.",
+    "es": "Responde: ¿Tiene el número de factura?",
+    "model": "Hutt Dir d’Rechnungsnummer?",
+    "model_es": "¿Tiene el número de factura?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Jo. Kënnt Dir de Betrag iwwerpréiwen?",
+    "es": "Responde: Lo revisamos hoy y le avisamos.",
+    "model": "Mir kucken et haut no a mellen eis.",
+    "model_es": "Lo revisamos hoy y le avisamos.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Schéckt d’Rechnungsnummer mat Ärer Reklamatioun.",
+   "prompt": "¿Qué debe enviarse para reclamar?",
+   "choices": [
+    "El número de factura",
+    "Una foto",
+    "El contrato"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Escribe una reclamación breve sobre un cargo.",
+   "model": "Op menger Rechnung steet en extra Betrag. Kënnt Dir dat iwwerpréiwen?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «un importe adicional» en esta escena?",
+    "answer": "en extra Betrag",
+    "explanation": "en extra Betrag = un importe adicional."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el número de factura» en esta escena?",
+    "answer": "d’Rechnungsnummer",
+    "explanation": "d’Rechnungsnummer = el número de factura."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w43",
+  "lang": "lb",
+  "level": "A2",
+  "week": 43,
+  "course_week": 43,
+  "title": "Comunicar una avería de internet",
+  "goal": "Describe qué falla y acuerda una visita técnica.",
+  "setup": "Describe qué falla y acuerda una visita técnica.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Mäin Internet funktionéiert net.",
+    "es": "Mi internet no funciona."
+   },
+   {
+    "speaker": 1,
+    "text": "Hutt Dir de Router nei gestart?",
+    "es": "¿Ha reiniciado el router?"
+   },
+   {
+    "speaker": 0,
+    "text": "Jo, mee et geet nach ëmmer net.",
+    "es": "Sí, pero sigue sin funcionar."
+   },
+   {
+    "speaker": 1,
+    "text": "En Techniker kann e Freideg nomëttes kommen.",
+    "es": "Un técnico puede ir el viernes por la tarde."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Un técnico puede ir el viernes por la tarde.",
+    "Mi internet no funciona.",
+    "¿Ha reiniciado el router?"
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "Mäin Internet funktionéiert net.",
+    "es": "Responde: ¿Ha reiniciado el router?",
+    "model": "Hutt Dir de Router nei gestart?",
+    "model_es": "¿Ha reiniciado el router?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Jo, mee et geet nach ëmmer net.",
+    "es": "Responde: Un técnico puede ir el viernes por la tarde.",
+    "model": "En Techniker kann e Freideg nomëttes kommen.",
+    "model_es": "Un técnico puede ir el viernes por la tarde.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "En Techniker ass e Freideg nomëttes fräi. Confirméiert d’Adress.",
+   "prompt": "¿Cuándo puede venir el técnico?",
+   "choices": [
+    "El viernes por la tarde",
+    "El lunes",
+    "El sábado"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Escribe un aviso de avería con tu disponibilidad.",
+   "model": "Mäin Internet funktionéiert net. Ech sinn e Freideg nomëttes doheem.",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «reiniciar el router» en esta escena?",
+    "answer": "de Router nei starten",
+    "explanation": "de Router nei starten = reiniciar el router."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «todavía no» en esta escena?",
+    "answer": "nach ëmmer net",
+    "explanation": "nach ëmmer net = todavía no."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "lb-a2-w44",
+  "lang": "lb",
+  "level": "A2",
+  "week": 44,
+  "course_week": 44,
+  "title": "Resolver un servicio fallido",
+  "goal": "Explica un problema y pide respuesta por escrito.",
+  "setup": "Explica un problema y pide respuesta por escrito.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "D’Reparatur ass net gemaach ginn.",
+    "es": "La reparación no se ha hecho."
+   },
+   {
+    "speaker": 1,
+    "text": "Dat deet mir leed. Wat feelt nach?",
+    "es": "Lo siento. ¿Qué falta todavía?"
+   },
+   {
+    "speaker": 0,
+    "text": "D’Luucht geet nach ëmmer net.",
+    "es": "La luz sigue sin funcionar."
+   },
+   {
+    "speaker": 1,
+    "text": "Mir schécken Iech eng schrëftlech Äntwert.",
+    "es": "Le enviaremos una respuesta por escrito."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Le enviaremos una respuesta por escrito.",
+    "Lo siento. ¿Qué falta todavía?",
+    "La reparación no se ha hecho."
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "D’Reparatur ass net gemaach ginn.",
+    "es": "Responde: Lo siento. ¿Qué falta todavía?",
+    "model": "Dat deet mir leed. Wat feelt nach?",
+    "model_es": "Lo siento. ¿Qué falta todavía?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "D’Luucht geet nach ëmmer net.",
+    "es": "Responde: Le enviaremos una respuesta por escrito.",
+    "model": "Mir schécken Iech eng schrëftlech Äntwert.",
+    "model_es": "Le enviaremos una respuesta por escrito.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "De Service äntwert bannent zwee Deeg op schrëftlech Reklamatiounen.",
+   "prompt": "¿Cuándo responderá el servicio?",
+   "choices": [
+    "Hoy",
+    "En dos días",
+    "La semana próxima"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Explica un problema y pide una respuesta por escrito.",
+   "model": "D’Reparatur ass net gemaach ginn. Ech brauch eng schrëftlech Äntwert.",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «la reparación» en esta escena?",
+    "answer": "d’Reparatur",
+    "explanation": "d’Reparatur = la reparación."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «una respuesta por escrito» en esta escena?",
+    "answer": "eng schrëftlech Äntwert",
+    "explanation": "eng schrëftlech Äntwert = una respuesta por escrito."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w22",
+  "lang": "da",
+  "level": "A2",
+  "week": 22,
+  "course_week": 22,
+  "title": "Inscribirte en una biblioteca",
+  "goal": "Pregunta por el carné y los documentos necesarios.",
+  "setup": "Pregunta por el carné y los documentos necesarios.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Hej, hvordan får jeg et lånerkort?",
+    "es": "Hola, ¿cómo consigo un carné de biblioteca?"
+   },
+   {
+    "speaker": 1,
+    "text": "Du skal tage legitimation med.",
+    "es": "Debe traer un documento de identidad."
+   },
+   {
+    "speaker": 0,
+    "text": "Kan jeg låne en bog i dag?",
+    "es": "¿Puedo tomar prestado un libro hoy?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ja, så snart du er oprettet.",
+    "es": "Sí, en cuanto esté inscrito."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Debe traer un documento de identidad.",
+    "Sí, en cuanto esté inscrito.",
+    "Hola, ¿cómo consigo un carné de biblioteca?"
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Hej, hvordan får jeg et lånerkort?",
+    "es": "Responde: Debe traer un documento de identidad.",
+    "model": "Du skal tage legitimation med.",
+    "model_es": "Debe traer un documento de identidad.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Kan jeg låne en bog i dag?",
+    "es": "Responde: Sí, en cuanto esté inscrito.",
+    "model": "Ja, så snart du er oprettet.",
+    "model_es": "Sí, en cuanto esté inscrito.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Du kan låne bøger i tre uger. Forny dem inden afleveringsdagen.",
+   "prompt": "¿Cuánto tiempo dura el préstamo?",
+   "choices": [
+    "Dos días",
+    "Una semana",
+    "Tres semanas"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Escribe un correo preguntando por el carné.",
+   "model": "Hej, jeg vil gerne oprettes. Hvad skal jeg tage med?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «tomar prestado un libro» en esta escena?",
+    "answer": "låne en bog",
+    "explanation": "låne en bog = tomar prestado un libro."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «un documento de identidad» en esta escena?",
+    "answer": "legitimation",
+    "explanation": "legitimation = un documento de identidad."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w23",
+  "lang": "da",
+  "level": "A2",
+  "week": 23,
+  "course_week": 23,
+  "title": "Consultar un horario médico",
+  "goal": "Describe una molestia y pregunta cuándo te pueden atender.",
+  "setup": "Describe una molestia y pregunta cuándo te pueden atender.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Jeg har haft ondt i halsen siden i går.",
+    "es": "Me duele la garganta desde ayer."
+   },
+   {
+    "speaker": 1,
+    "text": "Har du også feber?",
+    "es": "¿Tienes también fiebre?"
+   },
+   {
+    "speaker": 0,
+    "text": "Nej. Hvornår kan jeg komme?",
+    "es": "No. ¿Cuándo puedo ir?"
+   },
+   {
+    "speaker": 1,
+    "text": "Der er en tid i morgen klokken ni.",
+    "es": "Hay una cita mañana a las nueve."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Hay una cita mañana a las nueve.",
+    "Me duele la garganta desde ayer.",
+    "¿Tienes también fiebre?"
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "Jeg har haft ondt i halsen siden i går.",
+    "es": "Responde: ¿Tienes también fiebre?",
+    "model": "Har du også feber?",
+    "model_es": "¿Tienes también fiebre?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Nej. Hvornår kan jeg komme?",
+    "es": "Responde: Hay una cita mañana a las nueve.",
+    "model": "Der er en tid i morgen klokken ni.",
+    "model_es": "Hay una cita mañana a las nueve.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Der er konsultation uden tidsbestilling mandag formiddag. Husk dit kort.",
+   "prompt": "¿Cuándo hay consulta sin cita?",
+   "choices": [
+    "El lunes por la mañana",
+    "El martes por la tarde",
+    "El viernes"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Escribe un mensaje breve solicitando una consulta.",
+   "model": "Jeg har ondt i halsen. Kan jeg få en tid i morgen?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «dolor de garganta» en esta escena?",
+    "answer": "ondt i halsen",
+    "explanation": "ondt i halsen = dolor de garganta."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «una cita» en esta escena?",
+    "answer": "en tid",
+    "explanation": "en tid = una cita."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w24",
+  "lang": "da",
+  "level": "A2",
+  "week": 24,
+  "course_week": 24,
+  "title": "Preguntar por una vivienda",
+  "goal": "Pregunta por el precio y una visita a un piso.",
+  "setup": "Pregunta por el precio y una visita a un piso.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Hvad koster lejligheden om måneden?",
+    "es": "¿Cuánto cuesta el piso al mes?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ni tusind kroner uden strøm.",
+    "es": "Nueve mil coronas, sin electricidad."
+   },
+   {
+    "speaker": 0,
+    "text": "Kan jeg se lejligheden på lørdag?",
+    "es": "¿Puedo visitar el piso el sábado?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ja, klokken elleve.",
+    "es": "Sí, a las once."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Nueve mil coronas, sin electricidad.",
+    "Sí, a las once.",
+    "¿Cuánto cuesta el piso al mes?"
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Hvad koster lejligheden om måneden?",
+    "es": "Responde: Nueve mil coronas, sin electricidad.",
+    "model": "Ni tusind kroner uden strøm.",
+    "model_es": "Nueve mil coronas, sin electricidad.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Kan jeg se lejligheden på lørdag?",
+    "es": "Responde: Sí, a las once.",
+    "model": "Ja, klokken elleve.",
+    "model_es": "Sí, a las once.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Vand er med i huslejen. Strøm betales separat.",
+   "prompt": "¿Qué incluye el alquiler?",
+   "choices": [
+    "El agua",
+    "La electricidad",
+    "Internet"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Pregunta por el alquiler y los gastos.",
+   "model": "Hvad er med i huslejen? Kan jeg se lejligheden?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «al mes» en esta escena?",
+    "answer": "om måneden",
+    "explanation": "om måneden = al mes."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «sin electricidad» en esta escena?",
+    "answer": "uden strøm",
+    "explanation": "uden strøm = sin electricidad."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w25",
+  "lang": "da",
+  "level": "A2",
+  "week": 25,
+  "course_week": 25,
+  "title": "Organizar una mudanza",
+  "goal": "Acuerda un horario y pide ayuda para llevar cajas.",
+  "setup": "Acuerda un horario y pide ayuda para llevar cajas.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Kan du hjælpe mig med at flytte på lørdag?",
+    "es": "¿Puedes ayudarme con la mudanza el sábado?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ja, hvornår skal jeg komme?",
+    "es": "Sí, ¿cuándo debo ir?"
+   },
+   {
+    "speaker": 0,
+    "text": "Klokken ti. Vi bærer kasserne ned.",
+    "es": "A las diez. Bajamos las cajas."
+   },
+   {
+    "speaker": 1,
+    "text": "Fint, jeg kommer til tiden.",
+    "es": "Bien, llegaré a tiempo."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Sí, ¿cuándo debo ir?",
+    "Bien, llegaré a tiempo.",
+    "¿Puedes ayudarme con la mudanza el sábado?"
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Kan du hjælpe mig med at flytte på lørdag?",
+    "es": "Responde: Sí, ¿cuándo debo ir?",
+    "model": "Ja, hvornår skal jeg komme?",
+    "model_es": "Sí, ¿cuándo debo ir?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Klokken ti. Vi bærer kasserne ned.",
+    "es": "Responde: Bien, llegaré a tiempo.",
+    "model": "Fint, jeg kommer til tiden.",
+    "model_es": "Bien, llegaré a tiempo.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Stil kasserne i gangen inden lørdag. Spær ikke døren.",
+   "prompt": "¿Dónde se dejan las cajas?",
+   "choices": [
+    "En el jardín",
+    "En el coche",
+    "En el pasillo"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Pide ayuda con una mudanza y ofrece una hora.",
+   "model": "Kan du hjælpe mig med at flytte på lørdag klokken ti?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «mudarse» en esta escena?",
+    "answer": "at flytte",
+    "explanation": "at flytte = mudarse."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «las cajas» en esta escena?",
+    "answer": "kasserne",
+    "explanation": "kasserne = las cajas."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w27",
+  "lang": "da",
+  "level": "A2",
+  "week": 27,
+  "course_week": 27,
+  "title": "Recoger una receta",
+  "goal": "Pregunta por una receta y confirma cómo tomar un medicamento.",
+  "setup": "Pregunta por una receta y confirma cómo tomar un medicamento.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Er min recept klar?",
+    "es": "¿Está lista mi receta?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ja, jeg har medicinen her.",
+    "es": "Sí, tengo el medicamento aquí."
+   },
+   {
+    "speaker": 0,
+    "text": "Hvor tit skal jeg tage den?",
+    "es": "¿Con qué frecuencia debo tomarla?"
+   },
+   {
+    "speaker": 1,
+    "text": "To gange om dagen, som der står på recepten.",
+    "es": "Dos veces al día, como dice la receta."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Sí, tengo el medicamento aquí.",
+    "Dos veces al día, como dice la receta.",
+    "¿Está lista mi receta?"
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Er min recept klar?",
+    "es": "Responde: Sí, tengo el medicamento aquí.",
+    "model": "Ja, jeg har medicinen her.",
+    "model_es": "Sí, tengo el medicamento aquí.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Hvor tit skal jeg tage den?",
+    "es": "Responde: Dos veces al día, como dice la receta.",
+    "model": "To gange om dagen, som der står på recepten.",
+    "model_es": "Dos veces al día, como dice la receta.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Tag medicinen efter et måltid. Ring, hvis du har spørgsmål.",
+   "prompt": "¿Cuándo se toma el medicamento?",
+   "choices": [
+    "Antes de dormir",
+    "Después de comer",
+    "Por la mañana"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Escribe una pregunta clara sobre la dosis.",
+   "model": "Hvor tit skal jeg tage denne medicin?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el medicamento» en esta escena?",
+    "answer": "medicinen",
+    "explanation": "medicinen = el medicamento."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «dos veces al día» en esta escena?",
+    "answer": "to gange om dagen",
+    "explanation": "to gange om dagen = dos veces al día."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w28",
+  "lang": "da",
+  "level": "A2",
+  "week": 28,
+  "course_week": 28,
+  "title": "Avisar de una alergia",
+  "goal": "Explica una alergia y pregunta por los ingredientes.",
+  "setup": "Explica una alergia y pregunta por los ingredientes.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Jeg er allergisk over for nødder.",
+    "es": "Soy alérgico a los frutos secos."
+   },
+   {
+    "speaker": 1,
+    "text": "Tak, fordi du siger det.",
+    "es": "Gracias por avisarnos."
+   },
+   {
+    "speaker": 0,
+    "text": "Er der nødder i denne ret?",
+    "es": "¿Hay frutos secos en este plato?"
+   },
+   {
+    "speaker": 1,
+    "text": "Nej, men jeg spørger lige køkkenet igen.",
+    "es": "No, pero lo comprobaré otra vez en la cocina."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "No, pero lo comprobaré otra vez en la cocina.",
+    "Gracias por avisarnos.",
+    "Soy alérgico a los frutos secos."
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "Jeg er allergisk over for nødder.",
+    "es": "Responde: Gracias por avisarnos.",
+    "model": "Tak, fordi du siger det.",
+    "model_es": "Gracias por avisarnos.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Er der nødder i denne ret?",
+    "es": "Responde: No, pero lo comprobaré otra vez en la cocina.",
+    "model": "Nej, men jeg spørger lige køkkenet igen.",
+    "model_es": "No, pero lo comprobaré otra vez en la cocina.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Denne ret indeholder mælk. Spørg os om de andre ingredienser.",
+   "prompt": "¿Qué ingrediente contiene el plato?",
+   "choices": [
+    "Frutos secos",
+    "Huevo",
+    "Leche"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Avisa de una alergia antes de pedir comida.",
+   "model": "Jeg er allergisk over for nødder. Kan I tjekke ingredienserne?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «alérgico a los frutos secos» en esta escena?",
+    "answer": "allergisk over for nødder",
+    "explanation": "allergisk over for nødder = alérgico a los frutos secos."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «los ingredientes» en esta escena?",
+    "answer": "ingredienserne",
+    "explanation": "ingredienserne = los ingredientes."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w29",
+  "lang": "da",
+  "level": "A2",
+  "week": 29,
+  "course_week": 29,
+  "title": "Comparar dos precios",
+  "goal": "Compara dos opciones y pregunta por un descuento.",
+  "setup": "Compara dos opciones y pregunta por un descuento.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Hvad er forskellen på de to pakker?",
+    "es": "¿Cuál es la diferencia entre los dos paquetes?"
+   },
+   {
+    "speaker": 1,
+    "text": "Der er mere i den store.",
+    "es": "El grande contiene más."
+   },
+   {
+    "speaker": 0,
+    "text": "Er den også dyrere?",
+    "es": "¿También es más caro?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ikke i dag. Den er på tilbud.",
+    "es": "Hoy no. Está de oferta."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "El grande contiene más.",
+    "¿Cuál es la diferencia entre los dos paquetes?",
+    "Hoy no. Está de oferta."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Hvad er forskellen på de to pakker?",
+    "es": "Responde: El grande contiene más.",
+    "model": "Der er mere i den store.",
+    "model_es": "El grande contiene más.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Er den også dyrere?",
+    "es": "Responde: Hoy no. Está de oferta.",
+    "model": "Ikke i dag. Den er på tilbud.",
+    "model_es": "Hoy no. Está de oferta.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Den store pakke er på tilbud i dag. Tilbuddet gælder til fredag.",
+   "prompt": "¿Qué producto tiene descuento?",
+   "choices": [
+    "El más grande",
+    "Ninguno",
+    "El más pequeño"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Pregunta cuál de dos productos cuesta menos.",
+   "model": "Hvilken pakke er billigst? Er den på tilbud?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «más caro» en esta escena?",
+    "answer": "dyrere",
+    "explanation": "dyrere = más caro."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «de oferta» en esta escena?",
+    "answer": "på tilbud",
+    "explanation": "på tilbud = de oferta."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w30",
+  "lang": "da",
+  "level": "A2",
+  "week": 30,
+  "course_week": 30,
+  "title": "Confirmar una dirección",
+  "goal": "Corrige una dirección de entrega y confirma los datos.",
+  "setup": "Corrige una dirección de entrega y confirma los datos.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Min leveringsadresse er forkert.",
+    "es": "Mi dirección de entrega no es correcta."
+   },
+   {
+    "speaker": 1,
+    "text": "Hvad er den rigtige adresse?",
+    "es": "¿Cuál es la dirección correcta?"
+   },
+   {
+    "speaker": 0,
+    "text": "Nummeret er tolv, ikke tyve.",
+    "es": "El número es doce, no veinte."
+   },
+   {
+    "speaker": 1,
+    "text": "Jeg retter det i din bestilling nu.",
+    "es": "Lo cambio ahora en su pedido."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "¿Cuál es la dirección correcta?",
+    "Mi dirección de entrega no es correcta.",
+    "Lo cambio ahora en su pedido."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Min leveringsadresse er forkert.",
+    "es": "Responde: ¿Cuál es la dirección correcta?",
+    "model": "Hvad er den rigtige adresse?",
+    "model_es": "¿Cuál es la dirección correcta?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Nummeret er tolv, ikke tyve.",
+    "es": "Responde: Lo cambio ahora en su pedido.",
+    "model": "Jeg retter det i din bestilling nu.",
+    "model_es": "Lo cambio ahora en su pedido.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Indgangen er i gården. Brug ikke trappen fra hovedgaden.",
+   "prompt": "¿Dónde está la entrada?",
+   "choices": [
+    "En la calle principal",
+    "En el sótano",
+    "En el patio"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Escribe una instrucción breve para la entrega.",
+   "model": "Nummeret er tolv. Indgangen er i gården.",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «la dirección correcta» en esta escena?",
+    "answer": "den rigtige adresse",
+    "explanation": "den rigtige adresse = la dirección correcta."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «su pedido» en esta escena?",
+    "answer": "din bestilling",
+    "explanation": "din bestilling = su pedido."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w32",
+  "lang": "da",
+  "level": "A2",
+  "week": 32,
+  "course_week": 32,
+  "title": "Entender un retraso",
+  "goal": "Pregunta por una conexión después de un retraso.",
+  "setup": "Pregunta por una conexión después de un retraso.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Mit tog er forsinket.",
+    "es": "Mi tren tiene retraso."
+   },
+   {
+    "speaker": 1,
+    "text": "Hvor skal du hen?",
+    "es": "¿Adónde vas?"
+   },
+   {
+    "speaker": 0,
+    "text": "Jeg skal skifte i København.",
+    "es": "Tengo que hacer transbordo en Copenhague."
+   },
+   {
+    "speaker": 1,
+    "text": "Spørg ved skranken om en anden forbindelse.",
+    "es": "Pregunta en el mostrador por otra conexión."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Pregunta en el mostrador por otra conexión.",
+    "¿Adónde vas?",
+    "Mi tren tiene retraso."
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "Mit tog er forsinket.",
+    "es": "Responde: ¿Adónde vas?",
+    "model": "Hvor skal du hen?",
+    "model_es": "¿Adónde vas?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Jeg skal skifte i København.",
+    "es": "Responde: Pregunta en el mostrador por otra conexión.",
+    "model": "Spørg ved skranken om en anden forbindelse.",
+    "model_es": "Pregunta en el mostrador por otra conexión.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Du får oplysninger om nye forbindelser ved skranken.",
+   "prompt": "¿Dónde se recibe información?",
+   "choices": [
+    "Por teléfono",
+    "En el tren",
+    "En el mostrador"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Escribe una pregunta sobre una conexión perdida.",
+   "model": "Mit tog er forsinket. Hvordan kommer jeg videre?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «con retraso» en esta escena?",
+    "answer": "forsinket",
+    "explanation": "forsinket = con retraso."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «hacer transbordo» en esta escena?",
+    "answer": "skifte tog",
+    "explanation": "skifte tog = hacer transbordo."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w33",
+  "lang": "da",
+  "level": "A2",
+  "week": 33,
+  "course_week": 33,
+  "title": "Comprar un billete",
+  "goal": "Elige un trayecto y comprueba si puedes cambiar el billete.",
+  "setup": "Elige un trayecto y comprueba si puedes cambiar el billete.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Jeg skal bruge en billet til i morgen.",
+    "es": "Necesito un billete para mañana."
+   },
+   {
+    "speaker": 1,
+    "text": "Kun én vej eller også retur?",
+    "es": "¿Solo ida o también vuelta?"
+   },
+   {
+    "speaker": 0,
+    "text": "Kun én vej. Kan jeg ændre billetten?",
+    "es": "Solo ida. ¿Puedo cambiar el billete?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ja, hvis du køber den fleksible billet.",
+    "es": "Sí, si compras el billete flexible."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "¿Solo ida o también vuelta?",
+    "Necesito un billete para mañana.",
+    "Sí, si compras el billete flexible."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Jeg skal bruge en billet til i morgen.",
+    "es": "Responde: ¿Solo ida o también vuelta?",
+    "model": "Kun én vej eller også retur?",
+    "model_es": "¿Solo ida o también vuelta?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Kun én vej. Kan jeg ændre billetten?",
+    "es": "Responde: Sí, si compras el billete flexible.",
+    "model": "Ja, hvis du køber den fleksible billet.",
+    "model_es": "Sí, si compras el billete flexible.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Den fleksible billet kan ændres. Den billige billet kan ikke.",
+   "prompt": "¿Qué billete permite cambios?",
+   "choices": [
+    "El flexible",
+    "El barato",
+    "El de ida"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Pregunta por un billete que puedas cambiar.",
+   "model": "Jeg skal bruge en fleksibel billet til i morgen.",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «solo ida» en esta escena?",
+    "answer": "én vej",
+    "explanation": "én vej = solo ida."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «un billete flexible» en esta escena?",
+    "answer": "en fleksibel billet",
+    "explanation": "en fleksibel billet = un billete flexible."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w34",
+  "lang": "da",
+  "level": "A2",
+  "week": 34,
+  "course_week": 34,
+  "title": "Pedir ayuda en el banco",
+  "goal": "Pregunta por un trámite y los documentos que debes llevar.",
+  "setup": "Pregunta por un trámite y los documentos que debes llevar.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Jeg vil gerne åbne en konto.",
+    "es": "Quiero abrir una cuenta."
+   },
+   {
+    "speaker": 1,
+    "text": "Har du legitimation med?",
+    "es": "¿Traes un documento de identidad?"
+   },
+   {
+    "speaker": 0,
+    "text": "Ja. Skal I bruge mere?",
+    "es": "Sí. ¿Necesitan algo más?"
+   },
+   {
+    "speaker": 1,
+    "text": "Din nuværende adresse, tak.",
+    "es": "Tu dirección actual, por favor."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "¿Traes un documento de identidad?",
+    "Tu dirección actual, por favor.",
+    "Quiero abrir una cuenta."
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Jeg vil gerne åbne en konto.",
+    "es": "Responde: ¿Traes un documento de identidad?",
+    "model": "Har du legitimation med?",
+    "model_es": "¿Traes un documento de identidad?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Ja. Skal I bruge mere?",
+    "es": "Responde: Tu dirección actual, por favor.",
+    "model": "Din nuværende adresse, tak.",
+    "model_es": "Tu dirección actual, por favor.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "For at åbne en konto skal du vise legitimation og oplyse din adresse.",
+   "prompt": "¿Qué documento piden?",
+   "choices": [
+    "Una foto",
+    "Un recibo",
+    "Un documento de identidad"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Pregunta qué necesitas llevar al banco.",
+   "model": "Jeg vil gerne åbne en konto. Hvad skal jeg tage med?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «abrir una cuenta» en esta escena?",
+    "answer": "åbne en konto",
+    "explanation": "åbne en konto = abrir una cuenta."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «tu dirección actual» en esta escena?",
+    "answer": "din nuværende adresse",
+    "explanation": "din nuværende adresse = tu dirección actual."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w35",
+  "lang": "da",
+  "level": "A2",
+  "week": 35,
+  "course_week": 35,
+  "title": "Actualizar un teléfono",
+  "goal": "Comunica un cambio de número y pide confirmación.",
+  "setup": "Comunica un cambio de número y pide confirmación.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Jeg har fået et nyt telefonnummer.",
+    "es": "Tengo un número de teléfono nuevo."
+   },
+   {
+    "speaker": 1,
+    "text": "Kan du oplyse det nye nummer?",
+    "es": "¿Puedes decirme el nuevo número?"
+   },
+   {
+    "speaker": 0,
+    "text": "Ja, jeg sender det også skriftligt.",
+    "es": "Sí, también lo envío por escrito."
+   },
+   {
+    "speaker": 1,
+    "text": "Godt, vi bekræfter ændringen.",
+    "es": "Bien, confirmamos el cambio."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Bien, confirmamos el cambio.",
+    "Tengo un número de teléfono nuevo.",
+    "¿Puedes decirme el nuevo número?"
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "Jeg har fået et nyt telefonnummer.",
+    "es": "Responde: ¿Puedes decirme el nuevo número?",
+    "model": "Kan du oplyse det nye nummer?",
+    "model_es": "¿Puedes decirme el nuevo número?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Ja, jeg sender det også skriftligt.",
+    "es": "Responde: Bien, confirmamos el cambio.",
+    "model": "Godt, vi bekræfter ændringen.",
+    "model_es": "Bien, confirmamos el cambio.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Når nummeret er ændret, får du en besked på det nye nummer.",
+   "prompt": "¿Cómo confirman el cambio?",
+   "choices": [
+    "Por llamada",
+    "Por carta",
+    "Por mensaje"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Escribe tu nuevo número en un mensaje claro.",
+   "model": "Her er mit nye telefonnummer. Kan I bekræfte ændringen?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el nuevo número» en esta escena?",
+    "answer": "det nye nummer",
+    "explanation": "det nye nummer = el nuevo número."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el cambio» en esta escena?",
+    "answer": "ændringen",
+    "explanation": "ændringen = el cambio."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w37",
+  "lang": "da",
+  "level": "A2",
+  "week": 37,
+  "course_week": 37,
+  "title": "Empezar en un empleo",
+  "goal": "Pregunta por tu horario y quién te ayudará el primer día.",
+  "setup": "Pregunta por tu horario y quién te ayudará el primer día.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Hej, det er min første dag her.",
+    "es": "Hola, es mi primer día aquí."
+   },
+   {
+    "speaker": 1,
+    "text": "Velkommen! Vi viser dig rundt.",
+    "es": "¡Bienvenido! Te enseñaremos todo."
+   },
+   {
+    "speaker": 0,
+    "text": "Hvornår begynder min vagt?",
+    "es": "¿Cuándo empieza mi turno?"
+   },
+   {
+    "speaker": 1,
+    "text": "Klokken otte. Anna hjælper dig.",
+    "es": "A las ocho. Anna te ayudará."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "¡Bienvenido! Te enseñaremos todo.",
+    "A las ocho. Anna te ayudará.",
+    "Hola, es mi primer día aquí."
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Hej, det er min første dag her.",
+    "es": "Responde: ¡Bienvenido! Te enseñaremos todo.",
+    "model": "Velkommen! Vi viser dig rundt.",
+    "model_es": "¡Bienvenido! Te enseñaremos todo.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Hvornår begynder min vagt?",
+    "es": "Responde: A las ocho. Anna te ayudará.",
+    "model": "Klokken otte. Anna hjælper dig.",
+    "model_es": "A las ocho. Anna te ayudará.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Nye medarbejdere skal først henvende sig i receptionen.",
+   "prompt": "¿Dónde se presenta la persona nueva?",
+   "choices": [
+    "En la cocina",
+    "En recepción",
+    "En casa"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Escribe una pregunta sobre tu primer día.",
+   "model": "Det er min første dag. Hvem skal jeg spørge efter?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «mi primer día» en esta escena?",
+    "answer": "min første dag",
+    "explanation": "min første dag = mi primer día."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «mi turno» en esta escena?",
+    "answer": "min vagt",
+    "explanation": "min vagt = mi turno."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w38",
+  "lang": "da",
+  "level": "A2",
+  "week": 38,
+  "course_week": 38,
+  "title": "Pedir un día libre",
+  "goal": "Pide un día libre y explica un motivo breve.",
+  "setup": "Pide un día libre y explica un motivo breve.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Jeg har brug for fri næste fredag.",
+    "es": "Necesito el próximo viernes libre."
+   },
+   {
+    "speaker": 1,
+    "text": "Kan du skrive det i kalenderen?",
+    "es": "¿Puedes anotarlo en el calendario?"
+   },
+   {
+    "speaker": 0,
+    "text": "Ja, det gør jeg i dag.",
+    "es": "Sí, lo haré hoy."
+   },
+   {
+    "speaker": 1,
+    "text": "Tak. Så finder vi en, der kan dække din vagt.",
+    "es": "Gracias. Entonces buscaremos a alguien que cubra tu turno."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Necesito el próximo viernes libre.",
+    "¿Puedes anotarlo en el calendario?",
+    "Gracias. Entonces buscaremos a alguien que cubra tu turno."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Jeg har brug for fri næste fredag.",
+    "es": "Responde: ¿Puedes anotarlo en el calendario?",
+    "model": "Kan du skrive det i kalenderen?",
+    "model_es": "¿Puedes anotarlo en el calendario?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Ja, det gør jeg i dag.",
+    "es": "Responde: Gracias. Entonces buscaremos a alguien que cubra tu turno.",
+    "model": "Tak. Så finder vi en, der kan dække din vagt.",
+    "model_es": "Gracias. Entonces buscaremos a alguien que cubra tu turno.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Giv besked om en fridag mindst en uge i forvejen.",
+   "prompt": "¿Con cuánto tiempo se avisa?",
+   "choices": [
+    "Un mes antes",
+    "El mismo día",
+    "Una semana antes"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Pide un día libre y ofrece otra fecha si hace falta.",
+   "model": "Jeg har brug for fri næste fredag. Jeg skriver det i kalenderen.",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «necesitar libre» en esta escena?",
+    "answer": "brug for fri",
+    "explanation": "brug for fri = necesitar libre."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «en el calendario» en esta escena?",
+    "answer": "i kalenderen",
+    "explanation": "i kalenderen = en el calendario."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w39",
+  "lang": "da",
+  "level": "A2",
+  "week": 39,
+  "course_week": 39,
+  "title": "Aclarar una tarea",
+  "goal": "Pide que repitan una instrucción y confirma un plazo.",
+  "setup": "Pide que repitan una instrucción y confirma un plazo.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Kan du gentage instruktionen?",
+    "es": "¿Puedes repetir la instrucción?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ja, send filen til holdet.",
+    "es": "Sí, envía el archivo al equipo."
+   },
+   {
+    "speaker": 0,
+    "text": "Hvornår skal jeg gøre det?",
+    "es": "¿Para cuándo debo hacerlo?"
+   },
+   {
+    "speaker": 1,
+    "text": "Senest torsdag, tak.",
+    "es": "Para el jueves como muy tarde, por favor."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "Para el jueves como muy tarde, por favor.",
+    "¿Puedes repetir la instrucción?",
+    "Sí, envía el archivo al equipo."
+   ],
+   "answer": 0
+  },
+  "turns": [
+   {
+    "prompt": "Kan du gentage instruktionen?",
+    "es": "Responde: Sí, envía el archivo al equipo.",
+    "model": "Ja, send filen til holdet.",
+    "model_es": "Sí, envía el archivo al equipo.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Hvornår skal jeg gøre det?",
+    "es": "Responde: Para el jueves como muy tarde, por favor.",
+    "model": "Senest torsdag, tak.",
+    "model_es": "Para el jueves como muy tarde, por favor.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Send filen senest torsdag. Den bliver læst fredag.",
+   "prompt": "¿Cuándo se entrega el trabajo?",
+   "choices": [
+    "El jueves",
+    "El lunes",
+    "El miércoles"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Escribe una confirmación del plazo.",
+   "model": "Jeg sender filen senest torsdag. Er det rigtigt?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «repetir la instrucción» en esta escena?",
+    "answer": "gentage instruktionen",
+    "explanation": "gentage instruktionen = repetir la instrucción."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «para el jueves como muy tarde» en esta escena?",
+    "answer": "senest torsdag",
+    "explanation": "senest torsdag = para el jueves como muy tarde."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w40",
+  "lang": "da",
+  "level": "A2",
+  "week": 40,
+  "course_week": 40,
+  "title": "Compartir un trayecto",
+  "goal": "Acuerda un punto de encuentro y avisa si vas tarde.",
+  "setup": "Acuerda un punto de encuentro y avisa si vas tarde.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Kan vi køre på arbejde sammen?",
+    "es": "¿Podemos ir juntos al trabajo?"
+   },
+   {
+    "speaker": 1,
+    "text": "Ja, jeg venter klokken syv.",
+    "es": "Sí, espero a las siete."
+   },
+   {
+    "speaker": 0,
+    "text": "Jeg kommer lidt senere.",
+    "es": "Llegaré un poco más tarde."
+   },
+   {
+    "speaker": 1,
+    "text": "Det er i orden. Send mig en besked.",
+    "es": "Está bien. Envíame un mensaje."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "¿Podemos ir juntos al trabajo?",
+    "Está bien. Envíame un mensaje.",
+    "Sí, espero a las siete."
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Kan vi køre på arbejde sammen?",
+    "es": "Responde: Sí, espero a las siete.",
+    "model": "Ja, jeg venter klokken syv.",
+    "model_es": "Sí, espero a las siete.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Jeg kommer lidt senere.",
+    "es": "Responde: Está bien. Envíame un mensaje.",
+    "model": "Det er i orden. Send mig en besked.",
+    "model_es": "Está bien. Envíame un mensaje.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Bilen holder foran kontoret. Giv besked, hvis du bliver forsinket.",
+   "prompt": "¿Dónde espera el conductor?",
+   "choices": [
+    "En casa",
+    "Frente a la oficina",
+    "Junto a la estación"
+   ],
+   "answer": 1
+  },
+  "writing": {
+   "prompt": "Avisa por mensaje de que llegarás tarde.",
+   "model": "Jeg kommer lidt senere. Jeg sender dig en besked.",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «ir juntos» en esta escena?",
+    "answer": "køre sammen",
+    "explanation": "køre sammen = ir juntos."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «un poco más tarde» en esta escena?",
+    "answer": "lidt senere",
+    "explanation": "lidt senere = un poco más tarde."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w42",
+  "lang": "da",
+  "level": "A2",
+  "week": 42,
+  "course_week": 42,
+  "title": "Revisar una factura",
+  "goal": "Explica un cargo incorrecto y pide que revisen la factura.",
+  "setup": "Explica un cargo incorrecto y pide que revisen la factura.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Der står et ekstra beløb på min regning.",
+    "es": "En mi factura aparece un importe adicional."
+   },
+   {
+    "speaker": 1,
+    "text": "Har du fakturanummeret?",
+    "es": "¿Tienes el número de factura?"
+   },
+   {
+    "speaker": 0,
+    "text": "Ja. Kan I tjekke beløbet?",
+    "es": "Sí. ¿Pueden revisar el importe?"
+   },
+   {
+    "speaker": 1,
+    "text": "Vi ser på det i dag og vender tilbage.",
+    "es": "Lo revisamos hoy y te avisamos."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "En mi factura aparece un importe adicional.",
+    "Lo revisamos hoy y te avisamos.",
+    "¿Tienes el número de factura?"
+   ],
+   "answer": 1
+  },
+  "turns": [
+   {
+    "prompt": "Der står et ekstra beløb på min regning.",
+    "es": "Responde: ¿Tienes el número de factura?",
+    "model": "Har du fakturanummeret?",
+    "model_es": "¿Tienes el número de factura?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Ja. Kan I tjekke beløbet?",
+    "es": "Responde: Lo revisamos hoy y te avisamos.",
+    "model": "Vi ser på det i dag og vender tilbage.",
+    "model_es": "Lo revisamos hoy y te avisamos.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Send fakturanummeret sammen med din klage.",
+   "prompt": "¿Qué debe enviarse para reclamar?",
+   "choices": [
+    "El número de factura",
+    "Una foto",
+    "El contrato"
+   ],
+   "answer": 0
+  },
+  "writing": {
+   "prompt": "Escribe una reclamación breve sobre un cargo.",
+   "model": "Der står et ekstra beløb på min regning. Kan I tjekke det?",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «un importe adicional» en esta escena?",
+    "answer": "et ekstra beløb",
+    "explanation": "et ekstra beløb = un importe adicional."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «el número de factura» en esta escena?",
+    "answer": "fakturanummeret",
+    "explanation": "fakturanummeret = el número de factura."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w43",
+  "lang": "da",
+  "level": "A2",
+  "week": 43,
+  "course_week": 43,
+  "title": "Comunicar una avería de internet",
+  "goal": "Describe qué falla y acuerda una visita técnica.",
+  "setup": "Describe qué falla y acuerda una visita técnica.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Mit internet virker ikke.",
+    "es": "Mi internet no funciona."
+   },
+   {
+    "speaker": 1,
+    "text": "Har du genstartet routeren?",
+    "es": "¿Has reiniciado el router?"
+   },
+   {
+    "speaker": 0,
+    "text": "Ja, men det virker stadig ikke.",
+    "es": "Sí, pero sigue sin funcionar."
+   },
+   {
+    "speaker": 1,
+    "text": "En tekniker kan komme fredag eftermiddag.",
+    "es": "Un técnico puede ir el viernes por la tarde."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "¿Has reiniciado el router?",
+    "Mi internet no funciona.",
+    "Un técnico puede ir el viernes por la tarde."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Mit internet virker ikke.",
+    "es": "Responde: ¿Has reiniciado el router?",
+    "model": "Har du genstartet routeren?",
+    "model_es": "¿Has reiniciado el router?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Ja, men det virker stadig ikke.",
+    "es": "Responde: Un técnico puede ir el viernes por la tarde.",
+    "model": "En tekniker kan komme fredag eftermiddag.",
+    "model_es": "Un técnico puede ir el viernes por la tarde.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "En tekniker har tid fredag eftermiddag. Bekræft adressen.",
+   "prompt": "¿Cuándo puede venir el técnico?",
+   "choices": [
+    "El lunes",
+    "El sábado",
+    "El viernes por la tarde"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Escribe un aviso de avería con tu disponibilidad.",
+   "model": "Mit internet virker ikke. Jeg er hjemme fredag eftermiddag.",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «reiniciado el router» en esta escena?",
+    "answer": "genstartet routeren",
+    "explanation": "genstartet routeren = reiniciado el router."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «todavía no» en esta escena?",
+    "answer": "stadig ikke",
+    "explanation": "stadig ikke = todavía no."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ },
+ {
+  "id": "da-a2-w44",
+  "lang": "da",
+  "level": "A2",
+  "week": 44,
+  "course_week": 44,
+  "title": "Resolver un servicio fallido",
+  "goal": "Explica un problema y pide respuesta por escrito.",
+  "setup": "Explica un problema y pide respuesta por escrito.",
+  "dialogue": [
+   {
+    "speaker": 0,
+    "text": "Reparationen er ikke blevet lavet.",
+    "es": "La reparación no se ha hecho."
+   },
+   {
+    "speaker": 1,
+    "text": "Det beklager jeg. Hvad mangler der?",
+    "es": "Lo siento. ¿Qué falta todavía?"
+   },
+   {
+    "speaker": 0,
+    "text": "Lyset virker stadig ikke.",
+    "es": "La luz sigue sin funcionar."
+   },
+   {
+    "speaker": 1,
+    "text": "Vi sender dig et skriftligt svar.",
+    "es": "Te enviaremos una respuesta por escrito."
+   }
+  ],
+  "listening": {
+   "prompt": "¿Qué responde la última persona?",
+   "choices": [
+    "La reparación no se ha hecho.",
+    "Lo siento. ¿Qué falta todavía?",
+    "Te enviaremos una respuesta por escrito."
+   ],
+   "answer": 2
+  },
+  "turns": [
+   {
+    "prompt": "Reparationen er ikke blevet lavet.",
+    "es": "Responde: Lo siento. ¿Qué falta todavía?",
+    "model": "Det beklager jeg. Hvad mangler der?",
+    "model_es": "Lo siento. ¿Qué falta todavía?",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   },
+   {
+    "prompt": "Lyset virker stadig ikke.",
+    "es": "Responde: Te enviaremos una respuesta por escrito.",
+    "model": "Vi sender dig et skriftligt svar.",
+    "model_es": "Te enviaremos una respuesta por escrito.",
+    "accepted": [],
+    "tip": "Escucha el modelo y responde con una frase completa."
+   }
+  ],
+  "reading": {
+   "text": "Kundeservice svarer på skriftlige klager inden for to dage.",
+   "prompt": "¿Cuándo responderá el servicio?",
+   "choices": [
+    "Hoy",
+    "La semana próxima",
+    "En dos días"
+   ],
+   "answer": 2
+  },
+  "writing": {
+   "prompt": "Explica un problema y pide una respuesta por escrito.",
+   "model": "Reparationen er ikke blevet lavet. Jeg vil gerne have et skriftligt svar.",
+   "rubric": "Da la información solicitada con frases claras y corteses."
+  },
+  "exercises": [
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «la reparación» en esta escena?",
+    "answer": "reparationen",
+    "explanation": "reparationen = la reparación."
+   },
+   {
+    "kind": "vocabulary",
+    "prompt": "¿Cómo se dice «una respuesta por escrito» en esta escena?",
+    "answer": "et skriftligt svar",
+    "explanation": "et skriftligt svar = una respuesta por escrito."
+   }
+  ],
+  "editorial_status": "pendiente de revisión por hablante competente"
+ }
+]

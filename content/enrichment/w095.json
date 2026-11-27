@@ -1,0 +1,79 @@
+{
+ "week": 95,
+ "da": {
+  "dialogue2": {
+   "context": "Por teléfono, una candidata recibe una oferta de trabajo y, antes de aceptar, pregunta con tacto por vacaciones, horas extra y formación.",
+   "lines": [
+    {"text": "Vi vil meget gerne tilbyde dig stillingen. Har du nogen spørgsmål, før du svarer?", "es": "Nos gustaría mucho ofrecerte el puesto. ¿Tienes alguna pregunta antes de responder?"},
+    {"text": "Tak, det glæder mig. Jeg ville gerne høre lidt mere om ferien.", "es": "Gracias, me alegra. Me gustaría saber un poco más sobre las vacaciones."},
+    {"text": "Du får seks ugers ferie, og to af dem holdes normalt i juli.", "es": "Tienes seis semanas de vacaciones, y dos de ellas se suelen tomar en julio."},
+    {"text": "Godt. Og hvordan bliver overarbejde håndteret, hvis der kommer travle perioder?", "es": "Bien. ¿Y cómo se gestionan las horas extra si llegan épocas de mucho trabajo?"},
+    {"text": "Det bliver afspadseret time for time, men det sker ikke ret tit.", "es": "Se compensan con tiempo libre hora por hora, pero no pasa muy a menudo."},
+    {"text": "Ville det være muligt at aftale et årligt kursus i kontrakten?", "es": "¿Sería posible acordar un curso anual en el contrato?"},
+    {"text": "Det kan jeg ikke love, men jeg tager det med til min chef og vender tilbage i morgen.", "es": "No te lo puedo prometer, pero se lo planteo a mi jefa y te digo algo mañana."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué queda pendiente al final de la llamada?",
+   "choices": ["Si se incluye un curso anual en el contrato", "Cuántas semanas de vacaciones tendrá", "Cómo se compensan las horas extra"]
+  },
+  "grammar": {
+   "focus": "Preguntas suavizadas con modales en pasado",
+   "explain": "Para temas delicados (sueldo, horario, condiciones) se suaviza la pregunta: «Jeg ville gerne høre …», «Ville det være muligt at …?», «Kunne man forestille sig …?». Aquí el pasado no habla del pasado: solo hace la frase más cortés.",
+   "items": [
+    {"prompt": "Jeg ___ gerne vide, hvordan lønnen bliver forhandlet. (vil, más cortés)", "answer": "ville", "es": "Me gustaría saber cómo se negocia el sueldo."},
+    {"prompt": "___ man forestille sig, at jeg arbejder hjemme én dag om ugen? (kan, más cortés)", "answer": "Kunne", "es": "¿Se podría contemplar que trabaje desde casa un día a la semana?"},
+    {"prompt": "Ville det være ___ at starte den 1. marts i stedet? (posible)", "answer": "muligt", "es": "¿Sería posible empezar el 1 de marzo en su lugar?"}
+   ]
+  },
+  "vocab": [
+   {"text": "afspadseret", "es": "compensado con tiempo libre", "example": "Overarbejdet bliver afspadseret i januar.", "example_es": "Las horas extra se compensan con tiempo libre en enero."},
+   {"text": "overarbejde", "es": "horas extra", "example": "Hvor meget overarbejde er der normalt?", "example_es": "¿Cuántas horas extra suele haber?"},
+   {"text": "vender tilbage", "es": "vuelvo a contactar, respondo más tarde", "example": "Jeg vender tilbage med et svar i morgen.", "example_es": "Mañana te respondo."},
+   {"text": "tager det med til", "es": "lo planteo en, lo llevo a", "example": "Jeg tager det med til næste ledermøde.", "example_es": "Lo planteo en la próxima reunión de dirección."}
+  ],
+  "transfer": {
+   "prompt": "Te han ofrecido un trabajo y, antes de firmar, quieres preguntar por escrito a Recursos Humanos por el teletrabajo y el periodo de prueba. Escribe un correo (4–5 frases, formal) con preguntas suavizadas.",
+   "model": "Kære Signe Lund. Mange tak for tilbuddet, som jeg er meget glad for. Inden jeg skriver under, ville jeg gerne høre lidt mere om mulighederne for hjemmearbejde. Ville det være muligt at arbejde hjemmefra en eller to dage om ugen, når jeg er kommet godt i gang? Jeg ville også gerne vide, hvor lang prøvetiden er, og hvordan den bliver evalueret. På forhånd tak for svaret. Venlig hilsen, Marta Gil.",
+   "rubric": "Agradece la oferta, formula al menos dos preguntas suavizadas con modales en pasado (ville, kunne), mantiene un tono formal y cierra con una despedida adecuada."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Por teléfono, una candidata recibe una oferta de trabajo y, antes de aceptar, pregunta con tacto por vacaciones, horas extra y formación.",
+   "lines": [
+    {"text": "Mir géifen Iech de Poste ganz gär ubidden. Hutt Dir nach Froen, ier Dir äntwert?", "es": "Nos gustaría mucho ofrecerle el puesto. ¿Tiene alguna pregunta antes de responder?"},
+    {"text": "Merci, dat freet mech. Ech hätt gär e bësse méi iwwer de Congé gewosst.", "es": "Gracias, me alegra. Me gustaría saber un poco más sobre las vacaciones."},
+    {"text": "Dir hutt sechs Woche Congé, an zwou dovun ginn normalerweis am Juli geholl.", "es": "Tiene seis semanas de vacaciones, y dos de ellas se suelen tomar en julio."},
+    {"text": "Gutt. A wéi ginn Iwwerstonne geréiert, wann et méi stresseg Periode gëtt?", "es": "Bien. ¿Y cómo se gestionan las horas extra si hay épocas de mucho trabajo?"},
+    {"text": "Déi kënnt Dir Stonn fir Stonn recuperéieren, mee dat kënnt net esou dacks vir.", "es": "Las puede compensar con tiempo libre hora por hora, pero no pasa muy a menudo."},
+    {"text": "Wier et méiglech, ee Cours pro Joer am Kontrakt festzehalen?", "es": "¿Sería posible dejar fijado en el contrato un curso al año?"},
+    {"text": "Dat kann ech Iech net verspriechen, mee ech schwätze mat menger Chefin a melle mech muer.", "es": "No se lo puedo prometer, pero lo hablo con mi jefa y le digo algo mañana."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué queda pendiente al final de la llamada?",
+   "choices": ["Si se incluye un curso anual en el contrato", "Cuántas semanas de vacaciones tendrá", "Cómo se compensan las horas extra"]
+  },
+  "grammar": {
+   "focus": "Preguntas suavizadas con Konjunktiv (hätt gär, wier, géif)",
+   "explain": "Para temas delicados se suaviza la pregunta: «Ech hätt gär gewosst …», «Wier et méiglech …?», «Géif et goen, datt …?». El Konjunktiv no habla del pasado: solo hace la frase más cortés.",
+   "items": [
+    {"prompt": "Ech ___ gär gewosst, wéi d'Pai verhandelt gëtt. (hunn, Konjunktiv)", "answer": "hätt", "es": "Me gustaría saber cómo se negocia el sueldo."},
+    {"prompt": "___ et méiglech, een Dag pro Woch vun doheem aus ze schaffen? (sinn, Konjunktiv)", "answer": "Wier", "es": "¿Sería posible trabajar desde casa un día a la semana?"},
+    {"prompt": "___ et goen, datt ech eréischt den 1. Mäerz ufänken? (ginn, Konjunktiv)", "answer": "Géif", "es": "¿Sería posible que empezara el 1 de marzo?"}
+   ]
+  },
+  "vocab": [
+   {"text": "de Congé", "es": "las vacaciones (laborales)", "example": "De Congé muss bis Enn Mäerz ugefrot ginn.", "example_es": "Las vacaciones hay que pedirlas antes de finales de marzo."},
+   {"text": "Iwwerstonnen", "es": "horas extra", "example": "Am Dezember maache mir vill Iwwerstonnen.", "example_es": "En diciembre hacemos muchas horas extra."},
+   {"text": "recuperéieren", "es": "compensar con tiempo libre", "example": "Dir kënnt d'Stonnen am Januar recuperéieren.", "example_es": "Puede compensar las horas en enero."},
+   {"text": "melle mech", "es": "me pongo en contacto, le digo algo", "example": "Ech melle mech muer bei Iech.", "example_es": "Mañana me pongo en contacto con usted."}
+  ],
+  "transfer": {
+   "prompt": "Te han ofrecido un trabajo y, antes de firmar, quieres preguntar por escrito a Recursos Humanos por el teletrabajo y el periodo de prueba. Escribe un correo (4–5 frases, formal) con preguntas suavizadas.",
+   "model": "Léif Madame Lund, villmools Merci fir d'Offer, iwwer déi ech mech immens freeën. Ier ech ënnerschreiwen, hätt ech gär e bësse méi iwwer d'Méiglechkeete vum Teletravail gewosst. Wier et méiglech, een oder zwee Deeg pro Woch vun doheem aus ze schaffen, soubal ech mech gutt agefonnt hunn? Ech géif och gär wëssen, wéi laang d'Prouwezäit dauert a wéi se evaluéiert gëtt. Merci am Viraus fir Är Äntwert. Mat beschte Gréiss, Marta Gil.",
+   "rubric": "Agradece la oferta, formula al menos dos preguntas suavizadas con Konjunktiv (hätt gär, wier, géif), mantiene un tono formal y cierra con una despedida adecuada."
+  }
+ }
+}

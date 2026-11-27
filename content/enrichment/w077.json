@@ -1,0 +1,77 @@
+{
+ "week": 77,
+ "da": {
+  "dialogue2": {
+   "context": "En el comedor del trabajo, dos compañeros hablan de cómo comen y se mueven durante la jornada.",
+   "lines": [
+    {"text": "Spiser du altid frokost foran computeren?", "es": "¿Siempre comes delante del ordenador?"},
+    {"text": "Ja, desværre. Jeg holder næsten aldrig en rigtig pause.", "es": "Sí, por desgracia. Casi nunca hago una pausa de verdad."},
+    {"text": "Jeg går ofte en tur efter frokost. Det giver energi.", "es": "Yo a menudo salgo a caminar después de comer. Da energía."},
+    {"text": "Men når jeg har travlt, glemmer jeg det bare.", "es": "Pero cuando tengo mucho trabajo, simplemente se me olvida."},
+    {"text": "Så kom med mig i morgen klokken tolv. Ti minutter er nok.", "es": "Pues vente conmigo mañana a las doce. Diez minutos bastan."},
+    {"text": "Okay, men kun hvis det ikke regner.", "es": "Vale, pero solo si no llueve."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿A qué se compromete al final el compañero?",
+   "choices": ["A salir a caminar al día siguiente si no llueve", "A no volver a comer delante del ordenador", "A hacer una pausa larga todos los días a las doce"]
+  },
+  "grammar": {
+   "focus": "Posición de los adverbios (altid, aldrig, ofte, ikke)",
+   "explain": "En la oración principal, adverbios como altid, aldrig, ofte o ikke van detrás del verbo conjugado (Jeg spiser altid sent). En la subordinada van delante del verbo (…, fordi jeg altid spiser sent).",
+   "items": [
+    {"prompt": "Jeg ___ morgenmad om hverdagen. (aldrig / spise)", "answer": "spiser aldrig", "es": "Entre semana nunca desayuno."},
+    {"prompt": "Han siger, at han ___ en pause. (sjældent / holde)", "answer": "sjældent holder", "es": "Dice que rara vez hace una pausa."},
+    {"prompt": "Vi cykler på arbejde, når det ___. (ikke / regne)", "answer": "ikke regner", "es": "Vamos en bici al trabajo cuando no llueve."}
+   ]
+  },
+  "vocab": [
+   {"text": "holde pause", "es": "hacer una pausa", "example": "Jeg glemmer tit at holde pause.", "example_es": "A menudo se me olvida hacer una pausa."},
+   {"text": "foran computeren", "es": "delante del ordenador", "example": "Jeg spiser tit foran computeren.", "example_es": "A menudo como delante del ordenador."},
+   {"text": "har travlt", "es": "tener mucho trabajo, ir con prisas", "example": "Når jeg har travlt, glemmer jeg at spise.", "example_es": "Cuando voy con prisas, se me olvida comer."},
+   {"text": "Det giver energi", "es": "Da energía", "example": "En kort gåtur? Det giver energi.", "example_es": "¿Un paseo corto? Da energía."}
+  ],
+  "transfer": {
+   "prompt": "Un amigo te pide consejo porque siempre está cansado. Escríbele qué haces tú normalmente y qué hábito podría probar (3–4 frases).",
+   "model": "Jeg drikker aldrig kaffe efter klokken tre, og jeg går altid i seng før elleve. Om morgenen cykler jeg ofte på arbejde, også når det er koldt. Måske kunne du prøve at lægge telefonen væk en time, før du sover.",
+   "rubric": "Usa al menos tres adverbios de frecuencia en la posición correcta y propone un hábito concreto."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En el comedor del trabajo, dos compañeros hablan de cómo comen y se mueven durante la jornada.",
+   "lines": [
+    {"text": "Ees du ëmmer zu Mëtteg virum Computer?", "es": "¿Siempre comes delante del ordenador?"},
+    {"text": "Jo, leider. Ech maache bal ni eng richteg Paus.", "es": "Sí, por desgracia. Casi nunca hago una pausa de verdad."},
+    {"text": "Ech ginn dacks nom Iessen e bëssen trëppelen. Dat gëtt Energie.", "es": "Yo a menudo salgo a caminar un poco después de comer. Da energía."},
+    {"text": "Mee wann ech vill ze dinn hunn, vergiessen ech et einfach.", "es": "Pero cuando tengo mucho trabajo, simplemente se me olvida."},
+    {"text": "Da komm muer um zwielef mat mir. Zéng Minutte sinn genuch.", "es": "Pues vente conmigo mañana a las doce. Diez minutos bastan."},
+    {"text": "Ok, mee just wann et net reent.", "es": "Vale, pero solo si no llueve."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿A qué se compromete al final el compañero?",
+   "choices": ["A salir a caminar al día siguiente si no llueve", "A no volver a comer delante del ordenador", "A hacer una pausa larga todos los días a las doce"]
+  },
+  "grammar": {
+   "focus": "Adverbios de frecuencia e inversión V2",
+   "explain": "Adverbios como ëmmer, dacks, heiansdo, selten o ni van detrás del verbo conjugado. Si la frase empieza por uno de ellos, el sujeto pasa detrás del verbo: Dacks ginn ech trëppelen. En la subordinada el verbo va al final: …, datt hien ni Kaffi drénkt.",
+   "items": [
+    {"prompt": "Heiansdo ___ zu Fouss op d'Aarbecht. (ech / goen)", "answer": "ginn ech", "es": "A veces voy andando al trabajo."},
+    {"prompt": "Hie seet, datt hien ni Kaffi ___. (drénken)", "answer": "drénkt", "es": "Dice que nunca toma café."},
+    {"prompt": "Dacks ___ ech owes ze spéit an d'Bett. (goen)", "answer": "ginn", "es": "A menudo me acuesto demasiado tarde."}
+   ]
+  },
+  "vocab": [
+   {"text": "eng richteg Paus", "es": "una pausa de verdad", "example": "Haut maachen ech eng richteg Paus.", "example_es": "Hoy hago una pausa de verdad."},
+   {"text": "virum Computer", "es": "delante del ordenador", "example": "Ech iessen dacks virum Computer.", "example_es": "A menudo como delante del ordenador."},
+   {"text": "vill ze dinn", "es": "mucho que hacer", "example": "Wann ech vill ze dinn hunn, vergiessen ech z'iessen.", "example_es": "Cuando tengo mucho que hacer, se me olvida comer."},
+   {"text": "Dat gëtt Energie", "es": "Da energía", "example": "E kuerze Spadséiergank? Dat gëtt Energie.", "example_es": "¿Un paseo corto? Da energía."}
+  ],
+  "transfer": {
+   "prompt": "Un amigo te pide consejo porque siempre está cansado. Escríbele qué haces tú normalmente y qué hábito podría probar (3–4 frases).",
+   "model": "Ech drénken ni Kaffi no dräi Auer, an ech ginn ëmmer virun eelef an d'Bett. Moies ginn ech dacks zu Fouss op d'Aarbecht, och wann et kal ass. Vläicht kéints du probéieren, den Handy eng Stonn virum Schlofen ewechzeleeën.",
+   "rubric": "Usa al menos tres adverbios de frecuencia en la posición correcta (con inversión si empiezas por uno) y propone un hábito concreto."
+  }
+ }
+}

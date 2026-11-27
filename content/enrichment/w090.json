@@ -1,0 +1,79 @@
+{
+ "week": 90,
+ "da": {
+  "dialogue2": {
+   "context": "Dos vecinos leen un aviso de la empresa de aguas en el portal; uno lo ha entendido mal y el otro le aclara qué implica.",
+   "lines": [
+    {"text": "Har du set sedlen ved postkasserne? Der står, at vandet bliver lukket hele ugen.", "es": "¿Has visto el papel junto a los buzones? Dice que van a cortar el agua toda la semana."},
+    {"text": "Nej, læs det lige igen. Afbrydelsen gælder kun tirsdag fra otte til fjorten.", "es": "No, vuelve a leerlo. El corte es solo el martes de ocho a dos."},
+    {"text": "Nå, okay. Men hvad er grunden?", "es": "Ah, vale. ¿Y cuál es el motivo?"},
+    {"text": "Udskiftningen af de gamle vandrør i hele opgangen.", "es": "La sustitución de las tuberías viejas de todo el portal."},
+    {"text": "Står der noget om, hvad vi selv skal gøre?", "es": "¿Dice algo de lo que tenemos que hacer nosotros?"},
+    {"text": "Ja, beboerne opfordres til at fylde et par dunke med vand aftenen før.", "es": "Sí, se pide a los vecinos que llenen un par de garrafas de agua la noche anterior."},
+    {"text": "Godt, at du læste det ordentligt. Så arbejder jeg på kontoret tirsdag i stedet for hjemme.", "es": "Menos mal que lo leíste bien. Entonces el martes trabajo en la oficina en vez de en casa."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué decide al final el vecino que lo había entendido mal?",
+   "choices": ["Trabajar en la oficina el martes", "Irse de casa toda la semana", "Llamar a la empresa de aguas para quejarse"]
+  },
+  "grammar": {
+   "focus": "Nominalización: del verbo al sustantivo",
+   "explain": "Los textos oficiales prefieren sustantivos a verbos: «afbryde» → «afbrydelsen», «udskifte» → «udskiftningen», «ændre» → «ændringen». Muchos se forman con -else, -ning o -ing y llevan el artículo definido pegado al final.",
+   "items": [
+    {"prompt": "___ af vandet sker tirsdag fra kl. 8 til 14. (afbryde, forma definida)", "answer": "Afbrydelsen", "es": "El corte del agua tendrá lugar el martes de 8 a 14 h."},
+    {"prompt": "___ af rørene tager cirka tre uger. (udskifte, forma definida)", "answer": "Udskiftningen", "es": "La sustitución de las tuberías dura unas tres semanas."},
+    {"prompt": "Beboerne bliver informeret om ___ i god tid. (ændre, forma definida)", "answer": "ændringen", "es": "Se informará a los vecinos del cambio con antelación."}
+   ]
+  },
+  "vocab": [
+   {"text": "opgangen", "es": "el portal, la escalera del edificio", "example": "Alle lejligheder i opgangen er berørt.", "example_es": "Todos los pisos del portal están afectados."},
+   {"text": "opfordres til", "es": "se ruega, se invita a", "example": "Bilisterne opfordres til at parkere i sidegaderne.", "example_es": "Se ruega a los conductores que aparquen en las calles laterales."},
+   {"text": "en dunk", "es": "una garrafa, un bidón", "example": "Fyld en dunk med vand aftenen før.", "example_es": "Llena una garrafa de agua la noche anterior."},
+   {"text": "i god tid", "es": "con antelación", "example": "Vi får besked i god tid før arbejdet.", "example_es": "Nos avisarán con antelación antes de las obras."}
+  ],
+  "transfer": {
+   "prompt": "Has recibido este aviso del ayuntamiento: «Por obras en la calle Mayor, la línea 4 de autobús se desvía del 2 al 20 de diciembre». Escribe un mensaje informal (4–5 frases) a un amigo mayor que usa esa línea, explicándole la idea principal y qué tiene que hacer.",
+   "model": "Hej Ole! Jeg har lige læst et opslag fra kommunen, som du måske ikke har set. På grund af vejarbejde på Storegade bliver bus 4 omlagt fra den 2. til den 20. december. Det betyder, at stoppestedet ved apoteket ikke bliver betjent i den periode. Du kan i stedet tage bussen fra Torvet, som kun ligger fem minutter væk. Sig til, hvis du vil have et lift til lægen i mellemtiden!",
+   "rubric": "Resume la idea principal con tus palabras, explica la consecuencia práctica («det betyder, at…»), propone una solución y mantiene un tono cercano."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos vecinos leen un aviso de la empresa de aguas en el portal; uno lo ha entendido mal y el otro le aclara qué implica.",
+   "lines": [
+    {"text": "Hues du den Avis bei de Bréifkëschte gesinn? Do steet, datt d'Waasser déi ganz Woch ofgestallt gëtt.", "es": "¿Has visto el aviso junto a los buzones? Dice que van a cortar el agua toda la semana."},
+    {"text": "Neen, lies nach eng Kéier. D'Ënnerbriechung ass nëmmen en Dënschdeg vun aacht bis véierzéng Auer.", "es": "No, vuelve a leerlo. El corte es solo el martes de ocho a dos."},
+    {"text": "Ah, okay. Mee firwat dann?", "es": "Ah, vale. ¿Y por qué?"},
+    {"text": "Wéinst dem Austausch vun den ale Waasserleitungen am ganze Gebai.", "es": "Por la sustitución de las tuberías viejas de todo el edificio."},
+    {"text": "Steet do eppes, wat mir selwer maache sollen?", "es": "¿Dice algo de lo que tenemos que hacer nosotros?"},
+    {"text": "Jo, d'Awunner gi gebieden, den Owend virdrun e puer Kanistere mat Waasser ze fëllen.", "es": "Sí, se pide a los vecinos que llenen un par de garrafas de agua la noche anterior."},
+    {"text": "Nach gutt, datt s du et richteg gelies hues. Da schaffen ech en Dënschdeg am Büro amplaz doheem.", "es": "Menos mal que lo leíste bien. Entonces el martes trabajo en la oficina en vez de en casa."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué decide al final el vecino que lo había entendido mal?",
+   "choices": ["Trabajar en la oficina el martes", "Irse de casa toda la semana", "Llamar a la empresa de aguas para quejarse"]
+  },
+  "grammar": {
+   "focus": "Nominalización: del verbo al sustantivo",
+   "explain": "Los avisos oficiales usan muchos sustantivos derivados de verbos: «ënnerbriechen» → «d'Ënnerbriechung», «änneren» → «d'Ännerung», «austauschen» → «den Austausch». Los terminados en -ung son femeninos.",
+   "items": [
+    {"prompt": "D'___ vum Waasser ass en Dënschdeg vun 8 bis 14 Auer. (ënnerbriechen)", "answer": "Ënnerbriechung", "es": "El corte del agua es el martes de 8 a 14 h."},
+    {"prompt": "Den ___ vun de Leitungen dauert ongeféier dräi Wochen. (austauschen)", "answer": "Austausch", "es": "La sustitución de las tuberías dura unas tres semanas."},
+    {"prompt": "D'Awunner gi fréizäiteg iwwer d'___ informéiert. (änneren)", "answer": "Ännerung", "es": "Se informa a los vecinos del cambio con antelación."}
+   ]
+  },
+  "vocab": [
+   {"text": "den Avis", "es": "el aviso", "example": "Den Avis hänkt nieft de Bréifkëschten.", "example_es": "El aviso está colgado junto a los buzones."},
+   {"text": "d'Awunner", "es": "los vecinos, los residentes", "example": "All d'Awunner vum Gebai si betraff.", "example_es": "Todos los vecinos del edificio están afectados."},
+   {"text": "gi gebieden", "es": "se ruega a", "example": "D'Chauffeure gi gebieden, an de Säitestroossen ze parken.", "example_es": "Se ruega a los conductores que aparquen en las calles laterales."},
+   {"text": "fréizäiteg", "es": "con antelación", "example": "Mir kréien dat fréizäiteg matgedeelt.", "example_es": "Nos lo comunicarán con antelación."}
+  ],
+  "transfer": {
+   "prompt": "Has recibido este aviso del ayuntamiento: «Por obras en la calle Mayor, la línea 4 de autobús se desvía del 2 al 20 de diciembre». Escribe un mensaje informal (4–5 frases) a un amigo mayor que usa esa línea, explicándole la idea principal y qué tiene que hacer.",
+   "model": "Salut Jos! Ech hu grad en Avis vun der Gemeng gelies, deen s du vläicht net gesinn hues. Wéinst Stroossenaarbechten an der Haaptstrooss fiert de Bus 4 vum 2. bis den 20. Dezember eng Ëmleedung. Dat heescht, datt den Arrêt bei der Apdikt an där Zäit net bedéngt gëtt. Du kanns amplaz de Bus op der Place huelen, déi just fënnef Minutte wäit ewech ass. Ruff mech un, wann ech dech an der Tëschenzäit bei den Dokter fuere soll!",
+   "rubric": "Resume la idea principal con tus palabras, explica la consecuencia práctica («dat heescht, datt…»), propone una solución y mantiene un tono cercano."
+  }
+ }
+}

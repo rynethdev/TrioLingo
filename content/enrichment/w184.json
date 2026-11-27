@@ -1,0 +1,81 @@
+{
+ "week": 184,
+ "da": {
+  "dialogue2": {
+   "context": "Tras una mala crítica en la prensa, el dueño de un restaurante busca un culpable; el jefe de cocina asume el error sin excusas y propone un cambio.",
+   "lines": [
+    {"text": "Anmelderen skriver, at hovedretten kom lunken ud. Var det køkkenet eller tjenerne?", "es": "El crítico escribe que el plato principal llegó tibio. ¿Fue la cocina o los camareros?"},
+    {"text": "Det var mig. Jeg satte en ny ret på kortet uden at prøve den af en travl aften.", "es": "Fui yo. Puse un plato nuevo en la carta sin probarlo en una noche de mucho trabajo."},
+    {"text": "Du kunne jo ikke vide, at han kom netop den aften.", "es": "No podías saber que vendría justo esa noche."},
+    {"text": "Nej, men jeg burde have vidst, at retten ikke kunne holde varmen på vej ud.", "es": "No, pero debería haber sabido que el plato no aguantaba caliente el camino a la sala."},
+    {"text": "Det er pænt af dig at tage det på dig.", "es": "Es un detalle que lo asumas tú."},
+    {"text": "Det er ikke pænt, det er korrekt. Havde jeg testet den en fredag, havde vi set det.", "es": "No es un detalle, es lo correcto. Si lo hubiera probado un viernes, lo habríamos visto."},
+    {"text": "Og hvad gør du nu?", "es": "¿Y qué haces ahora?"},
+    {"text": "Nye retter får to prøveaftener med fuldt hus, før de kommer på kortet.", "es": "Los platos nuevos tendrán dos noches de prueba con el local lleno antes de entrar en la carta."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué implica el chef al responder «No es un detalle, es lo correcto»?",
+   "choices": ["Que asumir su error es una obligación profesional, no un gesto de generosidad", "Que no le importa la opinión del dueño", "Que en realidad la culpa fue de los camareros"]
+  },
+  "grammar": {
+   "focus": "Contrafactual en pasado: havde jeg …, burde have, ville have",
+   "explain": "Para hablar de lo que habría pasado se usa el pluscuamperfecto, con «hvis» o con inversión: Havde jeg testet retten, havde vi set det. En la principal también «ville have» + participio. «Burde have» + participio = debería haber…",
+   "items": [
+    {"prompt": "___ jeg testet retten en fredag, havde vi opdaget problemet. (have, pasado, condición sin «hvis»)", "answer": "Havde", "es": "Si hubiera probado el plato un viernes, habríamos detectado el problema."},
+    {"prompt": "Jeg ___ have delegeret anretningen til en kollega. (debería haber)", "answer": "burde", "es": "Debería haber delegado el emplatado en un compañero."},
+    {"prompt": "Hvis vi havde haft en prøveaften, ___ anmelderen have fået en varm ret. (habría)", "answer": "ville", "es": "Si hubiéramos tenido una noche de prueba, el crítico habría recibido un plato caliente."}
+   ]
+  },
+  "vocab": [
+   {"text": "tage skylden på sig", "es": "asumir la culpa", "example": "Det kræver mod at tage skylden på sig.", "example_es": "Hace falta valor para asumir la culpa."},
+   {"text": "prøves af", "es": "se prueban, se ponen a prueba", "example": "Nye retter skal prøves af under travlhed.", "example_es": "Los platos nuevos deben probarse cuando hay mucho trabajo."},
+   {"text": "ingen undskyldninger", "es": "ninguna excusa", "example": "Jeg giver en forklaring, ingen undskyldninger.", "example_es": "Doy una explicación, ninguna excusa."},
+   {"text": "lærer af sine fejl", "es": "aprende de sus errores", "example": "Et godt køkken lærer af sine fejl.", "example_es": "Una buena cocina aprende de sus errores."}
+  ],
+  "transfer": {
+   "prompt": "Escribe la respuesta pública del chef (6–8 frases) a la crítica negativa, para la web del restaurante. Propósito: reconocer el fallo sin excusas ni culpar al equipo, explicar qué habría debido hacer y qué cambia ahora, sin servilismo.",
+   "model": "Tak for anmeldelsen, som vi har læst med stor opmærksomhed. Kritikken af hovedretten er berettiget: den nåede ikke bordet så varm, som den skulle. Ansvaret er mit, ikke tjenernes eller køkkenholdets. Jeg satte retten på kortet uden at have prøvet den af en travl aften, og havde jeg gjort det, havde vi opdaget problemet i tide. Fremover får alle nye retter to prøveaftener med fuldt hus, før de kommer på menuen. Desuden har vi ændret anretningen, så retten holder varmen hele vejen ud. Vi håber, at du vil give os en ny chance — og at du til den tid finder en ret, der lever op til sit navn.",
+   "rubric": "Reconoce el fallo concreto en primera persona; no culpa a otros ni se excusa; usa correctamente el contrafactual para explicar lo que debió hacerse; describe medidas concretas y verificables; tono digno, sin servilismo ni defensividad."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Tras una mala crítica en la prensa, el dueño de un restaurante busca un culpable; el jefe de cocina asume el error sin excusas y propone un cambio.",
+   "lines": [
+    {"text": "De Kritiker schreift, datt den Haaptplat lauwarm koum. War et d'Kichen oder de Service?", "es": "El crítico escribe que el plato principal llegó tibio. ¿Fue la cocina o la sala?"},
+    {"text": "Ech war et. Ech hunn en neie Plat op d'Kaart gesat, ouni e virdrun op engem vollen Owend ze testen.", "es": "Fui yo. Puse un plato nuevo en la carta sin probarlo antes en una noche llena."},
+    {"text": "Du konnts jo net wëssen, datt hie grad deen Owend kënnt.", "es": "No podías saber que vendría justo esa noche."},
+    {"text": "Neen, mä ech hätt misse wëssen, datt de Plat d'Hëtzt um Wee an de Sall net hält.", "es": "No, pero debería haber sabido que el plato no aguanta caliente el camino a la sala."},
+    {"text": "Et ass flott vun dir, dat op dech ze huelen.", "es": "Es un detalle que lo asumas tú."},
+    {"text": "Dat ass net flott, dat ass korrekt. Hätt ech en e Freideg getest, da hätte mir et gesinn.", "es": "No es un detalle, es lo correcto. Si lo hubiera probado un viernes, lo habríamos visto."},
+    {"text": "A wat méchs du elo?", "es": "¿Y qué haces ahora?"},
+    {"text": "Nei Plate kréien zwee Testowender mat vollem Sall, ier se op d'Kaart kommen.", "es": "Los platos nuevos tendrán dos noches de prueba con la sala llena antes de entrar en la carta."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué implica el chef al responder «No es un detalle, es lo correcto»?",
+   "choices": ["Que asumir su error es una obligación profesional, no un gesto de generosidad", "Que no le importa la opinión del dueño", "Que en realidad la culpa fue de la sala"]
+  },
+  "grammar": {
+   "focus": "Contrafactual en pasado: hätt + participio y doble infinitivo con modales",
+   "explain": "Para lo que habría pasado se usa el Konjunktiv II de «hunn» + participio: Hätt ech en getest, da hätte mir et gesinn. Con modales se usa el doble infinitivo: Ech hätt et misse wëssen (debería haberlo sabido); ech hätt méi fréi sollen delegéieren.",
+   "items": [
+    {"prompt": "___ ech de Plat e Freideg getest, da hätte mir d'Problem gesinn. (hunn, Konjunktiv II, condición sin «wann»)", "answer": "Hätt", "es": "Si hubiera probado el plato un viernes, habríamos visto el problema."},
+    {"prompt": "Ech hätt méi fréi ___ delegéieren. (debería haber: modal «sollen»)", "answer": "sollen", "es": "Debería haber delegado antes."},
+    {"prompt": "Wa mir en Testowend gehat hätten, ___ de Kritiker e waarme Plat kritt. (hunn, Konjunktiv II, 3.ª sg.)", "answer": "hätt", "es": "Si hubiéramos tenido una noche de prueba, el crítico habría recibido un plato caliente."}
+   ]
+  },
+  "vocab": [
+   {"text": "op sech ze huelen", "es": "asumir (la culpa)", "example": "Et brauch Courage, d'Schold op sech ze huelen.", "example_es": "Hace falta valor para asumir la culpa."},
+   {"text": "keng Entschëllegung", "es": "ninguna excusa", "example": "Ech siche keng Entschëllegung, ech ginn eng Erklärung.", "example_es": "No busco ninguna excusa, doy una explicación."},
+   {"text": "aus hire Feeler", "es": "de sus errores", "example": "Eng gutt Kichen léiert aus hire Feeler.", "example_es": "Una buena cocina aprende de sus errores."},
+   {"text": "op d'Kaart", "es": "a la carta", "example": "En neie Plat kënnt eréischt no zwee Tester op d'Kaart.", "example_es": "Un plato nuevo solo entra en la carta tras dos pruebas."}
+  ],
+  "transfer": {
+   "prompt": "Escribe la respuesta pública del chef (6–8 frases) a la crítica negativa, para la web del restaurante. Propósito: reconocer el fallo sin excusas ni culpar al equipo, explicar qué habría debido hacer y qué cambia ahora, sin servilismo.",
+   "model": "Merci fir Är Kritik, déi mir mat vill Opmierksamkeet gelies hunn. D'Kritik um Haaptplat ass berechtegt: en ass net esou waarm um Dësch ukomm, wéi e sollt. D'Verantwortung läit bei mir, net beim Service an net bei der Kichenequipe. Ech hunn de Plat op d'Kaart gesat, ouni e virdrun op engem vollen Owend ze testen, an hätt ech dat gemaach, da hätte mir d'Problem rechtzäiteg gesinn. Vun elo un kréien all nei Plate zwee Testowender mat vollem Sall, ier se op d'Kaart kommen. Ausserdeem hu mir d'Uriichten esou geännert, datt de Plat waarm bleift, bis en um Dësch ass. Mir hoffen, datt Dir eis eng nei Chance gitt — an datt Dir dann e Plat fannt, deen sengem Numm gerecht gëtt.",
+   "rubric": "Reconoce el fallo concreto en primera persona; no culpa a otros ni se excusa; usa correctamente el contrafactual en Konjunktiv II para explicar lo que debió hacerse; describe medidas concretas y verificables; tono digno, sin servilismo ni defensividad."
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "week": 156,
+ "da": {
+  "dialogue2": {
+   "context": "Una profesora propone sustituir las autorizaciones en papel para excursiones por un formulario digital; el director teme por las familias que no se manejan con internet.",
+   "lines": [
+    {"text": "I dag sender vi papirsedler hjem, og vi får typisk kun to tredjedele tilbage til tiden.", "es": "Ahora mandamos papeles a casa y normalmente solo nos devuelven dos tercios a tiempo."},
+    {"text": "Men det digitale er ikke nødvendigvis bedre; ikke alle familier er lige så vant til nettet som os.", "es": "Pero lo digital no es necesariamente mejor; no todas las familias están tan acostumbradas a internet como nosotros."},
+    {"text": "Det er rigtigt, derfor foreslår jeg, at papir stadig er en mulighed for dem, der ønsker det.", "es": "Es verdad; por eso propongo que el papel siga siendo una opción para quien lo prefiera."},
+    {"text": "Og hvad vinder vi så konkret?", "es": "¿Y qué ganamos concretamente?"},
+    {"text": "På skolen i nabobyen svarer forældrene langt hurtigere end før, og lærerne bruger mindre tid på at rykke.", "es": "En la escuela del pueblo de al lado los padres responden mucho más rápido que antes y los profesores dedican menos tiempo a insistir."},
+    {"text": "Er det lige så sikkert som en underskrift på papir?", "es": "¿Es igual de seguro que una firma en papel?"},
+    {"text": "Mindst lige så sikkert, fordi forældrene logger ind med deres personlige login.", "es": "Al menos igual de seguro, porque los padres entran con su acceso personal."},
+    {"text": "Godt, lav et forsøg med to klasser, så kan vi sammenligne før og efter.", "es": "Bien, haz una prueba con dos clases y así podremos comparar el antes y el después."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué objeción del director ha anticipado ya la propuesta de la profesora?",
+   "choices": ["Que algunas familias no se manejan con internet, por eso se mantiene el papel como opción", "Que el formulario digital resulta más caro que el papel", "Que los profesores no quieren cambiar su forma de trabajar"]
+  },
+  "grammar": {
+   "focus": "Comparación: … end, lige så … som, ikke så … som",
+   "explain": "Superioridad: «hurtigere end», «mere sikker end»; igualdad: «lige så + adjetivo + som» (tan … como); inferioridad atenuada: «ikke så + adjetivo + som» (no tan … como). Tras «end» y «som» puede ir un pronombre: lige så vant som os.",
+   "items": [
+    {"prompt": "Forældrene svarer langt hurtigere ___ før. (que)", "answer": "end", "es": "Los padres responden mucho más rápido que antes."},
+    {"prompt": "Er det ___ så sikkert som en underskrift på papir? (igualdad)", "answer": "lige", "es": "¿Es igual de seguro que una firma en papel?"},
+    {"prompt": "Det nye system er ikke så besværligt, ___ mange frygter. (como)", "answer": "som", "es": "El nuevo sistema no es tan engorroso como muchos temen."}
+   ]
+  },
+  "vocab": [
+   {"text": "rykke", "es": "insistir, reclamar una respuesta", "example": "Lærerne bruger meget tid på at rykke forældrene.", "example_es": "Los profesores dedican mucho tiempo a insistir a los padres."},
+   {"text": "vant til", "es": "acostumbrado a", "example": "Ikke alle er vant til digitale formularer.", "example_es": "No todo el mundo está acostumbrado a los formularios digitales."},
+   {"text": "en mulighed", "es": "una opción", "example": "Papir skal stadig være en mulighed.", "example_es": "El papel debe seguir siendo una opción."},
+   {"text": "før og efter", "es": "el antes y el después", "example": "Med et forsøg kan vi sammenligne før og efter.", "example_es": "Con una prueba podemos comparar el antes y el después."}
+  ],
+  "transfer": {
+   "prompt": "Redacta la propuesta (5–7 frases) para la dirección: situación actual con un dato, cambio propuesto, comparación antes/después, respuesta a una objeción y plan de prueba.",
+   "model": "I dag sendes tilladelser til ekskursioner hjem på papir, og kun omkring to tredjedele kommer tilbage inden fristen. Jeg foreslår, at vi indfører en digital formular, som forældrene kan udfylde på telefonen på få minutter. Erfaringer fra en naboskole viser, at svarprocenten er langt højere end før, og at lærerne bruger betydeligt mindre tid på at rykke. Løsningen er mindst lige så sikker som en underskrift på papir, da forældrene logger ind personligt. For familier, der ikke er lige så vant til digitale løsninger, vil papir fortsat være en mulighed. Jeg foreslår et forsøg med to klasser i foråret, så vi kan sammenligne før og efter.",
+   "rubric": "Describe la situación actual con un dato; formula el cambio con precisión; usa al menos dos estructuras comparativas (end, lige så … som, ikke så … som); responde a una objeción previsible; propone una prueba limitada y medible."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una profesora propone sustituir las autorizaciones en papel para excursiones por un formulario digital; el director teme por las familias que no se manejan con internet.",
+   "lines": [
+    {"text": "Haut schécke mir Pabeierziedelen heem, an normalerweis kréie mir nëmmen zwee Drëttel rechtzäiteg zréck.", "es": "Ahora mandamos papeles a casa y normalmente solo nos devuelven dos tercios a tiempo."},
+    {"text": "Mä digital ass net onbedéngt besser; net all Famill ass esou un den Internet gewinnt wéi mir.", "es": "Pero lo digital no es necesariamente mejor; no todas las familias están tan acostumbradas a internet como nosotros."},
+    {"text": "Dat stëmmt, dofir proposéieren ech, datt Pabeier fir déi, déi et wëllen, eng Optioun bleift.", "es": "Es verdad; por eso propongo que el papel siga siendo una opción para quien lo quiera."},
+    {"text": "A wat gewanne mir dann konkret?", "es": "¿Y qué ganamos concretamente?"},
+    {"text": "An der Schoul vum Nopeschduerf äntweren d'Eltere vill méi séier wéi virdrun, an d'Léierpersonal brauch manner Zäit fir nozefroen.", "es": "En la escuela del pueblo vecino los padres responden mucho más rápido que antes y el profesorado necesita menos tiempo para insistir."},
+    {"text": "Ass dat esou sécher wéi eng Ënnerschrëft op Pabeier?", "es": "¿Es tan seguro como una firma en papel?"},
+    {"text": "Op d'mannst esou sécher, well d'Elteren sech mat hirem perséinleche Login aloggen.", "es": "Al menos igual de seguro, porque los padres entran con su acceso personal."},
+    {"text": "Gutt, maacht e Versuch mat zwou Klassen, da kënne mir virdrun an duerno vergläichen.", "es": "Bien, haga una prueba con dos clases y así podremos comparar el antes y el después."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué objeción del director ha anticipado ya la propuesta de la profesora?",
+   "choices": ["Que algunas familias no se manejan con internet, por eso se mantiene el papel como opción", "Que el formulario digital resulta más caro que el papel", "Que los profesores no quieren cambiar su forma de trabajar"]
+  },
+  "grammar": {
+   "focus": "Comparación: méi … wéi, esou … wéi, net esou … wéi",
+   "explain": "Superioridad: «méi séier wéi», «besser wéi»; igualdad: «esou + adjetivo + wéi» (tan … como); inferioridad atenuada: «net esou + adjetivo + wéi» (no tan … como). En luxemburgués el segundo término se introduce siempre con «wéi».",
+   "items": [
+    {"prompt": "D'Elteren äntweren vill méi séier ___ virdrun. (que)", "answer": "wéi", "es": "Los padres responden mucho más rápido que antes."},
+    {"prompt": "Ass dat ___ sécher wéi eng Ënnerschrëft op Pabeier? (igualdad: «tan»)", "answer": "esou", "es": "¿Es tan seguro como una firma en papel?"},
+    {"prompt": "Den neie System funktionéiert ___ wéi befaart. (gutt, comparativo)", "answer": "besser", "es": "El nuevo sistema funciona mejor de lo que se temía."}
+   ]
+  },
+  "vocab": [
+   {"text": "nofroen", "es": "insistir, volver a preguntar", "example": "Ech wëll net all Woch bei den Elteren nofroen.", "example_es": "No quiero tener que insistir a los padres cada semana."},
+   {"text": "gewinnt", "es": "acostumbrado (un eppes gewinnt sinn)", "example": "Net jiddereen ass un digital Formulaire gewinnt.", "example_es": "No todo el mundo está acostumbrado a los formularios digitales."},
+   {"text": "eng Optioun", "es": "una opción", "example": "Pabeier bleift weiderhin eng Optioun.", "example_es": "El papel sigue siendo una opción."},
+   {"text": "virdrun an duerno", "es": "antes y después", "example": "Mat engem Versuch kënne mir virdrun an duerno vergläichen.", "example_es": "Con una prueba podemos comparar el antes y el después."}
+  ],
+  "transfer": {
+   "prompt": "Redacta la propuesta (5–7 frases) para la dirección: situación actual con un dato, cambio propuesto, comparación antes/después, respuesta a una objeción y plan de prueba.",
+   "model": "Haut ginn d'Autorisatioune fir Ausflich op Pabeier heemgeschéckt, an nëmmen ongeféier zwee Drëttel komme bis zum Delai zréck. Ech proposéieren, e digitale Formulaire anzeféieren, deen d'Elteren a wéinege Minutten um Handy ausfëlle kënnen. Erfarungen aus enger Nopeschschoul weisen, datt vill méi Elteren äntweren wéi virdrun an datt d'Léierpersonal däitlech manner Zäit mam Nofroe verbréngt. D'Léisung ass op d'mannst esou sécher wéi eng Ënnerschrëft op Pabeier, well d'Elteren sech perséinlech aloggen. Fir Famillen, déi net esou un digital Léisunge gewinnt sinn, bleift Pabeier weiderhin eng Optioun. Ech proposéieren e Versuch mat zwou Klassen am Fréijoer, fir datt mir virdrun an duerno vergläiche kënnen.",
+   "rubric": "Describe la situación actual con un dato; formula el cambio con precisión; usa al menos dos estructuras comparativas (méi … wéi, esou … wéi, net esou … wéi); responde a una objeción previsible; propone una prueba limitada y medible."
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "week": 118,
+ "da": {
+  "dialogue2": {
+   "context": "Sala de profesores: dos docentes discuten si prohibir el móvil en clase; uno defiende la prohibición y el otro teme que solo desplace el problema.",
+   "lines": [
+    {"text": "Jeg mener stadig, at et mobilforbud i timerne er den rigtige vej, selvom eleverne vil protestere.", "es": "Sigo pensando que prohibir el móvil en clase es el camino correcto, aunque los alumnos protesten."},
+    {"text": "Det kan godt være, men forbud har det med at flytte problemet ud i frikvartererne.", "es": "Puede ser, pero las prohibiciones suelen trasladar el problema a los recreos."},
+    {"text": "Det er en rimelig indvending, og jeg påstår heller ikke, at et forbud løser alt.", "es": "Es una objeción razonable, y tampoco digo que una prohibición lo resuelva todo."},
+    {"text": "Hvad er det så, du forventer at opnå, hvis det ikke er en egentlig løsning?", "es": "¿Y qué esperas conseguir entonces, si no es una solución propiamente dicha?"},
+    {"text": "Mere ro i timerne og dermed bedre koncentration, uanset hvad der sker i frikvarteret.", "es": "Más calma en clase y, con ello, mejor concentración, pase lo que pase en el recreo."},
+    {"text": "Hvis vi kombinerer det med en snak om skærmvaner, kan jeg godt gå med til et forsøg.", "es": "Si lo combinamos con una charla sobre hábitos de pantalla, puedo aceptar una prueba."},
+    {"text": "Så lad os foreslå et forsøg på et halvt år og evaluere det bagefter.", "es": "Entonces propongamos una prueba de medio año y evaluémosla después."},
+    {"text": "Fint, men så vil jeg have, at eleverne også bliver hørt undervejs.", "es": "Bien, pero entonces quiero que a los alumnos también se les escuche durante el proceso."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué concede el docente que defiende la prohibición?",
+   "choices": ["Que la prohibición por sí sola no resuelve todos los problemas", "Que los alumnos tienen razón al protestar contra ella", "Que el problema de los recreos es más grave que el de las clases"]
+  },
+  "grammar": {
+   "focus": "Conectores concesivos: selvom, trods, uanset",
+   "explain": "«Selvom» introduce una subordinada (selvom det koster mere); «trods» va seguido de un sustantivo (trods kritikken); «uanset» va con un interrogativo y expresa «sea lo que sea» (uanset hvad der sker).",
+   "items": [
+    {"prompt": "___ forslaget koster mere i starten, vil det spare os penge på længere sigt. (selvom / trods / uanset)", "answer": "Selvom", "es": "Aunque la propuesta cueste más al principio, nos ahorrará dinero a largo plazo."},
+    {"prompt": "Ledelsen fastholdt beslutningen ___ den massive kritik fra medarbejderne. (selvom / trods / uanset)", "answer": "trods", "es": "La dirección mantuvo la decisión pese a las fuertes críticas de la plantilla."},
+    {"prompt": "___ hvordan man vender det, er det eleverne, der betaler prisen for vores uenighed. (selvom / trods / uanset)", "answer": "Uanset", "es": "Se mire como se mire, son los alumnos quienes pagan el precio de nuestro desacuerdo."}
+   ]
+  },
+  "vocab": [
+   {"text": "en rimelig indvending", "es": "una objeción razonable", "example": "Det er en rimelig indvending, som vi bør tage alvorligt.", "example_es": "Es una objeción razonable que deberíamos tomarnos en serio."},
+   {"text": "har det med at", "es": "suele, tiende a", "example": "Forbud har det med at flytte problemet et andet sted hen.", "example_es": "Las prohibiciones suelen trasladar el problema a otro sitio."},
+   {"text": "gå med til", "es": "aceptar, consentir", "example": "Jeg kan godt gå med til et forsøg, hvis vi evaluerer det bagefter.", "example_es": "Puedo aceptar una prueba si la evaluamos después."},
+   {"text": "på længere sigt", "es": "a largo plazo", "example": "På længere sigt kan roen i timerne løfte hele klassens niveau.", "example_es": "A largo plazo, la calma en clase puede elevar el nivel de todo el grupo."}
+  ],
+  "transfer": {
+   "prompt": "Convierte el debate en un artículo de opinión breve para la revista del centro (5–7 frases): defiende tu postura, recoge con justicia el contraargumento más fuerte y explica por qué, aun así, mantienes tu propuesta.",
+   "model": "Jeg går ind for et mobilforbud i timerne, men jeg vil gerne begrunde det sagligt. Den stærkeste indvending er, at et forbud blot flytter problemet ud i frikvartererne, og den skal tages alvorligt. Selvom det kan ske, er formålet ikke at løse alt, men at skabe ro dér, hvor eleverne skal lære. Erfaringer fra andre skoler peger på, at koncentrationen stiger, når telefonen ligger i tasken. Derfor foreslår jeg et forsøg på et halvt år, kombineret med undervisning i skærmvaner. Hvis evalueringen viser, at gevinsten udebliver, er jeg parat til at revidere min holdning.",
+   "rubric": "Formula la tesis en la primera frase; presenta el contraargumento sin caricaturizarlo; usa al menos dos conectores concesivos (selvom, trods, uanset); apoya la postura con un dato atenuado («peger på», «tyder på»); cierra con una condición que muestre apertura a revisar la postura."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Sala de profesores: dos docentes discuten si prohibir el móvil en clase; uno defiende la prohibición y el otro teme que solo desplace el problema.",
+   "lines": [
+    {"text": "Ech mengen ëmmer nach, datt en Handyverbuet an de Stonnen de richtege Wee ass, och wann d'Schüler protestéiere wäerten.", "es": "Sigo pensando que prohibir el móvil en clase es el camino correcto, aunque los alumnos vayan a protestar."},
+    {"text": "Dat ka sinn, mä Verbueter hunn d'Tendenz, de Problem einfach an d'Paus ze verleeën.", "es": "Puede ser, pero las prohibiciones tienden a trasladar el problema sin más al recreo."},
+    {"text": "Dat ass e berechtegten Awand, an ech behaapten och net, datt e Verbuet alles léist.", "es": "Es una objeción legítima, y tampoco afirmo que una prohibición lo resuelva todo."},
+    {"text": "Wat wëlls du dann domat erreechen, wann et keng richteg Léisung ass?", "es": "¿Y qué quieres conseguir con ello, si no es una verdadera solución?"},
+    {"text": "Méi Rou an de Stonnen an doduerch eng besser Konzentratioun, egal wat an der Paus geschitt.", "es": "Más calma en clase y, con ello, mejor concentración, pase lo que pase en el recreo."},
+    {"text": "Wa mir dat mat engem Gespréich iwwer Bildschiermgewunnechten kombinéieren, kéint ech mech op e Versuch aloossen.", "es": "Si lo combinamos con una charla sobre hábitos de pantalla, podría aceptar una prueba."},
+    {"text": "Da schloe mir eng Testphas vu sechs Méint vir an evaluéieren se duerno.", "es": "Entonces proponemos una fase de prueba de seis meses y la evaluamos después."},
+    {"text": "Gutt, mä da wëll ech, datt d'Schüler ënnerwee och gehéiert ginn.", "es": "Bien, pero entonces quiero que a los alumnos también se les escuche durante el proceso."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué concede el docente que defiende la prohibición?",
+   "choices": ["Que la prohibición por sí sola no resuelve todos los problemas", "Que los alumnos tienen razón al protestar contra ella", "Que el problema de los recreos es más grave que el de las clases"]
+  },
+  "grammar": {
+   "focus": "Conectores concesivos: obwuel, trotz, egal",
+   "explain": "«Obwuel» (y «och wann») introduce una subordinada con el verbo al final (obwuel et méi kascht); «trotz» va con un sustantivo (trotz der Kritik); «egal» + interrogativo significa «sea lo que sea» (egal wat geschitt).",
+   "items": [
+    {"prompt": "___ de Projet am Ufank méi kascht, spuere mir op laang Siicht Suen. (obwuel / trotz / egal)", "answer": "Obwuel", "es": "Aunque el proyecto cueste más al principio, a largo plazo ahorramos dinero."},
+    {"prompt": "D'Direktioun ass ___ der massiver Kritik bei hirer Entscheedung bliwwen. (obwuel / trotz / egal)", "answer": "trotz", "es": "La dirección mantuvo su decisión pese a las fuertes críticas."},
+    {"prompt": "___ wéi een et dréint, et sinn d'Schüler, déi de Präis fir eis Oneenegkeet bezuelen. (obwuel / trotz / egal)", "answer": "Egal", "es": "Se mire como se mire, son los alumnos quienes pagan el precio de nuestro desacuerdo."}
+   ]
+  },
+  "vocab": [
+   {"text": "e berechtegten Awand", "es": "una objeción legítima", "example": "Dat ass e berechtegten Awand, deen ech eescht huelen.", "example_es": "Es una objeción legítima que me tomo en serio."},
+   {"text": "op laang Siicht", "es": "a largo plazo", "example": "Op laang Siicht spuere mir domat Zäit a Suen.", "example_es": "A largo plazo, con ello ahorramos tiempo y dinero."},
+   {"text": "egal wat", "es": "sea lo que sea, pase lo que pase", "example": "Mir halen eis un d'Reegel, egal wat d'Elteren dovun halen.", "example_es": "Nos atenemos a la norma, opinen lo que opinen los padres."},
+   {"text": "eng Testphas", "es": "una fase de prueba", "example": "Mir schloen eng Testphas vu sechs Méint vir.", "example_es": "Proponemos una fase de prueba de seis meses."}
+  ],
+  "transfer": {
+   "prompt": "Convierte el debate en un artículo de opinión breve para la revista del centro (5–7 frases): defiende tu postura, recoge con justicia el contraargumento más fuerte y explica por qué, aun así, mantienes tu propuesta.",
+   "model": "Ech si fir en Handyverbuet an de Stonnen, mä ech wëll dës Positioun sachlech begrënnen. De stäerksten Awand ass, datt e Verbuet de Problem just an d'Paus verleet, an deen Awand muss een eescht huelen. Och wann dat geschéie kann, ass d'Zil net, alles ze léisen, mä do Rou ze schafen, wou geléiert gëtt. Erfarunge vun anere Schoulen deiten drop hin, datt d'Konzentratioun klëmmt, wann den Handy an der Täsch bleift. Dofir proposéieren ech eng Testphas vu sechs Méint, kombinéiert mat Coursen iwwer Bildschiermgewunnechten. Sollt d'Evaluatioun weisen, datt de Gewënn ausbleift, sinn ech bereet, meng Positioun ze iwwerdenken.",
+   "rubric": "Formula la tesis en la primera frase; presenta el contraargumento sin caricaturizarlo; usa al menos dos conectores concesivos (obwuel, och wann, trotz, egal); apoya la postura con un dato atenuado («deiten drop hin», «et gesäit aus, wéi wann»); cierra con una condición que muestre apertura a revisar la postura."
+  }
+ }
+}

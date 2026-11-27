@@ -1,0 +1,81 @@
+{
+ "week": 150,
+ "da": {
+  "dialogue2": {
+   "context": "Una jefa lee a un compañero el borrador de un agradecimiento a otro equipo; él le hace ver que es demasiado genérico y la ayuda a concretarlo.",
+   "lines": [
+    {"text": "Hør lige: »Tak til IT for jeres store indsats.« Er det fint nok?", "es": "Escucha: «Gracias a Informática por vuestro gran esfuerzo». ¿Vale así?"},
+    {"text": "Det er venligt, men det kunne være skrevet til hvem som helst.", "es": "Es amable, pero podría estar escrito para cualquiera."},
+    {"text": "Hvad mangler der så?", "es": "¿Y qué le falta?"},
+    {"text": "Hvad de konkret gjorde, og hvad det betød for os; ellers lyder det som en pligt.", "es": "Lo que hicieron concretamente y lo que supuso para nosotros; si no, suena a mero trámite."},
+    {"text": "De arbejdede hele weekenden, så kundesystemet var oppe mandag morgen.", "es": "Trabajaron todo el fin de semana para que el sistema de clientes funcionara el lunes por la mañana."},
+    {"text": "Og uden det ville vi have mistet ordrer for en hel dag, ikke mindst fra de store kunder.", "es": "Y sin eso habríamos perdido los pedidos de un día entero, sobre todo de los clientes grandes."},
+    {"text": "Så jeg skriver det præcis sådan og nævner Jonas og Sara ved navn?", "es": "¿Entonces lo escribo exactamente así y nombro a Jonas y a Sara?"},
+    {"text": "Ja, og send den gerne med kopi til deres chef; anerkendelse, som bliver set, tæller dobbelt.", "es": "Sí, y mándalo con copia a su jefe; el reconocimiento que se ve cuenta el doble."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué le falta al primer borrador, según el compañero?",
+   "choices": ["Concretar qué hicieron y qué efecto tuvo, para que no suene a mero trámite", "Un tono más formal y distante, propio de un correo oficial", "Una disculpa por haberles hecho trabajar el fin de semana"]
+  },
+  "grammar": {
+   "focus": "Intensificadores y realce: særdeles, yderst, ikke mindst",
+   "explain": "«Særdeles» y «yderst» intensifican adjetivos y adverbios en registro formal (særdeles værdifuld, yderst professionelt); «ikke mindst» destaca un elemento dentro de una enumeración (sobre todo, en especial).",
+   "items": [
+    {"prompt": "Jeres indsats var ___ værdifuld for hele afdelingen. (sumamente, empieza por s-)", "answer": "særdeles", "es": "Vuestro esfuerzo fue sumamente valioso para todo el departamento."},
+    {"prompt": "Vi undgik store tab, ikke ___ hos de største kunder. (en especial)", "answer": "mindst", "es": "Evitamos grandes pérdidas, en especial con los clientes más grandes."},
+    {"prompt": "Teamet arbejdede ___ professionelt under et stort pres. (extremadamente, empieza por y-)", "answer": "yderst", "es": "El equipo trabajó de forma extremadamente profesional bajo una gran presión."}
+   ]
+  },
+  "vocab": [
+   {"text": "indsats", "es": "esfuerzo, dedicación (en indsats)", "example": "Tak for jeres store indsats i weekenden.", "example_es": "Gracias por vuestro gran esfuerzo durante el fin de semana."},
+   {"text": "hvem som helst", "es": "cualquiera", "example": "Teksten kunne være skrevet til hvem som helst.", "example_es": "El texto podría estar escrito para cualquiera."},
+   {"text": "ved navn", "es": "por su nombre", "example": "Nævn gerne kollegerne ved navn.", "example_es": "Menciona a los compañeros por su nombre."},
+   {"text": "med kopi til", "es": "con copia a", "example": "Send takken med kopi til deres chef.", "example_es": "Envía el agradecimiento con copia a su jefe."}
+  ],
+  "transfer": {
+   "prompt": "Escribe la nota de agradecimiento definitiva (5–6 frases) a otro equipo: qué hicieron exactamente, el efecto medible, a quién destacas y por qué, y un cierre personal.",
+   "model": "Kære Jonas og Sara. Jeg vil gerne sige en særdeles stor tak for jeres arbejde i weekenden, hvor I fik kundesystemet op at køre igen efter nedbruddet fredag aften. Takket være jer var systemet oppe mandag kl. 7, og vi undgik at miste en hel dags ordrer, ikke mindst fra vores største kunder. Jeres rolige kommunikation undervejs gjorde det også muligt for kundeservice at give præcise svar. Jeg ved, at I opgav jeres egne planer for at nå det, og det er ikke en selvfølge. Endnu en gang tak; det glemmer vi ikke.",
+   "rubric": "Nombra a las personas y la acción concreta; describe o cuantifica el efecto; usa al menos un intensificador formal (særdeles, yderst) y «ikke mindst»; reconoce el coste personal; evita fórmulas genéricas."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una jefa lee a un compañero el borrador de un agradecimiento a otro equipo; él le hace ver que es demasiado genérico y la ayuda a concretarlo.",
+   "lines": [
+    {"text": "Lauschter mol: „Merci un d'IT fir äre groussen Asaz.“ Geet dat esou?", "es": "Escucha: «Gracias a Informática por vuestro gran esfuerzo». ¿Vale así?"},
+    {"text": "Dat ass frëndlech, mä dat kéint u jiddereen geschriwwe sinn.", "es": "Es amable, pero podría estar escrito para cualquiera."},
+    {"text": "Wat feelt dann?", "es": "¿Y qué le falta?"},
+    {"text": "Wat si konkret gemaach hunn a wat dat fir eis bedeit huet; soss kléngt et no enger Flicht.", "es": "Lo que hicieron concretamente y lo que supuso para nosotros; si no, suena a mero trámite."},
+    {"text": "Si hunn de ganze Weekend geschafft, fir datt de Clientssystem e Méindeg de Moien erëm leeft.", "es": "Trabajaron todo el fin de semana para que el sistema de clientes volviera a funcionar el lunes por la mañana."},
+    {"text": "An ouni dat hätte mir d'Bestellunge vun engem ganzen Dag verluer, net zulescht vun de grousse Clienten.", "es": "Y sin eso habríamos perdido los pedidos de un día entero, sobre todo de los clientes grandes."},
+    {"text": "Also schreiwen ech genee dat a nennen de Jonas an d'Sara mam Numm?", "es": "¿Entonces escribo exactamente eso y nombro a Jonas y a Sara?"},
+    {"text": "Jo, a schéck et gär mat Kopie un hire Chef; Unerkennung, déi gesi gëtt, zielt duebel.", "es": "Sí, y mándalo con copia a su jefe; el reconocimiento que se ve cuenta el doble."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué le falta al primer borrador, según el compañero?",
+   "choices": ["Concretar qué hicieron y qué efecto tuvo, para que no suene a mero trámite", "Un tono más formal y distante, propio de un correo oficial", "Una disculpa por haberles hecho trabajar el fin de semana"]
+  },
+  "grammar": {
+   "focus": "Intensificadores y realce: äusserst, ganz besonnesch, net zulescht",
+   "explain": "«Äusserst» y «ganz besonnesch» intensifican en registro formal (äusserst professionell, e ganz besonnesche Merci); «net zulescht» destaca un elemento dentro de una enumeración (sobre todo, en especial).",
+   "items": [
+    {"prompt": "Ären Asaz war ___ wäertvoll fir déi ganz Abteilung. (sumamente, empieza por ä-)", "answer": "äusserst", "es": "Su esfuerzo fue sumamente valioso para todo el departamento."},
+    {"prompt": "Mir hu grouss Verloschter vermeit, net ___ bei de gréisste Clienten. (en especial)", "answer": "zulescht", "es": "Evitamos grandes pérdidas, en especial con los clientes más grandes."},
+    {"prompt": "Ech wëll Iech e ganz ___ Merci soen. (besonnesch, con la terminación ante «Merci»)", "answer": "besonnesche", "es": "Quiero darles unas gracias muy especiales."}
+   ]
+  },
+  "vocab": [
+   {"text": "Asaz", "es": "esfuerzo, dedicación (den Asaz)", "example": "Merci fir Ären Asaz um Weekend.", "example_es": "Gracias por su dedicación durante el fin de semana."},
+   {"text": "mam Numm", "es": "por su nombre", "example": "Nenn d'Kolleege gär mam Numm.", "example_es": "Menciona a los compañeros por su nombre."},
+   {"text": "mat Kopie un", "es": "con copia a", "example": "Schéck de Merci mat Kopie un hire Chef.", "example_es": "Manda el agradecimiento con copia a su jefe."},
+   {"text": "selbstverständlech", "es": "algo que se da por sentado", "example": "Dat war wierklech net selbstverständlech.", "example_es": "Eso de verdad no era algo que se pudiera dar por sentado."}
+  ],
+  "transfer": {
+   "prompt": "Escribe la nota de agradecimiento definitiva (5–6 frases) a otro equipo: qué hicieron exactamente, el efecto medible, a quién destacas y por qué, y un cierre personal.",
+   "model": "Léiwe Jonas, léif Sara, ech wëll iech e ganz besonnesche Merci soen fir ären Asaz um Weekend, wou dir de Clientssystem nom Ausfall vum Freideg den Owend erëm op d'Bee bruecht hutt. Dank iech war de System e Méindeg um 7 Auer erëm op, a mir hunn et vermeit, d'Bestellunge vun engem ganzen Dag ze verléieren, net zulescht vun eise gréisste Clienten. Är roueg Kommunikatioun ënnerwee huet et dem Clientsservice och erméiglecht, präzis Äntwerten ze ginn. Ech weess, datt dir dofir är eege Pläng opginn hutt, an dat war net selbstverständlech. Nach eng Kéier e grousse Merci; dat vergiesse mir iech net.",
+   "rubric": "Nombra a las personas y la acción concreta; describe o cuantifica el efecto; usa al menos un intensificador formal (äusserst, ganz besonnesch) y «net zulescht»; reconoce el coste personal; evita fórmulas genéricas."
+  }
+ }
+}

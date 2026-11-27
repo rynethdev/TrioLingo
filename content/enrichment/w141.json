@@ -1,0 +1,81 @@
+{
+ "week": 141,
+ "da": {
+  "dialogue2": {
+   "context": "Un compañero lee el borrador de un correo de seguimiento y advierte que suena a reproche; juntos lo suavizan sin perder la petición.",
+   "lines": [
+    {"text": "Kan du lige læse min opfølgning, før jeg sender den?", "es": "¿Puedes leer un momento mi correo de seguimiento antes de que lo envíe?"},
+    {"text": "»Som jeg allerede skrev for to uger siden …« – det lyder som en bebrejdelse.", "es": "«Como ya escribí hace dos semanas…»: eso suena a reproche."},
+    {"text": "Men det er jo rigtigt; hun har ikke svaret.", "es": "Pero es verdad; ella no ha contestado."},
+    {"text": "Ja, men hvis du vil have et svar, skal det være let for hende at svare uden at tabe ansigt.", "es": "Sí, pero si quieres una respuesta, tiene que resultarle fácil contestar sin quedar mal."},
+    {"text": "Hvad ville du så skrive i stedet?", "es": "¿Y qué escribirías tú en su lugar?"},
+    {"text": "Noget i retning af: »Jeg vender blot tilbage angående budgettet, da fristen nærmer sig.«", "es": "Algo así como: «Solo vuelvo a escribirte sobre el presupuesto, ya que se acerca el plazo»."},
+    {"text": "Og så foreslår jeg to konkrete tidspunkter, så hun bare skal vælge ét?", "es": "¿Y luego propongo dos horarios concretos para que solo tenga que elegir uno?"},
+    {"text": "Netop, og skriv gerne, at du har vedhæftet den seneste version, så hun ikke skal lede.", "es": "Exacto, y menciona que has adjuntado la última versión, para que no tenga que buscarla."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué desaconseja el compañero la frase «como ya escribí hace dos semanas»?",
+   "choices": ["Porque, aunque sea cierta, deja en evidencia a la destinataria y le dificulta responder", "Porque la fecha que menciona no es correcta", "Porque es demasiado informal para un correo de trabajo"]
+  },
+  "grammar": {
+   "focus": "Atenuadores en peticiones: lige, blot, gerne",
+   "explain": "«Lige» quita peso a una petición (Kan du lige …?); «blot» minimiza la propia intervención en registro escrito (Jeg vender blot tilbage …); «gerne» en imperativo convierte la orden en invitación (Skriv gerne …).",
+   "items": [
+    {"prompt": "Kan du ___ kigge på min mail, før jeg sender den? (resta peso a la petición)", "answer": "lige", "es": "¿Puedes echar un vistazo rápido a mi correo antes de que lo envíe?"},
+    {"prompt": "Jeg vender ___ tilbage angående budgettet, da fristen nærmer sig. (minimiza: «solo», registro escrito)", "answer": "blot", "es": "Solo vuelvo a escribir sobre el presupuesto, ya que se acerca el plazo."},
+    {"prompt": "Skriv ___, hvilket tidspunkt der passer dig bedst. (convierte la orden en invitación)", "answer": "gerne", "es": "Dime, si quieres, qué horario te viene mejor."}
+   ]
+  },
+  "vocab": [
+   {"text": "en bebrejdelse", "es": "un reproche", "example": "Formuleringen lyder som en bebrejdelse.", "example_es": "La formulación suena a reproche."},
+   {"text": "vende tilbage", "es": "retomar el asunto, volver a escribir", "example": "Jeg vil gerne vende tilbage til vores samtale fra sidste uge.", "example_es": "Me gustaría retomar nuestra conversación de la semana pasada."},
+   {"text": "fristen nærmer sig", "es": "se acerca el plazo", "example": "Fristen nærmer sig, så jeg tillader mig at skrive igen.", "example_es": "Se acerca el plazo, así que me permito escribir de nuevo."},
+   {"text": "vedhæftet", "es": "adjunto", "example": "Den seneste version er vedhæftet.", "example_es": "La última versión va adjunta."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el correo de seguimiento definitivo (5–6 frases) a alguien que no ha contestado en dos semanas: retoma el hilo sin reproche, resume en una frase lo pendiente, ofrece dos opciones concretas y facilita la respuesta.",
+   "model": "Hej Lene. Jeg vender blot tilbage angående budgettet for efterårskampagnen, da fristen for godkendelse nærmer sig. Kort fortalt mangler vi kun din stillingtagen til, om vi skal prioritere online eller print. Jeg har vedhæftet den seneste version, så du ikke behøver at lede efter den. Hvis det er lettere at tage det mundtligt, kunne tirsdag kl. 10 eller torsdag kl. 14 måske passe dig. Skriv gerne blot, hvilket tidspunkt du foretrækker, så sender jeg en invitation.",
+   "rubric": "No menciona el silencio ni usa fórmulas de reproche («som jeg allerede skrev»); resume lo pendiente en una sola frase; adjunta o remite la información necesaria; ofrece dos opciones concretas; usa al menos dos atenuadores (lige, blot, gerne, måske)."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un compañero lee el borrador de un correo de seguimiento y advierte que suena a reproche; juntos lo suavizan sin perder la petición.",
+   "lines": [
+    {"text": "Kanns du mol kuerz meng Follow-up-Mail liesen, ier ech se schécken?", "es": "¿Puedes leer un momento mi correo de seguimiento antes de que lo envíe?"},
+    {"text": "„Wéi ech virun zwou Woche scho geschriwwen hat …“ – dat kléngt no engem Virworf.", "es": "«Como ya escribí hace dos semanas…»: eso suena a reproche."},
+    {"text": "Mä et stëmmt dach; si huet net geäntwert.", "es": "Pero es verdad; ella no ha contestado."},
+    {"text": "Jo, mä wann s du eng Äntwert wëlls, muss et fir si liicht sinn z'äntweren, ouni d'Gesiicht ze verléieren.", "es": "Sí, pero si quieres una respuesta, tiene que resultarle fácil contestar sin quedar mal."},
+    {"text": "Wat géifs du dann amplaz schreiwen?", "es": "¿Y qué escribirías tú en su lugar?"},
+    {"text": "Eppes wéi: „Ech melle mech just nach eng Kéier wéinst dem Budget, well d'Frist méi no kënnt.“", "es": "Algo como: «Solo vuelvo a escribirte por el presupuesto, porque se acerca el plazo»."},
+    {"text": "An da proposéieren ech zwee konkret Zäitpunkten, sou datt si just ee muss eraussichen?", "es": "¿Y luego propongo dos horarios concretos para que solo tenga que elegir uno?"},
+    {"text": "Genee, a schreif gär derbäi, datt s du déi lescht Versioun ugehaang hues, da muss si net sichen.", "es": "Exacto, y añade que has adjuntado la última versión, así no tiene que buscarla."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué desaconseja el compañero la frase «como ya escribí hace dos semanas»?",
+   "choices": ["Porque, aunque sea cierta, deja en evidencia a la destinataria y le dificulta responder", "Porque la fecha que menciona no es correcta", "Porque es demasiado informal para un correo de trabajo"]
+  },
+  "grammar": {
+   "focus": "Atenuadores en peticiones: mol, just, eventuell",
+   "explain": "«Mol» suaviza una petición (Kanns du mol kucken?); «just» minimiza la propia intervención (Ech melle mech just …); «eventuell» deja una salida al otro (Hätt Dir eventuell Zäit?); «gär» en imperativo convierte la orden en invitación (Schreif mer gär …).",
+   "items": [
+    {"prompt": "Kanns du ___ kuerz op meng Mail kucken? (suaviza la petición)", "answer": "mol", "es": "¿Puedes echar un vistazo rápido a mi correo?"},
+    {"prompt": "Ech melle mech ___ nach eng Kéier wéinst dem Budget. (minimiza: «solo»)", "answer": "just", "es": "Solo vuelvo a escribir por el presupuesto."},
+    {"prompt": "Hätt Dir ___ en Donneschdeg eng hallef Stonn Zäit? (deja una salida: «quizá, por casualidad»)", "answer": "eventuell", "es": "¿Tendría quizá media hora el jueves?"}
+   ]
+  },
+  "vocab": [
+   {"text": "Virworf", "es": "reproche (e Virworf)", "example": "Dës Formuléierung kléngt no engem Virworf.", "example_es": "Esta formulación suena a reproche."},
+   {"text": "ugehaang", "es": "adjuntado", "example": "Déi lescht Versioun hunn ech ugehaang.", "example_es": "He adjuntado la última versión."},
+   {"text": "ouni d'Gesiicht ze verléieren", "es": "sin quedar mal", "example": "Si soll äntwere kënnen, ouni d'Gesiicht ze verléieren.", "example_es": "Tiene que poder contestar sin quedar mal."},
+   {"text": "eraussichen", "es": "escoger, elegir", "example": "Si muss just een Termin eraussichen.", "example_es": "Solo tiene que escoger una cita."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el correo de seguimiento definitivo (5–6 frases) a alguien que no ha contestado en dos semanas: retoma el hilo sin reproche, resume en una frase lo pendiente, ofrece dos opciones concretas y facilita la respuesta.",
+   "model": "Moien Lene, ech melle mech just nach eng Kéier wéinst dem Budget fir d'Hierschtkampagne, well d'Frist fir d'Genehmegung méi no kënnt. Kuerz gesot feelt eis nëmmen nach deng Entscheedung, ob mir op Online oder op Print setzen. Ech hunn déi lescht Versioun ugehaang, fir datt s du net brauchs ze sichen. Wann et méi einfach ass, dat mëndlech ze klären, kéint eventuell en Dënschdeg um 10 Auer oder en Donneschdeg um 14 Auer passen. Schreif mer gär just, wéi en Termin dir am beschte passt, da schécken ech eng Invitatioun.",
+   "rubric": "No menciona el silencio ni usa fórmulas de reproche («wéi ech scho geschriwwen hat»); resume lo pendiente en una sola frase; adjunta o remite la información necesaria; ofrece dos opciones concretas; usa al menos dos atenuadores (mol, just, gär, eventuell)."
+  }
+ }
+}

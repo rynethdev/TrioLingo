@@ -1,0 +1,81 @@
+{
+ "week": 131,
+ "da": {
+  "dialogue2": {
+   "context": "Dos compañeros preparan el resumen de un informe de cuarenta páginas sobre teletrabajo; uno quiere incluirlo todo y el otro insiste en quedarse con lo esencial.",
+   "lines": [
+    {"text": "Jeg har allerede fire sider noter; kan vi ikke bare tage det hele med?", "es": "Ya tengo cuatro páginas de notas; ¿no podemos incluirlo todo y ya está?"},
+    {"text": "Så er det jo ikke et resumé længere; vi skal finde forfatterens centrale påstand.", "es": "Entonces ya no sería un resumen; tenemos que encontrar la afirmación central de la autora."},
+    {"text": "Hun påstår, at hjemmearbejde øger produktiviteten, men kun ved selvstændige opgaver.", "es": "Afirma que el teletrabajo aumenta la productividad, pero solo en tareas individuales."},
+    {"text": "Godt. Og hvad bygger hun det på?", "es": "Bien. ¿Y en qué se basa?"},
+    {"text": "Dels på målinger fra tre virksomheder, dels på interviews med ledere.", "es": "Por un lado, en mediciones de tres empresas; por otro, en entrevistas con directivos."},
+    {"text": "Hun nævner derimod også, at samarbejdet lider; skal det ikke med?", "es": "En cambio, también menciona que la colaboración se resiente; ¿eso no debería ir?"},
+    {"text": "Jo, i én sætning, for det nuancerer konklusionen, men eksemplerne kan vi udelade.", "es": "Sí, en una frase, porque matiza la conclusión, pero los ejemplos podemos omitirlos."},
+    {"text": "Fint, så skriver jeg udkastet, og du tjekker, om vi har gengivet hende loyalt.", "es": "Vale, entonces yo escribo el borrador y tú compruebas si la hemos reflejado fielmente."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué deciden incluir la mención a la colaboración?",
+   "choices": ["Porque matiza la conclusión de la autora, aunque baste con una sola frase", "Porque es el argumento principal de todo el informe", "Porque sin ella los ejemplos de las empresas no se entenderían"]
+  },
+  "grammar": {
+   "focus": "Conectores textuales: dels … dels, derimod, følgelig",
+   "explain": "«Dels … dels» enumera dos fundamentos paralelos; «derimod» marca contraste con lo anterior (en cambio); «følgelig» introduce una consecuencia lógica en registro formal (por consiguiente). En posición inicial provocan inversión: Følgelig bør reglen …",
+   "items": [
+    {"prompt": "Konklusionen bygger ___ på målinger, dels på interviews. (enumeración paralela)", "answer": "dels", "es": "La conclusión se basa, por un lado, en mediciones y, por otro, en entrevistas."},
+    {"prompt": "Produktiviteten stiger; samarbejdet lider ___. (contraste: «en cambio»)", "answer": "derimod", "es": "La productividad sube; la colaboración, en cambio, se resiente."},
+    {"prompt": "Effekten gælder kun selvstændige opgaver; ___ bør reglen ikke gælde for alle. (consecuencia, registro formal, empieza por f-)", "answer": "følgelig", "es": "El efecto solo vale para tareas individuales; por consiguiente, la norma no debería aplicarse a todos."}
+   ]
+  },
+  "vocab": [
+   {"text": "loyalt", "es": "fielmente", "example": "Et resumé skal gengive forfatteren loyalt.", "example_es": "Un resumen debe reflejar fielmente a la autora."},
+   {"text": "udelade", "es": "omitir", "example": "Eksemplerne kan vi udelade i resuméet.", "example_es": "Los ejemplos podemos omitirlos en el resumen."},
+   {"text": "nuancere", "es": "matizar", "example": "Det afsnit er med til at nuancere konklusionen.", "example_es": "Ese apartado contribuye a matizar la conclusión."},
+   {"text": "bygge på", "es": "basarse en", "example": "Analysen synes at bygge på et meget lille datagrundlag.", "example_es": "El análisis parece basarse en una base de datos muy reducida."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un resumen de 5–6 frases de un informe largo (real o inventado) para un compañero que no lo ha leído: tesis, dos fundamentos, una matización de la autora y una valoración breve, separando lo que dice el texto de tu opinión.",
+   "model": "Den rapport, vi har fået tilsendt, undersøger, hvordan hjemmearbejde påvirker produktiviteten. Forfatterens centrale påstand er, at produktiviteten stiger, men kun ved opgaver, der kan løses selvstændigt. Hun underbygger det dels med målinger fra tre virksomheder, dels med interviews med 40 ledere. Hun påpeger derimod også, at det uformelle samarbejde svækkes, når teams sjældent mødes fysisk. Følgelig anbefaler hun en blandet model frem for faste regler. Efter min vurdering er konklusionen overbevisende, selvom datagrundlaget kun omfatter større virksomheder.",
+   "rubric": "Identifica la tesis y dos fundamentos; usa al menos tres conectores textuales (dels … dels, derimod, følgelig); atribuye las ideas a la autora con verbos de reporte (påstår, påpeger, anbefaler); separa la valoración personal con una marca explícita («efter min vurdering»)."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos compañeros preparan el resumen de un informe de cuarenta páginas sobre teletrabajo; uno quiere incluirlo todo y el otro insiste en quedarse con lo esencial.",
+   "lines": [
+    {"text": "Ech hu schonn véier Säite Notizen; kënne mir net einfach alles huelen?", "es": "Ya tengo cuatro páginas de notas; ¿no podemos incluirlo todo y ya está?"},
+    {"text": "Da wier et awer kee Resumé méi; mir mussen déi zentral Behaaptung vun der Auteurin fannen.", "es": "Entonces ya no sería un resumen; tenemos que encontrar la afirmación central de la autora."},
+    {"text": "Si behaapt, datt Homeoffice d'Produktivitéit erhéicht, mä nëmme bei Aufgaben, déi een eleng maache kann.", "es": "Afirma que el teletrabajo aumenta la productividad, pero solo en tareas que se pueden hacer en solitario."},
+    {"text": "Gutt. A worop stäipt si dat?", "es": "Bien. ¿Y en qué se apoya?"},
+    {"text": "Engersäits op Miessunge vun dräi Betriber, anerersäits op Interviewe mat Chefen.", "es": "Por un lado, en mediciones de tres empresas; por otro, en entrevistas con directivos."},
+    {"text": "Si ernimmt awer och, datt d'Zesummenaarbecht leit; gehéiert dat net eran?", "es": "Pero también menciona que la colaboración se resiente; ¿eso no debería ir?"},
+    {"text": "Jo, an engem Saz, well et d'Konklusioun nuancéiert; d'Beispiller kënne mir dogéint ewechloossen.", "es": "Sí, en una frase, porque matiza la conclusión; los ejemplos, en cambio, podemos omitirlos."},
+    {"text": "Gutt, da schreiwen ech den Entworf, an du kucks no, ob mir hir Positioun trei erëmginn.", "es": "Vale, entonces yo escribo el borrador y tú compruebas si reflejamos fielmente su postura."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué deciden incluir la mención a la colaboración?",
+   "choices": ["Porque matiza la conclusión de la autora, aunque baste con una sola frase", "Porque es el argumento principal de todo el informe", "Porque sin ella los ejemplos de las empresas no se entenderían"]
+  },
+  "grammar": {
+   "focus": "Conectores textuales: engersäits … anerersäits, dogéint, doriwwer eraus",
+   "explain": "«Engersäits … anerersäits» presenta dos fundamentos o perspectivas; «dogéint» marca contraste (en cambio); «doriwwer eraus» añade información (además). En posición inicial el verbo va en segundo lugar: Doriwwer eraus ernimmt si …",
+   "items": [
+    {"prompt": "D'Konklusioun stäipt sech ___ op Miessungen, anerersäits op Interviewen. (enumeración paralela)", "answer": "engersäits", "es": "La conclusión se apoya, por un lado, en mediciones y, por otro, en entrevistas."},
+    {"prompt": "D'Produktivitéit klëmmt; d'Zesummenaarbecht leit ___. (contraste: «en cambio»)", "answer": "dogéint", "es": "La productividad sube; la colaboración, en cambio, se resiente."},
+    {"prompt": "___ ernimmt d'Auteurin, datt d'Käschte fir d'Firma gefall sinn. (adición: «además», dos palabras)", "answer": "Doriwwer eraus", "es": "Además, la autora menciona que los costes para la empresa han bajado."}
+   ]
+  },
+  "vocab": [
+   {"text": "trei erëmginn", "es": "reflejar fielmente", "example": "E Resumé muss d'Positioun vun der Auteurin trei erëmginn.", "example_es": "Un resumen debe reflejar fielmente la postura de la autora."},
+   {"text": "ewechloossen", "es": "omitir", "example": "D'Beispiller kënne mir am Resumé ewechloossen.", "example_es": "Los ejemplos podemos omitirlos en el resumen."},
+   {"text": "nuancéieren", "es": "matizar", "example": "Dëse Paragraf hëlleft, d'Konklusioun ze nuancéieren.", "example_es": "Este párrafo ayuda a matizar la conclusión."},
+   {"text": "stäipt sech op", "es": "se apoya en, se basa en", "example": "Hir Analys stäipt sech op Zuele vun dräi Betriber.", "example_es": "Su análisis se apoya en cifras de tres empresas."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un resumen de 5–6 frases de un informe largo (real o inventado) para un compañero que no lo ha leído: tesis, dos fundamentos, una matización de la autora y una valoración breve, separando lo que dice el texto de tu opinión.",
+   "model": "De Bericht, deen eis zougeschéckt gouf, ënnersicht, wéi sech Homeoffice op d'Produktivitéit auswierkt. Déi zentral Behaaptung vun der Auteurin ass, datt d'Produktivitéit klëmmt, mä nëmme bei Aufgaben, déi een eleng erleedege kann. Si stäipt dat engersäits op Miessunge vun dräi Betriber, anerersäits op Interviewe mat 40 Chefen. Si weist dogéint och drop hin, datt déi informell Zesummenaarbecht leit, wann Equipe sech seele perséinlech gesinn. Domat recommandéiert si e gemëschte Modell amplaz vu fixe Reegelen. Menger Meenung no ass d'Konklusioun iwwerzeegend, och wann d'Daten nëmme grouss Betriber ëmfaassen.",
+   "rubric": "Identifica la tesis y dos fundamentos; usa al menos tres conectores textuales (engersäits … anerersäits, dogéint, domat); atribuye las ideas a la autora con verbos de reporte (behaapt, weist drop hin, recommandéiert); separa la valoración personal con una marca explícita («menger Meenung no»)."
+  }
+ }
+}

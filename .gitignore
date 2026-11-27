@@ -1,0 +1,13 @@
+/target/
+/.build/
+/dist/
+.DS_Store
+/.claude/
+# Datos personales: progreso, respuestas y grabaciones viven fuera del repo
+# (~/Library/Application Support/Idiomas). Que nunca se cuelen aquí.
+*.sqlite3
+*.sqlite3-*
+*.db
+/data/
+__pycache__/
+*.pyc

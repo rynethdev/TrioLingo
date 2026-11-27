@@ -1,0 +1,81 @@
+{
+ "week": 177,
+ "da": {
+  "dialogue2": {
+   "context": "Un analista enseña su resumen ejecutivo a la directora financiera cinco minutos antes del comité; ella le obliga a recortarlo hasta lo esencial.",
+   "lines": [
+    {"text": "Resuméet fylder to sider. Jeg kunne ikke skære mere væk.", "es": "El resumen ocupa dos páginas. No podía recortar más."},
+    {"text": "Hvad står der i første sætning?", "es": "¿Qué dice la primera frase?"},
+    {"text": "„Denne rapport undersøger på baggrund af omfattende data …“", "es": "«Este informe analiza, a partir de abundantes datos…»"},
+    {"text": "Den kan komiteen springe over. Hvad skal de beslutte?", "es": "Esa el comité se la puede saltar. ¿Qué tienen que decidir?"},
+    {"text": "Om vi skifter leverandør — trods de højere opstartsomkostninger.", "es": "Si cambiamos de proveedor, pese a los mayores costes de arranque."},
+    {"text": "Så er det din første sætning. Resten er bilag, indtil nogen spørger.", "es": "Pues esa es tu primera frase. El resto es anexo hasta que alguien pregunte."},
+    {"text": "Og risikoen? Den vil jeg ikke gemme.", "es": "¿Y el riesgo? No quiero esconderlo."},
+    {"text": "Én linje, med et tal. Komiteen læser tal hurtigere end forbehold.", "es": "Una línea, con una cifra. El comité lee cifras más rápido que salvedades."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué da a entender la directora con «El resto es anexo hasta que alguien pregunte»?",
+   "choices": ["Que el detalle no debe desaparecer, pero tampoco ocupar el resumen", "Que el análisis del informe es irrelevante", "Que el comité no va a leer nada del informe"]
+  },
+  "grammar": {
+   "focus": "Concisión: sintagmas preposicionales en lugar de subordinadas",
+   "explain": "Un resumen ejecutivo ahorra palabras cambiando oraciones por preposiciones: fordi leveringerne er forsinkede → på grund af forsinkelserne; selv om omkostningerne er højere → trods de højere omkostninger; som analysen viser → ifølge analysen.",
+   "items": [
+    {"prompt": "Reklamationerne steg ___ forsinkede leveringer. (a causa de, tres palabras)", "answer": "på grund af", "es": "Las reclamaciones aumentaron a causa de entregas con retraso."},
+    {"prompt": "Vi anbefaler skiftet ___ de højere opstartsomkostninger. (pese a)", "answer": "trods", "es": "Recomendamos el cambio pese a los mayores costes de arranque."},
+    {"prompt": "___ analysen stammer 70 % af forsinkelserne fra én leverandør. (según)", "answer": "Ifølge", "es": "Según el análisis, el 70 % de los retrasos procede de un solo proveedor."}
+   ]
+  },
+  "vocab": [
+   {"text": "ind til benet", "es": "hasta lo esencial, hasta el hueso", "example": "Du må skære resuméet ind til benet.", "example_es": "Tienes que recortar el resumen hasta el hueso."},
+   {"text": "springe over", "es": "saltarse", "example": "Den indledning kan komiteen springe over.", "example_es": "Esa introducción el comité se la puede saltar."},
+   {"text": "beslutningsgrundlag", "es": "base para decidir", "example": "Resuméet skal være et klart beslutningsgrundlag.", "example_es": "El resumen tiene que ser una base clara para decidir."},
+   {"text": "i bilaget", "es": "en el anexo", "example": "Metoden står i bilaget.", "example_es": "El método figura en el anexo."}
+  ],
+  "transfer": {
+   "prompt": "Redacta el resumen ejecutivo (6–8 frases) de un informe de 40 páginas sobre la rotación de personal en un centro logístico, para un comité que decide en cinco minutos. Incluye la decisión pedida, el hallazgo, la recomendación, el riesgo con cifra y la remisión al detalle.",
+   "model": "Beslutning: Komiteen bedes godkende et fastholdelsesprogram for lagermedarbejdere til 1,2 mio. kr. Baggrund: Personaleomsætningen er steget fra 18 % til 31 % på to år, især blandt nyansatte. Fund: Ifølge exitinterviewene skyldes to tredjedele af opsigelserne skiftende vagtplaner, ikke lønnen. Anbefaling: Faste vagtplaner i de første seks måneder og en fast mentor til hver nyansat. Gevinst: Halveres omsætningen, sparer vi ca. 2 mio. kr. årligt på rekruttering og oplæring. Risiko: Faste planer mindsker fleksibiliteten i spidsbelastninger; vi foreslår derfor en vikarpulje på fem personer. Data, metode og interviews findes i bilag 1–4.",
+   "rubric": "La decisión pedida aparece en la primera línea; cada apartado ocupa una frase; usa cifras concretas; sustituye subordinadas por sintagmas concisos («ifølge», «trods»); nombra el riesgo junto con su mitigación; remite al detalle sin incluirlo."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un analista enseña su resumen ejecutivo a la directora financiera cinco minutos antes del comité; ella le obliga a recortarlo hasta lo esencial.",
+   "lines": [
+    {"text": "De Resumé huet zwou Säiten. Méi konnt ech net ewechsträichen.", "es": "El resumen tiene dos páginas. No podía recortar más."},
+    {"text": "Wat steet am éischte Saz?", "es": "¿Qué dice la primera frase?"},
+    {"text": "„Dëse Rapport ënnersicht op Basis vun ëmfangräichen Donnéeën …“", "es": "«Este informe analiza, a partir de abundantes datos…»"},
+    {"text": "Dee kann de Comité iwwersprangen. Wat soll en decidéieren?", "es": "Esa el comité se la puede saltar. ¿Qué tiene que decidir?"},
+    {"text": "Ob mir de Liwwerant wiesselen — trotz de méi héije Startkäschten.", "es": "Si cambiamos de proveedor, pese a los mayores costes de arranque."},
+    {"text": "Da ass dat däin éischte Saz. De Rescht ass Annex, bis een nofreet.", "es": "Pues esa es tu primera frase. El resto es anexo hasta que alguien pregunte."},
+    {"text": "An de Risiko? Dee wëll ech net verstoppen.", "es": "¿Y el riesgo? No quiero esconderlo."},
+    {"text": "Eng Zeil, mat enger Zuel. De Comité liest Zuele méi séier wéi Aschränkungen.", "es": "Una línea, con una cifra. El comité lee cifras más rápido que salvedades."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué da a entender la directora con «El resto es anexo hasta que alguien pregunte»?",
+   "choices": ["Que el detalle no debe desaparecer, pero tampoco ocupar el resumen", "Que el análisis del informe es irrelevante", "Que el comité no va a leer nada del informe"]
+  },
+  "grammar": {
+   "focus": "Concisión: preposiciones (wéinst, trotz, laut) en lugar de subordinadas",
+   "explain": "Un resumen ejecutivo ahorra palabras cambiando oraciones por sintagmas preposicionales: well d'Liwwerunge spéit kommen → wéinst de Verspéidungen; obwuel d'Käschte méi héich sinn → trotz de méi héije Käschten; wéi d'Analys weist → laut der Analys.",
+   "items": [
+    {"prompt": "D'Reklamatioune sinn ___ de Verspéidunge geklommen. (a causa de)", "answer": "wéinst", "es": "Las reclamaciones han aumentado a causa de los retrasos."},
+    {"prompt": "Mir recommandéieren de Wiessel ___ de méi héije Startkäschten. (pese a)", "answer": "trotz", "es": "Recomendamos el cambio pese a los mayores costes de arranque."},
+    {"prompt": "___ der Analys kommen 70 % vun de Verspéidunge vun engem eenzege Liwwerant. (según)", "answer": "Laut", "es": "Según el análisis, el 70 % de los retrasos procede de un solo proveedor."}
+   ]
+  },
+  "vocab": [
+   {"text": "op dat Wesentlecht", "es": "(reducir) a lo esencial", "example": "Du muss de Resumé op dat Wesentlecht reduzéieren.", "example_es": "Tienes que reducir el resumen a lo esencial."},
+   {"text": "iwwersprangen", "es": "saltarse", "example": "Déi Aleedung kann de Comité iwwersprangen.", "example_es": "Esa introducción el comité se la puede saltar."},
+   {"text": "Entscheedungsgrondlag", "es": "base para decidir", "example": "De Resumé muss eng kloer Entscheedungsgrondlag sinn.", "example_es": "El resumen tiene que ser una base clara para decidir."},
+   {"text": "am Annex", "es": "en el anexo", "example": "D'Method steet am Annex.", "example_es": "El método figura en el anexo."}
+  ],
+  "transfer": {
+   "prompt": "Redacta el resumen ejecutivo (6–8 frases) de un informe de 40 páginas sobre la rotación de personal en un centro logístico, para un comité que decide en cinco minutos. Incluye la decisión pedida, el hallazgo, la recomendación, el riesgo con cifra y la remisión al detalle.",
+   "model": "Decisioun: De Comité gëtt gebieden, e Programm vun 1,2 Milliounen Euro ze approuvéieren, fir Lagermataarbechter laangfristeg ze halen. Hannergrond: D'Personalfluktuatioun ass bannent zwee Joer vun 18 % op 31 % geklommen, virun allem bei neie Mataarbechter. Befund: Laut den Austrëttsgespréicher leien zwee Drëttel vun de Kënnegungen un de wiesselnden Déngschtpläng, net um Loun. Empfehlung: Fix Déngschtpläng an den éischte sechs Méint an e Mentor fir all neie Mataarbechter. Gewënn: Wann d'Fluktuatioun sech halbéiert, spuere mir ongeféier 2 Milliounen Euro d'Joer bei Rekrutement a Formatioun. Risiko: Fix Pläng reduzéieren d'Flexibilitéit bei Spëtzebelaaschtung; dowéinst proposéiere mir e Pool vu fënnef Aushëllefen. Donnéeën, Method an Interviewen: Annexen 1–4.",
+   "rubric": "La decisión pedida aparece en la primera línea; cada apartado ocupa una frase; usa cifras concretas; sustituye subordinadas por sintagmas concisos («laut», «wéinst», «trotz»); nombra el riesgo junto con su mitigación; remite al detalle sin incluirlo."
+  }
+ }
+}

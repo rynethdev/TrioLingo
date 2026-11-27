@@ -1,0 +1,79 @@
+{
+ "week": 112,
+ "da": {
+  "dialogue2": {
+   "context": "Después de un simulacro de incendio, el responsable de seguridad comenta con una empleada lo que salió mal y repasa las normas.",
+   "lines": [
+    {"text": "Tak for i dag. Øvelsen tog otte minutter, og målet er fire.", "es": "Gracias por hoy. El simulacro duró ocho minutos y el objetivo es cuatro."},
+    {"text": "Hvad var det, der gik galt?", "es": "¿Qué es lo que salió mal?"},
+    {"text": "Flere tog elevatoren, og en enkelt gik tilbage efter sin taske.", "es": "Varios cogieron el ascensor y una persona volvió a por su bolso."},
+    {"text": "Uha. Elevatoren må vel ikke bruges ved brand?", "es": "Uf. El ascensor no se puede usar en caso de incendio, ¿no?"},
+    {"text": "Nej, aldrig. Brug altid trapperne, og lad alt andet blive.", "es": "No, nunca. Usad siempre las escaleras y dejadlo todo."},
+    {"text": "Og hvis man ikke kan nå trappen på grund af røg?", "es": "¿Y si no se puede llegar a la escalera por el humo?"},
+    {"text": "Så luk døren, bliv i lokalet, og ring 112 med din placering.", "es": "Entonces cierra la puerta, quédate en la sala y llama al 112 diciendo dónde estás."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué el simulacro no cumplió el objetivo de tiempo?",
+   "choices": ["Porque algunos usaron el ascensor y alguien volvió a por sus cosas", "Porque la alarma no sonó en todas las plantas", "Porque nadie sabía dónde estaba el punto de reunión"]
+  },
+  "grammar": {
+   "focus": "Instrucciones: imperativo, «man må ikke» y pasiva con modal",
+   "explain": "Las instrucciones se dan con imperativo (la raíz del verbo): «Brug trapperne», «Luk døren». Para normas generales se usa «man skal / man må ikke» o la pasiva en -s con modal: «Elevatoren må ikke bruges».",
+   "items": [
+    {"prompt": "___ døren, og bliv i lokalet. (lukke, imperativo)", "answer": "Luk", "es": "Cierra la puerta y quédate en la sala."},
+    {"prompt": "Ved brand ___ man ikke tage elevatoren. (prohibición)", "answer": "må", "es": "En caso de incendio no se puede coger el ascensor."},
+    {"prompt": "Nødudgangene må aldrig ___. (blokere, pasiva en -s)", "answer": "blokeres", "es": "Las salidas de emergencia no deben bloquearse nunca."}
+   ]
+  },
+  "vocab": [
+   {"text": "øvelsen", "es": "el simulacro", "example": "Øvelsen bliver gentaget i marts.", "example_es": "El simulacro se repetirá en marzo."},
+   {"text": "gik galt", "es": "salió mal", "example": "Vi skal finde ud af, hvad der gik galt.", "example_es": "Tenemos que averiguar qué salió mal."},
+   {"text": "nødudgangen", "es": "la salida de emergencia", "example": "Nødudgangen er markeret med grønt.", "example_es": "La salida de emergencia está señalizada en verde."},
+   {"text": "din placering", "es": "tu ubicación", "example": "Oplys altid din placering, når du ringer.", "example_es": "Indica siempre tu ubicación cuando llames."}
+  ],
+  "transfer": {
+   "prompt": "Eres responsable de un pequeño taller de cerámica. Escribe un cartel breve (5–6 frases, con imperativos y normas impersonales) con lo que hay que hacer si salta la alarma de incendio durante una clase.",
+   "model": "Hvis brandalarmen går: Bevar roen, og sluk ovnen, hvis det kan gøres sikkert. Forlad værkstedet gennem nødudgangen ved vinduerne. Elevatoren må ikke bruges, og man må ikke gå tilbage efter tasker eller jakker. Mød op ved samlingspunktet på fortovet over for bageren. Underviseren tæller deltagerne og giver besked til brandvæsenet.",
+   "rubric": "Usa al menos tres imperativos, una norma con «man må ikke» o pasiva en -s, indica el punto de reunión y ordena los pasos de forma lógica."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Después de un simulacro de incendio, el responsable de seguridad comenta con una empleada lo que salió mal y repasa las normas.",
+   "lines": [
+    {"text": "Merci fir haut. D'Iwwung huet aacht Minutte gedauert, an d'Zil ass véier.", "es": "Gracias por hoy. El simulacro duró ocho minutos y el objetivo es cuatro."},
+    {"text": "Wat ass dann schifgaangen?", "es": "¿Qué es lo que salió mal?"},
+    {"text": "E puer Leit hunn de Lift geholl, an eng Persoun ass zeréckgaangen, fir hir Täsch ze sichen.", "es": "Varios cogieron el ascensor y una persona volvió a buscar su bolso."},
+    {"text": "Oh. Mee de Lift däerf bei engem Brand jo net benotzt ginn, oder?", "es": "Uf. Pero el ascensor no se puede usar en caso de incendio, ¿no?"},
+    {"text": "Neen, ni. Huelt ëmmer d'Trap a loosst alles anescht leien.", "es": "No, nunca. Coged siempre la escalera y dejadlo todo."},
+    {"text": "A wann een d'Trap wéinst dem Damp net erreeche kann?", "es": "¿Y si no se puede llegar a la escalera por el humo?"},
+    {"text": "Da maacht d'Dier zou, bleift am Raum a rufft den 112 mat Ärem Standuert un.", "es": "Entonces cerrad la puerta, quedaos en la sala y llamad al 112 indicando dónde estáis."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué el simulacro no cumplió el objetivo de tiempo?",
+   "choices": ["Porque algunos usaron el ascensor y alguien volvió a por sus cosas", "Porque la alarma no sonó en todas las plantas", "Porque nadie sabía dónde estaba el punto de reunión"]
+  },
+  "grammar": {
+   "focus": "Instrucciones: imperativo, «ee däerf net» y pasiva con modal",
+   "explain": "Las instrucciones se dan con imperativo: «Huel/Huelt d'Trap», «Maacht d'Dier zou». Para normas generales se usa «ee muss / ee däerf net» o la pasiva con modal: «De Lift däerf net benotzt ginn».",
+   "items": [
+    {"prompt": "___ d'Dier zou a bleift am Raum. (maachen, imperativo plural)", "answer": "Maacht", "es": "Cerrad la puerta y quedaos en la sala."},
+    {"prompt": "Bei engem Brand ___ een de Lift net huelen. (prohibición)", "answer": "däerf", "es": "En caso de incendio no se puede coger el ascensor."},
+    {"prompt": "D'Noutausgäng däerfen ni blockéiert ___.", "answer": "ginn", "es": "Las salidas de emergencia no deben bloquearse nunca."}
+   ]
+  },
+  "vocab": [
+   {"text": "Iwwung", "es": "simulacro, ejercicio", "example": "D'Iwwung gëtt am Mäerz widderholl.", "example_es": "El simulacro se repetirá en marzo."},
+   {"text": "schifgaangen", "es": "salido mal", "example": "Mir mussen erausfannen, wat schifgaangen ass.", "example_es": "Tenemos que averiguar qué salió mal."},
+   {"text": "Noutausgang", "es": "salida de emergencia", "example": "Den Noutausgang ass gréng markéiert.", "example_es": "La salida de emergencia está señalizada en verde."},
+   {"text": "Standuert", "es": "ubicación", "example": "Gitt ëmmer Äre Standuert un, wann Dir urufft.", "example_es": "Indique siempre su ubicación cuando llame."}
+  ],
+  "transfer": {
+   "prompt": "Eres responsable de un pequeño taller de cerámica. Escribe un cartel breve (5–6 frases, con imperativos y normas impersonales) con lo que hay que hacer si salta la alarma de incendio durante una clase.",
+   "model": "Wann de Brandalarm geet: Bleift roueg a maacht den Uewen aus, wann dat ouni Risiko méiglech ass. Verloosst den Atelier iwwer den Noutausgang bei de Fënsteren. De Lift däerf net benotzt ginn, an ee däerf net zeréckgoen, fir Täschen oder Jacken ze sichen. Kommt bei de Sammelpunkt um Trottoir vis-à-vis vun der Bäckerei. Den Enseignant zielt d'Participanten a gëtt de Pompjeeën Bescheed.",
+   "rubric": "Usa al menos tres imperativos, una norma con «ee däerf net» o pasiva con modal, indica el punto de reunión y ordena los pasos de forma lógica."
+  }
+ }
+}

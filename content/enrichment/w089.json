@@ -1,0 +1,79 @@
+{
+ "week": 89,
+ "da": {
+  "dialogue2": {
+   "context": "En la pausa de café de un congreso, dos profesionales que no se conocen empiezan a hablar y descubren un interés común.",
+   "lines": [
+    {"text": "Undskyld, var det ikke dig, der holdt oplægget om genbrug i morges?", "es": "Perdona, ¿no fuiste tú quien dio la charla sobre reutilización esta mañana?"},
+    {"text": "Jo, det var mig. Jeg håber ikke, det var for teknisk.", "es": "Sí, era yo. Espero que no fuera demasiado técnica."},
+    {"text": "Slet ikke. Især eksemplet med kaffekopperne, som I genbruger, var interessant.", "es": "En absoluto. Sobre todo me pareció interesante el ejemplo de los vasos de café que reutilizáis."},
+    {"text": "Tak. Arbejder du selv med noget lignende?", "es": "Gracias. ¿Trabajas tú en algo parecido?"},
+    {"text": "Ja, i en kommune, hvor vi netop prøver at mindske affaldet fra kantinerne.", "es": "Sí, en un ayuntamiento donde precisamente intentamos reducir los residuos de los comedores."},
+    {"text": "Spændende. Hvordan har medarbejderne taget imod det?", "es": "Qué interesante. ¿Cómo lo han recibido los empleados?"},
+    {"text": "Blandet, ærligt talt. Skal vi udveksle kontaktoplysninger, så vi kan snakke videre?", "es": "Regular, la verdad. ¿Intercambiamos los datos de contacto para seguir hablando?"}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué tienen en común las dos personas?",
+   "choices": ["Las dos trabajan en reducir residuos en su organización", "Las dos dieron una charla en el congreso", "Las dos trabajan en el mismo ayuntamiento"]
+  },
+  "grammar": {
+   "focus": "Oraciones de relativo con som, der y hvor",
+   "explain": "«Som» puede ser sujeto u objeto: «kopperne, som I genbruger». «Der» solo puede ser sujeto: «det var dig, der holdt oplægget». «Hvor» se usa para lugares o situaciones: «en kommune, hvor vi arbejder».",
+   "items": [
+    {"prompt": "Det var min kollega, ___ fandt fejlen i budgettet. (sujeto, sin usar «som»)", "answer": "der", "es": "Fue mi compañera quien encontró el error en el presupuesto."},
+    {"prompt": "Projektet, ___ vi startede i foråret, kører nu i tre byer. (objeto)", "answer": "som", "es": "El proyecto que empezamos en primavera funciona ya en tres ciudades."},
+    {"prompt": "Vi besøgte en fabrik, ___ de genbruger 90 procent af materialet. (lugar)", "answer": "hvor", "es": "Visitamos una fábrica donde reutilizan el 90 % del material."}
+   ]
+  },
+  "vocab": [
+   {"text": "oplægget", "es": "la ponencia, la charla", "example": "Oplægget varede kun tyve minutter.", "example_es": "La charla duró solo veinte minutos."},
+   {"text": "noget lignende", "es": "algo parecido", "example": "Har I prøvet noget lignende i jeres afdeling?", "example_es": "¿Habéis probado algo parecido en vuestro departamento?"},
+   {"text": "taget imod", "es": "recibido, acogido", "example": "Hvordan er idéen blevet taget imod?", "example_es": "¿Cómo se ha recibido la idea?"},
+   {"text": "snakke videre", "es": "seguir hablando", "example": "Lad os snakke videre over en kop kaffe.", "example_es": "Sigamos hablando con un café."}
+  ],
+  "transfer": {
+   "prompt": "Después de un congreso, escribe un correo breve (4–5 frases, semiformal) a alguien que conociste: recuerda de qué hablasteis, muestra interés con una pregunta de seguimiento y propone un siguiente paso. Usa al menos dos oraciones de relativo.",
+   "model": "Kære Mette. Tak for en god snak i pausen på konferencen i torsdags. Jeg har tænkt meget over det projekt, som du fortalte om, især jeres system til madaffald. Hvordan har det fungeret i de kantiner, hvor I har indført det? Hvis du har lyst, vil jeg gerne invitere dig til at fortælle om det for mit team en dag. Venlig hilsen, Pablo.",
+   "rubric": "Menciona el contexto del encuentro, usa al menos dos relativas (som/der/hvor), formula una pregunta de seguimiento y propone un paso concreto."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En la pausa de café de un congreso, dos profesionales que no se conocen empiezan a hablar y descubren un interés común.",
+   "lines": [
+    {"text": "Pardon, war et net Dir, deen de Virtrag iwwer Recycling de Moie gehalen huet?", "es": "Perdone, ¿no fue usted quien dio la charla sobre reciclaje esta mañana?"},
+    {"text": "Jo, dat war ech. Ech hoffen, et war net ze technesch.", "es": "Sí, era yo. Espero que no fuera demasiado técnica."},
+    {"text": "Guer net. Besonnesch d'Beispill mat de Kaffisbecheren, déi Dir nees benotzt, war interessant.", "es": "En absoluto. Sobre todo me pareció interesante el ejemplo de los vasos de café que reutilizan."},
+    {"text": "Merci. Schafft Dir selwer an deem Beräich?", "es": "Gracias. ¿Trabaja usted también en ese ámbito?"},
+    {"text": "Jo, bei enger Gemeng, wou mir grad probéieren, manner Offall an de Kantinnen ze produzéieren.", "es": "Sí, en un ayuntamiento donde precisamente intentamos producir menos residuos en los comedores."},
+    {"text": "Spannend. A wéi hunn d'Mataarbechter dat opgeholl?", "es": "Qué interesante. ¿Y cómo lo han recibido los empleados?"},
+    {"text": "Gemëscht, éierlech gesot. Solle mir eis Kontaktdaten austauschen, fir datt mir weiderschwätze kënnen?", "es": "Regular, la verdad. ¿Intercambiamos los datos de contacto para seguir hablando?"}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué tienen en común las dos personas?",
+   "choices": ["Las dos trabajan en reducir residuos en su organización", "Las dos dieron una charla en el congreso", "Las dos trabajan en el mismo ayuntamiento"]
+  },
+  "grammar": {
+   "focus": "Oraciones de relativo (deen, déi, dat, wou)",
+   "explain": "El relativo concuerda con el sustantivo: «de Virtrag, deen …», «d'Gemeng, déi …», «d'Beispill, dat …», y en plural «déi». Para lugares se usa «wou»: «eng Gemeng, wou mir schaffen». El verbo conjugado va al final.",
+   "items": [
+    {"prompt": "Dat ass d'Kolleegin, ___ de Feeler am Budget fonnt huet.", "answer": "déi", "es": "Esa es la compañera que encontró el error en el presupuesto."},
+    {"prompt": "De Projet, ___ mir am Fréijoer ugefaangen hunn, leeft elo an dräi Stied.", "answer": "deen", "es": "El proyecto que empezamos en primavera funciona ya en tres ciudades."},
+    {"prompt": "Mir hunn eng Fabréck besicht, ___ 90 Prozent vum Material recycléiert gëtt. (lugar)", "answer": "wou", "es": "Visitamos una fábrica donde se recicla el 90 % del material."}
+   ]
+  },
+  "vocab": [
+   {"text": "de Virtrag", "es": "la ponencia, la charla", "example": "De Virtrag huet just zwanzeg Minutte gedauert.", "example_es": "La charla duró solo veinte minutos."},
+   {"text": "Beräich", "es": "ámbito, sector", "example": "A wéi engem Beräich schafft Dir?", "example_es": "¿En qué ámbito trabaja usted?"},
+   {"text": "opgeholl", "es": "recibido, acogido", "example": "D'Iddi gouf vum Personal gutt opgeholl.", "example_es": "La idea fue bien recibida por el personal."},
+   {"text": "weiderschwätzen", "es": "seguir hablando", "example": "Loosse mir bei engem Kaffi weiderschwätzen.", "example_es": "Sigamos hablando con un café."}
+  ],
+  "transfer": {
+   "prompt": "Después de un congreso, escribe un correo breve (4–5 frases, semiformal) a alguien que conociste: recuerda de qué hablasteis, muestra interés con una pregunta de seguimiento y propone un siguiente paso. Usa al menos dos oraciones de relativo.",
+   "model": "Léif Mette, merci fir dat flott Gespréich an der Paus op der Konferenz e Donneschdeg. Ech hu vill iwwer de Projet nogeduecht, vun deem s du mir erzielt hues, besonnesch iwwer äre System fir d'Iessensreschter. Wéi funktionéiert en an de Kantinnen, wou dir en agefouert hutt? Wann s du Loscht hues, géif ech dech gär invitéieren, en eng Kéier mengem Team virzestellen. Bescht Gréiss, Pablo.",
+   "rubric": "Menciona el contexto del encuentro, usa al menos dos relativas (deen/déi/dat/wou) con el verbo al final, formula una pregunta de seguimiento y propone un paso concreto."
+  }
+ }
+}

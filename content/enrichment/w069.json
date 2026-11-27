@@ -1,0 +1,77 @@
+{
+ "week": 69,
+ "da": {
+  "dialogue2": {
+   "context": "Pocos días antes de la jubilación de un compañero, dos colegas reparten las tareas para su despedida.",
+   "lines": [
+    {"text": "Vi skal holde afskedsreception for Bent på fredag.", "es": "El viernes tenemos que hacerle la despedida a Bent."},
+    {"text": "Ja. Hvem køber gaven til ham?", "es": "Sí. ¿Quién le compra el regalo?"},
+    {"text": "Det gør Maria. Hun har allerede samlet penge ind.", "es": "Lo hace María. Ya ha hecho la colecta."},
+    {"text": "Godt. Så bestiller jeg kagen og henter den torsdag.", "es": "Bien. Entonces encargo la tarta y la recojo el jueves."},
+    {"text": "Og jeg skriver en tale, men jeg sender den til dig først.", "es": "Y yo escribo un discurso, pero te lo mando antes."},
+    {"text": "Perfekt. Lad os mødes onsdag og tjekke, om alt er klar.", "es": "Perfecto. Veámonos el miércoles para comprobar que todo está listo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué no tienen que preocuparse por el regalo?",
+   "choices": ["Porque María se encarga y ya ha reunido el dinero", "Porque Bent ha dicho que no quiere regalos", "Porque la tarta ya cuenta como regalo"]
+  },
+  "grammar": {
+   "focus": "Pronombres de objeto: ham, hende, den, det, dem",
+   "explain": "Para no repetir el sustantivo se usa un pronombre de objeto: para personas ham, hende, dem; para cosas den (palabras en «en»), det (palabras en «et») y dem (plural): Jeg henter kagen → Jeg henter den.",
+   "items": [
+    {"prompt": "Bent går på pension, så vi giver ___ en gave. (Bent)", "answer": "ham", "es": "Bent se jubila, así que le hacemos un regalo."},
+    {"prompt": "Talen er færdig. Jeg sender ___ i aften. (talen)", "answer": "den", "es": "El discurso está listo. Lo mando esta noche."},
+    {"prompt": "Gæsterne kommer klokken to. Kan du tage imod ___? (gæsterne)", "answer": "dem", "es": "Los invitados llegan a las dos. ¿Puedes recibirlos?"}
+   ]
+  },
+  "vocab": [
+   {"text": "en afskedsreception", "es": "una fiesta de despedida", "example": "Vi holder en afskedsreception for Bent.", "example_es": "Hacemos una fiesta de despedida para Bent."},
+   {"text": "samlet penge ind", "es": "hecho una colecta", "example": "Maria har samlet penge ind til gaven.", "example_es": "María ha hecho una colecta para el regalo."},
+   {"text": "en tale", "es": "un discurso", "example": "Jeg skriver en tale til Bent.", "example_es": "Escribo un discurso para Bent."},
+   {"text": "er klar", "es": "está listo", "example": "Vi tjekker, om alt er klar.", "example_es": "Comprobamos si todo está listo."}
+  ],
+  "transfer": {
+   "prompt": "Organizas con tres vecinos una jornada de limpieza del patio. Escribe un mensaje al grupo repartiendo tareas: quién hace qué y para cuándo (4 frases).",
+   "model": "Hej alle! Vi gør gården ren lørdag klokken ti. Peter har en trailer, så han kører haveaffaldet væk. Lone og Ahmed klipper buskene, og jeg køber sække og kaffe og tager dem med. Sig til senest torsdag, hvis noget ikke passer jer.",
+   "rubric": "Asigna una tarea a cada persona, usa al menos dos pronombres de objeto (ham, dem, den…) y da un plazo."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Pocos días antes de la jubilación de un compañero, dos colegas reparten las tareas para su despedida.",
+   "lines": [
+    {"text": "E Freideg maache mir dem Bent seng Ofschiddsfeier.", "es": "El viernes hacemos la fiesta de despedida de Bent."},
+    {"text": "Jo. Wien keeft him de Cadeau?", "es": "Sí. ¿Quién le compra el regalo?"},
+    {"text": "D'Maria. Si huet d'Suen schonn agesammelt.", "es": "María. Ya ha hecho la colecta."},
+    {"text": "Gutt. Da bestellen ech de Kuch, an ech sichen en den Donneschdeg of.", "es": "Bien. Entonces encargo la tarta y la recojo el jueves."},
+    {"text": "An ech schreiwen eng Ried, mee ech schécken se dir virdrun.", "es": "Y yo escribo un discurso, pero te lo mando antes."},
+    {"text": "Perfekt. Komm, mir treffen eis e Mëttwoch a kucken, ob alles prett ass.", "es": "Perfecto. Veámonos el miércoles para comprobar que todo está listo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué no tienen que preocuparse por el regalo?",
+   "choices": ["Porque María se encarga y ya ha reunido el dinero", "Porque Bent ha dicho que no quiere regalos", "Porque la tarta ya cuenta como regalo"]
+  },
+  "grammar": {
+   "focus": "Pronombres de objeto: him, hir, hinnen / en, se, et",
+   "explain": "En dativo (a quién) se usa him (a él), hir (a ella), hinnen (a ellos): Mir ginn him e Cadeau. En acusativo (qué) se usa en (masculino), se (femenino y plural), et (neutro): Ech sichen de Kuch of → Ech sichen en of.",
+   "items": [
+    {"prompt": "De Bent geet a Pensioun, dofir gi mir ___ e Cadeau. (dem Bent)", "answer": "him", "es": "Bent se jubila, así que le hacemos un regalo."},
+    {"prompt": "D'Ried ass fäerdeg. Ech schécken ___ der Chefin haut den Owend. (d'Ried)", "answer": "se", "es": "El discurso está listo. Se lo mando a la jefa esta noche."},
+    {"prompt": "D'Gäscht kommen um zwou Auer. Kanns du ___ de Wee weisen? (de Gäscht)", "answer": "hinnen", "es": "Los invitados llegan a las dos. ¿Puedes indicarles el camino?"}
+   ]
+  },
+  "vocab": [
+   {"text": "d'Ofschiddsfeier", "es": "la fiesta de despedida", "example": "D'Ofschiddsfeier ass e Freideg um véier Auer.", "example_es": "La fiesta de despedida es el viernes a las cuatro."},
+   {"text": "agesammelt", "es": "recogido, reunido (dinero)", "example": "D'Maria huet d'Suen agesammelt.", "example_es": "María ha reunido el dinero."},
+   {"text": "eng Ried", "es": "un discurso", "example": "Ech schreiwen eng Ried fir de Bent.", "example_es": "Escribo un discurso para Bent."},
+   {"text": "ofsichen", "es": "recoger", "example": "Ech kann de Kuch muer ofsichen.", "example_es": "Puedo recoger la tarta mañana."}
+  ],
+  "transfer": {
+   "prompt": "Organizas con tres vecinos una jornada de limpieza del patio. Escribe un mensaje al grupo repartiendo tareas: quién hace qué y para cuándo (4 frases).",
+   "model": "Moien alleguer! Mir botzen e Samschdeg um zéng Auer den Haff. De Peter huet en Unhänger, dofir féiert hien de Gaardenoffall ewech. D'Lone an den Ahmed schneiden d'Bëscher, an ech kafe Säck a Kaffi a bréngen se mat. Sot mir w.e.g. bis Donneschdeg Bescheed, wann eppes net passt.",
+   "rubric": "Asigna una tarea a cada persona, usa al menos dos pronombres de objeto (him, se, en…) y da un plazo."
+  }
+ }
+}

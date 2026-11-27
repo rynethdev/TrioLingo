@@ -1,0 +1,79 @@
+{
+ "week": 110,
+ "da": {
+  "dialogue2": {
+   "context": "Dos amigas toman algo; una contesta correos del trabajo por la noche y la otra le cuenta cómo pone límites, aunque al principio no la convence.",
+   "lines": [
+    {"text": "Undskyld, jeg skal lige svare på en mail fra min chef.", "es": "Perdona, tengo que contestar un momento un correo de mi jefa."},
+    {"text": "Nu? Klokken er ti om aftenen.", "es": "¿Ahora? Son las diez de la noche."},
+    {"text": "Jeg ved det, men hun forventer svar med det samme.", "es": "Lo sé, pero espera respuesta enseguida."},
+    {"text": "Har du spurgt hende? Det troede jeg også, indtil jeg slog notifikationerne fra efter klokken 18.", "es": "¿Se lo has preguntado? Yo también lo creía, hasta que desactivé las notificaciones a partir de las 18."},
+    {"text": "Og hun blev ikke sur?", "es": "¿Y no se enfadó?"},
+    {"text": "Nej, hun sagde faktisk, at mails om aftenen sjældent haster.", "es": "No, de hecho dijo que los correos de la noche rara vez son urgentes."},
+    {"text": "Okay, så tager jeg en snak med hende i morgen i stedet for at gætte.", "es": "Vale, entonces mañana hablo con ella en vez de suponer."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué decide hacer al final la amiga que contesta correos por la noche?",
+   "choices": ["Hablar con su jefa para saber qué espera realmente", "Apagar el móvil todas las noches desde hoy", "Cambiar de trabajo porque su jefa es muy exigente"]
+  },
+  "grammar": {
+   "focus": "Verbos con partícula (slå fra, logge af, lægge væk)",
+   "explain": "Muchos verbos cambian de sentido con una partícula: «slå fra» (desactivar), «logge af» (cerrar sesión), «lægge væk» (dejar a un lado). La partícula va detrás del objeto: «Jeg slår notifikationerne fra», «Jeg lægger den væk».",
+   "items": [
+    {"prompt": "Jeg slår altid notifikationerne ___ efter klokken 18. (desactivar)", "answer": "fra", "es": "Siempre desactivo las notificaciones a partir de las 18."},
+    {"prompt": "Husk at logge ___, når du går hjem. (cerrar sesión)", "answer": "af", "es": "Acuérdate de cerrar sesión cuando te vayas a casa."},
+    {"prompt": "Telefonen? Jeg lægger ___ væk under aftensmaden. (pronombre para «telefonen»)", "answer": "den", "es": "¿El móvil? Lo dejo a un lado durante la cena."}
+   ]
+  },
+  "vocab": [
+   {"text": "med det samme", "es": "enseguida", "example": "Du behøver ikke svare med det samme.", "example_es": "No hace falta que contestes enseguida."},
+   {"text": "notifikationerne", "es": "las notificaciones", "example": "Jeg har slået notifikationerne fra i weekenden.", "example_es": "He desactivado las notificaciones el fin de semana."},
+   {"text": "haster", "es": "corre prisa", "example": "Det haster ikke, det kan vente til mandag.", "example_es": "No corre prisa, puede esperar al lunes."},
+   {"text": "tage en snak med", "es": "hablar (en serio) con", "example": "Jeg vil tage en snak med min chef om det.", "example_es": "Quiero hablarlo con mi jefe."}
+  ],
+  "transfer": {
+   "prompt": "Tu nuevo equipo te pregunta en un mensaje cómo prefieres que te contacten fuera del horario laboral. Escribe tu respuesta (4–5 frases, tono profesional y cercano) estableciendo límites claros y una excepción para urgencias.",
+   "model": "Hej alle sammen, tak for et godt spørgsmål. Jeg logger normalt af ved 17-tiden og slår mailnotifikationerne fra om aftenen og i weekenden. Det betyder, at jeg svarer på mails den følgende arbejdsdag. Hvis noget virkelig haster, er I velkomne til at ringe til mig, så tager jeg den. Jeg tror, det giver os alle mere ro i hverdagen.",
+   "rubric": "Indica horario y canales, establece una excepción clara para urgencias, usa al menos dos verbos con partícula (logge af, slå fra…) y mantiene un tono amable."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos amigas toman algo; una contesta correos del trabajo por la noche y la otra le cuenta cómo pone límites, aunque al principio no la convence.",
+   "lines": [
+    {"text": "Pardon, ech muss séier op eng Mail vu menger Chefin äntweren.", "es": "Perdona, tengo que contestar un momento un correo de mi jefa."},
+    {"text": "Elo? Et ass zéng Auer owes.", "es": "¿Ahora? Son las diez de la noche."},
+    {"text": "Ech weess, mee si erwaart direkt eng Äntwert.", "es": "Lo sé, pero espera respuesta enseguida."},
+    {"text": "Hues du hatt gefrot? Ech hat dat och geduecht, bis ech d'Notifikatiounen no 18 Auer ausgeschalt hunn.", "es": "¿Se lo has preguntado? Yo también lo creía, hasta que desactivé las notificaciones a partir de las 18."},
+    {"text": "A si war net rosen?", "es": "¿Y no se enfadó?"},
+    {"text": "Neen, si huet souguer gesot, datt Mailen owes seele presséieren.", "es": "No, incluso dijo que los correos de la noche rara vez son urgentes."},
+    {"text": "Okay, da schwätzen ech muer mat hir, amplaz just eppes unzehuelen.", "es": "Vale, entonces mañana hablo con ella en vez de suponer."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué decide hacer al final la amiga que contesta correos por la noche?",
+   "choices": ["Hablar con su jefa para saber qué espera realmente", "Apagar el móvil todas las noches desde hoy", "Cambiar de trabajo porque su jefa es muy exigente"]
+  },
+  "grammar": {
+   "focus": "Verbos separables (ausschalten, ausloggen, ewechleeën)",
+   "explain": "Muchos verbos tienen un prefijo separable que va al final en la oración principal: «Ech schalten d'Notifikatiounen aus». En subordinada se une al verbo («…, datt ech se ausschalten») y con «ze» queda en medio: «auszeschalten», «auszeloggen».",
+   "items": [
+    {"prompt": "No 18 Auer schalten ech d'Notifikatiounen ___. (desactivar)", "answer": "aus", "es": "A partir de las 18 desactivo las notificaciones."},
+    {"prompt": "Denk drun, dech ___, wann s du heemgees. (ausloggen, infinitivo con ze)", "answer": "auszeloggen", "es": "Acuérdate de cerrar sesión cuando te vayas a casa."},
+    {"prompt": "Ech leeë mäin Handy beim Owesiessen ___. (dejar a un lado)", "answer": "ewech", "es": "Dejo el móvil a un lado durante la cena."}
+   ]
+  },
+  "vocab": [
+   {"text": "ausgeschalt", "es": "desactivado, apagado", "example": "Ech hunn d'Notifikatiounen um Weekend ausgeschalt.", "example_es": "He desactivado las notificaciones el fin de semana."},
+   {"text": "presséiert", "es": "corre prisa", "example": "Dat presséiert net, dat kann bis e Méindeg waarden.", "example_es": "No corre prisa, puede esperar al lunes."},
+   {"text": "unzehuelen", "es": "suponer (con «ze»)", "example": "Et ass besser ze froen, amplaz eppes unzehuelen.", "example_es": "Es mejor preguntar que suponer."},
+   {"text": "souguer", "es": "incluso", "example": "Si huet mech souguer fir meng Offenheet gelueft.", "example_es": "Incluso me elogió por mi franqueza."}
+  ],
+  "transfer": {
+   "prompt": "Tu nuevo equipo te pregunta en un mensaje cómo prefieres que te contacten fuera del horario laboral. Escribe tu respuesta (4–5 frases, tono profesional y cercano) estableciendo límites claros y una excepción para urgencias.",
+   "model": "Moien alleguer, merci fir déi gutt Fro. Ech logge mech normalerweis géint 17 Auer aus a schalten owes an um Weekend d'Mail-Notifikatiounen aus. Dat heescht, datt ech den nächsten Aarbechtsdag op Mailen äntweren. Wann eppes wierklech dréngend ass, kënnt dir mech gär uruffen, da sinn ech do. Ech mengen, dat gëtt eis all méi Rou am Alldag.",
+   "rubric": "Indica horario y canales, establece una excepción clara para urgencias, usa al menos dos verbos separables (ausloggen, ausschalten…) y mantiene un tono amable."
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "week": 63,
+ "da": {
+  "dialogue2": {
+   "context": "Una pareja compara dos pisos de alquiler en Copenhague antes de decidir cuál quieren.",
+   "lines": [
+    {"text": "Lejligheden på Vesterbro er større end den i Valby.", "es": "El piso de Vesterbro es más grande que el de Valby."},
+    {"text": "Ja, men den er også meget dyrere.", "es": "Sí, pero también es mucho más caro."},
+    {"text": "Til gengæld kan vi gå på arbejde derfra.", "es": "En cambio, desde allí podemos ir andando al trabajo."},
+    {"text": "Det er rigtigt. Fra Valby skal vi tage toget hver dag.", "es": "Es verdad. Desde Valby tendríamos que coger el tren cada día."},
+    {"text": "Hvis vi regner togkortene med, er prisforskellen ikke så stor.", "es": "Si contamos los abonos del tren, la diferencia de precio no es tan grande."},
+    {"text": "Så vælger vi Vesterbro. Det er det mest praktiske.", "es": "Entonces elegimos Vesterbro. Es lo más práctico."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué eligen al final el piso más caro?",
+   "choices": ["Porque, al ahorrarse el transporte, la diferencia de precio es pequeña", "Porque el de Valby es demasiado pequeño para los dos", "Porque el de Vesterbro tiene una estación de tren al lado"]
+  },
+  "grammar": {
+   "focus": "Comparativo y superlativo: -ere/-est, mere/mest",
+   "explain": "Los adjetivos cortos añaden -ere/-est (lys → lysere → lysest; billig → billigere → billigst). Los largos usan «mere» y «mest» (praktisk → mere praktisk → mest praktisk). Para comparar se usa «end». Irregular: god → bedre → bedst.",
+   "items": [
+    {"prompt": "Den nye lejlighed er ___ end den gamle. (lys)", "answer": "lysere", "es": "El piso nuevo es más luminoso que el viejo."},
+    {"prompt": "Det er den ___ løsning for os. (god, superlativo)", "answer": "bedste", "es": "Es la mejor solución para nosotros."},
+    {"prompt": "Toget er ___ end bussen. (praktisk, comparativo)", "answer": "mere praktisk", "es": "El tren es más práctico que el autobús."}
+   ]
+  },
+  "vocab": [
+   {"text": "til gengæld", "es": "en cambio", "example": "Den er dyr, men til gengæld er den stor.", "example_es": "Es cara, pero en cambio es grande."},
+   {"text": "derfra", "es": "desde allí", "example": "Vi kan gå på arbejde derfra.", "example_es": "Desde allí podemos ir andando al trabajo."},
+   {"text": "det mest praktiske", "es": "lo más práctico", "example": "Vesterbro er det mest praktiske for os.", "example_es": "Vesterbro es lo más práctico para nosotros."},
+   {"text": "ikke så stor", "es": "no tan grande", "example": "Prisforskellen er ikke så stor.", "example_es": "La diferencia de precio no es tan grande."}
+  ],
+  "transfer": {
+   "prompt": "Tu hermana duda entre dos móviles: uno barato y otro más caro con mejor batería. Escríbele comparando las dos opciones y recomiéndale uno (3–4 frases).",
+   "model": "Den billige telefon er fin, men batteriet holder kun en dag. Den dyre koster 1.000 kroner mere, men batteriet er meget bedre, og kameraet er skarpere. Du bruger telefonen hele tiden, så jeg synes, den dyre er det bedste valg for dig.",
+   "rubric": "Usa al menos dos comparativos (con «end» o «mere») y un superlativo, y termina con una recomendación justificada."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una pareja compara dos pisos de alquiler, uno en Bonnevoie y otro en Hesperange, antes de decidir cuál quieren.",
+   "lines": [
+    {"text": "D'Wunneng zu Bouneweg ass méi grouss wéi déi zu Hesper.", "es": "El piso de Bonnevoie es más grande que el de Hesperange."},
+    {"text": "Jo, mee si ass och vill méi deier.", "es": "Sí, pero también es mucho más caro."},
+    {"text": "Dogéint kënne mir vun do aus zu Fouss op d'Aarbecht goen.", "es": "En cambio, desde allí podemos ir andando al trabajo."},
+    {"text": "Dat stëmmt. Vun Hesper aus bräichte mir en zweeten Auto.", "es": "Es verdad. Desde Hesperange necesitaríamos un segundo coche."},
+    {"text": "Wa mir den zweeten Auto matrechnen, ass de Präisënnerscheed net esou grouss.", "es": "Si contamos el segundo coche, la diferencia de precio no es tan grande."},
+    {"text": "Da huele mir Bouneweg. Dat ass am prakteschsten.", "es": "Entonces nos quedamos con Bonnevoie. Es lo más práctico."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué eligen al final el piso más caro?",
+   "choices": ["Porque, al ahorrarse un segundo coche, la diferencia de precio es pequeña", "Porque el de Hesperange es demasiado pequeño para los dos", "Porque en Bonnevoie hay más plazas de aparcamiento"]
+  },
+  "grammar": {
+   "focus": "Comparativo y superlativo: méi … wéi, am …sten",
+   "explain": "El comparativo se forma con «méi» + adjetivo y «wéi» (méi grouss wéi, méi deier wéi). El superlativo predicativo lleva «am …sten» (am bëllegsten, am prakteschsten). Irregular: gutt → besser → am beschten.",
+   "items": [
+    {"prompt": "Déi nei Wunneng ass ___ hell wéi déi al.", "answer": "méi", "es": "El piso nuevo es más luminoso que el viejo."},
+    {"prompt": "Dës Léisung ass fir eis ___. (gutt, superlativo)", "answer": "am beschten", "es": "Esta solución es la mejor para nosotros."},
+    {"prompt": "Den Zuch ass méi séier ___ de Bus.", "answer": "wéi", "es": "El tren es más rápido que el autobús."}
+   ]
+  },
+  "vocab": [
+   {"text": "dogéint", "es": "en cambio", "example": "Si ass deier, dogéint ass si grouss.", "example_es": "Es caro; en cambio, es grande."},
+   {"text": "zu Fouss", "es": "a pie, andando", "example": "Vun do aus gi mir zu Fouss op d'Aarbecht.", "example_es": "Desde allí vamos andando al trabajo."},
+   {"text": "vill méi deier", "es": "mucho más caro", "example": "Déi zu Bouneweg ass vill méi deier.", "example_es": "El de Bonnevoie es mucho más caro."},
+   {"text": "am prakteschsten", "es": "lo más práctico", "example": "Fir eis ass Bouneweg am prakteschsten.", "example_es": "Para nosotros, Bonnevoie es lo más práctico."}
+  ],
+  "transfer": {
+   "prompt": "Tu hermana duda entre dos móviles: uno barato y otro más caro con mejor batería. Escríbele comparando las dos opciones y recomiéndale uno (3–4 frases).",
+   "model": "Den Handy fir 200 Euro ass gutt, mee d'Batterie hält just een Dag. Deen aneren ass 150 Euro méi deier, mee d'Batterie ass vill besser an d'Kamera ass méi scharf. Fir Fotoen ass en am beschten. Du benotz däin Handy de ganzen Dag, dofir géif ech der deen anere recommandéieren.",
+   "rubric": "Usa al menos dos comparativos con «méi» (y «wéi») y un superlativo, y termina con una recomendación justificada."
+  }
+ }
+}

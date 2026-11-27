@@ -1,0 +1,77 @@
+{
+ "week": 78,
+ "da": {
+  "dialogue2": {
+   "context": "En el aeropuerto, un pasajero cuya maleta no ha llegado habla con el mostrador de equipajes.",
+   "lines": [
+    {"text": "Hej, min kuffert kom ikke med flyet fra Madrid.", "es": "Hola, mi maleta no ha llegado en el vuelo de Madrid."},
+    {"text": "Det beklager jeg. Hvornår landede du?", "es": "Lo siento. ¿Cuándo aterrizó?"},
+    {"text": "For en time siden, og jeg har ventet ved båndet lige siden.", "es": "Hace una hora, y desde entonces he estado esperando en la cinta."},
+    {"text": "Den er stadig i Madrid. Den kommer med næste fly om fire timer.", "es": "Sigue en Madrid. Llega en el próximo vuelo dentro de cuatro horas."},
+    {"text": "Jeg skal til et møde i aften. Kan I sende den til hotellet?", "es": "Esta noche tengo una reunión. ¿Pueden mandarla al hotel?"},
+    {"text": "Ja, og du kan købe det nødvendige for op til 500 kroner.", "es": "Sí, y puede comprar lo necesario por un máximo de 500 coronas."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo se soluciona el problema del pasajero?",
+   "choices": ["Le llevarán la maleta al hotel y puede comprar lo imprescindible", "Tiene que volver al aeropuerto dentro de cuatro horas", "Debe tomar otro vuelo a Madrid para recuperarla"]
+  },
+  "grammar": {
+   "focus": "Preposiciones de tiempo: for … siden, om, i",
+   "explain": "«For … siden» = hace (for en time siden), «om» = dentro de (om fire timer) e «i» indica cuánto dura algo (Jeg har ventet i en time).",
+   "items": [
+    {"prompt": "Flyet landede ___ tyve minutter siden.", "answer": "for", "es": "El avión aterrizó hace veinte minutos."},
+    {"prompt": "Bagagen kommer ___ cirka tre timer.", "answer": "om", "es": "El equipaje llega dentro de unas tres horas."},
+    {"prompt": "Vi har stået i kø ___ over en time.", "answer": "i", "es": "Llevamos más de una hora haciendo cola."}
+   ]
+  },
+  "vocab": [
+   {"text": "båndet", "es": "la cinta de equipajes", "example": "Jeg har ventet ved båndet i en time.", "example_es": "He esperado una hora en la cinta de equipajes."},
+   {"text": "lige siden", "es": "desde entonces", "example": "Jeg landede klokken tre og har ventet lige siden.", "example_es": "Aterricé a las tres y he esperado desde entonces."},
+   {"text": "det nødvendige", "es": "lo necesario", "example": "Du kan købe det nødvendige i lufthavnen.", "example_es": "Puede comprar lo necesario en el aeropuerto."},
+   {"text": "for op til", "es": "por un máximo de", "example": "Du kan handle for op til 500 kroner.", "example_es": "Puede comprar por un máximo de 500 coronas."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo al hotel donde tienes reserva: tu vuelo se ha retrasado y llegarás mucho más tarde. Di cuándo pensabas llegar, cuándo llegarás y pregunta si alguien puede darte la llave (3–4 frases).",
+   "model": "Hej. Jeg har en reservation fra i dag, men mit fly er forsinket. Jeg skulle være landet for to timer siden, men nu lander jeg først om fire timer. Er der nogen i receptionen efter midnat, eller kan I give mig en kode til døren? Venlig hilsen, Sara Molina.",
+   "rubric": "Usa «for … siden» y «om» correctamente, da horas concretas y haz una pregunta práctica."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En el aeropuerto, un pasajero cuya maleta no ha llegado habla con el mostrador de equipajes.",
+   "lines": [
+    {"text": "Moien, mäi Koffer ass net mam Fliger aus Madrid ukomm.", "es": "Hola, mi maleta no ha llegado en el vuelo de Madrid."},
+    {"text": "Dat deet mir leed. Wéini sidd Dir gelant?", "es": "Lo siento. ¿Cuándo aterrizó?"},
+    {"text": "Virun enger Stonn, an zënterhier waarden ech um Band.", "es": "Hace una hora, y desde entonces estoy esperando en la cinta."},
+    {"text": "En ass nach zu Madrid. En kënnt mam nächste Fliger a véier Stonnen.", "es": "Sigue en Madrid. Llega en el próximo vuelo dentro de cuatro horas."},
+    {"text": "Ech hunn den Owend eng Versammlung. Kënnt Dir en an d'Hotel schécken?", "es": "Esta noche tengo una reunión. ¿Pueden mandarla al hotel?"},
+    {"text": "Jo, an Dir kënnt dat Néidegst fir bis zu 70 Euro kafen.", "es": "Sí, y puede comprar lo necesario por un máximo de 70 euros."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo se soluciona el problema del pasajero?",
+   "choices": ["Le llevarán la maleta al hotel y puede comprar lo imprescindible", "Tiene que volver al aeropuerto dentro de cuatro horas", "Debe tomar otro vuelo a Madrid para recuperarla"]
+  },
+  "grammar": {
+   "focus": "Preposiciones de tiempo: virun, an, zënter",
+   "explain": "«Virun» + dativo = hace (virun enger Stonn), «an» + dativo = dentro de (an zwou Stonnen) y «zënter» = desde hace (zënter enger Stonn). Ojo con la regla de Eifel: a véier Stonnen.",
+   "items": [
+    {"prompt": "De Fliger ass ___ zwanzeg Minutte gelant.", "answer": "virun", "es": "El avión aterrizó hace veinte minutos."},
+    {"prompt": "De Koffer kënnt ___ ongeféier dräi Stonnen.", "answer": "an", "es": "La maleta llega dentro de unas tres horas."},
+    {"prompt": "Mir stinn ___ enger Stonn an der Schlaang.", "answer": "zënter", "es": "Llevamos una hora haciendo cola."}
+   ]
+  },
+  "vocab": [
+   {"text": "um Band", "es": "en la cinta de equipajes", "example": "Ech waarden zënter enger Stonn um Band.", "example_es": "Llevo una hora esperando en la cinta de equipajes."},
+   {"text": "zënterhier", "es": "desde entonces", "example": "Ech si gelant an zënterhier waarden ech.", "example_es": "Aterricé y desde entonces estoy esperando."},
+   {"text": "dat Néidegst", "es": "lo necesario", "example": "Dir kënnt dat Néidegst um Flughafen kafen.", "example_es": "Puede comprar lo necesario en el aeropuerto."},
+   {"text": "bis zu", "es": "hasta (un máximo de)", "example": "Dir kënnt fir bis zu 70 Euro akafen.", "example_es": "Puede comprar por un máximo de 70 euros."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo al hotel donde tienes reserva: tu vuelo se ha retrasado y llegarás mucho más tarde. Di cuándo pensabas llegar, cuándo llegarás y pregunta si alguien puede darte la llave (3–4 frases).",
+   "model": "Moien, ech hunn eng Reservatioun fir haut den Owend, mee mäi Fliger huet Verspéidung. Ech sollt virun zwou Stonne landen, mee elo landen ech eréischt a véier Stonnen. Ass no Hallefnuecht nach een op der Receptioun, oder kënnt Dir mir e Code fir d'Dier ginn? Mat beschte Gréiss, Sara Molina.",
+   "rubric": "Usa «virun» y «an» correctamente, da horas concretas y haz una pregunta práctica."
+  }
+ }
+}

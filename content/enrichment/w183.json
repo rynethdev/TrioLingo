@@ -1,0 +1,81 @@
+{
+ "week": 183,
+ "da": {
+  "dialogue2": {
+   "context": "Una inquilina revisa con un amigo abogado el contrato de alquiler que le ofrecen; la cláusula de devolución de la fianza dice «en un plazo razonable».",
+   "lines": [
+    {"text": "Her står, at depositummet tilbagebetales „inden for rimelig tid“.", "es": "Aquí dice que la fianza se devuelve «en un plazo razonable»."},
+    {"text": "Rimelig for hvem? Det er et ord, der altid er udlejerens ven.", "es": "¿Razonable para quién? Es una palabra que siempre juega a favor del casero."},
+    {"text": "Hvad skal der så stå?", "es": "¿Y qué debería poner?"},
+    {"text": "Senest tredive dage efter fraflytning — og fra hvilken dato fristen løber.", "es": "Como muy tarde treinta días después de dejar la vivienda, y desde qué fecha corre el plazo."},
+    {"text": "Og hvis han finder en skade?", "es": "¿Y si encuentra un desperfecto?"},
+    {"text": "Så skal han dokumentere den skriftligt inden for fjorten dage, ellers mister han retten til at trække den fra.", "es": "Entonces tiene que documentarlo por escrito en un plazo de catorce días; si no, pierde el derecho a descontarlo."},
+    {"text": "Er det ikke lidt mistænksomt at foreslå det?", "es": "¿No es un poco desconfiado proponerlo?"},
+    {"text": "Nej, det er venligt. Klare regler sparer jer begge for en strid.", "es": "No, es amable. Unas reglas claras os ahorran a los dos un conflicto."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir el abogado con que «razonable» es una palabra que «juega a favor del casero»?",
+   "choices": ["Que un término vago beneficia a la parte más fuerte, que es quien decide cuándo pagar", "Que el casero ha redactado el contrato de mala fe", "Que la ley obliga a usar esa palabra"]
+  },
+  "grammar": {
+   "focus": "Precisión temporal en textos jurídicos: senest, inden for, fra og med, til og med",
+   "explain": "La precisión jurídica exige fijar inicio, duración y límite del plazo: senest den 1. marts (como muy tarde), inden for 14 dage (dentro de), fra og med 1. april (a partir del 1 de abril, incluido), til og med 30. juni (hasta el 30 de junio, incluido).",
+   "items": [
+    {"prompt": "Depositummet tilbagebetales ___ 30 dage efter fraflytning. (como muy tarde)", "answer": "senest", "es": "La fianza se devuelve como muy tarde 30 días después de dejar la vivienda."},
+    {"prompt": "Skader skal dokumenteres ___ for 14 dage. (dentro de)", "answer": "inden", "es": "Los desperfectos deben documentarse en un plazo de 14 días."},
+    {"prompt": "Lejeaftalen gælder fra og med 1. april til og ___ 31. marts året efter. (incluido el último día)", "answer": "med", "es": "El contrato rige del 1 de abril al 31 de marzo del año siguiente, ambos incluidos."}
+   ]
+  },
+  "vocab": [
+   {"text": "inden for rimelig tid", "es": "en un plazo razonable (fórmula vaga)", "example": "„Inden for rimelig tid“ er en formulering, der skaber strid.", "example_es": "«En un plazo razonable» es una formulación que genera conflictos."},
+   {"text": "trække noget fra", "es": "descontar algo", "example": "Udlejeren må ikke trække noget fra uden dokumentation.", "example_es": "El casero no puede descontar nada sin documentación."},
+   {"text": "bortfalder", "es": "caduca, se extingue", "example": "Retten bortfalder, hvis fristen overskrides.", "example_es": "El derecho caduca si se supera el plazo."},
+   {"text": "fraflytning", "es": "salida de la vivienda", "example": "Fristen løber fra datoen for fraflytning.", "example_es": "El plazo corre desde la fecha de salida de la vivienda."}
+  ],
+  "transfer": {
+   "prompt": "Reescribe (6–8 frases) la cláusula de la fianza del contrato de alquiler para que no deje margen a interpretaciones abusivas, y añade una frase final explicando al casero, en tono cordial, por qué la propones.",
+   "model": "Depositummet tilbagebetales til lejeren senest 30 dage efter fraflytningsdatoen. Fristen løber fra den dag, hvor lejeren har afleveret samtlige nøgler mod kvittering. Ønsker udlejeren at modregne udgifter til istandsættelse, skal skaderne dokumenteres skriftligt med fotos og sendes til lejeren inden for 14 dage efter fraflytning. Overskrides denne frist, bortfalder retten til modregning. Eventuel modregning skal ledsages af en specificeret opgørelse med beløb pr. post. Tilbagebetaling sker til den konto, lejeren har oplyst skriftligt. Jeg foreslår formuleringen, fordi klare frister sparer os begge for tvivl og uenighed, når lejemålet engang slutter.",
+   "rubric": "Fija con precisión inicio, duración y consecuencia del incumplimiento; define el hecho que inicia el plazo; elimina términos vagos («rimelig», «snarest»); usa vocabulario jurídico preciso sin oscuridad; la frase final tiene tono cordial y explica el propósito."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una inquilina revisa con un amigo abogado el contrato de alquiler que le ofrecen; la cláusula de devolución de la fianza dice «en un plazo razonable».",
+   "lines": [
+    {"text": "Hei steet, datt d'Kautioun „bannent enger raisonnabeler Zäit“ zeréckbezuelt gëtt.", "es": "Aquí dice que la fianza se devuelve «en un plazo razonable»."},
+    {"text": "Raisonnabel fir wien? Dat ass e Wuert, dat ëmmer dem Proprietär säi Frënd ass.", "es": "¿Razonable para quién? Es una palabra que siempre juega a favor del propietario."},
+    {"text": "Wat misst dann do stoen?", "es": "¿Y qué debería poner?"},
+    {"text": "Spéitstens drësseg Deeg nom Auszuch — a vu wéi engem Datum un d'Zäit leeft.", "es": "Como muy tarde treinta días después de dejar la vivienda, y desde qué fecha corre el plazo."},
+    {"text": "A wann hien e Schued fënnt?", "es": "¿Y si encuentra un desperfecto?"},
+    {"text": "Da muss hien en bannent véierzéng Deeg schrëftlech dokumentéieren, soss verléiert hien d'Recht, en ofzezéien.", "es": "Entonces tiene que documentarlo por escrito en un plazo de catorce días; si no, pierde el derecho a descontarlo."},
+    {"text": "Ass et net e bësse mësstrauesch, dat virzeschloen?", "es": "¿No es un poco desconfiado proponerlo?"},
+    {"text": "Neen, et ass frëndlech. Kloer Reegele spueren iech allen zwee e Sträit.", "es": "No, es amable. Unas reglas claras os ahorran a los dos un conflicto."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir el abogado con que «razonable» es una palabra que «juega a favor del propietario»?",
+   "choices": ["Que un término vago beneficia a la parte más fuerte, que es quien decide cuándo pagar", "Que el propietario ha redactado el contrato de mala fe", "Que la ley obliga a usar esa palabra"]
+  },
+  "grammar": {
+   "focus": "Precisión temporal jurídica: spéitstens, bannent, vun … un, abegraff",
+   "explain": "La precisión jurídica exige fijar inicio, duración y límite del plazo: spéitstens den 1. Mäerz (como muy tarde), bannent 14 Deeg (dentro de), vum 1. Abrëll un (a partir del 1 de abril), bis den 31. Mäerz abegraff (hasta el 31 de marzo, incluido).",
+   "items": [
+    {"prompt": "D'Kautioun gëtt ___ 30 Deeg nom Auszuch zeréckbezuelt. (como muy tarde)", "answer": "spéitstens", "es": "La fianza se devuelve como muy tarde 30 días después de dejar la vivienda."},
+    {"prompt": "Schied mussen ___ 14 Deeg dokumentéiert ginn. (dentro de)", "answer": "bannent", "es": "Los desperfectos deben documentarse en un plazo de 14 días."},
+    {"prompt": "De Bail gëllt vum 1. Abrëll ___ bis den 31. Mäerz d'Joer drop. (a partir de)", "answer": "un", "es": "El contrato rige a partir del 1 de abril hasta el 31 de marzo del año siguiente."}
+   ]
+  },
+  "vocab": [
+   {"text": "raisonnabeler Zäit", "es": "(en un) plazo razonable, fórmula vaga", "example": "„Bannent enger raisonnabeler Zäit“ ass eng Formuléierung, déi zu Sträit féiert.", "example_es": "«En un plazo razonable» es una formulación que lleva a conflictos."},
+   {"text": "ofzéien", "es": "descontar", "example": "Hie däerf näischt ouni Beweis ofzéien.", "example_es": "No puede descontar nada sin pruebas."},
+   {"text": "hifälleg", "es": "caducado, sin efecto", "example": "D'Recht gëtt hifälleg, wann d'Delai iwwerschratt gëtt.", "example_es": "El derecho caduca si se supera el plazo."},
+   {"text": "Auszuch", "es": "salida de la vivienda, mudanza", "example": "D'Delai leeft vum Dag vum Auszuch un.", "example_es": "El plazo corre desde el día de la salida de la vivienda."}
+  ],
+  "transfer": {
+   "prompt": "Reescribe (6–8 frases) la cláusula de la fianza del contrato de alquiler para que no deje margen a interpretaciones abusivas, y añade una frase final explicando al propietario, en tono cordial, por qué la propones.",
+   "model": "D'Kautioun gëtt dem Locataire spéitstens 30 Deeg nom Datum vum Auszuch zeréckbezuelt. D'Delai leeft vum Dag un, wou de Locataire all Schlëssele géint Quittung ofginn huet. Wann de Proprietär Käschte fir Reparaturen ofzéie wëll, muss hien d'Schied schrëftlech a mat Fotoen dokumentéieren an dem Locataire bannent 14 Deeg nom Auszuch zoustellen. Gëtt dës Delai iwwerschratt, gëtt d'Recht op en Ofzuch hifälleg. All Ofzuch muss mat enger detailléierter Opstellung vun de Beträg pro Posten ugewise ginn. D'Rembourséierung geschitt op de Kont, deen de Locataire schrëftlech matgedeelt huet. Ech proposéieren dës Formuléierung, well kloer Delaien eis allen zwee Zweifel a Sträit erspueren, wann de Bail eng Kéier op en Enn geet.",
+   "rubric": "Fija con precisión inicio, duración y consecuencia del incumplimiento; define el hecho que inicia el plazo; elimina términos vagos («raisonnabel», «zäitno»); usa vocabulario jurídico preciso sin oscuridad; la frase final tiene tono cordial y explica el propósito."
+  }
+ }
+}

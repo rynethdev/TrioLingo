@@ -1,0 +1,81 @@
+{
+ "week": 121,
+ "da": {
+  "dialogue2": {
+   "context": "Una empleada recién llegada ha intentado seguir el procedimiento que redactó un compañero y le señala, con tacto, dónde se atascó.",
+   "lines": [
+    {"text": "Jeg prøvede at følge din vejledning i går, men jeg gik i stå ved trin fire.", "es": "Ayer intenté seguir tu guía, pero me atasqué en el paso cuatro."},
+    {"text": "Ved trin fire? Der står jo bare, at fakturaen skal godkendes.", "es": "¿En el paso cuatro? Pero si solo pone que hay que aprobar la factura."},
+    {"text": "Ja, men der står ikke, hvem den skal godkendes af, eller hvad jeg gør, hvis vedkommende er på ferie.", "es": "Sí, pero no pone quién tiene que aprobarla ni qué hago si esa persona está de vacaciones."},
+    {"text": "Det er en god pointe; det ved alle her jo, men en nyansat kan ikke vide det.", "es": "Buena observación; aquí todo el mundo lo sabe, pero alguien recién llegado no puede saberlo."},
+    {"text": "Netop. Og ved trin seks bruger du en forkortelse, som ikke forklares nogen steder.", "es": "Justo. Y en el paso seis usas una abreviatura que no se explica en ningún sitio."},
+    {"text": "Så må vi tilføje en ordliste og angive en stedfortræder for hver rolle.", "es": "Entonces tendremos que añadir un glosario e indicar un suplente para cada función."},
+    {"text": "Det ville hjælpe meget, og jeg tester gerne den reviderede version igen på fredag.", "es": "Eso ayudaría mucho, y con gusto pruebo de nuevo la versión revisada el viernes."},
+    {"text": "Tak, det er netop den slags blik udefra, dokumentet har manglet.", "es": "Gracias, es justo la clase de mirada externa que le faltaba al documento."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cuál es el fallo de fondo que pone de manifiesto la nueva empleada?",
+   "choices": ["Que el documento da por sabidas cosas que solo conoce la gente de la casa", "Que el procedimiento tiene demasiados pasos y conviene acortarlo", "Que la persona que aprueba las facturas está casi siempre de vacaciones"]
+  },
+  "grammar": {
+   "focus": "Pasiva en -s en procedimientos y normas",
+   "explain": "Los textos de procedimiento prefieren la pasiva en -s, que pone el foco en la acción: «Fakturaen godkendes af teamlederen». Con verbo modal se usa el infinitivo en -s: «skal sendes», «kan afvises».",
+   "items": [
+    {"prompt": "Fakturaen ___ af afdelingslederen, inden den sendes videre. (godkende, pasiva en presente)", "answer": "godkendes", "es": "La factura la aprueba el jefe de departamento antes de reenviarla."},
+    {"prompt": "Alle afvigelser skal ___ i loggen samme dag. (registrere, pasiva)", "answer": "registreres", "es": "Todas las desviaciones deben registrarse en el registro el mismo día."},
+    {"prompt": "Ved fravær ___ opgaven af den udpegede stedfortræder. (overtage, pasiva en presente)", "answer": "overtages", "es": "En caso de ausencia, la tarea la asume el suplente designado."}
+   ]
+  },
+  "vocab": [
+   {"text": "gå i stå", "es": "atascarse, quedarse bloqueado", "example": "Nye medarbejdere har en tendens til at gå i stå ved trin fire.", "example_es": "Los empleados nuevos tienden a atascarse en el paso cuatro."},
+   {"text": "en stedfortræder", "es": "un suplente", "example": "Hver rolle skal have en stedfortræder ved ferie og sygdom.", "example_es": "Cada función debe tener un suplente en caso de vacaciones o enfermedad."},
+   {"text": "blik udefra", "es": "mirada externa", "example": "Et blik udefra afslører de huller, vi selv overser.", "example_es": "Una mirada externa revela los huecos que nosotros mismos pasamos por alto."},
+   {"text": "en ordliste", "es": "un glosario", "example": "Forkortelserne forklares i en ordliste bagerst i dokumentet.", "example_es": "Las abreviaturas se explican en un glosario al final del documento."}
+  ],
+  "transfer": {
+   "prompt": "Convierte en procedimiento formal (5–7 frases en prosa) un proceso que en tu trabajo se transmite de palabra: objetivo, pasos con responsable, plazo y qué hacer si el responsable está ausente. Usa la pasiva.",
+   "model": "Formålet med proceduren er at sikre, at vores leverandører betales korrekt og til tiden. Først kontrolleres fakturaen af bogholderiet op imod ordrebekræftelsen. Derefter godkendes beløb under 5.000 kr. af teamlederen, mens større beløb forelægges økonomichefen. Godkendte fakturaer betales senest fem arbejdsdage efter modtagelsen. Er den ansvarlige fraværende, overtages godkendelsen af den udpegede stedfortræder. Ved mistanke om fejl betales fakturaen ikke, men returneres til bogholderiet med en kort begrundelse.",
+   "rubric": "Abre con el objetivo del procedimiento; ordena los pasos con conectores (først, derefter, til sidst); usa al menos tres pasivas en -s; indica responsable y plazo; incluye una suplencia o excepción claramente delimitada."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una empleada recién llegada ha intentado seguir el procedimiento que redactó un compañero y le señala, con tacto, dónde se atascó.",
+   "lines": [
+    {"text": "Ech hu gëschter probéiert, deng Uleedung ze verfollegen, mä beim véierte Schrëtt sinn ech hänke bliwwen.", "es": "Ayer intenté seguir tu guía, pero me atasqué en el paso cuatro."},
+    {"text": "Beim véierte Schrëtt? Do steet dach just, datt d'Rechnung genehmegt gëtt.", "es": "¿En el paso cuatro? Pero si solo pone que se aprueba la factura."},
+    {"text": "Jo, mä et steet net do, vu wiem se genehmegt gëtt, oder wat ech maache soll, wann déi Persoun am Congé ass.", "es": "Sí, pero no pone quién la aprueba ni qué tengo que hacer si esa persona está de vacaciones."},
+    {"text": "Gudde Punkt; dat weess hei jiddereen, mä en Neie kann dat net wëssen.", "es": "Buena observación; aquí lo sabe todo el mundo, pero alguien nuevo no puede saberlo."},
+    {"text": "Genee. A beim sechste Schrëtt benotz du eng Ofkierzung, déi néierens erkläert gëtt.", "es": "Justo. Y en el paso seis usas una abreviatura que no se explica en ningún sitio."},
+    {"text": "Da musse mir eng Lëscht mat den Ofkierzunge bäileeën a fir all Roll e Stellvertrieder nennen.", "es": "Entonces tenemos que añadir una lista de abreviaturas y nombrar un suplente para cada función."},
+    {"text": "Dat géif vill hëllefen, an ech testen déi iwwerschafft Versioun e Freideg gär nach eng Kéier.", "es": "Eso ayudaría mucho, y con gusto pruebo otra vez la versión revisada el viernes."},
+    {"text": "Merci, genee esou e Bléck vu baussen huet dem Dokument gefeelt.", "es": "Gracias, justo esa mirada externa era lo que le faltaba al documento."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cuál es el fallo de fondo que pone de manifiesto la nueva empleada?",
+   "choices": ["Que el documento da por sabidas cosas que solo conoce la gente de la casa", "Que el procedimiento tiene demasiados pasos y conviene acortarlo", "Que la persona que aprueba las facturas está casi siempre de vacaciones"]
+  },
+  "grammar": {
+   "focus": "Pasiva con «ginn» en procedimientos y normas",
+   "explain": "La pasiva se forma con «ginn» + participio: «D'Rechnung gëtt kontrolléiert». Con un modal, «ginn» va en infinitivo al final: «D'Rechnung muss kontrolléiert ginn». En pasado se usa «gouf»: «D'Prozedur gouf iwwerschafft».",
+   "items": [
+    {"prompt": "D'Rechnung ___ vum Chef vun der Equipe genehmegt, ier se weidergeschéckt gëtt. (ginn, presente)", "answer": "gëtt", "es": "La factura la aprueba el jefe de equipo antes de reenviarla."},
+    {"prompt": "All Feeler musse nach dee selwechten Dag am Logbuch festgehale ___. (infinitivo pasivo)", "answer": "ginn", "es": "Todos los errores deben anotarse en el registro ese mismo día."},
+    {"prompt": "D'lescht Joer ___ d'Prozedur zweemol iwwerschafft. (ginn, pretérito)", "answer": "gouf", "es": "El año pasado el procedimiento se revisó dos veces."}
+   ]
+  },
+  "vocab": [
+   {"text": "hänke bleiwen", "es": "atascarse, quedarse bloqueado", "example": "Wien de Prozess net kennt, kann do liicht hänke bleiwen.", "example_es": "Quien no conoce el proceso puede atascarse ahí fácilmente."},
+   {"text": "e Stellvertrieder", "es": "un suplente", "example": "Fir all Roll gëtt e Stellvertrieder genannt.", "example_es": "Para cada función se nombra un suplente."},
+   {"text": "e Bléck vu baussen", "es": "una mirada externa", "example": "Dacks hëlleft e Bléck vu baussen, fir d'Lächer ze fannen.", "example_es": "A menudo una mirada externa ayuda a encontrar los huecos."},
+   {"text": "eng Ofkierzung", "es": "una abreviatura", "example": "All Kéier, wann eng Ofkierzung fir d'éischt optaucht, gëtt se erkläert.", "example_es": "Cada vez que aparece una abreviatura por primera vez, se explica."}
+  ],
+  "transfer": {
+   "prompt": "Convierte en procedimiento formal (5–7 frases en prosa) un proceso que en tu trabajo se transmite de palabra: objetivo, pasos con responsable, plazo y qué hacer si el responsable está ausente. Usa la pasiva.",
+   "model": "D'Zil vun dëser Prozedur ass, datt eis Liwweranten korrekt an zäitgerecht bezuelt ginn. Als éischt gëtt d'Rechnung vun der Buchhaltung mat der Bestellung verglach. Duerno gi Montanten ënner 5.000 € vum Chef vun der Equipe genehmegt; méi héich Montante ginn un d'Direktioun weidergeleet. Genehmegt Rechnunge ginn spéitstens fënnef Aarbechtsdeeg no hirem Agank bezuelt. Wann déi verantwortlech Persoun feelt, gëtt d'Genehmegung vum ernannte Stellvertrieder iwwerholl. Bei Verdacht op e Feeler gëtt d'Rechnung net bezuelt, mä mat enger kuerzer Begrënnung un d'Buchhaltung zréckgeschéckt.",
+   "rubric": "Abre con el objetivo del procedimiento; ordena los pasos con conectores (als éischt, duerno, schliisslech); usa al menos tres pasivas con «ginn»; indica responsable y plazo; incluye una suplencia o excepción claramente delimitada."
+  }
+ }
+}

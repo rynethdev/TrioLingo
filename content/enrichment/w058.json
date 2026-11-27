@@ -1,0 +1,77 @@
+{
+ "week": 58,
+ "da": {
+  "dialogue2": {
+   "context": "Antes de irse de vacaciones, una compañera explica a Omar cómo cerrar la tienda y activar la alarma.",
+   "lines": [
+    {"text": "Når du lukker, skal du først slukke lyset på lageret.", "es": "Cuando cierres, primero tienes que apagar la luz del almacén."},
+    {"text": "Okay. Og hvad gør jeg bagefter?", "es": "Vale. ¿Y qué hago después?"},
+    {"text": "Så taster du koden og har tredive sekunder til at gå ud.", "es": "Luego tecleas el código y tienes treinta segundos para salir."},
+    {"text": "Undskyld, kan du sige koden igen, langsomt?", "es": "Perdona, ¿puedes decirme el código otra vez, despacio?"},
+    {"text": "Fire-ni-to-syv. Men skriv den ikke på en seddel!", "es": "Cuatro-nueve-dos-siete. ¡Pero no lo apuntes en un papel!"},
+    {"text": "Forstået. Lys, kode, og ud inden for tredive sekunder.", "es": "Entendido. Luz, código y fuera en treinta segundos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué hace Omar al final para asegurarse de que lo ha entendido?",
+   "choices": ["Resume los pasos en el orden correcto", "Apunta el código en un papel", "Pide que se lo manden por correo"]
+  },
+  "grammar": {
+   "focus": "Inversión (V2) tras adverbios de secuencia: først, så, bagefter",
+   "explain": "Si la frase empieza con «først», «så» o «bagefter», el verbo va en segundo lugar y el sujeto detrás: Så taster du koden. Bagefter går vi ud.",
+   "items": [
+    {"prompt": "Først ___ døren til lageret. (du / låse)", "answer": "låser du", "es": "Primero cierras con llave la puerta del almacén."},
+    {"prompt": "Bagefter ___ lyset på kontoret. (vi / slukke)", "answer": "slukker vi", "es": "Después apagamos la luz de la oficina."},
+    {"prompt": "Så ___ ud ad bagdøren. (hun / gå)", "answer": "går hun", "es": "Luego sale por la puerta de atrás."}
+   ]
+  },
+  "vocab": [
+   {"text": "slukke lyset", "es": "apagar la luz", "example": "Husk at slukke lyset på lageret.", "example_es": "Acuérdate de apagar la luz del almacén."},
+   {"text": "taste koden", "es": "teclear el código", "example": "Du skal taste koden på panelet ved døren.", "example_es": "Tienes que teclear el código en el panel de la puerta."},
+   {"text": "bagefter", "es": "después", "example": "Bagefter låser du døren.", "example_es": "Después cierras la puerta con llave."},
+   {"text": "Forstået", "es": "Entendido", "example": "Forstået, jeg gør det i den rækkefølge.", "example_es": "Entendido, lo hago en ese orden."}
+  ],
+  "transfer": {
+   "prompt": "Una nueva compañera de piso te pregunta cómo funciona la lavadora. Escríbele una nota con 3–4 pasos en orden.",
+   "model": "Først lægger du tøjet i maskinen og lukker lågen. Så hælder du sæbe i den lille skuffe til venstre. Bagefter vælger du 40 grader og trykker på start. Når den er færdig, venter du et minut, før du åbner.",
+   "rubric": "Usa «først», «så» y «bagefter» con inversión verbo-sujeto y presenta los pasos en un orden claro."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Antes de irse de vacaciones, una compañera explica a Omar cómo cerrar la tienda y activar la alarma.",
+   "lines": [
+    {"text": "Owes mëss du fir d'éischt d'Luucht am Lager aus.", "es": "Por la noche, primero apagas la luz del almacén."},
+    {"text": "Ok. A wat maachen ech duerno?", "es": "Vale. ¿Y qué hago después?"},
+    {"text": "Duerno tipps du de Code an hues drësseg Sekonnen, fir erauszegoen.", "es": "Luego tecleas el código y tienes treinta segundos para salir."},
+    {"text": "Entschëllegt, kanns du mir de Code nach eng Kéier lues soen?", "es": "Perdona, ¿puedes decirme el código otra vez, despacio?"},
+    {"text": "Véier-néng-zwee-siwen. Mee schreif en net op!", "es": "Cuatro-nueve-dos-siete. ¡Pero no lo apuntes!"},
+    {"text": "Verstanen. Luucht, Code a bannent drësseg Sekonnen eraus.", "es": "Entendido. Luz, código y fuera en treinta segundos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué hace Omar al final para asegurarse de que lo ha entendido?",
+   "choices": ["Resume los pasos en el orden correcto", "Apunta el código en un papel", "Pide que se lo manden por correo"]
+  },
+  "grammar": {
+   "focus": "Inversión (V2) tras «fir d'éischt», «dann», «duerno»",
+   "explain": "Si la frase empieza con un adverbio, el verbo va en segunda posición y el sujeto detrás: Duerno tipps du de Code. Fir d'éischt maache mir d'Dier zou.",
+   "items": [
+    {"prompt": "Fir d'éischt ___ d'Dier vum Lager zou. (du / maachen)", "answer": "mëss du", "es": "Primero cierras la puerta del almacén."},
+    {"prompt": "Duerno ___ d'Luucht am Büro aus. (mir / maachen)", "answer": "maache mir", "es": "Después apagamos la luz de la oficina."},
+    {"prompt": "Dann ___ duerch d'Hannerdier eraus. (si / goen)", "answer": "geet si", "es": "Luego sale por la puerta de atrás."}
+   ]
+  },
+  "vocab": [
+   {"text": "d'Luucht ausmaachen", "es": "apagar la luz", "example": "Owes muss ee d'Luucht ausmaachen.", "example_es": "Por la noche hay que apagar la luz."},
+   {"text": "de Code tippen", "es": "teclear el código", "example": "Beim Agank muss du de Code tippen.", "example_es": "Tienes que teclear el código en la entrada."},
+   {"text": "lues", "es": "despacio", "example": "Kanns du dat w.e.g. lues soen?", "example_es": "¿Puedes decirlo despacio, por favor?"},
+   {"text": "Verstanen", "es": "Entendido", "example": "Verstanen, ech maachen et an där Reiefolleg.", "example_es": "Entendido, lo hago en ese orden."}
+  ],
+  "transfer": {
+   "prompt": "Una nueva compañera de piso te pregunta cómo funciona la lavadora. Escríbele una nota con 3–4 pasos en orden.",
+   "model": "Fir d'éischt dees du d'Wäsch an d'Maschinn a mëss d'Dier zou. Dann dees du Wäschmëttel an déi kleng Schublad lénks. Duerno wiels du 40 Grad an drécks op Start. Wann d'Maschinn fäerdeg ass, waart eng Minutt, ier d'Dier opgeet.",
+   "rubric": "Usa «fir d'éischt», «dann» y «duerno» con inversión verbo-sujeto y presenta los pasos en un orden claro."
+  }
+ }
+}

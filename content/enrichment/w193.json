@@ -1,0 +1,81 @@
+{
+ "week": 193,
+ "da": {
+  "dialogue2": {
+   "context": "La directora de comunicación de una aseguradora corrige el borrador de disculpa del jefe jurídico tras una filtración de datos de clientes: él lo ha escrito todo en pasiva.",
+   "lines": [
+    {"text": "Jeg har skrevet: „Der er desværre sket en uautoriseret adgang til visse data.“", "es": "He escrito: «Lamentablemente se ha producido un acceso no autorizado a ciertos datos»."},
+    {"text": "Det lyder, som om dataene selv har gjort noget forkert.", "es": "Suena como si los datos hubieran hecho algo mal por su cuenta."},
+    {"text": "Juridisk er det den sikreste formulering.", "es": "Jurídicamente es la formulación más segura."},
+    {"text": "Juridisk, måske. Men kunderne hører: ingen har ansvaret.", "es": "Jurídicamente, quizá. Pero los clientes oyen: nadie es responsable."},
+    {"text": "Hvad vil du så skrive?", "es": "¿Y qué quieres escribir?"},
+    {"text": "„Vi beskyttede ikke jeres data godt nok. 4.000 kunder er berørt, og det er vores ansvar.“", "es": "«No protegimos vuestros datos lo suficiente. Hay 4.000 clientes afectados, y la responsabilidad es nuestra»."},
+    {"text": "Og hvis det bliver brugt imod os i retten?", "es": "¿Y si eso se usa en nuestra contra en un juicio?"},
+    {"text": "Så er det stadig billigere end at miste kundernes tillid for altid.", "es": "Aun así sale más barato que perder la confianza de los clientes para siempre."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué critica la directora con «Suena como si los datos hubieran hecho algo mal por su cuenta»?",
+   "choices": ["Que la pasiva borra al responsable y suena a evasiva", "Que el texto contiene un error técnico sobre los datos", "Que el jurista exagera la gravedad del incidente"]
+  },
+  "grammar": {
+   "focus": "Activa frente a pasiva: asumir la responsabilidad",
+   "explain": "La pasiva sin agente (Der er sket fejl, Data blev tilgået) diluye la responsabilidad; una disculpa creíble usa la activa con el sujeto «vi»: Vi har begået en fejl, Vi beskyttede ikke jeres data.",
+   "items": [
+    {"prompt": "Der er begået en fejl. → Vi ___ begået en fejl. (activa, perfecto)", "answer": "har", "es": "Se ha cometido un error. → Hemos cometido un error."},
+    {"prompt": "Kundernes data blev ikke beskyttet godt nok. → Vi ___ ikke kundernes data godt nok. (beskytte, pasado)", "answer": "beskyttede", "es": "Los datos de los clientes no se protegieron lo suficiente. → No protegimos lo suficiente los datos de los clientes."},
+    {"prompt": "Fejlen vil blive rettet. → Vi ___ fejlen inden fredag. (rette, presente con valor de futuro)", "answer": "retter", "es": "El error será corregido. → Corregimos el error antes del viernes."}
+   ]
+  },
+  "vocab": [
+   {"text": "påtager sig", "es": "asume", "example": "Selskabet påtager sig det fulde ansvar.", "example_es": "La compañía asume toda la responsabilidad."},
+   {"text": "berørt", "es": "afectado", "example": "Omkring 4.000 kunder er berørt af fejlen.", "example_es": "Unos 4.000 clientes están afectados por el error."},
+   {"text": "ind under gulvtæppet", "es": "(barrer) bajo la alfombra", "example": "Vi vil ikke feje sagen ind under gulvtæppet.", "example_es": "No vamos a barrer el asunto bajo la alfombra."},
+   {"text": "genvinde tilliden", "es": "recuperar la confianza", "example": "Det tager tid at genvinde tilliden.", "example_es": "Recuperar la confianza lleva tiempo."}
+  ],
+  "transfer": {
+   "prompt": "Redacta la disculpa pública (6–8 frases) de la aseguradora a sus clientes tras la filtración de datos: en voz activa, con responsabilidad clara; qué pasó, a quién afecta, qué se ha hecho y qué recibirá cada cliente.",
+   "model": "Kære kunder, vi har svigtet jeres tillid, og det beklager vi uforbeholdent. Den 14. oktober fik uvedkommende adgang til en af vores kundedatabaser, fordi vi ikke havde opdateret et sikkerhedssystem i tide. Det var vores fejl, ikke en uheldig omstændighed. Omkring 4.000 kunder er berørt; navne og adresser er kommet ud, men ingen kortoplysninger. Vi har lukket hullet, anmeldt sagen til politiet og fået en uvildig gennemgang af alle vores systemer. Alle berørte kunder får i dag et personligt brev med vejledning og et års gratis overvågning af deres identitet. Vi ved, at tillid ikke genvindes med et brev, men med handling, og den vil vi vise jer.",
+   "rubric": "Usa la voz activa y el sujeto «vi» para asumir la culpa; evita fórmulas evasivas («hvis nogen føler sig…»); precisa qué ocurrió, cuándo y a cuántos afecta; enumera medidas concretas ya tomadas; indica qué recibe cada afectado; tono sobrio, sin dramatismo ni juridicismos."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "La directora de comunicación de una aseguradora corrige el borrador de disculpa del jefe jurídico tras una filtración de datos de clientes: él lo ha escrito todo en pasiva.",
+   "lines": [
+    {"text": "Ech hu geschriwwen: „Et ass leider zu engem onerlaabten Zougrëff op verschidden Donnéeë komm.“", "es": "He escrito: «Lamentablemente se ha producido un acceso no autorizado a ciertos datos»."},
+    {"text": "Dat klengt, wéi wann d'Donnéeë selwer eppes falsch gemaach hätten.", "es": "Suena como si los datos hubieran hecho algo mal por su cuenta."},
+    {"text": "Juristesch ass dat déi sécherst Formuléierung.", "es": "Jurídicamente es la formulación más segura."},
+    {"text": "Juristesch vläicht. Mä d'Clienten héieren: keen ass verantwortlech.", "es": "Jurídicamente, quizá. Pero los clientes oyen: nadie es responsable."},
+    {"text": "Wat wëlls du da schreiwen?", "es": "¿Y qué quieres escribir?"},
+    {"text": "„Mir hunn Är Donnéeën net gutt genuch geschützt. 4.000 Clienten si betraff, an dat ass eis Verantwortung.“", "es": "«No protegimos sus datos lo suficiente. Hay 4.000 clientes afectados, y la responsabilidad es nuestra»."},
+    {"text": "A wann dat viru Geriicht géint eis benotzt gëtt?", "es": "¿Y si eso se usa en nuestra contra ante un tribunal?"},
+    {"text": "Da kënnt et nach ëmmer méi bëlleg, wéi d'Vertraue vun de Clienten fir ëmmer ze verléieren.", "es": "Aun así sale más barato que perder la confianza de los clientes para siempre."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué critica la directora con «Suena como si los datos hubieran hecho algo mal por su cuenta»?",
+   "choices": ["Que la pasiva borra al responsable y suena a evasiva", "Que el texto contiene un error técnico sobre los datos", "Que el jurista exagera la gravedad del incidente"]
+  },
+  "grammar": {
+   "focus": "Activa frente a pasiva: asumir la responsabilidad",
+   "explain": "La pasiva sin agente (Et goufe Feeler gemaach, D'Donnéeë goufe geklaut) diluye la responsabilidad; una disculpa creíble usa la activa con el sujeto «mir»: Mir hunn e Feeler gemaach, Mir hunn d'Donnéeën net geschützt.",
+   "items": [
+    {"prompt": "Et gouf e Feeler gemaach. → Mir ___ e Feeler gemaach. (activa, perfecto)", "answer": "hunn", "es": "Se cometió un error. → Hemos cometido un error."},
+    {"prompt": "D'Donnéeë goufen net gutt genuch geschützt. → Mir hunn d'Donnéeën net gutt genuch ___. (participio)", "answer": "geschützt", "es": "Los datos no se protegieron lo suficiente. → No hemos protegido los datos lo suficiente."},
+    {"prompt": "De Feeler gëtt korrigéiert. → Mir ___ de Feeler bis Freideg. (korrigéieren, presente)", "answer": "korrigéieren", "es": "El error será corregido. → Corregimos el error antes del viernes."}
+   ]
+  },
+  "vocab": [
+   {"text": "iwwerhëlt", "es": "asume", "example": "D'Direktioun iwwerhëlt déi voll Verantwortung.", "example_es": "La dirección asume toda la responsabilidad."},
+   {"text": "betraff", "es": "afectado", "example": "Ongeféier 4.000 Cliente si vum Feeler betraff.", "example_es": "Unos 4.000 clientes están afectados por el error."},
+   {"text": "ënner den Teppech", "es": "(barrer) bajo la alfombra", "example": "Mir wëllen d'Affär net ënner den Teppech kieren.", "example_es": "No queremos barrer el asunto bajo la alfombra."},
+   {"text": "erëmzegewannen", "es": "recuperar", "example": "Et brauch Zäit, fir d'Vertrauen erëmzegewannen.", "example_es": "Hace falta tiempo para recuperar la confianza."}
+  ],
+  "transfer": {
+   "prompt": "Redacta la disculpa pública (6–8 frases) de la aseguradora a sus clientes tras la filtración de datos: en voz activa, con responsabilidad clara; qué pasó, a quién afecta, qué se ha hecho y qué recibirá cada cliente.",
+   "model": "Léif Clienten, mir hunn Äert Vertrauen enttäuscht, an dofir entschëllege mir eis ouni Virbehalt. Den 14. Oktober huet een ouni Erlaabnis Zougang zu enger vun eise Clientedatebanke kritt, well mir e Sécherheetssystem net rechtzäiteg aktualiséiert haten. Dat war eise Feeler, keen onglécklechen Zoufall. Ongeféier 4.000 Cliente si betraff; Nimm an Adressen sinn erauskomm, mä keng Kaartendonnéeën. Mir hunn d'Lück zougemaach, d'Affär bei der Police gemellt an eis Systemer vun engem onofhängegen Expert iwwerpréiwe gelooss. All betraffene Client kritt haut e perséinleche Bréif mat Instruktiounen an e Joer gratis Iwwerwaachung vu senger Identitéit. Mir wëssen, datt ee Vertrauen net mat engem Bréif erëmgewënnt, mä mat Handlungen — an déi wäerte mir Iech weisen.",
+   "rubric": "Usa la voz activa y el sujeto «mir» para asumir la culpa; evita fórmulas evasivas («falls een sech geiergert huet»); precisa qué ocurrió, cuándo y a cuántos afecta; enumera medidas concretas ya tomadas; indica qué recibe cada afectado; tono sobrio, sin dramatismo ni juridicismos."
+  }
+ }
+}

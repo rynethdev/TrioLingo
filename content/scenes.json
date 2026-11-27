@@ -1,0 +1,1135 @@
+[
+  {
+    "id": "lb-a1",
+    "lang": "lb",
+    "level": "A1",
+    "title": "Pedir en una cafetería",
+    "goal": "Pide una bebida, entiende el precio y da las gracias.",
+    "setup": "Estás en una cafetería del barrio. Pide algo para llevar.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Moien! Wat kritt Dir?",
+        "es": "¡Hola! ¿Qué le pongo?"
+      },
+      {
+        "speaker": 1,
+        "text": "Ee Kaffi, wann ech gelift.",
+        "es": "Un café, por favor."
+      },
+      {
+        "speaker": 0,
+        "text": "Fir hei oder fir matzehuelen?",
+        "es": "¿Para aquí o para llevar?"
+      },
+      {
+        "speaker": 1,
+        "text": "Fir matzehuelen, wann ech gelift.",
+        "es": "Para llevar, por favor."
+      },
+      {
+        "speaker": 0,
+        "text": "Dat mécht dräi Euro.",
+        "es": "Son tres euros."
+      },
+      {
+        "speaker": 1,
+        "text": "Hei, merci!",
+        "es": "Aquí tiene, ¡gracias!"
+      }
+    ],
+    "listening": {
+      "prompt": "¿Cuánto cuesta el café?",
+      "choices": [
+        "Dos euros",
+        "Tres euros",
+        "Cuatro euros"
+      ],
+      "answer": 1
+    },
+    "turns": [
+      {
+        "prompt": "Moien! Wat kritt Dir?",
+        "es": "Pide un café.",
+        "model": "Ee Kaffi, wann ech gelift.",
+        "model_es": "Un café, por favor.",
+        "accepted": [
+          "Ech hätt gär ee Kaffi.",
+          "Ee Kaffi, wannechgelift.",
+          "E Kaffi, wann ech gelift.",
+          "E Kaffi, wannechgelift."
+        ],
+        "tip": "Usa ee con Kaffi y añade wann ech gelift para pedir con cortesía.",
+        "mistakes": [
+          {
+            "text": "Eng Kaffi wann ech gelift",
+            "explanation": "Kaffi es masculino. Usa ee Kaffi."
+          }
+        ]
+      },
+      {
+        "prompt": "Fir hei oder fir matzehuelen?",
+        "es": "Di que es para llevar.",
+        "model": "Fir matzehuelen, wann ech gelift.",
+        "model_es": "Para llevar, por favor.",
+        "accepted": [
+          "Fir matzehuelen.",
+          "Fir matzehuelen, wannechgelift."
+        ],
+        "tip": "Fir matzehuelen es la expresión que necesitas para llevarte el pedido.",
+        "mistakes": [
+          {
+            "text": "Fir mat huelen",
+            "explanation": "La forma usada aquí es matzehuelen, en una sola palabra."
+          }
+        ]
+      },
+      {
+        "prompt": "Dat mécht dräi Euro.",
+        "es": "Di que aquí tiene y da las gracias.",
+        "model": "Hei, merci!",
+        "model_es": "Aquí tiene, ¡gracias!",
+        "accepted": [
+          "Merci!",
+          "Hei, villmools merci!"
+        ],
+        "tip": "Merci basta para agradecer. Villmools merci significa muchas gracias."
+      }
+    ],
+    "reading": {
+      "text": "Haut: Kaffi 3 €, Téi 2 €. D’Café mécht um sechs Auer zou.",
+      "prompt": "¿A qué hora cierra?",
+      "choices": [
+        "A las seis",
+        "A las dos",
+        "A las tres"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Escribe cómo pedirías un té de forma cortés.",
+      "model": "Een Téi, wann ech gelift.",
+      "rubric": "Incluye Téi y una fórmula de cortesía."
+    }
+  },
+  {
+    "id": "lb-a2",
+    "lang": "lb",
+    "level": "A2",
+    "title": "Cambiar una cita",
+    "goal": "Propón un nuevo día y confirma la hora.",
+    "setup": "El miércoles ya no puedes ir. Pide una cita el viernes.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Dir hutt e Rendez-vous e Mëttwoch.",
+        "es": "Tiene una cita el miércoles."
+      },
+      {
+        "speaker": 1,
+        "text": "Dee Moment kann ech net. Geet et och e Freideg?",
+        "es": "En ese momento no puedo. ¿Puede ser el viernes?"
+      },
+      {
+        "speaker": 0,
+        "text": "Jo, e Freideg um zéng Auer ass nach fräi.",
+        "es": "Sí, el viernes a las diez aún está libre."
+      },
+      {
+        "speaker": 1,
+        "text": "Dat passt. Merci fir Är Hëllef.",
+        "es": "Me viene bien. Gracias por su ayuda."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Cuándo queda la cita?",
+      "choices": [
+        "Miércoles a las diez",
+        "Viernes a las diez",
+        "Viernes a las ocho"
+      ],
+      "answer": 1
+    },
+    "turns": [
+      {
+        "prompt": "Passt Iech e Mëttwoch?",
+        "es": "Di que el miércoles no puedes.",
+        "model": "E Mëttwoch kann ech net.",
+        "model_es": "El miércoles no puedo.",
+        "accepted": [
+          "Ech kann e Mëttwoch net."
+        ],
+        "tip": "Net niega la disponibilidad. E Mëttwoch indica el día.",
+        "mistakes": [
+          {
+            "text": "E Mëttwoch ech kann net",
+            "explanation": "Cuando empiezas con e Mëttwoch, kann ocupa la segunda posición y ech va después."
+          }
+        ]
+      },
+      {
+        "prompt": "Wéini kënnt Dir dann?",
+        "es": "Propón el viernes.",
+        "model": "Geet et och e Freideg?",
+        "model_es": "¿Puede ser el viernes?",
+        "accepted": [
+          "E Freideg kann ech.",
+          "Geet et e Freideg?"
+        ],
+        "tip": "Geet et…? sirve para comprobar si una alternativa es posible."
+      },
+      {
+        "prompt": "E Freideg um zéng Auer?",
+        "es": "Confirma y agradece.",
+        "model": "Jo, dat passt. Merci!",
+        "model_es": "Sí, me viene bien. ¡Gracias!",
+        "accepted": [
+          "Dat passt, merci."
+        ],
+        "tip": "Dat passt confirma que la propuesta te viene bien."
+      }
+    ],
+    "reading": {
+      "text": "Äre Rendez-vous ass e Freideg um zéng Auer. Kommt w.e.g. zéng Minutte méi fréi.",
+      "prompt": "¿Cuándo te piden llegar?",
+      "choices": [
+        "Diez minutos antes",
+        "A las diez en punto",
+        "Diez minutos después"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Escribe un mensaje breve proponiendo el viernes a las diez.",
+      "model": "Geet et e Freideg um zéng Auer?",
+      "rubric": "Incluye el día, la hora y una petición clara."
+    }
+  },
+  {
+    "id": "lb-b1",
+    "lang": "lb",
+    "level": "B1",
+    "title": "Llamar por una avería",
+    "goal": "Describe la avería y organiza una visita.",
+    "setup": "Desde ayer falla la calefacción. Estarás en casa después de las cuatro.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Gudde Moien. Wéi kann ech Iech hëllefen?",
+        "es": "Buenos días. ¿En qué puedo ayudarle?"
+      },
+      {
+        "speaker": 1,
+        "text": "D’Heizung funktionéiert zënter gëschter net méi.",
+        "es": "La calefacción dejó de funcionar ayer."
+      },
+      {
+        "speaker": 0,
+        "text": "Ass dat an der ganzer Wunneng esou?",
+        "es": "¿Pasa en todo el piso?"
+      },
+      {
+        "speaker": 1,
+        "text": "Jo. An der Stuff ass et besonnesch kal.",
+        "es": "Sí. En el salón hace especialmente frío."
+      },
+      {
+        "speaker": 0,
+        "text": "Ech kann de Mecanicien muer de Mëtteg schécken.",
+        "es": "Puedo enviar al técnico mañana por la tarde."
+      },
+      {
+        "speaker": 1,
+        "text": "Ech sinn eréischt no véier Auer doheem.",
+        "es": "No estaré en casa hasta después de las cuatro."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué se estropeó?",
+      "choices": [
+        "El timbre",
+        "La calefacción",
+        "La ducha"
+      ],
+      "answer": 1
+    },
+    "turns": [
+      {
+        "prompt": "Wat ass de Problem?",
+        "es": "Explica qué dejó de funcionar y desde cuándo.",
+        "model": "D’Heizung funktionéiert zënter gëschter net méi.",
+        "model_es": "La calefacción dejó de funcionar ayer.",
+        "accepted": [
+          "Zënter gëschter geet d’Heizung net méi."
+        ],
+        "tip": "Usa zënter para indicar desde cuándo sigue ocurriendo algo."
+      },
+      {
+        "prompt": "A wéi engem Zëmmer ass et am keelsten?",
+        "es": "Di que en el salón hace más frío.",
+        "model": "An der Stuff ass et am keelsten.",
+        "model_es": "En el salón es donde más frío hace.",
+        "accepted": [
+          "Et ass am keelsten an der Stuff."
+        ],
+        "tip": "Am keelsten expresa un superlativo."
+      },
+      {
+        "prompt": "Wéini sidd Dir muer doheem?",
+        "es": "Da tu disponibilidad para después de las cuatro.",
+        "model": "Ech sinn eréischt no véier Auer doheem.",
+        "model_es": "No estaré en casa hasta después de las cuatro.",
+        "accepted": [
+          "No véier Auer sinn ech doheem."
+        ],
+        "tip": "Indica una condición de horario con no véier Auer. Eréischt subraya que antes no puedes."
+      }
+    ],
+    "reading": {
+      "text": "De Mecanicien kënnt en Dënschdeg tëscht véier a sechs Auer. Wann Dir net do sidd, rufft eis un.",
+      "prompt": "¿Qué haces si no puedes estar?",
+      "choices": [
+        "Mandar un correo",
+        "Llamar",
+        "Dejar la puerta abierta"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Deja un mensaje para avisar de la avería y dar tu disponibilidad.",
+      "model": "Moien, d’Heizung geet zënter gëschter net méi. Ech sinn muer no véier Auer doheem.",
+      "rubric": "Indica qué falla, desde cuándo y a partir de qué hora estás disponible."
+    }
+  },
+  {
+    "id": "lb-b2",
+    "lang": "lb",
+    "level": "B2",
+    "title": "Negociar un turno",
+    "goal": "Explica qué necesitas y ofrece un intercambio viable.",
+    "setup": "Necesitas el viernes libre. Puedes cubrir el sábado por la mañana.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Wann s du e Freideg net schaffs, feelt eis eng Persoun fir zouzemaachen.",
+        "es": "Si el viernes no trabajas, nos falta alguien para cerrar."
+      },
+      {
+        "speaker": 1,
+        "text": "Dat verstinn ech. Ech kéint e Samschdeg moies fir dech asprangen.",
+        "es": "Lo entiendo. Podría cubrirte el sábado por la mañana."
+      },
+      {
+        "speaker": 0,
+        "text": "Dat géif mir hëllefen, mä fir e Freideg brauche mir nach eng Léisung.",
+        "es": "Eso me ayudaría, pero aún necesitamos una solución para el viernes."
+      },
+      {
+        "speaker": 1,
+        "text": "Da froen ech d’Mia. Si huet mer gesot, datt si dës Woch flexibel ass.",
+        "es": "Entonces le pregunto a Mia. Me dijo que esta semana es flexible."
+      },
+      {
+        "speaker": 0,
+        "text": "Gär, awer d’Ännerung muss bis haut den Owend feststoen.",
+        "es": "De acuerdo, pero el cambio debe quedar cerrado esta noche."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué condición pone la otra persona?",
+      "choices": [
+        "Resolver el cambio esta noche",
+        "Que Mia trabaje el sábado",
+        "Abrir más tarde el viernes"
+      ],
+      "answer": 0
+    },
+    "turns": [
+      {
+        "prompt": "E Freideg brauche mir een, dee zoumécht.",
+        "es": "Reconoce el problema y ofrece cubrir el sábado.",
+        "model": "Dat verstinn ech. Ech kéint e Samschdeg fir dech asprangen.",
+        "model_es": "Lo entiendo. Podría cubrirte el sábado.",
+        "accepted": [
+          "Ech kann fir dech asprangen, an zwar e Samschdeg."
+        ],
+        "tip": "Kéint suaviza tu propuesta. Fir een asprangen significa cubrir a alguien."
+      },
+      {
+        "prompt": "A wien iwwerhëlt de Freideg?",
+        "es": "Propón preguntarle a Mia y explica por qué.",
+        "model": "Ech froen d’Mia, well si dës Woch flexibel ass.",
+        "model_es": "Le preguntaré a Mia porque esta semana es flexible.",
+        "accepted": [],
+        "tip": "Después de well, el verbo conjugado queda al final de la subordinada.",
+        "mistakes": [
+          {
+            "text": "Ech froen d’Mia well si ass flexibel dës Woch",
+            "explanation": "En la subordinada con well, coloca ass al final."
+          }
+        ]
+      },
+      {
+        "prompt": "Ech muss et haut den Owend wëssen.",
+        "es": "Comprométete a confirmarlo a tiempo.",
+        "model": "Ech soen dir haut den Owend Bescheed.",
+        "model_es": "Te aviso esta noche.",
+        "accepted": [],
+        "tip": "Engem Bescheed soen es avisar o informar a alguien."
+      }
+    ],
+    "reading": {
+      "text": "Ee Wiessel ass eréischt definitiv, wann déi zwou Persounen zougestëmmt hunn an d’Responsabel informéiert ass.",
+      "prompt": "¿Qué hace definitivo el cambio?",
+      "choices": [
+        "El acuerdo de dos personas y avisar a la responsable",
+        "Solo comunicarlo",
+        "Que lo haya propuesto Mia"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Escribe una propuesta de intercambio con una alternativa.",
+      "model": "Ech géif gär e Freideg fräihuelen. Ech kéint e Samschdeg asprangen. Wann dat net geet, froen ech d’Mia.",
+      "rubric": "Plantea la petición, ofrece algo concreto y prevé una alternativa."
+    }
+  },
+  {
+    "id": "lb-c1",
+    "lang": "lb",
+    "level": "C1",
+    "title": "Resolver un desacuerdo",
+    "goal": "Reconoce la preocupación real y propone una decisión reversible.",
+    "setup": "Tu equipo discute un nuevo proceso. Un colega teme que aumente la carga de trabajo.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Um Pabeier gesäit dat gutt aus. Ech froe mech just, wien et um Enn organiséiere soll.",
+        "es": "Sobre el papel se ve bien. Solo me pregunto quién lo organizará al final."
+      },
+      {
+        "speaker": 1,
+        "text": "Du hues Angscht, datt um Enn nach méi Aarbecht bei dir hänke bleift?",
+        "es": "¿Te preocupa que al final termines con más trabajo?"
+      },
+      {
+        "speaker": 0,
+        "text": "Genee. Déi lescht Kéier hu mir och gesot, et wier nëmme provisoresch.",
+        "es": "Exacto. La última vez también dijimos que era solo provisional."
+      },
+      {
+        "speaker": 1,
+        "text": "Da géif ech virschloen, datt mir fir den Test kloer festhalen, wien wat iwwerhëlt.",
+        "es": "Propongo que para la prueba dejemos claro quién se encarga de qué."
+      },
+      {
+        "speaker": 0,
+        "text": "Domat kéint ech liewen, wann d’Responsabilitéiten och schrëftlech festgehale ginn.",
+        "es": "Podría aceptarlo si las responsabilidades también quedan por escrito."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué le preocupa principalmente al colega?",
+      "choices": [
+        "La redacción de la propuesta",
+        "Quién acabará asumiendo más trabajo",
+        "Que el periodo de prueba sea caro"
+      ],
+      "answer": 1
+    },
+    "turns": [
+      {
+        "prompt": "Um Pabeier gesäit et gutt aus. Awer wien organiséiert dat?",
+        "es": "Haz explícita la preocupación sin darla por segura.",
+        "model": "Wann ech dech richteg verstinn, méchs du dir Suergen ëm déi zousätzlech Aarbecht.",
+        "model_es": "Si te entiendo bien, te preocupa el trabajo adicional.",
+        "accepted": [],
+        "tip": "Wann ech dech richteg verstinn deja espacio para que la otra persona te corrija."
+      },
+      {
+        "prompt": "Déi lescht Kéier sollt et och nëmme provisoresch sinn.",
+        "es": "Propón una prueba con una revisión a las dos semanas.",
+        "model": "Ech géif virschloen, datt mir et zwou Woche laang testen an dann zesummen evaluéieren.",
+        "model_es": "Propongo probarlo dos semanas y evaluarlo juntos después.",
+        "accepted": [],
+        "tip": "El condicional géif virschloen ayuda a presentar una propuesta negociable."
+      },
+      {
+        "prompt": "A wéi vermeide mir Mëssverständnesser?",
+        "es": "Propón dejar constancia por escrito de las responsabilidades.",
+        "model": "Mir kéinten am Viraus schrëftlech festhalen, wien fir wat responsabel ass.",
+        "model_es": "Podríamos dejar por escrito de antemano quién se encarga de qué.",
+        "accepted": [],
+        "tip": "Am Viraus expresa que lo harás antes de empezar."
+      }
+    ],
+    "reading": {
+      "text": "De Versuch gëtt no zwou Wochen evaluéiert. Bis dohinner ginn d’Aufgaben no engem schrëftleche Plang verdeelt.",
+      "prompt": "¿Qué ocurre durante la prueba?",
+      "choices": [
+        "Se mantienen las tareas sin distribuir",
+        "Se asignan tareas según un plan escrito",
+        "Se aprueba el proceso definitivo"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Resume para el equipo el acuerdo sin atribuir culpas.",
+      "model": "Mir testen déi nei Method zwou Wochen. D’Aufgabe gi virdru schrëftlech verdeelt. Duerno kucke mir zesummen, wat sech bewäert huet.",
+      "rubric": "Mantén un registro profesional y distingue prueba, responsabilidades y revisión."
+    }
+  },
+  {
+    "id": "lb-c2",
+    "lang": "lb",
+    "level": "C2",
+    "title": "Mediar en un conflicto",
+    "goal": "Reconoce una indirecta y preserva los intereses de ambas partes.",
+    "setup": "Dos vecinos discrepan sobre el ruido del patio. Media sin minimizar el descanso ni el uso compartido.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Et ass immens frëndlech, datt d’Musek ëmmer genee da méi haart gëtt, wann d’Kanner solle schlofen.",
+        "es": "Es muy amable que la música siempre suba justo cuando los niños tienen que dormir."
+      },
+      {
+        "speaker": 1,
+        "text": "Elo gëtt doraus gemaach, wéi wa mir all Owend eng Party géife feieren.",
+        "es": "Ahora lo hacen parecer como si diéramos una fiesta cada noche."
+      },
+      {
+        "speaker": 0,
+        "text": "Ech héieren zwou Suergen: Rou owes an d’Méiglechkeet, den Haff weider zesummen ze benotzen.",
+        "es": "Escucho dos preocupaciones: el descanso por la noche y poder seguir compartiendo el patio."
+      },
+      {
+        "speaker": 1,
+        "text": "Mir geet et drëm, datt d’Kanner schlofe kënnen. Heiansdo ass d’Musek och bei zouene Fënsteren ze héieren.",
+        "es": "Lo que quiero es que los niños puedan dormir. A veces la música se oye incluso con las ventanas cerradas."
+      },
+      {
+        "speaker": 0,
+        "text": "Domat kann ech eppes ufänken. Eng kloer Zäitreegel wier méi fair wéi all Kéier dee selwechte Sträit.",
+        "es": "Con eso sí puedo trabajar. Una regla de horarios sería más justa que discutir siempre por lo mismo."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué hace la primera persona con «immens frëndlech»?",
+      "choices": [
+        "Celebra que pongan música",
+        "Da una instrucción literal",
+        "Expresa su molestia con ironía"
+      ],
+      "answer": 2
+    },
+    "turns": [
+      {
+        "prompt": "Dat ass immens frëndlech, grad wann d’Kanner schlofe sollen.",
+        "es": "Reformula la ironía como una preocupación concreta.",
+        "model": "Ech verstinn, datt de Kaméidi zu där Zäit et de Kanner schwéier mécht, anzeschlofen.",
+        "model_es": "Entiendo que el ruido a esa hora les dificulta conciliar el sueño a los niños.",
+        "accepted": [],
+        "tip": "Transforma la ironía en su efecto concreto sin avalar una generalización."
+      },
+      {
+        "prompt": "Et gëtt gemaach, wéi wa mir all Owend géife feieren.",
+        "es": "Reconoce que la otra parte se siente generalizada, preservando la queja concreta.",
+        "model": "Dir wëllt net, datt een aus e puer Owender eng allgemeng Reegel mécht. Gläichzäiteg bleift de Kaméidi op deene konkreten Owender e Problem.",
+        "model_es": "No quiere que se generalice a partir de unas noches. A la vez, el ruido en esas noches sigue siendo un problema.",
+        "accepted": [],
+        "tip": "Gläichzäiteg permite sostener las dos posturas sin confundirlas."
+      },
+      {
+        "prompt": "Wat kéint fir eis alleguer funktionéieren?",
+        "es": "Propón una regla a prueba y cuándo revisarla.",
+        "model": "Mir kéinten eis fir zwou Wochen op eng Rouzäit eenegen an duerno kucken, ob d’Reegel fir béid Säite funktionéiert.",
+        "model_es": "Podríamos acordar un horario de silencio durante dos semanas y ver después si funciona para ambas partes.",
+        "accepted": [],
+        "tip": "Sich op eppes eenegen expresa llegar a un acuerdo sobre algo."
+      }
+    ],
+    "reading": {
+      "text": "D’Rouzäit ass eng Testreegel. Wann et eng Ausnam gëtt, soll se virdru mat den Noperen ofgeschwat ginn.",
+      "prompt": "¿Cómo se gestiona una excepción?",
+      "choices": [
+        "Por aviso posterior",
+        "De acuerdo con los vecinos de antemano",
+        "Las excepciones quedan prohibidas"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Redacta una nota neutral que diferencie preocupaciones, regla y excepción.",
+      "model": "Béid Säite wëllen den Haff weider benotzen an owes genuch Rou hunn. Mir testen eng fest Rouzäit. Ausname gi virdru mat den Noperen ofgeschwat.",
+      "rubric": "Evita exageraciones y especifica cómo se acuerdan excepciones."
+    }
+  },
+  {
+    "id": "da-a1",
+    "lang": "da",
+    "level": "A1",
+    "title": "Pedir en una cafetería",
+    "goal": "Pide una bebida, entiende el precio y da las gracias.",
+    "setup": "Estás en una cafetería del barrio. Pide algo para llevar.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hej! Hvad skulle det være?",
+        "es": "¡Hola! ¿Qué le pongo?"
+      },
+      {
+        "speaker": 1,
+        "text": "En kaffe, tak.",
+        "es": "Un café, por favor."
+      },
+      {
+        "speaker": 0,
+        "text": "Til at tage med eller til at drikke her?",
+        "es": "¿Para llevar o para tomar aquí?"
+      },
+      {
+        "speaker": 1,
+        "text": "Til at tage med, tak.",
+        "es": "Para llevar, por favor."
+      },
+      {
+        "speaker": 0,
+        "text": "Det bliver tredive kroner.",
+        "es": "Son treinta coronas."
+      },
+      {
+        "speaker": 1,
+        "text": "Værsgo. Tak!",
+        "es": "Aquí tiene. ¡Gracias!"
+      }
+    ],
+    "listening": {
+      "prompt": "¿Cuánto cuesta el café?",
+      "choices": [
+        "20 coronas",
+        "30 coronas",
+        "40 coronas"
+      ],
+      "answer": 1
+    },
+    "turns": [
+      {
+        "prompt": "Hej! Hvad skulle det være?",
+        "es": "Pide un café.",
+        "model": "En kaffe, tak.",
+        "model_es": "Un café, por favor.",
+        "accepted": [
+          "Jeg vil gerne have en kaffe."
+        ],
+        "tip": "Añade tak al final de un pedido corto.",
+        "mistakes": [
+          {
+            "text": "Et kaffe tak",
+            "explanation": "Usa en kaffe. Kaffe lleva en."
+          }
+        ]
+      },
+      {
+        "prompt": "Skal du drikke den her?",
+        "es": "Di que es para llevar.",
+        "model": "Til at tage med, tak.",
+        "model_es": "Para llevar, por favor.",
+        "accepted": [
+          "Jeg vil gerne tage den med.",
+          "Til at tage med."
+        ],
+        "tip": "Tage med expresa llevarse algo.",
+        "mistakes": [
+          {
+            "text": "Til tage med tak",
+            "explanation": "Añade at después de til: til at tage med."
+          }
+        ]
+      },
+      {
+        "prompt": "Det bliver tredive kroner.",
+        "es": "Di aquí tiene y agradece.",
+        "model": "Værsgo. Tak!",
+        "model_es": "Aquí tiene. ¡Gracias!",
+        "accepted": [
+          "Værsgo.",
+          "Vær så god. Tak!"
+        ],
+        "tip": "Værsgo se usa al ofrecer o entregar algo."
+      }
+    ],
+    "reading": {
+      "text": "Kaffe 30 kr. Te 25 kr. Vi lukker klokken 18.",
+      "prompt": "¿A qué hora cierra?",
+      "choices": [
+        "A las 18",
+        "A las 15",
+        "A las 20"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Escribe cómo pedirías un té de forma cortés.",
+      "model": "En te, tak.",
+      "rubric": "Nombra la bebida y añade tak o una petición cortés."
+    }
+  },
+  {
+    "id": "da-a2",
+    "lang": "da",
+    "level": "A2",
+    "title": "Cambiar una cita",
+    "goal": "Propón un día alternativo y confirma la hora.",
+    "setup": "El miércoles no te sirve. Pide una cita el viernes.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Du har en tid på onsdag.",
+        "es": "Tienes una cita el miércoles."
+      },
+      {
+        "speaker": 1,
+        "text": "Det kan jeg desværre ikke. Har I en tid på fredag?",
+        "es": "Lamentablemente no puedo. ¿Tienen una cita el viernes?"
+      },
+      {
+        "speaker": 0,
+        "text": "Ja, klokken ti er ledig.",
+        "es": "Sí, las diez están libres."
+      },
+      {
+        "speaker": 1,
+        "text": "Det passer fint. Mange tak for hjælpen.",
+        "es": "Me viene muy bien. Muchas gracias por la ayuda."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Para cuándo queda la cita?",
+      "choices": [
+        "Miércoles a las diez",
+        "Viernes a las diez",
+        "Viernes a las doce"
+      ],
+      "answer": 1
+    },
+    "turns": [
+      {
+        "prompt": "Kan du komme på onsdag?",
+        "es": "Di que el miércoles no puedes.",
+        "model": "Jeg kan desværre ikke på onsdag.",
+        "model_es": "Lamentablemente no puedo el miércoles.",
+        "accepted": [
+          "På onsdag kan jeg ikke.",
+          "Jeg kan ikke på onsdag."
+        ],
+        "tip": "En una oración principal, ikke normalmente va después del verbo conjugado.",
+        "mistakes": [
+          {
+            "text": "Jeg ikke kan på onsdag",
+            "explanation": "En esta oración principal, ikke va después de kan."
+          }
+        ]
+      },
+      {
+        "prompt": "Hvornår kan du komme?",
+        "es": "Pregunta si hay hora el viernes.",
+        "model": "Har I en tid på fredag?",
+        "model_es": "¿Tienen una cita el viernes?",
+        "accepted": [
+          "Kan jeg komme på fredag?"
+        ],
+        "tip": "Pon el verbo primero en una pregunta de sí o no.",
+        "mistakes": [
+          {
+            "text": "I har en tid på fredag",
+            "explanation": "Para preguntar si hay hora, pon har antes del sujeto I."
+          }
+        ]
+      },
+      {
+        "prompt": "Passer klokken ti?",
+        "es": "Confirma y agradece.",
+        "model": "Ja, det passer fint. Tak!",
+        "model_es": "Sí, me viene muy bien. ¡Gracias!",
+        "accepted": [
+          "Det passer fint, tak."
+        ],
+        "tip": "Det passer indica que el horario te conviene."
+      }
+    ],
+    "reading": {
+      "text": "Din tid er fredag kl. 10. Mød venligst ti minutter før.",
+      "prompt": "¿Cuándo te piden llegar?",
+      "choices": [
+        "Diez minutos antes",
+        "Diez minutos después",
+        "A las diez en punto"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Escribe un mensaje proponiendo el viernes a las diez.",
+      "model": "Kan jeg få en tid på fredag klokken ti?",
+      "rubric": "Incluye día, hora y una petición clara."
+    }
+  },
+  {
+    "id": "da-b1",
+    "lang": "da",
+    "level": "B1",
+    "title": "Llamar por una avería",
+    "goal": "Describe qué se estropeó y coordina una visita.",
+    "setup": "La calefacción falla desde ayer. Llegarás a casa después de las cuatro.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Godmorgen! Hvad kan jeg hjælpe med?",
+        "es": "¡Buenos días! ¿En qué puedo ayudar?"
+      },
+      {
+        "speaker": 1,
+        "text": "Radiatorerne har ikke virket siden i går.",
+        "es": "Los radiadores no funcionan desde ayer."
+      },
+      {
+        "speaker": 0,
+        "text": "Er det i hele lejligheden?",
+        "es": "¿Es en todo el piso?"
+      },
+      {
+        "speaker": 1,
+        "text": "Ja. Det er allerkoldest i stuen.",
+        "es": "Sí. Donde más frío hace es en el salón."
+      },
+      {
+        "speaker": 0,
+        "text": "Vi kan sende en tekniker i morgen eftermiddag.",
+        "es": "Podemos enviar a un técnico mañana por la tarde."
+      },
+      {
+        "speaker": 1,
+        "text": "Jeg er først hjemme efter klokken fire.",
+        "es": "Solo estaré en casa después de las cuatro."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Desde cuándo falla la calefacción?",
+      "choices": [
+        "Desde hoy",
+        "Desde ayer",
+        "Desde la semana pasada"
+      ],
+      "answer": 1
+    },
+    "turns": [
+      {
+        "prompt": "Hvad er problemet?",
+        "es": "Explica qué dejó de funcionar y desde cuándo.",
+        "model": "Radiatorerne har ikke virket siden i går.",
+        "model_es": "Los radiadores no funcionan desde ayer.",
+        "accepted": [
+          "Varmen har ikke virket siden i går."
+        ],
+        "tip": "Siden introduce el momento desde el que continúa el problema.",
+        "mistakes": [
+          {
+            "text": "Radiatorerne ikke har virket siden i går",
+            "explanation": "Coloca ikke después del auxiliar har en esta oración principal."
+          }
+        ]
+      },
+      {
+        "prompt": "Hvor er det værst?",
+        "es": "Di que donde más frío hace es en el salón.",
+        "model": "Det er koldest i stuen.",
+        "model_es": "Donde más frío hace es en el salón.",
+        "accepted": [
+          "Der er koldest i stuen."
+        ],
+        "tip": "Koldest es el superlativo de kold."
+      },
+      {
+        "prompt": "Hvornår er du hjemme i morgen?",
+        "es": "Da tu disponibilidad para después de las cuatro.",
+        "model": "Jeg er først hjemme efter klokken fire.",
+        "model_es": "No estaré en casa hasta después de las cuatro.",
+        "accepted": [
+          "Jeg er hjemme efter klokken fire."
+        ],
+        "tip": "Først subraya que no estarás allí antes."
+      }
+    ],
+    "reading": {
+      "text": "Teknikeren kommer tirsdag mellem kl. 16 og 18. Ring, hvis du ikke kan være hjemme.",
+      "prompt": "¿Qué haces si no puedes estar?",
+      "choices": [
+        "Escribir un correo",
+        "Llamar",
+        "Dejar abierta la puerta"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe a mantenimiento explicando la avería y tu disponibilidad.",
+      "model": "Hej, radiatorerne har ikke virket siden i går. Jeg er hjemme efter klokken fire i morgen.",
+      "rubric": "Identifica el problema, su duración y tu disponibilidad."
+    }
+  },
+  {
+    "id": "da-b2",
+    "lang": "da",
+    "level": "B2",
+    "title": "Negociar un turno",
+    "goal": "Defiende una petición y ofrece un intercambio viable.",
+    "setup": "Necesitas el viernes libre. Puedes cubrir el sábado por la mañana.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hvis du ikke kommer på fredag, mangler vi en til at lukke.",
+        "es": "Si no vienes el viernes, nos falta alguien para cerrar."
+      },
+      {
+        "speaker": 1,
+        "text": "Det forstår jeg. Jeg kunne tage din vagt lørdag morgen.",
+        "es": "Lo entiendo. Podría cubrir tu turno el sábado por la mañana."
+      },
+      {
+        "speaker": 0,
+        "text": "Det ville hjælpe mig, men det løser ikke problemet på fredag.",
+        "es": "Me ayudaría, pero no resuelve el problema del viernes."
+      },
+      {
+        "speaker": 1,
+        "text": "Så spørger jeg Mia. Hun sagde, at hun var fleksibel i denne uge.",
+        "es": "Entonces le pregunto a Mia. Dijo que tenía flexibilidad esta semana."
+      },
+      {
+        "speaker": 0,
+        "text": "Fint, bare vi får det på plads inden i aften.",
+        "es": "Bien, siempre que lo resolvamos antes de esta noche."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué condición pone la otra persona?",
+      "choices": [
+        "Resolver el cambio antes de esta noche",
+        "Que Mia cubra el sábado",
+        "Hacer el relevo el jueves"
+      ],
+      "answer": 0
+    },
+    "turns": [
+      {
+        "prompt": "Hvem skal så lukke på fredag?",
+        "es": "Reconoce la objeción y ofrece cubrir el sábado.",
+        "model": "Det forstår jeg. Jeg kunne tage din vagt på lørdag.",
+        "model_es": "Lo entiendo. Podría cubrir tu turno el sábado.",
+        "accepted": [
+          "Jeg kan tage din vagt på lørdag."
+        ],
+        "tip": "Kunne presenta la oferta con menos imposición que kan."
+      },
+      {
+        "prompt": "Hvem vil du spørge om fredagsvagten?",
+        "es": "Propón preguntar a Mia y explica por qué.",
+        "model": "Jeg spørger Mia, fordi hun er fleksibel i denne uge.",
+        "model_es": "Le preguntaré a Mia porque tiene flexibilidad esta semana.",
+        "accepted": [],
+        "tip": "Fordi introduce tu razón. Fleksibel describe la disponibilidad."
+      },
+      {
+        "prompt": "Jeg skal have besked inden i aften.",
+        "es": "Comprométete a contestar antes de esta noche.",
+        "model": "Jeg giver dig besked inden i aften.",
+        "model_es": "Te aviso antes de esta noche.",
+        "accepted": [],
+        "tip": "Give besked significa avisar o dar una respuesta."
+      }
+    ],
+    "reading": {
+      "text": "Et vagtbytte gælder først, når begge har sagt ja, og lederen har fået besked.",
+      "prompt": "¿Cuándo vale el cambio?",
+      "choices": [
+        "Cuando ambas personas aceptan y se avisa a la jefatura",
+        "Cuando alguien lo anota",
+        "Cuando una persona acepta"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Escribe una propuesta con otra salida si el intercambio falla.",
+      "model": "Jeg vil gerne have fri på fredag. Jeg kan tage lørdagsvagten. Hvis det ikke passer, spørger jeg Mia.",
+      "rubric": "Incluye petición, oferta y alternativa."
+    }
+  },
+  {
+    "id": "da-c1",
+    "lang": "da",
+    "level": "C1",
+    "title": "Resolver un desacuerdo",
+    "goal": "Detecta una preocupación implícita y propone una prueba reversible.",
+    "setup": "El equipo analiza un nuevo proceso. Un colega teme cargar con trabajo adicional.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Det ser jo fint ud på papiret. Jeg er bare spændt på, hvem der skal få det til at fungere i praksis.",
+        "es": "Sobre el papel está bien. Solo me pregunto quién hará que funcione en la práctica."
+      },
+      {
+        "speaker": 1,
+        "text": "Er du bekymret for, at opgaven ender hos dig?",
+        "es": "¿Te preocupa que la tarea termine recayendo en ti?"
+      },
+      {
+        "speaker": 0,
+        "text": "Ja. Sidste gang skulle det også bare være midlertidigt.",
+        "es": "Sí. La última vez también se suponía que era temporal."
+      },
+      {
+        "speaker": 1,
+        "text": "Hvad hvis vi fordeler opgaverne på forhånd og evaluerer ordningen efter to uger?",
+        "es": "¿Y si asignamos las tareas de antemano y evaluamos el sistema después de dos semanas?"
+      },
+      {
+        "speaker": 0,
+        "text": "Det kan jeg godt gå med til, hvis ansvaret også bliver beskrevet på skrift.",
+        "es": "Puedo aceptar eso si también quedan por escrito las responsabilidades."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué le preocupa al colega?",
+      "choices": [
+        "Que sea difícil leer la propuesta",
+        "Que se le acabe asignando el trabajo",
+        "Que la revisión sea demasiado pronto"
+      ],
+      "answer": 1
+    },
+    "turns": [
+      {
+        "prompt": "Jeg er spændt på, hvem der skal få det til at fungere.",
+        "es": "Comprueba qué le preocupa antes de proponer algo.",
+        "model": "Hvis jeg forstår dig rigtigt, er du bekymret for, at opgaven ender hos dig.",
+        "model_es": "Si te entiendo bien, te preocupa que la tarea recaiga en ti.",
+        "accepted": [],
+        "tip": "Hvis jeg forstår dig rigtigt deja abierta la posibilidad de haber entendido mal."
+      },
+      {
+        "prompt": "Sidste gang skulle det også bare være midlertidigt.",
+        "es": "Propón una prueba y una evaluación a las dos semanas.",
+        "model": "Vi kunne afprøve ordningen i to uger og evaluere den sammen bagefter.",
+        "model_es": "Podríamos probar el sistema dos semanas y evaluarlo juntos después.",
+        "accepted": [],
+        "tip": "Kunne afprøve plantea un ensayo. Bagefter sitúa la revisión después del ensayo."
+      },
+      {
+        "prompt": "Hvordan undgår vi, at der opstår uklarhed om ansvaret?",
+        "es": "Propón documentar quién se encarga de qué.",
+        "model": "Vi kunne skrive ned på forhånd, hvem der har ansvaret for hvad.",
+        "model_es": "Podríamos anotar de antemano quién se encarga de qué.",
+        "accepted": [],
+        "tip": "På forhånd indica que se hará antes de que empiece la prueba."
+      }
+    ],
+    "reading": {
+      "text": "Forsøget evalueres efter to uger. Indtil da fordeles opgaverne efter en skriftlig plan.",
+      "prompt": "¿Cómo se reparten las tareas?",
+      "choices": [
+        "Según un plan escrito",
+        "Cada uno elige sus tareas",
+        "Se reparten al final"
+      ],
+      "answer": 0
+    },
+    "writing": {
+      "prompt": "Envía al equipo un mensaje neutral que resuma lo acordado.",
+      "model": "Vi afprøver ordningen i to uger. Opgaverne fordeles på skrift, inden vi går i gang. Derefter vurderer vi i fællesskab, hvad der har virket.",
+      "rubric": "Aclara duración, reparto y revisión sin atribuir culpas."
+    }
+  },
+  {
+    "id": "da-c2",
+    "lang": "da",
+    "level": "C2",
+    "title": "Mediar en un conflicto",
+    "goal": "Reconoce la ironía y formula un acuerdo que conserve los matices.",
+    "setup": "Dos vecinos discuten sobre el ruido en el patio. Ayúdales a acordar una solución.",
+    "dialogue": [
+      {
+        "speaker": 0,
+        "text": "Hvor betænksomt, at musikken altid bliver skruet op, lige når børnene skal sove.",
+        "es": "Qué considerado que siempre suban la música justo cuando los niños tienen que dormir."
+      },
+      {
+        "speaker": 1,
+        "text": "Nu får du det til at lyde, som om vi holder fest hver eneste aften.",
+        "es": "Ahora haces que suene como si hiciéramos una fiesta todas las noches."
+      },
+      {
+        "speaker": 0,
+        "text": "Jeg hører et ønske om ro om aftenen og et ønske om fortsat at kunne bruge gården.",
+        "es": "Oigo un deseo de tranquilidad por la noche y de poder seguir usando el patio."
+      },
+      {
+        "speaker": 1,
+        "text": "Jeg har ikke noget imod, at folk er i gården. Nogle aftener kan musikken høres selv med vinduerne lukket.",
+        "es": "No me molesta que haya gente en el patio. Algunas noches se oye la música hasta con las ventanas cerradas."
+      },
+      {
+        "speaker": 0,
+        "text": "Det er noget andet end et krav om, at gården slet ikke må bruges. Vi kunne prøve at aftale et tidspunkt.",
+        "es": "Eso es distinto a exigir que no se use el patio en absoluto. Podríamos acordar una hora."
+      }
+    ],
+    "listening": {
+      "prompt": "¿Qué implica «Hvor betænksomt» en este diálogo?",
+      "choices": [
+        "Da las gracias",
+        "Solicita encender la música",
+        "Critica irónicamente el horario del ruido"
+      ],
+      "answer": 2
+    },
+    "turns": [
+      {
+        "prompt": "Hvor betænksomt, lige når børnene skal sove.",
+        "es": "Reformula la ironía como una preocupación concreta.",
+        "model": "Jeg forstår, at musikken gør det svært for børnene at falde i søvn på det tidspunkt.",
+        "model_es": "Entiendo que la música dificulta que los niños concilien el sueño a esa hora.",
+        "accepted": [],
+        "tip": "Describe el efecto del ruido. Así recoges la queja sin reproducir la ironía."
+      },
+      {
+        "prompt": "Du får det til at lyde, som om vi holder fest hver aften.",
+        "es": "Preserva el matiz entre algunas noches y todas las noches.",
+        "model": "Du vil gerne undgå, at enkelte aftener bliver gjort til en fast vane. Samtidig er der en konkret gene på de aftener.",
+        "model_es": "Quieres evitar que unas noches parezcan un hábito. A la vez, existe una molestia concreta en esas noches.",
+        "accepted": [],
+        "tip": "Samtidig une dos puntos que pueden ser ciertos al mismo tiempo."
+      },
+      {
+        "prompt": "Hvordan kan vi komme videre?",
+        "es": "Propón una regla temporal y una revisión conjunta.",
+        "model": "Vi kunne aftale et tidspunkt, hvor der skal være ro, og efter to uger vurdere, om ordningen fungerer for begge parter.",
+        "model_es": "Podríamos acordar una hora de silencio y evaluar tras dos semanas si funciona para ambas partes.",
+        "accepted": [],
+        "tip": "Begge parter deja explícito que la revisión toma en cuenta a los dos lados."
+      }
+    ],
+    "reading": {
+      "text": "Retningslinjen er foreløbig. Undtagelser skal aftales med naboerne på forhånd.",
+      "prompt": "¿Qué se deduce sobre la regla?",
+      "choices": [
+        "Es permanente",
+        "Admite excepciones acordadas previamente",
+        "Cada vecino puede decidir excepciones por su cuenta"
+      ],
+      "answer": 1
+    },
+    "writing": {
+      "prompt": "Escribe un acuerdo que recoja ambos intereses y permita excepciones.",
+      "model": "Gården kan stadig bruges af alle. Vi afprøver et fast tidspunkt for ro og vurderer ordningen efter to uger. Undtagelser aftales med naboerne på forhånd.",
+      "rubric": "Conserva el acceso común, el descanso, la revisión y el procedimiento para excepciones."
+    }
+  }
+]

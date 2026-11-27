@@ -1,0 +1,77 @@
+{
+ "week": 68,
+ "da": {
+  "dialogue2": {
+   "context": "Por la mañana, Nadia llama a su jefe para avisar de que está resfriada y no irá a trabajar.",
+   "lines": [
+    {"text": "Godmorgen Søren, jeg melder mig syg i dag.", "es": "Buenos días, Søren, hoy no voy a ir: estoy enferma."},
+    {"text": "Det var ærgerligt. Hvad er der galt?", "es": "Vaya, qué pena. ¿Qué te pasa?"},
+    {"text": "Jeg er blevet forkølet og har haft hovedpine siden i går.", "es": "Me he resfriado y me duele la cabeza desde ayer."},
+    {"text": "Så skal du blive i sengen og passe på dig selv.", "es": "Entonces quédate en la cama y cuídate."},
+    {"text": "Tak. Jeg tror, jeg er tilbage på torsdag.", "es": "Gracias. Creo que vuelvo el jueves."},
+    {"text": "Fint, jeg beder Anna om at tage dine møder.", "es": "Bien, le pido a Anna que se encargue de tus reuniones."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo se organiza el trabajo mientras Nadia está enferma?",
+   "choices": ["Otra compañera se encargará de sus reuniones", "Nadia hará las reuniones desde casa", "El jefe cancela todas las reuniones hasta el jueves"]
+  },
+  "grammar": {
+   "focus": "Verbos reflexivos: mig, dig, sig, os, jer",
+   "explain": "Algunos verbos llevan un pronombre reflexivo que concuerda con el sujeto: jeg melder mig syg, du passer på dig selv, hun føler sig træt. En plural: vi → os, I → jer, de → sig.",
+   "items": [
+    {"prompt": "Hun føler ___ ikke så godt i dag.", "answer": "sig", "es": "Hoy no se encuentra muy bien."},
+    {"prompt": "Vi skal skynde ___, ellers kommer vi for sent.", "answer": "os", "es": "Tenemos que darnos prisa o llegaremos tarde."},
+    {"prompt": "Har I meldt ___ til kurset?", "answer": "jer", "es": "¿Os habéis apuntado al curso?"}
+   ]
+  },
+  "vocab": [
+   {"text": "melder mig syg", "es": "avisar de que estoy enfermo", "example": "Jeg melder mig syg i dag.", "example_es": "Hoy aviso de que estoy enfermo."},
+   {"text": "forkølet", "es": "resfriado", "example": "Jeg er blevet forkølet.", "example_es": "Me he resfriado."},
+   {"text": "hovedpine", "es": "dolor de cabeza", "example": "Jeg har haft hovedpine siden i går.", "example_es": "Me duele la cabeza desde ayer."},
+   {"text": "passe på dig selv", "es": "cuidarte", "example": "Husk at passe på dig selv.", "example_es": "Acuérdate de cuidarte."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un mensaje al profesor de tu curso nocturno: esta semana no puedes ir porque tienes gripe. Di desde cuándo estás mal, cuándo crees que vuelves y pide los materiales (3–4 frases).",
+   "model": "Hej Karen. Jeg har desværre fået influenza og har haft feber siden søndag. Jeg føler mig stadig meget træt, så jeg kommer ikke til undervisningen i denne uge. Jeg håber at være tilbage på mandag. Vil du sende mig materialet fra timerne?",
+   "rubric": "Indica desde cuándo (siden …), usa al menos un verbo reflexivo y pide algo concreto."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Por la mañana, Nadia llama a su jefe para avisar de que está resfriada y no irá a trabajar.",
+   "lines": [
+    {"text": "Gudde Moien Søren, ech melle mech haut krank.", "es": "Buenos días, Søren, hoy no voy a ir: estoy enferma."},
+    {"text": "Dat ass schued. Wat feelt dir dann?", "es": "Vaya, qué pena. ¿Qué te pasa?"},
+    {"text": "Ech hu mech erkaalt an hu zënter gëschter Kappwéi.", "es": "Me he resfriado y me duele la cabeza desde ayer."},
+    {"text": "Da bleif am Bett a pass gutt op dech op.", "es": "Entonces quédate en la cama y cuídate."},
+    {"text": "Merci. Ech mengen, en Donneschdeg sinn ech erëm do.", "es": "Gracias. Creo que el jueves estoy de vuelta."},
+    {"text": "Gutt, ech froen d'Anna, ob si deng Versammlungen iwwerhëlt.", "es": "Bien, le pregunto a Anna si se encarga de tus reuniones."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo se organiza el trabajo mientras Nadia está enferma?",
+   "choices": ["Otra compañera se encargará de sus reuniones", "Nadia hará las reuniones desde casa", "El jefe cancela todas las reuniones hasta el jueves"]
+  },
+  "grammar": {
+   "focus": "Verbos reflexivos: mech, dech, sech, eis, iech",
+   "explain": "El pronombre reflexivo concuerda con el sujeto: ech melle mech krank, du fills dech net gutt, si fillt sech midd. En plural: mir → eis, dir → iech, si → sech.",
+   "items": [
+    {"prompt": "Si fillt ___ haut net gutt.", "answer": "sech", "es": "Hoy no se encuentra bien."},
+    {"prompt": "Mir mussen ___ beeilen, soss komme mir ze spéit.", "answer": "eis", "es": "Tenemos que darnos prisa o llegaremos tarde."},
+    {"prompt": "Hutt dir ___ fir de Cours ugemellt?", "answer": "iech", "es": "¿Os habéis apuntado al curso?"}
+   ]
+  },
+  "vocab": [
+   {"text": "mech krank mellen", "es": "avisar de que estoy enfermo", "example": "Haut muss ech mech krank mellen.", "example_es": "Hoy tengo que avisar de que estoy enfermo."},
+   {"text": "erkaalt", "es": "resfriado", "example": "Ech hu mech am Reen erkaalt.", "example_es": "Me resfrié con la lluvia."},
+   {"text": "Kappwéi", "es": "dolor de cabeza", "example": "Ech hu zënter gëschter Kappwéi.", "example_es": "Me duele la cabeza desde ayer."},
+   {"text": "pass gutt op dech op", "es": "cuídate mucho", "example": "Bleif doheem a pass gutt op dech op.", "example_es": "Quédate en casa y cuídate mucho."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un mensaje al profesor de tu curso nocturno: esta semana no puedes ir porque tienes gripe. Di desde cuándo estás mal, cuándo crees que vuelves y pide los materiales (3–4 frases).",
+   "model": "Moien Karen, ech hunn d'Gripp an hunn zënter Sonndeg Féiwer. Ech fille mech nach ëmmer ganz midd, dofir kommen ech dës Woch net an de Cours. Ech hoffen, datt ech e Méindeg erëm do sinn. Kënnt Dir mir d'Material vun de Stonne schécken?",
+   "rubric": "Indica desde cuándo (zënter …), usa al menos un verbo reflexivo y pide algo concreto."
+  }
+ }
+}

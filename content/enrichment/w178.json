@@ -1,0 +1,81 @@
+{
+ "week": 178,
+ "da": {
+  "dialogue2": {
+   "context": "En una reunión de padres, un padre pide suprimir los deberes porque «a mi hijo le fue bien sin ellos»; la tutora rebate la generalización a partir de un caso sin dejarlo en evidencia.",
+   "lines": [
+    {"text": "Min søn fik aldrig lektier i Sverige, og han klarede sig fremragende.", "es": "A mi hijo nunca le pusieron deberes en Suecia y le fue estupendamente."},
+    {"text": "Det er jeg glad for at høre. Han lyder som en dreng, der ville klare sig de fleste steder.", "es": "Me alegra oírlo. Suena a un chico al que le iría bien casi en cualquier sitio."},
+    {"text": "Pointen er, at lektier åbenbart er overflødige.", "es": "La cuestión es que los deberes son, evidentemente, superfluos."},
+    {"text": "For ham, måske. Spørgsmålet er, om det gælder for de femogtyve andre i klassen.", "es": "Para él, quizá. La cuestión es si vale para los otros veinticinco de la clase."},
+    {"text": "Har du så nogen undersøgelser, der siger det modsatte?", "es": "¿Y tienes algún estudio que diga lo contrario?"},
+    {"text": "Forskningen tyder på, at korte lektier hjælper de ældste elever, men ikke de yngste.", "es": "La investigación apunta a que los deberes cortos ayudan a los alumnos mayores, pero no a los más pequeños."},
+    {"text": "Så jeg har delvist ret?", "es": "¿Así que en parte tengo razón?"},
+    {"text": "Delvist, ja — bare ikke af den grund, du nævnte.", "es": "En parte, sí; solo que no por la razón que diste."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué hace la tutora al decir que el chico «suena a uno al que le iría bien casi en cualquier sitio»?",
+   "choices": ["Insinúa con tacto que un caso individual no prueba la regla general", "Elogia al hijo para evitar el debate", "Da a entender que el sistema sueco es mejor"]
+  },
+  "grammar": {
+   "focus": "Cautela epistémica: tyde på, lade til, synes",
+   "explain": "Para presentar conclusiones con la prudencia que permite la evidencia: Forskningen tyder på, at… (apunta a que), Det lader til at virke (parece funcionar), Resultaterne synes at vise… (parecen mostrar, registro culto). «Åbenbart» o «selvfølgelig», en cambio, afirman con una seguridad que una anécdota no justifica.",
+   "items": [
+    {"prompt": "Forskningen ___ på, at korte lektier hjælper de ældste elever. (apuntar a, presente)", "answer": "tyder", "es": "La investigación apunta a que los deberes cortos ayudan a los alumnos mayores."},
+    {"prompt": "Metoden ___ til at virke bedst i de ældre klasser. (parecer, con «lade»)", "answer": "lader", "es": "El método parece funcionar mejor en los cursos superiores."},
+    {"prompt": "Resultaterne ___ at bekræfte, at alder spiller en rolle. (parecer, registro culto)", "answer": "synes", "es": "Los resultados parecen confirmar que la edad influye."}
+   ]
+  },
+  "vocab": [
+   {"text": "drage forhastede konklusioner", "es": "sacar conclusiones precipitadas", "example": "Vi skal passe på med at drage forhastede konklusioner.", "example_es": "Hay que tener cuidado de no sacar conclusiones precipitadas."},
+   {"text": "et enkelttilfælde", "es": "un caso aislado", "example": "Et enkelttilfælde beviser ikke en regel.", "example_es": "Un caso aislado no demuestra una regla."},
+   {"text": "delvist", "es": "en parte", "example": "Du har delvist ret, men af en anden grund.", "example_es": "Tienes razón en parte, pero por otro motivo."},
+   {"text": "en værdig udvej", "es": "una salida digna", "example": "Hun gav ham en værdig udvej i stedet for at sætte ham på plads.", "example_es": "Le dejó una salida digna en vez de ponerle en su sitio."}
+  ],
+  "transfer": {
+   "prompt": "En el boletín del colegio, responde (6–8 frases) a la carta de un padre que pide suprimir los deberes basándose en la experiencia de su hijo. Propósito: señalar la generalización indebida sin humillarle, matizar con la evidencia disponible y reconocer lo que tiene de razón.",
+   "model": "Tak for dit indlæg om lektier, som tydeligvis bygger på gode erfaringer med din søn. Det er en vigtig diskussion, og jeg vil gerne tage den alvorligt. Én elevs forløb kan dog ikke alene afgøre, hvad der virker for en hel klasse; børn lærer forskelligt, og din søn ville formentlig have klaret sig godt i de fleste systemer. Forskningen tyder på et mere nuanceret billede: korte, målrettede lektier ser ud til at hjælpe de ældste elever, mens effekten hos de yngste er beskeden. På det punkt har du altså delvist ret. Vi vil derfor overveje at droppe lektier i indskolingen og samtidig gøre dem kortere og mere meningsfulde i de ældre klasser. Jeg inviterer gerne til et forældremøde, hvor vi kan se på erfaringerne sammen.",
+   "rubric": "Reconoce la experiencia del padre sin ironía; identifica la generalización a partir de un caso único; usa cautela epistémica («tyder på», «ser ud til»); reconoce la parte de razón; propone una medida concreta; deja una salida digna e invita al diálogo."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En una reunión de padres, un padre pide suprimir los deberes porque «a mi hijo le fue bien sin ellos»; la tutora rebate la generalización a partir de un caso sin dejarlo en evidencia.",
+   "lines": [
+    {"text": "Mäi Jong hat a Schweden ni Hausaufgaben, an hie koum excellent duerch.", "es": "Mi hijo nunca tuvo deberes en Suecia y le fue estupendamente."},
+    {"text": "Dat freet mech ze héieren. Hie schéngt e Jong ze sinn, deen et bal iwwerall packe géif.", "es": "Me alegra oírlo. Parece un chico que saldría adelante casi en cualquier sitio."},
+    {"text": "De Punkt ass, datt Hausaufgaben anscheinend iwwerflësseg sinn.", "es": "La cuestión es que los deberes son, por lo visto, superfluos."},
+    {"text": "Fir hie vläicht. D'Fro ass, ob dat och fir déi fënnefanzwanzeg aner Kanner an der Klass gëllt.", "es": "Para él, quizá. La cuestión es si vale también para los otros veinticinco niños de la clase."},
+    {"text": "Hues du dann Studien, déi d'Géigendeel soen?", "es": "¿Y tienes estudios que digan lo contrario?"},
+    {"text": "D'Fuerschung schéngt ze weisen, datt kuerz Hausaufgaben deenen eelere Schüler hëllefen, mä net de jéngsten.", "es": "La investigación parece mostrar que los deberes cortos ayudan a los alumnos mayores, pero no a los más pequeños."},
+    {"text": "Also hunn ech deelweis Recht?", "es": "¿Así que en parte tengo razón?"},
+    {"text": "Deelweis, jo — just net aus dem Grond, deen s du genannt hues.", "es": "En parte, sí; solo que no por la razón que diste."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué hace la tutora al decir que el chico «parece uno que saldría adelante casi en cualquier sitio»?",
+   "choices": ["Insinúa con tacto que un caso individual no prueba la regla general", "Elogia al hijo para evitar el debate", "Da a entender que el sistema sueco es mejor"]
+  },
+  "grammar": {
+   "focus": "Cautela epistémica: schéngen ze, kéint, wahrscheinlech",
+   "explain": "Para presentar conclusiones con la prudencia que permite la evidencia: D'Fuerschung schéngt ze weisen, datt… (parece mostrar), Dat kéint um Alter leien (podría deberse a la edad), wahrscheinlech (probablemente). «Anscheinend iwwerflësseg» o «selbstverständlech», en cambio, afirman con más seguridad de la que permite una anécdota.",
+   "items": [
+    {"prompt": "D'Fuerschung ___ ze weisen, datt kuerz Hausaufgaben hëllefen. (parecer, 3.ª persona)", "answer": "schéngt", "es": "La investigación parece mostrar que los deberes cortos ayudan."},
+    {"prompt": "Den Ënnerscheed ___ um Alter vun de Kanner leien. (podría)", "answer": "kéint", "es": "La diferencia podría deberse a la edad de los niños."},
+    {"prompt": "Säi Jong hätt et ___ iwwerall gepackt. (probablemente)", "answer": "wahrscheinlech", "es": "Su hijo probablemente habría salido adelante en cualquier sitio."}
+   ]
+  },
+  "vocab": [
+   {"text": "virschnell Konklusiounen", "es": "conclusiones precipitadas", "example": "Mir sollten net virschnell Konklusiounen zéien.", "example_es": "No deberíamos sacar conclusiones precipitadas."},
+   {"text": "en Eenzelfall", "es": "un caso aislado", "example": "En Eenzelfall beweist keng Reegel.", "example_es": "Un caso aislado no demuestra una regla."},
+   {"text": "deelweis", "es": "en parte", "example": "Du hues deelweis Recht, mä aus engem anere Grond.", "example_es": "Tienes razón en parte, pero por otro motivo."},
+   {"text": "d'Gesiicht verléieren", "es": "quedar en evidencia, perder la cara", "example": "Si léisst hien net d'Gesiicht verléieren.", "example_es": "No deja que quede en evidencia."}
+  ],
+  "transfer": {
+   "prompt": "En el boletín del colegio, responde (6–8 frases) a la carta de un padre que pide suprimir los deberes basándose en la experiencia de su hijo. Propósito: señalar la generalización indebida sin humillarle, matizar con la evidencia disponible y reconocer lo que tiene de razón.",
+   "model": "Merci fir Äre Bréif iwwer d'Hausaufgaben, deen däitlech op gutt Erfarunge mat Ärem Jong opbaut. Et ass eng wichteg Diskussioun, an ech wëll se eescht huelen. De Wee vun engem eenzege Schüler kann awer net eleng entscheeden, wat fir eng ganz Klass funktionéiert; Kanner léieren ënnerschiddlech, an Äre Jong wier wahrscheinlech an de meeschte Systemer gutt eens ginn. D'Fuerschung schéngt e méi nuancéiert Bild ze weisen: kuerz, geziilt Hausaufgabe schéngen deenen eelere Schüler ze hëllefen, wärend den Effekt bei de jéngste kleng bleift. An deem Punkt hutt Dir also deelweis Recht. Mir iwwerleeën dofir, an den éischte Schouljoren op Hausaufgaben ze verzichten an se an de méi héije Klassen méi kuerz a méi sënnvoll ze maachen. Ech invitéieren Iech gär op en Elterenowend, wou mir d'Erfarunge gemeinsam ukucke kënnen.",
+   "rubric": "Reconoce la experiencia del padre sin ironía; identifica la generalización a partir de un caso único; usa cautela epistémica («schéngt», «wahrscheinlech»); reconoce la parte de razón; propone una medida concreta; deja una salida digna e invita al diálogo."
+  }
+ }
+}

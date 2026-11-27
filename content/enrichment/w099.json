@@ -1,0 +1,77 @@
+{
+ "week": 99,
+ "da": {
+  "dialogue2": {
+   "context": "Un vecino mayor se queja de las bicicletas de los niños en el portal; la madre no está del todo de acuerdo, pero buscan una solución juntos.",
+   "lines": [
+    {"text": "Undskyld, men jeres cykler står igen i opgangen, og jeg kan næsten ikke komme forbi med min rollator.", "es": "Perdona, pero vuestras bicis vuelven a estar en el portal y casi no puedo pasar con mi andador."},
+    {"text": "Det er jeg ked af. Selvom kælderen er fuld, burde de ikke spærre vejen.", "es": "Lo siento. Aunque el sótano está lleno, no deberían bloquear el paso."},
+    {"text": "Jeg forstår godt, at det er svært med tre børn. Alligevel er det farligt.", "es": "Entiendo que con tres niños es difícil. Aun así, es peligroso."},
+    {"text": "Enig. Men der står faktisk også en barnevogn fra tredje sal.", "es": "De acuerdo. Pero también hay un carrito de bebé del tercero."},
+    {"text": "Det er rigtigt. Måske skulle vi tage det op på beboermødet?", "es": "Es verdad. ¿Quizá deberíamos plantearlo en la reunión de vecinos?"},
+    {"text": "God idé. Indtil da hænger jeg cyklerne op på væggen, så der er plads.", "es": "Buena idea. Mientras tanto, cuelgo las bicis en la pared para que haya sitio."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué solución acuerdan al final?",
+   "choices": ["Colgar las bicis de momento y plantear el tema en la reunión de vecinos", "Bajar todas las bicis al sótano desde hoy", "Pedir al vecino del tercero que retire el carrito"]
+  },
+  "grammar": {
+   "focus": "Conectores concesivos: selvom, alligevel, men",
+   "explain": "«Selvom» (aunque) introduce una subordinada: «Selvom kælderen er fuld, …». «Alligevel» (aun así) va en la oración principal y, si va primero, lo sigue el verbo: «Alligevel er det farligt». No se combinan «selvom» y «men» en la misma frase.",
+   "items": [
+    {"prompt": "___ vi har talt om det før, står cyklerne der stadig. (aunque)", "answer": "Selvom", "es": "Aunque ya lo hemos hablado antes, las bicis siguen ahí."},
+    {"prompt": "Musikken var ikke særlig høj. ___ kunne jeg ikke sove. (aun así)", "answer": "Alligevel", "es": "La música no estaba muy alta. Aun así, no podía dormir."},
+    {"prompt": "Det er svært med tre børn, ___ opgangen skal være fri. (pero)", "answer": "men", "es": "Con tres niños es difícil, pero el portal tiene que estar despejado."}
+   ]
+  },
+  "vocab": [
+   {"text": "spærre vejen", "es": "bloquear el paso", "example": "Cyklerne må ikke spærre vejen for de andre beboere.", "example_es": "Las bicis no pueden bloquear el paso a los demás vecinos."},
+   {"text": "tage det op", "es": "plantear el tema", "example": "Vi kan tage det op på næste møde.", "example_es": "Podemos plantearlo en la próxima reunión."},
+   {"text": "beboermødet", "es": "la reunión de vecinos", "example": "Beboermødet er den første tirsdag i måneden.", "example_es": "La reunión de vecinos es el primer martes de cada mes."},
+   {"text": "indtil da", "es": "mientras tanto, hasta entonces", "example": "Indtil da må vi finde en midlertidig løsning.", "example_es": "Hasta entonces tenemos que encontrar una solución provisional."}
+  ],
+  "transfer": {
+   "prompt": "Tu vecino de arriba pone la lavadora a medianoche y el ruido te despierta. Déjale una nota en el buzón (4–5 frases, tono amable pero claro): presenta el problema, reconoce su posible motivo con un concesivo y propone un acuerdo.",
+   "model": "Hej Martin, det er Clara fra anden sal. Jeg ved godt, at det kan være svært at nå vasketøjet i løbet af dagen. Selvom jeg normalt sover tungt, vågner jeg desværre, når maskinen centrifugerer ved midnat. Ville det være muligt at starte den inden klokken 22? Hvis det ikke kan lade sig gøre, kan vi måske finde et tidspunkt sammen. Mange hilsner, Clara.",
+   "rubric": "Presenta el problema sin acusar, usa al menos un conector concesivo (selvom, alligevel), propone un acuerdo concreto y deja abierta una alternativa."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un vecino mayor se queja de las bicicletas de los niños en el portal; la madre no está del todo de acuerdo, pero buscan una solución juntos.",
+   "lines": [
+    {"text": "Pardon, mee Är Vëloe stinn nees am Gank, an ech komme mat mengem Rollator bal net laanscht.", "es": "Perdone, pero sus bicis vuelven a estar en el pasillo y casi no puedo pasar con mi andador."},
+    {"text": "Dat deet mir leed. Obwuel de Keller voll ass, sollte se de Wee net spären.", "es": "Lo siento. Aunque el sótano está lleno, no deberían bloquear el paso."},
+    {"text": "Ech verstinn, datt et mat dräi Kanner net einfach ass. Trotzdem ass et geféierlech.", "es": "Entiendo que con tres niños no es fácil. Aun así, es peligroso."},
+    {"text": "Do hutt Dir Recht. Mee do steet iwwregens och e Kannerwon vum drëtte Stack.", "es": "Tiene razón. Pero, por cierto, también hay un carrito de bebé del tercero."},
+    {"text": "Dat stëmmt. Solle mir dat vläicht op der nächster Versammlung vun der Copropriétéit usprechen?", "es": "Es verdad. ¿Quizá deberíamos plantearlo en la próxima reunión de la comunidad?"},
+    {"text": "Gutt Iddi. Bis dohin hänken ech d'Vëloen un d'Mauer, fir datt Plaz ass.", "es": "Buena idea. Mientras tanto, cuelgo las bicis en la pared para que haya sitio."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué solución acuerdan al final?",
+   "choices": ["Colgar las bicis de momento y plantear el tema en la reunión de la comunidad", "Bajar todas las bicis al sótano desde hoy", "Pedir al vecino del tercero que retire el carrito"]
+  },
+  "grammar": {
+   "focus": "Conectores concesivos: obwuel, trotzdem, mee",
+   "explain": "«Obwuel» (aunque) introduce una subordinada con el verbo al final: «Obwuel de Keller voll ass, …». «Trotzdem» (aun así) va en la oración principal y, si va primero, lo sigue el verbo: «Trotzdem ass et geféierlech».",
+   "items": [
+    {"prompt": "___ mir schonn driwwer geschwat hunn, stinn d'Vëloen nach ëmmer do. (aunque)", "answer": "Obwuel", "es": "Aunque ya lo hemos hablado, las bicis siguen ahí."},
+    {"prompt": "D'Musek war net ganz haart. ___ konnt ech net schlofen. (aun así)", "answer": "Trotzdem", "es": "La música no estaba muy alta. Aun así, no podía dormir."},
+    {"prompt": "Et ass schwéier mat dräi Kanner, ___ de Gank muss fräi bleiwen. (pero)", "answer": "mee", "es": "Con tres niños es difícil, pero el pasillo tiene que quedar libre."}
+   ]
+  },
+  "vocab": [
+   {"text": "spären", "es": "bloquear", "example": "D'Vëloen däerfen den Ausgang net spären.", "example_es": "Las bicis no pueden bloquear la salida."},
+   {"text": "usprechen", "es": "plantear (un tema)", "example": "Ech wäert dat op der nächster Versammlung usprechen.", "example_es": "Lo plantearé en la próxima reunión."},
+   {"text": "bis dohin", "es": "hasta entonces, mientras tanto", "example": "Bis dohin musse mir eng provisoresch Léisung fannen.", "example_es": "Hasta entonces tenemos que encontrar una solución provisional."},
+   {"text": "laanscht", "es": "pasar (por al lado)", "example": "Mat dem Kannerwon kënnt een net laanscht.", "example_es": "Con el carrito no se puede pasar."}
+  ],
+  "transfer": {
+   "prompt": "Tu vecino de arriba pone la lavadora a medianoche y el ruido te despierta. Déjale una nota en el buzón (4–5 frases, tono amable pero claro): presenta el problema, reconoce su posible motivo con un concesivo y propone un acuerdo.",
+   "model": "Moien Här Martin, hei ass d'Clara vum zweete Stack. Ech weess, datt et schwéier ka sinn, d'Wäsch am Dag ze maachen. Obwuel ech normalerweis gutt schlofen, ginn ech leider wakreg, wann d'Maschinn ëm Mëtternuecht schleidert. Wier et méiglech, se virun 22 Auer unzestellen? Wann dat net geet, kënne mir vläicht zesummen eng aner Zäit fannen. Vill Gréiss, Clara.",
+   "rubric": "Presenta el problema sin acusar, usa al menos un conector concesivo (obwuel, trotzdem), propone un acuerdo concreto y deja abierta una alternativa."
+  }
+ }
+}

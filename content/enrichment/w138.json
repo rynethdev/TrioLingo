@@ -1,0 +1,201 @@
+{
+ "week": 138,
+ "da": {
+  "dialogue2": {
+   "context": "Durante un ensayo, una compañera escucha la exposición de un colega sobre ahorro energético y le propone cambiar el arranque; él no está convencido.",
+   "lines": [
+    {
+     "text": "Hvad synes du om min indledning? Jeg starter med fire grafer over energiforbruget.",
+     "es": "¿Qué te parece mi introducción? Empiezo con cuatro gráficos sobre el consumo de energía."
+    },
+    {
+     "text": "Det, der mangler, er en grund til, at publikum skal lytte.",
+     "es": "Lo que falta es una razón para que el público escuche."
+    },
+    {
+     "text": "Men tallene er jo selve pointen.",
+     "es": "Pero las cifras son precisamente la cuestión."
+    },
+    {
+     "text": "Ja, men det, folk husker, er sjældent tal; det er historier.",
+     "es": "Sí, pero lo que la gente recuerda rara vez son cifras; son historias."
+    },
+    {
+     "text": "Så du vil have, at jeg starter med en anekdote?",
+     "es": "¿O sea que quieres que empiece con una anécdota?"
+    },
+    {
+     "text": "For eksempel den om lageret, hvor lyset brændte hele weekenden, uden at nogen opdagede det.",
+     "es": "Por ejemplo, la del almacén donde la luz estuvo encendida todo el fin de semana sin que nadie se diera cuenta."
+    },
+    {
+     "text": "Den er god, og så kan graferne komme bagefter som bevis.",
+     "es": "Esa es buena, y luego los gráficos pueden venir como prueba."
+    },
+    {
+     "text": "Præcis, og hvad du slutter med, bør knytte an til den samme historie.",
+     "es": "Exacto, y aquello con lo que termines debería enlazar con la misma historia."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué cambio de estructura propone la compañera?",
+   "choices": [
+    "Abrir con una historia concreta y usar los gráficos después como prueba",
+    "Eliminar los gráficos y basarse solo en anécdotas",
+    "Empezar por la conclusión y dejar la historia para el final"
+   ]
+  },
+  "grammar": {
+   "focus": "Pseudohendidas: det, der … , er … / hvad der …",
+   "explain": "Para dejar el foco al final se usa «Det, der mangler, er …» (lo que falta es …). Si la relativa empieza por «hvad» y este es su sujeto, «der» es obligatorio: «Hvad der mangler, er …». El verbo principal va justo después de la coma.",
+   "items": [
+    {
+     "prompt": "Det, publikum husker, ___ sjældent tallene. (være, presente)",
+     "answer": "er",
+     "es": "Lo que el público recuerda rara vez son las cifras."
+    },
+    {
+     "prompt": "Hvad ___ mangler, er en grund til at lytte. (relativo obligatorio cuando «hvad» es sujeto)",
+     "answer": "der",
+     "es": "Lo que falta es una razón para escuchar."
+    },
+    {
+     "prompt": "___, der overbeviste ledelsen, var historien om lageret. (pronombre inicial)",
+     "answer": "Det",
+     "es": "Lo que convenció a la dirección fue la historia del almacén."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "knytte an til",
+    "es": "enlazar con",
+    "example": "Afslutningen bør knytte an til indledningen.",
+    "example_es": "El cierre debería enlazar con la introducción."
+   },
+   {
+    "text": "anekdote",
+    "es": "anécdota (en anekdote)",
+    "example": "Start gerne med en kort anekdote fra hverdagen.",
+    "example_es": "Conviene empezar con una anécdota breve de la vida cotidiana."
+   },
+   {
+    "text": "som bevis",
+    "es": "como prueba",
+    "example": "Graferne kan komme bagefter som bevis.",
+    "example_es": "Los gráficos pueden venir después como prueba."
+   },
+   {
+    "text": "fange publikum",
+    "es": "captar al público",
+    "example": "Det er svært at fange publikum med fire grafer.",
+    "example_es": "Es difícil captar al público con cuatro gráficos."
+   }
+  ],
+  "transfer": {
+   "prompt": "Escribe el guion de apertura y cierre (5–7 frases en total) de una exposición de cinco minutos sobre un tema de tu trabajo: gancho, tesis, anuncio de los dos puntos y un cierre que retome el gancho.",
+   "model": "En fredag eftermiddag glemte nogen at slukke lyset på lageret, og det brændte uafbrudt til mandag morgen. Det, den weekend kostede, svarer til en måneds kaffe for hele afdelingen. Min pointe i dag er enkel: Det er ikke store investeringer, men små vaner, der sænker vores energiforbrug. Først viser jeg, hvor energien faktisk forsvinder, og dernæst foreslår jeg tre ændringer, der ikke koster noget. Så næste gang I forlader lageret en fredag, håber jeg, at I tænker på den weekend, hvor lyset brændte for ingenting. Hvad der kræves, er nemlig blot ét tryk på en kontakt.",
+   "rubric": "Abre con un gancho narrativo concreto; formula la tesis en una sola frase; anuncia la estructura con conectores (først, dernæst); usa al menos una pseudohendida («det, der …, er …» o «hvad der …»); el cierre retoma la imagen inicial."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Durante un ensayo, una compañera escucha la exposición de un colega sobre ahorro energético y le propone cambiar el arranque; él no está convencido.",
+   "lines": [
+    {
+     "text": "Wat hals du vu menger Aleedung? Ech fänke mat véier Grafike vum Energieverbrauch un.",
+     "es": "¿Qué te parece mi introducción? Empiezo con cuatro gráficos sobre el consumo de energía."
+    },
+    {
+     "text": "Wat feelt, ass e Grond, firwat d'Publikum nolauschtere soll.",
+     "es": "Lo que falta es una razón para que el público escuche."
+    },
+    {
+     "text": "Mä d'Zuele sinn dach genee de Punkt.",
+     "es": "Pero las cifras son precisamente la cuestión."
+    },
+    {
+     "text": "Jo, mä wat d'Leit sech mierken, si seelen Zuelen; et si Geschichten.",
+     "es": "Sí, pero lo que la gente recuerda rara vez son cifras; son historias."
+    },
+    {
+     "text": "Du wëlls also, datt ech mat enger Anekdot ufänken?",
+     "es": "¿O sea que quieres que empiece con una anécdota?"
+    },
+    {
+     "text": "Zum Beispill déi vum Lager, wou d'Luucht de ganze Weekend gebrannt huet, ouni datt et engem opgefall ass.",
+     "es": "Por ejemplo, la del almacén donde la luz estuvo encendida todo el fin de semana sin que nadie se diera cuenta."
+    },
+    {
+     "text": "Déi ass gutt, an d'Grafike kënnen duerno als Beweis kommen.",
+     "es": "Esa es buena, y los gráficos pueden venir después como prueba."
+    },
+    {
+     "text": "Genee, a wat s du um Enn sees, sollt un déi selwecht Geschicht unknäppen.",
+     "es": "Exacto, y lo que digas al final debería enlazar con la misma historia."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué cambio de estructura propone la compañera?",
+   "choices": [
+    "Abrir con una historia concreta y usar los gráficos después como prueba",
+    "Eliminar los gráficos y basarse solo en anécdotas",
+    "Empezar por la conclusión y dejar la historia para el final"
+   ]
+  },
+  "grammar": {
+   "focus": "Pseudohendidas: Wat … , ass/sinn …",
+   "explain": "Para dejar el foco al final: «Wat feelt, ass e Grond» (lo que falta es …). En la relativa el verbo va al final; después de la coma viene el verbo principal, que concuerda con lo destacado: «ass» en singular, «sinn» en plural.",
+   "items": [
+    {
+     "prompt": "Wat d'Publikum sech mierkt, ___ éischter Geschichten. (sinn: concordancia con el plural)",
+     "answer": "sinn",
+     "es": "Lo que el público recuerda son más bien historias."
+    },
+    {
+     "prompt": "___ d'Direktioun iwwerzeegt huet, war d'Geschicht vum Lager. (relativo inicial)",
+     "answer": "Wat",
+     "es": "Lo que convenció a la dirección fue la historia del almacén."
+    },
+    {
+     "prompt": "Wat feelt, ___ e kloere Schluss. (sinn: singular)",
+     "answer": "ass",
+     "es": "Lo que falta es un cierre claro."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "unknäppen",
+    "es": "enlazar con (un eppes unknäppen)",
+    "example": "De Schluss sollt un d'Aleedung unknäppen.",
+    "example_es": "El cierre debería enlazar con la introducción."
+   },
+   {
+    "text": "Anekdot",
+    "es": "anécdota (eng Anekdot)",
+    "example": "Et hëlleft, mat enger Anekdot aus dem Alldag unzefänken.",
+    "example_es": "Ayuda empezar con una anécdota de la vida cotidiana."
+   },
+   {
+    "text": "als Beweis",
+    "es": "como prueba",
+    "example": "D'Grafike kommen duerno als Beweis.",
+    "example_es": "Los gráficos vienen después como prueba."
+   },
+   {
+    "text": "opgefall",
+    "es": "notado, llamado la atención (opfalen)",
+    "example": "Et ass kengem opgefall, datt d'Luucht nach un war.",
+    "example_es": "Nadie se dio cuenta de que la luz seguía encendida."
+   }
+  ],
+  "transfer": {
+   "prompt": "Escribe el guion de apertura y cierre (5–7 frases en total) de una exposición de cinco minutos sobre un tema de tu trabajo: gancho, tesis, anuncio de los dos puntos y un cierre que retome el gancho.",
+   "model": "E Freideg de Mëtteg huet een d'Luucht am Lager net ausgemaach, a si huet ouni Paus bis e Méindeg de Moie gebrannt. Wat dee Weekend kascht huet, entsprécht dem Kaffi vun der ganzer Abteilung fir ee Mount. Meng Thees haut ass einfach: Et sinn net grouss Investitiounen, mä kleng Gewunnechten, déi eisen Energieverbrauch erofsetzen. Als éischt weisen ech, wou d'Energie wierklech verluer geet, an duerno proposéieren ech dräi Ännerungen, déi näischt kaschten. Wann Dir also déi nächste Kéier e Freideg aus dem Lager gitt, denkt w.e.g. un dee Weekend, wou d'Luucht fir näischt gebrannt huet. Wat et brauch, ass just ee Klick op de Schalter.",
+   "rubric": "Abre con un gancho narrativo concreto; formula la tesis en una sola frase; anuncia la estructura con conectores (als éischt, duerno); usa al menos una pseudohendida («wat …, ass …»); el cierre retoma la imagen inicial."
+  }
+ }
+}

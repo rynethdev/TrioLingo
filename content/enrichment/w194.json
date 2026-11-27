@@ -1,0 +1,81 @@
+{
+ "week": 194,
+ "da": {
+  "dialogue2": {
+   "context": "En el comité de un festival de cine, una programadora es la única que se opone a incluir la película más taquillera del año; un colega la acusa de elitista.",
+   "lines": [
+    {"text": "Du er den eneste, der vil sige nej til årets mest sete film. Er det ikke lidt elitært?", "es": "Eres la única que quiere decir no a la película más vista del año. ¿No es un poco elitista?"},
+    {"text": "Det kan godt se sådan ud. Men festivalen har lovet publikum film, de ikke kan se andre steder.", "es": "Puede parecerlo. Pero el festival ha prometido al público películas que no puede ver en otro sitio."},
+    {"text": "Den sælger billetter. Det er også et argument.", "es": "Vende entradas. Eso también es un argumento."},
+    {"text": "Ja, men vores medlemstal faldt, sidst vi gjorde det samme. Tallene ligger her.", "es": "Sí, pero el número de socios cayó la última vez que hicimos lo mismo. Aquí están las cifras."},
+    {"text": "Og hvis du tager fejl?", "es": "¿Y si te equivocas?"},
+    {"text": "Så skifter jeg mening — forudsat at vi måler medlemstallet bagefter og ikke kun billetsalget.", "es": "Entonces cambio de opinión, siempre que después midamos el número de socios y no solo la venta de entradas."},
+    {"text": "Det lyder rimeligt. Næsten for rimeligt til en elitær.", "es": "Suena razonable. Casi demasiado razonable para una elitista."},
+    {"text": "Elitær er den, der ikke vil tælle efter. Jeg vil gerne tælle.", "es": "Elitista es quien no quiere hacer las cuentas. Yo sí quiero hacerlas."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué hace el colega al decir «Casi demasiado razonable para una elitista»?",
+   "choices": ["Admite con ironía que el argumento de ella es sólido y retira en parte la acusación", "Insiste en que ella es elitista", "Se burla de que ella use cifras"]
+  },
+  "grammar": {
+   "focus": "Condicionales restrictivas: forudsat at, medmindre, så længe",
+   "explain": "Para fijar con precisión cuándo cambiarías de opinión: «forudsat at» (siempre que, a condición de que), «medmindre» (a menos que), «så længe» (mientras). Ej.: Jeg står fast, medmindre tallene viser noget andet.",
+   "items": [
+    {"prompt": "Jeg skifter mening, ___ at vi måler medlemstallet bagefter. (siempre que)", "answer": "forudsat", "es": "Cambio de opinión siempre que después midamos el número de socios."},
+    {"prompt": "Jeg står fast, ___ nogen viser mig nye tal. (a menos que)", "answer": "medmindre", "es": "Me mantengo firme, a menos que alguien me enseñe cifras nuevas."},
+    {"prompt": "Så ___ tallene peger samme vej, holder jeg fast i min vurdering. (mientras)", "answer": "længe", "es": "Mientras las cifras apunten en la misma dirección, mantengo mi valoración."}
+   ]
+  },
+  "vocab": [
+   {"text": "gå imod strømmen", "es": "ir contra corriente", "example": "Det kræver mod at gå imod strømmen.", "example_es": "Hace falta valor para ir contra corriente."},
+   {"text": "ligger på bordet", "es": "están sobre la mesa", "example": "Tallene ligger på bordet for alle.", "example_es": "Las cifras están sobre la mesa para todos."},
+   {"text": "skifte mening", "es": "cambiar de opinión", "example": "Jeg er villig til at skifte mening.", "example_es": "Estoy dispuesta a cambiar de opinión."},
+   {"text": "står alene", "es": "está sola (en su postura)", "example": "Hun står alene med sin holdning.", "example_es": "Está sola en su postura."}
+  ],
+  "transfer": {
+   "prompt": "Escribe tu intervención por escrito (6–8 frases) ante el comité para defender una postura en la que estás en minoría: presenta la evidencia, reconoce el argumento mayoritario y especifica con condicionales restrictivas qué dato te haría cambiar.",
+   "model": "Jeg ved, at jeg står alene med mit forbehold, og jeg tager flertallets argument alvorligt: en publikumsmagnet sælger billetter. Alligevel mener jeg, at vi bør sige nej til filmen i år. Sidst vi programmerede en tilsvarende succes, i 2023, steg billetsalget med 12 %, men medlemstallet faldt med 9 % året efter. Vores medlemmer betaler netop for at se film, de ikke kan se andre steder. Jeg er dog ikke principielt imod: viser en opgørelse, at medlemstallet holdt sig stabilt ved andre festivaler, skifter jeg gerne mening. Så længe den dokumentation mangler, fastholder jeg min vurdering — ikke af princip, men på grundlag af vores egne tal. Jeg foreslår derfor, at vi i år måler begge dele, uanset hvad vi beslutter.",
+   "rubric": "Reconoce la posición minoritaria y el argumento contrario con respeto; aporta datos concretos y verificables; especifica con precisión la condición que le haría cambiar («medmindre», «så længe», «forudsat at»); evita la obstinación y el tono defensivo; propone una forma de verificar."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En el comité de un festival de cine, una programadora es la única que se opone a incluir la película más taquillera del año; un colega la acusa de elitista.",
+   "lines": [
+    {"text": "Du bass déi Eenzeg, déi Nee soe wëll zum meeschtgekuckte Film vum Joer. Ass dat net e bëssen elitär?", "es": "Eres la única que quiere decir no a la película más vista del año. ¿No es un poco elitista?"},
+    {"text": "Dat kann esou ausgesinn. Mä de Festival huet dem Publikum Filmer versprach, déi et soss néierens ze gesi kritt.", "es": "Puede parecerlo. Pero el festival ha prometido al público películas que no puede ver en ningún otro sitio."},
+    {"text": "En verkeeft Billjeeën. Dat ass och en Argument.", "es": "Vende entradas. Eso también es un argumento."},
+    {"text": "Jo, mä eis Memberzuel ass déi leschte Kéier, wou mir datselwecht gemaach hunn, gefall. D'Zuele leien hei.", "es": "Sí, pero el número de socios cayó la última vez que hicimos lo mismo. Aquí están las cifras."},
+    {"text": "A wann s du dech iers?", "es": "¿Y si te equivocas?"},
+    {"text": "Da änneren ech meng Meenung — virausgesat, datt mir duerno d'Memberzuel moossen an net nëmmen de Billjeeverkaf.", "es": "Entonces cambio de opinión, siempre que después midamos el número de socios y no solo la venta de entradas."},
+    {"text": "Dat klengt raisonnabel. Bal ze raisonnabel fir eng Elitär.", "es": "Suena razonable. Casi demasiado razonable para una elitista."},
+    {"text": "Elitär ass deen, deen net noziele wëll. Ech wëll gär nozielen.", "es": "Elitista es quien no quiere hacer las cuentas. Yo sí quiero hacerlas."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué hace el colega al decir «Casi demasiado razonable para una elitista»?",
+   "choices": ["Admite con ironía que el argumento de ella es sólido y retira en parte la acusación", "Insiste en que ella es elitista", "Se burla de que ella use cifras"]
+  },
+  "grammar": {
+   "focus": "Condicionales restrictivas: virausgesat datt, ausser wann, soulaang",
+   "explain": "Para fijar con precisión cuándo cambiarías de opinión: «virausgesat, datt» (siempre que), «ausser wann» (a menos que), «soulaang» (mientras). Ej.: Ech bleiwen dobäi, ausser wann d'Zuelen eppes anescht weisen.",
+   "items": [
+    {"prompt": "Ech ännere meng Meenung, ___, datt mir d'Memberzuel moossen. (siempre que)", "answer": "virausgesat", "es": "Cambio de opinión siempre que midamos el número de socios."},
+    {"prompt": "Ech bleiwen dobäi, ___ wann een mir nei Zuele weist. (a menos que: primera palabra)", "answer": "ausser", "es": "Me mantengo, a menos que alguien me enseñe cifras nuevas."},
+    {"prompt": "___ d'Zuelen an déi selwecht Richtung weisen, halen ech u menger Aschätzung fest. (mientras)", "answer": "Soulaang", "es": "Mientras las cifras apunten en la misma dirección, mantengo mi valoración."}
+   ]
+  },
+  "vocab": [
+   {"text": "géint de Stroum", "es": "contra corriente", "example": "Et brauch Courage, géint de Stroum ze schwammen.", "example_es": "Hace falta valor para nadar contra corriente."},
+   {"text": "op den Dësch", "es": "(poner) sobre la mesa", "example": "Ech leeë meng Zuelen op den Dësch.", "example_es": "Pongo mis cifras sobre la mesa."},
+   {"text": "meng Meenung ze änneren", "es": "cambiar de opinión", "example": "Ech si bereet, meng Meenung ze änneren.", "example_es": "Estoy dispuesta a cambiar de opinión."},
+   {"text": "eleng do", "es": "sola (en su postura)", "example": "Si steet mat hirer Positioun eleng do.", "example_es": "Está sola en su postura."}
+  ],
+  "transfer": {
+   "prompt": "Escribe tu intervención por escrito (6–8 frases) ante el comité para defender una postura en la que estás en minoría: presenta la evidencia, reconoce el argumento mayoritario y especifica con condicionales restrictivas qué dato te haría cambiar.",
+   "model": "Ech weess, datt ech mat menge Bedenken eleng do stinn, an ech huelen d'Argument vun der Majoritéit eescht: e Publikumsmagnéit verkeeft Billjeeën. Trotzdeem mengen ech, datt mir de Film dëst Joer net an de Programm huele sollten. Déi leschte Kéier, wou mir en ähnlechen Erfolleg gewisen hunn, 2023, ass de Billjeeverkaf ëm 12 % geklommen, mä d'Memberzuel ass d'Joer drop ëm 9 % gefall. Eis Membere bezuelen nämlech dofir, Filmer ze gesinn, déi se soss néierens gesinn. Ech sinn awer net aus Prinzip dergéint: weist eng Opstellung, datt d'Memberzuel op anere Festivalle stabil bliwwen ass, ännere ech gär meng Meenung. Soulaang dës Donnéeë feelen, bleiwen ech bei menger Aschätzung — net aus Prinzip, mä op Basis vun eisen eegenen Zuelen. Ech proposéieren dofir, dëst Joer béides ze moossen, egal wéi mir decidéieren.",
+   "rubric": "Reconoce la posición minoritaria y el argumento contrario con respeto; aporta datos concretos y verificables; especifica con precisión la condición que le haría cambiar («ausser wann», «soulaang», «virausgesat»); evita la obstinación y el tono defensivo; propone una forma de verificar."
+  }
+ }
+}

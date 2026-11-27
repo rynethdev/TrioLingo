@@ -1,0 +1,77 @@
+{
+ "week": 76,
+ "da": {
+  "dialogue2": {
+   "context": "En un hotel, el recepcionista descubre que ha dado la habitación de una clienta a otra persona.",
+   "lines": [
+    {"text": "Jeg er virkelig ked af det, men dit værelse er givet til en anden gæst.", "es": "Lo siento muchísimo, pero su habitación se le ha dado a otro huésped."},
+    {"text": "Hvad? Jeg bookede det for tre måneder siden!", "es": "¿Qué? ¡La reservé hace tres meses!"},
+    {"text": "Det er en fejl fra min side. Jeg ordner det med det samme.", "es": "Es un error por mi parte. Lo soluciono ahora mismo."},
+    {"text": "Og hvor skal jeg så sove i nat?", "es": "¿Y dónde duermo yo esta noche?"},
+    {"text": "Du får vores suite til samme pris, og morgenmaden er gratis.", "es": "Le damos nuestra suite al mismo precio y el desayuno es gratis."},
+    {"text": "Okay, det er en fair løsning. Tak.", "es": "Vale, es una solución justa. Gracias."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué acepta la clienta al final?",
+   "choices": ["Porque le dan una habitación mejor sin pagar más y con desayuno gratis", "Porque el otro huésped se marcha esa misma noche", "Porque el hotel le devuelve todo el dinero de la reserva"]
+  },
+  "grammar": {
+   "focus": "Posesivos: sin/sit/sine frente a hans/hendes",
+   "explain": "En tercera persona, «sin/sit/sine» se usa cuando el poseedor es el sujeto de la misma oración (Hun fandt sin nøgle: su propia llave). «Hans/hendes» se refiere a otra persona (Hun fandt hans nøgle: la llave de él).",
+   "items": [
+    {"prompt": "Gæsten ventede på ___ værelse i en time. (su propia habitación)", "answer": "sit", "es": "La huésped esperó su habitación durante una hora."},
+    {"prompt": "Gæsten fik ___ kuffert tilbage. (su propia maleta)", "answer": "sin", "es": "La huésped recuperó su maleta."},
+    {"prompt": "Peter er syg, så jeg tager ___ vagt i dag. (la de Peter)", "answer": "hans", "es": "Peter está enfermo, así que hoy hago yo su turno."}
+   ]
+  },
+  "vocab": [
+   {"text": "en fejl fra min side", "es": "un error por mi parte", "example": "Det er en fejl fra min side.", "example_es": "Es un error por mi parte."},
+   {"text": "ordner det", "es": "lo soluciono", "example": "Jeg ordner det med det samme.", "example_es": "Lo soluciono ahora mismo."},
+   {"text": "til samme pris", "es": "al mismo precio", "example": "Du får suiten til samme pris.", "example_es": "Le damos la suite al mismo precio."},
+   {"text": "en fair løsning", "es": "una solución justa", "example": "Det synes jeg er en fair løsning.", "example_es": "Me parece una solución justa."}
+  ],
+  "transfer": {
+   "prompt": "Olvidaste el cumpleaños de tu mejor amigo. Escríbele un mensaje: discúlpate, reconoce el error sin excusas largas y propón algo para compensarlo (3–4 frases).",
+   "model": "Undskyld, Mads! Jeg glemte din fødselsdag i går, og det er helt min skyld. Jeg havde skrevet den i min kalender, men jeg kiggede ikke. Må jeg invitere dig på middag på lørdag? Jeg betaler, selvfølgelig.",
+   "rubric": "Pide disculpas, reconoce el error usando posesivos (min, din…) y propone una compensación concreta."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En un hotel, el recepcionista descubre que ha dado la habitación de una clienta a otra persona.",
+   "lines": [
+    {"text": "Et deet mir immens leed, mee mir hunn Äert Zëmmer engem anere Gaascht ginn.", "es": "Lo siento muchísimo, pero le hemos dado su habitación a otro huésped."},
+    {"text": "Wéi? Ech hunn et virun dräi Méint reservéiert!", "es": "¿Cómo? ¡La reservé hace tres meses!"},
+    {"text": "Dat ass e Feeler vu menger Säit. Ech regelen dat direkt.", "es": "Es un error por mi parte. Lo soluciono ahora mismo."},
+    {"text": "A wou soll ech dann haut schlofen?", "es": "¿Y dónde duermo yo esta noche?"},
+    {"text": "Dir kritt eis Suite zum selwechte Präis, an de Moieskaffi ass gratis.", "es": "Le damos nuestra suite al mismo precio y el desayuno es gratis."},
+    {"text": "Ok, dat ass eng fair Léisung. Merci.", "es": "Vale, es una solución justa. Gracias."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué acepta la clienta al final?",
+   "choices": ["Porque le dan una habitación mejor sin pagar más y con desayuno gratis", "Porque el otro huésped se marcha esa misma noche", "Porque el hotel le devuelve todo el dinero de la reserva"]
+  },
+  "grammar": {
+   "focus": "Posesivos: säin/seng (de él) y hiren/hir (de ella)",
+   "explain": "El posesivo concuerda con lo poseído: «säin» (de él) y «hiren» (de ella) con masculino y neutro; «seng» y «hir» con femenino y plural. La regla de Eifel también se aplica: säi Koffer, säin Zëmmer.",
+   "items": [
+    {"prompt": "De Gaascht waart op ___ Zëmmer. (de él, neutro)", "answer": "säin", "es": "El huésped espera su habitación."},
+    {"prompt": "D'Madame Kieffer huet ___ Valise vergiess. (de ella, femenino)", "answer": "hir", "es": "La señora Kieffer se ha olvidado la maleta."},
+    {"prompt": "Den Tom ass krank, dofir maachen ech haut ___ Schicht. (de él, femenino)", "answer": "seng", "es": "Tom está enfermo, así que hoy hago yo su turno."}
+   ]
+  },
+  "vocab": [
+   {"text": "vu menger Säit", "es": "por mi parte", "example": "Dat ass e Feeler vu menger Säit.", "example_es": "Es un error por mi parte."},
+   {"text": "Ech regelen dat", "es": "Lo soluciono", "example": "Keng Suerg, ech regelen dat direkt.", "example_es": "No se preocupe, lo soluciono ahora mismo."},
+   {"text": "zum selwechte Präis", "es": "al mismo precio", "example": "Dir kritt d'Suite zum selwechte Präis.", "example_es": "Le damos la suite al mismo precio."},
+   {"text": "eng fair Léisung", "es": "una solución justa", "example": "Ech fannen, dat ass eng fair Léisung.", "example_es": "Me parece una solución justa."}
+  ],
+  "transfer": {
+   "prompt": "Olvidaste el cumpleaños de tu mejor amigo. Escríbele un mensaje: discúlpate, reconoce el error sin excusas largas y propón algo para compensarlo (3–4 frases).",
+   "model": "Entschëllegt, Mads! Ech hunn däi Gebuertsdag gëschter vergiess, an dat ass ganz meng Schold. Ech hat en a mengem Kalenner agedroen, mee ech hunn net gekuckt. Däerf ech dech e Samschdeg op en Iessen invitéieren? Ech bezuelen natierlech.",
+   "rubric": "Pide disculpas, reconoce el error usando posesivos (mäin, däin, meng…) y propone una compensación concreta."
+  }
+ }
+}

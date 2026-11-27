@@ -1,0 +1,81 @@
+{
+ "week": 167,
+ "da": {
+  "dialogue2": {
+   "context": "Una médica revisa con un periodista un folleto sobre la resistencia a los antibióticos: él quiere simplificar con una frase fácil y ella teme que falsee el mecanismo.",
+   "lines": [
+    {"text": "Kan vi ikke bare skrive, at kroppen vænner sig til antibiotika?", "es": "¿No podemos escribir simplemente que el cuerpo se acostumbra a los antibióticos?"},
+    {"text": "Det er netop den misforståelse, vi skal rydde af vejen. Det er bakterierne, der bliver modstandsdygtige, ikke kroppen.", "es": "Ese es justo el malentendido que tenemos que despejar. Son las bacterias las que se vuelven resistentes, no el cuerpo."},
+    {"text": "Men „modstandsdygtige bakterier“ lyder som en lærebog.", "es": "Pero «bacterias resistentes» suena a libro de texto."},
+    {"text": "Så forklar det med et billede, der holder: ukrudt, der overlever sprøjtningen og spreder sig.", "es": "Entonces explícalo con una imagen que se sostenga: malas hierbas que sobreviven a la fumigación y se extienden."},
+    {"text": "Det kan folk se for sig. Skal fagordet stadig med?", "es": "Eso la gente lo puede visualizar. ¿Mantenemos aun así el término técnico?"},
+    {"text": "Ja, én gang, med en forklaring. Så kan læseren genkende det hos lægen.", "es": "Sí, una vez, con explicación. Así el lector puede reconocerlo en la consulta."},
+    {"text": "Og tallene? Jeg ville helst springe dem over.", "es": "¿Y las cifras? Preferiría saltármelas."},
+    {"text": "Ét tal er nok — det, der viser, at det også angår dem.", "es": "Con una cifra basta: la que muestra que también les afecta a ellos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué rechaza la médica la frase «el cuerpo se acostumbra»?",
+   "choices": ["Porque simplifica tanto que transmite un mecanismo falso", "Porque es demasiado técnica para el público", "Porque prefiere no usar ninguna imagen en el folleto"]
+  },
+  "grammar": {
+   "focus": "Relativas y aposiciones definitorias: som, der, hvis, det vil sige",
+   "explain": "Para definir sin cortar el hilo se usa una relativa o una aposición: Resistens, det vil sige bakteriers evne til at overleve medicinen, … «Der» solo funciona como sujeto de la relativa; «som» puede ser sujeto u objeto; «hvis» expresa posesión (cuyo).",
+   "items": [
+    {"prompt": "Bakterier, ___ gener ændrer sig, kan overleve behandlingen. (cuyo)", "answer": "hvis", "es": "Las bacterias cuyos genes cambian pueden sobrevivir al tratamiento."},
+    {"prompt": "Den medicin, ___ lægen udskriver, virker ikke længere. (objeto de la relativa)", "answer": "som", "es": "El medicamento que receta el médico ya no funciona."},
+    {"prompt": "Resistens, ___ vil sige bakteriernes evne til at overleve medicinen, er et voksende problem. (aposición: es decir)", "answer": "det", "es": "La resistencia, es decir, la capacidad de las bacterias para sobrevivir al medicamento, es un problema creciente."}
+   ]
+  },
+  "vocab": [
+   {"text": "en udbredt misforståelse", "es": "un malentendido extendido", "example": "Det er en udbredt misforståelse, at kroppen bliver resistent.", "example_es": "Es un malentendido extendido que el cuerpo se vuelve resistente."},
+   {"text": "se for sig", "es": "visualizar, imaginarse", "example": "Et godt billede kan læseren se for sig.", "example_es": "Una buena imagen el lector la puede visualizar."},
+   {"text": "fagord", "es": "término técnico", "example": "Brug kun ét fagord, og forklar det.", "example_es": "Usa un solo término técnico, y explícalo."},
+   {"text": "på godt dansk", "es": "dicho llanamente, en cristiano", "example": "På godt dansk betyder det, at medicinen holder op med at virke.", "example_es": "Dicho llanamente, significa que el medicamento deja de funcionar."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el párrafo central (6–8 frases) de un folleto para pacientes sobre la resistencia a los antibióticos. Público: adultos sin formación científica; propósito: explicar el mecanismo sin errores y motivar un comportamiento concreto.",
+   "model": "Antibiotikaresistens betyder, at bakterier, ikke mennesker, bliver modstandsdygtige over for den medicin, der skulle slå dem ihjel. Det sker, fordi enkelte bakterier tilfældigt tåler medicinen bedre end resten. Når de andre dør, overlever netop disse og formerer sig — lidt som ukrudt, der klarer sprøjtningen og derefter breder sig i hele bedet. Jo oftere vi bruger antibiotika, jo flere chancer får de hårdføre bakterier. Det angår ikke kun andre: en helt almindelig blærebetændelse kan blive langt sværere at behandle. Derfor er det vigtigt kun at tage antibiotika, når lægen vurderer det nødvendigt, og at tage hele kuren. På godt dansk: brug medicinen sjældent, men rigtigt.",
+   "rubric": "Define el término clave antes de usarlo; corrige el malentendido frecuente; usa una imagen que respeta el mecanismo; incluye un ejemplo cercano; limita los tecnicismos a uno explicado; cierra con una pauta de acción clara."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una médica revisa con un periodista un folleto sobre la resistencia a los antibióticos: él quiere simplificar con una frase fácil y ella teme que falsee el mecanismo.",
+   "lines": [
+    {"text": "Kënne mir net einfach schreiwen, datt de Kierper sech un d'Antibiotike gewinnt?", "es": "¿No podemos escribir simplemente que el cuerpo se acostumbra a los antibióticos?"},
+    {"text": "Dat ass grad dat Mëssverständnis, dat mir opkläre mussen. D'Bakterie gi resistent, net de Kierper.", "es": "Ese es justo el malentendido que tenemos que aclarar. Son las bacterias las que se vuelven resistentes, no el cuerpo."},
+    {"text": "Mä „resistent Bakterien“ klengt wéi e Schoulbuch.", "es": "Pero «bacterias resistentes» suena a libro de texto."},
+    {"text": "Da erklär et mat engem Bild, dat stëmmt: Onkraut, dat d'Sprëtzmëttel iwwerlieft a sech duerno ausbreet.", "es": "Entonces explícalo con una imagen que se sostenga: malas hierbas que sobreviven al herbicida y luego se extienden."},
+    {"text": "Dat kënne sech d'Leit virstellen. Bleift de Fachbegrëff trotzdeem dran?", "es": "Eso la gente se lo puede imaginar. ¿Se queda aun así el término técnico?"},
+    {"text": "Jo, eng Kéier, mat Erklärung. Da kennt de Lieser en erëm, wann e beim Dokter ass.", "es": "Sí, una vez, con explicación. Así el lector lo reconoce cuando está en la consulta."},
+    {"text": "An d'Zuelen? Déi géif ech am léifste weglossen.", "es": "¿Y las cifras? Preferiría quitarlas."},
+    {"text": "Eng Zuel geet duer — déi, déi weist, datt et si och betrëfft.", "es": "Con una cifra basta: la que muestra que también les afecta a ellos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué rechaza la médica la frase «el cuerpo se acostumbra»?",
+   "choices": ["Porque simplifica tanto que transmite un mecanismo falso", "Porque es demasiado técnica para el público", "Porque prefiere no usar ninguna imagen en el folleto"]
+  },
+  "grammar": {
+   "focus": "Oraciones de relativo: deen, déi, dat, wou",
+   "explain": "El relativo concuerda en género y número con el antecedente: de Begrëff, deen…; d'Bakterie, déi…; d'Medikament, dat… Tras lugares y momentos se usa «wou» (am Spidol, wou…). El verbo va al final de la relativa.",
+   "items": [
+    {"prompt": "De Begrëff, ___ mir erklären, ass „Resistenz“. (masculino)", "answer": "deen", "es": "El término que explicamos es «resistencia»."},
+    {"prompt": "D'Medikament, ___ den Dokter verschreift, wierkt net méi. (neutro)", "answer": "dat", "es": "El medicamento que receta el médico ya no funciona."},
+    {"prompt": "Am Spidol, ___ ech schaffen, gesi mir dat all Woch. (lugar)", "answer": "wou", "es": "En el hospital donde trabajo lo vemos cada semana."}
+   ]
+  },
+  "vocab": [
+   {"text": "e verbreet Mëssverständnis", "es": "un malentendido extendido", "example": "Et ass e verbreet Mëssverständnis, datt de Kierper resistent gëtt.", "example_es": "Es un malentendido extendido que el cuerpo se vuelve resistente."},
+   {"text": "virstellen", "es": "imaginarse (con «sech»)", "example": "Dat kann sech jiddereen virstellen.", "example_es": "Eso se lo puede imaginar cualquiera."},
+   {"text": "de Fachbegrëff", "es": "el término técnico", "example": "Benotz de Fachbegrëff nëmmen eemol, an erklär en.", "example_es": "Usa el término técnico solo una vez, y explícalo."},
+   {"text": "op gutt Lëtzebuergesch", "es": "dicho llanamente, en cristiano", "example": "Op gutt Lëtzebuergesch heescht dat: d'Medikament hëlleft net méi.", "example_es": "Dicho llanamente, significa que el medicamento ya no ayuda."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el párrafo central (6–8 frases) de un folleto para pacientes sobre la resistencia a los antibióticos. Público: adultos sin formación científica; propósito: explicar el mecanismo sin errores y motivar un comportamiento concreto.",
+   "model": "Antibiotikaresistenz bedeit, datt Bakterien — net Mënschen — resistent gi géint d'Medikament, dat se eigentlech dout maache soll. Dat geschitt, well eenzel Bakterien zoufälleg d'Medikament besser verdroen wéi déi aner. Wann déi aner stierwen, iwwerliewe grad dës a vermeeren sech — e bësse wéi Onkraut, dat d'Sprëtzmëttel iwwerlieft a sech duerno am ganze Gaart ausbreet. Wat mir méi dacks Antibiotiken huelen, wat déi robust Bakterie méi Chancen hunn. Dat betrëfft net nëmmen anerer: eng ganz normal Infektioun kann esou vill méi schwéier ze behandele ginn. Dofir ass et wichteg, Antibiotike just ze huelen, wann den Dokter et fir néideg hält, an d'Behandlung bis zum Schluss duerchzezéien. Op gutt Lëtzebuergesch: d'Medikament seelen, mä richteg huelen.",
+   "rubric": "Define el término clave antes de usarlo; corrige el malentendido frecuente; usa una imagen que respeta el mecanismo; incluye un ejemplo cercano; limita los tecnicismos a uno explicado; cierra con una pauta de acción clara."
+  }
+ }
+}

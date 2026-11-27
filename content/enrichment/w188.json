@@ -1,0 +1,81 @@
+{
+ "week": 188,
+ "da": {
+  "dialogue2": {
+   "context": "La nueva directora de una biblioteca municipal presenta su visión a tres años al concejal de cultura, que le exige cifras y compromisos que ella prefiere no fijar todavía.",
+   "lines": [
+    {"text": "Hvad kommer biblioteket til at være om tre år?", "es": "¿Qué va a ser la biblioteca dentro de tres años?"},
+    {"text": "Byens dagligstue: et sted, man kommer, også når man ikke skal låne en bog.", "es": "El salón de la ciudad: un lugar al que se va incluso cuando no se va a pedir un libro."},
+    {"text": "Smukt. Men hvor mange besøgende skal der så komme?", "es": "Bonito. ¿Pero cuántos visitantes tienen que venir entonces?"},
+    {"text": "Det vil jeg måle, men ikke love. Et tal nu ville styre os i den forkerte retning.", "es": "Eso lo voy a medir, pero no a prometer. Una cifra ahora nos llevaría en la dirección equivocada."},
+    {"text": "Byrådet vil have noget konkret.", "es": "El consejo municipal quiere algo concreto."},
+    {"text": "Så får de det: hver beslutning skal kunne forklares ud fra dagligstuen. Flere stole frem for flere hylder, for eksempel.", "es": "Pues lo tendrán: cada decisión tendrá que poder explicarse desde la idea del salón. Más sillas en vez de más estanterías, por ejemplo."},
+    {"text": "Og hvis det ikke virker?", "es": "¿Y si no funciona?"},
+    {"text": "Så justerer vi vejen, ikke retningen. Det er hele pointen med en vision.", "es": "Entonces ajustamos el camino, no la dirección. Ese es todo el sentido de una visión."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué se niega la directora a prometer una cifra de visitantes?",
+   "choices": ["Porque una meta numérica prematura orientaría las decisiones hacia lo que no importa", "Porque teme que el proyecto fracase", "Porque no sabe cómo medir las visitas"]
+  },
+  "grammar": {
+   "focus": "Expresar el futuro: vil, skal, kommer til at",
+   "explain": "«Vil» expresa intención o predicción (Jeg vil måle det); «skal» expresa plan o compromiso decidido (Biblioteket skal holde åbent om søndagen); «kommer til at» expresa lo que ocurrirá como consecuencia previsible (Det kommer til at ændre byen).",
+   "items": [
+    {"prompt": "Hvad ___ biblioteket til at være om tre år? (consecuencia previsible)", "answer": "kommer", "es": "¿Qué va a ser la biblioteca dentro de tres años?"},
+    {"prompt": "Fra næste år ___ biblioteket holde åbent om søndagen. (plan decidido)", "answer": "skal", "es": "A partir del año que viene, la biblioteca abrirá los domingos."},
+    {"prompt": "Jeg ___ måle besøgstallet, men ikke love et bestemt tal. (intención)", "answer": "vil", "es": "Voy a medir el número de visitas, pero no a prometer una cifra concreta."}
+   ]
+  },
+  "vocab": [
+   {"text": "byens dagligstue", "es": "el salón de la ciudad", "example": "Biblioteket skal være byens dagligstue.", "example_es": "La biblioteca tiene que ser el salón de la ciudad."},
+   {"text": "styrer efter", "es": "se guía por", "example": "Vi styrer efter retningen, ikke efter tallene.", "example_es": "Nos guiamos por la dirección, no por las cifras."},
+   {"text": "på sigt", "es": "a largo plazo", "example": "På sigt skal flere unge bruge huset.", "example_es": "A largo plazo, más jóvenes deben usar el edificio."},
+   {"text": "justerer kursen", "es": "ajustamos el rumbo", "example": "Vi justerer kursen undervejs.", "example_es": "Ajustamos el rumbo sobre la marcha."}
+  ],
+  "transfer": {
+   "prompt": "Escribe la visión a tres años (6–8 frases) de una institución pública (biblioteca, museo, centro cívico) para su web y para el consejo municipal. Propósito: dar una dirección clara con un criterio de decisión, sin encorsetar con cifras ni detalles.",
+   "model": "Om tre år skal biblioteket være byens dagligstue: et sted, man kommer, også når man ikke skal låne noget. Vi vil fortsat værne om bøgerne, men rummet kommer til at fylde mere end samlingen. Det betyder, at hver beslutning — om indretning, åbningstider eller arrangementer — vil blive vurderet ud fra ét spørgsmål: Gør det huset mere indbydende for flere? Vi kommer til at måle, hvem der bruger biblioteket, og hvordan, men vi binder os ikke til et bestemt besøgstal. Tal skal hjælpe os til at lære, ikke til at pynte. Vejen dertil vil vi justere år for år, i dialog med borgerne. Retningen ligger fast.",
+   "rubric": "Formula una dirección clara y memorable; ofrece un criterio de decisión explícito; distingue con precisión intención («vil»), plan («skal») y consecuencia («kommer til at»); evita cifras y detalles que encorseten; tono inspirador pero sobrio."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "La nueva directora de una biblioteca municipal presenta su visión a tres años al concejal de cultura, que le exige cifras y compromisos que ella prefiere no fijar todavía.",
+   "lines": [
+    {"text": "Wat wäert d'Bibliothéik an dräi Joer sinn?", "es": "¿Qué será la biblioteca dentro de tres años?"},
+    {"text": "D'Stuff vun der Stad: eng Plaz, wou ee kënnt, och wann een net e Buch léine muss.", "es": "El salón de la ciudad: un lugar al que se va incluso cuando no hay que pedir un libro."},
+    {"text": "Schéin. Mä wéi vill Visiteure solle da kommen?", "es": "Bonito. ¿Pero cuántos visitantes tienen que venir entonces?"},
+    {"text": "Dat wäert ech moossen, mä net verspriechen. Eng Zuel elo géif eis an déi falsch Richtung lenken.", "es": "Eso lo mediré, pero no lo prometeré. Una cifra ahora nos llevaría en la dirección equivocada."},
+    {"text": "De Gemengerot wëll eppes Konkretes.", "es": "El consejo municipal quiere algo concreto."},
+    {"text": "Da kritt en dat: all Entscheedung muss sech vun der Iddi vun der Stuff aus erkläre loossen. Méi Still amplaz méi Regaler, zum Beispill.", "es": "Pues lo tendrá: cada decisión tendrá que poder explicarse desde la idea del salón. Más sillas en lugar de más estanterías, por ejemplo."},
+    {"text": "A wann et net funktionéiert?", "es": "¿Y si no funciona?"},
+    {"text": "Da passe mir de Wee un, net d'Richtung. Dat ass de ganze Sënn vun enger Visioun.", "es": "Entonces ajustamos el camino, no la dirección. Ese es todo el sentido de una visión."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué se niega la directora a prometer una cifra de visitantes?",
+   "choices": ["Porque una meta numérica prematura orientaría las decisiones hacia lo que no importa", "Porque teme que el proyecto fracase", "Porque no sabe cómo medir las visitas"]
+  },
+  "grammar": {
+   "focus": "Expresar el futuro: «wäerten» + infinitivo frente al presente",
+   "explain": "El luxemburgués suele expresar el futuro con el presente y una indicación temporal (Vum nächste Joer un ass d'Bibliothéik sonndes op). «Wäerten» + infinitivo subraya la previsión o el compromiso formal (Mir wäerten d'Resultater moossen) y también la suposición (Dat wäert stëmmen).",
+   "items": [
+    {"prompt": "Mir ___ d'Visiteure moossen, mä keng Zuel verspriechen. (wäerten, 1.ª pl.)", "answer": "wäerten", "es": "Mediremos los visitantes, pero no prometeremos ninguna cifra."},
+    {"prompt": "D'Bibliothéik ___ an dräi Joer d'Stuff vun der Stad sinn. (wäerten, 3.ª sg.)", "answer": "wäert", "es": "Dentro de tres años la biblioteca será el salón de la ciudad."},
+    {"prompt": "Vum nächste Joer un ___ d'Bibliothéik och sonndes op. (presente con valor de futuro, sinn)", "answer": "ass", "es": "A partir del año que viene la biblioteca abrirá también los domingos."}
+   ]
+  },
+  "vocab": [
+   {"text": "d'Stuff vun der Stad", "es": "el salón de la ciudad", "example": "D'Bibliothéik soll d'Stuff vun der Stad ginn.", "example_es": "La biblioteca debe convertirse en el salón de la ciudad."},
+   {"text": "riichte eis no", "es": "nos guiamos por", "example": "Mir riichte eis no der Richtung, net no den Zuelen.", "example_es": "Nos guiamos por la dirección, no por las cifras."},
+   {"text": "op laang Siicht", "es": "a largo plazo", "example": "Op laang Siicht solle méi Jonker an d'Haus kommen.", "example_es": "A largo plazo, más jóvenes deben venir al edificio."},
+   {"text": "passen de Kurs", "es": "ajustamos el rumbo (con «un»)", "example": "Mir passen de Kurs ënnerwee un.", "example_es": "Ajustamos el rumbo sobre la marcha."}
+  ],
+  "transfer": {
+   "prompt": "Escribe la visión a tres años (6–8 frases) de una institución pública (biblioteca, museo, centro cívico) para su web y para el consejo municipal. Propósito: dar una dirección clara con un criterio de decisión, sin encorsetar con cifras ni detalles.",
+   "model": "An dräi Joer soll d'Bibliothéik d'Stuff vun der Stad sinn: eng Plaz, wou ee kënnt, och wann een näischt léine muss. Mir wäerten d'Bicher och weiderhi schützen, mä de Raum wäert méi wichteg ginn wéi d'Sammlung. Dat heescht, datt all Entscheedung — iwwer Aménagement, Ëffnungszäiten oder Evenementer — no enger eenzeger Fro gemooss gëtt: Mécht dat d'Haus fir méi Leit méi invitant? Mir wäerte moossen, wien d'Bibliothéik notzt a wéi, mä mir leeën eis net op eng bestëmmt Zuel Visiteure fest. Zuele sollen eis hëllefen ze léieren, net ze glänzen. De Wee dohinner passe mir Joer fir Joer un, am Dialog mat de Bierger. D'Richtung steet.",
+   "rubric": "Formula una dirección clara y memorable; ofrece un criterio de decisión explícito; usa «wäerten» para previsión y compromiso y el presente para lo ya decidido; evita cifras y detalles que encorseten; tono inspirador pero sobrio."
+  }
+ }
+}

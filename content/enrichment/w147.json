@@ -1,0 +1,201 @@
+{
+ "week": 147,
+ "da": {
+  "dialogue2": {
+   "context": "Un informático explica a su vecina mayor qué es la verificación en dos pasos; ella malinterpreta la analogía y él la corrige con paciencia.",
+   "lines": [
+    {
+     "text": "Totrinsbekræftelse er ligesom at have to låse på hoveddøren i stedet for én.",
+     "es": "La verificación en dos pasos es como tener dos cerraduras en la puerta de casa en lugar de una."
+    },
+    {
+     "text": "Så skal jeg huske to adgangskoder? Det kan jeg slet ikke overskue.",
+     "es": "¿Entonces tengo que recordar dos contraseñas? Eso no hay quien lo maneje."
+    },
+    {
+     "text": "Nej, det er netop ikke det; den anden lås er din telefon, ikke endnu en kode.",
+     "es": "No, justamente no es eso; la segunda cerradura es tu teléfono, no otra contraseña."
+    },
+    {
+     "text": "Hvordan kan en telefon være en lås?",
+     "es": "¿Y cómo puede un teléfono ser una cerradura?"
+    },
+    {
+     "text": "Når du logger ind, sender banken en engangskode til din telefon, som om den ringede på og spurgte, om det virkelig er dig.",
+     "es": "Cuando inicias sesión, el banco envía un código de un solo uso a tu teléfono, como si llamara al timbre y preguntara si de verdad eres tú."
+    },
+    {
+     "text": "Så selv hvis nogen stjæler min adgangskode, kommer de ikke ind uden min telefon?",
+     "es": "¿O sea que aunque alguien me robe la contraseña, no puede entrar sin mi teléfono?"
+    },
+    {
+     "text": "Præcis, det er hele pointen.",
+     "es": "Exacto, esa es toda la gracia."
+    },
+    {
+     "text": "Nu giver det mening; du skulle have startet med det eksempel.",
+     "es": "Ahora tiene sentido; tendrías que haber empezado por ese ejemplo."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué malentendido corrige el informático?",
+   "choices": [
+    "Que el segundo paso no es otra contraseña que memorizar, sino el teléfono",
+    "Que la verificación solo sirve para el banco y no para el correo",
+    "Que el teléfono tiene que estar siempre encendido para que funcione"
+   ]
+  },
+  "grammar": {
+   "focus": "Comparaciones y analogías: ligesom, som om + pretérito",
+   "explain": "«Ligesom» compara con algo real (ligesom at have to låse). «Som om» introduce una comparación hipotética y suele llevar pretérito aunque se hable del presente: Det er, som om banken ringede på.",
+   "items": [
+    {
+     "prompt": "Totrinsbekræftelse er ___ at have to låse på døren. (comparación real: «como»)",
+     "answer": "ligesom",
+     "es": "La verificación en dos pasos es como tener dos cerraduras en la puerta."
+    },
+    {
+     "prompt": "Det er, som ___ telefonen spurgte, om det virkelig er dig. (comparación hipotética)",
+     "answer": "om",
+     "es": "Es como si el teléfono preguntara si de verdad eres tú."
+    },
+    {
+     "prompt": "Det føles, som om systemet ___ mig. (kende, pretérito de comparación irreal)",
+     "answer": "kendte",
+     "es": "Da la sensación de que el sistema me conociera."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "overskue",
+    "es": "abarcar, poder con algo",
+    "example": "Det kan jeg slet ikke overskue.",
+    "example_es": "Eso no hay quien lo maneje."
+   },
+   {
+    "text": "en engangskode",
+    "es": "un código de un solo uso",
+    "example": "Banken sender en engangskode til din telefon.",
+    "example_es": "El banco envía un código de un solo uso a tu teléfono."
+   },
+   {
+    "text": "giver mening",
+    "es": "tiene sentido",
+    "example": "Forklaringen giver mening, når man har et eksempel.",
+    "example_es": "La explicación tiene sentido cuando uno tiene un ejemplo."
+   },
+   {
+    "text": "hele pointen",
+    "es": "toda la gracia, lo esencial",
+    "example": "Det er hele pointen med systemet.",
+    "example_es": "Esa es toda la gracia del sistema."
+   }
+  ],
+  "transfer": {
+   "prompt": "Escribe un texto breve (5–6 frases) para la hoja informativa de una asociación de mayores que explique la verificación en dos pasos: una analogía, cómo funciona en la práctica, un malentendido frecuente y un mensaje tranquilizador.",
+   "model": "Totrinsbekræftelse fungerer ligesom en dør med to låse: Adgangskoden er den første, og din mobiltelefon er den anden. Når du logger ind i netbanken, sender banken en engangskode til din telefon, som kun gælder i få minutter. Det er, som om banken ringede på og spurgte, om det virkelig er dig. Mange tror, at de skal huske endnu en adgangskode, men det er ikke tilfældet; koden kommer helt af sig selv. Selv hvis en svindler får fat i din adgangskode, kommer vedkommende altså ikke ind uden din telefon. Har du spørgsmål, hjælper vi gerne ved næste klubmøde.",
+   "rubric": "Abre con una analogía cotidiana; explica el funcionamiento en pasos concretos; usa «ligesom» y «som om»; anticipa y corrige un malentendido frecuente; evita tecnicismos sin explicar y cierra con una oferta de ayuda."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un informático explica a su vecina mayor qué es la verificación en dos pasos; ella malinterpreta la analogía y él la corrige con paciencia.",
+   "lines": [
+    {
+     "text": "D'Zwee-Faktor-Authentifizéierung ass, wéi wann Dir zwee Schlässer un der Hausdier hätt amplaz engem.",
+     "es": "La verificación en dos pasos es como si tuviera dos cerraduras en la puerta de casa en lugar de una."
+    },
+    {
+     "text": "Da muss ech mer zwee Passwierder mierken? Dat packen ech net.",
+     "es": "¿Entonces tengo que recordar dos contraseñas? Eso no lo voy a conseguir."
+    },
+    {
+     "text": "Neen, genee dat net; dat zweet Schlass ass Ären Handy, net nach e Passwuert.",
+     "es": "No, justamente eso no; la segunda cerradura es su móvil, no otra contraseña."
+    },
+    {
+     "text": "Wéi kann en Handy e Schlass sinn?",
+     "es": "¿Y cómo puede un móvil ser una cerradura?"
+    },
+    {
+     "text": "Wann Dir Iech aloggt, schéckt d'Bank en Eemolcode op Ären Handy, wéi wann se géif schellen a froen, ob Dir et wierklech sidd.",
+     "es": "Cuando inicia sesión, el banco envía un código de un solo uso a su móvil, como si llamara al timbre y preguntara si de verdad es usted."
+    },
+    {
+     "text": "Also och wann ee mäi Passwuert klaut, kënnt e net eran ouni mäin Handy?",
+     "es": "¿O sea que aunque alguien me robe la contraseña, no puede entrar sin mi móvil?"
+    },
+    {
+     "text": "Genee, dat ass de ganze Sënn vun der Saach.",
+     "es": "Exacto, esa es toda la gracia del asunto."
+    },
+    {
+     "text": "Elo mécht et Sënn; Dir hätt mat deem Beispill solle ufänken.",
+     "es": "Ahora tiene sentido; tendría que haber empezado por ese ejemplo."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué malentendido corrige el informático?",
+   "choices": [
+    "Que el segundo paso no es otra contraseña que memorizar, sino el móvil",
+    "Que la verificación solo sirve para el banco y no para el correo",
+    "Que el móvil tiene que estar siempre encendido para que funcione"
+   ]
+  },
+  "grammar": {
+   "focus": "Comparaciones: wéi y wéi wann + Konjunktiv II",
+   "explain": "«Wéi» compara con algo real (wéi zwee Schlässer). «Wéi wann» introduce una comparación hipotética con Konjunktiv II y el verbo al final: Et ass, wéi wann d'Bank géif schellen.",
+   "items": [
+    {
+     "prompt": "Et ass, ___ wann d'Bank géif froen, ob Dir et sidd. (comparación hipotética)",
+     "answer": "wéi",
+     "es": "Es como si el banco preguntara si es usted."
+    },
+    {
+     "prompt": "Et ass, wéi wann Dir zwee Schlässer un der Dier ___. (hunn, Konjunktiv II)",
+     "answer": "hätt",
+     "es": "Es como si tuviera dos cerraduras en la puerta."
+    },
+    {
+     "prompt": "Et fillt sech un, wéi wann de System mech kenne ___. (auxiliar de Konjunktiv II)",
+     "answer": "géif",
+     "es": "Da la sensación de que el sistema me conociera."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "packen",
+    "es": "poder con algo, conseguirlo (coloquial)",
+    "example": "Zwee Passwierder? Dat packen ech net.",
+    "example_es": "¿Dos contraseñas? Eso no lo consigo."
+   },
+   {
+    "text": "en Eemolcode",
+    "es": "un código de un solo uso",
+    "example": "D'Bank schéckt en Eemolcode op Ären Handy.",
+    "example_es": "El banco envía un código de un solo uso a su móvil."
+   },
+   {
+    "text": "mécht Sënn",
+    "es": "tiene sentido",
+    "example": "D'Erklärung mécht Sënn, wann een e Beispill huet.",
+    "example_es": "La explicación tiene sentido cuando uno tiene un ejemplo."
+   },
+   {
+    "text": "klauen",
+    "es": "robar",
+    "example": "Et ass schwéier, en Handy an e Passwuert gläichzäiteg ze klauen.",
+    "example_es": "Es difícil robar a la vez un móvil y una contraseña."
+   }
+  ],
+  "transfer": {
+   "prompt": "Escribe un texto breve (5–6 frases) para la hoja informativa de una asociación de mayores que explique la verificación en dos pasos: una analogía, cómo funciona en la práctica, un malentendido frecuente y un mensaje tranquilizador.",
+   "model": "D'Zwee-Faktor-Authentifizéierung funktionéiert wéi eng Dier mat zwee Schlässer: D'Passwuert ass dat éischt, an Ären Handy ass dat zweet. Wann Dir Iech an d'Online-Bank aloggt, schéckt d'Bank en Eemolcode op Ären Handy, deen nëmmen e puer Minutte gëlteg ass. Et ass, wéi wann d'Bank géif schellen a froen, ob Dir et wierklech sidd. Vill Leit mengen, si missten sech nach e Passwuert mierken, mä dat stëmmt net; de Code kënnt vu selwer. Och wann e Bedréier Äert Passwuert erausfënnt, kënnt en ouni Ären Handy also net eran. Wann Dir Froen hutt, hëllefe mir Iech gär bei der nächster Versammlung vum Club.",
+   "rubric": "Abre con una analogía cotidiana; explica el funcionamiento en pasos concretos; usa «wéi» y «wéi wann» con Konjunktiv II; anticipa y corrige un malentendido frecuente; evita tecnicismos sin explicar y cierra con una oferta de ayuda."
+  }
+ }
+}

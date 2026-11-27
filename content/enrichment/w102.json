@@ -1,0 +1,79 @@
+{
+ "week": 102,
+ "da": {
+  "dialogue2": {
+   "context": "Antes de enviar el acta, dos compañeros no recuerdan igual lo que se decidió sobre el presupuesto y lo aclaran con sus notas.",
+   "lines": [
+    {"text": "Jeg skriver i referatet, at budgettet blev godkendt. Er du enig?", "es": "En el acta pongo que se aprobó el presupuesto. ¿Estás de acuerdo?"},
+    {"text": "Ikke helt. Direktøren sagde, at hun ville godkende det, hvis vi først fandt besparelser.", "es": "No del todo. La directora dijo que lo aprobaría si antes encontrábamos ahorros."},
+    {"text": "Er du sikker? Jeg hørte bare, at det så fint ud.", "es": "¿Seguro? Yo solo oí que tenía buena pinta."},
+    {"text": "Ja, jeg skrev det ned ordret: «under forudsætning af besparelser på fem procent».", "es": "Sí, lo apunté literalmente: «a condición de que haya ahorros del cinco por ciento»."},
+    {"text": "Så formulerer jeg det sådan: budgettet blev godkendt med forbehold.", "es": "Entonces lo formulo así: el presupuesto se aprobó con reservas."},
+    {"text": "Og tilføj, hvem der skal finde besparelserne, og hvornår.", "es": "Y añade quién tiene que encontrar los ahorros y para cuándo."},
+    {"text": "Det står ikke i mine noter. Jeg spørger hende, før jeg sender det ud.", "es": "Eso no está en mis notas. Se lo pregunto antes de enviarla."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué hay que corregir el acta?",
+   "choices": ["Porque el presupuesto solo se aprobó con una condición de ahorro", "Porque el presupuesto se rechazó", "Porque la directora no estuvo en la reunión"]
+  },
+  "grammar": {
+   "focus": "Estilo indirecto: concordancia de tiempos",
+   "explain": "Al contar en pasado lo que alguien dijo, el verbo suele retroceder un tiempo: «Jeg godkender det» → «Hun sagde, at hun godkendte det»; «vil» → «ville»; «har» → «havde». Tras «at», «ikke» va delante del verbo: «…, at hun ikke var enig».",
+   "items": [
+    {"prompt": "«Jeg kan ikke deltage.» → Han sagde, at han ikke ___ deltage. (estilo indirecto)", "answer": "kunne", "es": "«No puedo asistir.» → Dijo que no podía asistir."},
+    {"prompt": "«Vi har sendt fakturaen.» → De sagde, at de ___ sendt fakturaen. (estilo indirecto)", "answer": "havde", "es": "«Hemos enviado la factura.» → Dijeron que habían enviado la factura."},
+    {"prompt": "«Jeg er ikke enig.» → Hun sagde, at hun ___ enig. (estilo indirecto, con «ikke»)", "answer": "ikke var", "es": "«No estoy de acuerdo.» → Dijo que no estaba de acuerdo."}
+   ]
+  },
+  "vocab": [
+   {"text": "ordret", "es": "literalmente, palabra por palabra", "example": "Jeg har skrevet citatet ordret ned.", "example_es": "He copiado la cita palabra por palabra."},
+   {"text": "under forudsætning af", "es": "a condición de", "example": "Aftalen gælder under forudsætning af bestyrelsens godkendelse.", "example_es": "El acuerdo es válido a condición de que lo apruebe el consejo."},
+   {"text": "med forbehold", "es": "con reservas", "example": "Planen blev godkendt med forbehold.", "example_es": "El plan se aprobó con reservas."},
+   {"text": "formulere", "es": "formular, redactar", "example": "Hvordan skal vi formulere beslutningen?", "example_es": "¿Cómo redactamos la decisión?"}
+  ],
+  "transfer": {
+   "prompt": "Fuiste a la reunión de la comunidad de vecinos en lugar de tu compañera de piso. Escríbele un mensaje (4–6 frases, informal) contándole qué dijo cada persona y qué se decidió, usando el estilo indirecto.",
+   "model": "Hej Sara! Mødet varede to timer, men her er det vigtigste. Formanden sagde, at taget skulle repareres inden vinteren, og at det ville koste omkring 300.000 kroner. Hr. Nielsen fra stuen sagde, at han ikke ville betale mere end de andre. Til sidst blev det besluttet, at udgiften fordeles efter lejlighedernes størrelse. Formanden lovede, at han ville sende referatet ud i næste uge.",
+   "rubric": "Usa al menos tres verbos introductorios (sagde, lovede, mente…) con estilo indirecto, aplica la concordancia de tiempos y distingue opiniones de decisiones."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Antes de enviar el acta, dos compañeros no recuerdan igual lo que se decidió sobre el presupuesto y lo aclaran con sus notas.",
+   "lines": [
+    {"text": "Ech schreiwen an d'Protokoll, datt de Budget guttgeheescht gouf. Bass du d'accord?", "es": "En el acta pongo que se aprobó el presupuesto. ¿Estás de acuerdo?"},
+    {"text": "Net ganz. D'Direktesch huet gesot, si géif en guttheeschen, wa mir virdru Spuermoossname fannen.", "es": "No del todo. La directora dijo que lo aprobaría si antes encontrábamos medidas de ahorro."},
+    {"text": "Bass du sécher? Ech hunn nëmme verstanen, et géif gutt ausgesinn.", "es": "¿Seguro? Yo solo entendí que tenía buena pinta."},
+    {"text": "Jo, ech hunn et wuertwiertlech opgeschriwwen: „nëmme mat Erspuernisser vu fënnef Prozent“.", "es": "Sí, lo apunté literalmente: «solo con ahorros del cinco por ciento»."},
+    {"text": "Da formuléieren ech et esou: de Budget gouf ënner Virbehalt guttgeheescht.", "es": "Entonces lo formulo así: el presupuesto se aprobó con reservas."},
+    {"text": "A schreif dobäi, wien d'Erspuernisser fanne soll a bis wéini.", "es": "Y añade quién tiene que encontrar los ahorros y para cuándo."},
+    {"text": "Dat steet net a mengen Notizen. Ech froen hatt, ier ech d'Protokoll verschécken.", "es": "Eso no está en mis notas. Se lo pregunto antes de enviar el acta."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué hay que corregir el acta?",
+   "choices": ["Porque el presupuesto solo se aprobó con una condición de ahorro", "Porque el presupuesto se rechazó", "Porque la directora no estuvo en la reunión"]
+  },
+  "grammar": {
+   "focus": "Estilo indirecto con Konjunktiv (géif, wier, hätt, kéint)",
+   "explain": "En el estilo indirecto, el luxemburgués usa a menudo el Konjunktiv: «Si huet gesot, si géif et guttheeschen», «… et wier ze deier», «… si hätt keng Zäit». Con «datt», el verbo va al final: «…, datt si net d'accord wier».",
+   "items": [
+    {"prompt": "«Ech kann net kommen.» → Hien huet gesot, hie ___ net kommen. (Konjunktiv de kënnen)", "answer": "kéint", "es": "«No puedo venir.» → Dijo que no podía venir."},
+    {"prompt": "«Mir hunn d'Rechnung geschéckt.» → Si hu gesot, si ___ d'Rechnung geschéckt. (Konjunktiv de hunn)", "answer": "hätten", "es": "«Hemos enviado la factura.» → Dijeron que habían enviado la factura."},
+    {"prompt": "«Ech sinn net d'accord.» → Si huet gesot, si ___ net d'accord. (Konjunktiv de sinn)", "answer": "wier", "es": "«No estoy de acuerdo.» → Dijo que no estaba de acuerdo."}
+   ]
+  },
+  "vocab": [
+   {"text": "wuertwiertlech", "es": "literalmente, palabra por palabra", "example": "Ech hunn hire Saz wuertwiertlech opgeschriwwen.", "example_es": "Apunté su frase palabra por palabra."},
+   {"text": "ënner Virbehalt", "es": "con reservas", "example": "De Plang gouf ënner Virbehalt ugeholl.", "example_es": "El plan se aprobó con reservas."},
+   {"text": "Erspuernisser", "es": "ahorros", "example": "Mir mussen Erspuernisser vu fënnef Prozent fannen.", "example_es": "Tenemos que encontrar ahorros del cinco por ciento."},
+   {"text": "formuléieren", "es": "formular, redactar", "example": "Wéi solle mir d'Decisioun formuléieren?", "example_es": "¿Cómo redactamos la decisión?"}
+  ],
+  "transfer": {
+   "prompt": "Fuiste a la reunión de la comunidad de vecinos en lugar de tu compañera de piso. Escríbele un mensaje (4–6 frases, informal) contándole qué dijo cada persona y qué se decidió, usando el estilo indirecto.",
+   "model": "Salut Sara! D'Versammlung huet zwou Stonne gedauert, mee hei ass dat Wichtegst. De President huet gesot, den Daach misst nach virum Wanter reparéiert ginn, an dat géif ongeféier 300.000 Euro kaschten. Den Här Nilles vum Rez-de-chaussée huet gemengt, hie géif net méi bezuele wéi déi aner. Um Enn gouf decidéiert, datt d'Käschten no der Gréisst vun de Wunnenge verdeelt ginn. De President huet versprach, hie géif d'Protokoll nächst Woch verschécken.",
+   "rubric": "Usa al menos tres verbos introductorios (gesot, gemengt, versprach…) con Konjunktiv de estilo indirecto y distingue opiniones de decisiones."
+  }
+ }
+}

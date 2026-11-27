@@ -1,0 +1,79 @@
+{
+ "week": 106,
+ "da": {
+  "dialogue2": {
+   "context": "Dos compañeros comentan el anuncio de que la oficina se trasladará a las afueras; a uno le preocupa el trayecto y decide pedir más información.",
+   "lines": [
+    {"text": "Har du læst meddelelsen på intranettet? Kontoret skal flyttes til Ballerup.", "es": "¿Has leído el comunicado de la intranet? Van a trasladar la oficina a Ballerup."},
+    {"text": "Ja, og det sker allerede i april. Jeg er ikke særlig begejstret.", "es": "Sí, y ya en abril. No me hace ninguna gracia."},
+    {"text": "Hvorfor ikke? Bygningen skulle være meget mere moderne.", "es": "¿Por qué no? Dicen que el edificio es mucho más moderno."},
+    {"text": "Fordi min transporttid bliver fordoblet. Der står intet om, hvordan det skal kompenseres.", "es": "Porque se me duplica el tiempo de trayecto. No dice nada de cómo se va a compensar."},
+    {"text": "Der står dog, at spørgsmål kan sendes til HR inden udgangen af måneden.", "es": "Pero sí dice que las preguntas se pueden enviar a Recursos Humanos antes de fin de mes."},
+    {"text": "Så skriver jeg og spørger, om der gives tilskud til pendlerkort.", "es": "Entonces escribo y pregunto si se da alguna ayuda para el abono de transporte."},
+    {"text": "Gør det. Jeg tror ikke, du er den eneste, der tænker på det.", "es": "Hazlo. No creo que seas el único que piensa en eso."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué le preocupa al compañero del traslado y qué decide hacer?",
+   "choices": ["Que se le duplica el trayecto; va a preguntar a Recursos Humanos por una ayuda al transporte", "Que el edificio nuevo es antiguo; va a pedir quedarse en el actual", "Que va a perder su puesto; va a buscar otro trabajo"]
+  },
+  "grammar": {
+   "focus": "Pasiva en -s con modales (skal flyttes, kan sendes)",
+   "explain": "En anuncios y comunicados se usa mucho la pasiva en -s tras un modal: «Kontoret skal flyttes», «Spørgsmål kan sendes til HR». También en presente sin modal: «Der gives tilskud» (se da una ayuda).",
+   "items": [
+    {"prompt": "Alle kasser skal ___ inden fredag. (pakke, pasiva en -s)", "answer": "pakkes", "es": "Todas las cajas tienen que estar embaladas antes del viernes."},
+    {"prompt": "Ansøgninger kan ___ via intranettet. (sende, pasiva en -s)", "answer": "sendes", "es": "Las solicitudes se pueden enviar por la intranet."},
+    {"prompt": "Der ___ gratis parkering til alle medarbejdere. (tilbyde, presente, pasiva en -s)", "answer": "tilbydes", "es": "Se ofrece aparcamiento gratuito a todos los empleados."}
+   ]
+  },
+  "vocab": [
+   {"text": "meddelelsen", "es": "el comunicado", "example": "Meddelelsen blev sendt ud i går aftes.", "example_es": "El comunicado se envió anoche."},
+   {"text": "begejstret", "es": "entusiasmado", "example": "Hun er ikke særlig begejstret for planen.", "example_es": "No le entusiasma mucho el plan."},
+   {"text": "fordoblet", "es": "duplicado", "example": "Prisen er næsten fordoblet på fem år.", "example_es": "El precio casi se ha duplicado en cinco años."},
+   {"text": "tilskud", "es": "ayuda, subvención", "example": "Firmaet giver tilskud til pendlerkort.", "example_es": "La empresa da una ayuda para el abono de transporte."}
+  ],
+  "transfer": {
+   "prompt": "Tu empresa va a cambiar el horario de atención al público de 9–17 a 8–16 a partir de marzo. Escribe un aviso breve para los clientes (4–5 frases, formal) con el cambio, el motivo y cómo les afecta.",
+   "model": "Kære kunder. Fra den 1. marts ændres vores åbningstid til kl. 8-16 på alle hverdage. Ændringen indføres, fordi mange kunder har ønsket at kunne komme forbi før arbejde. Henvendelser efter kl. 16 kan fortsat sendes via vores kontaktformular og besvares næste hverdag. Vi håber, at den nye åbningstid gør det lettere for jer at besøge os. Med venlig hilsen, Kundeservice.",
+   "rubric": "Indica la fecha y el cambio, explica el motivo, describe la consecuencia para el cliente y usa al menos dos pasivas en -s (ændres, kan sendes…)."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos compañeros comentan el anuncio de que la oficina se trasladará a las afueras; a uno le preocupa el trayecto y decide pedir más información.",
+   "lines": [
+    {"text": "Hues du d'Matdeelung am Intranet gelies? De Büro gëtt op Bartreng verluecht.", "es": "¿Has leído el comunicado de la intranet? Trasladan la oficina a Bertrange."},
+    {"text": "Jo, an dat schonn am Abrëll. Ech si guer net begeeschtert.", "es": "Sí, y ya en abril. No me hace ninguna gracia."},
+    {"text": "Firwat dann net? D'Gebai soll vill méi modern sinn.", "es": "¿Por qué no? Dicen que el edificio es mucho más moderno."},
+    {"text": "Well mäin Trajet duebel esou laang gëtt. Do steet näischt dran, wéi dat kompenséiert soll ginn.", "es": "Porque mi trayecto se vuelve el doble de largo. No dice nada de cómo se va a compensar."},
+    {"text": "Et steet awer, datt Froe bis Enn vum Mount un d'Personalabteilung geschéckt kënne ginn.", "es": "Pero sí dice que las preguntas se pueden enviar a Recursos Humanos hasta fin de mes."},
+    {"text": "Da schreiwen ech a froen, ob et en Zouschoss fir den Abonnement gëtt.", "es": "Entonces escribo y pregunto si hay alguna ayuda para el abono de transporte."},
+    {"text": "Maach dat. Ech mengen net, datt s du deen eenzege bass, deen do drun denkt.", "es": "Hazlo. No creo que seas el único que piensa en eso."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué le preocupa al compañero del traslado y qué decide hacer?",
+   "choices": ["Que se le duplica el trayecto; va a preguntar a Recursos Humanos por una ayuda al transporte", "Que el edificio nuevo es antiguo; va a pedir quedarse en el actual", "Que va a perder su puesto; va a buscar otro trabajo"]
+  },
+  "grammar": {
+   "focus": "Pasiva con modales: muss/kann … ginn",
+   "explain": "En comunicados se usa mucho la pasiva con modal: el participio y «ginn» van al final: «D'Froe kënne geschéckt ginn», «De Büro muss geraumt ginn». Con verbos como «ubidden», el beneficiario va en dativo: «De Mataarbechter gëtt e Parking ugebueden».",
+   "items": [
+    {"prompt": "All d'Kartonge musse bis e Freideg agepaakt ___.", "answer": "ginn", "es": "Todas las cajas tienen que estar embaladas antes del viernes."},
+    {"prompt": "D'Demanden ___ iwwer den Intranet geschéckt ginn. (kënnen)", "answer": "kënnen", "es": "Las solicitudes se pueden enviar por la intranet."},
+    {"prompt": "All de Mataarbechter ___ e gratis Parking ugebueden. (ginn, presente)", "answer": "gëtt", "es": "A todos los empleados se les ofrece aparcamiento gratuito."}
+   ]
+  },
+  "vocab": [
+   {"text": "Matdeelung", "es": "comunicado", "example": "D'Matdeelung gouf gëschter den Owend verschéckt.", "example_es": "El comunicado se envió ayer por la noche."},
+   {"text": "begeeschtert", "es": "entusiasmado", "example": "Net jiddereen ass begeeschtert vum Plang.", "example_es": "No a todo el mundo le entusiasma el plan."},
+   {"text": "Trajet", "es": "trayecto", "example": "Mäin Trajet dauert elo eng Stonn.", "example_es": "Mi trayecto dura ahora una hora."},
+   {"text": "Zouschoss", "es": "ayuda, subvención", "example": "D'Firma bezilt en Zouschoss fir den Abonnement.", "example_es": "La empresa paga una ayuda para el abono de transporte."}
+  ],
+  "transfer": {
+   "prompt": "Tu empresa va a cambiar el horario de atención al público de 9–17 a 8–16 a partir de marzo. Escribe un aviso breve para los clientes (4–5 frases, formal) con el cambio, el motivo y cómo les afecta.",
+   "model": "Léif Clienten, vum 1. Mäerz u ginn eis Ëffnungszäiten op 8 bis 16 Auer geännert. D'Ännerung gëtt agefouert, well vill Cliente gär virun der Aarbecht laanschtkomme wëllen. Ufroen no 16 Auer kënnen ëmmer nach iwwer eise Kontaktformulaire geschéckt ginn a ginn den nächsten Aarbechtsdag beäntwert. Mir hoffen, datt Iech déi nei Zäite besser passen. Mat beschte Gréiss, Äre Clientsservice.",
+   "rubric": "Indica la fecha y el cambio, explica el motivo, describe la consecuencia para el cliente y usa al menos dos pasivas con «ginn» (una con modal)."
+  }
+ }
+}

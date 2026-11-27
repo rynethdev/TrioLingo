@@ -1,0 +1,79 @@
+{
+ "week": 94,
+ "da": {
+  "dialogue2": {
+   "context": "Un camarero propone a la dueña de una cafetería un sistema de pedidos por adelantado; ella duda por el coste y acuerdan una prueba.",
+   "lines": [
+    {"text": "Har du to minutter? Jeg har tænkt på, hvordan vi kan undgå de lange køer om morgenen.", "es": "¿Tienes dos minutos? He estado pensando cómo evitar las colas largas por la mañana."},
+    {"text": "Ja, det er der mange kunder, der klager over. Hvad har du i tankerne?", "es": "Sí, muchos clientes se quejan de eso. ¿Qué tienes en mente?"},
+    {"text": "En app, hvor kunderne kan bestille på forhånd, så kaffen er klar, når de kommer.", "es": "Una app donde los clientes puedan pedir por adelantado, para que el café esté listo cuando lleguen."},
+    {"text": "Det lyder smart, men det må koste en formue at få lavet.", "es": "Suena bien, pero encargarla tiene que costar una fortuna."},
+    {"text": "Der findes færdige løsninger med en gratis prøveperiode. Vi kunne teste en i en måned for at se, om den bliver brugt.", "es": "Hay soluciones ya hechas con un periodo de prueba gratis. Podríamos probar una durante un mes para ver si se usa."},
+    {"text": "Okay, men kun hvis du selv sørger for at lære de andre op.", "es": "Vale, pero solo si te encargas tú de formar a los demás."},
+    {"text": "Det gør jeg gerne. Jeg laver en kort vejledning, så alle kan følge med.", "es": "Encantado. Preparo una guía breve para que todos puedan seguir el ritmo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Con qué condición acepta la dueña la prueba?",
+   "choices": ["Que el camarero se encargue de formar al resto del equipo", "Que la aplicación siga siendo gratis después del primer mes", "Que primero la aprueben los clientes habituales"]
+  },
+  "grammar": {
+   "focus": "Oraciones finales: for at + infinitivo y så + oración",
+   "explain": "«For at» + infinitivo expresa finalidad cuando el sujeto es el mismo: «Vi tester den for at se, om den virker». Si cambia el sujeto, se usa «så» (o «så at») + oración: «…, så kaffen er klar, når de kommer».",
+   "items": [
+    {"prompt": "Vi tester appen i en måned ___ se, om kunderne bruger den. (para + infinitivo)", "answer": "for at", "es": "Probamos la app durante un mes para ver si los clientes la usan."},
+    {"prompt": "Jeg skriver en vejledning, ___ alle kan lære systemet hurtigt. (para que, una palabra)", "answer": "så", "es": "Escribo una guía para que todos puedan aprender el sistema rápido."},
+    {"prompt": "Kunderne kan bestille på forhånd for at ___ tid. (spare, infinitivo)", "answer": "spare", "es": "Los clientes pueden pedir por adelantado para ahorrar tiempo."}
+   ]
+  },
+  "vocab": [
+   {"text": "på forhånd", "es": "por adelantado", "example": "Man kan betale på forhånd i appen.", "example_es": "Se puede pagar por adelantado en la app."},
+   {"text": "en formue", "es": "una fortuna", "example": "Det behøver ikke at koste en formue.", "example_es": "No tiene por qué costar una fortuna."},
+   {"text": "prøveperiode", "es": "periodo de prueba", "example": "Der er en gratis prøveperiode på 30 dage.", "example_es": "Hay un periodo de prueba gratuito de 30 días."},
+   {"text": "en vejledning", "es": "una guía, unas instrucciones", "example": "Personalet får en vejledning på én side.", "example_es": "El personal recibe una guía de una página."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo a la administración de tu edificio de oficinas (4–6 frases, formal) proponiendo instalar un aparcamiento para bicicletas: problema actual, idea, beneficio y un primer paso realista. Usa al menos dos oraciones finales.",
+   "model": "Kære bygningsadministration. Mange af os cykler på arbejde, men i dag står cyklerne op ad facaden, hvor de spærrer indgangen. Jeg vil derfor foreslå, at der sættes et overdækket cykelstativ op i gården for at skabe mere orden. Det ville også gøre det mere attraktivt at cykle, så færre kommer i bil. Som første skridt kunne vi lave en kort rundspørge for at finde ud af, hvor mange pladser der er brug for. Jeg hjælper gerne med at sætte den i gang.",
+   "rubric": "Describe el problema, presenta la idea y su beneficio, propone un primer paso realista y usa al menos dos oraciones finales (for at / så)."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un camarero propone a la dueña de una cafetería un sistema de pedidos por adelantado; ella duda por el coste y acuerdan una prueba.",
+   "lines": [
+    {"text": "Hues du zwou Minutten? Ech hu mir Gedanken iwwer déi laang Schlaange moies gemaach.", "es": "¿Tienes dos minutos? He estado pensando en las colas largas de por la mañana."},
+    {"text": "Jo, doriwwer beschwéiere sech vill Clienten. Wat hues du dir do iwwerluecht?", "es": "Sí, muchos clientes se quejan de eso. ¿Qué se te ha ocurrido?"},
+    {"text": "Eng App, mat där d'Clienten am Viraus bestelle kënnen, fir datt de Kaffi fäerdeg ass, wa se kommen.", "es": "Una app con la que los clientes puedan pedir por adelantado, para que el café esté listo cuando lleguen."},
+    {"text": "Dat kléngt gutt, mee esou eppes kascht dach e Vermögen.", "es": "Suena bien, pero algo así cuesta una fortuna."},
+    {"text": "Et gëtt Léisunge mat enger gratis Testphase. Mir kéinten eng ee Mount testen, fir ze kucken, ob se benotzt gëtt.", "es": "Hay soluciones con un periodo de prueba gratis. Podríamos probar una durante un mes para ver si se usa."},
+    {"text": "Okay, mee nëmmen, wann s du d'Aner selwer uléiers.", "es": "Vale, pero solo si te encargas tú de formar a los demás."},
+    {"text": "Dat maachen ech gär. Ech schreiwen eng kuerz Uleedung, fir datt jiddereen nokënnt.", "es": "Encantado. Escribo unas instrucciones breves para que todos puedan seguir el ritmo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Con qué condición acepta la dueña la prueba?",
+   "choices": ["Que el camarero se encargue de formar al resto del equipo", "Que la aplicación siga siendo gratis después del primer mes", "Que primero la aprueben los clientes habituales"]
+  },
+  "grammar": {
+   "focus": "Oraciones finales: fir … ze + infinitivo y fir datt + oración",
+   "explain": "«Fir … ze» + infinitivo expresa finalidad cuando el sujeto es el mismo: «Mir testen se, fir ze kucken, ob se funktionéiert». Si cambia el sujeto, se usa «fir datt» con el verbo al final: «…, fir datt de Kaffi fäerdeg ass».",
+   "items": [
+    {"prompt": "Mir testen d'App ee Mount, fir ___ kucken, ob d'Cliente se benotzen.", "answer": "ze", "es": "Probamos la app un mes para ver si los clientes la usan."},
+    {"prompt": "Ech schreiwen eng Uleedung, ___ jiddereen de System séier léiert. (para que)", "answer": "fir datt", "es": "Escribo unas instrucciones para que todos aprendan rápido el sistema."},
+    {"prompt": "D'Cliente kënnen am Viraus bestellen, fir Zäit ze ___. (spueren)", "answer": "spueren", "es": "Los clientes pueden pedir por adelantado para ahorrar tiempo."}
+   ]
+  },
+  "vocab": [
+   {"text": "am Viraus", "es": "por adelantado", "example": "Dir kënnt am Viraus an der App bezuelen.", "example_es": "Puede pagar por adelantado en la app."},
+   {"text": "e Vermögen", "es": "una fortuna", "example": "Esou eng Maschinn kascht e Vermögen.", "example_es": "Una máquina así cuesta una fortuna."},
+   {"text": "Testphase", "es": "periodo de prueba", "example": "D'Testphase dauert drësseg Deeg.", "example_es": "El periodo de prueba dura treinta días."},
+   {"text": "Uleedung", "es": "instrucciones, guía", "example": "D'Personal kritt eng Uleedung vun enger Säit.", "example_es": "El personal recibe unas instrucciones de una página."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo a la administración de tu edificio de oficinas (4–6 frases, formal) proponiendo instalar un aparcamiento para bicicletas: problema actual, idea, beneficio y un primer paso realista. Usa al menos dos oraciones finales.",
+   "model": "Sehr geéiert Dammen an Hären, vill vun eis fuere mam Vëlo op d'Aarbecht, mee de Moment stinn d'Vëloen un der Fassad, wou se d'Entrée blockéieren. Dofir géif ech proposéieren, en iwwerdaachte Vëlosstänner am Haff opzestellen, fir méi Uerdnung ze schafen. Dat géif de Vëlo och méi attraktiv maachen, fir datt manner Leit mam Auto kommen. Als éischt kéinte mir eng kuerz Ëmfro maachen, fir erauszefannen, wéi vill Plaze gebraucht ginn. Ech hëllefen och gär, se ze organiséieren.",
+   "rubric": "Describe el problema, presenta la idea y su beneficio, propone un primer paso realista y usa al menos dos oraciones finales (fir … ze / fir datt)."
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "week": 52,
+ "da": {
+  "dialogue2": {
+   "context": "En una tienda de electrodomésticos: una clienta devuelve una cafetera que dejó de funcionar, pero ha perdido el ticket.",
+   "lines": [
+    {"text": "Hej, den kaffemaskine, som jeg købte her, virker ikke længere.", "es": "Hola, la cafetera que compré aquí ya no funciona."},
+    {"text": "Det er jeg ked af. Har du kvitteringen med?", "es": "Lo siento. ¿Trae el ticket?"},
+    {"text": "Nej, men jeg betalte med det kort, som jeg har her.", "es": "No, pero pagué con la tarjeta que tengo aquí."},
+    {"text": "Så kan jeg finde købet i systemet.", "es": "Entonces puedo encontrar la compra en el sistema."},
+    {"text": "Jeg vil helst have en ny, hvis I har den på lager.", "es": "Preferiría una nueva, si la tienen en stock."},
+    {"text": "Den har vi. Jeg bytter den med det samme.", "es": "Sí la tenemos. Se la cambio ahora mismo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo se resuelve el problema de que no tenga ticket?",
+   "choices": ["Buscan la compra en el sistema gracias a la tarjeta con la que pagó", "La clienta vuelve a casa a buscar el ticket", "La tienda le devuelve el dinero sin comprobar nada"]
+  },
+  "grammar": {
+   "focus": "Relativos: som, hvor, hvis",
+   "explain": "«Som» se refiere a cosas o personas (varen, som jeg bestilte), «hvor» a lugares o momentos (butikken, hvor jeg købte den) y «hvis» indica posesión (kunden, hvis pakke forsvandt).",
+   "items": [
+    {"prompt": "Varen, ___ jeg bestilte i sidste uge, kom aldrig.", "answer": "som", "es": "El artículo que pedí la semana pasada nunca llegó."},
+    {"prompt": "Det er butikken, ___ jeg købte maskinen.", "answer": "hvor", "es": "Es la tienda donde compré la máquina."},
+    {"prompt": "Kunden, ___ pakke forsvandt, ringede igen i dag.", "answer": "hvis", "es": "El cliente cuyo paquete desapareció volvió a llamar hoy."}
+   ]
+  },
+  "vocab": [
+   {"text": "kvitteringen", "es": "el ticket, el recibo", "example": "Har du kvitteringen med?", "example_es": "¿Trae el ticket?"},
+   {"text": "virker ikke", "es": "no funciona", "example": "Kaffemaskinen virker ikke længere.", "example_es": "La cafetera ya no funciona."},
+   {"text": "på lager", "es": "en stock", "example": "Har I den samme model på lager?", "example_es": "¿Tienen el mismo modelo en stock?"},
+   {"text": "at bytte", "es": "cambiar (un producto)", "example": "Er det muligt at bytte den til en ny?", "example_es": "¿Es posible cambiarla por una nueva?"}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo a una tienda online: te llegó una chaqueta de otra talla. Explica qué pediste, qué recibiste y qué solución quieres (4–5 frases).",
+   "model": "Hej. Den 3. marts bestilte jeg en jakke i størrelse M, men den jakke, som jeg modtog, er i størrelse L. Jeg har stadig emballagen og kvitteringen. Er det muligt at bytte den til den rigtige størrelse? Jeg vil helst ikke have pengene tilbage. Venlig hilsen, Laura Gómez.",
+   "rubric": "Usa al menos una relativa con «som», describe el problema con datos (fecha, talla) y pide una solución concreta."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En una tienda de electrodomésticos: una clienta devuelve una cafetera que dejó de funcionar, pero ha perdido el ticket.",
+   "lines": [
+    {"text": "Moien, d'Kaffismaschinn, déi ech hei kaaft hunn, geet net méi.", "es": "Hola, la cafetera que compré aquí ya no funciona."},
+    {"text": "Dat deet mir leed. Hutt Dir den Ticket dobäi?", "es": "Lo siento. ¿Trae el ticket?"},
+    {"text": "Neen, mee ech hu mat der Kaart bezuelt, déi ech hei hunn.", "es": "No, pero pagué con la tarjeta que tengo aquí."},
+    {"text": "Da kann ech de Kaf am System fannen.", "es": "Entonces puedo encontrar la compra en el sistema."},
+    {"text": "Ech hätt am léifsten eng nei, wann Dir der nach hutt.", "es": "Preferiría una nueva, si les quedan."},
+    {"text": "Mir hunn nach der. Ech tauschen se Iech direkt ëm.", "es": "Nos quedan. Se la cambio ahora mismo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo se resuelve el problema de que no tenga ticket?",
+   "choices": ["Buscan la compra en el sistema gracias a la tarjeta con la que pagó", "La clienta vuelve a casa a buscar el ticket", "La tienda le devuelve el dinero sin comprobar nada"]
+  },
+  "grammar": {
+   "focus": "Relativos: deen, déi, dat",
+   "explain": "El relativo concuerda con el sustantivo: masculino «deen» (de Pak, deen ukomm ass), femenino y plural «déi» (d'Maschinn, déi ech kaaft hunn), neutro «dat» (d'Buch, dat ech bestallt hunn). El verbo va al final.",
+   "items": [
+    {"prompt": "De Pak, ___ gëschter ukomm ass, war beschiedegt.", "answer": "deen", "es": "El paquete que llegó ayer estaba dañado."},
+    {"prompt": "D'Lampen, ___ ech bestallt hunn, sinn ze kleng.", "answer": "déi", "es": "Las lámparas que pedí son demasiado pequeñas."},
+    {"prompt": "D'Buch, ___ ech bestallt hunn, ass nach net ukomm.", "answer": "dat", "es": "El libro que pedí todavía no ha llegado."}
+   ]
+  },
+  "vocab": [
+   {"text": "geet net méi", "es": "ya no funciona", "example": "D'Kaffismaschinn geet net méi.", "example_es": "La cafetera ya no funciona."},
+   {"text": "den Ticket", "es": "el ticket", "example": "Hutt Dir den Ticket dobäi?", "example_es": "¿Trae el ticket?"},
+   {"text": "ëmtauschen", "es": "cambiar (un producto)", "example": "Kann ech d'Maschinn ëmtauschen?", "example_es": "¿Puedo cambiar la máquina?"},
+   {"text": "beschiedegt", "es": "dañado", "example": "De Pak war beschiedegt.", "example_es": "El paquete estaba dañado."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo a una tienda online: te llegó un jersey de otra talla. Explica qué pediste, qué recibiste y qué solución quieres (4–5 frases).",
+   "model": "Moien, den 3. Mäerz hunn ech en Pullover an der Gréisst M bestallt. De Pullover, deen ech kritt hunn, ass awer an der Gréisst L. Ech hunn den Ticket an d'Verpakung nach. Kann ech en an déi richteg Gréisst ëmtauschen? Merci am Viraus, Laura Gómez.",
+   "rubric": "Usa al menos una relativa con el verbo al final, describe el problema con datos (fecha, talla) y pide una solución concreta."
+  }
+ }
+}

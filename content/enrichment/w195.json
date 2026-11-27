@@ -1,0 +1,81 @@
+{
+ "week": 195,
+ "da": {
+  "dialogue2": {
+   "context": "Dos editoras de un libro de recetas escrito por treinta vecinos de distintos países discuten el prólogo: una quiere incluir a todos los participantes; la otra, contar por qué existe el libro.",
+   "lines": [
+    {"text": "Jeg har skrevet alle tredive navne ind i forordet.", "es": "He puesto los treinta nombres en el prólogo."},
+    {"text": "Det er en flot gestus. Men læseren springer listen over efter fem navne.", "es": "Es un bonito gesto. Pero el lector se salta la lista a los cinco nombres."},
+    {"text": "Så de medvirkende skal ikke nævnes?", "es": "¿Entonces no hay que nombrar a los participantes?"},
+    {"text": "Jo, bagerst, sammen med deres retter. Forordet skal fortælle, hvorfor bogen findes.", "es": "Sí, al final, junto con sus platos. El prólogo tiene que contar por qué existe el libro."},
+    {"text": "Fordi vi ville spise sammen i stedet for bare at gå forbi hinanden på trappen.", "es": "Porque queríamos comer juntos en vez de limitarnos a cruzarnos en la escalera."},
+    {"text": "Der har du første sætning.", "es": "Ahí tienes la primera frase."},
+    {"text": "Og hvordan skal man læse den?", "es": "¿Y cómo hay que leerlo?"},
+    {"text": "Ikke fra ende til anden. Med en gryde på komfuret og naboen ved bordet.", "es": "No de principio a fin. Con una olla al fuego y el vecino a la mesa."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué sugiere la editora con «Ahí tienes la primera frase»?",
+   "choices": ["Que la razón personal que acaba de dar su compañera es el mejor arranque del prólogo", "Que el prólogo ya está terminado", "Que la lista de nombres debe ir al principio"]
+  },
+  "grammar": {
+   "focus": "Participios con valor de adjetivo en registro cuidado",
+   "explain": "En textos formales se usan participios como adjetivos: den foreliggende bog (el presente libro), de medvirkende (los participantes), vedlagte liste (la lista adjunta), ovenstående (lo anterior). Dan un tono cuidado sin alargar la frase.",
+   "items": [
+    {"prompt": "Den ___ bog er skrevet af tredive naboer. (el presente, que tenemos delante)", "answer": "foreliggende", "es": "El presente libro lo han escrito treinta vecinos."},
+    {"prompt": "Alle ___ er nævnt bagerst med deres retter. (los participantes)", "answer": "medvirkende", "es": "Todos los participantes aparecen al final con sus platos."},
+    {"prompt": "Se ___ liste over opskrifterne. (adjunta)", "answer": "vedlagte", "es": "Véase la lista adjunta de recetas."}
+   ]
+  },
+  "vocab": [
+   {"text": "forbi hinanden", "es": "(cruzarse) sin verse de verdad", "example": "I årevis gik vi bare forbi hinanden på trappen.", "example_es": "Durante años nos limitamos a cruzarnos en la escalera."},
+   {"text": "fra ende til anden", "es": "de principio a fin", "example": "Bogen skal ikke læses fra ende til anden.", "example_es": "El libro no tiene que leerse de principio a fin."},
+   {"text": "en flot gestus", "es": "un bonito gesto", "example": "Det er en flot gestus at nævne alle.", "example_es": "Es un bonito gesto nombrar a todos."},
+   {"text": "byde velkommen", "es": "dar la bienvenida", "example": "Forordet skal byde velkommen, ikke opremse.", "example_es": "El prólogo debe dar la bienvenida, no enumerar."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el prólogo (6–8 frases) del libro colectivo de recetas del barrio: por qué existe, quiénes participaron (sin lista) y cómo usarlo, en un registro cuidado y cálido.",
+   "model": "Den foreliggende bog begyndte med en enkel erkendelse: vi havde boet dør om dør i årevis og alligevel kun gået forbi hinanden på trappen. En vinteraften inviterede nogle af os de andre på mad, og siden har tredive naboer fra elleve lande lavet mad sammen. Hver opskrift i bogen er blevet kogt, smagt og diskuteret ved et af vores fællesborde. De medvirkende er nævnt bagerst sammen med deres retter, for det er dem, der har gjort bogen mulig. Bogen skal ikke læses fra ende til anden; den skal bruges med fedtede fingre og en gryde på komfuret. Vores eneste ønske er, at den får nogen til at banke på hos naboen. Velbekomme.",
+   "rubric": "Explica el origen y sentido de la obra colectiva; reconoce a los participantes sin convertir el prólogo en una lista; orienta sobre el uso del libro; usa participios y estructuras de registro cuidado; tono cálido y sin grandilocuencia."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos editoras de un libro de recetas escrito por treinta vecinos de distintos países discuten el prólogo: una quiere incluir a todos los participantes; la otra, contar por qué existe el libro.",
+   "lines": [
+    {"text": "Ech hunn all drësseg Nimm an d'Virwuert geschriwwen.", "es": "He puesto los treinta nombres en el prólogo."},
+    {"text": "Dat ass eng schéin Geste. Mä de Lieser liest d'Lëscht net weider wéi bis zum fënnefte Numm.", "es": "Es un bonito gesto. Pero el lector no pasa del quinto nombre."},
+    {"text": "Also solle mir d'Bedeelegten net nennen?", "es": "¿Entonces no hay que nombrar a los participantes?"},
+    {"text": "Dach, hannen am Buch, mat hire Rezepter. D'Virwuert soll erzielen, firwat et d'Buch gëtt.", "es": "Sí, al final del libro, con sus recetas. El prólogo tiene que contar por qué existe el libro."},
+    {"text": "Well mir zesummen iesse wollten, amplaz eis am Stéiegenhaus just ze kräizen.", "es": "Porque queríamos comer juntos en vez de limitarnos a cruzarnos en la escalera."},
+    {"text": "Do hues du schonn den éischte Saz.", "es": "Ahí tienes ya la primera frase."},
+    {"text": "A wéi soll een d'Buch liesen?", "es": "¿Y cómo hay que leer el libro?"},
+    {"text": "Net vu vir bis hannen. Mat engem Dëppen um Feier an dem Noper um Dësch.", "es": "No de principio a fin. Con una olla al fuego y el vecino a la mesa."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué sugiere la editora con «Ahí tienes ya la primera frase»?",
+   "choices": ["Que la razón personal que acaba de dar su compañera es el mejor arranque del prólogo", "Que el prólogo ya está terminado", "Que la lista de nombres debe ir al principio"]
+  },
+  "grammar": {
+   "focus": "Oraciones finales con «fir … ze» + infinitivo",
+   "explain": "Para expresar finalidad en registro cuidado: «fir» + complementos + «ze» + infinitivo al final: Mir hunn d'Buch geschriwwen, fir eis Noperen ze treffen. Con verbo separable, «ze» va entre la partícula y el verbo: fir eis kennenzeléieren.",
+   "items": [
+    {"prompt": "Mir hunn d'Buch gemaach, ___ eis Noperen besser kennenzeléieren. (para)", "answer": "fir", "es": "Hicimos el libro para conocer mejor a nuestros vecinos."},
+    {"prompt": "D'Virwuert ass do, fir de Lieser ___ empfänken. (partícula de infinitivo)", "answer": "ze", "es": "El prólogo está ahí para recibir al lector."},
+    {"prompt": "Mir treffen eis all Mount, fir zesummen ___. (kachen, infinitivo con «ze»)", "answer": "ze kachen", "es": "Nos reunimos cada mes para cocinar juntos."}
+   ]
+  },
+  "vocab": [
+   {"text": "eng schéin Geste", "es": "un bonito gesto", "example": "Et ass eng schéin Geste, jiddereen ze nennen.", "example_es": "Es un bonito gesto nombrar a todo el mundo."},
+   {"text": "vu vir bis hannen", "es": "de principio a fin", "example": "D'Buch muss een net vu vir bis hannen liesen.", "example_es": "El libro no hay que leerlo de principio a fin."},
+   {"text": "Dier un Dier", "es": "puerta con puerta", "example": "Mir hu joerelaang Dier un Dier gewunnt.", "example_es": "Vivimos puerta con puerta durante años."},
+   {"text": "wëllkomm heeschen", "es": "dar la bienvenida", "example": "D'Virwuert soll de Lieser wëllkomm heeschen.", "example_es": "El prólogo debe dar la bienvenida al lector."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el prólogo (6–8 frases) del libro colectivo de recetas del barrio: por qué existe, quiénes participaron (sin lista) y cómo usarlo, en un registro cuidado y cálido.",
+   "model": "Dëst Buch huet mat enger einfacher Erkenntnis ugefaangen: mir hu joerelaang Dier un Dier gewunnt an eis awer nëmmen am Stéiegenhaus gekräizt. Un engem Wanterowend hunn e puer vun eis déi aner op en Iessen invitéiert, an zënterhier kachen drësseg Noperen aus eelef Länner zesummen. All Rezept an dësem Buch gouf un engem vun eisen Dëscher gekacht, geschmaacht an diskutéiert. D'Bedeelegte stinn hannen am Buch mat hire Rezepter, well si et sinn, déi dëst Buch méiglech gemaach hunn. D'Buch ass net do, fir vu vir bis hanne gelies ze ginn, mä fir mat fettege Fanger an engem Dëppen um Feier benotzt ze ginn. Eisen eenzege Wonsch ass, datt et een dozou bréngt, beim Noper ze klappen. Gudden Appetit.",
+   "rubric": "Explica el origen y sentido de la obra colectiva; reconoce a los participantes sin convertir el prólogo en una lista; orienta sobre el uso del libro; usa oraciones finales con «fir … ze»; tono cálido y sin grandilocuencia."
+  }
+ }
+}

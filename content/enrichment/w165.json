@@ -1,0 +1,81 @@
+{
+ "week": 165,
+ "da": {
+  "dialogue2": {
+   "context": "En una asamblea de vecinos, un propietario furioso acusa a otro de una filtración de agua; la presidenta de la comunidad intenta reconducir la discusión sin dar la razón a nadie.",
+   "lines": [
+    {"text": "Vandet kommer fra hans altan, det ved alle i opgangen!", "es": "¡El agua viene de su balcón, lo sabe toda la escalera!"},
+    {"text": "Det kan godt være. Men lige nu ved vi kun, at der er en vandskade på tredje sal.", "es": "Puede ser. Pero ahora mismo solo sabemos que hay daños por agua en el tercer piso."},
+    {"text": "Skal jeg så bare vente, mens mit loft rådner?", "es": "¿Y tengo que esperar mientras se me pudre el techo?"},
+    {"text": "Nej. Skaden bliver undersøgt i morgen, og foreningen betaler undersøgelsen.", "es": "No. Mañana se inspecciona el daño, y la comunidad paga la inspección."},
+    {"text": "Og hvis han nægter at lukke håndværkeren ind?", "es": "¿Y si él se niega a dejar entrar al técnico?"},
+    {"text": "Så tager vi den derfra. Men lad os ikke dømme, før der er fundet en årsag.", "es": "Entonces ya lo veremos. Pero no juzguemos antes de que se haya encontrado una causa."},
+    {"text": "Fint. Men jeg vil have det skrevet ind i referatet.", "es": "Bien. Pero quiero que conste en acta."},
+    {"text": "Det bliver det. Ordret, hvis du vil.", "es": "Constará. Palabra por palabra, si quieres."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué estrategia usa la presidenta cuando dice «solo sabemos que hay daños en el tercer piso»?",
+   "choices": ["Separa el hecho comprobado de la acusación sin dar la razón a nadie", "Insinúa que el vecino se está inventando los daños", "Da la razón al vecino acusado para calmar al otro"]
+  },
+  "grammar": {
+   "focus": "La pasiva para despersonalizar y rebajar la tensión",
+   "explain": "En una mediación, la pasiva pone el foco en el hecho y no en el culpable. La s-pasiva es neutra y general (Skaden undersøges i morgen); «blive» + participio presenta un hecho concreto (Alle klager bliver noteret); en perfecto se usa «er» + participio (Der er truffet en beslutning).",
+   "items": [
+    {"prompt": "Skaden ___ af en uvildig håndværker i morgen. (undersøge, s-pasiva presente)", "answer": "undersøges", "es": "Mañana un técnico independiente inspecciona el daño."},
+    {"prompt": "Der ___ ikke truffet nogen beslutning endnu. (auxiliar de perfecto)", "answer": "er", "es": "Todavía no se ha tomado ninguna decisión."},
+    {"prompt": "Alle klager ___ skrevet ind i referatet. (blive, presente)", "answer": "bliver", "es": "Todas las quejas quedan recogidas en el acta."}
+   ]
+  },
+  "vocab": [
+   {"text": "tage den derfra", "es": "ya veremos, abordarlo cuando llegue", "example": "Lad os tage den derfra, hvis det bliver nødvendigt.", "example_es": "Ya lo abordaremos si hace falta."},
+   {"text": "dømme på forhånd", "es": "prejuzgar", "example": "Vi skal ikke dømme på forhånd.", "example_es": "No debemos prejuzgar."},
+   {"text": "skrue ned for tonen", "es": "bajar el tono", "example": "Kan vi skrue ned for tonen et øjeblik?", "example_es": "¿Podemos bajar el tono un momento?"},
+   {"text": "uvildig", "es": "imparcial, independiente", "example": "En uvildig håndværker ser på skaden i morgen.", "example_es": "Mañana un técnico independiente examina el daño."}
+  ],
+  "transfer": {
+   "prompt": "Como presidenta, escribe el correo (6–8 frases) a todos los vecinos tras la asamblea tensa: resume los hechos sin señalar culpables, explica los pasos acordados y pide calma, sabiendo que las dos partes lo leerán con lupa.",
+   "model": "Kære beboere, tak for et engageret, om end til tider ophedet møde i går aftes. Det, vi ved med sikkerhed, er, at der er konstateret en vandskade i lejligheden på tredje sal. Årsagen er endnu ikke fastslået, og det vil derfor være forkert at pege på nogen. Skaden undersøges på torsdag af en uvildig håndværker, som foreningen betaler. Begge berørte parter har lovet at give adgang til deres lejligheder, og det sætter bestyrelsen stor pris på. Rapporten sendes til alle, så snart den foreligger, og først derefter tager vi stilling til ansvar og udgifter. Indtil da beder jeg om, at vi taler med hinanden og ikke om hinanden. Med venlig hilsen, Lene Bach, formand",
+   "rubric": "Distingue hechos comprobados de suposiciones; usa la pasiva para no señalar culpables; enumera pasos concretos con fechas; tono neutral y sereno, aceptable para ambas partes; cierre que llama a la calma sin sermonear."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En una asamblea de vecinos, un propietario furioso acusa a otro de una filtración de agua; la presidenta de la comunidad intenta reconducir la discusión sin dar la razón a nadie.",
+   "lines": [
+    {"text": "D'Waasser kënnt vu sengem Balcon, dat weess dat ganzt Haus!", "es": "¡El agua viene de su balcón, lo sabe todo el edificio!"},
+    {"text": "Dat ka sinn. Mä elo wësse mir just, datt et um drëtte Stack e Waasserschued gëtt.", "es": "Puede ser. Pero ahora mismo solo sabemos que hay daños por agua en el tercer piso."},
+    {"text": "A soll ech dann einfach waarden, bis mäi Plafong verfault?", "es": "¿Y tengo que esperar sin más hasta que se me pudra el techo?"},
+    {"text": "Neen. De Schued gëtt muer ënnersicht, an d'Copropriétéit iwwerhëlt d'Käschte vun der Ënnersichung.", "es": "No. Mañana se inspecciona el daño, y la comunidad asume el coste de la inspección."},
+    {"text": "A wann hien den Handwierker net eraléisst?", "es": "¿Y si él no deja entrar al técnico?"},
+    {"text": "Da kucke mir weider. Mä mir uerteelen net, ier eng Ursaach fonnt ginn ass.", "es": "Entonces ya veremos. Pero no juzgamos antes de que se haya encontrado una causa."},
+    {"text": "Gutt. Mä ech wëll, datt dat am Protokoll steet.", "es": "Bien. Pero quiero que conste en acta."},
+    {"text": "Dat gëtt festgehalen — Wuert fir Wuert, wann s du wëlls.", "es": "Quedará recogido, palabra por palabra si quieres."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué estrategia usa la presidenta cuando dice «solo sabemos que hay daños en el tercer piso»?",
+   "choices": ["Separa el hecho comprobado de la acusación sin dar la razón a nadie", "Insinúa que el vecino se está inventando los daños", "Da la razón al vecino acusado para calmar al otro"]
+  },
+  "grammar": {
+   "focus": "La pasiva con «ginn» para despersonalizar",
+   "explain": "La pasiva con «ginn» + participio pone el foco en el hecho y no en la persona: De Schued gëtt ënnersicht (se inspecciona el daño). En pasado: gouf + participio; en perfecto: ass/sinn + participio + ginn (ass fonnt ginn).",
+   "items": [
+    {"prompt": "De Schued ___ muer vun engem onofhängegen Handwierker ënnersicht. (ginn, presente)", "answer": "gëtt", "es": "Mañana un técnico independiente inspecciona el daño."},
+    {"prompt": "Gëschter ___ keng Decisioun geholl. (ginn, pasado)", "answer": "gouf", "es": "Ayer no se tomó ninguna decisión."},
+    {"prompt": "All Reklamatioune si festgehale ___. (participio de «ginn»)", "answer": "ginn", "es": "Todas las reclamaciones han quedado recogidas."}
+   ]
+  },
+  "vocab": [
+   {"text": "entschäerfen", "es": "desactivar, rebajar (la tensión)", "example": "D'Presidentin probéiert, d'Situatioun ze entschäerfen.", "example_es": "La presidenta intenta rebajar la tensión de la situación."},
+   {"text": "onofhängegen Expert", "es": "perito independiente", "example": "En onofhängegen Expert kuckt sech de Schued un.", "example_es": "Un perito independiente examina el daño."},
+   {"text": "virschnell", "es": "precipitadamente", "example": "Mir sollten net virschnell uerteelen.", "example_es": "No deberíamos juzgar precipitadamente."},
+   {"text": "Wuert fir Wuert", "es": "palabra por palabra", "example": "Dat gëtt Wuert fir Wuert festgehalen.", "example_es": "Eso queda recogido palabra por palabra."}
+  ],
+  "transfer": {
+   "prompt": "Como presidenta, escribe el correo (6–8 frases) a todos los vecinos tras la asamblea tensa: resume los hechos sin señalar culpables, explica los pasos acordados y pide calma, sabiendo que las dos partes lo leerán con lupa.",
+   "model": "Léif Bewunner, merci fir déi engagéiert, wann och heiansdo hëtzeg Versammlung gëschter den Owend. Wat mir sécher wëssen, ass, datt um drëtte Stack e Waasserschued festgestallt gouf. D'Ursaach ass nach net gekläert, an dofir wier et falsch, op iergendeen ze weisen. De Schued gëtt en Donneschdeg vun engem onofhängegen Handwierker ënnersicht, dee vun der Copropriétéit bezuelt gëtt. Béid betraffe Parteien hu versprach, den Zougang zu hire Wunnengen ze erméiglechen, an dat schätzt de Comité ganz besonnesch. De Rapport gëtt un all Bewunner geschéckt, soubal e virläit, an eréischt dann entscheede mir iwwer Verantwortung a Käschten. Bis dohin bieden ech drëm, datt mir matenee schwätzen an net iwwerenee. Mat beschte Gréiss, Lena Bach, Presidentin",
+   "rubric": "Distingue hechos comprobados de suposiciones; usa la pasiva con «ginn» para no señalar culpables; enumera pasos concretos con fechas; tono neutral y sereno, aceptable para ambas partes; cierre que llama a la calma sin sermonear."
+  }
+ }
+}

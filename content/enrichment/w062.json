@@ -1,0 +1,77 @@
+{
+ "week": 62,
+ "da": {
+  "dialogue2": {
+   "context": "Dos amigos se llaman por teléfono: cada uno lleva un rato esperando al otro en un sitio distinto.",
+   "lines": [
+    {"text": "Hvor er du? Jeg har ventet ved stationen i et kvarter.", "es": "¿Dónde estás? Llevo un cuarto de hora esperando en la estación."},
+    {"text": "Ved stationen? Jeg sidder på caféen overfor.", "es": "¿En la estación? Estoy sentado en el café de enfrente."},
+    {"text": "Men du skrev da, at vi skulle mødes ved indgangen.", "es": "Pero escribiste que nos veríamos en la entrada."},
+    {"text": "Jeg mente indgangen til caféen, ikke til stationen.", "es": "Me refería a la entrada del café, no a la de la estación."},
+    {"text": "Nå, så havde vi begge to ret på en måde.", "es": "Ah, pues en cierto modo los dos teníamos razón."},
+    {"text": "Næste gang sender jeg et kort med adressen. Kom over!", "es": "La próxima vez te mando un mapa con la dirección. ¡Ven!"}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cuál fue el origen del malentendido?",
+   "choices": ["Una palabra del mensaje se podía entender de dos maneras", "Uno de los dos se equivocó de día", "El café de enfrente estaba cerrado"]
+  },
+  "grammar": {
+   "focus": "Førdatid (pluscuamperfecto): havde/var + participio",
+   "explain": "Para algo anterior a otro hecho pasado se usa «havde» + participio (Jeg havde skrevet det forkert) o «var» con verbos de movimiento (Han var allerede gået).",
+   "items": [
+    {"prompt": "Da jeg kom, ___ hun allerede gået. (være)", "answer": "var", "es": "Cuando llegué, ella ya se había ido."},
+    {"prompt": "Jeg ___ glemt at læse hans besked. (have)", "answer": "havde", "es": "Se me había olvidado leer su mensaje."},
+    {"prompt": "Vi havde ___ et andet tidspunkt. (aftale)", "answer": "aftalt", "es": "Habíamos quedado a otra hora."}
+   ]
+  },
+  "vocab": [
+   {"text": "Jeg mente", "es": "Me refería a", "example": "Jeg mente indgangen til caféen.", "example_es": "Me refería a la entrada del café."},
+   {"text": "overfor", "es": "enfrente", "example": "Jeg sidder på caféen overfor.", "example_es": "Estoy en el café de enfrente."},
+   {"text": "have ret", "es": "tener razón", "example": "Du kan godt have ret.", "example_es": "Puede que tengas razón."},
+   {"text": "på en måde", "es": "en cierto modo", "example": "På en måde var det ingens skyld.", "example_es": "En cierto modo no fue culpa de nadie."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un mensaje a un compañero: él creía que tú ibas a comprar las bebidas para la fiesta de la oficina y tú creías que lo hacía él. Aclara qué entendió cada uno y propone una solución (3–4 frases).",
+   "model": "Hej Rasmus. Jeg tror, der er sket en fejl med drikkevarerne. Jeg havde forstået, at du købte dem, og du havde forstået det omvendt. Skal vi ikke tage i supermarkedet sammen efter frokost?",
+   "rubric": "Usa «havde» + participio para explicar qué entendió cada uno y termina con una propuesta concreta."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos amigos se llaman por teléfono: cada uno lleva un rato esperando al otro en un sitio distinto.",
+   "lines": [
+    {"text": "Wou bass du? Ech waarde scho fofzéng Minutten op der Gare.", "es": "¿Dónde estás? Llevo un cuarto de hora esperando en la estación."},
+    {"text": "Op der Gare? Ech sëtzen am Café vis-à-vis.", "es": "¿En la estación? Estoy sentado en el café de enfrente."},
+    {"text": "Mee du hues dach geschriwwen, mir géifen eis bei der Entrée treffen.", "es": "Pero escribiste que nos veríamos en la entrada."},
+    {"text": "Ech hat d'Entrée vum Café gemengt, net déi vun der Gare.", "es": "Me refería a la entrada del café, no a la de la estación."},
+    {"text": "Ah, da hate mir allen zwee op eng Manéier Recht.", "es": "Ah, pues en cierto modo los dos teníamos razón."},
+    {"text": "Déi nächst Kéier schécken ech dir eng Kaart mat der Adress. Komm eriwwer!", "es": "La próxima vez te mando un mapa con la dirección. ¡Ven!"}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cuál fue el origen del malentendido?",
+   "choices": ["Una palabra del mensaje se podía entender de dos maneras", "Uno de los dos se equivocó de día", "El café de enfrente estaba cerrado"]
+  },
+  "grammar": {
+   "focus": "Plusquamperfekt: hat/war + participio",
+   "explain": "Para algo anterior a otro hecho pasado se usa el Imperfekt de «hunn» o «sinn» + participio: Ech hat et falsch notéiert. Hie war scho fortgaangen.",
+   "items": [
+    {"prompt": "Wéi ech ukomm sinn, ___ si scho fortgaangen. (sinn)", "answer": "war", "es": "Cuando llegué, ella ya se había ido."},
+    {"prompt": "Ech ___ säi Message net richteg gelies. (hunn)", "answer": "hat", "es": "No había leído bien su mensaje."},
+    {"prompt": "Mir haten eng aner Auerzäit ___. (ofmaachen)", "answer": "ofgemaach", "es": "Habíamos quedado a otra hora."}
+   ]
+  },
+  "vocab": [
+   {"text": "vis-à-vis", "es": "enfrente", "example": "Ech sëtzen am Café vis-à-vis.", "example_es": "Estoy en el café de enfrente."},
+   {"text": "gemengt", "es": "querido decir, referido", "example": "Ech hat d'Entrée vum Café gemengt.", "example_es": "Me refería a la entrada del café."},
+   {"text": "Recht hunn", "es": "tener razón", "example": "Du kanns Recht hunn.", "example_es": "Puede que tengas razón."},
+   {"text": "op eng Manéier", "es": "en cierto modo", "example": "Op eng Manéier war et keem säi Feeler.", "example_es": "En cierto modo no fue culpa de nadie."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un mensaje a un compañero: él creía que tú ibas a comprar las bebidas para la fiesta de la oficina y tú creías que lo hacía él. Aclara qué entendió cada uno y propone una solución (3–4 frases).",
+   "model": "Moien Ras, ech mengen, et gouf e Mëssverständnis mam Gedrénks. Ech hat geduecht, du kafs et, an du has dat selwecht vu mir geduecht. Solle mir no der Mëttespaus zesummen an de Supermarché goen?",
+   "rubric": "Usa «hat»/«war» + participio para explicar qué entendió cada uno y termina con una propuesta concreta."
+  }
+ }
+}

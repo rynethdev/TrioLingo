@@ -1,0 +1,79 @@
+{
+ "week": 85,
+ "da": {
+  "dialogue2": {
+   "context": "Un jefe le pide una tarea urgente nueva a una empleada que ya va justa de tiempo; ella negocia qué se aplaza.",
+   "lines": [
+    {"text": "Jeg ved godt, du har travlt, men kunne du også lave præsentationen til bestyrelsen?", "es": "Sé que vas muy liada, pero ¿podrías hacer también la presentación para el consejo?"},
+    {"text": "Det vil jeg gerne, men så må noget andet vente, fordi ugen allerede er fuld.", "es": "Con gusto, pero entonces algo tendrá que esperar, porque la semana ya está llena."},
+    {"text": "Hvad synes du, vi kunne skubbe?", "es": "¿Qué crees que podríamos aplazar?"},
+    {"text": "Det interne nyhedsbrev. Det er ikke tidskritisk, og derfor kan det godt vente en uge.", "es": "El boletín interno. No es urgente, y por eso puede esperar una semana."},
+    {"text": "Og kundeundersøgelsen? Den har vi jo lovet direktøren.", "es": "¿Y la encuesta de clientes? Se la prometimos al director."},
+    {"text": "Den bliver færdig til tiden, da jeg allerede har indsamlet næsten alle svarene.", "es": "Estará lista a tiempo, ya que he recogido casi todas las respuestas."},
+    {"text": "Perfekt, så aftaler vi det. Jeg giver kommunikationsafdelingen besked om nyhedsbrevet.", "es": "Perfecto, quedamos así. Aviso al departamento de comunicación lo del boletín."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué se acaba aplazando y por qué?",
+   "choices": ["El boletín interno, porque no es urgente", "La encuesta de clientes, porque faltan respuestas", "La presentación para el consejo, porque la semana está llena"]
+  },
+  "grammar": {
+   "focus": "Conectores causales: fordi, da, derfor",
+   "explain": "«Fordi» y «da» introducen la causa con orden de subordinada: «…, fordi ugen er fuld». «Da» es frecuente al principio de la frase. «Derfor» presenta la consecuencia y va seguido del verbo: «Derfor kan det vente».",
+   "items": [
+    {"prompt": "___ kunden har en fast frist, starter vi med leveringen. («como», al inicio de la frase)", "answer": "Da", "es": "Como el cliente tiene un plazo fijo, empezamos por la entrega."},
+    {"prompt": "Nyhedsbrevet haster ikke. ___ kan det vente en uge. (por eso)", "answer": "Derfor", "es": "El boletín no corre prisa. Por eso puede esperar una semana."},
+    {"prompt": "Jeg kan ikke tage opgaven, ___ jeg allerede har tre deadlines i denne uge. (porque)", "answer": "fordi", "es": "No puedo asumir la tarea porque ya tengo tres plazos de entrega esta semana."}
+   ]
+  },
+  "vocab": [
+   {"text": "tidskritisk", "es": "urgente, con plazo crítico", "example": "Opgaven er ikke tidskritisk, så den kan vente.", "example_es": "La tarea no es urgente, así que puede esperar."},
+   {"text": "skubbe", "es": "aplazar, mover (coloquial)", "example": "Kan vi skubbe mødet til næste uge?", "example_es": "¿Podemos mover la reunión a la semana que viene?"},
+   {"text": "til tiden", "es": "a tiempo", "example": "Undersøgelsen bliver færdig til tiden.", "example_es": "La encuesta estará lista a tiempo."},
+   {"text": "give besked", "es": "avisar", "example": "Husk at give besked, hvis planen ændrer sig.", "example_es": "Acuérdate de avisar si cambia el plan."}
+  ],
+  "transfer": {
+   "prompt": "En una asociación de voluntarios tenéis tres tareas para el sábado y solo dos personas. Escribe un mensaje informal al grupo (4–5 frases) proponiendo un orden y justificándolo con conectores causales.",
+   "model": "Hej alle sammen! Da vi kun er to på lørdag, foreslår jeg, at vi tager det vigtigste først. Vi starter med madudleveringen, fordi folk venter på den allerede klokken ti. Bagefter rydder vi op på lageret. Plakaterne til loppemarkedet haster ikke, og derfor kan de godt vente til næste weekend. Er I med på det?",
+   "rubric": "Propone un orden claro, usa al menos dos conectores causales distintos (fordi, da, derfor) con el orden de palabras correcto y termina pidiendo la opinión del grupo."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un jefe le pide una tarea urgente nueva a una empleada que ya va justa de tiempo; ella negocia qué se aplaza.",
+   "lines": [
+    {"text": "Ech weess, datt s du vill ze dinn hues, mee kéints du och d'Presentatioun fir de Verwaltungsrot maachen?", "es": "Sé que tienes mucho trabajo, pero ¿podrías hacer también la presentación para el consejo de administración?"},
+    {"text": "Gär, mee da muss eppes anescht waarden, well meng Woch scho voll ass.", "es": "Con gusto, pero entonces algo tendrá que esperar, porque mi semana ya está llena."},
+    {"text": "A wat kéint denger Meenung no waarden?", "es": "¿Y qué podría esperar, según tú?"},
+    {"text": "Den internen Newsletter. Deen ass net dréngend, dofir kann en eng Woch waarden.", "es": "El boletín interno. No es urgente, por eso puede esperar una semana."},
+    {"text": "An d'Clientenëmfro? Déi hu mir dem Direkter versprach.", "es": "¿Y la encuesta de clientes? Se la prometimos al director."},
+    {"text": "Déi gëtt pénktlech fäerdeg, well ech scho bal all d'Äntwerten agesammelt hunn.", "es": "Estará lista a tiempo, porque ya he recogido casi todas las respuestas."},
+    {"text": "Perfekt, da maache mir et esou. Ech soen der Kommunikatiounsabteilung Bescheed wéinst dem Newsletter.", "es": "Perfecto, lo hacemos así. Aviso al departamento de comunicación lo del boletín."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué se acaba aplazando y por qué?",
+   "choices": ["El boletín interno, porque no es urgente", "La encuesta de clientes, porque faltan respuestas", "La presentación para el consejo, porque la semana está llena"]
+  },
+  "grammar": {
+   "focus": "Conectores causales: well, dofir, nämlech",
+   "explain": "«Well» introduce la causa y manda el verbo al final: «…, well meng Woch voll ass». «Dofir» presenta la consecuencia y va seguido del verbo: «Dofir kann en waarden». «Nämlech» explica dentro de una frase principal: «Ech hunn nämlech keng Zäit».",
+   "items": [
+    {"prompt": "Mir fänke mat der Liwwerung un, ___ de Client eng fix Frist huet. (porque)", "answer": "well", "es": "Empezamos por la entrega, porque el cliente tiene un plazo fijo."},
+    {"prompt": "Den Newsletter ass net dréngend. ___ kann en eng Woch waarden. (por eso)", "answer": "Dofir", "es": "El boletín no es urgente. Por eso puede esperar una semana."},
+    {"prompt": "Ech kann déi Aufgab net iwwerhuelen, ech hunn ___ dës Woch schonn dräi Delaien. (es que, explicativo)", "answer": "nämlech", "es": "No puedo asumir esa tarea, es que esta semana ya tengo tres plazos."}
+   ]
+  },
+  "vocab": [
+   {"text": "dréngend", "es": "urgente", "example": "Dës Aufgab ass net dréngend.", "example_es": "Esta tarea no es urgente."},
+   {"text": "verréckelen", "es": "aplazar, cambiar de fecha", "example": "Kënne mir d'Reunioun op nächst Woch verréckelen?", "example_es": "¿Podemos pasar la reunión a la semana que viene?"},
+   {"text": "Bescheed soen", "es": "avisar", "example": "Ech wäert der Equipe haut nach Bescheed soen.", "example_es": "Hoy mismo avisaré al equipo."},
+   {"text": "pénktlech", "es": "puntual, a tiempo", "example": "D'Ëmfro gëtt pénktlech fäerdeg.", "example_es": "La encuesta estará lista a tiempo."}
+  ],
+  "transfer": {
+   "prompt": "En una asociación de voluntarios tenéis tres tareas para el sábado y solo dos personas. Escribe un mensaje informal al grupo (4–5 frases) proponiendo un orden y justificándolo con conectores causales.",
+   "model": "Salut alleguer! Well mir e Samschdeg nëmmen zu zwee sinn, proposéieren ech, datt mir dat Wichtegst als éischt maachen. Mir fänke mat der Iessensverdeelung un, well d'Leit schonn um zéng Auer drop waarden. Duerno raume mir de Lager op. D'Plakater fir de Flouhmaart sinn net dréngend, dofir kënne se bis den nächste Weekend waarden. Sidd der domat d'accord?",
+   "rubric": "Propone un orden claro, usa al menos dos conectores causales distintos (well, dofir, nämlech) con el orden de palabras correcto y termina pidiendo la opinión del grupo."
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "week": 98,
+ "da": {
+  "dialogue2": {
+   "context": "En una entrevista, la entrevistadora pregunta por qué el candidato dejó tan pronto su último trabajo; él responde con honestidad y lo convierte en un argumento a su favor.",
+   "lines": [
+    {"text": "Jeg kan se, at du kun var otte måneder i dit sidste job. Hvorfor stoppede du?", "es": "Veo que solo estuviste ocho meses en tu último trabajo. ¿Por qué lo dejaste?"},
+    {"text": "Firmaen blev opkøbt, og min afdeling blev flyttet til Hamborg.", "es": "Compraron la empresa y trasladaron mi departamento a Hamburgo."},
+    {"text": "Kunne du ikke være flyttet med?", "es": "¿No podrías haberte trasladado con ellos?"},
+    {"text": "Jo, men vi ville gerne blive i Aarhus af hensyn til børnene.", "es": "Sí, pero queríamos quedarnos en Aarhus por los niños."},
+    {"text": "Forståeligt. Hvad har du så lært af de otte måneder?", "es": "Comprensible. ¿Y qué has aprendido de esos ocho meses?"},
+    {"text": "En hel del. Jeg har måttet sætte mig ind i et helt nyt system på rekordtid.", "es": "Bastante. He tenido que familiarizarme con un sistema totalmente nuevo en tiempo récord."},
+    {"text": "Og det har du kunnet bruge siden?", "es": "¿Y eso lo has podido aprovechar después?"},
+    {"text": "Ja, og det er netop derfor, jeg søger en stilling som jeres, hvor tingene ændrer sig hurtigt.", "es": "Sí, y precisamente por eso busco un puesto como el vuestro, donde las cosas cambian deprisa."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo convierte el candidato su salida rápida en un punto a favor?",
+   "choices": ["Dice que aprendió a adaptarse rápido a un sistema nuevo, algo útil para este puesto", "Dice que en Hamburgo le ofrecían peores condiciones", "Dice que prefiere trabajos cortos para aprender más cosas"]
+  },
+  "grammar": {
+   "focus": "Modales en perfecto: har kunnet, har måttet, har villet",
+   "explain": "Los modales también tienen perfecto: «har» + participio del modal + infinitivo. «Jeg har måttet lære et nyt system» (he tenido que), «Det har jeg kunnet bruge» (he podido), «Jeg har altid villet …» (siempre he querido).",
+   "items": [
+    {"prompt": "Jeg har ___ arbejde meget selvstændigt i mit sidste job. (måtte, participio)", "answer": "måttet", "es": "En mi último trabajo he tenido que trabajar con mucha autonomía."},
+    {"prompt": "Desværre har vi ikke ___ finde en løsning endnu. (kunne, participio)", "answer": "kunnet", "es": "Por desgracia, todavía no hemos podido encontrar una solución."},
+    {"prompt": "Jeg har altid ___ arbejde med bæredygtighed. (ville, participio)", "answer": "villet", "es": "Siempre he querido trabajar en sostenibilidad."}
+   ]
+  },
+  "vocab": [
+   {"text": "opkøbt", "es": "comprada (una empresa)", "example": "Virksomheden blev opkøbt af en tysk koncern.", "example_es": "La empresa fue comprada por un grupo alemán."},
+   {"text": "af hensyn til", "es": "por consideración a, por", "example": "Vi blev i byen af hensyn til børnene.", "example_es": "Nos quedamos en la ciudad por los niños."},
+   {"text": "sætte mig ind i", "es": "familiarizarme con", "example": "Jeg skal sætte mig ind i det nye system.", "example_es": "Tengo que familiarizarme con el nuevo sistema."},
+   {"text": "på rekordtid", "es": "en tiempo récord", "example": "Projektet blev færdigt på rekordtid.", "example_es": "El proyecto se terminó en tiempo récord."}
+  ],
+  "transfer": {
+   "prompt": "En una entrevista te preguntan: «¿Cuál ha sido tu mayor reto profesional?». Escribe tu respuesta (5–6 frases, registro formal pero natural): situación, qué tuviste que hacer, resultado y qué aprendiste. Usa al menos dos modales en perfecto.",
+   "model": "Min største udfordring var, da vores teamleder pludselig blev syg midt i et stort projekt. Jeg havde aldrig ledet et team før, men jeg måtte overtage koordineringen fra den ene dag til den anden. Jeg har derfor måttet lære at prioritere hurtigt og at sige nej til mindre vigtige opgaver. Projektet blev afleveret med kun tre dages forsinkelse. Siden har jeg kunnet bruge erfaringen i mange andre situationer. Det har givet mig lyst til at tage mere ansvar.",
+   "rubric": "Describe la situación y el resultado, usa al menos dos modales en perfecto (har måttet, har kunnet…) y explica qué aprendiste."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En una entrevista, la entrevistadora pregunta por qué el candidato dejó tan pronto su último trabajo; él responde con honestidad y lo convierte en un argumento a su favor.",
+   "lines": [
+    {"text": "Ech gesinn, datt Dir just aacht Méint op Ärer leschter Plaz waart. Firwat hutt Dir opgehalen?", "es": "Veo que solo estuvo ocho meses en su último puesto. ¿Por qué lo dejó?"},
+    {"text": "D'Firma gouf opkaf, a meng Abteilung gouf op Hamburg verluecht.", "es": "Compraron la empresa y trasladaron mi departamento a Hamburgo."},
+    {"text": "Hätt Dir net kënne matplënneren?", "es": "¿No podría haberse mudado con ellos?"},
+    {"text": "Jo, mee mir wollte wéinst de Kanner zu Esch bleiwen.", "es": "Sí, pero queríamos quedarnos en Esch por los niños."},
+    {"text": "Verständlech. Wat hutt Dir dann aus deenen aacht Méint geléiert?", "es": "Comprensible. ¿Y qué ha aprendido de esos ocho meses?"},
+    {"text": "Eng ganz Rëtsch. Ech hu mech a Rekordzäit an en neie System missen aschaffen.", "es": "Muchísimo. He tenido que familiarizarme con un sistema nuevo en tiempo récord."},
+    {"text": "An dat hutt Dir zënterhier kënne benotzen?", "es": "¿Y eso lo ha podido aprovechar después?"},
+    {"text": "Jo, a genee dofir sichen ech e Poste wéi dësen, wou sech d'Saache séier änneren.", "es": "Sí, y precisamente por eso busco un puesto como este, donde las cosas cambian deprisa."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo convierte el candidato su salida rápida en un punto a favor?",
+   "choices": ["Dice que aprendió a adaptarse rápido a un sistema nuevo, algo útil para este puesto", "Dice que en Hamburgo le ofrecían peores condiciones", "Dice que prefiere trabajos cortos para aprender más cosas"]
+  },
+  "grammar": {
+   "focus": "Modales en perfecto: hu misse / kënne / wëlle + infinitivo",
+   "explain": "En perfecto, el modal no usa participio sino infinitivo, y en luxemburgués suele ir delante del otro verbo: «Ech hu misse schaffen», «Dat hutt Dir kënne benotzen», «Ech hu schonn ëmmer wëlle reesen».",
+   "items": [
+    {"prompt": "An eiser leschter Firma hu mir vill eleng ___ schaffen. (mussen)", "answer": "misse", "es": "En nuestra última empresa tuvimos que trabajar mucho solos."},
+    {"prompt": "Leider hu mir nach keng Léisung ___ fannen. (kënnen)", "answer": "kënne", "es": "Por desgracia, todavía no hemos podido encontrar una solución."},
+    {"prompt": "Ech hu schonn ëmmer am Beräich Nohaltegkeet ___ schaffen. (wëllen)", "answer": "wëlle", "es": "Siempre he querido trabajar en el ámbito de la sostenibilidad."}
+   ]
+  },
+  "vocab": [
+   {"text": "opkaf", "es": "comprada (una empresa)", "example": "D'Firma gouf vun engem däitsche Grupp opkaf.", "example_es": "La empresa fue comprada por un grupo alemán."},
+   {"text": "aschaffen", "es": "familiarizarse, ponerse al día", "example": "Ech muss mech an deen neie Programm aschaffen.", "example_es": "Tengo que familiarizarme con el nuevo programa."},
+   {"text": "a Rekordzäit", "es": "en tiempo récord", "example": "De Projet war a Rekordzäit fäerdeg.", "example_es": "El proyecto estuvo listo en tiempo récord."},
+   {"text": "eng ganz Rëtsch", "es": "un montón", "example": "Ech hunn do eng ganz Rëtsch geléiert.", "example_es": "Allí aprendí un montón."}
+  ],
+  "transfer": {
+   "prompt": "En una entrevista te preguntan: «¿Cuál ha sido tu mayor reto profesional?». Escribe tu respuesta (5–6 frases, registro formal pero natural): situación, qué tuviste que hacer, resultado y qué aprendiste. Usa al menos dos modales en perfecto.",
+   "model": "Meng gréissten Erausfuerderung war, wéi eise Teamleader matzen an engem grousse Projet krank ginn ass. Ech hat nach ni en Team gefouert, mee ech hu vun haut op muer d'Koordinatioun missen iwwerhuelen. Dobäi hunn ech misse léieren, séier Prioritéiten ze setzen an Nee ze soen. De Projet gouf mat nëmmen dräi Deeg Verspéidung ofginn. Zënterhier hunn ech déi Erfahrung a ville Situatioune kënne benotzen. Dat huet mir Loscht gemaach, méi Verantwortung ze iwwerhuelen.",
+   "rubric": "Describe la situación y el resultado, usa al menos dos modales en perfecto (hu misse, hu kënne…) y explica qué aprendiste."
+  }
+ }
+}

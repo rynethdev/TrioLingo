@@ -1,0 +1,77 @@
+{
+ "week": 59,
+ "da": {
+  "dialogue2": {
+   "context": "En la pausa del café, una compañera cuenta que el verano que viene se muda a otra ciudad y su colega le pregunta por el trabajo.",
+   "lines": [
+    {"text": "Jeg har bestemt mig: Til sommer flytter jeg til Aarhus.", "es": "Ya lo he decidido: este verano me mudo a Aarhus."},
+    {"text": "Hvad? Skal du så sige dit job op?", "es": "¿Qué? ¿Entonces vas a dejar el trabajo?"},
+    {"text": "Nej, jeg har spurgt, om jeg kan arbejde hjemmefra tre dage om ugen.", "es": "No, he preguntado si puedo trabajar desde casa tres días a la semana."},
+    {"text": "Og hvad siger chefen til det?", "es": "¿Y qué dice la jefa?"},
+    {"text": "Hun svarer i næste uge, men det ser godt ud.", "es": "Contesta la semana que viene, pero pinta bien."},
+    {"text": "Så kommer vi kun til at ses to gange om ugen.", "es": "Entonces solo nos veremos dos veces por semana."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué plan tiene la compañera para su trabajo?",
+   "choices": ["Seguir en la empresa y trabajar desde casa parte de la semana", "Dejar el trabajo y buscar otro en Aarhus", "Ir a la oficina todos los días desde Aarhus"]
+  },
+  "grammar": {
+   "focus": "Futuro: skal, vil, kommer til at y presente con valor de futuro",
+   "explain": "«Skal» expresa un plan decidido (Jeg skal flytte), «vil» una intención (Jeg vil lære tysk) y «kommer til at» una consecuencia prevista (Det kommer til at tage tid). El presente con una expresión de tiempo también indica futuro: Til sommer flytter jeg.",
+   "items": [
+    {"prompt": "Det ___ til at tage lang tid at finde en lejlighed.", "answer": "kommer", "es": "Va a costar mucho tiempo encontrar piso."},
+    {"prompt": "Næste år ___ jeg tage et kursus i projektledelse. (plan ya decidido)", "answer": "skal", "es": "El año que viene voy a hacer un curso de gestión de proyectos."},
+    {"prompt": "Vi flytter, når skolen ___ i juni. (slutte)", "answer": "slutter", "es": "Nos mudamos cuando termine el colegio en junio."}
+   ]
+  },
+  "vocab": [
+   {"text": "Til sommer", "es": "este verano (que viene)", "example": "Til sommer flytter jeg til Aarhus.", "example_es": "Este verano me mudo a Aarhus."},
+   {"text": "sige sit job op", "es": "dejar el trabajo", "example": "Han vil sige sit job op til jul.", "example_es": "Quiere dejar el trabajo en Navidad."},
+   {"text": "arbejde hjemmefra", "es": "trabajar desde casa", "example": "Jeg kan arbejde hjemmefra om fredagen.", "example_es": "Los viernes puedo trabajar desde casa."},
+   {"text": "Det ser godt ud", "es": "Pinta bien", "example": "Svaret er ikke kommet endnu, men det ser godt ud.", "example_es": "La respuesta aún no ha llegado, pero pinta bien."}
+  ],
+  "transfer": {
+   "prompt": "Escribe a un amigo que vive en otro país contándole un plan importante para los próximos meses (mudanza, estudios o trabajo): qué vas a hacer, cuándo y por qué (4 frases).",
+   "model": "Hej Pablo! Jeg har store nyheder: Til efteråret skal jeg starte på en uddannelse som sygeplejerske. Det kommer til at blive hårdt, fordi jeg også skal arbejde i weekenden. Men jeg vil gerne have et job, hvor jeg hjælper andre. Kommer du ikke og besøger mig til jul?",
+   "rubric": "Usa «skal» y «kommer til at» (o «vil»), indica cuándo con una expresión de tiempo y da una razón."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En la pausa del café, una compañera cuenta que el verano que viene se muda a otra ciudad y su colega le pregunta por el trabajo.",
+   "lines": [
+    {"text": "Ech hu mech decidéiert: Nächste Summer plënneren ech op Esch.", "es": "Ya lo he decidido: el verano que viene me mudo a Esch."},
+    {"text": "Wat? Kënnegs du dann hei?", "es": "¿Qué? ¿Entonces vas a dejar el trabajo aquí?"},
+    {"text": "Neen, ech hu gefrot, ob ech dräi Deeg d'Woch doheem schaffe kann.", "es": "No, he preguntado si puedo trabajar desde casa tres días a la semana."},
+    {"text": "A wat seet de Chef dozou?", "es": "¿Y qué dice el jefe?"},
+    {"text": "Hie gëtt mir nächst Woch eng Äntwert, mee et gesäit gutt aus.", "es": "Me contesta la semana que viene, pero pinta bien."},
+    {"text": "Da wäerte mir eis just nach zweemol d'Woch gesinn.", "es": "Entonces solo nos veremos dos veces por semana."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué plan tiene la compañera para su trabajo?",
+   "choices": ["Seguir en la empresa y trabajar desde casa parte de la semana", "Dejar el trabajo y buscar otro en Esch", "Ir a la oficina todos los días desde Esch"]
+  },
+  "grammar": {
+   "focus": "Futuro con «wäerten» y presente con valor de futuro",
+   "explain": "Para planes concretos basta el presente con una expresión de tiempo (Nächste Summer plënneren ech). «Wäerten» + infinitivo al final expresa una previsión: Dat wäert laang daueren.",
+   "items": [
+    {"prompt": "Et ___ laang daueren, eng Wunneng ze fannen. (wäerten)", "answer": "wäert", "es": "Va a costar mucho encontrar piso."},
+    {"prompt": "Meng Kolleege ___ mech bestëmmt vermëssen. (wäerten)", "answer": "wäerten", "es": "Seguro que mis compañeros me echarán de menos."},
+    {"prompt": "Mir plënneren, wann d'Schoul am Juli ___. (ophalen)", "answer": "ophält", "es": "Nos mudamos cuando termine el colegio en julio."}
+   ]
+  },
+  "vocab": [
+   {"text": "plënneren", "es": "mudarse", "example": "Nächste Summer plënneren ech op Esch.", "example_es": "El verano que viene me mudo a Esch."},
+   {"text": "kënnegen", "es": "dejar el trabajo, despedirse", "example": "Ech wëll net kënnegen, ech schaffe gär hei.", "example_es": "No quiero dejar el trabajo, me gusta trabajar aquí."},
+   {"text": "doheem schaffen", "es": "trabajar desde casa", "example": "E Freideg kann ech doheem schaffen.", "example_es": "Los viernes puedo trabajar desde casa."},
+   {"text": "et gesäit gutt aus", "es": "pinta bien", "example": "Ech hunn nach keng Äntwert, mee et gesäit gutt aus.", "example_es": "Aún no tengo respuesta, pero pinta bien."}
+  ],
+  "transfer": {
+   "prompt": "Escribe a un amigo que vive en otro país contándole un plan importante para los próximos meses (mudanza, estudios o trabajo): qué vas a hacer, cuándo y por qué (4 frases).",
+   "model": "Moien Pablo! Ech hu grouss Neiegkeeten: Am Hierscht fänken ech eng Ausbildung als Infirmière un. Dat wäert schwéier ginn, well ech och de Weekend schaffe muss. Mee ech wëll eng Aarbecht, wou ech anere Leit hëllefen. Kënns du mech net op Chrëschtdag besichen?",
+   "rubric": "Usa el presente con una expresión de tiempo y «wäerten» + infinitivo, y da una razón con «well»."
+  }
+ }
+}

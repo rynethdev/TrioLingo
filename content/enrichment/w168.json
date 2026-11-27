@@ -1,0 +1,81 @@
+{
+ "week": 168,
+ "da": {
+  "dialogue2": {
+   "context": "Una directora de colegio ensaya con un colega el brindis por la jubilación de la conserje, que lleva treinta años allí; él le aconseja cambiar los adjetivos por una sola historia.",
+   "lines": [
+    {"text": "Hun var uundværlig, utrættelig, uerstattelig og altid i godt humør.", "es": "Era indispensable, incansable, insustituible y siempre de buen humor."},
+    {"text": "Fire adjektiver, og jeg kan stadig ikke se hende for mig.", "es": "Cuatro adjetivos, y sigo sin poder imaginármela."},
+    {"text": "Hvad foreslår du så?", "es": "¿Y qué propones?"},
+    {"text": "Én historie. Den om nøglerne, for eksempel.", "es": "Una historia. La de las llaves, por ejemplo."},
+    {"text": "At hun i tredive år kendte hver eneste nøgle på skolen?", "es": "¿Que durante treinta años conoció cada una de las llaves del colegio?"},
+    {"text": "Netop. Og så slutter du: „Nøglerne afleverer hun i dag. Døren står altid åben.“", "es": "Exacto. Y entonces cierras: «Las llaves las entrega hoy. La puerta seguirá siempre abierta»."},
+    {"text": "Det er næsten for enkelt.", "es": "Es casi demasiado sencillo."},
+    {"text": "Det er derfor, det virker. Resten kan publikum selv tænke.", "es": "Por eso funciona. El resto lo puede pensar el público."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué critica el colega con «Cuatro adjetivos, y sigo sin poder imaginármela»?",
+   "choices": ["Que la acumulación de adjetivos no crea una imagen concreta de la persona", "Que los adjetivos son exagerados y poco sinceros", "Que el discurso es demasiado corto"]
+  },
+  "grammar": {
+   "focus": "Tematización: el elemento enfático al principio, con inversión verbo-sujeto",
+   "explain": "Para dar relieve se coloca al principio lo que se quiere destacar y el verbo pasa a segunda posición, delante del sujeto: Nøglerne afleverer hun i dag. Aldrig har jeg set… En un discurso, este orden crea contraste y ritmo.",
+   "items": [
+    {"prompt": "Nøglerne ___ hun i dag, men døren står åben. (aflevere, presente)", "answer": "afleverer", "es": "Las llaves las entrega hoy, pero la puerta sigue abierta."},
+    {"prompt": "Aldrig ___ jeg mødt et menneske, der kendte skolen bedre. (have, presente)", "answer": "har", "es": "Nunca he conocido a nadie que conociera mejor el colegio."},
+    {"prompt": "I tredive år ___ hun hver morgen som den første. (komme, pasado)", "answer": "kom", "es": "Durante treinta años llegó cada mañana la primera."}
+   ]
+  },
+  "vocab": [
+   {"text": "rammer plet", "es": "da en el clavo", "example": "Den lille historie om nøglerne rammer plet.", "example_es": "La pequeña historia de las llaves da en el clavo."},
+   {"text": "gå over gevind", "es": "pasarse de la raya", "example": "En afskedstale må gerne røre, men ikke gå over gevind.", "example_es": "Un discurso de despedida puede emocionar, pero no pasarse de la raya."},
+   {"text": "en klump i halsen", "es": "un nudo en la garganta", "example": "Flere i salen fik en klump i halsen.", "example_es": "A varios en la sala se les hizo un nudo en la garganta."},
+   {"text": "runde en tale af", "es": "cerrar un discurso", "example": "Det er svært at runde en tale af uden at blive højtidelig.", "example_es": "Es difícil cerrar un discurso sin ponerse solemne."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un brindis breve (6–8 frases) para la jubilación de una compañera con muchos años en la empresa. Público: colegas y familia; propósito: emocionar sin grandilocuencia, con una anécdota, una repetición y un cierre con orden marcado.",
+   "model": "Kære Birthe, kære alle sammen. Da jeg begyndte her for femten år siden, var det Birthe, der viste mig, hvor kaffen stod — og hvor man ikke skulle parkere. Sådan har hun været for os alle: den, der vidste besked, før vi spurgte. Hun vidste, hvem der havde en svær uge. Hun vidste, hvornår et møde burde slutte. Og hun vidste, at en kage nogle gange løser mere end en mail. Nøglekortet afleverer hun i dag; pladsen i vores fællesskab beholder hun. Skål for Birthe!",
+   "rubric": "Abre con una anécdota concreta; usa una repetición (anáfora) con medida; evita la acumulación de adjetivos; cierra con una frase de orden marcado que crea contraste; tono cálido y sin patetismo; extensión adecuada a un brindis."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una directora de colegio ensaya con un colega el brindis por la jubilación de la conserje, que lleva treinta años allí; él le aconseja cambiar los adjetivos por una sola historia.",
+   "lines": [
+    {"text": "Si war onentbéierlech, onermiddlech, onersetzlech an ëmmer gutt gelaunt.", "es": "Era indispensable, incansable, insustituible y siempre de buen humor."},
+    {"text": "Véier Adjektiver, an ech ka mir se ëmmer nach net virstellen.", "es": "Cuatro adjetivos, y sigo sin poder imaginármela."},
+    {"text": "Wat schléis du dann vir?", "es": "¿Y qué propones?"},
+    {"text": "Eng Geschicht. Déi mat de Schlësselen, zum Beispill.", "es": "Una historia. La de las llaves, por ejemplo."},
+    {"text": "Wéi si drësseg Joer laang all eenzele Schlëssel vun der Schoul kannt huet?", "es": "¿Cómo durante treinta años conoció cada una de las llaves del colegio?"},
+    {"text": "Genee. An da schléiss du of: „D'Schlëssele gëtt se haut of. D'Dier bleift fir si ëmmer op.“", "es": "Exacto. Y entonces cierras: «Las llaves las entrega hoy. La puerta seguirá siempre abierta para ella»."},
+    {"text": "Dat ass bal ze einfach.", "es": "Es casi demasiado sencillo."},
+    {"text": "Dowéinst wierkt et. De Rescht denkt d'Publikum sech selwer.", "es": "Por eso funciona. El resto lo piensa el público por su cuenta."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué critica el colega con «Cuatro adjetivos, y sigo sin poder imaginármela»?",
+   "choices": ["Que la acumulación de adjetivos no crea una imagen concreta de la persona", "Que los adjetivos son exagerados y poco sinceros", "Que el discurso es demasiado corto"]
+  },
+  "grammar": {
+   "focus": "Tematización: el elemento enfático al principio, verbo en segunda posición",
+   "explain": "Para dar relieve se coloca al principio lo que se quiere destacar y el verbo conjugado sigue en segunda posición, delante del sujeto: D'Schlëssele gëtt se haut of. Ni hunn ech… En un discurso este orden crea contraste y ritmo.",
+   "items": [
+    {"prompt": "D'Schlëssele ___ si haut of, mä d'Dier bleift op. (ofginn, presente)", "answer": "gëtt", "es": "Las llaves las entrega hoy, pero la puerta sigue abierta."},
+    {"prompt": "Ni ___ ech e Mënsch kennegeléiert, deen d'Schoul besser kannt huet. (hunn, presente)", "answer": "hunn", "es": "Nunca he conocido a nadie que conociera mejor el colegio."},
+    {"prompt": "Drësseg Joer laang ___ si all Moien als éischt do. (sinn, pasado)", "answer": "war", "es": "Durante treinta años estuvo allí cada mañana la primera."}
+   ]
+  },
+  "vocab": [
+   {"text": "den Nol op de Kapp", "es": "(dar) en el clavo", "example": "Déi kleng Geschicht trëfft den Nol op de Kapp.", "example_es": "La pequeña historia da en el clavo."},
+   {"text": "Tréinen an den Aen", "es": "lágrimas en los ojos", "example": "Vill Leit am Sall haten Tréinen an den Aen.", "example_es": "Mucha gente en la sala tenía lágrimas en los ojos."},
+   {"text": "iwwerdreiwen", "es": "exagerar, pasarse", "example": "Eng Ofschiedsried däerf beréieren, mä net iwwerdreiwen.", "example_es": "Un discurso de despedida puede emocionar, pero no pasarse."},
+   {"text": "ofronnen", "es": "redondear, cerrar", "example": "Mat engem eenzege Saz kanns du d'Ried ofronnen.", "example_es": "Con una sola frase puedes cerrar el discurso."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un brindis breve (6–8 frases) para la jubilación de una compañera con muchos años en la empresa. Público: colegas y familia; propósito: emocionar sin grandilocuencia, con una anécdota, una repetición y un cierre con orden marcado.",
+   "model": "Léif Birgit, léif alleguer. Wéi ech viru fofzéng Joer hei ugefaang hunn, war et d'Birgit, déi mir gewisen huet, wou de Kaffi steet — a wou een net parke soll. Esou war hatt fir eis all: déi, déi et wousst, ier mir gefrot hunn. Hatt wousst, wien eng schwiereg Woch hat. Hatt wousst, wéini eng Reunioun eriwwer muss sinn. An hatt wousst, datt e Kuch heiansdo méi léist wéi eng Mail. De Badge gëtt hatt haut of; seng Plaz bei eis behält hatt. Op d'Birgit!",
+   "rubric": "Abre con una anécdota concreta; usa una repetición (anáfora) con medida; evita la acumulación de adjetivos; cierra con una frase de orden marcado que crea contraste; tono cálido y sin patetismo; extensión adecuada a un brindis."
+  }
+ }
+}

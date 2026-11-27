@@ -1,0 +1,81 @@
+{
+ "week": 125,
+ "da": {
+  "dialogue2": {
+   "context": "Dos colegas revisan el borrador del resumen de una reunión y discrepan sobre qué se decidió realmente y qué solo se debatió.",
+   "lines": [
+    {"text": "I dit udkast står der, at vi besluttede at flytte lanceringen til oktober.", "es": "En tu borrador pone que decidimos trasladar el lanzamiento a octubre."},
+    {"text": "Ja, var det ikke det, vi blev enige om til sidst?", "es": "Sí, ¿no fue eso lo que acordamos al final?"},
+    {"text": "Nej, vi drøftede det, men Kirsten ville først se omkostningerne, før hun sagde ja.", "es": "No, lo debatimos, pero Kirsten quería ver primero los costes antes de dar el sí."},
+    {"text": "Så er det mere præcist at skrive, at en udskydelse blev drøftet, men ikke vedtaget.", "es": "Entonces es más preciso escribir que se debatió un aplazamiento, pero no se aprobó."},
+    {"text": "Netop, ellers risikerer vi, at salg begynder at planlægge efter en dato, der ikke er fastlagt.", "es": "Exacto; si no, corremos el riesgo de que Ventas empiece a planificar con una fecha que no está fijada."},
+    {"text": "Godt fanget. Skal vi så indføre en rubrik til åbne punkter med en ansvarlig og en frist?", "es": "Bien visto. ¿Introducimos entonces un apartado de puntos pendientes con responsable y plazo?"},
+    {"text": "Ja, og Kirstens beregning af omkostningerne bør stå dér med fredag som frist.", "es": "Sí, y el cálculo de costes de Kirsten debería figurar ahí con el viernes como plazo."},
+    {"text": "Så retter jeg det og sender referatet ud, når du har læst det igennem en sidste gang.", "es": "Entonces lo corrijo y envío el acta cuando la hayas repasado una última vez."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué es importante la corrección que hacen en el resumen?",
+   "choices": ["Porque presentar como decidido algo solo debatido haría que otros planificaran con una fecha no fijada", "Porque Kirsten se opuso abiertamente al cambio de fecha durante la reunión", "Porque el lanzamiento ya estaba aprobado para octubre desde una reunión anterior"]
+  },
+  "grammar": {
+   "focus": "Nominalización en el registro escrito (-else, -ing)",
+   "explain": "Las actas y los resúmenes condensan la información convirtiendo verbos en sustantivos: udskyde → en udskydelse, beregne → en beregning, vurdere → en vurdering. «Vi udskød lanceringen» pasa a «udskydelsen af lanceringen».",
+   "items": [
+    {"prompt": "Vi har drøftet at udskyde lanceringen. → En ___ af lanceringen blev drøftet. (udskyde)", "answer": "udskydelse", "es": "Se debatió un aplazamiento del lanzamiento."},
+    {"prompt": "Kirsten beregner omkostningerne. → Kirstens ___ af omkostningerne foreligger fredag. (beregne)", "answer": "beregning", "es": "El cálculo de costes de Kirsten estará disponible el viernes."},
+    {"prompt": "Vi skal vurdere risikoen igen. → En ny ___ af risikoen er nødvendig. (vurdere)", "answer": "vurdering", "es": "Es necesaria una nueva evaluación del riesgo."}
+   ]
+  },
+  "vocab": [
+   {"text": "et udkast", "es": "un borrador", "example": "Jeg sender dig et udkast til referatet i eftermiddag.", "example_es": "Te mando un borrador del acta esta tarde."},
+   {"text": "vedtaget", "es": "aprobado formalmente", "example": "Forslaget blev drøftet, men ikke vedtaget.", "example_es": "La propuesta se debatió, pero no se aprobó."},
+   {"text": "åbne punkter", "es": "puntos pendientes", "example": "Under åbne punkter står der altid en ansvarlig og en frist.", "example_es": "En los puntos pendientes siempre figuran un responsable y un plazo."},
+   {"text": "godt fanget", "es": "bien visto", "example": "Godt fanget, det havde jeg helt overset.", "example_es": "Bien visto, eso se me había pasado por completo."}
+  ],
+  "transfer": {
+   "prompt": "Convierte unas notas sueltas de reunión en un acta de 5–7 frases con tres apartados en prosa: decisiones tomadas, temas debatidos sin decisión y próximos pasos con responsable y plazo. Usa nominalizaciones.",
+   "model": "Referat af projektmødet den 3. april. Besluttet: Budgettet til markedsføring fastholdes, og testperioden forlænges med to uger. Drøftet, men ikke vedtaget: en udskydelse af lanceringen til oktober, som afventer en beregning af de samlede omkostninger. Åbne punkter: Kirsten udarbejder beregningen inden fredag, og Jonas forbereder til næste møde en vurdering af konsekvenserne for salget. Næste møde holdes den 10. april, hvor der forventes en endelig beslutning om lanceringsdatoen.",
+   "rubric": "Separa con claridad lo decidido de lo solo debatido; usa al menos tres nominalizaciones (udskydelse, beregning, vurdering…); cada próximo paso lleva responsable y plazo; no incluye opiniones ni detalles de la discusión."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos colegas revisan el borrador del resumen de una reunión y discrepan sobre qué se decidió realmente y qué solo se debatió.",
+   "lines": [
+    {"text": "An dengem Entworf steet, mir hätten decidéiert, de Lancement op Oktober ze verschiben.", "es": "En tu borrador pone que decidimos aplazar el lanzamiento a octubre."},
+    {"text": "Jo, si mir eis net um Enn doriwwer eens ginn?", "es": "Sí, ¿no nos pusimos de acuerdo en eso al final?"},
+    {"text": "Neen, mir hunn driwwer diskutéiert, mä d'Carole wollt fir d'éischt d'Käschte gesinn, ier hatt Jo seet.", "es": "No, lo debatimos, pero Carole quería ver primero los costes antes de dar el sí."},
+    {"text": "Da wier et méi präzis ze schreiwen, datt eng Verschibung diskutéiert, mä net beschloss gouf.", "es": "Entonces sería más preciso escribir que se debatió un aplazamiento, pero no se aprobó."},
+    {"text": "Genee, soss fänkt de Verkaf un, op en Datum hin ze plangen, deen nach guer net fest ass.", "es": "Exacto; si no, Ventas empieza a planificar con una fecha que todavía no está fijada."},
+    {"text": "Gutt gesinn. Solle mir dann eng Rubrik fir Punkten derbäisetzen, déi nach op sinn, mat engem Verantwortlechen an enger Frist?", "es": "Bien visto. ¿Añadimos entonces un apartado de puntos pendientes, con responsable y plazo?"},
+    {"text": "Jo, an dem Carole seng Berechnung vun de Käschte gehéiert do eran, mat Freideg als Frist.", "es": "Sí, y el cálculo de costes de Carole tiene que ir ahí, con el viernes como plazo."},
+    {"text": "Da korrigéieren ech dat a schécken de Protokoll eraus, soubal s du en nach eng Kéier duerchgelies hues.", "es": "Entonces lo corrijo y envío el acta en cuanto la hayas repasado una vez más."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué es importante la corrección que hacen en el resumen?",
+   "choices": ["Porque presentar como decidido algo solo debatido haría que otros planificaran con una fecha no fijada", "Porque Carole se opuso abiertamente al cambio de fecha durante la reunión", "Porque el lanzamiento ya estaba aprobado para octubre desde una reunión anterior"]
+  },
+  "grammar": {
+   "focus": "Nominalización en el registro escrito (-ung, -ioun)",
+   "explain": "Las actas condensan la información convirtiendo verbos en sustantivos: verschiben → d'Verschibung, berechnen → d'Berechnung, evaluéieren → d'Evaluatioun. «Mir hunn de Lancement verschoben» pasa a «d'Verschibung vum Lancement».",
+   "items": [
+    {"prompt": "Mir hunn diskutéiert, de Lancement ze verschiben. → Eng ___ vum Lancement gouf diskutéiert. (verschiben)", "answer": "Verschibung", "es": "Se debatió un aplazamiento del lanzamiento."},
+    {"prompt": "D'Carole berechent d'Käschten. → D'___ vun de Käschte läit e Freideg vir. (berechnen)", "answer": "Berechnung", "es": "El cálculo de los costes estará listo el viernes."},
+    {"prompt": "Mir mussen de Risiko nei evaluéieren. → Eng nei ___ vum Risiko ass néideg. (evaluéieren)", "answer": "Evaluatioun", "es": "Es necesaria una nueva evaluación del riesgo."}
+   ]
+  },
+  "vocab": [
+   {"text": "en Entworf", "es": "un borrador", "example": "Ech schécken der haut de Mëtteg en Entworf vum Protokoll.", "example_es": "Te mando esta tarde un borrador del acta."},
+   {"text": "beschloss", "es": "aprobado, decidido formalmente", "example": "D'Propositioun gouf diskutéiert, mä net beschloss.", "example_es": "La propuesta se debatió, pero no se aprobó."},
+   {"text": "eng Frist", "es": "un plazo", "example": "All Aufgab kritt eng Frist an e Verantwortlechen.", "example_es": "Cada tarea recibe un plazo y un responsable."},
+   {"text": "gutt gesinn", "es": "bien visto", "example": "Gutt gesinn, dat hat ech komplett iwwersinn.", "example_es": "Bien visto, eso se me había pasado por completo."}
+  ],
+  "transfer": {
+   "prompt": "Convierte unas notas sueltas de reunión en un acta de 5–7 frases con tres apartados en prosa: decisiones tomadas, temas debatidos sin decisión y próximos pasos con responsable y plazo. Usa nominalizaciones.",
+   "model": "Protokoll vun der Projetsreunioun vum 3. Abrëll. Beschloss: De Marketingbudget gëtt bäibehalen, an d'Testphas gëtt ëm zwou Woche verlängert. Diskutéiert, mä net beschloss: eng Verschibung vum Lancement op Oktober, déi vun enger Berechnung vun de Gesamtkäschten ofhänkt. Nach op: D'Carole mécht d'Berechnung bis Freideg, an de Jonas preparéiert fir déi nächst Reunioun eng Evaluatioun vun den Auswierkungen op de Verkaf. Déi nächst Reunioun ass den 10. Abrëll; do gëtt eng definitiv Entscheedung iwwer den Datum vum Lancement erwaart.",
+   "rubric": "Separa con claridad lo decidido de lo solo debatido; usa al menos tres nominalizaciones (Verschibung, Berechnung, Evaluatioun…); cada próximo paso lleva responsable y plazo; no incluye opiniones ni detalles de la discusión."
+  }
+ }
+}

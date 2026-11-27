@@ -1,0 +1,2384 @@
+{
+  "cases": [
+    {
+      "id": "lb-coach-cita",
+      "lang": "lb",
+      "level": "A2",
+      "title": "Cambiar una cita",
+      "setup": "No puedes ir a la cita original. Pide cambiarla y confirma el nuevo día y la hora.",
+      "terms": [
+        "rendez-vous",
+        "rendezvous",
+        "änneren",
+        "verleeën",
+        "verréckelen",
+        "deplacéieren"
+      ],
+      "sample": "Ech wéilt mäi Rendez-vous verleeën.",
+      "opening": {
+        "text": "Wat kann ech fir Iech maachen?",
+        "audio": "/assets/audio/field/lb-coach-cita-hello.mp3",
+        "lang": "lb"
+      },
+      "repair": {
+        "text": "Kënnt Dir mir nach eng Kéier soen, wat Dir braucht?",
+        "audio": "/assets/audio/field/lb-coach-cita-repair.mp3",
+        "lang": "lb"
+      },
+      "clarify": {
+        "text": "Sot mir w.e.g. nach eng Kéier den Dag an d’Auerzäit.",
+        "audio": "/assets/audio/field/lb-coach-cita-confirm.mp3",
+        "lang": "lb"
+      },
+      "variants": [
+        [
+          {
+            "text": "E Freideg ass leider alles voll. Geet et e Méindeg um zéng Auer?",
+            "day": "méindeg",
+            "number": "zéng",
+            "aliases": [
+              "10",
+              "10:00",
+              "10h"
+            ],
+            "labels": [
+              "lunes",
+              "diez"
+            ],
+            "line": {
+              "text": "E Freideg ass leider alles voll. Geet et e Méindeg um zéng Auer?",
+              "audio": "/assets/audio/field/lb-coach-cita-0-0.mp3",
+              "lang": "lb"
+            }
+          },
+          {
+            "text": "Da kënne mir en Dënschdeg um aacht Auer probéieren.",
+            "day": "dënschdeg",
+            "number": "aacht",
+            "aliases": [
+              "8",
+              "8:00",
+              "8h"
+            ],
+            "labels": [
+              "martes",
+              "ocho"
+            ],
+            "line": {
+              "text": "Da kënne mir en Dënschdeg um aacht Auer probéieren.",
+              "audio": "/assets/audio/field/lb-coach-cita-0-1.mp3",
+              "lang": "lb"
+            }
+          }
+        ],
+        [
+          {
+            "text": "E Mëttwoch geet net. Mir hunn en Donneschdeg um néng Auer nach Plaz.",
+            "day": "donneschdeg",
+            "number": "néng",
+            "aliases": [
+              "9",
+              "9:00",
+              "9h"
+            ],
+            "labels": [
+              "jueves",
+              "nueve"
+            ],
+            "line": {
+              "text": "E Mëttwoch geet net. Mir hunn en Donneschdeg um néng Auer nach Plaz.",
+              "audio": "/assets/audio/field/lb-coach-cita-1-0.mp3",
+              "lang": "lb"
+            }
+          },
+          {
+            "text": "E Samschdeg um eelef Auer wier nach fräi.",
+            "day": "samschdeg",
+            "number": "eelef",
+            "aliases": [
+              "11",
+              "11:00",
+              "11h"
+            ],
+            "labels": [
+              "sábado",
+              "once"
+            ],
+            "line": {
+              "text": "E Samschdeg um eelef Auer wier nach fräi.",
+              "audio": "/assets/audio/field/lb-coach-cita-1-1.mp3",
+              "lang": "lb"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "da-coach-cita",
+      "lang": "da",
+      "level": "A2",
+      "title": "Cambiar una cita",
+      "setup": "Llama para cambiar una cita y confirma en voz alta el nuevo día y hora.",
+      "terms": [
+        "flytte",
+        "ændre",
+        "ombooke",
+        "rykke",
+        "aftale"
+      ],
+      "sample": "Jeg vil gerne flytte min aftale.",
+      "opening": {
+        "text": "Hvad kan jeg hjælpe dig med?",
+        "audio": "/assets/audio/field/da-coach-cita-hello.mp3",
+        "lang": "da"
+      },
+      "repair": {
+        "text": "Kan du sige igen, hvad du har brug for?",
+        "audio": "/assets/audio/field/da-coach-cita-repair.mp3",
+        "lang": "da"
+      },
+      "clarify": {
+        "text": "Vil du gentage dagen og tidspunktet?",
+        "audio": "/assets/audio/field/da-coach-cita-confirm.mp3",
+        "lang": "da"
+      },
+      "variants": [
+        [
+          {
+            "text": "Fredag er desværre fuldt booket. Hvad med mandag klokken ti?",
+            "day": "mandag",
+            "number": "ti",
+            "aliases": [
+              "10",
+              "10:00",
+              "10h"
+            ],
+            "labels": [
+              "lunes",
+              "diez"
+            ],
+            "line": {
+              "text": "Fredag er desværre fuldt booket. Hvad med mandag klokken ti?",
+              "audio": "/assets/audio/field/da-coach-cita-0-0.mp3",
+              "lang": "da"
+            }
+          },
+          {
+            "text": "Så er der en tid tirsdag klokken otte.",
+            "day": "tirsdag",
+            "number": "otte",
+            "aliases": [
+              "8",
+              "8:00",
+              "8h"
+            ],
+            "labels": [
+              "martes",
+              "ocho"
+            ],
+            "line": {
+              "text": "Så er der en tid tirsdag klokken otte.",
+              "audio": "/assets/audio/field/da-coach-cita-0-1.mp3",
+              "lang": "da"
+            }
+          }
+        ],
+        [
+          {
+            "text": "Onsdag er der ingen ledige tider. Kan du torsdag klokken ni?",
+            "day": "torsdag",
+            "number": "ni",
+            "aliases": [
+              "9",
+              "9:00",
+              "9h"
+            ],
+            "labels": [
+              "jueves",
+              "nueve"
+            ],
+            "line": {
+              "text": "Onsdag er der ingen ledige tider. Kan du torsdag klokken ni?",
+              "audio": "/assets/audio/field/da-coach-cita-1-0.mp3",
+              "lang": "da"
+            }
+          },
+          {
+            "text": "Vi kan også tilbyde dig lørdag klokken elleve.",
+            "day": "lørdag",
+            "number": "elleve",
+            "aliases": [
+              "11",
+              "11:00",
+              "11h"
+            ],
+            "labels": [
+              "sábado",
+              "once"
+            ],
+            "line": {
+              "text": "Vi kan også tilbyde dig lørdag klokken elleve.",
+              "audio": "/assets/audio/field/da-coach-cita-1-1.mp3",
+              "lang": "da"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "fr-coach-cita",
+      "lang": "fr",
+      "level": "A2",
+      "title": "Reprogramar una cita",
+      "setup": "Pide mover tu cita. Escucha la propuesta y confirma el nuevo día y hora.",
+      "terms": [
+        "changer",
+        "déplacer",
+        "reporter",
+        "reprogrammer",
+        "rendez-vous"
+      ],
+      "sample": "Je voudrais déplacer mon rendez-vous.",
+      "opening": {
+        "text": "Bonjour, que puis-je faire pour vous ?",
+        "audio": "/assets/audio/field/fr-coach-cita-hello.mp3",
+        "lang": "fr"
+      },
+      "repair": {
+        "text": "Pouvez-vous me préciser ce que vous souhaitez ?",
+        "audio": "/assets/audio/field/fr-coach-cita-repair.mp3",
+        "lang": "fr"
+      },
+      "clarify": {
+        "text": "Pouvez-vous me redire le jour et l’heure ?",
+        "audio": "/assets/audio/field/fr-coach-cita-confirm.mp3",
+        "lang": "fr"
+      },
+      "variants": [
+        [
+          {
+            "text": "Vendredi est complet. Je peux vous proposer lundi à dix heures.",
+            "day": "lundi",
+            "number": "dix",
+            "aliases": [
+              "10",
+              "10:00",
+              "10h"
+            ],
+            "labels": [
+              "lunes",
+              "diez"
+            ],
+            "line": {
+              "text": "Vendredi est complet. Je peux vous proposer lundi à dix heures.",
+              "audio": "/assets/audio/field/fr-coach-cita-0-0.mp3",
+              "lang": "fr"
+            }
+          },
+          {
+            "text": "Sinon, nous avons mardi à huit heures.",
+            "day": "mardi",
+            "number": "huit",
+            "aliases": [
+              "8",
+              "8:00",
+              "8h"
+            ],
+            "labels": [
+              "martes",
+              "ocho"
+            ],
+            "line": {
+              "text": "Sinon, nous avons mardi à huit heures.",
+              "audio": "/assets/audio/field/fr-coach-cita-0-1.mp3",
+              "lang": "fr"
+            }
+          }
+        ],
+        [
+          {
+            "text": "Mercredi, ce n’est pas possible. Jeudi à neuf heures, ça vous va ?",
+            "day": "jeudi",
+            "number": "neuf",
+            "aliases": [
+              "9",
+              "9:00",
+              "9h"
+            ],
+            "labels": [
+              "jueves",
+              "nueve"
+            ],
+            "line": {
+              "text": "Mercredi, ce n’est pas possible. Jeudi à neuf heures, ça vous va ?",
+              "audio": "/assets/audio/field/fr-coach-cita-1-0.mp3",
+              "lang": "fr"
+            }
+          },
+          {
+            "text": "Il nous reste samedi à onze heures également.",
+            "day": "samedi",
+            "number": "onze",
+            "aliases": [
+              "11",
+              "11:00",
+              "11h"
+            ],
+            "labels": [
+              "sábado",
+              "once"
+            ],
+            "line": {
+              "text": "Il nous reste samedi à onze heures également.",
+              "audio": "/assets/audio/field/fr-coach-cita-1-1.mp3",
+              "lang": "fr"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "lb-coach-piso",
+      "lang": "lb",
+      "level": "B1",
+      "title": "Conseguir una visita de alquiler",
+      "setup": "Pide visitar un piso. Si el primer horario te complica, busca una alternativa.",
+      "terms": [
+        "wunneng",
+        "besichtegen",
+        "visitt",
+        "appartement"
+      ],
+      "sample": "Ech géif d’Wunneng gär besichtegen.",
+      "opening": {
+        "text": "Wat kann ech fir Iech maachen?",
+        "audio": "/assets/audio/field/lb-coach-piso-hello.mp3",
+        "lang": "lb"
+      },
+      "repair": {
+        "text": "Kënnt Dir mir nach eng Kéier soen, wat Dir braucht?",
+        "audio": "/assets/audio/field/lb-coach-piso-repair.mp3",
+        "lang": "lb"
+      },
+      "clarify": {
+        "text": "Sot mir w.e.g. nach eng Kéier den Dag an d’Auerzäit.",
+        "audio": "/assets/audio/field/lb-coach-piso-confirm.mp3",
+        "lang": "lb"
+      },
+      "variants": [
+        [
+          {
+            "text": "Haut si keng Visitte méi méiglech. Geet et e Freideg um dräi Auer?",
+            "day": "freideg",
+            "number": "dräi",
+            "aliases": [
+              "3",
+              "15",
+              "15:00"
+            ],
+            "labels": [
+              "viernes",
+              "tres de la tarde"
+            ],
+            "line": {
+              "text": "Haut si keng Visitte méi méiglech. Geet et e Freideg um dräi Auer?",
+              "audio": "/assets/audio/field/lb-coach-piso-0-0.mp3",
+              "lang": "lb"
+            }
+          },
+          {
+            "text": "Dann hätt ech e Méindeg um zwou Auer e Rendez-vous.",
+            "day": "méindeg",
+            "number": "zwou",
+            "aliases": [
+              "2",
+              "14",
+              "14:00"
+            ],
+            "labels": [
+              "lunes",
+              "dos de la tarde"
+            ],
+            "line": {
+              "text": "Dann hätt ech e Méindeg um zwou Auer e Rendez-vous.",
+              "audio": "/assets/audio/field/lb-coach-piso-0-1.mp3",
+              "lang": "lb"
+            }
+          }
+        ],
+        [
+          {
+            "text": "En Dënschdeg ass just nach um véier Auer eng Visitt fräi.",
+            "day": "dënschdeg",
+            "number": "véier",
+            "aliases": [
+              "4",
+              "16",
+              "16:00"
+            ],
+            "labels": [
+              "martes",
+              "cuatro de la tarde"
+            ],
+            "line": {
+              "text": "En Dënschdeg ass just nach um véier Auer eng Visitt fräi.",
+              "audio": "/assets/audio/field/lb-coach-piso-1-0.mp3",
+              "lang": "lb"
+            }
+          },
+          {
+            "text": "Dir kënnt och en Donneschdeg um fënnef Auer kommen.",
+            "day": "donneschdeg",
+            "number": "fënnef",
+            "aliases": [
+              "5",
+              "17",
+              "17:00"
+            ],
+            "labels": [
+              "jueves",
+              "cinco de la tarde"
+            ],
+            "line": {
+              "text": "Dir kënnt och en Donneschdeg um fënnef Auer kommen.",
+              "audio": "/assets/audio/field/lb-coach-piso-1-1.mp3",
+              "lang": "lb"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "da-coach-piso",
+      "lang": "da",
+      "level": "B1",
+      "title": "Conseguir una visita de alquiler",
+      "setup": "Pregunta por una visita del piso anunciado. Si te ofrecen una hora imposible, pide otra.",
+      "terms": [
+        "lejlighed",
+        "lejligheden",
+        "fremvisning",
+        "se boligen",
+        "se lejligheden"
+      ],
+      "sample": "Jeg vil gerne se lejligheden.",
+      "opening": {
+        "text": "Hvad kan jeg hjælpe dig med?",
+        "audio": "/assets/audio/field/da-coach-piso-hello.mp3",
+        "lang": "da"
+      },
+      "repair": {
+        "text": "Kan du sige igen, hvad du har brug for?",
+        "audio": "/assets/audio/field/da-coach-piso-repair.mp3",
+        "lang": "da"
+      },
+      "clarify": {
+        "text": "Vil du gentage dagen og tidspunktet?",
+        "audio": "/assets/audio/field/da-coach-piso-confirm.mp3",
+        "lang": "da"
+      },
+      "variants": [
+        [
+          {
+            "text": "Vi har ingen flere fremvisninger i dag. Kan du fredag klokken femten?",
+            "day": "fredag",
+            "number": "femten",
+            "aliases": [
+              "15",
+              "15:00",
+              "tre"
+            ],
+            "labels": [
+              "viernes",
+              "tres de la tarde"
+            ],
+            "line": {
+              "text": "Vi har ingen flere fremvisninger i dag. Kan du fredag klokken femten?",
+              "audio": "/assets/audio/field/da-coach-piso-0-0.mp3",
+              "lang": "da"
+            }
+          },
+          {
+            "text": "Mandag klokken fjorten er også en mulighed.",
+            "day": "mandag",
+            "number": "fjorten",
+            "aliases": [
+              "14",
+              "14:00",
+              "to"
+            ],
+            "labels": [
+              "lunes",
+              "dos de la tarde"
+            ],
+            "line": {
+              "text": "Mandag klokken fjorten er også en mulighed.",
+              "audio": "/assets/audio/field/da-coach-piso-0-1.mp3",
+              "lang": "da"
+            }
+          }
+        ],
+        [
+          {
+            "text": "Tirsdag har vi en ledig fremvisning klokken seksten.",
+            "day": "tirsdag",
+            "number": "seksten",
+            "aliases": [
+              "16",
+              "16:00",
+              "fire"
+            ],
+            "labels": [
+              "martes",
+              "cuatro de la tarde"
+            ],
+            "line": {
+              "text": "Tirsdag har vi en ledig fremvisning klokken seksten.",
+              "audio": "/assets/audio/field/da-coach-piso-1-0.mp3",
+              "lang": "da"
+            }
+          },
+          {
+            "text": "Ellers kan du komme torsdag klokken sytten.",
+            "day": "torsdag",
+            "number": "sytten",
+            "aliases": [
+              "17",
+              "17:00",
+              "fem"
+            ],
+            "labels": [
+              "jueves",
+              "cinco de la tarde"
+            ],
+            "line": {
+              "text": "Ellers kan du komme torsdag klokken sytten.",
+              "audio": "/assets/audio/field/da-coach-piso-1-1.mp3",
+              "lang": "da"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "fr-coach-piso",
+      "lang": "fr",
+      "level": "A2",
+      "title": "Visitar un piso con cambio de idioma",
+      "setup": "Pide pasar al francés y solicita una visita. Confirma el horario dejando claro el día.",
+      "terms": [
+        "visite",
+        "visiter",
+        "appartement"
+      ],
+      "sample": "Est-ce qu’on peut continuer en français ? Je voudrais visiter l’appartement.",
+      "opening": {
+        "text": "Moien! Dir sidd bei der Agence. Wat kann ech fir Iech maachen?",
+        "audio": "/assets/audio/field/fr-coach-piso-hello.mp3",
+        "lang": "lb"
+      },
+      "repair": {
+        "text": "Pouvez-vous me préciser ce que vous souhaitez ?",
+        "audio": "/assets/audio/field/fr-coach-piso-repair.mp3",
+        "lang": "fr"
+      },
+      "clarify": {
+        "text": "Pouvez-vous me redire le jour et l’heure ?",
+        "audio": "/assets/audio/field/fr-coach-piso-confirm.mp3",
+        "lang": "fr"
+      },
+      "variants": [
+        [
+          {
+            "text": "Oui, on peut poursuivre en français. Je peux vous recevoir vendredi à quinze heures.",
+            "day": "vendredi",
+            "number": "quinze",
+            "aliases": [
+              "15",
+              "15:00",
+              "trois"
+            ],
+            "labels": [
+              "viernes",
+              "tres de la tarde"
+            ],
+            "line": {
+              "text": "Oui, on peut poursuivre en français. Je peux vous recevoir vendredi à quinze heures.",
+              "audio": "/assets/audio/field/fr-coach-piso-0-0.mp3",
+              "lang": "fr"
+            }
+          },
+          {
+            "text": "Je peux vous proposer lundi à quatorze heures.",
+            "day": "lundi",
+            "number": "quatorze",
+            "aliases": [
+              "14",
+              "14:00",
+              "deux"
+            ],
+            "labels": [
+              "lunes",
+              "dos de la tarde"
+            ],
+            "line": {
+              "text": "Je peux vous proposer lundi à quatorze heures.",
+              "audio": "/assets/audio/field/fr-coach-piso-0-1.mp3",
+              "lang": "fr"
+            }
+          }
+        ],
+        [
+          {
+            "text": "Bien sûr. Pour la visite, il reste mardi à seize heures.",
+            "day": "mardi",
+            "number": "seize",
+            "aliases": [
+              "16",
+              "16:00",
+              "quatre"
+            ],
+            "labels": [
+              "martes",
+              "cuatro de la tarde"
+            ],
+            "line": {
+              "text": "Bien sûr. Pour la visite, il reste mardi à seize heures.",
+              "audio": "/assets/audio/field/fr-coach-piso-1-0.mp3",
+              "lang": "fr"
+            }
+          },
+          {
+            "text": "Si ça vous arrange, jeudi à dix-sept heures est encore libre.",
+            "day": "jeudi",
+            "number": "dix-sept",
+            "aliases": [
+              "17",
+              "17:00",
+              "cinq"
+            ],
+            "labels": [
+              "jueves",
+              "cinco de la tarde"
+            ],
+            "line": {
+              "text": "Si ça vous arrange, jeudi à dix-sept heures est encore libre.",
+              "audio": "/assets/audio/field/fr-coach-piso-1-1.mp3",
+              "lang": "fr"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "lb-coach-turno",
+      "lang": "lb",
+      "level": "B2",
+      "title": "Negociar un cambio de turno",
+      "setup": "Propón un cambio de turno y confirma cuándo cubrirás a tu colega.",
+      "terms": [
+        "schicht",
+        "wiesselen",
+        "tauschen",
+        "asprangen",
+        "iwwerhuelen"
+      ],
+      "sample": "Kéinte mir eis Schichte wiesselen?",
+      "opening": {
+        "text": "Wat kann ech fir Iech maachen?",
+        "audio": "/assets/audio/field/lb-coach-turno-hello.mp3",
+        "lang": "lb"
+      },
+      "repair": {
+        "text": "Kënnt Dir mir nach eng Kéier soen, wat Dir braucht?",
+        "audio": "/assets/audio/field/lb-coach-turno-repair.mp3",
+        "lang": "lb"
+      },
+      "clarify": {
+        "text": "Sot mir w.e.g. nach eng Kéier den Dag an d’Auerzäit.",
+        "audio": "/assets/audio/field/lb-coach-turno-confirm.mp3",
+        "lang": "lb"
+      },
+      "variants": [
+        [
+          {
+            "text": "E Freideg ka keen dech ersetzen. Kanns du e Samschdeg um siwen Auer ufänken?",
+            "day": "samschdeg",
+            "number": "siwen",
+            "aliases": [
+              "7",
+              "7:00"
+            ],
+            "labels": [
+              "sábado",
+              "siete"
+            ],
+            "line": {
+              "text": "E Freideg ka keen dech ersetzen. Kanns du e Samschdeg um siwen Auer ufänken?",
+              "audio": "/assets/audio/field/lb-coach-turno-0-0.mp3",
+              "lang": "lb"
+            }
+          },
+          {
+            "text": "Du kéints soss e Sonndeg um zéng Auer ufänken.",
+            "day": "sonndeg",
+            "number": "zéng",
+            "aliases": [
+              "10",
+              "10:00"
+            ],
+            "labels": [
+              "domingo",
+              "diez"
+            ],
+            "line": {
+              "text": "Du kéints soss e Sonndeg um zéng Auer ufänken.",
+              "audio": "/assets/audio/field/lb-coach-turno-0-1.mp3",
+              "lang": "lb"
+            }
+          }
+        ],
+        [
+          {
+            "text": "E Méindeg feelt eis nach een. Géifs du um néng Auer asprangen?",
+            "day": "méindeg",
+            "number": "néng",
+            "aliases": [
+              "9",
+              "9:00"
+            ],
+            "labels": [
+              "lunes",
+              "nueve"
+            ],
+            "line": {
+              "text": "E Méindeg feelt eis nach een. Géifs du um néng Auer asprangen?",
+              "audio": "/assets/audio/field/lb-coach-turno-1-0.mp3",
+              "lang": "lb"
+            }
+          },
+          {
+            "text": "Da maache mir en Dënschdeg um eelef Auer aus.",
+            "day": "dënschdeg",
+            "number": "eelef",
+            "aliases": [
+              "11",
+              "11:00"
+            ],
+            "labels": [
+              "martes",
+              "once"
+            ],
+            "line": {
+              "text": "Da maache mir en Dënschdeg um eelef Auer aus.",
+              "audio": "/assets/audio/field/lb-coach-turno-1-1.mp3",
+              "lang": "lb"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "da-coach-turno",
+      "lang": "da",
+      "level": "B2",
+      "title": "Negociar un cambio de turno",
+      "setup": "Pide intercambiar un turno. Escucha la objeción y confirma qué turno cubrirás.",
+      "terms": [
+        "bytte",
+        "vagt",
+        "vagter",
+        "tage din vagt",
+        "dække"
+      ],
+      "sample": "Kunne vi bytte vagter?",
+      "opening": {
+        "text": "Hvad kan jeg hjælpe dig med?",
+        "audio": "/assets/audio/field/da-coach-turno-hello.mp3",
+        "lang": "da"
+      },
+      "repair": {
+        "text": "Kan du sige igen, hvad du har brug for?",
+        "audio": "/assets/audio/field/da-coach-turno-repair.mp3",
+        "lang": "da"
+      },
+      "clarify": {
+        "text": "Vil du gentage dagen og tidspunktet?",
+        "audio": "/assets/audio/field/da-coach-turno-confirm.mp3",
+        "lang": "da"
+      },
+      "variants": [
+        [
+          {
+            "text": "Fredag kan ingen tage din vagt. Kan du møde lørdag klokken syv?",
+            "day": "lørdag",
+            "number": "syv",
+            "aliases": [
+              "7",
+              "7:00"
+            ],
+            "labels": [
+              "sábado",
+              "siete"
+            ],
+            "line": {
+              "text": "Fredag kan ingen tage din vagt. Kan du møde lørdag klokken syv?",
+              "audio": "/assets/audio/field/da-coach-turno-0-0.mp3",
+              "lang": "da"
+            }
+          },
+          {
+            "text": "Ellers kan du møde søndag klokken ti.",
+            "day": "søndag",
+            "number": "ti",
+            "aliases": [
+              "10",
+              "10:00"
+            ],
+            "labels": [
+              "domingo",
+              "diez"
+            ],
+            "line": {
+              "text": "Ellers kan du møde søndag klokken ti.",
+              "audio": "/assets/audio/field/da-coach-turno-0-1.mp3",
+              "lang": "da"
+            }
+          }
+        ],
+        [
+          {
+            "text": "Vi mangler en mandag. Kan du tage vagten klokken ni?",
+            "day": "mandag",
+            "number": "ni",
+            "aliases": [
+              "9",
+              "9:00"
+            ],
+            "labels": [
+              "lunes",
+              "nueve"
+            ],
+            "line": {
+              "text": "Vi mangler en mandag. Kan du tage vagten klokken ni?",
+              "audio": "/assets/audio/field/da-coach-turno-1-0.mp3",
+              "lang": "da"
+            }
+          },
+          {
+            "text": "Vi kan i stedet sige tirsdag klokken elleve.",
+            "day": "tirsdag",
+            "number": "elleve",
+            "aliases": [
+              "11",
+              "11:00"
+            ],
+            "labels": [
+              "martes",
+              "once"
+            ],
+            "line": {
+              "text": "Vi kan i stedet sige tirsdag klokken elleve.",
+              "audio": "/assets/audio/field/da-coach-turno-1-1.mp3",
+              "lang": "da"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "fr-coach-entretien",
+      "lang": "fr",
+      "level": "A2",
+      "title": "Acordar una hora de entrevista",
+      "setup": "Explica que llamas por la entrevista. Confirma día y hora o pide una alternativa.",
+      "terms": [
+        "entretien",
+        "poste",
+        "candidature"
+      ],
+      "sample": "Je vous appelle au sujet de l’entretien.",
+      "opening": {
+        "text": "Bonjour, que puis-je faire pour vous ?",
+        "audio": "/assets/audio/field/fr-coach-entretien-hello.mp3",
+        "lang": "fr"
+      },
+      "repair": {
+        "text": "Pouvez-vous me préciser ce que vous souhaitez ?",
+        "audio": "/assets/audio/field/fr-coach-entretien-repair.mp3",
+        "lang": "fr"
+      },
+      "clarify": {
+        "text": "Pouvez-vous me redire le jour et l’heure ?",
+        "audio": "/assets/audio/field/fr-coach-entretien-confirm.mp3",
+        "lang": "fr"
+      },
+      "variants": [
+        [
+          {
+            "text": "On ne peut pas vous recevoir vendredi. Samedi à neuf heures, ce serait possible ?",
+            "day": "samedi",
+            "number": "neuf",
+            "aliases": [
+              "9",
+              "9:00"
+            ],
+            "labels": [
+              "sábado",
+              "nueve"
+            ],
+            "line": {
+              "text": "On ne peut pas vous recevoir vendredi. Samedi à neuf heures, ce serait possible ?",
+              "audio": "/assets/audio/field/fr-coach-entretien-0-0.mp3",
+              "lang": "fr"
+            }
+          },
+          {
+            "text": "Nous pouvons aussi convenir de lundi à dix heures.",
+            "day": "lundi",
+            "number": "dix",
+            "aliases": [
+              "10",
+              "10:00"
+            ],
+            "labels": [
+              "lunes",
+              "diez"
+            ],
+            "line": {
+              "text": "Nous pouvons aussi convenir de lundi à dix heures.",
+              "audio": "/assets/audio/field/fr-coach-entretien-0-1.mp3",
+              "lang": "fr"
+            }
+          }
+        ],
+        [
+          {
+            "text": "Le créneau de mardi est pris. On peut se voir mercredi à onze heures.",
+            "day": "mercredi",
+            "number": "onze",
+            "aliases": [
+              "11",
+              "11:00"
+            ],
+            "labels": [
+              "miércoles",
+              "once"
+            ],
+            "line": {
+              "text": "Le créneau de mardi est pris. On peut se voir mercredi à onze heures.",
+              "audio": "/assets/audio/field/fr-coach-entretien-1-0.mp3",
+              "lang": "fr"
+            }
+          },
+          {
+            "text": "Sinon, vendredi à huit heures reste disponible.",
+            "day": "vendredi",
+            "number": "huit",
+            "aliases": [
+              "8",
+              "8:00"
+            ],
+            "labels": [
+              "viernes",
+              "ocho"
+            ],
+            "line": {
+              "text": "Sinon, vendredi à huit heures reste disponible.",
+              "audio": "/assets/audio/field/fr-coach-entretien-1-1.mp3",
+              "lang": "fr"
+            }
+          }
+        ]
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "lb-check-4",
+      "lang": "lb",
+      "week": 4,
+      "level": "A1",
+      "title": "Orientarte en una estación",
+      "listening": {
+        "line": {
+          "text": "Den Zuch fiert haut um néng Auer vum Gleis dräi.",
+          "audio": "/assets/audio/field/lb-check-4.mp3",
+          "lang": "lb"
+        },
+        "questions": [
+          {
+            "prompt": "¿De qué vía sale el tren?",
+            "choices": [
+              "Vía uno",
+              "Vía dos",
+              "Vía tres"
+            ],
+            "answer": 2
+          },
+          {
+            "prompt": "¿A qué hora sale?",
+            "choices": [
+              "A las ocho",
+              "A las nueve",
+              "A las diez"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "reading": {
+        "text": "Sonndes ass de Schalter zou. De Billjetautomat funktionéiert all Dag.",
+        "questions": [
+          {
+            "prompt": "¿Qué día no abre la taquilla?",
+            "choices": [
+              "Domingo",
+              "Jueves",
+              "Lunes"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Qué alternativa funciona todos los días?",
+            "choices": [
+              "El autobús",
+              "La máquina de billetes",
+              "La taquilla"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Pregunta de qué vía sale el tren y pide confirmación de la hora.",
+        "sample": "Vun wéi engem Gleis fiert den Zuch? Um néng Auer, richteg?",
+        "criteria": [
+          "Hice una pregunta sobre la vía.",
+          "Pedí que confirmaran la hora."
+        ]
+      },
+      "writing": {
+        "prompt": "Escribe que quieres un billete y pregunta dónde lo puedes comprar.",
+        "sample": "Ech hätt gär e Billjet. Wou kann ech en kafen?",
+        "criteria": [
+          "Dije que quiero un billete.",
+          "Pregunté dónde comprarlo."
+        ]
+      }
+    },
+    {
+      "id": "da-check-4",
+      "lang": "da",
+      "week": 4,
+      "level": "A1",
+      "title": "Orientarte en una estación",
+      "listening": {
+        "line": {
+          "text": "Toget kører i dag klokken ni fra spor tre.",
+          "audio": "/assets/audio/field/da-check-4.mp3",
+          "lang": "da"
+        },
+        "questions": [
+          {
+            "prompt": "¿De qué vía sale el tren?",
+            "choices": [
+              "Vía uno",
+              "Vía dos",
+              "Vía tres"
+            ],
+            "answer": 2
+          },
+          {
+            "prompt": "¿A qué hora sale?",
+            "choices": [
+              "A las ocho",
+              "A las nueve",
+              "A las diez"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "reading": {
+        "text": "Billetsalget er lukket om søndagen. Automaten virker alle dage.",
+        "questions": [
+          {
+            "prompt": "¿Qué día no abre la taquilla?",
+            "choices": [
+              "Domingo",
+              "Jueves",
+              "Lunes"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Qué alternativa funciona todos los días?",
+            "choices": [
+              "El autobús",
+              "La máquina de billetes",
+              "La taquilla"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Pregunta de qué vía sale el tren y pide confirmación de la hora.",
+        "sample": "Hvilket spor kører toget fra? Er det klokken ni?",
+        "criteria": [
+          "Hice una pregunta sobre la vía.",
+          "Pedí que confirmaran la hora."
+        ]
+      },
+      "writing": {
+        "prompt": "Escribe que quieres un billete y pregunta dónde lo puedes comprar.",
+        "sample": "Jeg vil gerne have en billet. Hvor kan jeg købe den?",
+        "criteria": [
+          "Dije que quiero un billete.",
+          "Pregunté dónde comprarlo."
+        ]
+      }
+    },
+    {
+      "id": "lb-check-8",
+      "lang": "lb",
+      "week": 8,
+      "level": "A2",
+      "title": "Reorganizar una visita",
+      "listening": {
+        "line": {
+          "text": "Wéinst den Aarbechten am Gebai verréckele mir d’Visitt op e Freideg um véier Auer.",
+          "audio": "/assets/audio/field/lb-check-8.mp3",
+          "lang": "lb"
+        },
+        "questions": [
+          {
+            "prompt": "¿Por qué se mueve la visita?",
+            "choices": [
+              "La encargada está enferma",
+              "El edificio está en obras",
+              "La hora ya pasó"
+            ],
+            "answer": 1
+          },
+          {
+            "prompt": "¿Cuándo queda la visita?",
+            "choices": [
+              "El martes a las 15",
+              "El jueves a las 16",
+              "El viernes a las 16"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      "reading": {
+        "text": "Mir treffen eis bei der Säitendier. Bréngt eng Kopie vun der Reservatioun mat.",
+        "questions": [
+          {
+            "prompt": "¿Dónde se reúne el grupo?",
+            "choices": [
+              "En la entrada lateral",
+              "En el segundo piso",
+              "En recepción"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Qué debe llevar cada persona?",
+            "choices": [
+              "Una copia de la reserva",
+              "Una tarjeta de transporte",
+              "Una identificación"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Avisa que no puedes el viernes y propón el lunes a las tres.",
+        "sample": "E Freideg kann ech leider net. Geet e Méindeg um dräi Auer?",
+        "criteria": [
+          "Expliqué que el viernes no puedo.",
+          "Propuse el lunes y la hora."
+        ]
+      },
+      "writing": {
+        "prompt": "Escribe cuál es la nueva entrada y qué hay que llevar.",
+        "sample": "Mir treffen eis bei der Säitendier. Bréng w.e.g. eng Kopie vun der Reservatioun mat.",
+        "criteria": [
+          "Indiqué dónde encontrarnos.",
+          "Nombré lo que hay que llevar."
+        ]
+      }
+    },
+    {
+      "id": "da-check-8",
+      "lang": "da",
+      "week": 8,
+      "level": "A2",
+      "title": "Reorganizar una visita",
+      "listening": {
+        "line": {
+          "text": "På grund af arbejdet i bygningen flytter vi besøget til fredag klokken seksten.",
+          "audio": "/assets/audio/field/da-check-8.mp3",
+          "lang": "da"
+        },
+        "questions": [
+          {
+            "prompt": "¿Por qué se mueve la visita?",
+            "choices": [
+              "La encargada está enferma",
+              "El edificio está en obras",
+              "La hora ya pasó"
+            ],
+            "answer": 1
+          },
+          {
+            "prompt": "¿Cuándo queda la visita?",
+            "choices": [
+              "El martes a las 15",
+              "El jueves a las 16",
+              "El viernes a las 16"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      "reading": {
+        "text": "Vi mødes ved sideindgangen. Medbring en kopi af din reservation.",
+        "questions": [
+          {
+            "prompt": "¿Dónde se reúne el grupo?",
+            "choices": [
+              "En la entrada lateral",
+              "En el segundo piso",
+              "En recepción"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Qué debe llevar cada persona?",
+            "choices": [
+              "Una copia de la reserva",
+              "Una tarjeta de transporte",
+              "Una identificación"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Avisa que no puedes el viernes y propón el lunes a las tres.",
+        "sample": "Jeg kan desværre ikke på fredag. Hvad med mandag klokken tre?",
+        "criteria": [
+          "Expliqué que el viernes no puedo.",
+          "Propuse el lunes y la hora."
+        ]
+      },
+      "writing": {
+        "prompt": "Escribe cuál es la nueva entrada y qué hay que llevar.",
+        "sample": "Vi mødes ved sideindgangen. Husk en kopi af din reservation.",
+        "criteria": [
+          "Indiqué dónde encontrarnos.",
+          "Nombré lo que hay que llevar."
+        ]
+      }
+    },
+    {
+      "id": "lb-check-12",
+      "lang": "lb",
+      "week": 12,
+      "level": "B1",
+      "title": "Avería y próxima visita",
+      "listening": {
+        "line": {
+          "text": "D’waarmt Waasser geet nach ëmmer net. Mir kënnen Iech muer de Moien en Techniker schécken.",
+          "audio": "/assets/audio/field/lb-check-12.mp3",
+          "lang": "lb"
+        },
+        "questions": [
+          {
+            "prompt": "¿Qué dejó de funcionar?",
+            "choices": [
+              "El agua caliente",
+              "El timbre",
+              "La puerta de entrada"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Cuándo pueden enviar al técnico?",
+            "choices": [
+              "Esta tarde",
+              "Mañana por la mañana",
+              "El lunes por la tarde"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "reading": {
+        "text": "Fir e Rendez-vous ze verleeën, äntwert op dës E-Mail bis den Dag virdrun.",
+        "questions": [
+          {
+            "prompt": "¿Cómo se cambia la cita?",
+            "choices": [
+              "Llamando a recepción",
+              "Respondiendo al correo",
+              "Avisando al técnico"
+            ],
+            "answer": 1
+          },
+          {
+            "prompt": "¿Hasta cuándo se puede avisar?",
+            "choices": [
+              "Una hora antes",
+              "El mismo día",
+              "La víspera"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Explica que sigues sin agua caliente y que el técnico puede pasar mañana después de las once.",
+        "sample": "D’waarmt Waasser geet nach ëmmer net. Den Techniker ka muer no eelef Auer kommen.",
+        "criteria": [
+          "Di qué sigue sin funcionar.",
+          "Indiqué una franja concreta mañana."
+        ]
+      },
+      "writing": {
+        "prompt": "Solicita un cambio de cita por correo y propone una hora.",
+        "sample": "Ech géif de Rendez-vous gär verleeën. Ass muer no eelef Auer nach eppes fräi?",
+        "criteria": [
+          "Expliqué la necesidad de cambiar la cita.",
+          "Propuse una alternativa clara."
+        ]
+      }
+    },
+    {
+      "id": "da-check-12",
+      "lang": "da",
+      "week": 12,
+      "level": "B1",
+      "title": "Avería y próxima visita",
+      "listening": {
+        "line": {
+          "text": "Der er stadig ikke varmt vand. Vi kan sende en tekniker i morgen formiddag.",
+          "audio": "/assets/audio/field/da-check-12.mp3",
+          "lang": "da"
+        },
+        "questions": [
+          {
+            "prompt": "¿Qué dejó de funcionar?",
+            "choices": [
+              "El agua caliente",
+              "El timbre",
+              "La puerta de entrada"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Cuándo pueden enviar al técnico?",
+            "choices": [
+              "Esta tarde",
+              "Mañana por la mañana",
+              "El lunes por la tarde"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "reading": {
+        "text": "Hvis du vil flytte aftalen, skal du besvare denne e-mail senest dagen før.",
+        "questions": [
+          {
+            "prompt": "¿Cómo se cambia la cita?",
+            "choices": [
+              "Llamando a recepción",
+              "Respondiendo al correo",
+              "Avisando al técnico"
+            ],
+            "answer": 1
+          },
+          {
+            "prompt": "¿Hasta cuándo se puede avisar?",
+            "choices": [
+              "Una hora antes",
+              "El mismo día",
+              "La víspera"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Explica que sigues sin agua caliente y que el técnico puede pasar mañana después de las once.",
+        "sample": "Vi har stadig ikke varmt vand. Teknikeren må gerne komme efter klokken elleve i morgen.",
+        "criteria": [
+          "Di qué sigue sin funcionar.",
+          "Indiqué una franja concreta mañana."
+        ]
+      },
+      "writing": {
+        "prompt": "Solicita un cambio de cita por correo y propone una hora.",
+        "sample": "Jeg vil gerne flytte aftalen. Er der en ledig tid efter klokken elleve i morgen?",
+        "criteria": [
+          "Expliqué la necesidad de cambiar la cita.",
+          "Propuse una alternativa clara."
+        ]
+      }
+    },
+    {
+      "id": "lb-check-16",
+      "lang": "lb",
+      "week": 16,
+      "level": "B2",
+      "title": "Negociar una entrega",
+      "listening": {
+        "line": {
+          "text": "Mir kënne just dat dréngend Material pünktlech liwweren. Fir de Rescht brauche mir nach en Transport.",
+          "audio": "/assets/audio/field/lb-check-16.mp3",
+          "lang": "lb"
+        },
+        "questions": [
+          {
+            "prompt": "¿Qué puede llegar a tiempo?",
+            "choices": [
+              "Todo el pedido",
+              "Solo el material urgente",
+              "Solo el material de reserva"
+            ],
+            "answer": 1
+          },
+          {
+            "prompt": "¿Qué condiciona el segundo envío?",
+            "choices": [
+              "El permiso del cliente",
+              "Un presupuesto nuevo",
+              "La disponibilidad del transporte"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      "reading": {
+        "text": "Notéiert fir d’éischt, wéi ee Material am dréngendsten ass. Mir iwwerpréiwen d’Léisung, soubal déi zweet Liwwerung ukënnt.",
+        "questions": [
+          {
+            "prompt": "¿Qué conviene escribir primero?",
+            "choices": [
+              "Qué materiales se necesitan primero",
+              "Qué precio se pagó",
+              "Quién hizo el pedido"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Cuándo se revisa la solución provisional?",
+            "choices": [
+              "Cuando llegue el segundo envío",
+              "Al principio del mes",
+              "En la reunión de mañana"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Responde al proveedor. Acepta un envío parcial y pon una condición explícita para el resto.",
+        "sample": "Dat dréngend Material kënnt Dir schécken. De Rescht akzeptéiere mir, wann Dir eis bis muer den Termin bestätegt.",
+        "criteria": [
+          "Acepté el envío parcial.",
+          "Puse una condición comprobable para el segundo envío."
+        ]
+      },
+      "writing": {
+        "prompt": "Redacta un mensaje al equipo con lo que llega y cuándo revisarás el plan.",
+        "sample": "Dat dréngend Material kënnt als éischt. Mir iwwerpréiwen de Plang, soubal de Rescht ukënnt.",
+        "criteria": [
+          "Separé la primera entrega de la segunda.",
+          "Expliqué cuándo se vuelve a evaluar."
+        ]
+      }
+    },
+    {
+      "id": "da-check-16",
+      "lang": "da",
+      "week": 16,
+      "level": "B2",
+      "title": "Negociar una entrega",
+      "listening": {
+        "line": {
+          "text": "Vi kan kun levere det mest nødvendige til tiden. Resten afhænger af, om vi kan skaffe transport.",
+          "audio": "/assets/audio/field/da-check-16.mp3",
+          "lang": "da"
+        },
+        "questions": [
+          {
+            "prompt": "¿Qué puede llegar a tiempo?",
+            "choices": [
+              "Todo el pedido",
+              "Solo el material urgente",
+              "Solo el material de reserva"
+            ],
+            "answer": 1
+          },
+          {
+            "prompt": "¿Qué condiciona el segundo envío?",
+            "choices": [
+              "El permiso del cliente",
+              "Un presupuesto nuevo",
+              "La disponibilidad del transporte"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      "reading": {
+        "text": "Angiv først, hvilke materialer der haster mest. Vi vurderer løsningen igen, når den anden levering kommer.",
+        "questions": [
+          {
+            "prompt": "¿Qué conviene escribir primero?",
+            "choices": [
+              "Qué materiales se necesitan primero",
+              "Qué precio se pagó",
+              "Quién hizo el pedido"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Cuándo se revisa la solución provisional?",
+            "choices": [
+              "Cuando llegue el segundo envío",
+              "Al principio del mes",
+              "En la reunión de mañana"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Responde al proveedor. Acepta un envío parcial y pon una condición explícita para el resto.",
+        "sample": "Send gerne det mest nødvendige. Resten accepterer vi, hvis I kan bekræfte en dato inden i morgen.",
+        "criteria": [
+          "Acepté el envío parcial.",
+          "Puse una condición comprobable para el segundo envío."
+        ]
+      },
+      "writing": {
+        "prompt": "Redacta un mensaje al equipo con lo que llega y cuándo revisarás el plan.",
+        "sample": "Det mest nødvendige kommer først. Vi genbesøger planen, når resten er leveret.",
+        "criteria": [
+          "Separé la primera entrega de la segunda.",
+          "Expliqué cuándo se vuelve a evaluar."
+        ]
+      }
+    },
+    {
+      "id": "lb-check-20",
+      "lang": "lb",
+      "week": 20,
+      "level": "B2",
+      "title": "Acordar una prueba en el barrio",
+      "listening": {
+        "line": {
+          "text": "Ech si fir eng Testphas vun engem Mount. Ech wéilt just net, datt mer duerno ouni Evaluatioun einfach esou weidermaachen.",
+          "audio": "/assets/audio/field/lb-check-20.mp3",
+          "lang": "lb"
+        },
+        "questions": [
+          {
+            "prompt": "¿Qué es lo que le preocupa al vecino?",
+            "choices": [
+              "Que la regla se haga permanente sin evaluarla",
+              "Que falten sillas",
+              "Que la reunión sea muy larga"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Cuánto propone que dure la prueba?",
+            "choices": [
+              "Dos semanas",
+              "Un mes",
+              "Tres meses"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "reading": {
+        "text": "All d’Nopere kënnen hir Bemierkunge mam Formulaire eraginn.",
+        "questions": [
+          {
+            "prompt": "¿Quién podrá opinar durante la prueba?",
+            "choices": [
+              "Solo el comité",
+              "Solo los comerciantes",
+              "Todos los vecinos"
+            ],
+            "answer": 2
+          },
+          {
+            "prompt": "¿Cómo pueden enviar observaciones?",
+            "choices": [
+              "Con el formulario",
+              "Solo en persona",
+              "Por teléfono"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Di que apoyas la prueba durante un mes y explica cómo evaluarías la medida.",
+        "sample": "Ee Mount schéngt mir sënnvoll. Duerno kéinte mir d’Bemierkunge vun den Noperen zesummen auswerten.",
+        "criteria": [
+          "Apoyé la prueba con un plazo claro.",
+          "Propuse una forma concreta de evaluarla."
+        ]
+      },
+      "writing": {
+        "prompt": "Resume cómo participar y qué se decidirá al final.",
+        "sample": "All d’Nopere kënnen de Formulaire ausfëllen. No der Testphas gëtt iwwer d’Zukunft vun der Reegel decidéiert.",
+        "criteria": [
+          "Expliqué el canal de participación.",
+          "Aclaré que habrá una decisión posterior."
+        ]
+      }
+    },
+    {
+      "id": "da-check-20",
+      "lang": "da",
+      "week": 20,
+      "level": "B2",
+      "title": "Acordar una prueba en el barrio",
+      "listening": {
+        "line": {
+          "text": "Jeg støtter en prøveperiode på en måned. Jeg vil bare undgå, at ordningen bagefter fortsætter uden en vurdering.",
+          "audio": "/assets/audio/field/da-check-20.mp3",
+          "lang": "da"
+        },
+        "questions": [
+          {
+            "prompt": "¿Qué es lo que le preocupa al vecino?",
+            "choices": [
+              "Que la regla se haga permanente sin evaluarla",
+              "Que falten sillas",
+              "Que la reunión sea muy larga"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Cuánto propone que dure la prueba?",
+            "choices": [
+              "Dos semanas",
+              "Un mes",
+              "Tres meses"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "reading": {
+        "text": "Alle naboer kan indsende deres bemærkninger via formularen.",
+        "questions": [
+          {
+            "prompt": "¿Quién podrá opinar durante la prueba?",
+            "choices": [
+              "Solo el comité",
+              "Solo los comerciantes",
+              "Todos los vecinos"
+            ],
+            "answer": 2
+          },
+          {
+            "prompt": "¿Cómo pueden enviar observaciones?",
+            "choices": [
+              "Con el formulario",
+              "Solo en persona",
+              "Por teléfono"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Di que apoyas la prueba durante un mes y explica cómo evaluarías la medida.",
+        "sample": "En måned lyder fornuftigt. Bagefter kan vi gennemgå naboernes bemærkninger sammen.",
+        "criteria": [
+          "Apoyé la prueba con un plazo claro.",
+          "Propuse una forma concreta de evaluarla."
+        ]
+      },
+      "writing": {
+        "prompt": "Resume cómo participar y qué se decidirá al final.",
+        "sample": "Alle naboer kan bruge formularen. Efter prøveperioden tager vi stilling til ordningens fremtid.",
+        "criteria": [
+          "Expliqué el canal de participación.",
+          "Aclaré que habrá una decisión posterior."
+        ]
+      }
+    },
+    {
+      "id": "lb-check-24",
+      "lang": "lb",
+      "week": 24,
+      "level": "C1",
+      "title": "Matizar una recomendación de trabajo",
+      "listening": {
+        "line": {
+          "text": "Um Pabeier bleiwe mir am Budget. Dat bleift awer ofzewaarden, well d’Formatioun an der Rechnung nach feelt.",
+          "audio": "/assets/audio/field/lb-check-24.mp3",
+          "lang": "lb"
+        },
+        "questions": [
+          {
+            "prompt": "¿Qué implica el comentario sobre la cifra?",
+            "choices": [
+              "El coste aún puede estar subestimado",
+              "La propuesta ya se aprobó",
+              "El límite presupuestario cambió"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Qué partida falta?",
+            "choices": [
+              "Materiales",
+              "Transporte",
+              "Formación"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      "reading": {
+        "text": "Stellt béid Szenarie mat hiren Hypotheese vir. Déi méi bëlleg Variant setzt intern Ënnerstëtzung fir d’Formatioun viraus.",
+        "questions": [
+          {
+            "prompt": "¿Cómo hay que presentar los dos escenarios?",
+            "choices": [
+              "Como alternativas con sus supuestos",
+              "Como dos cifras sin explicación",
+              "Como costes definitivos"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Qué condiciona el escenario barato?",
+            "choices": [
+              "Prescindir del transporte",
+              "Contar con apoyo interno para la formación",
+              "Retrasar la compra un año"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Contesta con lo que puedes asegurar hoy y explica qué revisarás antes de cerrar la cifra.",
+        "sample": "Déi bekannte Käschte leien am Budget. Ier ech d’Zomm bestätegen, iwwerpréiwen ech d’Käschte vun der Formatioun.",
+        "criteria": [
+          "Separé una certeza de una estimación.",
+          "Dije qué partida falta revisar."
+        ]
+      },
+      "writing": {
+        "prompt": "Redacta una recomendación con una condición y un escenario alternativo.",
+        "sample": "Déi bëlleg Variant ass méiglech, wa mir intern forméieren. Wa mir extern Hëllef brauchen, muss de Budget ugepasst ginn.",
+        "criteria": [
+          "Expliqué qué supuesto hace viable la opción económica.",
+          "Indiqué qué cambia si el supuesto falla."
+        ]
+      }
+    },
+    {
+      "id": "da-check-24",
+      "lang": "da",
+      "week": 24,
+      "level": "C1",
+      "title": "Matizar una recomendación de trabajo",
+      "listening": {
+        "line": {
+          "text": "På papiret holder vi budgettet. Men det er for tidligt at konkludere noget, når uddannelsen endnu ikke er regnet med.",
+          "audio": "/assets/audio/field/da-check-24.mp3",
+          "lang": "da"
+        },
+        "questions": [
+          {
+            "prompt": "¿Qué implica el comentario sobre la cifra?",
+            "choices": [
+              "El coste aún puede estar subestimado",
+              "La propuesta ya se aprobó",
+              "El límite presupuestario cambió"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Qué partida falta?",
+            "choices": [
+              "Materiales",
+              "Transporte",
+              "Formación"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      "reading": {
+        "text": "Fremlæg begge scenarier og deres antagelser. Den billigere løsning forudsætter intern hjælp til uddannelsen.",
+        "questions": [
+          {
+            "prompt": "¿Cómo hay que presentar los dos escenarios?",
+            "choices": [
+              "Como alternativas con sus supuestos",
+              "Como dos cifras sin explicación",
+              "Como costes definitivos"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Qué condiciona el escenario barato?",
+            "choices": [
+              "Prescindir del transporte",
+              "Contar con apoyo interno para la formación",
+              "Retrasar la compra un año"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Contesta con lo que puedes asegurar hoy y explica qué revisarás antes de cerrar la cifra.",
+        "sample": "De kendte udgifter holder sig inden for budgettet. Før jeg bekræfter beløbet, tjekker jeg udgiften til uddannelse.",
+        "criteria": [
+          "Separé una certeza de una estimación.",
+          "Dije qué partida falta revisar."
+        ]
+      },
+      "writing": {
+        "prompt": "Redacta una recomendación con una condición y un escenario alternativo.",
+        "sample": "Den billigere løsning er mulig med intern uddannelse. Hvis vi får brug for ekstern hjælp, skal vi justere budgettet.",
+        "criteria": [
+          "Expliqué qué supuesto hace viable la opción económica.",
+          "Indiqué qué cambia si el supuesto falla."
+        ]
+      }
+    },
+    {
+      "id": "lb-check-28",
+      "lang": "lb",
+      "week": 28,
+      "level": "C2",
+      "title": "Desactivar una acusación pública",
+      "listening": {
+        "line": {
+          "text": "Wéi generéis vun Iech, datt mir nach dierfe matrieden! De Projet ass dach praktesch fäerdeg. – Dat, wat publizéiert gouf, war eng Recommandatioun. D’Decisioun ass nach net geholl.",
+          "audio": "/assets/audio/field/lb-check-28.mp3",
+          "lang": "lb"
+        },
+        "questions": [
+          {
+            "prompt": "¿Qué reclama realmente la primera persona?",
+            "choices": [
+              "La consulta llegó demasiado tarde para influir",
+              "La web no funciona",
+              "Hay demasiados documentos"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Qué distingue la segunda intervención?",
+            "choices": [
+              "Un presupuesto de una factura",
+              "Una recomendación de una decisión definitiva",
+              "Un rumor de una grabación"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "reading": {
+        "text": "Déi definitiv Decisioun kann nach geännert ginn. An der Schlussversioun gëtt erkläert, wéi eng Bemierkunge berücksichtegt goufen a wéi.",
+        "questions": [
+          {
+            "prompt": "¿Qué parte se puede modificar?",
+            "choices": [
+              "La decisión final",
+              "La fecha del anuncio anterior",
+              "La descripción de todos los antecedentes"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Qué debe explicar la versión final?",
+            "choices": [
+              "Qué observaciones influyeron y cómo",
+              "Quién habló más tiempo",
+              "Solo quién votó a favor"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Intervén como mediador. Reconoce la pérdida de confianza y precisa qué sigue abierto.",
+        "sample": "Ech héieren eng Suerg ëm d’Vertrauen an de Prozess. D’Recommandatioun läit vir, mee déi definitiv Decisioun steet nach op.",
+        "criteria": [
+          "Reformulé la ironía como una inquietud legítima.",
+          "Precisé la diferencia entre recomendación y decisión."
+        ]
+      },
+      "writing": {
+        "prompt": "Redacta un cierre neutral que explique la salida y la transparencia de la decisión final.",
+        "sample": "D’Recommandatioun bleift d’Basis fir d’Diskussioun. An der Decisioun erkläre mir, wéi d’Bemierkunge berücksichtegt goufen.",
+        "criteria": [
+          "Dejé claro qué sigue abierto.",
+          "Expliqué cómo documentar el efecto de las observaciones."
+        ]
+      }
+    },
+    {
+      "id": "da-check-28",
+      "lang": "da",
+      "week": 28,
+      "level": "C2",
+      "title": "Desactivar una acusación pública",
+      "listening": {
+        "line": {
+          "text": "Hvor generøst, at vi stadig får lov til at mene noget! Projektet er jo stort set færdigt. – Det offentliggjorte var en anbefaling. Den endelige beslutning er ikke truffet.",
+          "audio": "/assets/audio/field/da-check-28.mp3",
+          "lang": "da"
+        },
+        "questions": [
+          {
+            "prompt": "¿Qué reclama realmente la primera persona?",
+            "choices": [
+              "La consulta llegó demasiado tarde para influir",
+              "La web no funciona",
+              "Hay demasiados documentos"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Qué distingue la segunda intervención?",
+            "choices": [
+              "Un presupuesto de una factura",
+              "Una recomendación de una decisión definitiva",
+              "Un rumor de una grabación"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "reading": {
+        "text": "Den endelige beslutning kan stadig ændres. Den endelige version forklarer, hvilke bemærkninger der blev lagt vægt på, og hvordan.",
+        "questions": [
+          {
+            "prompt": "¿Qué parte se puede modificar?",
+            "choices": [
+              "La decisión final",
+              "La fecha del anuncio anterior",
+              "La descripción de todos los antecedentes"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Qué debe explicar la versión final?",
+            "choices": [
+              "Qué observaciones influyeron y cómo",
+              "Quién habló más tiempo",
+              "Solo quién votó a favor"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Intervén como mediador. Reconoce la pérdida de confianza y precisa qué sigue abierto.",
+        "sample": "Jeg hører en bekymring for tilliden til processen. Anbefalingen foreligger, men beslutningen kan stadig påvirkes.",
+        "criteria": [
+          "Reformulé la ironía como una inquietud legítima.",
+          "Precisé la diferencia entre recomendación y decisión."
+        ]
+      },
+      "writing": {
+        "prompt": "Redacta un cierre neutral que explique la salida y la transparencia de la decisión final.",
+        "sample": "Anbefalingen danner udgangspunkt for diskussionen. I beslutningen gør vi rede for, hvordan bemærkningerne har påvirket resultatet.",
+        "criteria": [
+          "Dejé claro qué sigue abierto.",
+          "Expliqué cómo documentar el efecto de las observaciones."
+        ]
+      }
+    },
+    {
+      "id": "fr-check-4",
+      "lang": "fr",
+      "week": 4,
+      "level": "A1",
+      "title": "Pedir indicaciones y un billete",
+      "listening": {
+        "line": {
+          "text": "Pour aller au centre, prenez le bus numéro six. Il part à neuf heures devant la gare.",
+          "audio": "/assets/audio/field/fr-check-4.mp3",
+          "lang": "fr"
+        },
+        "questions": [
+          {
+            "prompt": "¿Qué autobús se toma?",
+            "choices": [
+              "El seis",
+              "El ocho",
+              "El nueve"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿Dónde sale?",
+            "choices": [
+              "En el centro",
+              "Delante de la estación",
+              "En la panadería"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "reading": {
+        "text": "Les billets sont en vente à l’accueil. L’accueil ferme à dix-huit heures.",
+        "questions": [
+          {
+            "prompt": "¿Dónde se compra el billete?",
+            "choices": [
+              "En recepción",
+              "A bordo",
+              "En una máquina"
+            ],
+            "answer": 0
+          },
+          {
+            "prompt": "¿A qué hora cierra?",
+            "choices": [
+              "A las 16",
+              "A las 17",
+              "A las 18"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Pide un billete para el centro y pregunta dónde sale el autobús.",
+        "sample": "Je voudrais un billet pour le centre. D’où part le bus ?",
+        "criteria": [
+          "Pedí el billete para el centro.",
+          "Pregunté desde dónde sale el autobús."
+        ]
+      },
+      "writing": {
+        "prompt": "Escribe cómo llegar al centro en un mensaje de dos frases.",
+        "sample": "Prends le bus numéro six devant la gare. Il part à neuf heures.",
+        "criteria": [
+          "Incluí la línea y el punto de salida.",
+          "Escribí la hora de salida."
+        ]
+      }
+    },
+    {
+      "id": "fr-check-8",
+      "lang": "fr",
+      "week": 8,
+      "level": "A2",
+      "title": "Confirmar una entrevista y un documento",
+      "listening": {
+        "line": {
+          "text": "L’entretien de jeudi est reporté à vendredi à quatorze heures. Apportez plutôt une copie du diplôme. Nous avons déjà votre CV.",
+          "audio": "/assets/audio/field/fr-check-8.mp3",
+          "lang": "fr"
+        },
+        "questions": [
+          {
+            "prompt": "¿Cuándo es la entrevista ahora?",
+            "choices": [
+              "Jueves a las 14",
+              "Viernes a las 14",
+              "Viernes a las 16"
+            ],
+            "answer": 1
+          },
+          {
+            "prompt": "¿Qué debe llevar la persona?",
+            "choices": [
+              "El currículum",
+              "Un justificante de domicilio",
+              "Una copia del diploma"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      "reading": {
+        "text": "Votre entretien se déroule à l’agence de la gare, au premier étage. Merci de confirmer par courriel avant mercredi.",
+        "questions": [
+          {
+            "prompt": "¿En qué piso es la entrevista?",
+            "choices": [
+              "Planta baja",
+              "Primer piso",
+              "Segundo piso"
+            ],
+            "answer": 1
+          },
+          {
+            "prompt": "¿Cómo se confirma?",
+            "choices": [
+              "Por correo electrónico",
+              "En persona",
+              "Por teléfono"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Confirma el viernes a las dos y di que traerás el diploma.",
+        "sample": "Vendredi à quatorze heures, c’est bon pour moi. J’apporterai une copie de mon diplôme.",
+        "criteria": [
+          "Confirmé el día y la hora.",
+          "Dije qué documento llevaré."
+        ]
+      },
+      "writing": {
+        "prompt": "Escribe un correo breve de confirmación y pregunta a quién debes dirigirte al llegar.",
+        "sample": "Bonjour, je confirme l’entretien vendredi à quatorze heures. À qui dois-je m’adresser à mon arrivée ?",
+        "criteria": [
+          "Confirmé la nueva cita.",
+          "Pregunté a quién dirigirme."
+        ]
+      }
+    }
+  ],
+  "workshop": [
+    {
+      "id": "lb-sound-e",
+      "lang": "lb",
+      "title": "La vocal de bëlleg",
+      "tip": "Escucha el primer golpe de voz en bëlleg. Imita esa vocal breve y relajada y prueba después con la primera vocal de Lëtzebuerg.",
+      "say": "Bëlleg. Lëtzebuerg.",
+      "clips": [
+        {
+          "label": "bëlleg · voz femenina",
+          "credit": "Lëtzebuerger Online Dictionnaire",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Lb-b%C3%ABlleg-f.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Lb-B%C3%ABlleg-f.ogg",
+          "audio": "/assets/audio/field/native-lb-belleg-f.mp3"
+        },
+        {
+          "label": "bëlleg · voz masculina",
+          "credit": "Lëtzebuerger Online Dictionnaire",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Lb-b%C3%ABlleg-m.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Lb-b%C3%ABlleg-m.ogg",
+          "audio": "/assets/audio/field/native-lb-belleg-m.mp3"
+        },
+        {
+          "label": "Lëtzebuerg",
+          "credit": "Lëtzebuerger Online Dictionnaire",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Lb-L%C3%ABtzebuerg.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/4/42/Lb-L%C3%ABtzebuerg.ogg",
+          "audio": "/assets/audio/field/native-lb-letzebuerg.mp3"
+        }
+      ]
+    },
+    {
+      "id": "lb-sound-ritmo",
+      "lang": "lb",
+      "title": "Acentos en palabras largas",
+      "tip": "Escucha por separado el comienzo y el final de Lëtzebuergesch. Repite primero en dos grupos y luego en una sola palabra. Evita dar el mismo peso a cada sílaba.",
+      "say": "Lëtzebuerg. Lëtzebuergesch.",
+      "clips": [
+        {
+          "label": "Lëtzebuerg",
+          "credit": "Lëtzebuerger Online Dictionnaire",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Lb-L%C3%ABtzebuerg.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/4/42/Lb-L%C3%ABtzebuerg.ogg",
+          "audio": "/assets/audio/field/native-lb-letzebuerg.mp3"
+        },
+        {
+          "label": "lëtzebuergesch",
+          "credit": "Lëtzebuerger Online Dictionnaire",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Lb-l%C3%ABtzebuergesch.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/9/96/Lb-l%C3%ABtzebuergesch.ogg",
+          "audio": "/assets/audio/field/native-lb-letzebuergesch.mp3"
+        }
+      ]
+    },
+    {
+      "id": "da-sound-o",
+      "lang": "da",
+      "title": "La vocal redondeada ø",
+      "tip": "Escucha la vocal de grøn. Mantén los labios redondeados mientras acercas la lengua a la posición de e. En el segundo audio identifica la vocal de fløde dentro de la frase.",
+      "say": "Grøn. Rødgrød med fløde.",
+      "clips": [
+        {
+          "label": "grøn",
+          "credit": "Kip (Nordjylland)",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Da-gr%C3%B8n.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Da-gr%C3%B8n.ogg",
+          "audio": "/assets/audio/field/native-da-groen.mp3"
+        },
+        {
+          "label": "rødgrød med fløde",
+          "credit": "GeoTrinity",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Da-r%C3%B8dgr%C3%B8d_med_fl%C3%B8de-2.oga",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Da-r%C3%B8dgr%C3%B8d_med_fl%C3%B8de-2.oga",
+          "audio": "/assets/audio/field/native-da-rodgrod.mp3"
+        }
+      ]
+    },
+    {
+      "id": "da-sound-stod",
+      "lang": "da",
+      "title": "Oír el stød",
+      "tip": "El audio dice hun y luego hund. Imita ambas y escucha si aparece una pequeña contracción o cambio de voz en la segunda. Hazla suave y trabaja primero la diferencia al oírla.",
+      "say": "Hun. Hund.",
+      "clips": [
+        {
+          "label": "hun · hund",
+          "credit": "Malene Thyssen",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:DA-st%C3%B8d_ex_Hun_Hund.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/6/66/DA-st%C3%B8d_ex_Hun_Hund.ogg",
+          "audio": "/assets/audio/field/native-da-hun-hund.mp3"
+        }
+      ]
+    },
+    {
+      "id": "da-sound-ae",
+      "lang": "da",
+      "title": "La vocal æ",
+      "tip": "Escucha la vocal acentuada de grævling y el comienzo de ærtesuppe. Prueba a abrir la mandíbula un poco más que para tu e habitual. Repite la palabra entera al final.",
+      "say": "Grævling. Ærtesuppe.",
+      "clips": [
+        {
+          "label": "grævling",
+          "credit": "Kip (Nordjylland)",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Da-gr%C3%A6vling.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/7/78/Da-gr%C3%A6vling.ogg",
+          "audio": "/assets/audio/field/native-da-graevling.mp3"
+        },
+        {
+          "label": "ærtesuppe",
+          "credit": "Kip (Nordjylland)",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Da-%C3%A6rtesuppe.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/5/57/Da-%C3%A6rtesuppe.ogg",
+          "audio": "/assets/audio/field/native-da-aertesuppe.mp3"
+        }
+      ]
+    },
+    {
+      "id": "fr-sound-u-ou",
+      "lang": "fr",
+      "title": "Distinguir u y ou",
+      "tip": "En tu y rue, coloca la lengua como al decir i y redondea los labios. En tout y roue, la lengua se desplaza hacia atrás. Comprueba que el contraste se oye en tu grabación.",
+      "say": "Tu, tout. Rue, roue.",
+      "clips": [
+        {
+          "label": "tu",
+          "credit": "Vion Nicolas · Shtooka",
+          "license": "CC BY 2.0 fr",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Fr-tu.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/1/16/Fr-tu.ogg",
+          "audio": "/assets/audio/field/native-fr-tu.mp3"
+        },
+        {
+          "label": "tout",
+          "credit": "Vion Nicolas · Shtooka",
+          "license": "CC BY 2.0 fr",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Fr-tout.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Fr-tout.ogg",
+          "audio": "/assets/audio/field/native-fr-tout.mp3"
+        },
+        {
+          "label": "rue",
+          "credit": "Vion Nicolas · Shtooka",
+          "license": "CC BY 2.0 fr",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Fr-rue.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fr-rue.ogg",
+          "audio": "/assets/audio/field/native-fr-rue.mp3"
+        },
+        {
+          "label": "roue",
+          "credit": "Vion Nicolas · Shtooka",
+          "license": "CC BY 2.0 fr",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Fr-roue.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/6/63/Fr-roue.ogg",
+          "audio": "/assets/audio/field/native-fr-roue.mp3"
+        }
+      ]
+    },
+    {
+      "id": "fr-sound-nasal",
+      "lang": "fr",
+      "title": "Vocales nasales",
+      "tip": "Escucha el final de bon, vin y pain. Sostén la vocal e intenta evitar una n marcada al final. Oye las diferencias entre dos hablantes en los ejemplos con in y ain.",
+      "say": "Bon. Vin. Pain.",
+      "clips": [
+        {
+          "label": "bon · París",
+          "credit": "Vion Nicolas · Shtooka",
+          "license": "CC BY 2.0 fr",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Fr-bon.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/0/00/Fr-bon.ogg",
+          "audio": "/assets/audio/field/native-fr-bon.mp3"
+        },
+        {
+          "label": "vin · París",
+          "credit": "Vion Nicolas · Shtooka",
+          "license": "CC BY 2.0 fr",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Fr-vin.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Fr-vin.ogg",
+          "audio": "/assets/audio/field/native-fr-vin.mp3"
+        },
+        {
+          "label": "pain · Aviñón",
+          "credit": "Xic667",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Fr-pain_%28Avignon%29.ogg",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/6/68/Fr-pain_%28Avignon%29.ogg",
+          "audio": "/assets/audio/field/native-fr-pain.mp3"
+        }
+      ]
+    }
+  ]
+}

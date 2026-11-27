@@ -1,0 +1,81 @@
+{
+ "week": 162,
+ "da": {
+  "dialogue2": {
+   "context": "En la cocina de la oficina, un compañero elogia el nuevo sistema de reserva de salas, que lleva toda la semana fallando; su colega tiene que decidir cómo trasladar la crítica.",
+   "lines": [
+    {"text": "Det nye bookingsystem er jo en sand fornøjelse.", "es": "El nuevo sistema de reservas es, ya se sabe, un auténtico placer."},
+    {"text": "Mener du det? Jeg troede, det var gået ned tre gange i denne uge.", "es": "¿Lo dices en serio? Creía que se había caído tres veces esta semana."},
+    {"text": "Fire. Men hvem tæller.", "es": "Cuatro. Pero quién lleva la cuenta."},
+    {"text": "Nå, så du er ikke ligefrem begejstret.", "es": "Vaya, así que no estás precisamente entusiasmado."},
+    {"text": "Jeg er begejstret for, at vi nu bruger dobbelt så lang tid på at finde et mødelokale.", "es": "Estoy entusiasmado de que ahora tardemos el doble en encontrar una sala."},
+    {"text": "Skal jeg skrive det i evalueringen — med eller uden ironi?", "es": "¿Lo pongo en la evaluación, con o sin ironía?"},
+    {"text": "Uden. Ironi læser de vel ikke i IT-afdelingen.", "es": "Sin. En informática no leerán ironías, digo yo."},
+    {"text": "Så skriver jeg det ligeud: systemet koster os tid.", "es": "Entonces lo escribo sin rodeos: el sistema nos cuesta tiempo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué implica el comentario final sobre el departamento de informática?",
+   "choices": ["Que la ironía no servirá para que lo arreglen: hace falta una crítica directa", "Que en informática no saben leer bien", "Que el departamento de informática es incompetente en todo"]
+  },
+  "grammar": {
+   "focus": "Partículas modales jo, vel y dog en el comentario irónico",
+   "explain": "«Jo» presenta algo como sabido u obvio (a menudo con ironía): Det er jo fantastisk. «Vel» expresa suposición (supongo que): Det er vel ikke meningen? «Dog» intensifica la exclamación: Hvor er det dog dumt!",
+   "items": [
+    {"prompt": "Det var ___ en elegant løsning — tre nedbrud på en uge. (lo presenta como obvio, con ironía)", "answer": "jo", "es": "Vaya solución elegante, como todo el mundo ve: tres caídas en una semana."},
+    {"prompt": "Det er ___ ikke meningen, at vi skal stå i kø til et mødelokale? (supongo que)", "answer": "vel", "es": "Supongo que la idea no es que hagamos cola para una sala de reuniones, ¿no?"},
+    {"prompt": "Hvor er det ___ irriterende, at ingen tester noget! (intensifica la exclamación)", "answer": "dog", "es": "¡Pero qué irritante es que nadie pruebe nada!"}
+   ]
+  },
+  "vocab": [
+   {"text": "ikke ligefrem", "es": "no precisamente (litote)", "example": "Han er ikke ligefrem begejstret for systemet.", "example_es": "No está precisamente entusiasmado con el sistema."},
+   {"text": "en sand fornøjelse", "es": "un auténtico placer (a menudo irónico)", "example": "Det nye system er en sand fornøjelse — når det virker.", "example_es": "El nuevo sistema es un auténtico placer… cuando funciona."},
+   {"text": "med et glimt i øjet", "es": "en broma, con un guiño", "example": "Hun sagde det med et glimt i øjet, men hun mente det.", "example_es": "Lo dijo con un guiño, pero lo decía en serio."},
+   {"text": "ligeud", "es": "sin rodeos", "example": "Skriv det ligeud i evalueringen.", "example_es": "Escríbelo sin rodeos en la evaluación."}
+  ],
+  "transfer": {
+   "prompt": "Un compañero ha publicado en el canal interno un comentario irónico sobre un nuevo procedimiento. Escribe a la responsable (6–8 frases) explicando qué crítica real esconde la ironía, sin delatar ni ridiculizar al compañero, y propón una mejora.",
+   "model": "Kære Mette, du har måske set Jonas' kommentar i kanalen om, at den nye rejseafregning er „en sand fornøjelse“. Den er selvfølgelig ment ironisk, men bag spøgen ligger en reel og ret udbredt frustration. Flere af os bruger nu omkring tyve minutter på en afregning, der før tog fem. Det skyldes især, at hver kvittering skal uploades enkeltvis, og at systemet logger én ud undervejs. Jeg skriver ikke for at klage over Jonas' tone, men fordi ironi let bliver afvist som brok, selv om den peger på noget vigtigt. Et konkret forslag kunne være at tillade upload af flere kvitteringer ad gangen. Jeg hjælper gerne med at teste en forbedret version.",
+   "rubric": "Reconstruye el sentido intencionado de la ironía sin reproducirla con burla; aporta datos concretos que sostienen la crítica; protege la imagen del compañero; tono colegial y constructivo; cierra con una propuesta y una oferta de ayuda."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En la cocina de la oficina, un compañero elogia el nuevo sistema de reserva de salas, que lleva toda la semana fallando; su colega tiene que decidir cómo trasladar la crítica.",
+   "lines": [
+    {"text": "Den neie Reservéierungssystem ass jo eng richteg Freed.", "es": "El nuevo sistema de reservas es, ya se sabe, una verdadera alegría."},
+    {"text": "Mengs du dat eescht? Ech hu geduecht, hie wier dës Woch dräimol ausgefall.", "es": "¿Lo dices en serio? Creía que se había caído tres veces esta semana."},
+    {"text": "Véiermol. Mä wien zielt schonn.", "es": "Cuatro. Pero quién lleva la cuenta."},
+    {"text": "Aha, du bass also net grad begeeschtert.", "es": "Ajá, así que no estás precisamente entusiasmado."},
+    {"text": "Ech si begeeschtert, datt mir elo duebel esou laang no engem Sall sichen.", "es": "Estoy entusiasmado de que ahora tardemos el doble en buscar una sala."},
+    {"text": "Soll ech dat an d'Evaluatioun schreiwen — mat oder ouni Ironie?", "es": "¿Lo pongo en la evaluación, con o sin ironía?"},
+    {"text": "Ouni. Ironie versteet an der IT iwwerhaapt keen.", "es": "Sin. En informática nadie entiende la ironía, para empezar."},
+    {"text": "Da schreiwen ech et riichteraus: de System kascht eis Zäit.", "es": "Entonces lo escribo sin rodeos: el sistema nos cuesta tiempo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué implica el comentario final sobre el departamento de informática?",
+   "choices": ["Que la ironía no servirá para que lo arreglen: hace falta una crítica directa", "Que en informática no saben leer bien", "Que el departamento de informática es incompetente en todo"]
+  },
+  "grammar": {
+   "focus": "Partículas modales jo, dach y mol",
+   "explain": "«Jo» presenta algo como sabido u obvio (a menudo con ironía): Dat ass jo super. «Dach» reprocha o contradice (¡pero si…!): Dat hätt een dach gesinn. «Mol» suaviza una petición: Kuck mol hei.",
+   "items": [
+    {"prompt": "Dat ass ___ eng elegant Léisung — véier Pannen an enger Woch. (lo presenta como obvio, con ironía)", "answer": "jo", "es": "Vaya solución elegante, como todo el mundo ve: cuatro fallos en una semana."},
+    {"prompt": "Si hätten de System ___ kënnen testen, ier se e lancéiert hunn! (reproche: ¡pero si podían!)", "answer": "dach", "es": "¡Pero si podían haber probado el sistema antes de lanzarlo!"},
+    {"prompt": "Kuck dir ___ dës Feelermeldung un. (suaviza la petición)", "answer": "mol", "es": "Échale un vistazo a este mensaje de error."}
+   ]
+  },
+  "vocab": [
+   {"text": "net grad", "es": "no precisamente (litote)", "example": "Hien ass net grad begeeschtert vum System.", "example_es": "No está precisamente entusiasmado con el sistema."},
+   {"text": "eng richteg Freed", "es": "una verdadera alegría (a menudo irónico)", "example": "De System ass eng richteg Freed, wann en emol funktionéiert.", "example_es": "El sistema es una verdadera alegría, cuando por fin funciona."},
+   {"text": "riichteraus", "es": "sin rodeos", "example": "Schreif et riichteraus an d'Evaluatioun.", "example_es": "Escríbelo sin rodeos en la evaluación."},
+   {"text": "en Hannergedanken", "es": "una segunda intención", "example": "Hie sot et frëndlech, mä hien hat dobäi en Hannergedanken.", "example_es": "Lo dijo con amabilidad, pero tenía una segunda intención."}
+  ],
+  "transfer": {
+   "prompt": "Un compañero ha publicado en el canal interno un comentario irónico sobre un nuevo procedimiento. Escribe a la responsable (6–8 frases) explicando qué crítica real esconde la ironía, sin delatar ni ridiculizar al compañero, y propón una mejora.",
+   "model": "Léif Martine, du hues vläicht dem Jang säi Kommentar am Kanal gesinn, datt déi nei Reeskäschteofrechnung „eng richteg Freed“ wier. En ass natierlech ironesch gemengt, mä hannert dem Gag stécht eng reell a relativ verbreet Frustratioun. Vill vun eis brauchen elo ongeféier zwanzeg Minutte fir eng Ofrechnung, fir déi mir virdrun fënnef Minutte gebraucht hunn. Dat läit virun allem dorun, datt all Quittung eenzeln eropgeluede muss ginn an de System ee mëttendran ofmellt. Ech schreiwen der net, fir mech iwwer dem Jang säin Toun ze beschwéieren, mä well Ironie séier net eescht geholl gëtt, och wann se op eppes Wichteges weist. E konkrete Virschlag wier, datt een e puer Quittungen op eemol eroplueden däerf. Ech hëllefen der gär, eng verbessert Versioun ze testen.",
+   "rubric": "Reconstruye el sentido intencionado de la ironía sin reproducirla con burla; aporta datos concretos que sostienen la crítica; protege la imagen del compañero; tono colegial y constructivo; cierra con una propuesta y una oferta de ayuda."
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "week": 145,
+ "da": {
+  "dialogue2": {
+   "context": "Un amigo pide a una arquitecta su opinión sobre una casa antigua que quiere comprar; ella opina con claridad, pero marca los límites de lo que puede saber tras una visita.",
+   "lines": [
+    {"text": "Du har set huset nu; skal jeg slå til eller ej?", "es": "Ya has visto la casa; ¿me lanzo o no?"},
+    {"text": "Umiddelbart virker konstruktionen sund, men jeg har kun set den udefra og i en time.", "es": "A primera vista la estructura parece sana, pero solo la he visto desde fuera y durante una hora."},
+    {"text": "Men hvis du skulle sige ja eller nej lige nu?", "es": "¿Pero si tuvieras que decir sí o no ahora mismo?"},
+    {"text": "Så ville jeg sige et forsigtigt ja, med det forbehold at taget holder.", "es": "Entonces diría un sí prudente, con la reserva de que el tejado aguante."},
+    {"text": "Hvad er det ved taget, der bekymrer dig?", "es": "¿Qué es lo que te preocupa del tejado?"},
+    {"text": "Så vidt jeg kan se, er der fugt ved skorstenen, men om det er et problem, kan kun en fagmand vurdere.", "es": "Por lo que veo, hay humedad junto a la chimenea, pero si es un problema solo puede valorarlo un especialista."},
+    {"text": "Så du ville ikke skrive under, før en fagmand har kigget på det?", "es": "¿O sea que tú no firmarías antes de que lo mire un especialista?"},
+    {"text": "Nej, det er mit førstehåndsindtryk; det endelige svar skal komme fra en uvildig byggesagkyndig.", "es": "No, esa es mi primera impresión; la respuesta definitiva tiene que venir de un perito independiente."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué separa claramente la arquitecta en su respuesta?",
+   "choices": ["Su impresión tras una visita breve de lo que solo puede confirmar un especialista", "Lo que le gusta a ella de la casa de lo que le gusta a su amigo", "El precio de compra del coste de una posible reforma"]
+  },
+  "grammar": {
+   "focus": "Atenuación de la opinión: umiddelbart, så vidt jeg kan se, efter alt at dømme",
+   "explain": "Para opinar marcando los límites del propio conocimiento: «umiddelbart» (a primera vista), «så vidt jeg kan se/ved» (por lo que veo/sé), «efter alt at dømme» (a juzgar por lo visto). Si encabezan la frase, el verbo conjugado va justo después.",
+   "items": [
+    {"prompt": "___ virker konstruktionen sund, men jeg har kun set den udefra. (a primera vista)", "answer": "Umiddelbart", "es": "A primera vista la estructura parece sana, pero solo la he visto desde fuera."},
+    {"prompt": "Så ___ jeg kan se, er der fugt ved skorstenen. (por lo que veo)", "answer": "vidt", "es": "Por lo que veo, hay humedad junto a la chimenea."},
+    {"prompt": "Efter alt at ___ er huset i god stand. (a juzgar por lo visto)", "answer": "dømme", "es": "A juzgar por lo visto, la casa está en buen estado."}
+   ]
+  },
+  "vocab": [
+   {"text": "slå til", "es": "lanzarse, aprovechar la ocasión", "example": "Hvis prisen er rigtig, bør du slå til.", "example_es": "Si el precio es bueno, deberías lanzarte."},
+   {"text": "et førstehåndsindtryk", "es": "una primera impresión", "example": "Det er kun et førstehåndsindtryk efter en kort fremvisning.", "example_es": "Es solo una primera impresión tras una visita breve."},
+   {"text": "uvildig", "es": "independiente, imparcial", "example": "Få en uvildig byggesagkyndig til at gennemgå huset.", "example_es": "Haz que un perito independiente revise la casa."},
+   {"text": "fugt", "es": "humedad", "example": "Der er tegn på fugt ved skorstenen.", "example_es": "Hay indicios de humedad junto a la chimenea."}
+  ],
+  "transfer": {
+   "prompt": "Tu amigo te pide la opinión por escrito. Escribe un mensaje de 5–6 frases: da una opinión clara, separa lo que viste de lo que supones, señala lo que no puedes evaluar y recomienda el siguiente paso.",
+   "model": "Tak, fordi jeg måtte se huset med; her er mit ærlige indtryk. Umiddelbart virker de bærende vægge og fundamentet sunde, og planløsningen har et stort potentiale. Så vidt jeg kunne se, er der dog fugt ved skorstenen, og tagstenene ser ud til at være over 40 år gamle. Om det kræver et nyt tag, kan jeg ikke vurdere ud fra en enkelt fremvisning. Mit svar er derfor et forsigtigt ja, men jeg ville ikke skrive under, før en uvildig byggesagkyndig har gennemgået taget. Sig til, hvis jeg skal hjælpe dig med at finde en.",
+   "rubric": "Da una opinión clara desde el principio; separa observación de suposición con atenuadores (umiddelbart, så vidt jeg kunne se, ser ud til); nombra explícitamente lo que no puede evaluar; condiciona la decisión a un paso concreto."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un amigo pide a una arquitecta su opinión sobre una casa antigua que quiere comprar; ella opina con claridad, pero marca los límites de lo que puede saber tras una visita.",
+   "lines": [
+    {"text": "Du hues d'Haus elo gesinn; soll ech zouschloen oder net?", "es": "Ya has visto la casa; ¿me lanzo o no?"},
+    {"text": "Op den éischte Bléck wierkt d'Konstruktioun gesond, mä ech hunn se just vu bausse gesinn, an dat eng Stonn laang.", "es": "A primera vista la estructura parece sana, pero solo la he visto desde fuera, y durante una hora."},
+    {"text": "Mä wann s du elo Jo oder Nee misst soen?", "es": "¿Pero si tuvieras que decir sí o no ahora mismo?"},
+    {"text": "Da géif ech e virsiichtegt Jo soen, ënner dem Virbehalt, datt den Daach hält.", "es": "Entonces diría un sí prudente, con la reserva de que el tejado aguante."},
+    {"text": "Wat beonrouegt dech dann um Daach?", "es": "¿Y qué es lo que te preocupa del tejado?"},
+    {"text": "Soweit ech gesinn hunn, ass et beim Kamäin fiicht, mä ob dat e Problem ass, kann nëmmen e Fachmann beuerteelen.", "es": "Por lo que he visto, hay humedad junto a la chimenea, pero si es un problema solo puede valorarlo un especialista."},
+    {"text": "Du géifs also net ënnerschreiwen, ier e Fachmann sech dat ugekuckt huet?", "es": "¿O sea que tú no firmarías antes de que lo mire un especialista?"},
+    {"text": "Neen, dat ass mäin éischten Androck; déi definitiv Äntwert muss vun engem onofhängegen Expert kommen.", "es": "No, esa es mi primera impresión; la respuesta definitiva tiene que venir de un perito independiente."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué separa claramente la arquitecta en su respuesta?",
+   "choices": ["Su impresión tras una visita breve de lo que solo puede confirmar un especialista", "Lo que le gusta a ella de la casa de lo que le gusta a su amigo", "El precio de compra del coste de una posible reforma"]
+  },
+  "grammar": {
+   "focus": "Atenuación de la opinión: op den éischte Bléck, soweit ech gesinn, wéi et schéngt",
+   "explain": "Para opinar marcando límites: «op den éischte Bléck» (a primera vista), «soweit ech gesinn / weess» (por lo que veo/sé), «wéi et schéngt» (al parecer). Si encabezan la frase, el verbo conjugado va justo después.",
+   "items": [
+    {"prompt": "Op den éischte ___ wierkt d'Konstruktioun gesond. (a primera vista)", "answer": "Bléck", "es": "A primera vista la estructura parece sana."},
+    {"prompt": "___ ech gesinn, ass et beim Kamäin fiicht. (por lo que veo)", "answer": "Soweit", "es": "Por lo que veo, hay humedad junto a la chimenea."},
+    {"prompt": "Wéi et ___, ass d'Haus a gudder Verfassung. (al parecer: schéngen)", "answer": "schéngt", "es": "Al parecer, la casa está en buen estado."}
+   ]
+  },
+  "vocab": [
+   {"text": "zouschloen", "es": "lanzarse, cerrar el trato", "example": "Wann de Präis stëmmt, solls du zouschloen.", "example_es": "Si el precio es bueno, deberías lanzarte."},
+   {"text": "éischten Androck", "es": "primera impresión", "example": "Dat ass just mäin éischten Androck no enger kuerzer Visite.", "example_es": "Es solo mi primera impresión tras una visita breve."},
+   {"text": "onofhängeg", "es": "independiente", "example": "Looss d'Haus vun engem onofhängegen Expert kontrolléieren.", "example_es": "Haz que un perito independiente revise la casa."},
+   {"text": "fiicht", "es": "húmedo", "example": "D'Mauer beim Kamäin ass fiicht.", "example_es": "La pared junto a la chimenea está húmeda."}
+  ],
+  "transfer": {
+   "prompt": "Tu amigo te pide la opinión por escrito. Escribe un mensaje de 5–6 frases: da una opinión clara, separa lo que viste de lo que supones, señala lo que no puedes evaluar y recomienda el siguiente paso.",
+   "model": "Merci, datt ech d'Haus mat dir kucke konnt; hei ass mäin éierlechen Androck. Op den éischte Bléck wierken déi droend Maueren an d'Fundament gesond, an de Grondrëss huet vill Potenzial. Soweit ech gesinn hunn, ass et awer beim Kamäin fiicht, an d'Zillen um Daach schéngen iwwer 40 Joer al ze sinn. Ob dat en neien Daach erfuerdert, kann ech no enger eenzeger Visite net beuerteelen. Meng Äntwert ass dofir e virsiichtegt Jo, mä ech géif net ënnerschreiwen, ier en onofhängegen Expert den Daach ënnersicht huet. Gëff mer Bescheed, wann ech der hëllefe soll, een ze fannen.",
+   "rubric": "Da una opinión clara desde el principio; separa observación de suposición con atenuadores (op den éischte Bléck, soweit ech gesinn hunn, schéngen); nombra explícitamente lo que no puede evaluar; condiciona la decisión a un paso concreto."
+  }
+ }
+}

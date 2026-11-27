@@ -1,0 +1,77 @@
+{
+ "week": 74,
+ "da": {
+  "dialogue2": {
+   "context": "Un diseñador autónomo llama a una clienta: no podrá entregar el logo el miércoles como había prometido.",
+   "lines": [
+    {"text": "Hej Camilla, jeg ringer om logoet til onsdag.", "es": "Hola, Camilla, te llamo por el logo del miércoles."},
+    {"text": "Ja? Er der et problem?", "es": "¿Sí? ¿Hay algún problema?"},
+    {"text": "Jeg har været syg et par dage. Kan jeg få to dage mere?", "es": "He estado enfermo un par de días. ¿Me das dos días más?"},
+    {"text": "Hvis vi venter til fredag, når trykkeriet det ikke.", "es": "Si esperamos al viernes, la imprenta no llega a tiempo."},
+    {"text": "Hvad hvis jeg sender en første version onsdag og den endelige fredag?", "es": "¿Y si te mando una primera versión el miércoles y la definitiva el viernes?"},
+    {"text": "Det kan vi godt gøre. Så kan trykkeriet begynde.", "es": "Eso sí lo podemos hacer. Así la imprenta puede empezar."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué acuerdo alcanzan al final?",
+   "choices": ["Entregar una versión provisional el miércoles y la definitiva el viernes", "Retrasar todo el proyecto hasta el viernes", "Cambiar de imprenta para ganar tiempo"]
+  },
+  "grammar": {
+   "focus": "Condicional real con «hvis»",
+   "explain": "«Hvis» introduce una condición; en la subordinada «ikke» va delante del verbo. Si la subordinada va primero, la principal empieza por el verbo: Hvis jeg ikke når det, ringer jeg til dig.",
+   "items": [
+    {"prompt": "Hvis du sender filen i dag, ___ den i morgen. (jeg / printe)", "answer": "printer jeg", "es": "Si mandas el archivo hoy, lo imprimo mañana."},
+    {"prompt": "Jeg ringer til dig, hvis jeg ___ det til fredag. (ikke / nå)", "answer": "ikke når", "es": "Te llamo si no llego a tiempo para el viernes."},
+    {"prompt": "___ du har brug for mere tid, så sig det i god tid.", "answer": "Hvis", "es": "Si necesitas más tiempo, dilo con antelación."}
+   ]
+  },
+  "vocab": [
+   {"text": "den endelige", "es": "la definitiva", "example": "Den endelige version kommer fredag.", "example_es": "La versión definitiva llega el viernes."},
+   {"text": "en første version", "es": "una primera versión", "example": "Jeg sender en første version onsdag.", "example_es": "Mando una primera versión el miércoles."},
+   {"text": "trykkeriet", "es": "la imprenta", "example": "Trykkeriet skal have filen senest onsdag.", "example_es": "La imprenta necesita el archivo el miércoles como tarde."},
+   {"text": "når det", "es": "llegar a tiempo", "example": "Jeg når det ikke til onsdag.", "example_es": "No llego a tiempo para el miércoles."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo a tu profesora del curso: no podrás entregar el trabajo final el lunes. Explica por qué, propone una nueva fecha concreta y ofrece una entrega parcial (3–4 frases).",
+   "model": "Kære Birgitte. Jeg er desværre bagud med min opgave, fordi jeg har haft ekstra vagter på arbejdet. Hvis det er i orden, sender jeg den færdige opgave onsdag. Jeg kan sende indledningen og dispositionen allerede på mandag. På forhånd tak for forståelsen.",
+   "rubric": "Da un motivo, usa «hvis» con el orden de palabras correcto y propone una fecha concreta y una entrega parcial."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un diseñador autónomo llama a una clienta: no podrá entregar el logo el miércoles como había prometido.",
+   "lines": [
+    {"text": "Moien Camilla, ech ruffen un wéinst dem Logo fir e Mëttwoch.", "es": "Hola, Camilla, te llamo por el logo del miércoles."},
+    {"text": "Jo? Gëtt et e Problem?", "es": "¿Sí? ¿Hay algún problema?"},
+    {"text": "Ech war e puer Deeg krank. Kann ech zwee Deeg méi kréien?", "es": "He estado enfermo unos días. ¿Me das dos días más?"},
+    {"text": "Wa mir bis e Freideg waarden, packt d'Dréckerei et net méi.", "es": "Si esperamos al viernes, la imprenta ya no llega a tiempo."},
+    {"text": "A wann ech e Mëttwoch eng éischt Versioun schécken an déi definitiv e Freideg?", "es": "¿Y si te mando una primera versión el miércoles y la definitiva el viernes?"},
+    {"text": "Dat kréie mir hin. Da kann d'Dréckerei ufänken.", "es": "Eso sí lo podemos hacer. Así la imprenta puede empezar."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué acuerdo alcanzan al final?",
+   "choices": ["Entregar una versión provisional el miércoles y la definitiva el viernes", "Retrasar todo el proyecto hasta el viernes", "Cambiar de imprenta para ganar tiempo"]
+  },
+  "grammar": {
+   "focus": "Condicional real con «wann»: verbo al final",
+   "explain": "«Wann» introduce una condición con el verbo al final. Si la subordinada va primero, la principal empieza por el verbo: Wann ech et net packen, ruffen ech dech un.",
+   "items": [
+    {"prompt": "Wann Dir d'Datei haut schéckt, ___ se muer. (ech / drécken)", "answer": "drécken ech", "es": "Si me manda el archivo hoy, lo imprimo mañana."},
+    {"prompt": "Si rifft Iech un, wann si et bis e Freideg net ___. (packen)", "answer": "packt", "es": "Le llama si no llega a tiempo para el viernes."},
+    {"prompt": "___ Dir méi Zäit braucht, sot mir et w.e.g. fréi genuch.", "answer": "Wann", "es": "Si necesita más tiempo, dígamelo con antelación, por favor."}
+   ]
+  },
+  "vocab": [
+   {"text": "déi definitiv Versioun", "es": "la versión definitiva", "example": "Déi definitiv Versioun kënnt e Freideg.", "example_es": "La versión definitiva llega el viernes."},
+   {"text": "eng éischt Versioun", "es": "una primera versión", "example": "Ech schécken e Mëttwoch eng éischt Versioun.", "example_es": "Mando una primera versión el miércoles."},
+   {"text": "d'Dréckerei", "es": "la imprenta", "example": "D'Dréckerei brauch d'Datei spéitstens e Mëttwoch.", "example_es": "La imprenta necesita el archivo el miércoles como tarde."},
+   {"text": "Dat kréie mir hin", "es": "Eso lo conseguimos", "example": "Keng Suerg, dat kréie mir hin.", "example_es": "No te preocupes, eso lo conseguimos."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo a tu profesora del curso: no podrás entregar el trabajo final el lunes. Explica por qué, propone una nueva fecha concreta y ofrece una entrega parcial (3–4 frases).",
+   "model": "Léif Madame Hoffmann, ech si leider mat menger Aarbecht hannendrun, well ech extra Schichten op der Schaff hat. Wann et Iech passt, schécken ech Iech déi fäerdeg Aarbecht e Mëttwoch. D'Aleedung an de Plang kann ech Iech schonn e Méindeg schécken. Merci am Viraus fir Äert Versteesdemech.",
+   "rubric": "Da un motivo con «well», usa «wann» con el verbo al final y propone una fecha concreta y una entrega parcial."
+  }
+ }
+}

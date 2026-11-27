@@ -1,0 +1,77 @@
+{
+ "week": 80,
+ "da": {
+  "dialogue2": {
+   "context": "Por la noche, una inquilina se ha quedado fuera de casa y llama al conserje de la finca.",
+   "lines": [
+    {"text": "Hej, undskyld at jeg ringer så sent. Jeg har låst mig ude.", "es": "Hola, perdone que llame tan tarde. Me he quedado fuera de casa."},
+    {"text": "Åh nej. Hvordan skete det?", "es": "Vaya. ¿Cómo ha pasado?"},
+    {"text": "Jeg gik ned med skraldet, og døren smækkede bag mig.", "es": "Bajé la basura y la puerta se cerró de golpe detrás de mí."},
+    {"text": "Jeg har en reservenøgle, men jeg er inde i byen lige nu.", "es": "Tengo una llave de repuesto, pero ahora mismo estoy en el centro."},
+    {"text": "Kan du komme inden for en time? Ellers ringer jeg til en låsesmed.", "es": "¿Puede venir en menos de una hora? Si no, llamo a un cerrajero."},
+    {"text": "Jeg tager en taxa nu og er der om tyve minutter.", "es": "Cojo un taxi ahora y estoy ahí en veinte minutos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué no hace falta llamar al cerrajero?",
+   "choices": ["Porque el conserje tiene una llave de repuesto y llegará pronto", "Porque la inquilina encontró sus llaves en la basura", "Porque un vecino le abrió la puerta"]
+  },
+  "grammar": {
+   "focus": "Datid y førnutid en la misma historia",
+   "explain": "La førnutid (har låst) presenta el resultado que importa ahora; la datid (gik, smækkede) cuenta los pasos de la historia en orden: Jeg har låst mig ude. Jeg gik ned med skraldet, og døren smækkede.",
+   "items": [
+    {"prompt": "I går aftes ___ jeg mine nøgler på arbejdet. (glemme)", "answer": "glemte", "es": "Anoche me dejé las llaves en el trabajo."},
+    {"prompt": "Nu ___ jeg ventet i en halv time. (have)", "answer": "har", "es": "Ya llevo media hora esperando."},
+    {"prompt": "Låsesmeden ___ døren på fem minutter. (åbne, datid)", "answer": "åbnede", "es": "El cerrajero abrió la puerta en cinco minutos."}
+   ]
+  },
+  "vocab": [
+   {"text": "låst mig ude", "es": "quedarme fuera (sin llaves)", "example": "Jeg har låst mig ude af lejligheden.", "example_es": "Me he quedado fuera del piso."},
+   {"text": "en reservenøgle", "es": "una llave de repuesto", "example": "Viceværten har en reservenøgle.", "example_es": "El conserje tiene una llave de repuesto."},
+   {"text": "en låsesmed", "es": "un cerrajero", "example": "Om natten er en låsesmed meget dyr.", "example_es": "Por la noche un cerrajero es muy caro."},
+   {"text": "smækkede", "es": "se cerró de golpe", "example": "Døren smækkede bag mig.", "example_es": "La puerta se cerró de golpe detrás de mí."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un mensaje a tu casero: ayer apareció una gotera en el baño. Cuenta qué pasó, qué has hecho ya y pide que venga alguien en un día y hora concretos (4–5 frases).",
+   "model": "Hej Ole. I går aftes begyndte det at dryppe fra loftet på badeværelset. Jeg satte en spand under og slukkede for vandet. Nu har jeg taget billeder, som jeg sender med. Kan der komme en håndværker på torsdag efter klokken fire? Venlig hilsen, Marta.",
+   "rubric": "Combina la datid (lo que pasó) con la førnutid (lo que ya has hecho) y termina con una petición con día y hora."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Por la noche, una inquilina se ha quedado fuera de casa y llama al conserje de la finca.",
+   "lines": [
+    {"text": "Moien, entschëllegt, datt ech esou spéit uruffen. Ech hu mech ausgespaart.", "es": "Hola, perdone que llame tan tarde. Me he quedado fuera de casa."},
+    {"text": "Oh nee. Wéi ass dat geschitt?", "es": "Vaya. ¿Cómo ha pasado?"},
+    {"text": "Ech hunn d'Poubelle erofbruecht, an d'Dier ass hannert mir zougefall.", "es": "Bajé la basura y la puerta se cerró de golpe detrás de mí."},
+    {"text": "Ech hunn e Reserveschlëssel, mee ech sinn elo an der Stad.", "es": "Tengo una llave de repuesto, pero ahora mismo estoy en el centro."},
+    {"text": "Kënnt Dir bannent enger Stonn kommen? Soss ruffen ech e Schlässer un.", "es": "¿Puede venir en menos de una hora? Si no, llamo a un cerrajero."},
+    {"text": "Ech huelen elo en Taxi a sinn an zwanzeg Minutten do.", "es": "Cojo un taxi ahora y estoy ahí en veinte minutos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué no hace falta llamar al cerrajero?",
+   "choices": ["Porque el conserje tiene una llave de repuesto y llegará pronto", "Porque la inquilina encontró sus llaves en la basura", "Porque un vecino le abrió la puerta"]
+  },
+  "grammar": {
+   "focus": "Perfekt con «sinn» o «hunn»",
+   "explain": "Se usa «sinn» con verbos de movimiento o cambio de estado (d'Dier ass zougefall, hien ass ukomm) y «hunn» con el resto, también con los reflexivos (ech hu mech ausgespaart).",
+   "items": [
+    {"prompt": "___ du deng Schlësselen op der Aarbecht vergiess? (hunn)", "answer": "Hues", "es": "¿Te has dejado las llaves en el trabajo?"},
+    {"prompt": "De Schlässer ___ no zéng Minutten ukomm. (sinn)", "answer": "ass", "es": "El cerrajero llegó a los diez minutos."},
+    {"prompt": "Mir ___ eis gëschter ausgespaart. (hunn)", "answer": "hunn", "es": "Ayer nos quedamos fuera de casa."}
+   ]
+  },
+  "vocab": [
+   {"text": "mech ausgespaart", "es": "me he quedado fuera (sin llaves)", "example": "Ech hu mech ausgespaart.", "example_es": "Me he quedado fuera de casa."},
+   {"text": "e Reserveschlëssel", "es": "una llave de repuesto", "example": "De Concierge huet e Reserveschlëssel.", "example_es": "El conserje tiene una llave de repuesto."},
+   {"text": "e Schlässer", "es": "un cerrajero", "example": "Nuets ass e Schlässer ganz deier.", "example_es": "Por la noche un cerrajero es muy caro."},
+   {"text": "zougefall", "es": "se ha cerrado de golpe", "example": "D'Dier ass hannert mir zougefall.", "example_es": "La puerta se cerró de golpe detrás de mí."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un mensaje a tu casero: ayer apareció una gotera en el baño. Cuenta qué pasó, qué has hecho ya y pide que venga alguien en un día y hora concretos (4–5 frases).",
+   "model": "Moien Ole, gëschter Owend huet et am Buedzëmmer vum Plafong gedrëpst. Ech hunn en Eemer drënner gestallt an d'Waasser zougedréint. Elo hunn ech Fotoe gemaach, déi ech Iech matschécken. Kéint en Handwierker en Donneschdeg no véier Auer laanschtkommen? Vill Gréiss, Marta.",
+   "rubric": "Combina el Perfekt con «sinn» y con «hunn» y termina con una petición con día y hora."
+  }
+ }
+}

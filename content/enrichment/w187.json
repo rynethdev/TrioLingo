@@ -1,0 +1,81 @@
+{
+ "week": 187,
+ "da": {
+  "dialogue2": {
+   "context": "Un cliente español pide a su traductora que traslade literalmente «es pan comido» en un folleto publicitario; ella le explica por qué la traducción literal sería un falso amigo.",
+   "lines": [
+    {"text": "Kan du ikke bare oversætte „pan comido“ ord for ord? „Spist brød“?", "es": "¿No puedes traducir «pan comido» palabra por palabra? ¿«Spist brød»?"},
+    {"text": "Det findes faktisk på dansk — men det betyder, at noget er overstået, ikke at det er nemt.", "es": "De hecho existe en danés, pero significa que algo ya ha pasado, no que sea fácil."},
+    {"text": "Så læseren tror, at produktet er forældet?", "es": "¿Así que el lector creería que el producto está anticuado?"},
+    {"text": "Netop. Vi har brug for „en smal sag“ eller „en leg“.", "es": "Exacto. Necesitamos «una cosa sencilla» o «un juego de niños»."},
+    {"text": "„En leg“ lyder mere som os.", "es": "«Un juego de niños» suena más a nosotros."},
+    {"text": "Enig. Den er let og lidt legende — ligesom originalen.", "es": "De acuerdo. Es ligera y algo juguetona, como el original."},
+    {"text": "Så du oversætter tonen, ikke brødet.", "es": "O sea que traduces el tono, no el pan."},
+    {"text": "Præcis. Og nu er brødet spist.", "es": "Exacto. Y ahora, asunto zanjado."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué juego hace la traductora al cerrar con «Og nu er brødet spist»?",
+   "choices": ["Usa la expresión danesa en su sentido real, «asunto zanjado», para dar por cerrada la discusión", "Admite que la traducción literal era correcta", "Dice que el cliente ha perdido la oportunidad"]
+  },
+  "grammar": {
+   "focus": "Fraseología: modismos daneses de forma fija",
+   "explain": "Los modismos no se traducen palabra por palabra: hay que conocer su forma fija. Det er en smal sag (es pan comido), slå to fluer med ét smæk (matar dos pájaros de un tiro), der er ingen ko på isen (no hay de qué preocuparse).",
+   "items": [
+    {"prompt": "Med den løsning slår vi to fluer med ét ___. (matar dos pájaros de un tiro)", "answer": "smæk", "es": "Con esa solución matamos dos pájaros de un tiro."},
+    {"prompt": "Rolig nu, der er ingen ___ på isen. (no hay de qué preocuparse)", "answer": "ko", "es": "Tranquilo, no hay de qué preocuparse."},
+    {"prompt": "At samle møblet er en smal ___. (es pan comido)", "answer": "sag", "es": "Montar el mueble es pan comido."}
+   ]
+  },
+  "vocab": [
+   {"text": "spist brød", "es": "asunto zanjado, cosa del pasado", "example": "Den konflikt er spist brød nu.", "example_es": "Ese conflicto ya es agua pasada."},
+   {"text": "en leg", "es": "un juego de niños", "example": "Med vores app er planlægning en leg.", "example_es": "Con nuestra app, planificar es un juego de niños."},
+   {"text": "en falsk ven", "es": "un falso amigo", "example": "„Spist brød“ er en falsk ven for spanske oversættere.", "example_es": "«Spist brød» es un falso amigo para los traductores españoles."},
+   {"text": "tabt i oversættelsen", "es": "perdido en la traducción", "example": "Humoren gik tabt i oversættelsen.", "example_es": "El humor se perdió en la traducción."}
+  ],
+  "transfer": {
+   "prompt": "Una empresa española te pide adaptar al danés tres frases de su folleto con modismos («es pan comido», «matar dos pájaros de un tiro», «no hay de qué preocuparse»). Escribe la versión danesa como párrafo de folleto (4 frases) y añade 2–3 frases al cliente explicando tus elecciones.",
+   "model": "Med RenoFix er det en leg at holde styr på hele renoveringen. Du samler tilbud, tidsplan og budget ét sted og slår dermed to fluer med ét smæk. Går noget skævt, får du besked med det samme — så der er ingen ko på isen. Prøv gratis i 30 dage. Kære Javier: jeg har ikke oversat billederne, men deres funktion. „Spist brød“ ville betyde „overstået“ på dansk, så jeg valgte „en leg“, der er lige så let i tonen. De to andre udtryk har heldigvis danske modstykker, der giver præcis samme effekt.",
+   "rubric": "Sustituye cada modismo por un equivalente funcional idiomático; mantiene el tono ligero del folleto; evita el falso amigo «spist brød»; la nota al cliente justifica las elecciones con claridad y sin tecnicismos."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un cliente español pide a su traductora que traslade literalmente «es pan comido» en un folleto publicitario; ella le explica por qué la traducción literal no funciona.",
+   "lines": [
+    {"text": "Kanns du „pan comido“ net einfach Wuert fir Wuert iwwersetzen? „Giess Brout“?", "es": "¿No puedes traducir «pan comido» palabra por palabra? ¿«Giess Brout»?"},
+    {"text": "Dat seet engem Lëtzebuerger guer näischt — oder et klengt no Iessreschter.", "es": "Eso no le dice nada a un luxemburgués, o suena a sobras de comida."},
+    {"text": "Mä de Lieser versteet de Kontext dach.", "es": "Pero el lector entiende el contexto, ¿no?"},
+    {"text": "De Kontext jo, de Witz net. Hei brauche mir „e Kannerspill“.", "es": "El contexto sí, la gracia no. Aquí necesitamos «un juego de niños»."},
+    {"text": "Dat klengt e bësse méi brav.", "es": "Eso suena un poco más soso."},
+    {"text": "Mä et mécht beim Lieser dat selwecht wéi d'Original beim Spuenier: et bréngt e kuerz zum Laachen.", "es": "Pero hace en el lector lo mismo que el original en el español: le saca una breve sonrisa."},
+    {"text": "Also iwwersetz du den Effekt, net d'Brout.", "es": "O sea que traduces el efecto, no el pan."},
+    {"text": "Genee. D'Brout bleift a Spuenien.", "es": "Exacto. El pan se queda en España."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir la traductora con «El contexto sí, la gracia no»?",
+   "choices": ["Que el lector entendería el sentido general pero perdería el efecto humorístico", "Que el contexto del folleto está mal escrito", "Que los luxemburgueses no tienen sentido del humor"]
+  },
+  "grammar": {
+   "focus": "Colocaciones verbo-sustantivo de registro culto (verbos de apoyo)",
+   "explain": "En registro elevado muchos verbos se sustituyen por un sustantivo con un verbo de apoyo fijo que hay que conocer: a Fro stellen (cuestionar), zur Sprooch bréngen (sacar a colación), Rechnung droen (tener en cuenta).",
+   "items": [
+    {"prompt": "Ech wëll d'Iwwersetzung net a Fro ___, just de Witz verbesseren. (verbo de apoyo de «a Fro»)", "answer": "stellen", "es": "No quiero cuestionar la traducción, solo mejorar la gracia."},
+    {"prompt": "D'Iwwersetzung muss der Kultur vum Lieser Rechnung ___. (verbo de apoyo de «Rechnung»)", "answer": "droen", "es": "La traducción tiene que tener en cuenta la cultura del lector."},
+    {"prompt": "Si huet de Problem mam Slogan an der Reunioun zur Sprooch ___. (verbo de apoyo, participio)", "answer": "bruecht", "es": "Sacó a colación el problema del eslogan en la reunión."}
+   ]
+  },
+  "vocab": [
+   {"text": "e Kannerspill", "es": "un juego de niños", "example": "Mat eiser App ass d'Planung e Kannerspill.", "example_es": "Con nuestra app, planificar es un juego de niños."},
+   {"text": "an der Iwwersetzung verluer", "es": "perdido en la traducción", "example": "De Witz ass an der Iwwersetzung verluer gaangen.", "example_es": "La gracia se perdió en la traducción."},
+   {"text": "e falsche Frënd", "es": "un falso amigo", "example": "Dat Wuert ass e falsche Frënd fir spuenesch Iwwersetzer.", "example_es": "Esa palabra es un falso amigo para los traductores españoles."},
+   {"text": "zum Laachen bréngen", "es": "hacer reír, sacar una sonrisa", "example": "De Slogan soll de Lieser zum Laachen bréngen.", "example_es": "El eslogan debe sacarle una sonrisa al lector."}
+  ],
+  "transfer": {
+   "prompt": "Una empresa española te pide adaptar al luxemburgués tres frases de su folleto con modismos («es pan comido», «matar dos pájaros de un tiro», «no hay de qué preocuparse»). Escribe la versión luxemburguesa como párrafo de folleto (4 frases) y añade 2–3 frases al cliente explicando tus elecciones.",
+   "model": "Mat RenoFix ass et e Kannerspill, de ganze Chantier am Grëff ze halen. Dir sammelt Offeren, Zäitplang a Budget op enger Plaz a schloet esou zwou Mécke mat enger Klapp. Leeft eppes schief, kritt Dir direkt Bescheed — also keng Suerg. Probéiert et 30 Deeg gratis. Léiwe Javier, ech hunn net d'Biller iwwersat, mä hir Funktioun. „Giess Brout“ hätt op Lëtzebuergesch näischt gesot, dofir hunn ech „e Kannerspill“ gewielt, dat genee esou liicht klengt. Fir déi zwee aner Ausdréck gëtt et gutt lëtzebuergesch Entspriechungen, déi deeselwechten Effekt hunn.",
+   "rubric": "Sustituye cada modismo por un equivalente funcional idiomático; mantiene el tono ligero del folleto; evita el calco literal; la nota al cliente justifica las elecciones con claridad y sin tecnicismos."
+  }
+ }
+}

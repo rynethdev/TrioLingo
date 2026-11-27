@@ -1,0 +1,77 @@
+{
+ "week": 79,
+ "da": {
+  "dialogue2": {
+   "context": "En la reunión de la comunidad de vecinos se discute si instalar placas solares en el tejado.",
+   "lines": [
+    {"text": "Hvad mener du om solcellerne på taget?", "es": "¿Qué opinas de las placas solares en el tejado?"},
+    {"text": "Jeg synes, vi bør gøre det, fordi elprisen stiger hele tiden.", "es": "Creo que deberíamos hacerlo, porque el precio de la luz no para de subir."},
+    {"text": "Men det koster mange penge på én gang.", "es": "Pero cuesta mucho dinero de golpe."},
+    {"text": "Det er rigtigt. Vi burde måske få to tilbud først.", "es": "Es verdad. Quizá deberíamos pedir primero dos presupuestos."},
+    {"text": "Det er jeg enig i. Så kan vi stemme om det i maj.", "es": "Estoy de acuerdo. Así podemos votarlo en mayo."},
+    {"text": "Godt, jeg skriver det i referatet.", "es": "Bien, lo pongo en el acta."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué decide finalmente la reunión?",
+   "choices": ["Pedir presupuestos antes de votar en mayo", "Instalar las placas solares inmediatamente", "Rechazar la idea porque es demasiado cara"]
+  },
+  "grammar": {
+   "focus": "Recomendar con «bør» y «burde»",
+   "explain": "«Bør» (debería, presente) expresa una recomendación clara: Vi bør spare energi. «Burde» es más suave o critica algo que no se hizo: Vi burde have spurgt først. Ambos van con infinitivo sin «at».",
+   "items": [
+    {"prompt": "Jeg synes, vi ___ tænke mere på miljøet. (recomendación clara)", "answer": "bør", "es": "Creo que deberíamos pensar más en el medio ambiente."},
+    {"prompt": "Vi ___ have bestilt tilbuddene for længe siden. (crítica de algo que no se hizo)", "answer": "burde", "es": "Deberíamos haber pedido los presupuestos hace tiempo."},
+    {"prompt": "Man bør ikke ___ en beslutning uden et budget. (træffe)", "answer": "træffe", "es": "No se debería tomar una decisión sin un presupuesto."}
+   ]
+  },
+  "vocab": [
+   {"text": "Det er jeg enig i", "es": "Estoy de acuerdo", "example": "Det er jeg enig i, vi venter til maj.", "example_es": "Estoy de acuerdo, esperamos a mayo."},
+   {"text": "stemme om", "es": "votar (algo)", "example": "Vi kan stemme om det på næste møde.", "example_es": "Podemos votarlo en la próxima reunión."},
+   {"text": "referatet", "es": "el acta", "example": "Jeg skriver beslutningen i referatet.", "example_es": "Pongo la decisión en el acta."},
+   {"text": "på én gang", "es": "de golpe, de una vez", "example": "Det koster mange penge på én gang.", "example_es": "Cuesta mucho dinero de golpe."}
+  ],
+  "transfer": {
+   "prompt": "En tu trabajo proponen pasar a una semana de cuatro días con jornadas más largas. Escribe tu opinión para el chat del equipo: postura, una razón y una sugerencia (3–4 frases).",
+   "model": "Jeg synes, idéen er spændende, fordi vi får mere tid til familien. Men vi bør tænke på kunderne, som ringer om fredagen. Måske burde vi prøve det i tre måneder og så evaluere.",
+   "rubric": "Da tu opinión con «jeg synes», apóyala con «fordi» y haz una sugerencia con «bør» o «burde»."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En la reunión de la comunidad de vecinos se discute si instalar placas solares en el tejado.",
+   "lines": [
+    {"text": "Wat haalt Dir vun de Solarpanneauen um Daach?", "es": "¿Qué opina de las placas solares en el tejado?"},
+    {"text": "Ech fannen, mir sollten se installéieren, well de Stroum ëmmer méi deier gëtt.", "es": "Creo que deberíamos instalarlas, porque la luz es cada vez más cara."},
+    {"text": "Mee dat kascht op ee Coup vill Suen.", "es": "Pero cuesta mucho dinero de golpe."},
+    {"text": "Dat stëmmt. Mir misste fir d'éischt zwou Offeren ufroen.", "es": "Es verdad. Primero habría que pedir dos presupuestos."},
+    {"text": "Do sinn ech d'accord. Da kënne mir am Mee ofstëmmen.", "es": "Estoy de acuerdo. Así podemos votarlo en mayo."},
+    {"text": "Gutt, ech schreiwen dat an de Protokoll.", "es": "Bien, lo pongo en el acta."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué decide finalmente la reunión?",
+   "choices": ["Pedir presupuestos antes de votar en mayo", "Instalar las placas solares inmediatamente", "Rechazar la idea porque es demasiado cara"]
+  },
+  "grammar": {
+   "focus": "Recomendar con «sollten» y «missten»",
+   "explain": "«Sollten» (deberíamos) expresa una recomendación: Mir sollten Energie spueren. «Missten» (habría que) es más fuerte: Mir missten d'Offere vergläichen. El infinitivo va al final.",
+   "items": [
+    {"prompt": "Ech fannen, mir ___ méi un d'Ëmwelt denken. (sollen, condicional)", "answer": "sollten", "es": "Creo que deberíamos pensar más en el medio ambiente."},
+    {"prompt": "Do ___ een virdrun de Budget kennen. (mussen, condicional)", "answer": "misst", "es": "Para eso habría que conocer antes el presupuesto."},
+    {"prompt": "Mir sollten net ouni Budget ___. (decidéieren)", "answer": "decidéieren", "es": "No deberíamos decidir sin presupuesto."}
+   ]
+  },
+  "vocab": [
+   {"text": "Do sinn ech d'accord", "es": "Estoy de acuerdo", "example": "Do sinn ech d'accord, mir waarden bis am Mee.", "example_es": "Estoy de acuerdo, esperamos a mayo."},
+   {"text": "ofstëmmen", "es": "votar", "example": "Mir kënnen op der nächster Versammlung ofstëmmen.", "example_es": "Podemos votar en la próxima reunión."},
+   {"text": "de Protokoll", "es": "el acta", "example": "Wien schreift haut de Protokoll?", "example_es": "¿Quién redacta hoy el acta?"},
+   {"text": "op ee Coup", "es": "de golpe, de una vez", "example": "Dat kascht op ee Coup vill Suen.", "example_es": "Eso cuesta mucho dinero de golpe."}
+  ],
+  "transfer": {
+   "prompt": "En tu trabajo proponen pasar a una semana de cuatro días con jornadas más largas. Escribe tu opinión para el chat del equipo: postura, una razón y una sugerencia (3–4 frases).",
+   "model": "Ech fannen d'Iddi spannend, well mir méi Zäit fir d'Famill hätten. Mee mir sollten un d'Clienten denken, déi e Freideg uruffen. Vläicht misste mir et dräi Méint testen an duerno evaluéieren.",
+   "rubric": "Da tu opinión con «ech fannen», apóyala con «well» (verbo al final) y haz una sugerencia con «sollten» o «missten»."
+  }
+ }
+}

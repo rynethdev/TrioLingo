@@ -1,0 +1,81 @@
+{
+ "week": 148,
+ "da": {
+  "dialogue2": {
+   "context": "Una clienta pide añadir funciones a una web sin mover la fecha de lanzamiento; el consultor le explica con calma el equilibrio entre alcance, plazo y calidad.",
+   "lines": [
+    {"text": "Vi vil gerne have en chatfunktion med, men lanceringen skal stadig være den 1. marts.", "es": "Queremos incluir una función de chat, pero el lanzamiento tiene que seguir siendo el 1 de marzo."},
+    {"text": "Det forstår jeg godt; lad mig være ærlig om, hvad det betyder.", "es": "Lo entiendo perfectamente; déjeme ser sincero sobre lo que eso implica."},
+    {"text": "Er det et problem? Det er jo bare en lille knap.", "es": "¿Es un problema? Si solo es un botoncito."},
+    {"text": "Knappen er lille, men bagved ligger integration, test og sikkerhed; jo mere vi tilføjer, desto større er risikoen for fejl.", "es": "El botón es pequeño, pero detrás hay integración, pruebas y seguridad; cuanto más añadimos, mayor es el riesgo de errores."},
+    {"text": "Så hvad kan I love mig til den 1. marts?", "es": "Entonces, ¿qué me pueden prometer para el 1 de marzo?"},
+    {"text": "Hjemmesiden med alle de aftalte funktioner, fuldt testet; chatten kan følge i en anden fase i april.", "es": "La web con todas las funciones acordadas, totalmente probada; el chat puede venir en una segunda fase en abril."},
+    {"text": "Og hvis vi absolut vil have chatten med fra start?", "es": "¿Y si queremos el chat sí o sí desde el principio?"},
+    {"text": "Så må vi enten rykke datoen eller skære noget andet fra; jeg siger det hellere nu end at skuffe jer i marts.", "es": "Entonces o movemos la fecha o recortamos otra cosa; prefiero decírselo ahora que decepcionarles en marzo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué principio justifica la postura del consultor?",
+   "choices": ["Que cuanto más se añade sin mover el plazo, mayor es el riesgo de errores", "Que el chat es técnicamente imposible de integrar en esa web", "Que la clienta ya había renunciado al chat al firmar el contrato"]
+  },
+  "grammar": {
+   "focus": "Correlación comparativa: jo … desto",
+   "explain": "«Jo + comparativo …, desto + comparativo …» indica que dos magnitudes varían juntas (cuanto más…, más…). La parte de «jo» tiene orden de subordinada y la de «desto» lleva inversión: Jo mere vi tilføjer, desto større er risikoen.",
+   "items": [
+    {"prompt": "___ mere vi tilføjer, desto større er risikoen. (cuanto más)", "answer": "Jo", "es": "Cuanto más añadimos, mayor es el riesgo."},
+    {"prompt": "Jo tidligere I beslutter jer, ___ lettere er det at planlægge. (correlativo)", "answer": "desto", "es": "Cuanto antes se decidan, más fácil es planificar."},
+    {"prompt": "Jo flere ændringer der kommer, desto ___ bliver leveringen. (sen, comparativo)", "answer": "senere", "es": "Cuantos más cambios llegan, más tarde es la entrega."}
+   ]
+  },
+  "vocab": [
+   {"text": "ærlig om", "es": "sincero sobre", "example": "Lad mig være ærlig om konsekvenserne.", "example_es": "Déjeme ser sincero sobre las consecuencias."},
+   {"text": "skære noget fra", "es": "recortar algo", "example": "Hvis datoen står fast, må vi skære noget fra.", "example_es": "Si la fecha es fija, tendremos que recortar algo."},
+   {"text": "en anden fase", "es": "una segunda fase", "example": "Chatten kan komme i en anden fase.", "example_es": "El chat puede venir en una segunda fase."},
+   {"text": "hellere", "es": "más bien, preferiblemente (hellere … end)", "example": "Jeg siger det hellere nu end om tre måneder.", "example_es": "Prefiero decirlo ahora que dentro de tres meses."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el correo (5–6 frases) en el que el consultor confirma qué se entregará y cuándo: reconoce el deseo del cliente, explica el compromiso con un argumento claro, ofrece dos alternativas y pide una decisión.",
+   "model": "Tak for jeres ønske om at tilføje en chatfunktion; den vil utvivlsomt gøre siden mere brugervenlig. Jo flere funktioner vi tilføjer uden at rykke datoen, desto mindre tid bliver der til test, og desto større bliver risikoen for fejl ved lanceringen. Til den 1. marts kan vi derfor love hjemmesiden med alle de aftalte funktioner, fuldt testet. Vi ser to muligheder: Enten lanceres chatten i en anden fase i april, eller også flytter vi lanceringen til den 15. marts. Giv os gerne besked inden fredag, så vi kan planlægge efter jeres beslutning.",
+   "rubric": "Valora el deseo del cliente antes de poner límites; explica el compromiso con «jo … desto»; separa con claridad lo que se garantiza de lo que no; ofrece dos alternativas concretas; pide una decisión con plazo."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una clienta pide añadir funciones a una web sin mover la fecha de lanzamiento; el consultor le explica con calma el equilibrio entre alcance, plazo y calidad.",
+   "lines": [
+    {"text": "Mir hätte gär eng Chatfunktioun derbäi, mä de Lancement muss trotzdeem den 1. Mäerz sinn.", "es": "Nos gustaría añadir una función de chat, pero el lanzamiento tiene que seguir siendo el 1 de marzo."},
+    {"text": "Dat verstinn ech; loosse mech Iech éierlech soen, wat dat bedeit.", "es": "Lo entiendo; déjeme decirle con sinceridad lo que eso implica."},
+    {"text": "Ass dat e Problem? Et ass dach just e klengt Knäppchen.", "es": "¿Es un problema? Si solo es un botoncito."},
+    {"text": "D'Knäppchen ass kleng, mä dohannert stinn Integratioun, Tester a Sécherheet; je méi mir derbäisetzen, desto méi grouss gëtt de Risiko vu Feeler.", "es": "El botón es pequeño, pero detrás hay integración, pruebas y seguridad; cuanto más añadimos, mayor es el riesgo de errores."},
+    {"text": "Wat kënnt Dir mer dann fir den 1. Mäerz verspriechen?", "es": "Entonces, ¿qué me puede prometer para el 1 de marzo?"},
+    {"text": "D'Websäit mat allen ofgemaachte Funktiounen, komplett getest; de Chat kann an enger zweeter Phas am Abrëll kommen.", "es": "La web con todas las funciones acordadas, totalmente probada; el chat puede venir en una segunda fase en abril."},
+    {"text": "A wa mir de Chat onbedéngt vun Ufank un wëllen?", "es": "¿Y si queremos el chat sí o sí desde el principio?"},
+    {"text": "Da musse mir entweder den Datum verréckelen oder eppes anescht ewechloossen; ech soen Iech dat léiwer elo, wéi Iech am Mäerz z'enttäuschen.", "es": "Entonces o movemos la fecha o quitamos otra cosa; prefiero decírselo ahora que decepcionarle en marzo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué principio justifica la postura del consultor?",
+   "choices": ["Que cuanto más se añade sin mover el plazo, mayor es el riesgo de errores", "Que el chat es técnicamente imposible de integrar en esa web", "Que la clienta ya había renunciado al chat al firmar el contrato"]
+  },
+  "grammar": {
+   "focus": "Correlación comparativa: je … desto",
+   "explain": "«Je + comparativo …, desto + comparativo …» indica que dos magnitudes varían juntas (cuanto más…, más…). En la parte de «je» el verbo va al final; en la de «desto», justo después del comparativo: Je méi mir derbäisetzen, desto méi grouss gëtt de Risiko.",
+   "items": [
+    {"prompt": "___ méi mir derbäisetzen, desto méi grouss gëtt de Risiko. (cuanto más)", "answer": "Je", "es": "Cuanto más añadimos, mayor es el riesgo."},
+    {"prompt": "Je éischter Dir decidéiert, ___ méi einfach ass d'Planung. (correlativo)", "answer": "desto", "es": "Cuanto antes decida, más fácil es la planificación."},
+    {"prompt": "Je méi Ännerunge kommen, desto ___ gëtt geliwwert. (spéit, comparativo)", "answer": "méi spéit", "es": "Cuantos más cambios llegan, más tarde se entrega."}
+   ]
+  },
+  "vocab": [
+   {"text": "éierlech soen", "es": "decir con sinceridad", "example": "Ech wëll Iech éierlech soen, wat dat bedeit.", "example_es": "Quiero decirle con sinceridad lo que eso implica."},
+   {"text": "verréckelen", "es": "mover, aplazar (una fecha)", "example": "Mir kéinten den Datum ëm zwou Woche verréckelen.", "example_es": "Podríamos mover la fecha dos semanas."},
+   {"text": "eng zweet Phas", "es": "una segunda fase", "example": "De Chat kënnt an eng zweet Phas.", "example_es": "El chat pasa a una segunda fase."},
+   {"text": "léiwer", "es": "preferiblemente (léiwer … wéi)", "example": "Ech soen et léiwer elo wéi am Mäerz.", "example_es": "Prefiero decirlo ahora que en marzo."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el correo (5–6 frases) en el que el consultor confirma qué se entregará y cuándo: reconoce el deseo del cliente, explica el compromiso con un argumento claro, ofrece dos alternativas y pide una decisión.",
+   "model": "Merci fir Äre Wonsch, eng Chatfunktioun derbäizesetzen; si wäert d'Säit ouni Zweiwel méi benotzerfrëndlech maachen. Je méi Funktioune mir derbäisetzen, ouni den Datum ze verréckelen, desto manner Zäit bleift fir Tester, an desto méi grouss gëtt de Risiko vu Feeler beim Lancement. Fir den 1. Mäerz kënne mir Iech dofir d'Websäit mat allen ofgemaachte Funktiounen, komplett getest, verspriechen. Mir gesinn zwou Méiglechkeeten: Entweder kënnt de Chat an enger zweeter Phas am Abrëll, oder mir verréckelen de Lancement op de 15. Mäerz. Gitt eis w.e.g. bis Freideg Bescheed, fir datt mir no Ärer Entscheedung plange kënnen.",
+   "rubric": "Valora el deseo del cliente antes de poner límites; explica el compromiso con «je … desto»; separa con claridad lo que se garantiza de lo que no; ofrece dos alternativas concretas; pide una decisión con plazo."
+  }
+ }
+}

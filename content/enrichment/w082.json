@@ -1,0 +1,79 @@
+{
+ "week": 82,
+ "da": {
+  "dialogue2": {
+   "context": "Reunión en línea un lunes: la moderadora abre la sesión, pero un compañero quiere cambiar el orden del día.",
+   "lines": [
+    {"text": "Godmorgen alle sammen, jeg kan se, at vi er fuldtallige, så lad os komme i gang.", "es": "Buenos días a todos, veo que estamos todos, así que empecemos."},
+    {"text": "Inden vi starter, kunne vi så ikke lige tage budgettet op først?", "es": "Antes de empezar, ¿no podríamos tratar primero el presupuesto?"},
+    {"text": "Det er et vigtigt emne, men det står ikke på dagsordenen i dag.", "es": "Es un tema importante, pero hoy no está en el orden del día."},
+    {"text": "Jeg er bare bekymret for, at vi løber tør for penge i efteråret.", "es": "Es que me preocupa que nos quedemos sin dinero en otoño."},
+    {"text": "Forståeligt. Jeg noterer det, og så sætter vi det på næste møde.", "es": "Comprensible. Lo apunto y lo ponemos en la próxima reunión."},
+    {"text": "Fint, det kan jeg godt leve med.", "es": "Vale, me parece bien."},
+    {"text": "Godt. Så giver jeg ordet til Jonas, der fortæller om status på hjemmesiden.", "es": "Bien. Entonces le doy la palabra a Jonas, que nos cuenta cómo va la web."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué decide la moderadora sobre el tema del presupuesto?",
+   "choices": ["Lo deja para la próxima reunión", "Lo trata al principio de esta reunión", "Lo descarta porque no es importante"]
+  },
+  "grammar": {
+   "focus": "Cortesía con modales en pasado (kunne, ville)",
+   "explain": "Para pedir o proponer con suavidad se usa el pasado de los modales: «Kunne du …?», «Ville det være muligt …?», «Jeg ville gerne …». Suena más cortés que el presente «Kan du …?».",
+   "items": [
+    {"prompt": "___ du tage referat i dag, Sofie? (kan, más cortés)", "answer": "Kunne", "es": "¿Podrías tomar acta hoy, Sofie?"},
+    {"prompt": "___ det være muligt at holde pausen lidt kortere? (vil, más cortés)", "answer": "Ville", "es": "¿Sería posible hacer la pausa un poco más corta?"},
+    {"prompt": "Jeg ___ gerne foreslå, at vi slutter fem minutter før tid. (vil, más cortés)", "answer": "ville", "es": "Me gustaría proponer que terminemos cinco minutos antes de la hora."}
+   ]
+  },
+  "vocab": [
+   {"text": "dagsordenen", "es": "el orden del día", "example": "Budgettet står ikke på dagsordenen i dag.", "example_es": "El presupuesto no está hoy en el orden del día."},
+   {"text": "give ordet til", "es": "dar la palabra a", "example": "Nu vil jeg gerne give ordet til Jonas.", "example_es": "Ahora me gustaría darle la palabra a Jonas."},
+   {"text": "komme i gang", "es": "empezar, ponerse en marcha", "example": "Lad os komme i gang, vi har kun en halv time.", "example_es": "Empecemos, solo tenemos media hora."},
+   {"text": "fuldtallige", "es": "al completo, todos presentes", "example": "Vi er fuldtallige, så vi kan begynde.", "example_es": "Estamos todos, así que podemos empezar."}
+  ],
+  "transfer": {
+   "prompt": "Vas a moderar una videollamada de 30 minutos con un proveedor externo. Escribe tu intervención de apertura (registro formal, 4–5 frases): saludo, duración, objetivo, orden de los puntos y a quién das la palabra primero.",
+   "model": "Velkommen, og tak, fordi I har taget jer tid til mødet i dag. Vi har en halv time, så jeg foreslår, at vi holder os til dagsordenen. Målet er at blive enige om leveringsdatoerne for andet kvartal. Først gennemgår vi status, og bagefter ser vi på de åbne spørgsmål. Kunne jeg bede jer om at starte med en kort opdatering?",
+   "rubric": "Saluda y agradece, indica tiempo y objetivo, ordena los puntos con «først» y «bagefter», y cede la palabra con un modal cortés en pasado (kunne/ville)."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Reunión en línea un lunes: la moderadora abre la sesión, pero un compañero quiere cambiar el orden del día.",
+   "lines": [
+    {"text": "Gudde Moien alleguer, mir sinn elo komplett, also kënne mir ufänken.", "es": "Buenos días a todos, ya estamos todos, así que podemos empezar."},
+    {"text": "Ier mir ufänken: kéinte mir net als éischt iwwer de Budget schwätzen?", "es": "Antes de empezar: ¿no podríamos hablar primero del presupuesto?"},
+    {"text": "Dat ass e wichtegt Thema, mee et steet haut net op der Dagesuerdnung.", "es": "Es un tema importante, pero hoy no está en el orden del día."},
+    {"text": "Ech maache mir just Suergen, datt eis am Hierscht d'Suen ausginn.", "es": "Es que me preocupa que nos quedemos sin dinero en otoño."},
+    {"text": "Verständlech. Ech notéieren et, an da komme mir an der nächster Reunioun drop zeréck.", "es": "Comprensible. Lo apunto y lo retomamos en la próxima reunión."},
+    {"text": "Gutt, domat kann ech liewen.", "es": "Vale, me parece bien."},
+    {"text": "Prima. Da ginn ech dem Jonas d'Wuert, deen eis iwwer de Stand vun der Websäit informéiert.", "es": "Estupendo. Entonces le doy la palabra a Jonas, que nos informa de cómo va la web."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué decide la moderadora sobre el tema del presupuesto?",
+   "choices": ["Lo deja para la próxima reunión", "Lo trata al principio de esta reunión", "Lo descarta porque no es importante"]
+  },
+  "grammar": {
+   "focus": "Cortesía con el Konjunktiv de los modales (kéint, dierft, géif)",
+   "explain": "Para pedir algo con suavidad se usa el Konjunktiv: «Kéint Dir …?», «Dierft ech …?», «Ech géif gär …». Suena más cortés que el presente «Kënnt Dir …?».",
+   "items": [
+    {"prompt": "___ Dir haut d'Protokoll schreiwen, Madame Weber? (kënnen, más cortés)", "answer": "Kéint", "es": "¿Podría escribir hoy el acta, señora Weber?"},
+    {"prompt": "___ ech eng Fro stellen, ier mir weidermaachen? (däerfen, más cortés)", "answer": "Dierft", "es": "¿Podría hacer una pregunta antes de seguir?"},
+    {"prompt": "Ech ___ gär proposéieren, datt mir fënnef Minutte méi fréi ophalen. (Konjunktiv de «ginn»)", "answer": "géif", "es": "Me gustaría proponer que terminemos cinco minutos antes."}
+   ]
+  },
+  "vocab": [
+   {"text": "op der Dagesuerdnung", "es": "en el orden del día", "example": "Dat Thema steet haut net op der Dagesuerdnung.", "example_es": "Ese tema no está hoy en el orden del día."},
+   {"text": "d'Wuert ginn", "es": "dar la palabra", "example": "Ech géif elo gär der Lisa d'Wuert ginn.", "example_es": "Ahora me gustaría darle la palabra a Lisa."},
+   {"text": "drop zeréckkommen", "es": "volver sobre un tema", "example": "Mir wäerten déi nächst Woch drop zeréckkommen.", "example_es": "Volveremos sobre ello la semana que viene."},
+   {"text": "notéieren", "es": "anotar, apuntar", "example": "Ech notéieren dat fir déi nächst Reunioun.", "example_es": "Lo apunto para la próxima reunión."}
+  ],
+  "transfer": {
+   "prompt": "Vas a moderar una videollamada de 30 minutos con un proveedor externo. Escribe tu intervención de apertura (registro formal, 4–5 frases): saludo, duración, objetivo, orden de los puntos y a quién das la palabra primero.",
+   "model": "Wëllkomm, a villmools Merci, datt Dir Iech Zäit fir dës Reunioun geholl hutt. Mir hunn eng hallef Stonn, dofir proposéieren ech, datt mir eis un d'Dagesuerdnung halen. D'Zil ass, eis iwwer d'Liwwerterminer fir dat zweet Trimester eens ze ginn. Als éischt kucke mir de Stand, duerno déi oppe Froen. Kéint Dir w.e.g. mat engem kuerzen Update ufänken?",
+   "rubric": "Saluda y agradece, indica tiempo y objetivo, ordena los puntos con «als éischt» y «duerno», y cede la palabra con un Konjunktiv de cortesía (kéint/géif)."
+  }
+ }
+}

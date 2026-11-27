@@ -1,0 +1,79 @@
+{
+ "week": 103,
+ "da": {
+  "dialogue2": {
+   "context": "En una reunión, una analista comenta un gráfico del consumo eléctrico de la oficina y su jefe cuestiona cómo interpreta un pico.",
+   "lines": [
+    {"text": "Grafen viser vores elforbrug måned for måned i år.", "es": "El gráfico muestra nuestro consumo eléctrico mes a mes este año."},
+    {"text": "Hvad skete der i februar? Kurven stiger jo voldsomt.", "es": "¿Qué pasó en febrero? La curva sube muchísimo."},
+    {"text": "Forbruget steg med 40 procent, fordi varmepumpen var i stykker i tre uger.", "es": "El consumo subió un 40 % porque la bomba de calor estuvo averiada tres semanas."},
+    {"text": "Er du sikker på, at det ikke bare skyldtes kulden?", "es": "¿Seguro que no se debió simplemente al frío?"},
+    {"text": "Ja, for i januar var det koldere, og der lå forbruget på det normale niveau.", "es": "Sí, porque en enero hizo más frío y el consumo se mantuvo en su nivel normal."},
+    {"text": "Godt argument. Og hvordan ser det ud nu?", "es": "Buen argumento. ¿Y cómo está ahora?"},
+    {"text": "Efter reparationen er det faldet til omkring 12.000 kilowatttimer om måneden.", "es": "Tras la reparación ha bajado a unos 12.000 kilovatios hora al mes."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo demuestra la analista que el pico no se debió al frío?",
+   "choices": ["Lo compara con enero, que fue más frío y tuvo un consumo normal", "Enseña la factura de la reparación", "Dice que en febrero no hizo frío"]
+  },
+  "grammar": {
+   "focus": "Preposiciones con cifras: med, til, fra, på",
+   "explain": "Para describir cambios: «stige/falde med 10 procent» (la diferencia), «stige/falde til 500» (el resultado), «fra 300 til 500» (de… a…), «ligge på 12.000» (estar en un valor).",
+   "items": [
+    {"prompt": "Salget steg ___ 15 procent i forhold til sidste år. (diferencia)", "answer": "med", "es": "Las ventas subieron un 15 % respecto al año pasado."},
+    {"prompt": "Antallet af klager faldt fra 80 ___ 45. (resultado)", "answer": "til", "es": "El número de quejas bajó de 80 a 45."},
+    {"prompt": "Ledigheden ligger stabilt ___ fem procent. (valor)", "answer": "på", "es": "El paro se mantiene estable en el cinco por ciento."}
+   ]
+  },
+  "vocab": [
+   {"text": "kurven", "es": "la curva", "example": "Kurven flader ud efter sommeren.", "example_es": "La curva se estabiliza después del verano."},
+   {"text": "elforbruget", "es": "el consumo eléctrico", "example": "Vi vil gerne sænke elforbruget med ti procent.", "example_es": "Queremos reducir el consumo eléctrico un diez por ciento."},
+   {"text": "voldsomt", "es": "muchísimo, de forma brusca", "example": "Priserne steg voldsomt i foråret.", "example_es": "Los precios subieron muchísimo en primavera."},
+   {"text": "skyldtes", "es": "se debió a", "example": "Faldet skyldtes en strejke på havnen.", "example_es": "La bajada se debió a una huelga en el puerto."}
+  ],
+  "transfer": {
+   "prompt": "Tienes un gráfico con los visitantes de la biblioteca municipal en el último año (mínimo en agosto con 2.100, máximo en noviembre con 6.800). Escribe un párrafo breve (4–5 frases, registro formal) para el boletín municipal describiendo la tendencia, el punto más alto y una posible explicación.",
+   "model": "Grafen viser antallet af besøgende på biblioteket fra januar til december. Om sommeren faldt besøgstallet til det laveste niveau, nemlig 2.100 i august. Fra september steg det kraftigt og toppede i november med 6.800 besøgende. Stigningen skyldes sandsynligvis de nye lektiecaféer, som åbnede efter sommerferien. I december faldt tallet igen med omkring 20 procent.",
+   "rubric": "Describe la tendencia general, da el punto más bajo y el más alto con cifras, usa correctamente med/til/fra/på y propone una explicación prudente («sandsynligvis»)."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En una reunión, una analista comenta un gráfico del consumo eléctrico de la oficina y su jefe cuestiona cómo interpreta un pico.",
+   "lines": [
+    {"text": "D'Grafik weist eise Stroumverbrauch Mount fir Mount fir dëst Joer.", "es": "El gráfico muestra nuestro consumo eléctrico mes a mes este año."},
+    {"text": "Wat ass am Februar geschitt? D'Kurv klëmmt jo enorm.", "es": "¿Qué pasó en febrero? La curva sube muchísimo."},
+    {"text": "De Verbrauch ass ëm 40 Prozent geklommen, well d'Wäermepompel dräi Woche futti war.", "es": "El consumo subió un 40 % porque la bomba de calor estuvo averiada tres semanas."},
+    {"text": "Bass du sécher, datt et net einfach un der Keelt louch?", "es": "¿Seguro que no se debió simplemente al frío?"},
+    {"text": "Jo, well et am Januar méi kal war, an do louch de Verbrauch um normalen Niveau.", "es": "Sí, porque en enero hizo más frío y el consumo se mantuvo en su nivel normal."},
+    {"text": "Gutt Argument. A wéi gesäit et elo aus?", "es": "Buen argumento. ¿Y cómo está ahora?"},
+    {"text": "Zënter der Reparatur ass en op ongeféier 12.000 Kilowattstonnen de Mount erofgaangen.", "es": "Desde la reparación ha bajado a unos 12.000 kilovatios hora al mes."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo demuestra la analista que el pico no se debió al frío?",
+   "choices": ["Lo compara con enero, que fue más frío y tuvo un consumo normal", "Enseña la factura de la reparación", "Dice que en febrero no hizo frío"]
+  },
+  "grammar": {
+   "focus": "Preposiciones con cifras: ëm, op, vun … op, bei",
+   "explain": "Para describir cambios: «ëm 10 Prozent klammen/falen» (la diferencia), «op 500 klammen/falen» (el resultado), «vun 300 op 500» (de… a…), «bei 12.000 leien» (estar en un valor).",
+   "items": [
+    {"prompt": "De Verkaf ass géintiwwer dem leschte Joer ___ 15 Prozent geklommen. (diferencia)", "answer": "ëm", "es": "Las ventas subieron un 15 % respecto al año pasado."},
+    {"prompt": "D'Zuel vun de Reklamatiounen ass vun 80 ___ 45 erofgaangen. (resultado)", "answer": "op", "es": "El número de reclamaciones bajó de 80 a 45."},
+    {"prompt": "De Chômage läit stabil ___ fënnef Prozent. (valor)", "answer": "bei", "es": "El paro se mantiene estable en el cinco por ciento."}
+   ]
+  },
+  "vocab": [
+   {"text": "Kurv", "es": "curva", "example": "D'Kurv gëtt no dem Summer méi flaach.", "example_es": "La curva se aplana después del verano."},
+   {"text": "Stroumverbrauch", "es": "consumo eléctrico", "example": "Mir wëllen de Stroumverbrauch ëm zéng Prozent reduzéieren.", "example_es": "Queremos reducir el consumo eléctrico un diez por ciento."},
+   {"text": "enorm", "es": "muchísimo, enormemente", "example": "D'Präisser sinn am Fréijoer enorm geklommen.", "example_es": "Los precios subieron muchísimo en primavera."},
+   {"text": "louch", "es": "se debía (pasado de «leien un»)", "example": "De Réckgang louch un engem Streik am Hafen.", "example_es": "La bajada se debió a una huelga en el puerto."}
+  ],
+  "transfer": {
+   "prompt": "Tienes un gráfico con los visitantes de la biblioteca municipal en el último año (mínimo en agosto con 2.100, máximo en noviembre con 6.800). Escribe un párrafo breve (4–5 frases, registro formal) para el boletín municipal describiendo la tendencia, el punto más alto y una posible explicación.",
+   "model": "D'Grafik weist d'Zuel vun de Besicher an der Bibliothéik vu Januar bis Dezember. Am Summer ass d'Besicherzuel op hiren niddregste Stand gefall, nämlech 2.100 am August. Vu September un ass se staark geklommen an huet am November mat 6.800 Besicher hire Maximum erreecht. Dës Steigerung läit wahrscheinlech un den neien Hausaufgabe-Caféen, déi no der Summervakanz opgemaach hunn. Am Dezember ass d'Zuel nees ëm ongeféier 20 Prozent erofgaangen.",
+   "rubric": "Describe la tendencia general, da el punto más bajo y el más alto con cifras, usa correctamente ëm/op/vun/bei y propone una explicación prudente («wahrscheinlech»)."
+  }
+ }
+}

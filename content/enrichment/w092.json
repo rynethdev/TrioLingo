@@ -1,0 +1,79 @@
+{
+ "week": 92,
+ "da": {
+  "dialogue2": {
+   "context": "Una clienta llama a su compañía de internet para saber cómo funciona la instalación de fibra; le preocupa tener que quedarse en casa.",
+   "lines": [
+    {"text": "Hvordan foregår installationen af fibernettet helt konkret?", "es": "¿Cómo es concretamente la instalación de la fibra?"},
+    {"text": "Når vi har modtaget din bestilling, kommer en tekniker og trækker kablet ind til huset.", "es": "Cuando recibamos tu pedido, viene un técnico y lleva el cable hasta la casa."},
+    {"text": "Skal jeg være hjemme, mens han arbejder udenfor?", "es": "¿Tengo que estar en casa mientras trabaja fuera?"},
+    {"text": "Nej, først når boksen skal monteres indenfor. Det tager cirka en time.", "es": "No, solo cuando haya que montar el router dentro. Eso lleva más o menos una hora."},
+    {"text": "Og hvor lang tid går der, før jeg kan bruge nettet?", "es": "¿Y cuánto tiempo pasa hasta que pueda usar internet?"},
+    {"text": "Efter at boksen er monteret, aktiverer vi forbindelsen inden for 48 timer.", "es": "Una vez montado el router, activamos la conexión en un plazo de 48 horas."},
+    {"text": "Fint, så tager jeg bare fri en formiddag den dag.", "es": "Bien, entonces solo me cojo libre una mañana ese día."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cuándo tiene que estar la clienta en casa?",
+   "choices": ["Solo cuando se monta el aparato dentro de la casa", "Durante todo el trabajo exterior", "Durante las 48 horas de activación"]
+  },
+  "grammar": {
+   "focus": "Conectores temporales: når, mens, før, efter at",
+   "explain": "Introducen una subordinada: «når» (cuando, en general o en futuro), «mens» (mientras), «før» (antes de que), «efter at» (después de que). Si la subordinada va primero, la principal empieza por el verbo: «Når boksen er monteret, aktiverer vi …».",
+   "items": [
+    {"prompt": "Du behøver ikke være hjemme, ___ teknikeren graver i haven. (mientras)", "answer": "mens", "es": "No hace falta que estés en casa mientras el técnico cava en el jardín."},
+    {"prompt": "___ vi har modtaget betalingen, sender vi en bekræftelse. (después de que)", "answer": "Efter at", "es": "Después de recibir el pago, enviamos una confirmación."},
+    {"prompt": "Ring til os, ___ teknikeren kommer, hvis du vil ændre tidspunktet. (antes de que)", "answer": "før", "es": "Llámanos antes de que venga el técnico si quieres cambiar la hora."}
+   ]
+  },
+  "vocab": [
+   {"text": "helt konkret", "es": "concretamente", "example": "Hvad betyder det helt konkret for mig?", "example_es": "¿Qué significa eso concretamente para mí?"},
+   {"text": "monteret", "es": "montado, instalado", "example": "Boksen bliver monteret i stuen.", "example_es": "El router se instala en el salón."},
+   {"text": "inden for", "es": "en un plazo de", "example": "Vi svarer inden for to arbejdsdage.", "example_es": "Respondemos en un plazo de dos días laborables."},
+   {"text": "tager fri", "es": "me cojo libre", "example": "Jeg tager fri en formiddag på fredag.", "example_es": "El viernes me cojo una mañana libre."}
+  ],
+  "transfer": {
+   "prompt": "Trabajas en un taller de bicicletas. Un cliente te escribe preguntando cómo funciona una revisión completa. Respóndele por correo (4–6 frases, registro amable y profesional) explicando los pasos y los plazos con conectores temporales.",
+   "model": "Tak for din henvendelse. Når du afleverer cyklen, gennemgår vi den sammen med dig og noterer eventuelle fejl. Før vi går i gang med reparationen, får du et prisoverslag på sms. Mens cyklen står hos os, skifter vi bremser og kæde, hvis det er nødvendigt. Efter at arbejdet er færdigt, tester vi cyklen på en kort tur. Normalt kan du hente den inden for tre hverdage.",
+   "rubric": "Ordena al menos cuatro pasos, usa al menos tres conectores temporales (når, før, mens, efter at) con el orden de palabras correcto e indica un plazo."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una clienta llama a su compañía de internet para saber cómo funciona la instalación de fibra; le preocupa tener que quedarse en casa.",
+   "lines": [
+    {"text": "Wéi leeft d'Installatioun vum Internet mat Glasfaser ganz konkret of?", "es": "¿Cómo es concretamente la instalación de internet por fibra?"},
+    {"text": "Soubal mir Är Bestellung kritt hunn, kënnt en Techniker a leet de Kabel bis bei d'Haus.", "es": "En cuanto recibamos su pedido, viene un técnico y lleva el cable hasta la casa."},
+    {"text": "Muss ech doheem sinn, wärend hien dobausse schafft?", "es": "¿Tengo que estar en casa mientras trabaja fuera?"},
+    {"text": "Neen, eréischt wann d'Box dobannen installéiert gëtt. Dat dauert ongeféier eng Stonn.", "es": "No, solo cuando se instale el router dentro. Eso dura más o menos una hora."},
+    {"text": "A wéi laang dauert et, bis ech den Internet benotze kann?", "es": "¿Y cuánto tarda hasta que pueda usar internet?"},
+    {"text": "Nodeems d'Box installéiert ass, aktivéiere mir d'Verbindung bannent 48 Stonnen.", "es": "Una vez instalado el router, activamos la conexión en un plazo de 48 horas."},
+    {"text": "Gutt, da huelen ech deen Dag just e Moie fräi.", "es": "Bien, entonces ese día solo me cojo libre una mañana."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cuándo tiene que estar la clienta en casa?",
+   "choices": ["Solo cuando se instala el aparato dentro de la casa", "Durante todo el trabajo exterior", "Durante las 48 horas de activación"]
+  },
+  "grammar": {
+   "focus": "Conectores temporales: wärend, ier, nodeems, soubal",
+   "explain": "Introducen una subordinada con el verbo al final: «wärend hien dobausse schafft», «ier den Techniker kënnt», «nodeems d'Box installéiert ass». Si la subordinada va primero, la principal empieza por el verbo: «Soubal mir et kréien, rufe mir Iech un».",
+   "items": [
+    {"prompt": "Dir musst net doheem sinn, ___ den Techniker am Gaart schafft. (mientras)", "answer": "wärend", "es": "No hace falta que esté en casa mientras el técnico trabaja en el jardín."},
+    {"prompt": "___ mir d'Bezuelung kritt hunn, schécke mir Iech eng Confirmatioun. (después de que)", "answer": "Nodeems", "es": "Después de recibir el pago, le enviamos una confirmación."},
+    {"prompt": "Rufft eis un, ___ den Techniker kënnt, wann Dir den Termin ännere wëllt. (antes de que)", "answer": "ier", "es": "Llámenos antes de que venga el técnico si quiere cambiar la cita."}
+   ]
+  },
+  "vocab": [
+   {"text": "ganz konkret", "es": "concretamente", "example": "Wat heescht dat ganz konkret fir mech?", "example_es": "¿Qué significa eso concretamente para mí?"},
+   {"text": "eréischt", "es": "no antes de, solo (en el tiempo)", "example": "D'Box gëtt eréischt e Freideg installéiert.", "example_es": "El router no se instala hasta el viernes."},
+   {"text": "bannent", "es": "en un plazo de, dentro de", "example": "Mir äntweren bannent zwee Aarbechtsdeeg.", "example_es": "Respondemos en un plazo de dos días laborables."},
+   {"text": "fräi huelen", "es": "cogerse libre", "example": "Ech muss e Freideg e Moie fräi huelen.", "example_es": "El viernes tengo que cogerme una mañana libre."}
+  ],
+  "transfer": {
+   "prompt": "Trabajas en un taller de bicicletas. Un cliente te escribe preguntando cómo funciona una revisión completa. Respóndele por correo (4–6 frases, registro amable y profesional) explicando los pasos y los plazos con conectores temporales.",
+   "model": "Merci fir Är Ufro. Wann Dir de Vëlo bréngt, kucke mir en zesumme mat Iech duerch a schreiwen all Problemer op. Ier mir mat der Reparatur ufänken, kritt Dir en Devis per SMS. Wärend de Vëlo bei eis ass, wiessele mir Bremsen a Ketten, wann et néideg ass. Nodeems d'Aarbecht fäerdeg ass, teste mir de Vëlo op enger kuerzer Tour. Normalerweis kënnt Dir en bannent dräi Aarbechtsdeeg ofhuelen.",
+   "rubric": "Ordena al menos cuatro pasos, usa al menos tres conectores temporales (wann, ier, wärend, nodeems) con el verbo al final de la subordinada e indica un plazo."
+  }
+ }
+}

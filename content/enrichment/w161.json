@@ -1,0 +1,81 @@
+{
+ "week": 161,
+ "da": {
+  "dialogue2": {
+   "context": "Una asesora revisa el discurso del alcalde para inaugurar una biblioteca: él quiere sonar culto y ella teme que suene impostado ante un público experto.",
+   "lines": [
+    {"text": "Jeg har tilføjet et citat af Kierkegaard og et par latinske vendinger.", "es": "He añadido una cita de Kierkegaard y un par de giros latinos."},
+    {"text": "Modigt. Publikum er bibliotekarer — de har læst ham grundigere end os begge.", "es": "Valiente. El público son bibliotecarios: lo han leído más a fondo que nosotros dos."},
+    {"text": "Du mener, det virker prætentiøst?", "es": "¿Quieres decir que suena pretencioso?"},
+    {"text": "Jeg mener, at de vil høre dig, ikke en ordbog.", "es": "Quiero decir que quieren oírte a ti, no a un diccionario."},
+    {"text": "Men „vi er glade for biblioteket“ er da for fladt.", "es": "Pero «estamos contentos con la biblioteca» es demasiado plano, hombre."},
+    {"text": "Enig. Sig hellere, hvad bygningen gør muligt — konkret og med én skarp sætning.", "es": "De acuerdo. Di mejor qué hace posible el edificio: en concreto y con una sola frase afilada."},
+    {"text": "Og Kierkegaard?", "es": "¿Y Kierkegaard?"},
+    {"text": "Han må gerne blive hjemme denne gang.", "es": "Puede quedarse en casa esta vez."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir la asesora con «Valiente»?",
+   "choices": ["Que la cita es arriesgada ante un público que conoce al autor mejor que él", "Que admira la audacia intelectual del alcalde", "Que Kierkegaard es un autor polémico para una biblioteca"]
+  },
+  "grammar": {
+   "focus": "Registro culto: el verbo preciso en lugar del genérico",
+   "explain": "En registro elevado se prefiere el verbo exacto al comodín: få → modtage, lave → udarbejde, bruge → anvende. La elevación debe ganar precisión, no solo longitud.",
+   "items": [
+    {"prompt": "Kommunen har ___ en betydelig donation til biblioteket. (culto de «fået»)", "answer": "modtaget", "es": "El ayuntamiento ha recibido una donación considerable para la biblioteca."},
+    {"prompt": "Arkitekten har ___ en plan, der forener læsesal og værksted. (culto de «lavet», un documento)", "answer": "udarbejdet", "es": "El arquitecto ha elaborado un plan que une sala de lectura y taller."},
+    {"prompt": "Lokalerne ___ i dag til både undervisning og koncerter. (culto de «bruges»)", "answer": "anvendes", "es": "Hoy los espacios se emplean tanto para clases como para conciertos."}
+   ]
+  },
+  "vocab": [
+   {"text": "slå om sig med", "es": "hacer alarde de, soltar a diestro y siniestro", "example": "Det er fristende at slå om sig med citater.", "example_es": "Es tentador soltar citas a diestro y siniestro."},
+   {"text": "skarp formulering", "es": "formulación afilada", "example": "Én skarp formulering bærer mere end tre citater.", "example_es": "Una formulación afilada pesa más que tres citas."},
+   {"text": "tale ned til", "es": "hablar con condescendencia a", "example": "Man skal hverken imponere publikum eller tale ned til det.", "example_es": "No hay que impresionar al público ni hablarle con condescendencia."},
+   {"text": "ramme tonen", "es": "dar con el tono", "example": "Det svære er at ramme tonen uden at posere.", "example_es": "Lo difícil es dar con el tono sin posar."}
+  ],
+  "transfer": {
+   "prompt": "Reescribe para la revista de una academia (público culto) el anuncio plano de un ciclo de conferencias. Escribe 6–8 frases que eleven el registro sin pedantería y explica en la última qué has cambiado.",
+   "model": "Til efteråret indbyder Akademiet til en række forelæsninger om sprogets forandring i den digitale tidsalder. Forelæsningerne henvender sig ikke kun til fagfolk, men til enhver, der undrer sig over, hvorfor vi skriver, som vi gør. Hver aften tager udgangspunkt i et konkret fænomen — fra forkortelser til emojis — og anlægger derefter et historisk perspektiv. Der lægges vægt på samtale frem for monolog; spørgsmål er ikke blot tilladt, men ønsket. Foredragsholderne er udvalgt for deres evne til at gøre det komplicerede klart, ikke for deres titler. Vi håber, at rækken vil skærpe både nysgerrigheden og dømmekraften hos vores tilhørere. Frem for at stable fremmedord har jeg valgt præcise verber og varieret sætningslængden.",
+   "rubric": "Elige verbos precisos en vez de genéricos; varía la longitud y el ritmo de las frases; evita extranjerismos y jerga innecesarios; mantiene un tono invitante y respetuoso; la última frase explica de forma metatextual los cambios."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una asesora revisa el discurso del alcalde para inaugurar una biblioteca: él quiere sonar culto y ella teme que suene impostado ante un público experto.",
+   "lines": [
+    {"text": "Ech hunn en Zitat vum Montaigne an e puer laténgesch Ausdréck dobäigesat.", "es": "He añadido una cita de Montaigne y unas cuantas expresiones latinas."},
+    {"text": "Couragéiert. D'Publikum si Bibliothekären — déi hunn hie méi grëndlech gelies wéi mir zwee.", "es": "Valiente. El público son bibliotecarios: lo han leído más a fondo que nosotros dos."},
+    {"text": "Du mengs, dat wierkt pretentiéis?", "es": "¿Quieres decir que suena pretencioso?"},
+    {"text": "Ech mengen, si wëllen dech héieren, net e Wierderbuch.", "es": "Quiero decir que quieren oírte a ti, no a un diccionario."},
+    {"text": "Mä „mir si frou mat der Bibliothéik“ ass dach ze flaach.", "es": "Pero «estamos contentos con la biblioteca» es demasiado plano, hombre."},
+    {"text": "Averstanen. So léiwer, wat d'Gebai méiglech mécht — konkret, mat engem eenzege schaarfe Saz.", "es": "De acuerdo. Di mejor qué hace posible el edificio: en concreto, con una sola frase afilada."},
+    {"text": "An de Montaigne?", "es": "¿Y Montaigne?"},
+    {"text": "Dee kann dës Kéier doheem bleiwen.", "es": "Ese puede quedarse en casa esta vez."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir la asesora con «Valiente»?",
+   "choices": ["Que la cita es arriesgada ante un público que conoce al autor mejor que él", "Que admira la audacia intelectual del alcalde", "Que Montaigne es un autor polémico para una biblioteca"]
+  },
+  "grammar": {
+   "focus": "Conectores subordinantes de registro culto: andeems, soudatt, obwuel",
+   "explain": "En registro culto las relaciones lógicas se hacen explícitas con conectores que mandan el verbo al final: andeems (mediante, al + infinitivo), soudatt (de modo que), obwuel (aunque). Ej.: Hien iwwerzeegt, andeems hie präzis bleift.",
+   "items": [
+    {"prompt": "De Rieder iwwerzeegt, ___ hie präzis bleift amplaz ze posen. (mediante)", "answer": "andeems", "es": "El orador convence manteniéndose preciso en vez de posar."},
+    {"prompt": "Den Text ass kloer strukturéiert, ___ de Lieser ni de Fuedem verléiert. (de modo que)", "answer": "soudatt", "es": "El texto está claramente estructurado, de modo que el lector nunca pierde el hilo."},
+    {"prompt": "___ de Sujet komplex ass, bleift d'Sprooch einfach. (aunque)", "answer": "Obwuel", "es": "Aunque el tema es complejo, el lenguaje sigue siendo sencillo."}
+   ]
+  },
+  "vocab": [
+   {"text": "de richtegen Toun", "es": "el tono adecuado", "example": "Et ass schwéier, de richtegen Toun ze treffen.", "example_es": "Es difícil dar con el tono adecuado."},
+   {"text": "kënschtlech", "es": "artificial, impostado", "example": "Déi laténgesch Ausdréck wierke kënschtlech.", "example_es": "Las expresiones latinas suenan impostadas."},
+   {"text": "vun uewen erof", "es": "desde arriba, con condescendencia", "example": "E gudde Rieder schwätzt net vun uewen erof mat de Leit.", "example_es": "Un buen orador no habla a la gente con condescendencia."},
+   {"text": "op de Punkt", "es": "certero, al grano", "example": "Ee Saz, deen op de Punkt ass, bleift hänken.", "example_es": "Una frase certera se queda grabada."}
+  ],
+  "transfer": {
+   "prompt": "Reescribe para la revista de una academia (público culto) el anuncio plano de un ciclo de conferencias. Escribe 6–8 frases que eleven el registro sin pedantería y explica en la última qué has cambiado.",
+   "model": "Am Hierscht invitéiert d'Akademie zu enger Rei Virträg iwwer de Wandel vun der Sprooch am digitalen Zäitalter. D'Virträg riichte sech net nëmmen u Fachleit, mä un all déi, déi sech froen, firwat mir esou schreiwen, wéi mir schreiwen. All Owend geet vun engem konkrete Phänomen aus — vun Ofkierzungen bis Emojien — a setzt et duerno an en historesche Kontext. Mir leeë Wäert op Gespréich amplaz Monolog; Froe sinn net nëmmen erlaabt, mä erwënscht. D'Rieder goufen ausgewielt, well se dat Komplizéiert kloer maache kënnen, net wéinst hiren Titelen. Mir hoffen, datt d'Rei bei eise Gäscht esouwuel d'Virwëtz wéi och dat kritescht Denken schäerft. Amplaz Friemwierder unenee ze reien, hunn ech präzis Verben gewielt an d'Längt vun de Sätz variéiert.",
+   "rubric": "Elige verbos precisos en vez de genéricos; hace explícitas las relaciones lógicas con conectores cultos; varía la longitud y el ritmo de las frases; evita extranjerismos innecesarios; la última frase explica de forma metatextual los cambios."
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "week": 46,
+ "da": {
+  "dialogue2": {
+   "context": "Lunes por la mañana: una compañera pregunta por un plan del sábado que no salió como estaba previsto.",
+   "lines": [
+    {"text": "Godmorgen! Fik du set koncerten i lørdags?", "es": "¡Buenos días! ¿Al final viste el concierto el sábado?"},
+    {"text": "Nej, den blev aflyst på grund af regnen.", "es": "No, la cancelaron por la lluvia."},
+    {"text": "Øv! Hvad lavede du så i stedet?", "es": "¡Qué pena! ¿Y qué hiciste en su lugar?"},
+    {"text": "Vi tog i biografen og spiste bagefter hos min søster.", "es": "Fuimos al cine y después cenamos en casa de mi hermana."},
+    {"text": "Det lyder faktisk hyggeligt.", "es": "Pues suena agradable."},
+    {"text": "Ja, det blev en god aften alligevel.", "es": "Sí, al final fue una buena noche de todos modos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué cambió el plan del sábado?",
+   "choices": ["Cancelaron el concierto por la lluvia", "La hermana estaba enferma", "El cine estaba cerrado"]
+  },
+  "grammar": {
+   "focus": "Pasado (datid) de verbos irregulares frecuentes",
+   "explain": "Muchos verbos frecuentes cambian de vocal en pasado: gå → gik, tage → tog, få → fik, være → var. La forma no cambia con la persona: jeg gik, vi gik.",
+   "items": [
+    {"prompt": "I søndags ___ vi en tur i skoven. (gå)", "answer": "gik", "es": "El domingo dimos un paseo por el bosque."},
+    {"prompt": "Hun ___ toget til Aarhus fredag aften. (tage)", "answer": "tog", "es": "Ella tomó el tren a Aarhus el viernes por la noche."},
+    {"prompt": "Jeg ___ ikke tid til at handle. (få)", "answer": "fik", "es": "No tuve tiempo de hacer la compra."}
+   ]
+  },
+  "vocab": [
+   {"text": "aflyst", "es": "cancelado", "example": "Koncerten blev aflyst.", "example_es": "Cancelaron el concierto."},
+   {"text": "i stedet", "es": "en su lugar", "example": "Vi tog i biografen i stedet.", "example_es": "Fuimos al cine en su lugar."},
+   {"text": "alligevel", "es": "de todos modos", "example": "Det blev en god aften alligevel.", "example_es": "Al final fue una buena noche de todos modos."},
+   {"text": "i lørdags", "es": "el sábado pasado", "example": "Fik du set koncerten i lørdags?", "example_es": "¿Viste el concierto el sábado pasado?"}
+  ],
+  "transfer": {
+   "prompt": "Un compañero te pregunta el lunes por tu fin de semana. Cuenta un plan que cambió: qué pensabas hacer, qué pasó y qué hiciste al final (3–4 frases).",
+   "model": "Jeg ville egentlig cykle til stranden i lørdags. Men det stormede hele dagen, så vi blev hjemme. Vi bagte boller og så en film i stedet. Det var faktisk rart at slappe af.",
+   "rubric": "Usa al menos dos verbos en pasado, explica el cambio de plan con «men» o «så» y termina con una valoración."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Lunes por la mañana: una compañera pregunta por un plan del sábado que no salió como estaba previsto.",
+   "lines": [
+    {"text": "Moien! Bass du e Samschdeg op de Concert gaangen?", "es": "¡Hola! ¿Fuiste al concierto el sábado?"},
+    {"text": "Neen, e gouf wéinst dem Reen ofgesot.", "es": "No, lo cancelaron por la lluvia."},
+    {"text": "Schued! Wat hues du dann amplaz gemaach?", "es": "¡Qué pena! ¿Y qué hiciste en su lugar?"},
+    {"text": "Mir sinn an de Kino gaangen an hunn duerno bei menger Schwëster giess.", "es": "Fuimos al cine y después cenamos en casa de mi hermana."},
+    {"text": "Dat kléngt dach gemittlech.", "es": "Pues suena agradable."},
+    {"text": "Jo, et war trotzdem e schéinen Owend.", "es": "Sí, al final fue una buena noche de todos modos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué cambió el plan del sábado?",
+   "choices": ["Cancelaron el concierto por la lluvia", "La hermana estaba enferma", "El cine estaba cerrado"]
+  },
+  "grammar": {
+   "focus": "Pasado compuesto (Perfekt) con «sinn» o «hunn»",
+   "explain": "Los verbos de movimiento o cambio de estado forman el Perfekt con «sinn» (ech sinn gaangen); la mayoría usa «hunn» (ech hunn gemaach). El participio va al final de la frase.",
+   "items": [
+    {"prompt": "E Sonndeg ___ mir an de Bësch trëppele gaangen.", "answer": "sinn", "es": "El domingo fuimos a pasear por el bosque."},
+    {"prompt": "Si ___ e Freideg den Zuch op Ettelbréck geholl.", "answer": "huet", "es": "Ella tomó el tren a Ettelbruck el viernes."},
+    {"prompt": "Ech ___ e Buch gelies.", "answer": "hunn", "es": "He leído un libro."}
+   ]
+  },
+  "vocab": [
+   {"text": "ofgesot", "es": "cancelado", "example": "De Concert gouf ofgesot.", "example_es": "Cancelaron el concierto."},
+   {"text": "amplaz", "es": "en su lugar", "example": "Mir sinn amplaz an de Kino gaangen.", "example_es": "Fuimos al cine en su lugar."},
+   {"text": "trotzdem", "es": "de todos modos", "example": "Et war trotzdem e schéinen Owend.", "example_es": "Fue una buena noche de todos modos."},
+   {"text": "duerno", "es": "después", "example": "Duerno hu mir bei menger Schwëster giess.", "example_es": "Después cenamos en casa de mi hermana."}
+  ],
+  "transfer": {
+   "prompt": "Un compañero te pregunta el lunes por tu fin de semana. Cuenta un plan que cambió: qué pensabas hacer, qué pasó y qué hiciste al final (3–4 frases).",
+   "model": "Ech wollt e Samschdeg eigentlech mam Velo un d'Musel fueren. Mee et huet de ganzen Dag gestiermt, also si mir doheem bliwwen. Mir hu Kuch gebak an amplaz e Film gekuckt. Et war trotzdem flott, mol näischt ze maachen.",
+   "rubric": "Usa al menos dos verbos en Perfekt (con «sinn» y con «hunn»), explica el cambio de plan con «mee» o «also» y termina con una valoración."
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "week": 48,
+ "da": {
+  "dialogue2": {
+   "context": "Una agencia de empleo llama a Lucía por un puesto de recepcionista; ella resume su experiencia en un hotel y en una tienda.",
+   "lines": [
+    {"text": "Du søger jobbet i receptionen. Har du prøvet det før?", "es": "Solicitas el puesto de recepción. ¿Lo has hecho antes?"},
+    {"text": "Ja, jeg har arbejdet tre år på et hotel i Málaga.", "es": "Sí, he trabajado tres años en un hotel de Málaga."},
+    {"text": "Hvad lavede du der helt konkret?", "es": "¿Qué hacías allí en concreto?"},
+    {"text": "Jeg tog imod gæster og svarede på mails på engelsk.", "es": "Recibía a los huéspedes y contestaba correos en inglés."},
+    {"text": "Har du også erfaring med kassesystemer?", "es": "¿Tienes también experiencia con sistemas de caja?"},
+    {"text": "Ja, sidste år havde jeg et deltidsjob i en tøjbutik.", "es": "Sí, el año pasado tuve un trabajo de media jornada en una tienda de ropa."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué podría encajar Lucía en el puesto?",
+   "choices": ["Ha atendido a clientes en un hotel y ha usado cajas en una tienda", "Ha trabajado tres años en una recepción en Dinamarca", "Solo ha trabajado en un almacén preparando pedidos"]
+  },
+  "grammar": {
+   "focus": "Førnutid (har + participio) frente a datid",
+   "explain": "La førnutid (har arbejdet) habla de experiencia hasta hoy, sin fecha concreta. La datid (arbejdede, havde) se usa con un momento cerrado del pasado: sidste år, i 2021.",
+   "items": [
+    {"prompt": "Jeg ___ aldrig arbejdet med børn før. (have)", "answer": "har", "es": "Nunca he trabajado con niños."},
+    {"prompt": "I 2021 ___ hun på et bageri i Odense. (arbejde)", "answer": "arbejdede", "es": "En 2021 trabajaba en una panadería de Odense."},
+    {"prompt": "Har du nogensinde ___ et kassesystem? (bruge)", "answer": "brugt", "es": "¿Has usado alguna vez un sistema de caja?"}
+   ]
+  },
+  "vocab": [
+   {"text": "erfaring med", "es": "experiencia con", "example": "Har du også erfaring med kassesystemer?", "example_es": "¿Tienes también experiencia con sistemas de caja?"},
+   {"text": "et deltidsjob", "es": "un trabajo de media jornada", "example": "Sidste år havde jeg et deltidsjob i en butik.", "example_es": "El año pasado tuve un trabajo de media jornada en una tienda."},
+   {"text": "tog imod", "es": "recibía, atendía", "example": "Jeg tog imod gæster i receptionen.", "example_es": "Recibía a los huéspedes en la recepción."},
+   {"text": "helt konkret", "es": "en concreto", "example": "Hvad lavede du der helt konkret?", "example_es": "¿Qué hacías allí en concreto?"}
+  ],
+  "transfer": {
+   "prompt": "Escribe un párrafo breve para tu perfil en una web de empleo: dos trabajos anteriores, qué hacías y qué sabes hacer bien (4–5 frases).",
+   "model": "Jeg har arbejdet i servicebranchen i fem år. Fra 2019 til 2022 var jeg receptionist på et hotel i Málaga. Der tog jeg imod gæster og løste problemer på engelsk og spansk. Sidste år havde jeg et deltidsjob i en butik. Jeg er god til at tale med kunder.",
+   "rubric": "Combina la førnutid (har arbejdet) con la datid para etapas con fecha (var, havde), menciona tareas concretas y termina con una habilidad."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una agencia de empleo llama a Lucía por un puesto de recepcionista; ella resume su experiencia en un hotel y en una tienda.",
+   "lines": [
+    {"text": "Dir wëllt op der Receptioun schaffen. Hutt Dir dat scho gemaach?", "es": "Quiere trabajar en recepción. ¿Lo ha hecho ya antes?"},
+    {"text": "Jo, ech war dräi Joer an engem Hotel zu Málaga.", "es": "Sí, estuve tres años en un hotel de Málaga."},
+    {"text": "A wat hutt Dir do genee gemaach?", "es": "¿Y qué hacía allí exactamente?"},
+    {"text": "Ech hunn d'Gäscht begréisst an op Englesch Mailen beäntwert.", "es": "Recibía a los huéspedes y contestaba correos en inglés."},
+    {"text": "Hutt Dir och scho mat enger Keess geschafft?", "es": "¿Ha trabajado también con caja registradora?"},
+    {"text": "Jo, d'lescht Joer hat ech eng Deelzäitaarbecht an engem Kleederbuttek.", "es": "Sí, el año pasado tuve un trabajo de media jornada en una tienda de ropa."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué podría encajar Lucía en el puesto?",
+   "choices": ["Ha atendido a clientes en un hotel y ha usado cajas en una tienda", "Ha trabajado tres años en una recepción en Luxemburgo", "Solo ha trabajado en un almacén preparando pedidos"]
+  },
+  "grammar": {
+   "focus": "Imperfekt de «sinn», «hunn» y de los modales",
+   "explain": "En luxemburgués casi todos los verbos cuentan el pasado con el Perfekt, pero «sinn», «hunn» y los modales usan mucho el Imperfekt: ech war, ech hat, ech konnt, ech musst.",
+   "items": [
+    {"prompt": "Virun zwee Joer ___ ech Verkeeferin an enger Bäckerei. (sinn)", "answer": "war", "es": "Hace dos años era dependienta en una panadería."},
+    {"prompt": "Mir ___ do vill Clienten aus dem Ausland. (hunn)", "answer": "haten", "es": "Allí teníamos muchos clientes del extranjero."},
+    {"prompt": "Ech ___ all Moie fréi ufänken. (mussen)", "answer": "musst", "es": "Tenía que empezar temprano cada mañana."}
+   ]
+  },
+  "vocab": [
+   {"text": "eng Deelzäitaarbecht", "es": "un trabajo de media jornada", "example": "D'lescht Joer hat ech eng Deelzäitaarbecht.", "example_es": "El año pasado tuve un trabajo de media jornada."},
+   {"text": "Erfarung", "es": "experiencia", "example": "Ech hunn Erfarung mat Clienten aus dem Ausland.", "example_es": "Tengo experiencia con clientes del extranjero."},
+   {"text": "d'Gäscht begréissen", "es": "recibir a los huéspedes", "example": "Op der Receptioun muss ech d'Gäscht begréissen.", "example_es": "En recepción tengo que recibir a los huéspedes."},
+   {"text": "genee", "es": "exactamente", "example": "Wat hutt Dir do genee gemaach?", "example_es": "¿Qué hacía allí exactamente?"}
+  ],
+  "transfer": {
+   "prompt": "Escribe un párrafo breve para tu perfil en una web de empleo: dos trabajos anteriores, qué hacías y qué sabes hacer bien (4–5 frases).",
+   "model": "Ech schaffe scho fënnef Joer am Service. Vun 2019 bis 2022 war ech Receptionistin an engem Hotel zu Málaga. Do hunn ech d'Gäscht begréisst a Problemer op Englesch a Spuenesch geléist. D'lescht Joer hat ech eng Deelzäitaarbecht an engem Buttek. Ech ka gutt mat Clienten ëmgoen.",
+   "rubric": "Usa «war» y «hat» para etapas cerradas, el Perfekt para tareas concretas y termina con una habilidad."
+  }
+ }
+}

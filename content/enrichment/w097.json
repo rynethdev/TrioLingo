@@ -1,0 +1,81 @@
+{
+ "week": 97,
+ "da": {
+  "dialogue2": {
+   "context": "Una responsable de selección llama a la antigua jefa de un candidato para pedir referencias; ella lo recomienda, pero menciona un punto débil.",
+   "lines": [
+    {"text": "Tak, fordi du vil give en reference for Ahmed. Hvordan var han som medarbejder?", "es": "Gracias por darnos referencias de Ahmed. ¿Cómo era como empleado?"},
+    {"text": "Rigtig dygtig. Han var den, som kunderne altid spurgte efter.", "es": "Muy bueno. Era al que los clientes siempre pedían."},
+    {"text": "Kan du give et konkret eksempel?", "es": "¿Puedes darme un ejemplo concreto?"},
+    {"text": "Sidste vinter fik han en meget utilfreds storkunde til at forlænge kontrakten.", "es": "El invierno pasado consiguió que un gran cliente muy descontento renovara el contrato."},
+    {"text": "Imponerende. Er der noget, han kunne blive bedre til?", "es": "Impresionante. ¿Hay algo en lo que podría mejorar?"},
+    {"text": "Han siger sjældent nej, så han tager nogle gange for meget på sig.", "es": "Rara vez dice que no, así que a veces se carga con demasiado."},
+    {"text": "Det er godt at vide. Ville du ansætte ham igen?", "es": "Es bueno saberlo. ¿Lo volverías a contratar?"},
+    {"text": "Uden tøven.", "es": "Sin dudarlo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué valoración general da la antigua jefa del candidato?",
+   "choices": ["Lo recomienda claramente, aunque señala que a veces asume demasiado", "Lo recomienda solo para puestos sin trato con clientes", "Tiene dudas porque no sabe tratar con clientes difíciles"]
+  },
+  "grammar": {
+   "focus": "Posición de los adverbios (altid, aldrig, sjældent, ikke)",
+   "explain": "En la oración principal el adverbio va detrás del verbo conjugado: «Han siger sjældent nej». En la subordinada va delante del verbo: «…, fordi han altid overholder sine frister», «den, som kunderne altid spurgte efter».",
+   "items": [
+    {"prompt": "Hun er en kollega, som ___ en aftale. (aldrig + glemme, presente)", "answer": "aldrig glemmer", "es": "Es una compañera que nunca olvida una cita."},
+    {"prompt": "Jeg anbefaler ham, fordi han ___ sine frister. (altid + overholde, presente)", "answer": "altid overholder", "es": "Lo recomiendo porque siempre cumple sus plazos."},
+    {"prompt": "Han ___ om hjælp, selv når han har for travlt. (sjældent + bede, presente)", "answer": "beder sjældent", "es": "Rara vez pide ayuda, incluso cuando está desbordado."}
+   ]
+  },
+  "vocab": [
+   {"text": "spurgte efter", "es": "preguntó por, pidió (a alguien)", "example": "Der var en kunde, der spurgte efter dig i dag.", "example_es": "Hoy ha preguntado por ti un cliente."},
+   {"text": "uden tøven", "es": "sin dudarlo", "example": "Jeg ville ansætte hende igen uden tøven.", "example_es": "La volvería a contratar sin dudarlo."},
+   {"text": "for meget på sig", "es": "demasiado (trabajo) sobre sí", "example": "Hun tager nogle gange for meget på sig.", "example_es": "A veces se carga con demasiado."},
+   {"text": "reference", "es": "referencia", "example": "Må jeg opgive dig som reference?", "example_es": "¿Puedo darte como referencia?"}
+  ],
+  "transfer": {
+   "prompt": "Un antiguo compañero de voluntariado te pide una carta breve de recomendación para un puesto de coordinador. Escríbela (5–6 frases, formal): relación, dos cualidades con un ejemplo concreto y una recomendación final.",
+   "model": "Jeg har kendt Tobias i tre år som frivillig i en genbrugsbutik i Odense. Han er en person, som altid møder op til tiden, og som de andre frivillige stoler på. Da butikken manglede folk sidste sommer, lavede han på eget initiativ en ny vagtplan, som alle var tilfredse med. Han lytter godt og bevarer roen, selv når der er travlt. Jeg kan derfor varmt anbefale ham som koordinator. Jeg står gerne til rådighed for yderligere oplysninger.",
+   "rubric": "Explica la relación, nombra dos cualidades con un ejemplo concreto, coloca bien al menos dos adverbios (altid, aldrig, ikke…) en subordinadas y termina con una recomendación clara."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una responsable de selección llama a la antigua jefa de un candidato para pedir referencias; ella lo recomienda, pero menciona un punto débil.",
+   "lines": [
+    {"text": "Merci, datt Dir eng Referenz fir den Ahmed gitt. Wéi war hien als Mataarbechter?", "es": "Gracias por darnos referencias de Ahmed. ¿Cómo era como empleado?"},
+    {"text": "Ganz gutt. Hie war deen, no deem d'Clienten ëmmer gefrot hunn.", "es": "Muy bueno. Era por quien los clientes siempre preguntaban."},
+    {"text": "Kënnt Dir mir e konkret Beispill ginn?", "es": "¿Me puede dar un ejemplo concreto?"},
+    {"text": "De leschte Wanter hat e grousse Client gekënnegt, mee den Ahmed huet en iwwerzeegt ze bleiwen.", "es": "El invierno pasado, un cliente grande había rescindido el contrato, pero Ahmed lo convenció para que se quedara."},
+    {"text": "Beandrockend. Gëtt et eppes, wou hie sech nach verbessere kéint?", "es": "Impresionante. ¿Hay algo en lo que todavía podría mejorar?"},
+    {"text": "Hie seet seele Nee, dofir iwwerhëlt hien heiansdo ze vill.", "es": "Rara vez dice que no, por eso a veces asume demasiado."},
+    {"text": "Gutt ze wëssen. Géift Dir hien nees astellen?", "es": "Es bueno saberlo. ¿Lo volvería a contratar?"},
+    {"text": "Ouni ze zécken.", "es": "Sin dudarlo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué valoración general da la antigua jefa del candidato?",
+   "choices": ["Lo recomienda claramente, aunque señala que a veces asume demasiado", "Lo recomienda solo para puestos sin trato con clientes", "Tiene dudas porque perdió a un cliente importante"]
+  },
+  "grammar": {
+   "focus": "Pluscuamperfecto (Plusquamperfekt): hat/war + participio",
+   "explain": "Expresa algo anterior a otro hecho pasado: «De Client hat gekënnegt, mee den Ahmed huet en iwwerzeegt». Se forma con «hat» o «war» + participio; los verbos que hacen el Perfekt con «sinn» usan «war»: «Si war scho fortgaangen».",
+   "items": [
+    {"prompt": "Wéi ech ukomm sinn, ___ d'Kollegen d'Reunioun schonn ugefaangen. (hunn, plural)", "answer": "haten", "es": "Cuando llegué, los compañeros ya habían empezado la reunión."},
+    {"prompt": "D'Maria ___ scho fortgaangen, wéi de Client ugeruff huet. (sinn)", "answer": "war", "es": "María ya se había ido cuando llamó el cliente."},
+    {"prompt": "Nodeems hien de Projet ofgeschloss ___, huet hien eng Promotioun kritt. (hunn)", "answer": "hat", "es": "Después de haber terminado el proyecto, le ascendieron."}
+   ]
+  },
+  "vocab": [
+   {"text": "Referenz", "es": "referencia", "example": "Dierf ech Iech als Referenz uginn?", "example_es": "¿Puedo darle como referencia?"},
+   {"text": "ouni ze zécken", "es": "sin dudarlo", "example": "Ech géif hatt ouni ze zécken nees astellen.", "example_es": "La volvería a contratar sin dudarlo."},
+   {"text": "iwwerzeegt", "es": "convencido", "example": "Si huet de Client iwwerzeegt ze bleiwen.", "example_es": "Convenció al cliente para que se quedara."},
+   {"text": "astellen", "es": "contratar", "example": "D'Firma wëll dëst Joer zwou Persounen astellen.", "example_es": "La empresa quiere contratar a dos personas este año."}
+  ],
+  "transfer": {
+   "prompt": "Un antiguo compañero de voluntariado te pide una carta breve de recomendación para un puesto de coordinador. Escríbela (5–6 frases, formal): relación, dos cualidades con un ejemplo concreto y una recomendación final.",
+   "model": "Ech kennen den Tobias zënter dräi Joer als Fräiwëllegen an engem Second-Hand-Buttek zu Esch. Virdrun hat hien zwee Joer an der Logistik geschafft, wat een direkt mierkt. Hien ass eng Persoun, déi ëmmer pénktlech ass an op déi sech déi aner Fräiwëlleg verloosse kënnen. Wéi eis lescht Summer Leit gefeelt hunn, huet hien op eegen Initiativ en neie Schichtplang ausgeschafft, mat deem jiddereen zefridde war. Dofir kann ech hie fir de Poste vum Koordinator wäermstens recommandéieren. Fir weider Informatioune stinn ech gär zur Verfügung.",
+   "rubric": "Explica la relación, nombra dos cualidades con un ejemplo concreto, usa al menos un Plusquamperfekt (hat/war + participio) y termina con una recomendación clara."
+  }
+ }
+}

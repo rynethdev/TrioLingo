@@ -1,0 +1,81 @@
+{
+ "week": 135,
+ "da": {
+  "dialogue2": {
+   "context": "Una empleada cuenta a una amiga que ha visto a un compañero, que además es amigo suyo, inflar sus gastos de viaje; juntas sopesan lealtad y honestidad.",
+   "lines": [
+    {"text": "Jeg har opdaget, at Mads runder sine rejseudgifter op hver eneste måned.", "es": "He descubierto que Mads redondea al alza sus gastos de viaje todos los meses."},
+    {"text": "Hvor meget drejer det sig om? Det gør vel en forskel, om det er småbeløb.", "es": "¿De cuánto estamos hablando? Supongo que importa si son cantidades pequeñas."},
+    {"text": "Måske tre hundrede kroner om måneden, men det er jo princippet.", "es": "Quizá trescientas coronas al mes, pero es una cuestión de principios."},
+    {"text": "Hvis jeg var dig, ville jeg tale med ham selv, før du går til nogen anden.", "es": "Yo en tu lugar hablaría con él antes de acudir a nadie más."},
+    {"text": "Det har jeg tænkt på, men så bliver jeg jo medvidende, hvis han fortsætter.", "es": "Lo he pensado, pero entonces pasaría a saberlo y callar si él sigue haciéndolo."},
+    {"text": "Det er rigtigt; så ville du stå i en værre situation end nu.", "es": "Es verdad; entonces estarías en una situación peor que ahora."},
+    {"text": "Netop. Loyaliteten over for ham trækker i én retning, ærligheden over for firmaet i en anden.", "es": "Exacto. La lealtad hacia él tira en una dirección y la honestidad hacia la empresa, en otra."},
+    {"text": "Måske kunne du give ham en frist: enten retter han det selv, eller også siger du det videre.", "es": "Quizá podrías darle un plazo: o lo corrige él mismo, o lo comunicas tú."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué duda la empleada de la solución de hablar solo con el compañero?",
+   "choices": ["Porque si él sigue haciéndolo, ella pasaría a ser cómplice consciente", "Porque teme que él la denuncie a ella por algo parecido", "Porque la cantidad es demasiado grande para resolverlo en privado"]
+  },
+  "grammar": {
+   "focus": "Condicional irreal: hvis + pretérito, ville/kunne + infinitivo",
+   "explain": "Para hipótesis y consejos se combina «hvis» + pretérito con «ville» o «kunne» + infinitivo: Hvis jeg var dig, ville jeg tale med ham. Aquí el pretérito no expresa pasado, sino irrealidad o distancia.",
+   "items": [
+    {"prompt": "Hvis jeg ___ dig, ville jeg tale med ham først. (være)", "answer": "var", "es": "Si yo fuera tú, hablaría primero con él."},
+    {"prompt": "Hvis du sagde det videre nu, ___ han miste sit job. (kan, en pretérito)", "answer": "kunne", "es": "Si lo contaras ahora, él podría perder su trabajo."},
+    {"prompt": "Hvis han rettede det selv, ___ sagen være ude af verden. (vil, en pretérito)", "answer": "ville", "es": "Si él mismo lo corrigiera, el asunto quedaría zanjado."}
+   ]
+  },
+  "vocab": [
+   {"text": "drejer sig om", "es": "se trata de", "example": "Sagen drejer sig om små beløb hver måned.", "example_es": "El asunto se trata de cantidades pequeñas cada mes."},
+   {"text": "princippet", "es": "el principio (cuestión de principios)", "example": "Beløbet er lille, men det er princippet, der tæller.", "example_es": "La cantidad es pequeña, pero lo que cuenta es el principio."},
+   {"text": "medvidende", "es": "conocedor y cómplice (que sabe y calla)", "example": "Hvis jeg tier, bliver jeg selv medvidende.", "example_es": "Si me callo, me convierto en cómplice."},
+   {"text": "ude af verden", "es": "zanjado, resuelto", "example": "Hvis han betaler pengene tilbage, er sagen ude af verden.", "example_es": "Si devuelve el dinero, el asunto queda zanjado."}
+  ],
+  "transfer": {
+   "prompt": "Escribe una entrada breve (5–7 frases) para un foro anónimo de ética profesional: plantea el dilema sin datos identificables, nombra los valores en conflicto, describe dos opciones con sus consecuencias hipotéticas y pide consejo.",
+   "model": "Jeg står i et dilemma, som jeg gerne vil høre andres syn på. En kollega, som også er en nær ven, runder systematisk sine rejseudgifter op med små beløb. På den ene side føler jeg loyalitet over for ham, på den anden side er jeg ansat til at passe på virksomhedens midler. Hvis jeg talte med ham først, kunne han rette op på det uden at tabe ansigt. Men hvis han fortsatte bagefter, ville jeg selv blive medvidende. Gik jeg derimod direkte til ledelsen, ville jeg handle korrekt, men sandsynligvis miste en ven. Hvordan ville I veje de to hensyn op mod hinanden?",
+   "rubric": "Plantea el dilema sin datos identificables; nombra explícitamente los dos valores en conflicto; desarrolla al menos dos hipótesis con condicional irreal (hvis + pretérito, ville/kunne); mantiene un tono reflexivo, no acusatorio; termina con una pregunta abierta."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una empleada cuenta a una amiga que ha visto a un compañero, que además es amigo suyo, inflar sus gastos de viaje; juntas sopesan lealtad y honestidad.",
+   "lines": [
+    {"text": "Ech hu gemierkt, datt de Mike all Mount seng Reeskäschte méi héich ugëtt, wéi se sinn.", "es": "Me he dado cuenta de que Mike declara cada mes unos gastos de viaje más altos de lo que son."},
+    {"text": "Ëm wéi vill geet et? Et mécht dach en Ënnerscheed, ob et kleng Montante sinn.", "es": "¿De cuánto se trata? Algo cambia si son cantidades pequeñas."},
+    {"text": "Vläicht dräisseg Euro de Mount, mä et geet jo ëm de Prinzip.", "es": "Quizá treinta euros al mes, pero es una cuestión de principios."},
+    {"text": "Wann ech an denger Plaz wier, géif ech fir d'éischt mat him selwer schwätzen.", "es": "Yo en tu lugar hablaría primero con él."},
+    {"text": "Un dat hunn ech och geduecht, mä da wier ech matschëlleg, wann hie weidermécht.", "es": "También lo he pensado, pero entonces sería cómplice si él sigue."},
+    {"text": "Dat stëmmt; da wiers du an enger méi schlëmmer Situatioun wéi elo.", "es": "Es verdad; entonces estarías en una situación peor que ahora."},
+    {"text": "Genee. D'Loyalitéit him vis-à-vis zitt an eng Richtung, d'Éierlechkeet vis-à-vis vun der Firma an eng aner.", "es": "Exacto. La lealtad hacia él tira en una dirección y la honestidad hacia la empresa, en otra."},
+    {"text": "Vläicht kéints du him eng Frist ginn: entweder korrigéiert hien et selwer, oder du sees et weider.", "es": "Quizá podrías darle un plazo: o lo corrige él mismo, o lo comunicas tú."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué duda la empleada de la solución de hablar solo con el compañero?",
+   "choices": ["Porque si él sigue haciéndolo, ella pasaría a ser cómplice consciente", "Porque teme que él la denuncie a ella por algo parecido", "Porque la cantidad es demasiado grande para resolverlo en privado"]
+  },
+  "grammar": {
+   "focus": "Condicional irreal: wann + Konjunktiv II, géif + infinitivo",
+   "explain": "Para hipótesis y consejos: «Wann ech an denger Plaz wier, géif ech …». En la subordinada con «wann» el verbo conjugado (wier, hätt, géif) va al final; en la principal, «géif», «kéint» o «wier» van en segunda posición.",
+   "items": [
+    {"prompt": "Wann ech an denger Plaz ___, géif ech mat him schwätzen. (sinn)", "answer": "wier", "es": "Si yo estuviera en tu lugar, hablaría con él."},
+    {"prompt": "Wann s du et elo weidersees, ___ hie seng Plaz verléieren. (kënnen, Konjunktiv II)", "answer": "kéint", "es": "Si lo contaras ahora, él podría perder su puesto."},
+    {"prompt": "Wann hien et selwer korrigéiere géif, ___ keen e Problem. (hunn, Konjunktiv II)", "answer": "hätt", "es": "Si él mismo lo corrigiera, nadie tendría un problema."}
+   ]
+  },
+  "vocab": [
+   {"text": "ëm de Prinzip", "es": "(cuestión) de principios", "example": "De Montant ass kleng, mä et geet ëm de Prinzip.", "example_es": "La cantidad es pequeña, pero es una cuestión de principios."},
+   {"text": "matschëlleg", "es": "cómplice", "example": "Wann ech schweien, ginn ech selwer matschëlleg.", "example_es": "Si me callo, me convierto yo misma en cómplice."},
+   {"text": "an denger Plaz", "es": "en tu lugar", "example": "An denger Plaz géif ech fir d'éischt mat him schwätzen.", "example_es": "En tu lugar, hablaría primero con él."},
+   {"text": "aus der Welt", "es": "zanjado (aus der Welt sinn)", "example": "Wann hien d'Suen zréckbezilt, ass d'Saach aus der Welt.", "example_es": "Si devuelve el dinero, el asunto queda zanjado."}
+  ],
+  "transfer": {
+   "prompt": "Escribe una entrada breve (5–7 frases) para un foro anónimo de ética profesional: plantea el dilema sin datos identificables, nombra los valores en conflicto, describe dos opciones con sus consecuencias hipotéticas y pide consejo.",
+   "model": "Ech sti virun engem Dilemma, an ech géif gär wëssen, wéi anerer dat gesinn. E Kolleg, deen och e gudde Frënd ass, gëtt seng Reeskäschte systematesch e bësse méi héich un, wéi se wierklech sinn. Engersäits fille ech mech him géigeniwwer loyal, anerersäits sinn ech agestallt, fir op d'Suen vun der Firma opzepassen. Wann ech fir d'éischt mat him schwätze géif, kéint hien et korrigéieren, ouni d'Gesiicht ze verléieren. Mä wann hien duerno weidermaache géif, wier ech selwer matschëlleg. Wann ech dogéint direkt bei d'Direktioun goe géif, géif ech korrekt handelen, mä wahrscheinlech e Frënd verléieren. Wéi géift dir déi zwee Wäerter géinteneen ofweien?",
+   "rubric": "Plantea el dilema sin datos identificables; nombra explícitamente los dos valores en conflicto; desarrolla al menos dos hipótesis con condicional irreal (wann … géif / wier, kéint); mantiene un tono reflexivo, no acusatorio; termina con una pregunta abierta."
+  }
+ }
+}

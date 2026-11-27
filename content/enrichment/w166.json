@@ -1,0 +1,81 @@
+{
+ "week": 166,
+ "da": {
+  "dialogue2": {
+   "context": "Un concejal ensaya con su jefa de prensa el discurso en defensa de una zona de bajas emisiones; ella le advierte de que callar los costes le restará credibilidad.",
+   "lines": [
+    {"text": "Jeg nævner bare fordelene: renere luft, færre syge børn. Det taler for sig selv.", "es": "Solo menciono las ventajas: aire más limpio, menos niños enfermos. Habla por sí solo."},
+    {"text": "Indtil en håndværker med en gammel varevogn rejser sig og spørger, hvem der betaler hans nye bil.", "es": "Hasta que un fontanero con una furgoneta vieja se levante y pregunte quién le paga el coche nuevo."},
+    {"text": "Så siger jeg, at vi har en overgangsordning.", "es": "Entonces digo que tenemos un régimen de transición."},
+    {"text": "Ja, men sig det først. Hvis han skal hive det ud af dig, virker det, som om du gemte det.", "es": "Sí, pero dilo primero. Si tiene que sacártelo, parecerá que lo escondías."},
+    {"text": "Er det ikke at give modstanderne ammunition?", "es": "¿No es dar munición a los adversarios?"},
+    {"text": "Nej, det er at tage den fra dem. De kan ikke afsløre det, du selv har sagt.", "es": "No, es quitársela. No pueden destapar lo que tú mismo has dicho."},
+    {"text": "Ganske vist, men talen bliver mindre begejstret.", "es": "Cierto, pero el discurso queda menos entusiasta."},
+    {"text": "Mindre begejstret, mere troværdig. Det er en god handel.", "es": "Menos entusiasta, más creíble. Es un buen trato."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué dice la jefa de prensa que mencionar el coste «es quitarles la munición»?",
+   "choices": ["Porque una objeción reconocida de antemano ya no puede usarse como revelación contra él", "Porque así los adversarios se quedarán sin argumentos de ningún tipo", "Porque el coste es en realidad insignificante"]
+  },
+  "grammar": {
+   "focus": "Estructuras concesivas: ganske vist … men, nok … men, omend",
+   "explain": "Para conceder antes de rebatir se usa «ganske vist» o «nok» en la primera parte y «men» en la segunda: Reformen koster ganske vist penge, men den betaler sig. «Omend» (si bien) es más culto y admite frase reducida: en klar, omend dyr løsning.",
+   "items": [
+    {"prompt": "Zonen er ___ vist en byrde for de små firmaer, men overgangsordningen letter den. (concesión culta)", "answer": "ganske", "es": "Es cierto que la zona es una carga para las pequeñas empresas, pero el régimen de transición la alivia."},
+    {"prompt": "Det er en nødvendig, ___ ubehagelig beslutning. (si bien)", "answer": "omend", "es": "Es una decisión necesaria, si bien incómoda."},
+    {"prompt": "Han har ___ ret i, at det koster, men regnestykket holder alligevel. (concesión neutra, una palabra)", "answer": "nok", "es": "Seguramente tiene razón en que cuesta, pero las cuentas salen de todos modos."}
+   ]
+  },
+  "vocab": [
+   {"text": "taler for sig selv", "es": "habla por sí solo", "example": "Tallene taler for sig selv.", "example_es": "Las cifras hablan por sí solas."},
+   {"text": "give modstanderne ammunition", "es": "dar munición a los adversarios", "example": "Det er dumt at give modstanderne ammunition.", "example_es": "Es una tontería dar munición a los adversarios."},
+   {"text": "brodden af", "es": "(quitar) hierro, (desactivar) el aguijón", "example": "Når du selv nævner prisen, tager du brodden af kritikken.", "example_es": "Si mencionas tú mismo el precio, le quitas hierro a la crítica."},
+   {"text": "en god handel", "es": "un buen trato", "example": "Mindre pynt og mere troværdighed er en god handel.", "example_es": "Menos adorno y más credibilidad es un buen trato."}
+  ],
+  "transfer": {
+   "prompt": "Escribe para el periódico local una tribuna breve (6–8 frases) a favor de una zona de bajas emisiones. Debes nombrar tú mismo la objeción más fuerte (el coste para pequeños negocios), responderla con datos y dejar la conclusión al lector.",
+   "model": "Lavemissionszonen vil gøre luften i bymidten markant renere, og det mærkes først hos børn og ældre. Det ville dog være uærligt at tie om prisen: for en håndværker med en ældre varevogn er kravet ganske vist en reel udgift. Netop derfor følger zonen med en overgangsordning på tre år og et tilskud, der dækker op til en tredjedel af en ny bil. Erfaringerne fra andre byer viser, at de fleste små firmaer nåede at omstille sig, omend nogle først i sidste øjeblik. Omvendt koster den forurenede luft hvert år kommunen millioner i sundhedsudgifter. Jeg beder ikke om, at man tager mine ord for gode varer. Se på tallene, og vurder selv, om regnestykket holder.",
+   "rubric": "Presenta la tesis con claridad; nombra la objeción más fuerte sin caricaturizarla; responde con datos concretos; usa estructuras concesivas («ganske vist … men», «omend»); evita apelar al miedo o a la presión; deja la valoración final al lector."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un concejal ensaya con su jefa de prensa el discurso en defensa de una zona de bajas emisiones; ella le advierte de que callar los costes le restará credibilidad.",
+   "lines": [
+    {"text": "Ech nennen einfach d'Virdeeler: méi propper Loft, manner krank Kanner. Dat schwätzt fir sech.", "es": "Solo menciono las ventajas: aire más limpio, menos niños enfermos. Habla por sí solo."},
+    {"text": "Bis en Handwierker mat enger aler Camionnette opsteet a freet, wien him den neien Auto finanzéiert.", "es": "Hasta que un artesano con una furgoneta vieja se levante y pregunte quién le financia el coche nuevo."},
+    {"text": "Da soen ech, datt mir eng Iwwergangsreegelung hunn.", "es": "Entonces digo que tenemos un régimen de transición."},
+    {"text": "Jo, mä so et als éischt. Wann hien et eréischt mat Nofroen erauskritt, gesäit et aus, wéi wann s du et verstoppt hätts.", "es": "Sí, pero dilo primero. Si solo lo saca a base de preguntar, parecerá que lo escondías."},
+    {"text": "Gëss du domat de Géigner net Munitioun?", "es": "¿No les das así munición a los adversarios?"},
+    {"text": "Neen, du hëls se hinnen ewech. Si kënnen net opdecken, wat s du selwer gesot hues.", "es": "No, se la quitas. No pueden destapar lo que tú mismo has dicho."},
+    {"text": "Dat stëmmt zwar, mä d'Ried klengt da manner begeeschtert.", "es": "Eso es verdad, pero entonces el discurso suena menos entusiasta."},
+    {"text": "Manner Begeeschterung, méi Glafwierdegkeet. Dat ass en Tausch, deen sech lount.", "es": "Menos entusiasmo, más credibilidad. Es un cambio que compensa."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué dice la jefa de prensa que mencionar el coste es «quitarles la munición»?",
+   "choices": ["Porque una objeción reconocida de antemano ya no puede usarse como revelación contra él", "Porque así los adversarios se quedarán sin argumentos de ningún tipo", "Porque el coste es en realidad insignificante"]
+  },
+  "grammar": {
+   "focus": "Estructuras concesivas: zwar … mä, och wann, allerdéngs",
+   "explain": "Para conceder antes de rebatir se usa «zwar» en la primera parte y «mä» en la segunda: D'Zon kascht zwar Suen, mä si lount sech. «Och wann» introduce una concesión con el verbo al final; «allerdéngs» matiza (eso sí, sin embargo).",
+   "items": [
+    {"prompt": "D'Zon ass ___ eng Belaaschtung fir kleng Betriber, mä d'Iwwergangsreegelung hëlleft. (primera parte de la concesión)", "answer": "zwar", "es": "Es cierto que la zona es una carga para las pequeñas empresas, pero el régimen de transición ayuda."},
+    {"prompt": "___ et onbequem ass, muss d'Fro gestallt ginn. (aunque, dos palabras)", "answer": "Och wann", "es": "Aunque sea incómodo, hay que plantear la pregunta."},
+    {"prompt": "D'Reform bréngt vill; si ass ___ net gratis. (eso sí, sin embargo)", "answer": "allerdéngs", "es": "La reforma aporta mucho; eso sí, no es gratis."}
+   ]
+  },
+  "vocab": [
+   {"text": "schwätze fir sech", "es": "hablan por sí solos", "example": "D'Zuele schwätze fir sech.", "example_es": "Las cifras hablan por sí solas."},
+   {"text": "de Géigner Munitioun", "es": "(dar) munición a los adversarios", "example": "Domat gëss du de Géigner Munitioun.", "example_es": "Con eso les das munición a los adversarios."},
+   {"text": "virewech", "es": "de antemano, por adelantado", "example": "Si hëlt déi stäerkst Kritik virewech.", "example_es": "Se adelanta a la crítica más fuerte."},
+   {"text": "lount sech", "es": "compensa, merece la pena", "example": "Déi Investitioun lount sech op dräi Joer.", "example_es": "Esa inversión compensa a tres años vista."}
+  ],
+  "transfer": {
+   "prompt": "Escribe para el periódico local una tribuna breve (6–8 frases) a favor de una zona de bajas emisiones. Debes nombrar tú mismo la objeción más fuerte (el coste para pequeños negocios), responderla con datos y dejar la conclusión al lector.",
+   "model": "Déi nei Zon mat niddregen Emissioune mécht d'Loft an der Stad däitlech méi propper, an dat spieren als éischt Kanner an eeler Leit. Et wier awer onéierlech, iwwer de Präis ze schweigen: fir en Handwierker mat enger aler Camionnette ass d'Reegelung zwar eng reell Ausgab. Grad dofir gëtt et eng Iwwergangszäit vun dräi Joer an en Zouschoss, deen bis zu engem Drëttel vun engem neie Gefier ofdeckt. D'Erfarungen aus anere Stied weisen, datt déi meescht kleng Betriber sech ëmgestallt hunn, och wann e puer eréischt am leschte Moment. Ëmgedréit kascht déi dreckeg Loft d'Gemeng all Joer Milliounen u Gesondheetskäschten. Dir musst mir net op mäi Wuert gleewen. Kuckt Iech d'Zuelen un, an uerteelt selwer, ob d'Rechnung opgeet.",
+   "rubric": "Presenta la tesis con claridad; nombra la objeción más fuerte sin caricaturizarla; responde con datos concretos; usa estructuras concesivas («zwar … mä», «och wann»); evita apelar al miedo o a la presión; deja la valoración final al lector."
+  }
+ }
+}

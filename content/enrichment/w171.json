@@ -1,0 +1,81 @@
+{
+ "week": 171,
+ "da": {
+  "dialogue2": {
+   "context": "Dos empleados leen un comunicado de la dirección que dice que «no todos los puestos se quedarán en la sede actual» y discuten si anuncia despidos o un traslado.",
+   "lines": [
+    {"text": "„Ikke alle stillinger bliver i det nuværende hus.“ Det er da en fyringsrunde.", "es": "«No todos los puestos se quedarán en la sede actual». Pues eso es una ronda de despidos."},
+    {"text": "Eller en flytning. Der står ikke, at stillingerne forsvinder — kun hvor de ikke skal være.", "es": "O un traslado. No dice que los puestos desaparezcan; solo dónde no van a estar."},
+    {"text": "Hvorfor skulle de formulere sig så kryptisk, hvis det bare var en flytning?", "es": "¿Por qué iban a expresarse de forma tan críptica si solo fuera un traslado?"},
+    {"text": "Måske fordi adressen ikke er besluttet endnu. Læs næste afsnit.", "es": "Quizá porque la nueva dirección aún no está decidida. Lee el párrafo siguiente."},
+    {"text": "„Vi forventer at kunne tilbyde alle medarbejdere en plads.“ Hm.", "es": "«Esperamos poder ofrecer un puesto a todos los empleados». Hum."},
+    {"text": "„En plads“ — ikke nødvendigvis „deres plads“. Den er også tvetydig.", "es": "«Un puesto», no necesariamente «su puesto». Esa también es ambigua."},
+    {"text": "Så det mest sandsynlige er en flytning med nye roller?", "es": "¿Así que lo más probable es un traslado con nuevos roles?"},
+    {"text": "Ja. Men vi spørger skriftligt, så tvetydigheden ikke ender som vores problem.", "es": "Sí. Pero preguntamos por escrito, para que la ambigüedad no acabe siendo problema nuestro."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué ambigüedad detecta el segundo empleado en «un puesto»?",
+   "choices": ["Que garantiza un empleo, pero no necesariamente el mismo puesto que cada uno tiene ahora", "Que la empresa va a reducir plantilla con toda seguridad", "Que el comunicado contiene una errata"]
+  },
+  "grammar": {
+   "focus": "Alcance de la negación: posición de «ikke» y negaciones correlativas",
+   "explain": "En la principal «ikke» va tras el verbo conjugado (Vi flytter ikke); en la subordinada, delante del verbo (…at vi ikke flytter). Delante de un cuantificador limita su alcance: Ikke alle flytter (algunos sí). «Hverken … eller» niega dos elementos a la vez.",
+   "items": [
+    {"prompt": "Der står, at stillingerne ___ forsvinder. (negación en la subordinada)", "answer": "ikke", "es": "Dice que los puestos no desaparecen."},
+    {"prompt": "___ alle medarbejdere skal flytte — kun dem i salgsafdelingen. (negación que limita el cuantificador)", "answer": "Ikke", "es": "No todos los empleados tienen que trasladarse: solo los del departamento de ventas."},
+    {"prompt": "Teksten nævner ___ fyringer eller fratrædelser. (ni … ni)", "answer": "hverken", "es": "El texto no menciona ni despidos ni bajas."}
+   ]
+  },
+  "vocab": [
+   {"text": "tvetydig", "es": "ambiguo", "example": "Formuleringen er bevidst tvetydig.", "example_es": "La formulación es deliberadamente ambigua."},
+   {"text": "kryptisk", "es": "críptico", "example": "Meddelelsen er kryptisk formuleret.", "example_es": "El comunicado está redactado de forma críptica."},
+   {"text": "ikke nødvendigvis", "es": "no necesariamente", "example": "En plads er ikke nødvendigvis den samme plads.", "example_es": "Un puesto no es necesariamente el mismo puesto."},
+   {"text": "lægge mere ind i", "es": "leer más de lo que dice, sobreinterpretar", "example": "Man skal ikke lægge mere ind i teksten, end der står.", "example_es": "No hay que leer en el texto más de lo que dice."}
+  ],
+  "transfer": {
+   "prompt": "Como representante del personal, escribe a recursos humanos (6–8 frases): señala las dos lecturas posibles de la frase del comunicado, indica cuál te parece más plausible y por qué, y pide una aclaración por escrito sin sonar alarmista.",
+   "model": "Kære HR, tak for meddelelsen om den kommende omstrukturering. Én formulering har dog givet anledning til spørgsmål blandt kollegerne: „Ikke alle stillinger bliver i det nuværende hus.“ Sætningen kan læses som et varsel om nedskæringer, men også som en ren flytning af nogle afdelinger. Ud fra resten af teksten, der lover alle medarbejdere en plads, finder jeg den anden læsning mest sandsynlig. Samtidig er „en plads“ ikke nødvendigvis det samme som den nuværende stilling, og det skaber unødig uro. Vil I derfor bekræfte skriftligt, om der er tale om flytning, ændrede roller eller begge dele? Et klart svar vil gøre det langt lettere for os at dæmpe rygterne.",
+   "rubric": "Cita con exactitud la frase ambigua; formula explícitamente las dos lecturas; argumenta cuál es más plausible a partir del contexto; señala la segunda ambigüedad; pide una aclaración concreta; tono sereno, cooperativo y no alarmista."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Dos empleados leen un comunicado de la dirección que dice que «no todos los puestos se quedarán en la sede actual» y discuten si anuncia despidos o un traslado.",
+   "lines": [
+    {"text": "„Net all Posten bleiwen am aktuelle Gebai.“ Dat ass dach eng Entloossungswell.", "es": "«No todos los puestos se quedarán en el edificio actual». Pues eso es una ola de despidos."},
+    {"text": "Oder en Ëmzuch. Do steet net, datt d'Poste verschwannen — just, wou se net méi sinn.", "es": "O un traslado. No dice que los puestos desaparezcan; solo dónde ya no van a estar."},
+    {"text": "Firwat sollte si sech dann esou kryptesch ausdrécken, wann et just en Ëmzuch wier?", "es": "¿Por qué iban a expresarse de forma tan críptica si solo fuera un traslado?"},
+    {"text": "Vläicht well d'Adress nach net decidéiert ass. Lies den nächste Paragraf.", "es": "Quizá porque la dirección aún no está decidida. Lee el párrafo siguiente."},
+    {"text": "„Mir ginn dovun aus, datt mir all Mataarbechter eng Plaz ubidde kënnen.“ Hm.", "es": "«Contamos con poder ofrecer un puesto a todos los empleados». Hum."},
+    {"text": "„Eng Plaz“ — net onbedéngt „hir Plaz“. Dat ass och zweedeiteg.", "es": "«Un puesto», no necesariamente «su puesto». Eso también es ambiguo."},
+    {"text": "Also ass dat Wahrscheinlechst en Ëmzuch mat neie Rollen?", "es": "¿Así que lo más probable es un traslado con nuevos roles?"},
+    {"text": "Jo. Mä mir froe schrëftlech no, fir datt déi Zweedeitegkeet net eise Problem gëtt.", "es": "Sí. Pero preguntamos por escrito, para que la ambigüedad no acabe siendo problema nuestro."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué ambigüedad detecta el segundo empleado en «un puesto»?",
+   "choices": ["Que garantiza un empleo, pero no necesariamente el mismo puesto que cada uno tiene ahora", "Que la empresa va a reducir plantilla con toda seguridad", "Que el comunicado contiene una errata"]
+  },
+  "grammar": {
+   "focus": "«wann» (si / cuando) frente a «ob» y «wéini»: fuente de ambigüedad",
+   "explain": "«Wann» significa tanto «si» (condición) como «cuando» (tiempo), y eso puede crear ambigüedad: Wann den Ëmzuch kënnt… (¿si llega o cuando llega?). En las preguntas indirectas de sí/no se usa «ob», y para preguntar por el momento, «wéini».",
+   "items": [
+    {"prompt": "Mir froen d'Direktioun, ___ et Entloossunge gëtt. (pregunta indirecta de sí/no)", "answer": "ob", "es": "Preguntamos a la dirección si habrá despidos."},
+    {"prompt": "Et ass net kloer, ___ den Ëmzuch geplangt ass. (pregunta indirecta: cuándo)", "answer": "wéini", "es": "No está claro cuándo está previsto el traslado."},
+    {"prompt": "___ den Ëmzuch kënnt, kréie mir all eng nei Plaz. (si / cuando, una palabra)", "answer": "Wann", "es": "Si llega el traslado (o cuando llegue), todos tendremos un puesto nuevo."}
+   ]
+  },
+  "vocab": [
+   {"text": "zweedeiteg", "es": "ambiguo", "example": "D'Formuléierung ass bewosst zweedeiteg.", "example_es": "La formulación es deliberadamente ambigua."},
+   {"text": "kryptesch", "es": "críptico", "example": "D'Matdeelung ass kryptesch formuléiert.", "example_es": "El comunicado está redactado de forma críptica."},
+   {"text": "net onbedéngt", "es": "no necesariamente", "example": "Eng Plaz ass net onbedéngt déi selwecht Plaz.", "example_es": "Un puesto no es necesariamente el mismo puesto."},
+   {"text": "schrëftlech nofroen", "es": "pedir aclaración por escrito", "example": "Mir sollten schrëftlech nofroen.", "example_es": "Deberíamos pedir aclaración por escrito."}
+  ],
+  "transfer": {
+   "prompt": "Como representante del personal, escribe a recursos humanos (6–8 frases): señala las dos lecturas posibles de la frase del comunicado, indica cuál te parece más plausible y por qué, y pide una aclaración por escrito sin sonar alarmista.",
+   "model": "Léif Kolleegen aus dem Personalservice, merci fir d'Matdeelung iwwer déi geplangt Ëmstrukturéierung. Eng Formuléierung huet bei de Mataarbechter allerdéngs Froen opgeworf: „Net all Posten bleiwen am aktuelle Gebai.“ De Saz kann als Undeitung vun Entloossunge gelies ginn, awer och als einfachen Ëmzuch vun e puer Servicer. Well de Rescht vum Text all Mataarbechter eng Plaz versprécht, halen ech déi zweet Lesaart fir méi plausibel. Gläichzäiteg ass „eng Plaz“ net onbedéngt déi aktuell Plaz, an dat suergt fir onnéideg Onrou. Kéint Dir eis dofir schrëftlech bestätegen, ob et ëm en Ëmzuch, ëm nei Rollen oder ëm béides geet? Eng kloer Äntwert géif eis vill hëllefen, d'Rumeuren ze stoppen.",
+   "rubric": "Cita con exactitud la frase ambigua; formula explícitamente las dos lecturas; argumenta cuál es más plausible a partir del contexto; señala la segunda ambigüedad; pide una aclaración concreta con «ob»; tono sereno, cooperativo y no alarmista."
+  }
+ }
+}

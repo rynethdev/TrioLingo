@@ -1,0 +1,81 @@
+{
+ "week": 157,
+ "da": {
+  "dialogue2": {
+   "context": "En la reunión de cierre de un proyecto, un miembro culpa a otro departamento del sobrecoste; la facilitadora reconduce la conversación hacia lecciones de proceso.",
+   "lines": [
+    {"text": "Budgettet skred, fordi indkøb bestilte de forkerte materialer i marts.", "es": "El presupuesto se desvió porque Compras pidió los materiales equivocados en marzo."},
+    {"text": "Lad os holde fast i, hvad der skete, frem for hvem der gjorde det.", "es": "Centrémonos en lo que pasó, en lugar de en quién lo hizo."},
+    {"text": "Okay. Specifikationerne var uklare, og ingen tjekkede ordren, før den blev sendt.", "es": "Vale. Las especificaciones eran confusas y nadie revisó el pedido antes de enviarlo."},
+    {"text": "Så lektien er altså ikke, at én person fejlede, men at vi manglede et kontrolpunkt?", "es": "¿O sea que la lección no es que una persona fallara, sino que nos faltaba un punto de control?"},
+    {"text": "Ja, et dobbelttjek ved ordrer over en vis størrelse havde fanget fejlen.", "es": "Sí, una doble revisión en los pedidos de cierto importe habría detectado el error."},
+    {"text": "Hvad har vi ellers gjort godt, som vi bør gentage?", "es": "¿Qué más hemos hecho bien que debamos repetir?"},
+    {"text": "De ugentlige statusmøder; de har gjort, at vi trods alt nåede deadline.", "es": "Las reuniones semanales de seguimiento; gracias a ellas, a pesar de todo, cumplimos el plazo."},
+    {"text": "Godt, så skriver jeg begge dele ind i evalueringen: ét kontrolpunkt, vi skal indføre, og én vane, vi skal bevare.", "es": "Bien, entonces pongo ambas cosas en la evaluación: un punto de control que hay que introducir y un hábito que hay que conservar."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué hace la facilitadora con la acusación inicial?",
+   "choices": ["La transforma en una lección sobre un fallo de proceso, no en una culpa individual", "Da la razón al acusador y pide explicaciones a Compras", "La ignora y se centra únicamente en los logros del proyecto"]
+  },
+  "grammar": {
+   "focus": "Pretérito y perfecto en un balance: datid y førnutid",
+   "explain": "En un balance, el pretérito (datid) narra hechos fechados y cerrados (I marts overskred vi budgettet), mientras que el perfecto (har + participio) presenta un resultado que sigue siendo relevante ahora (Vi har nået de fleste mål).",
+   "items": [
+    {"prompt": "I marts ___ vi budgettet med ti procent. (overskride, pretérito: hecho fechado)", "answer": "overskred", "es": "En marzo superamos el presupuesto en un diez por ciento."},
+    {"prompt": "Samlet set ___ vi nået de fleste af vores mål. (have, perfecto: balance actual)", "answer": "har", "es": "En conjunto, hemos alcanzado la mayoría de nuestros objetivos."},
+    {"prompt": "Leverandøren ___ tre uger for sent i juni. (komme, pretérito)", "answer": "kom", "es": "El proveedor llegó tres semanas tarde en junio."}
+   ]
+  },
+  "vocab": [
+   {"text": "overskred", "es": "superamos, excedimos (overskride)", "example": "Vi overskred budgettet med ti procent.", "example_es": "Superamos el presupuesto en un diez por ciento."},
+   {"text": "et kontrolpunkt", "es": "un punto de control", "example": "Vi manglede et kontrolpunkt før bestillingen.", "example_es": "Nos faltaba un punto de control antes del pedido."},
+   {"text": "frem for", "es": "en lugar de", "example": "Lad os tale om processen frem for personer.", "example_es": "Hablemos del proceso en lugar de las personas."},
+   {"text": "trods alt", "es": "a pesar de todo", "example": "Vi nåede trods alt deadline.", "example_es": "A pesar de todo, cumplimos el plazo."}
+  ],
+  "transfer": {
+   "prompt": "Redacta el apartado final de un informe de cierre (5–7 frases): resultados frente a objetivos, desviaciones con fechas, lecciones de proceso (sin culpar a personas) y una recomendación para el próximo proyecto.",
+   "model": "Projektet blev afsluttet den 30. november, og vi har nået fire ud af fem mål. Lanceringen skete til tiden, men budgettet blev overskredet med ti procent. Overskridelsen opstod i marts, hvor der blev bestilt materialer på baggrund af uklare specifikationer. Evalueringen viser, at vi manglede et kontrolpunkt, frem for at en enkelt person fejlede. Til gengæld har de ugentlige statusmøder sikret, at problemer blev opdaget tidligt. Vi anbefaler derfor, at ordrer over 50.000 kr. fremover godkendes af to personer, og at statusmøderne bevares.",
+   "rubric": "Compara resultados con objetivos; usa el pretérito para hechos fechados y el perfecto para el balance actual; formula las lecciones en términos de proceso, no de personas; incluye un aspecto positivo que hay que mantener; cierra con una recomendación concreta."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En la reunión de cierre de un proyecto, un miembro culpa a otro departamento del sobrecoste; la facilitadora reconduce la conversación hacia lecciones de proceso.",
+   "lines": [
+    {"text": "De Budget gouf iwwerschratt, well den Akaf am Mäerz déi falsch Materialien bestallt huet.", "es": "El presupuesto se superó porque Compras pidió los materiales equivocados en marzo."},
+    {"text": "Loosse mir eis un dat halen, wat geschitt ass, amplaz u wien et gemaach huet.", "es": "Centrémonos en lo que pasó, en lugar de en quién lo hizo."},
+    {"text": "Okay. D'Spezifikatioune waren onkloer, a keen huet d'Bestellung kontrolléiert, ier se fortgeschéckt gouf.", "es": "Vale. Las especificaciones eran confusas y nadie revisó el pedido antes de enviarlo."},
+    {"text": "D'Lektioun ass also net, datt eng Persoun e Feeler gemaach huet, mä datt eis e Kontrollpunkt gefeelt huet?", "es": "¿O sea que la lección no es que una persona cometiera un error, sino que nos faltaba un punto de control?"},
+    {"text": "Jo, eng duebel Kontroll bei Bestellungen iwwer engem gewësse Montant hätt de Feeler entdeckt.", "es": "Sí, una doble revisión en los pedidos por encima de cierto importe habría detectado el error."},
+    {"text": "Wat hu mir soss gutt gemaach, wat mir widderhuele sollten?", "es": "¿Qué más hemos hecho bien que deberíamos repetir?"},
+    {"text": "Déi wëchentlech Statusreuniounen; duerch si hu mir trotz allem d'Deadline gehalen.", "es": "Las reuniones semanales de seguimiento; gracias a ellas, a pesar de todo, cumplimos el plazo."},
+    {"text": "Gutt, da schreiwen ech béides an d'Evaluatioun: ee Kontrollpunkt, deen mir aféiere mussen, an eng Gewunnecht, déi mir behale sollten.", "es": "Bien, entonces pongo ambas cosas en la evaluación: un punto de control que hay que introducir y un hábito que deberíamos conservar."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué hace la facilitadora con la acusación inicial?",
+   "choices": ["La transforma en una lección sobre un fallo de proceso, no en una culpa individual", "Da la razón al acusador y pide explicaciones a Compras", "La ignora y se centra únicamente en los logros del proyecto"]
+  },
+  "grammar": {
+   "focus": "Pasado en un balance: pretérito (war, hat, gouf) y Perfekt",
+   "explain": "En luxemburgués la mayoría de los verbos expresan el pasado con el Perfekt (mir hunn erreecht); solo unos pocos usan con frecuencia el pretérito: «war», «hat», «gouf» (pasiva) y algunos más como «koum». En un balance escrito se combinan ambos.",
+   "items": [
+    {"prompt": "Am Mäerz ___ de Budget ëm zéng Prozent iwwerschratt. (ginn, pretérito de la pasiva)", "answer": "gouf", "es": "En marzo se superó el presupuesto en un diez por ciento."},
+    {"prompt": "Am Ganzen hu mir déi meescht Ziler ___. (erreechen, participio)", "answer": "erreecht", "es": "En conjunto, hemos alcanzado la mayoría de los objetivos."},
+    {"prompt": "De Budget ___ vun Ufank un ze knapp. (sinn, pretérito)", "answer": "war", "es": "El presupuesto fue demasiado ajustado desde el principio."}
+   ]
+  },
+  "vocab": [
+   {"text": "iwwerschratt", "es": "superado, excedido", "example": "De Budget gouf ëm zéng Prozent iwwerschratt.", "example_es": "El presupuesto se superó en un diez por ciento."},
+   {"text": "e Kontrollpunkt", "es": "un punto de control", "example": "Virun der Bestellung huet e Kontrollpunkt gefeelt.", "example_es": "Antes del pedido faltaba un punto de control."},
+   {"text": "trotz allem", "es": "a pesar de todo", "example": "Mir hunn trotz allem d'Deadline gehalen.", "example_es": "A pesar de todo, cumplimos el plazo."},
+   {"text": "wëchentlech", "es": "semanal", "example": "Déi wëchentlech Reunioune solle mir behalen.", "example_es": "Deberíamos mantener las reuniones semanales."}
+  ],
+  "transfer": {
+   "prompt": "Redacta el apartado final de un informe de cierre (5–7 frases): resultados frente a objetivos, desviaciones con fechas, lecciones de proceso (sin culpar a personas) y una recomendación para el próximo proyecto.",
+   "model": "De Projet gouf den 30. November ofgeschloss, a mir hu véier vu fënnef Ziler erreecht. De Lancement war pünktlech, mä de Budget gouf ëm zéng Prozent iwwerschratt. D'Iwwerschreidung ass am Mäerz entstanen, wéi Materialien op Basis vun onkloere Spezifikatioune bestallt goufen. D'Evaluatioun weist, datt e Kontrollpunkt gefeelt huet, an net, datt eng eenzel Persoun versot huet. Am Géigenzuch hunn déi wëchentlech Statusreuniounen dofir gesuergt, datt Problemer fréi entdeckt goufen. Mir recommandéieren dofir, datt Bestellungen iwwer 50.000 € an Zukunft vun zwou Persoune genehmegt ginn an datt d'Statusreuniounen bäibehale ginn.",
+   "rubric": "Compara resultados con objetivos; combina el pretérito (war, gouf) y el Perfekt de forma adecuada; formula las lecciones en términos de proceso, no de personas; incluye un aspecto positivo que hay que mantener; cierra con una recomendación concreta."
+  }
+ }
+}

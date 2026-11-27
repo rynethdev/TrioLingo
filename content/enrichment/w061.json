@@ -1,0 +1,77 @@
+{
+ "week": 61,
+ "da": {
+  "dialogue2": {
+   "context": "Después de una presentación ante clientes, una jefa de equipo comenta con un empleado en prácticas cómo le ha ido.",
+   "lines": [
+    {"text": "Du talte roligt og tydeligt. Det var rigtig godt.", "es": "Hablaste con calma y claridad. Estuvo muy bien."},
+    {"text": "Tak, men jeg var meget nervøs. Var der noget, der ikke fungerede?", "es": "Gracias, pero estaba muy nervioso. ¿Hubo algo que no funcionara?"},
+    {"text": "Du kunne godt kigge mere på publikum og mindre på skærmen.", "es": "Podrías mirar más al público y menos a la pantalla."},
+    {"text": "Det er rigtigt, jeg læste meget op fra mine slides.", "es": "Es verdad, leí mucho de mis diapositivas."},
+    {"text": "Næste gang ville det hjælpe at øve foran en kollega.", "es": "La próxima vez te ayudaría ensayar delante de un compañero."},
+    {"text": "God idé. Vil du se på den, før jeg holder den igen?", "es": "Buena idea. ¿Le echarías un vistazo antes de que la vuelva a dar?"}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué debería mejorar el empleado en prácticas?",
+   "choices": ["Mirar más a las personas y depender menos de las diapositivas", "Hablar más despacio y con más claridad", "Preparar más diapositivas para la próxima vez"]
+  },
+  "grammar": {
+   "focus": "Sugerencias corteses: kunne, burde, ville + infinitivo",
+   "explain": "Para sugerir sin imponer se usa el pasado de los modales: Du kunne … (podrías), Du burde … (deberías), Det ville være godt at … (estaría bien). El infinitivo va sin «at».",
+   "items": [
+    {"prompt": "Du ___ måske starte med et eksempel. (podrías)", "answer": "kunne", "es": "Quizá podrías empezar con un ejemplo."},
+    {"prompt": "Det ___ være godt med en pause i midten. (estaría)", "answer": "ville", "es": "Estaría bien hacer una pausa a la mitad."},
+    {"prompt": "Du ___ sende rapporten til chefen i dag. (deberías)", "answer": "burde", "es": "Deberías mandarle hoy el informe a la jefa."}
+   ]
+  },
+  "vocab": [
+   {"text": "tydeligt", "es": "con claridad", "example": "Du talte roligt og tydeligt.", "example_es": "Hablaste con calma y claridad."},
+   {"text": "publikum", "es": "el público", "example": "Prøv at kigge mere på publikum.", "example_es": "Intenta mirar más al público."},
+   {"text": "øve", "es": "ensayar, practicar", "example": "Det hjælper at øve foran en kollega.", "example_es": "Ayuda ensayar delante de un compañero."},
+   {"text": "holde en præsentation", "es": "dar una presentación", "example": "I morgen skal jeg holde en præsentation for kunderne.", "example_es": "Mañana tengo que dar una presentación a los clientes."}
+  ],
+  "transfer": {
+   "prompt": "Una amiga te pide tu opinión sobre el texto de presentación de su web de fotógrafa. Escríbele algo positivo, una sugerencia cortés y una frase de ánimo (3–4 frases).",
+   "model": "Jeg kan godt lide din tekst, den er personlig og let at læse. Måske kunne du skrive lidt mere om dine priser. Det ville også være godt med et par billeder af dig selv. Jeg er sikker på, at du får mange kunder!",
+   "rubric": "Empieza con un elogio concreto, usa «kunne» o «ville» para sugerir y termina con una frase de ánimo."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Después de una presentación ante clientes, una jefa de equipo comenta con un empleado en prácticas cómo le ha ido.",
+   "lines": [
+    {"text": "Du hues roueg an däitlech geschwat. Dat war wierklech gutt.", "es": "Hablaste con calma y claridad. Estuvo muy bien."},
+    {"text": "Merci, mee ech war ganz nervös. Huet eppes net geklappt?", "es": "Gracias, pero estaba muy nervioso. ¿Hubo algo que no funcionara?"},
+    {"text": "Du kéints méi d'Leit ukucken a manner op den Ecran.", "es": "Podrías mirar más a la gente y menos a la pantalla."},
+    {"text": "Dat stëmmt, ech hu vill vu menge Folien ofgelies.", "es": "Es verdad, leí mucho de mis diapositivas."},
+    {"text": "Déi nächst Kéier géif et hëllefen, virun engem Kolleg ze üben.", "es": "La próxima vez te ayudaría ensayar delante de un compañero."},
+    {"text": "Gutt Iddi. Kéints du dir se ukucken, ier ech se nach eng Kéier halen?", "es": "Buena idea. ¿Podrías echarle un vistazo antes de que la vuelva a dar?"}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué debería mejorar el empleado en prácticas?",
+   "choices": ["Mirar más a las personas y depender menos de las diapositivas", "Hablar más despacio y con más claridad", "Preparar más diapositivas para la próxima vez"]
+  },
+  "grammar": {
+   "focus": "Sugerencias corteses con el condicional: kéint, wier, sollt",
+   "explain": "Para sugerir sin imponer se usa el condicional: Du kéints … (podrías), Et wier gutt … (estaría bien), Du sollts … (deberías). El infinitivo va al final.",
+   "items": [
+    {"prompt": "Du ___ vläicht mat engem Beispill ufänken. (kënnen)", "answer": "kéints", "es": "Quizá podrías empezar con un ejemplo."},
+    {"prompt": "Eng Paus an der Mëtt ___ gutt. (sinn)", "answer": "wier", "es": "Una pausa a la mitad estaría bien."},
+    {"prompt": "Du ___ de Rapport nach haut dem Chef schécken. (sollen)", "answer": "sollts", "es": "Deberías mandarle hoy mismo el informe al jefe."}
+   ]
+  },
+  "vocab": [
+   {"text": "däitlech", "es": "con claridad", "example": "Du hues roueg an däitlech geschwat.", "example_es": "Hablaste con calma y claridad."},
+   {"text": "geklappt", "es": "funcionado, salido bien", "example": "Huet alles gutt geklappt?", "example_es": "¿Salió todo bien?"},
+   {"text": "ofgelies", "es": "leído (de un papel o pantalla)", "example": "Ech hu vill vu menge Folien ofgelies.", "example_es": "Leí mucho de mis diapositivas."},
+   {"text": "eng Presentatioun halen", "es": "dar una presentación", "example": "Muer muss ech virun de Clienten eng Presentatioun halen.", "example_es": "Mañana tengo que dar una presentación delante de los clientes."}
+  ],
+  "transfer": {
+   "prompt": "Una amiga te pide tu opinión sobre el texto de presentación de su web de fotógrafa. Escríbele algo positivo, una sugerencia cortés y una frase de ánimo (3–4 frases).",
+   "model": "Ech fannen däin Text flott, en ass perséinlech a liicht ze liesen. Vläicht kéints du e bësse méi iwwer deng Präisser schreiwen. Et wier och gutt, e puer Fotoe vun dir dobäizesetzen. Du kriss bestëmmt vill Clienten!",
+   "rubric": "Empieza con un elogio concreto, usa «kéints» o «wier» para sugerir y termina con una frase de ánimo."
+  }
+ }
+}

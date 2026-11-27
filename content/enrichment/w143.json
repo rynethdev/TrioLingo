@@ -1,0 +1,81 @@
+{
+ "week": 143,
+ "da": {
+  "dialogue2": {
+   "context": "En una entrevista de trabajo, una reclutadora duda de que un experiodista pueda dedicarse a la investigación con usuarios; él explica qué competencias transfiere.",
+   "lines": [
+    {"text": "Du har ingen erfaring med brugerundersøgelser; hvorfor skulle vi vælge dig?", "es": "No tienes experiencia en estudios con usuarios; ¿por qué deberíamos elegirte?"},
+    {"text": "Formelt set har du ret, men jeg har interviewet mennesker i tolv år.", "es": "Formalmente tienes razón, pero llevo doce años entrevistando a personas."},
+    {"text": "Et journalistisk interview er vel noget andet end en brugertest?", "es": "Una entrevista periodística no es lo mismo que una prueba con usuarios, ¿no?"},
+    {"text": "Formålet er et andet, men teknikken ligner: Man får folk til at fortælle ved at stille åbne spørgsmål og lytte.", "es": "El objetivo es otro, pero la técnica se parece: haces que la gente hable formulando preguntas abiertas y escuchando."},
+    {"text": "Og hvordan vil du lukke hullet i din metodiske viden?", "es": "¿Y cómo piensas cubrir la laguna en tus conocimientos de metodología?"},
+    {"text": "Ved at tage et kursus i kvalitativ metode, som jeg allerede er tilmeldt, og ved at lære af jeres seniorer.", "es": "Haciendo un curso de métodos cualitativos, en el que ya estoy inscrito, y aprendiendo de vuestros sénior."},
+    {"text": "Det lyder gennemtænkt; hvad tror du selv bliver det sværeste?", "es": "Suena bien pensado; ¿qué crees tú que será lo más difícil?"},
+    {"text": "Nok at lade være med at lede efter den gode historie i stedet for det, brugerne faktisk siger.", "es": "Probablemente no ponerme a buscar la buena historia en lugar de atenerme a lo que dicen de verdad los usuarios."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué riesgo reconoce el candidato al final?",
+   "choices": ["Que podría buscar una buena historia en lugar de atenerse a lo que dicen los usuarios", "Que no sabe formular preguntas abiertas", "Que no tendrá tiempo de formarse en métodos de investigación"]
+  },
+  "grammar": {
+   "focus": "«Ved at» + infinitivo para expresar el medio",
+   "explain": "«Ved at» + infinitivo indica cómo se consigue algo y equivale al gerundio de modo: Man får folk til at fortælle ved at stille åbne spørgsmål. No debe confundirse con «til at», que expresa finalidad tras verbos como «hjælpe».",
+   "items": [
+    {"prompt": "Jeg vil lukke hullet ___ at tage et kursus i kvalitativ metode. (medio)", "answer": "ved", "es": "Voy a cubrir la laguna haciendo un curso de métodos cualitativos."},
+    {"prompt": "Kurset hjælper mig ___ at forstå metoden bedre. (finalidad tras «hjælpe»: til / ved)", "answer": "til", "es": "El curso me ayuda a entender mejor el método."},
+    {"prompt": "___ at kombinere interviews og data får man et mere nuanceret billede. (medio, al inicio de la frase)", "answer": "Ved", "es": "Combinando entrevistas y datos se obtiene una imagen más matizada."}
+   ]
+  },
+  "vocab": [
+   {"text": "formelt set", "es": "formalmente hablando", "example": "Formelt set har jeg ingen erfaring på området.", "example_es": "Formalmente no tengo experiencia en el área."},
+   {"text": "lukke hullet", "es": "cubrir la laguna", "example": "Jeg vil lukke hullet med et kursus i metode.", "example_es": "Quiero cubrir la laguna con un curso de metodología."},
+   {"text": "gennemtænkt", "es": "bien pensado", "example": "Din plan virker grundigt gennemtænkt.", "example_es": "Tu plan parece muy bien pensado."},
+   {"text": "tilmeldt", "es": "inscrito", "example": "Jeg er allerede tilmeldt et kursus til foråret.", "example_es": "Ya estoy inscrito en un curso para la primavera."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el párrafo central de una carta de motivación (5–7 frases) para un cambio de carrera: reconoce la falta de experiencia formal, traslada dos competencias anteriores al nuevo puesto con ejemplos y explica cómo cubrirás tus lagunas.",
+   "model": "Jeg er klar over, at jeg ikke har formel erfaring med brugerundersøgelser. Til gengæld har jeg i tolv år som journalist interviewet alt fra landmænd til ministre og lært at få folk til at fortælle mere, end de havde planlagt. Den evne er central i en brugertest, hvor kvaliteten afhænger af, om man stiller åbne spørgsmål og lytter uden at lede. Desuden er jeg vant til at omsætte store mængder materiale til korte, præcise konklusioner under tidspres. Mine metodiske huller vil jeg lukke ved at gennemføre et kursus i kvalitativ metode, som jeg allerede er tilmeldt. Jeg ser frem til at lære af jeres erfarne researchere og bidrage med et blik udefra.",
+   "rubric": "Reconoce la limitación sin disculparse en exceso; traslada al menos dos competencias con un ejemplo concreto; conecta cada competencia con una tarea del nuevo puesto; usa «ved at» + infinitivo para explicar el plan de formación; cierra con una aportación propia."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En una entrevista de trabajo, una reclutadora duda de que un experiodista pueda dedicarse a la investigación con usuarios; él explica qué competencias transfiere.",
+   "lines": [
+    {"text": "Dir hutt keng Erfarung mat Benotzerstudien; firwat sollte mir Iech huelen?", "es": "No tiene experiencia en estudios con usuarios; ¿por qué deberíamos elegirle?"},
+    {"text": "Formell gesinn hutt Dir Recht, mä ech hunn zwielef Joer laang Leit interviewt.", "es": "Formalmente tiene razón, pero he entrevistado a personas durante doce años."},
+    {"text": "E journalistescht Interview ass dach eppes anescht wéi e Benotzertest?", "es": "Una entrevista periodística no es lo mismo que una prueba con usuarios, ¿no?"},
+    {"text": "D'Zil ass anescht, mä d'Technik ass ähnlech: Ee bréngt d'Leit zum Erzielen, andeems een oppe Froe stellt an nolauschtert.", "es": "El objetivo es otro, pero la técnica se parece: haces que la gente hable formulando preguntas abiertas y escuchando."},
+    {"text": "A wéi wëllt Dir d'Lück an Ärem methodesche Wëssen zoumaachen?", "es": "¿Y cómo piensa cubrir la laguna en sus conocimientos de metodología?"},
+    {"text": "Andeems ech e Cours a qualitativer Method maachen, fir deen ech mech scho ugemellt hunn, an andeems ech vun Äre Senioren léieren.", "es": "Haciendo un curso de métodos cualitativos, en el que ya me he inscrito, y aprendiendo de sus sénior."},
+    {"text": "Dat kléngt duerchduecht; wat mengt Dir, wat wäert am schwéierste sinn?", "es": "Suena bien pensado; ¿qué cree que será lo más difícil?"},
+    {"text": "Wahrscheinlech, net no der gudder Geschicht ze sichen, amplaz bei deem ze bleiwen, wat d'Benotzer wierklech soen.", "es": "Probablemente no buscar la buena historia en lugar de atenerme a lo que dicen de verdad los usuarios."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué riesgo reconoce el candidato al final?",
+   "choices": ["Que podría buscar una buena historia en lugar de atenerse a lo que dicen los usuarios", "Que no sabe formular preguntas abiertas", "Que no tendrá tiempo de formarse en métodos de investigación"]
+  },
+  "grammar": {
+   "focus": "«Andeems» para expresar el medio",
+   "explain": "«Andeems» introduce una subordinada que indica cómo se consigue algo (equivale al gerundio de modo); el verbo va al final: Ech léieren et, andeems ech e Cours maachen. No debe confundirse con «fir … ze», que expresa finalidad.",
+   "items": [
+    {"prompt": "Ech wëll d'Lück zoumaachen, ___ ech e Cours a qualitativer Method maachen. (medio)", "answer": "andeems", "es": "Quiero cubrir la laguna haciendo un curso de métodos cualitativos."},
+    {"prompt": "De Cours hëlleft mer, ___ d'Method besser ze verstoen. (finalidad: «para»)", "answer": "fir", "es": "El curso me ayuda a entender mejor el método."},
+    {"prompt": "Andeems een Interviewen an Date kombinéiert, ___ een e méi nuancéiert Bild. (kréien, 3.ª persona)", "answer": "kritt", "es": "Combinando entrevistas y datos se obtiene una imagen más matizada."}
+   ]
+  },
+  "vocab": [
+   {"text": "formell gesinn", "es": "formalmente hablando", "example": "Formell gesinn hunn ech keng Erfarung an deem Beräich.", "example_es": "Formalmente no tengo experiencia en ese ámbito."},
+   {"text": "d'Lück zoumaachen", "es": "cubrir la laguna", "example": "Mat engem Cours wëll ech d'Lück zoumaachen.", "example_es": "Con un curso quiero cubrir la laguna."},
+   {"text": "duerchduecht", "es": "bien pensado", "example": "Äre Plang wierkt gutt duerchduecht.", "example_es": "Su plan parece bien pensado."},
+   {"text": "ugemellt", "es": "inscrito", "example": "Ech hu mech scho fir de Cours ugemellt.", "example_es": "Ya me he inscrito en el curso."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el párrafo central de una carta de motivación (5–7 frases) para un cambio de carrera: reconoce la falta de experiencia formal, traslada dos competencias anteriores al nuevo puesto con ejemplos y explica cómo cubrirás tus lagunas.",
+   "model": "Ech si mer bewosst, datt ech keng formell Erfarung mat Benotzerstudien hunn. Am Géigenzuch hunn ech als Journalist zwielef Joer laang vu Bauere bis Ministeren alles interviewt a geléiert, d'Leit méi erzielen ze loossen, wéi se geplangt haten. Dës Fäegkeet ass zentral an engem Benotzertest, wou d'Qualitéit dovun ofhänkt, ob een oppe Froe stellt an nolauschtert, ouni ze beaflossen. Doriwwer eraus sinn ech et gewinnt, ënner Zäitdrock vill Material a kuerz, präzis Konklusiounen ëmzesetzen. Meng methodesch Lücken wëll ech zoumaachen, andeems ech e Cours a qualitativer Method ofschléissen, fir deen ech mech scho ugemellt hunn. Ech freeë mech drop, vun Ären erfuerene Researcher ze léieren an e Bléck vu baussen anzebréngen.",
+   "rubric": "Reconoce la limitación sin disculparse en exceso; traslada al menos dos competencias con un ejemplo concreto; conecta cada competencia con una tarea del nuevo puesto; usa «andeems» para explicar el plan de formación; cierra con una aportación propia."
+  }
+ }
+}

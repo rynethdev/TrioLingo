@@ -1,0 +1,81 @@
+{
+ "week": 136,
+ "da": {
+  "dialogue2": {
+   "context": "El administrador de una comunidad llama a la empresa de calefacción para quejarse formalmente de una reparación fallida; la agente intenta concretar los hechos y la petición.",
+   "lines": [
+    {"text": "Jeg ringer for at klage over reparationen af varmeanlægget i Søndergade 12.", "es": "Llamo para quejarme de la reparación de la calefacción en Søndergade 12."},
+    {"text": "Det er jeg ked af at høre. Kan du beskrive, hvad der præcis er sket?", "es": "Siento oír eso. ¿Puede describir qué ha pasado exactamente?"},
+    {"text": "Anlægget blev repareret den 3. november, men allerede to dage senere var radiatorerne kolde igen.", "es": "La instalación se reparó el 3 de noviembre, pero dos días después los radiadores ya volvían a estar fríos."},
+    {"text": "Og er der blevet sendt en tekniker ud siden?", "es": "¿Y desde entonces se ha enviado a algún técnico?"},
+    {"text": "Ja, men han konstaterede bare fejlen og lovede, at en reservedel ville blive bestilt; siden har vi ikke hørt noget.", "es": "Sí, pero se limitó a constatar la avería y prometió que se pediría un repuesto; desde entonces no sabemos nada."},
+    {"text": "Det er ikke godt nok. Hvad forventer I konkret af os?", "es": "Eso no es aceptable. ¿Qué esperan concretamente de nosotros?"},
+    {"text": "At anlægget bliver repareret inden fredag, og at de to besøg ikke bliver faktureret.", "es": "Que la instalación se repare antes del viernes y que las dos visitas no se facturen."},
+    {"text": "Det lyder rimeligt; jeg sender sagen videre til vores serviceleder med høj prioritet og ringer tilbage i morgen.", "es": "Me parece razonable; paso el caso a nuestro jefe de servicio con prioridad alta y le devuelvo la llamada mañana."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué caracteriza la petición del administrador?",
+   "choices": ["Es proporcionada: reparación en un plazo concreto y no pagar las visitas fallidas", "Exige una indemnización para cada vecino por los días sin calefacción", "Pide rescindir el contrato y recuperar todo lo pagado"]
+  },
+  "grammar": {
+   "focus": "Pasiva con «blive» en pasado: blev / er blevet + participio",
+   "explain": "En una queja los hechos se relatan con la pasiva con «blive»: «Anlægget blev repareret» (hecho puntual) o «Der er blevet sendt en tekniker» (perfecto, resultado relevante ahora). El agente se omite o se introduce con «af».",
+   "items": [
+    {"prompt": "Anlægget ___ repareret den 3. november. (blive, pretérito)", "answer": "blev", "es": "La instalación se reparó el 3 de noviembre."},
+    {"prompt": "Der er endnu ikke ___ bestilt en reservedel. (blive, participio)", "answer": "blevet", "es": "Todavía no se ha pedido ningún repuesto."},
+    {"prompt": "Sagen ___ nu blevet sendt videre til servicelederen. (være, presente)", "answer": "er", "es": "El caso ya se ha remitido al jefe de servicio."}
+   ]
+  },
+  "vocab": [
+   {"text": "konstatere", "es": "constatar", "example": "Teknikeren kunne kun konstatere fejlen.", "example_es": "El técnico solo pudo constatar la avería."},
+   {"text": "en reservedel", "es": "un repuesto", "example": "Vi venter stadig på en reservedel fra leverandøren.", "example_es": "Seguimos esperando un repuesto del proveedor."},
+   {"text": "med høj prioritet", "es": "con prioridad alta", "example": "Sagen bliver behandlet med høj prioritet.", "example_es": "El caso se tramita con prioridad alta."},
+   {"text": "faktureret", "es": "facturado", "example": "De to forgæves besøg bør ikke blive faktureret.", "example_es": "Las dos visitas inútiles no deberían facturarse."}
+  ],
+  "transfer": {
+   "prompt": "Redacta la queja formal por escrito (5–7 frases) que el administrador envía a la empresa: hechos con fechas, consecuencias para los vecinos, intentos previos de solución y una petición proporcionada con plazo.",
+   "model": "Klage over reparation af varmeanlægget i Søndergade 12. Anlægget blev repareret af jeres tekniker den 3. november, men allerede den 5. november var radiatorerne i alle lejligheder kolde igen. Den 8. november blev der sendt en ny tekniker ud, som konstaterede fejlen, men der er endnu ikke blevet bestilt en reservedel. Beboerne, heriblandt flere ældre, har dermed været uden varme i over en uge med frost. Vi anmoder om, at anlægget bliver repareret senest fredag den 17. november, og at de to forgæves besøg ikke faktureres. Vi ser frem til jeres skriftlige bekræftelse inden onsdag.",
+   "rubric": "Organiza hechos, consecuencias y petición en ese orden; incluye fechas precisas; usa la pasiva con «blive» para relatar los hechos sin personalizar; formula una petición proporcionada con «anmoder om»; fija un plazo de respuesta."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "El administrador de una comunidad llama a la empresa de calefacción para quejarse formalmente de una reparación fallida; la agente intenta concretar los hechos y la petición.",
+   "lines": [
+    {"text": "Ech ruffen un, fir mech iwwer d'Reparatur vun der Heizung an der Rue de la Gare 12 ze bekloen.", "es": "Llamo para quejarme de la reparación de la calefacción en la Rue de la Gare 12."},
+    {"text": "Dat deet mer leed. Kënnt Dir mer beschreiwen, wat genee geschitt ass?", "es": "Lo siento. ¿Puede describirme qué ha pasado exactamente?"},
+    {"text": "D'Heizung gouf den 3. November reparéiert, mä zwee Deeg drop waren d'Radiateuren erëm kal.", "es": "La calefacción se reparó el 3 de noviembre, pero dos días después los radiadores volvían a estar fríos."},
+    {"text": "An ass zënterhier nach en Techniker geschéckt ginn?", "es": "¿Y desde entonces se ha enviado a algún técnico?"},
+    {"text": "Jo, mä hien huet just de Feeler festgestallt a versprach, datt en Ersatzdeel bestallt géif ginn; zënterhier hu mir näischt méi héieren.", "es": "Sí, pero se limitó a constatar la avería y prometió que se pediría un repuesto; desde entonces no sabemos nada."},
+    {"text": "Dat ass net an der Rei. Wat erwaart Dir konkret vun eis?", "es": "Eso no está bien. ¿Qué espera concretamente de nosotros?"},
+    {"text": "Datt d'Heizung bis Freideg reparéiert gëtt an datt déi zwou Interventiounen net a Rechnung gestallt ginn.", "es": "Que la calefacción se repare antes del viernes y que las dos intervenciones no se facturen."},
+    {"text": "Dat kléngt raisonnabel; ech ginn den Dossier mat héijer Prioritéit un eise Serviceverantwortleche weider a ruffen Iech muer zréck.", "es": "Me parece razonable; paso el expediente con prioridad alta a nuestro responsable de servicio y le devuelvo la llamada mañana."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué caracteriza la petición del administrador?",
+   "choices": ["Es proporcionada: reparación en un plazo concreto y no pagar las intervenciones fallidas", "Exige una indemnización para cada vecino por los días sin calefacción", "Pide rescindir el contrato y recuperar todo lo pagado"]
+  },
+  "grammar": {
+   "focus": "Pasiva en pasado: gouf + participio / ass … ginn",
+   "explain": "Para relatar hechos en una queja: «D'Heizung gouf reparéiert» (hecho puntual, registro escrito) o «Et ass nach keen Ersatzdeel bestallt ginn» (perfecto pasivo con «sinn» + participio + «ginn»).",
+   "items": [
+    {"prompt": "D'Heizung ___ den 3. November reparéiert. (ginn, pretérito)", "answer": "gouf", "es": "La calefacción se reparó el 3 de noviembre."},
+    {"prompt": "Bis elo ass nach keen Ersatzdeel bestallt ___. (participio de «ginn»)", "answer": "ginn", "es": "Hasta ahora no se ha pedido ningún repuesto."},
+    {"prompt": "Den Dossier ___ elo un de Serviceverantwortleche weidergeleet ginn. (sinn, presente)", "answer": "ass", "es": "El expediente ya se ha remitido al responsable de servicio."}
+   ]
+  },
+  "vocab": [
+   {"text": "bekloen", "es": "quejarse (sech bekloen)", "example": "Ech wëll mech offiziell iwwer de Service bekloen.", "example_es": "Quiero quejarme oficialmente del servicio."},
+   {"text": "festgestallt", "es": "constatado", "example": "Den Techniker huet de Feeler just festgestallt.", "example_es": "El técnico se limitó a constatar la avería."},
+   {"text": "en Ersatzdeel", "es": "un repuesto", "example": "Mir waarden nach ëmmer op en Ersatzdeel.", "example_es": "Seguimos esperando un repuesto."},
+   {"text": "mat héijer Prioritéit", "es": "con prioridad alta", "example": "Den Dossier gëtt mat héijer Prioritéit behandelt.", "example_es": "El expediente se tramita con prioridad alta."}
+  ],
+  "transfer": {
+   "prompt": "Redacta la queja formal por escrito (5–7 frases) que el administrador envía a la empresa: hechos con fechas, consecuencias para los vecinos, intentos previos de solución y una petición proporcionada con plazo.",
+   "model": "Reklamatioun iwwer d'Reparatur vun der Heizung an der Rue de la Gare 12. D'Heizung gouf den 3. November vun Ärem Techniker reparéiert, mä de 5. November waren d'Radiateuren an alle Wunnengen erëm kal. Den 8. November ass en neien Techniker geschéckt ginn, deen de Feeler festgestallt huet, mä bis haut ass keen Ersatzdeel bestallt ginn. D'Bewunner, dorënner e puer eeler Leit, sinn domat zënter méi wéi enger Woch bei Temperaturen ënner null ouni Heizung. Mir froen Iech, d'Heizung bis spéitstens Freideg, de 17. November, ze reparéieren an déi zwou ëmsoss Interventiounen net a Rechnung ze stellen. Mir erwaarden Är schrëftlech Bestätegung bis e Mëttwoch.",
+   "rubric": "Organiza hechos, consecuencias y petición en ese orden; incluye fechas precisas; usa la pasiva (gouf / ass … ginn) para relatar los hechos sin personalizar; formula una petición proporcionada; fija un plazo de respuesta."
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "week": 129,
+ "da": {
+  "dialogue2": {
+   "context": "En una presentación, un cliente comenta con ironía la propuesta de diseño de una agencia; la diseñadora detecta la crítica y responde con datos sin ponerse a la defensiva.",
+   "lines": [
+    {"text": "Det er da et modigt valg at bruge så mange farver til en bank.", "es": "Pues sí que es una elección valiente usar tantos colores para un banco."},
+    {"text": "Det lyder, som om du er i tvivl om, hvorvidt det passer til jeres kunder.", "es": "Suena a que dudas de que encaje con vuestros clientes."},
+    {"text": "Tja, vores kunder er ganske vist ikke de yngste.", "es": "Bueno, es verdad que nuestros clientes no son precisamente los más jóvenes."},
+    {"text": "Det er et fair spørgsmål; vi testede faktisk designet på tre aldersgrupper.", "es": "Es una pregunta justa; de hecho probamos el diseño con tres grupos de edad."},
+    {"text": "Og hvad sagde de ældste?", "es": "¿Y qué dijeron los mayores?"},
+    {"text": "De fandt det ganske vist usædvanligt, men de navigerede hurtigere end på jeres nuværende side.", "es": "Es cierto que les pareció inusual, pero se movieron más rápido que en vuestra web actual."},
+    {"text": "Interessant. Så det er ikke kun et spørgsmål om smag.", "es": "Interesante. Así que no es solo una cuestión de gustos."},
+    {"text": "Nej, men vi kan sagtens dæmpe farverne lidt, hvis I føler jer mere trygge ved det.", "es": "No, pero podemos suavizar un poco los colores sin problema si así os sentís más tranquilos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir realmente el cliente con su primer comentario?",
+   "choices": ["Que duda de que el diseño encaje con su clientela", "Que admira sin reservas la creatividad de la agencia", "Que el presupuesto del diseño le parece demasiado alto"]
+  },
+  "grammar": {
+   "focus": "Concesión en dos tiempos: ganske vist … men / nok … men",
+   "explain": "Para conceder algo antes de contraargumentar se usa «ganske vist» (es cierto que) en la primera parte y «men» en la segunda: Det er ganske vist usædvanligt, men det virker. «Nok … men» cumple la misma función en un registro más oral.",
+   "items": [
+    {"prompt": "Designet er ___ vist usædvanligt, men testene taler for sig selv. (concesión formal)", "answer": "ganske", "es": "Es cierto que el diseño es inusual, pero las pruebas hablan por sí solas."},
+    {"prompt": "Rapporten kom ganske vist sent, ___ den indeholdt alle de efterspurgte tal. (conector adversativo)", "answer": "men", "es": "Es verdad que el informe llegó tarde, pero contenía todas las cifras solicitadas."},
+    {"prompt": "Prisen er ___ højere, men til gengæld er vedligeholdelsen billigere. (concesión coloquial: «es verdad que»)", "answer": "nok", "es": "El precio es más alto, sí, pero a cambio el mantenimiento es más barato."}
+   ]
+  },
+  "vocab": [
+   {"text": "et modigt valg", "es": "una elección valiente (a menudo con ironía)", "example": "Det er et modigt valg at lancere midt i sommerferien.", "example_es": "Es una elección valiente lanzar en plenas vacaciones de verano."},
+   {"text": "dæmpe", "es": "atenuar, suavizar", "example": "Vi kan dæmpe farverne lidt i den næste version.", "example_es": "Podemos suavizar un poco los colores en la próxima versión."},
+   {"text": "taler for sig selv", "es": "habla por sí solo", "example": "Resultatet af brugertesten taler for sig selv.", "example_es": "El resultado de la prueba con usuarios habla por sí solo."},
+   {"text": "trygge ved", "es": "tranquilos, cómodos con (tryg ved)", "example": "Vi vil gerne have, at I føler jer trygge ved løsningen.", "example_es": "Queremos que os sintáis cómodos con la solución."}
+  ],
+  "transfer": {
+   "prompt": "Un cliente te escribe: «Llamativo, sin duda, este diseño para un público tan tradicional». Responde por correo (5–6 frases): nombra la duda implícita sin acusarle, aporta datos, concede lo razonable y ofrece una opción.",
+   "model": "Tak for din tilbagemelding på designforslaget. Jeg læser den sådan, at du er i tvivl om, hvorvidt det farverige udtryk passer til jeres kundegruppe, og det er et relevant spørgsmål. Vi testede ganske vist kun designet på 30 personer, men i alle tre aldersgrupper fandt testpersonerne hurtigere frem til de vigtigste funktioner end på jeres nuværende side. Det er nok rigtigt, at udtrykket ved første øjekast virker usædvanligt for en bank. Vi foreslår derfor at præsentere en version med dæmpede farver, så I kan sammenligne de to direkte. Lad os meget gerne tage en snak om det på torsdag.",
+   "rubric": "Hace explícita la crítica implícita con una fórmula neutra («jeg læser den sådan, at …»); aporta al menos un dato verificable; usa una construcción concesiva (ganske vist … men / nok … men); evita el tono defensivo y la ironía; cierra con una propuesta concreta."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En una presentación, un cliente comenta con ironía la propuesta de diseño de una agencia; la diseñadora detecta la crítica y responde con datos sin ponerse a la defensiva.",
+   "lines": [
+    {"text": "Dat ass jo e couragéierte Choix, esou vill Faarwe fir eng Bank ze huelen.", "es": "Pues sí que es una elección valiente usar tantos colores para un banco."},
+    {"text": "Dat kléngt, wéi wann Dir Zweiwel hätt, ob dat zu Äre Clienten passt.", "es": "Suena a que duda de que encaje con sus clientes."},
+    {"text": "Bon, eis Cliente sinn zwar net déi Jéngst.", "es": "Bueno, es verdad que nuestros clientes no son precisamente los más jóvenes."},
+    {"text": "Dat ass eng berechtegt Fro; mir hunn den Design iwwregens mat dräi Altersgruppe getest.", "es": "Es una pregunta legítima; por cierto, probamos el diseño con tres grupos de edad."},
+    {"text": "A wat soten déi Eelst?", "es": "¿Y qué dijeron los mayores?"},
+    {"text": "Si hunn en zwar ongewinnt fonnt, mä si hu sech méi séier zerechtfonnt wéi op Ärer aktueller Säit.", "es": "Es cierto que les pareció inusual, pero se orientaron más rápido que en su web actual."},
+    {"text": "Interessant. Da geet et also net nëmmen ëm de Goût.", "es": "Interesante. Así que no es solo una cuestión de gustos."},
+    {"text": "Neen, mä mir kënnen d'Faarwen e bësse méi dezent maachen, wann Dir Iech domat méi wuel fillt.", "es": "No, pero podemos hacer los colores un poco más discretos si así se siente más cómodo."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir realmente el cliente con su primer comentario?",
+   "choices": ["Que duda de que el diseño encaje con su clientela", "Que admira sin reservas la creatividad de la agencia", "Que el presupuesto del diseño le parece demasiado alto"]
+  },
+  "grammar": {
+   "focus": "Concesión en dos tiempos: zwar … mä / allerdéngs",
+   "explain": "Para conceder antes de contraargumentar se usa «zwar» en la primera parte y «mä» en la segunda: Et ass zwar ongewinnt, mä et funktionéiert. «Allerdéngs» introduce una restricción después de una afirmación positiva (eso sí, no obstante).",
+   "items": [
+    {"prompt": "Den Design ass ___ ongewinnt, mä d'Tester schwätze fir sech. (concesión)", "answer": "zwar", "es": "Es cierto que el diseño es inusual, pero las pruebas hablan por sí solas."},
+    {"prompt": "De Bericht ass zwar spéit komm, ___ en hat all déi gefrote Zuelen. (conector adversativo)", "answer": "mä", "es": "Es verdad que el informe llegó tarde, pero tenía todas las cifras solicitadas."},
+    {"prompt": "D'Léisung ass séier ëmgesat; ___ ass se net ganz bëlleg. (restricción: «eso sí, no obstante»)", "answer": "allerdéngs", "es": "La solución se implanta rápido; eso sí, no es precisamente barata."}
+   ]
+  },
+  "vocab": [
+   {"text": "e couragéierte Choix", "es": "una elección valiente (a menudo con ironía)", "example": "Dat ass e couragéierte Choix fir esou eng konservativ Branche.", "example_es": "Es una elección valiente para un sector tan conservador."},
+   {"text": "méi dezent", "es": "más discreto", "example": "Mir kënnen d'Faarwen e bësse méi dezent maachen.", "example_es": "Podemos hacer los colores un poco más discretos."},
+   {"text": "fir sech schwätzen", "es": "hablar por sí solo", "example": "Mir loossen d'Resultater vum Test fir sech schwätzen.", "example_es": "Dejamos que los resultados de la prueba hablen por sí solos."},
+   {"text": "Zweiwel", "es": "duda(s)", "example": "Ech verstinn Är Zweiwel, a si si berechtegt.", "example_es": "Entiendo sus dudas, y son legítimas."}
+  ],
+  "transfer": {
+   "prompt": "Un cliente te escribe: «Llamativo, sin duda, este diseño para un público tan tradicional». Responde por correo (5–6 frases): nombra la duda implícita sin acusarle, aporta datos, concede lo razonable y ofrece una opción.",
+   "model": "Merci fir Äre Feedback zu eiser Propositioun. Ech verstinn en esou, datt Dir Zweiwel hutt, ob de faarwege Look zu Äre Clienten passt, an dat ass eng berechtegt Fro. Mir hunn den Design zwar nëmme mat 30 Persounen getest, mä an allen dräi Altersgruppen hunn d'Leit déi wichtegst Funktioune méi séier fonnt wéi op Ärer aktueller Säit. Et stëmmt allerdéngs, datt den Design fir eng Bank op den éischte Bléck ongewinnt wierkt. Dofir proposéiere mir Iech eng Versioun mat méi dezente Faarwen, fir datt Dir déi zwou direkt vergläiche kënnt. Gären diskutéiere mir dat en Donneschdeg mat Iech.",
+   "rubric": "Hace explícita la crítica implícita con una fórmula neutra («ech verstinn en esou, datt …»); aporta al menos un dato verificable; usa una construcción concesiva (zwar … mä / allerdéngs); evita el tono defensivo y la ironía; cierra con una propuesta concreta."
+  }
+ }
+}

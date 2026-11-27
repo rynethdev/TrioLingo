@@ -1,0 +1,201 @@
+{
+ "week": 133,
+ "da": {
+  "dialogue2": {
+   "context": "Una traductora autónoma negocia con una agencia que quiere bajarle la tarifa; ella solo acepta con condiciones claras.",
+   "lines": [
+    {
+     "text": "Vi kan desværre kun betale 80 øre per ord i stedet for en krone denne gang.",
+     "es": "Lamentablemente esta vez solo podemos pagar 80 céntimos por palabra en lugar de una corona."
+    },
+    {
+     "text": "Det kan jeg acceptere, forudsat at fristen rykkes en uge.",
+     "es": "Puedo aceptarlo, siempre que el plazo se retrase una semana."
+    },
+    {
+     "text": "En uge bliver svært, for kunden har allerede annonceret lanceringsdatoen.",
+     "es": "Una semana va a ser difícil, porque el cliente ya ha anunciado la fecha de lanzamiento."
+    },
+    {
+     "text": "Så foreslår jeg, at I selv står for korrekturen; så kan jeg holde den oprindelige frist.",
+     "es": "Entonces propongo que vosotros os encarguéis de la corrección; así puedo cumplir el plazo original."
+    },
+    {
+     "text": "Det kunne fungere, såfremt du leverer en ordliste med de faste termer.",
+     "es": "Eso podría funcionar, en caso de que entregues un glosario con los términos fijos."
+    },
+    {
+     "text": "Den laver jeg gerne, men så skal den lavere sats udelukkende gælde for dette projekt.",
+     "es": "Lo hago con gusto, pero entonces la tarifa más baja debe valer exclusivamente para este proyecto."
+    },
+    {
+     "text": "Rimeligt. Medmindre andet aftales skriftligt, er næste projekt altså til normal pris.",
+     "es": "Razonable. Salvo que se acuerde otra cosa por escrito, el próximo proyecto va a precio normal."
+    },
+    {
+     "text": "Præcis, og jeg vil gerne have det bekræftet pr. mail i dag.",
+     "es": "Exacto, y me gustaría tenerlo confirmado por correo hoy mismo."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué obtiene la traductora a cambio de aceptar la tarifa más baja?",
+   "choices": [
+    "Que la agencia se encargue de la corrección y la rebaja valga solo para este proyecto",
+    "Una semana más de plazo para entregar la traducción",
+    "Que el próximo proyecto se le pague con un recargo"
+   ]
+  },
+  "grammar": {
+   "focus": "Condicionales formales: forudsat at, såfremt, medmindre",
+   "explain": "«Forudsat at» (siempre que) y «såfremt» (en caso de que, registro formal) plantean una condición necesaria; «medmindre» (a menos que) expresa una condición negativa: Prisen gælder, medmindre andet aftales.",
+   "items": [
+    {
+     "prompt": "Vi accepterer prisen, ___ at fristen forlænges. (siempre que)",
+     "answer": "forudsat",
+     "es": "Aceptamos el precio siempre que se amplíe el plazo."
+    },
+    {
+     "prompt": "Satsen gælder kun dette projekt, ___ andet aftales skriftligt. (a menos que)",
+     "answer": "medmindre",
+     "es": "La tarifa vale solo para este proyecto, a menos que se acuerde otra cosa por escrito."
+    },
+    {
+     "prompt": "___ kunden ønsker ændringer, faktureres de separat. (en caso de que, registro formal)",
+     "answer": "Såfremt",
+     "es": "En caso de que el cliente desee cambios, se facturarán aparte."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "forudsat at",
+    "es": "siempre que, a condición de que",
+    "example": "Jeg siger ja, forudsat at fristen rykkes.",
+    "example_es": "Digo que sí, siempre que se retrase el plazo."
+   },
+   {
+    "text": "står for",
+    "es": "se encarga de",
+    "example": "Agenturet står for korrekturen.",
+    "example_es": "La agencia se encarga de la corrección."
+   },
+   {
+    "text": "pr. mail",
+    "es": "por correo electrónico",
+    "example": "Send mig aftalen bekræftet pr. mail.",
+    "example_es": "Envíame el acuerdo confirmado por correo."
+   },
+   {
+    "text": "den oprindelige frist",
+    "es": "el plazo original",
+    "example": "Vi holder den oprindelige frist, hvis korrekturen flyttes.",
+    "example_es": "Mantenemos el plazo original si se traslada la corrección."
+   }
+  ],
+  "transfer": {
+   "prompt": "Escribe el correo de confirmación del acuerdo (5–6 frases): qué cede cada parte, las condiciones exactas, el alcance (solo este proyecto) y qué pasa si algo cambia.",
+   "model": "Tak for en konstruktiv samtale i dag. Hermed bekræfter jeg, at jeg oversætter manualen til en sats på 80 øre per ord, forudsat at jeres team står for den afsluttende korrektur. Til gengæld leverer jeg en ordliste med de faste termer senest på fredag. Den oprindelige frist den 30. juni fastholdes. Den reducerede sats gælder udelukkende for dette projekt; medmindre andet aftales skriftligt, faktureres fremtidige opgaver til min normale pris. Såfremt kunden ønsker ændringer efter leveringen, afregnes de separat.",
+   "rubric": "Resume el acuerdo al principio; formula al menos dos condiciones con conectores formales (forudsat at, såfremt, medmindre); explicita la contrapartida; delimita el alcance del acuerdo; mantiene un registro formal y preciso."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una traductora autónoma negocia con una agencia que quiere bajarle la tarifa; ella solo acepta con condiciones claras.",
+   "lines": [
+    {
+     "text": "Mir kënnen Iech dës Kéier leider nëmmen aacht Cent amplaz zéng Cent pro Wuert bezuelen.",
+     "es": "Lamentablemente esta vez solo podemos pagarle ocho céntimos en lugar de diez por palabra."
+    },
+    {
+     "text": "Dat kann ech akzeptéieren, virausgesat datt den Delai ëm eng Woch verlängert gëtt.",
+     "es": "Puedo aceptarlo, siempre que el plazo se amplíe una semana."
+    },
+    {
+     "text": "Eng Woch gëtt schwéier, well de Client den Datum vum Lancement schonn ugekënnegt huet.",
+     "es": "Una semana va a ser difícil, porque el cliente ya ha anunciado la fecha de lanzamiento."
+    },
+    {
+     "text": "Da proposéieren ech, datt Dir d'Korrektur selwer iwwerhuelt; da kann ech den ursprénglechen Delai halen.",
+     "es": "Entonces propongo que ustedes se encarguen de la corrección; así puedo cumplir el plazo original."
+    },
+    {
+     "text": "Dat kéint goen, ënner der Bedingung, datt Dir eis eng Lëscht mat de fixe Fachbegrëffer liwwert.",
+     "es": "Eso podría funcionar, con la condición de que nos entregue una lista con los términos técnicos fijos."
+    },
+    {
+     "text": "Déi maachen ech gär, mä da gëllt de méi niddregen Tarif nëmme fir dëse Projet.",
+     "es": "La hago con gusto, pero entonces la tarifa más baja vale solo para este proyecto."
+    },
+    {
+     "text": "Dat ass fair. Ausser wann eppes anescht schrëftlech ofgemaach gëtt, ass den nächste Projet zum normale Präis.",
+     "es": "Es justo. A menos que se acuerde otra cosa por escrito, el próximo proyecto va a precio normal."
+    },
+    {
+     "text": "Genee, an ech hätt dat gär nach haut per Mail confirméiert.",
+     "es": "Exacto, y me gustaría tenerlo confirmado por correo hoy mismo."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué obtiene la traductora a cambio de aceptar la tarifa más baja?",
+   "choices": [
+    "Que la agencia se encargue de la corrección y la rebaja valga solo para este proyecto",
+    "Una semana más de plazo para entregar la traducción",
+    "Que el próximo proyecto se le pague con un recargo"
+   ]
+  },
+  "grammar": {
+   "focus": "Condicionales formales: virausgesat datt, ausser wann, falls",
+   "explain": "«Virausgesat, datt» (siempre que) y «ënner der Bedingung, datt» plantean una condición necesaria; «ausser wann» (a menos que) expresa una condición negativa; «falls» equivale a «en caso de que». Todos llevan el verbo al final.",
+   "items": [
+    {
+     "prompt": "Mir akzeptéieren de Präis, ___ datt den Delai verlängert gëtt. (siempre que)",
+     "answer": "virausgesat",
+     "es": "Aceptamos el precio siempre que se amplíe el plazo."
+    },
+    {
+     "prompt": "Den Tarif gëllt nëmme fir dëse Projet, ___ wann eppes anescht ofgemaach gëtt. (a menos que)",
+     "answer": "ausser",
+     "es": "La tarifa vale solo para este proyecto, a menos que se acuerde otra cosa."
+    },
+    {
+     "prompt": "___ de Client Ännerunge wëll, ginn déi separat a Rechnung gestallt. (en caso de que)",
+     "answer": "Falls",
+     "es": "En caso de que el cliente quiera cambios, se facturarán aparte."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "virausgesat",
+    "es": "siempre que, a condición de que",
+    "example": "Ech soen Jo, virausgesat datt den Delai verréckelt gëtt.",
+    "example_es": "Digo que sí, siempre que se retrase el plazo."
+   },
+   {
+    "text": "iwwerhuelen",
+    "es": "encargarse de, asumir",
+    "example": "D'Agence wäert d'Korrektur selwer iwwerhuelen.",
+    "example_es": "La agencia se encargará ella misma de la corrección."
+   },
+   {
+    "text": "schrëftlech ofgemaach",
+    "es": "acordado por escrito",
+    "example": "Alles, wat net schrëftlech ofgemaach ass, gëllt net.",
+    "example_es": "Todo lo que no esté acordado por escrito no vale."
+   },
+   {
+    "text": "den ursprénglechen Delai",
+    "es": "el plazo original",
+    "example": "Mir kënnen den ursprénglechen Delai halen.",
+    "example_es": "Podemos cumplir el plazo original."
+   }
+  ],
+  "transfer": {
+   "prompt": "Escribe el correo de confirmación del acuerdo (5–6 frases): qué cede cada parte, las condiciones exactas, el alcance (solo este proyecto) y qué pasa si algo cambia.",
+   "model": "Merci fir dat konstruktiv Gespréich vun haut. Hiermat confirméieren ech, datt ech de Manuel fir aacht Cent pro Wuert iwwersetzen, virausgesat datt Är Equipe déi definitiv Korrektur iwwerhëlt. Am Géigenzuch liwweren ech bis spéitstens e Freideg eng Lëscht mat de fixe Fachbegrëffer. Den ursprénglechen Delai vum 30. Juni bleift bestoen. De reduzéierten Tarif gëllt eleng fir dëse Projet; ausser wann eppes anescht schrëftlech ofgemaach gëtt, ginn zukünfteg Projeten zu mengem normale Präis a Rechnung gestallt. Falls de Client no der Liwwerung Ännerunge wëll, ginn déi separat ofgerechent.",
+   "rubric": "Resume el acuerdo al principio; formula al menos dos condiciones con conectores formales (virausgesat datt, ausser wann, falls); explicita la contrapartida; delimita el alcance del acuerdo; mantiene un registro formal y preciso."
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "week": 107,
+ "da": {
+  "dialogue2": {
+   "context": "Una empleada pide a su jefe tres meses de excedencia sin sueldo; él no dice que no, pero le pide una solicitud por escrito bien justificada.",
+   "lines": [
+    {"text": "Jeg ville gerne spørge, om det kunne lade sig gøre at tage tre måneders orlov uden løn.", "es": "Quería preguntar si sería posible tomar tres meses de excedencia sin sueldo."},
+    {"text": "Det kommer lidt bag på mig. Hvornår tænker du på?", "es": "Me pilla un poco por sorpresa. ¿Para cuándo lo piensas?"},
+    {"text": "Fra juni til august. Min far skal flytte på plejehjem, og jeg vil gerne hjælpe ham.", "es": "De junio a agosto. Mi padre se va a mudar a una residencia y me gustaría ayudarle."},
+    {"text": "Det forstår jeg godt. Sommeren er dog vores travleste periode.", "es": "Lo entiendo. Eso sí, el verano es nuestra época de más trabajo."},
+    {"text": "Jeg kunne lære Mikkel op i mine opgaver i maj, så der ikke opstår huller.", "es": "Podría formar a Mikkel en mis tareas en mayo, para que no queden huecos."},
+    {"text": "Det ville gøre det meget lettere. Send mig en skriftlig anmodning med den plan.", "es": "Eso lo haría mucho más fácil. Mándame una solicitud por escrito con ese plan."},
+    {"text": "Det gør jeg. Jeg ville sætte stor pris på, hvis vi kunne finde en løsning.", "es": "Lo haré. Te agradecería mucho que pudiéramos encontrar una solución."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué hace que el jefe se muestre más dispuesto?",
+   "choices": ["Que ella proponga formar a un compañero antes de irse", "Que ella acepte irse en invierno en lugar de en verano", "Que ella renuncie a una parte del sueldo"]
+  },
+  "grammar": {
+   "focus": "Peticiones formales con condicional: «Jeg ville sætte pris på, hvis …»",
+   "explain": "En peticiones formales se combinan «ville» y el pasado: «Jeg ville sætte pris på, hvis du kunne …», «Det ville være en stor hjælp, hvis …», «Kunne det lade sig gøre at …?». El pasado tras «hvis» marca cortesía, no tiempo pasado.",
+   "items": [
+    {"prompt": "Jeg ___ sætte stor pris på, hvis du kunne svare inden fredag. (vil, condicional)", "answer": "ville", "es": "Te agradecería mucho que pudieras responder antes del viernes."},
+    {"prompt": "Det ville være en stor hjælp, hvis I ___ sende papirerne i dag. (kan, pasado de cortesía)", "answer": "kunne", "es": "Sería de gran ayuda que pudierais enviar los papeles hoy."},
+    {"prompt": "Kunne det lade sig ___ at flytte mødet til torsdag?", "answer": "gøre", "es": "¿Sería posible pasar la reunión al jueves?"}
+   ]
+  },
+  "vocab": [
+   {"text": "orlov uden løn", "es": "excedencia sin sueldo", "example": "Hun har søgt om orlov uden løn i et halvt år.", "example_es": "Ha solicitado una excedencia sin sueldo de medio año."},
+   {"text": "kommer bag på", "es": "pilla por sorpresa", "example": "Nyheden kommer bag på mange af os.", "example_es": "La noticia nos pilla por sorpresa a muchos."},
+   {"text": "lade sig gøre", "es": "ser posible", "example": "Det kan desværre ikke lade sig gøre i år.", "example_es": "Por desgracia, este año no es posible."},
+   {"text": "en skriftlig anmodning", "es": "una solicitud por escrito", "example": "Send venligst en skriftlig anmodning til HR.", "example_es": "Por favor, envía una solicitud por escrito a Recursos Humanos."}
+  ],
+  "transfer": {
+   "prompt": "Escribe una solicitud formal (5–6 frases) a la biblioteca de tu universidad para ampliar dos semanas el préstamo de tres libros porque estás terminando tu trabajo de fin de máster. Incluye el motivo, una petición clara y fórmulas de cortesía.",
+   "model": "Til Universitetsbiblioteket. Jeg skriver for at anmode om en forlængelse af lånet af tre bøger, som skal afleveres den 2. december. Jeg er i gang med at skrive mit speciale, og bøgerne er helt centrale for det sidste kapitel. Jeg ville derfor sætte stor pris på, hvis lånet kunne forlænges med to uger. Hvis bøgerne er reserveret af andre, afleverer jeg dem selvfølgelig med det samme. Med venlig hilsen, Lucía Pérez, studienummer 20231187.",
+   "rubric": "Indica claramente qué pides y por qué, usa al menos una fórmula condicional formal («jeg ville sætte pris på, hvis…»), ofrece una alternativa y cierra con tus datos de identificación."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una empleada pide a su jefe tres meses de excedencia sin sueldo; él no dice que no, pero le pide una solicitud por escrito bien justificada.",
+   "lines": [
+    {"text": "Ech wollt froen, ob et méiglech wier, dräi Méint onbezuelte Congé ze huelen.", "es": "Quería preguntar si sería posible tomar tres meses de excedencia sin sueldo."},
+    {"text": "Dat iwwerrascht mech e bëssen. Un wéini denkt Dir?", "es": "Me sorprende un poco. ¿Para cuándo lo piensa?"},
+    {"text": "Vu Juni bis August. Mäi Papp plënnert an en Altersheem, an ech géif him gär hëllefen.", "es": "De junio a agosto. Mi padre se muda a una residencia y me gustaría ayudarle."},
+    {"text": "Dat verstinn ech. De Summer ass awer eis stressegst Zäit.", "es": "Lo entiendo. Pero el verano es nuestra época de más trabajo."},
+    {"text": "Ech kéint de Mikkel am Mee a meng Aufgaben aschaffen, fir datt keng Lächer entstinn.", "es": "Podría formar a Mikkel en mis tareas en mayo, para que no queden huecos."},
+    {"text": "Dat géif et vill méi einfach maachen. Schéckt mir eng schrëftlech Demande mat deem Plang.", "es": "Eso lo haría mucho más fácil. Mándeme una solicitud por escrito con ese plan."},
+    {"text": "Dat maachen ech. Ech wier Iech ganz dankbar, wa mir eng Léisung fanne kéinten.", "es": "Lo haré. Le estaría muy agradecida si pudiéramos encontrar una solución."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué hace que el jefe se muestre más dispuesto?",
+   "choices": ["Que ella proponga formar a un compañero antes de irse", "Que ella acepte irse en invierno en lugar de en verano", "Que ella renuncie a una parte del sueldo"]
+  },
+  "grammar": {
+   "focus": "Peticiones formales con Konjunktiv: «Ech wier Iech dankbar, wann …»",
+   "explain": "En peticiones formales se usa el Konjunktiv en las dos partes: «Ech wier Iech dankbar, wann Dir … kéint», «Et wier eng grouss Hëllef, wann …», «Wier et méiglech, …?». Suena más cortés que el presente.",
+   "items": [
+    {"prompt": "Ech ___ Iech ganz dankbar, wann Dir bis e Freideg äntwere kéint. (sinn, Konjunktiv)", "answer": "wier", "es": "Le estaría muy agradecido si pudiera responder antes del viernes."},
+    {"prompt": "Et wier eng grouss Hëllef, wann Dir d'Pabeieren haut ___ kéint. (schécken)", "answer": "schécke", "es": "Sería de gran ayuda que pudiera enviar los papeles hoy."},
+    {"prompt": "___ et méiglech, d'Reunioun op en Donneschdeg ze verréckelen? (sinn, Konjunktiv)", "answer": "Wier", "es": "¿Sería posible pasar la reunión al jueves?"}
+   ]
+  },
+  "vocab": [
+   {"text": "onbezuelte Congé", "es": "excedencia sin sueldo", "example": "Si huet sechs Méint onbezuelte Congé gefrot.", "example_es": "Ha pedido seis meses de excedencia sin sueldo."},
+   {"text": "iwwerrascht", "es": "sorprende", "example": "Deng Fro iwwerrascht mech e bëssen.", "example_es": "Tu pregunta me sorprende un poco."},
+   {"text": "eng schrëftlech Demande", "es": "una solicitud por escrito", "example": "Schéckt w.e.g. eng schrëftlech Demande un d'Personalabteilung.", "example_es": "Por favor, envíe una solicitud por escrito a Recursos Humanos."},
+   {"text": "dankbar", "es": "agradecido", "example": "Ech wier Iech fir eng séier Äntwert dankbar.", "example_es": "Le agradecería una respuesta rápida."}
+  ],
+  "transfer": {
+   "prompt": "Escribe una solicitud formal (5–6 frases) a la biblioteca de tu universidad para ampliar dos semanas el préstamo de tres libros porque estás terminando tu trabajo de fin de máster. Incluye el motivo, una petición clara y fórmulas de cortesía.",
+   "model": "Sehr geéiert Dammen an Hären, ech schreiwen Iech, fir eng Verlängerung vum Prêt vun dräi Bicher ze froen, déi ech den 2. Dezember zeréckbrénge misst. Ech sinn amgaang, meng Masteraarbecht ze schreiwen, an dës Bicher si ganz wichteg fir dat lescht Kapitel. Dofir wier ech Iech ganz dankbar, wann de Prêt ëm zwou Woche verlängert kéint ginn. Wann d'Bicher vun anere Leit reservéiert sinn, bréngen ech se natierlech direkt zeréck. Merci am Viraus fir Är Hëllef. Mat beschte Gréiss, Lucía Pérez, Matrikelnummer 20231187.",
+   "rubric": "Indica claramente qué pides y por qué, usa al menos una fórmula formal con Konjunktiv («ech wier Iech dankbar, wann…»), ofrece una alternativa y cierra con tus datos de identificación."
+  }
+ }
+}

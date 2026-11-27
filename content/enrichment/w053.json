@@ -1,0 +1,77 @@
+{
+ "week": 53,
+ "da": {
+  "dialogue2": {
+   "context": "Por teléfono: un cliente pide cita en el taller para la revisión de su coche, pero tiene poco margen.",
+   "lines": [
+    {"text": "Hej, jeg vil gerne bestille et eftersyn af min bil.", "es": "Hola, querría pedir una revisión para mi coche."},
+    {"text": "Vi har en ledig plads på torsdag klokken otte.", "es": "Tenemos un hueco el jueves a las ocho."},
+    {"text": "Det er lidt tidligt. Har I noget om eftermiddagen?", "es": "Es un poco pronto. ¿Tienen algo por la tarde?"},
+    {"text": "Kun fredag klokken et, men så er bilen først klar mandag.", "es": "Solo el viernes a la una, pero entonces el coche no estaría listo hasta el lunes."},
+    {"text": "Så tager jeg torsdag morgen. Hvor længe tager det?", "es": "Entonces me quedo con el jueves por la mañana. ¿Cuánto tarda?"},
+    {"text": "Cirka to timer, så du kan vente her hos os.", "es": "Unas dos horas, así que puede esperar aquí."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué elige el cliente la cita del jueves por la mañana?",
+   "choices": ["Porque con la del viernes no tendría el coche hasta el lunes", "Porque el jueves por la tarde le viene mejor", "Porque el taller cierra los viernes"]
+  },
+  "grammar": {
+   "focus": "Preposiciones de tiempo: på, om, i",
+   "explain": "«På» va con un día concreto próximo (på fredag), «om» con partes del día habituales o con plazos (om eftermiddagen, om to timer) e «i» con meses y periodos (i juli, i næste uge).",
+   "items": [
+    {"prompt": "Kan du komme ___ fredag klokken ni?", "answer": "på", "es": "¿Puede venir el viernes a las nueve?"},
+    {"prompt": "Bilen er klar ___ to timer.", "answer": "om", "es": "El coche estará listo dentro de dos horas."},
+    {"prompt": "Værkstedet holder lukket ___ juli.", "answer": "i", "es": "El taller cierra en julio."}
+   ]
+  },
+  "vocab": [
+   {"text": "et eftersyn", "es": "una revisión", "example": "Bilen skal have et eftersyn hvert år.", "example_es": "El coche tiene que pasar una revisión cada año."},
+   {"text": "om eftermiddagen", "es": "por la tarde", "example": "Har I noget om eftermiddagen?", "example_es": "¿Tienen algo por la tarde?"},
+   {"text": "Hvor længe tager det", "es": "¿Cuánto tarda?", "example": "Hvor længe tager det at skifte dækkene?", "example_es": "¿Cuánto se tarda en cambiar las ruedas?"},
+   {"text": "først", "es": "no … hasta", "example": "Bilen er først klar mandag.", "example_es": "El coche no estará listo hasta el lunes."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un mensaje a tu peluquería: quieres cambiar tu cita del sábado a otro día de la semana que viene. Indica cuándo puedes y cuándo no (3–4 frases).",
+   "model": "Hej. Jeg har en tid hos jer på lørdag klokken elleve, men jeg kan desværre ikke komme. Kan jeg i stedet få en tid i næste uge? Jeg kan om eftermiddagen på tirsdag eller torsdag, men ikke om mandagen. Mange hilsner, Sofía.",
+   "rubric": "Usa correctamente «på», «om» e «i» con expresiones de tiempo y da al menos dos opciones concretas."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Por teléfono: un cliente pide cita en el taller para la revisión de su coche, pero tiene poco margen.",
+   "lines": [
+    {"text": "Moien, mäin Auto muss an d'Revisioun.", "es": "Hola, mi coche tiene que pasar la revisión."},
+    {"text": "Mir hunn en Donneschdeg um aacht Auer eng Plaz fräi.", "es": "Tenemos un hueco el jueves a las ocho."},
+    {"text": "Dat ass e bësse fréi. Hutt Dir eppes nomëttes?", "es": "Es un poco pronto. ¿Tienen algo por la tarde?"},
+    {"text": "Just e Freideg um eng Auer, mee da wier den Auto eréischt e Méindeg fäerdeg.", "es": "Solo el viernes a la una, pero entonces el coche no estaría listo hasta el lunes."},
+    {"text": "Da huelen ech den Donneschdeg. Wéi laang dauert dat?", "es": "Entonces me quedo con el jueves. ¿Cuánto tarda?"},
+    {"text": "Ongeféier zwou Stonnen, Dir kënnt bei eis waarden.", "es": "Unas dos horas, puede esperar aquí."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué elige el cliente la cita del jueves por la mañana?",
+   "choices": ["Porque con la del viernes no tendría el coche hasta el lunes", "Porque el jueves por la tarde le viene mejor", "Porque el taller cierra los viernes"]
+  },
+  "grammar": {
+   "focus": "Preposiciones de tiempo: um, en/e, am, an",
+   "explain": "«Um» va con la hora (um aacht Auer), «en/e» con los días (en Dënschdeg, e Freideg), «am» con meses y partes del día (am August, am Owend) y «an» con plazos (an zwou Stonnen).",
+   "items": [
+    {"prompt": "Kënnt Dir ___ néng Auer laanschtkommen?", "answer": "um", "es": "¿Puede pasarse a las nueve?"},
+    {"prompt": "Den Auto ass ___ zwou Stonne fäerdeg.", "answer": "an", "es": "El coche estará listo dentro de dos horas."},
+    {"prompt": "D'Garage ass ___ August zou.", "answer": "am", "es": "El taller cierra en agosto."}
+   ]
+  },
+  "vocab": [
+   {"text": "eng Plaz fräi", "es": "un hueco libre", "example": "Mir hunn en Donneschdeg eng Plaz fräi.", "example_es": "Tenemos un hueco libre el jueves."},
+   {"text": "nomëttes", "es": "por la tarde", "example": "Hutt Dir eppes nomëttes?", "example_es": "¿Tienen algo por la tarde?"},
+   {"text": "eréischt", "es": "no … hasta", "example": "Den Auto ass eréischt e Méindeg fäerdeg.", "example_es": "El coche no estará listo hasta el lunes."},
+   {"text": "Wéi laang dauert dat", "es": "¿Cuánto tarda?", "example": "Wéi laang dauert dat ongeféier?", "example_es": "¿Cuánto tarda más o menos?"}
+  ],
+  "transfer": {
+   "prompt": "Escribe un mensaje a tu peluquería: quieres cambiar tu cita del sábado a otro día de la semana que viene. Indica cuándo puedes y cuándo no (3–4 frases).",
+   "model": "Moien, ech hunn e Samschdeg um eelef Auer e Rendez-vous bei Iech, mee ech ka leider net kommen. Hätt Dir nächst Woch eng aner Plaz fräi? Ech kann en Dënschdeg oder en Donneschdeg nomëttes, mee net e Méindeg. Merci a schéine Gruss, Sofía.",
+   "rubric": "Usa bien «um», «en/e» y «am/an» con expresiones de tiempo y da al menos dos opciones concretas."
+  }
+ }
+}

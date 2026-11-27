@@ -1,0 +1,79 @@
+{
+ "week": 100,
+ "da": {
+  "dialogue2": {
+   "context": "La víspera de una presentación, un compañero escucha el ensayo de otro y le aconseja recortar y reorganizar.",
+   "lines": [
+    {"text": "Nå, hvad syntes du? Vær ærlig.", "es": "Bueno, ¿qué te ha parecido? Sé sincero."},
+    {"text": "Indholdet er stærkt, men du brugte tolv minutter, og du har kun syv.", "es": "El contenido es bueno, pero has tardado doce minutos y solo tienes siete."},
+    {"text": "Av. Hvad skal jeg skære væk?", "es": "Uf. ¿Qué tengo que quitar?"},
+    {"text": "Fokuser på ét budskab. Lige nu kommer du ind på fire forskellige emner.", "es": "Céntrate en un solo mensaje. Ahora mismo tocas cuatro temas distintos."},
+    {"text": "Okay, så dropper jeg baggrunden og starter direkte med kundens problem.", "es": "Vale, entonces quito los antecedentes y empiezo directamente con el problema del cliente."},
+    {"text": "Godt. Og slut af med en konkret opfordring i stedet for «Er der spørgsmål?».", "es": "Bien. Y termina con una petición concreta en lugar de «¿Hay preguntas?»."},
+    {"text": "Jeg øver den igen i aften med stopur.", "es": "Esta noche la vuelvo a ensayar con cronómetro."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cuál es el principal problema de la presentación, según el compañero?",
+   "choices": ["Es demasiado larga porque trata demasiados temas", "El contenido no es convincente", "Empieza con una pregunta poco interesante"]
+  },
+  "grammar": {
+   "focus": "Verbos con preposición fija para estructurar una presentación",
+   "explain": "Para guiar al público se usan verbos con preposición fija: «starte med» (empezar con), «fokusere på» (centrarse en), «komme ind på» (tocar un tema), «vende tilbage til» (volver a), «slutte af med» (terminar con).",
+   "items": [
+    {"prompt": "Jeg vil gerne starte ___ et kort eksempel fra hverdagen.", "answer": "med", "es": "Me gustaría empezar con un ejemplo breve de la vida diaria."},
+    {"prompt": "I dag fokuserer vi kun ___ de tre vigtigste resultater.", "answer": "på", "es": "Hoy nos centramos solo en los tres resultados más importantes."},
+    {"prompt": "Lad mig vende tilbage ___ det første spørgsmål.", "answer": "til", "es": "Permitidme volver a la primera pregunta."}
+   ]
+  },
+  "vocab": [
+   {"text": "skære væk", "es": "recortar, quitar", "example": "Hvad kan vi skære væk uden at miste noget vigtigt?", "example_es": "¿Qué podemos quitar sin perder nada importante?"},
+   {"text": "budskab", "es": "mensaje (clave)", "example": "Hver præsentation skal have ét tydeligt budskab.", "example_es": "Cada presentación tiene que tener un mensaje claro."},
+   {"text": "komme ind på", "es": "tocar, entrar en (un tema)", "example": "Jeg når ikke at komme ind på alle detaljer.", "example_es": "No me da tiempo a entrar en todos los detalles."},
+   {"text": "stopur", "es": "cronómetro", "example": "Øv dig med stopur, så du holder tiden.", "example_es": "Ensaya con cronómetro para ajustarte al tiempo."}
+  ],
+  "transfer": {
+   "prompt": "Tienes 5 minutos en la reunión de vecinos para presentar una propuesta de huerto comunitario en el patio. Escribe el guion (5–6 frases): una apertura que capte la atención, un solo mensaje con un ejemplo y un cierre con una petición concreta.",
+   "model": "Hvor mange af jer har købt krydderurter i supermarkedet i denne uge? Jeg vil gerne starte med det spørgsmål, fordi vi kunne dyrke dem selv her i gården. Mit forslag er en lille fælleshave med seks højbede. I en boligforening i Viborg har de gjort det samme, og nu mødes beboerne der hver søndag. Det koster cirka 4.000 kroner, som vi kan søge kommunen om. Jeg slutter af med en konkret opfordring: skriv jer på listen, hvis I vil være med.",
+   "rubric": "Abre con una pregunta o un dato llamativo, se centra en un solo mensaje con un ejemplo, usa al menos dos verbos con preposición fija y cierra con una petición concreta."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "La víspera de una presentación, un compañero escucha el ensayo de otro y le aconseja recortar y reorganizar.",
+   "lines": [
+    {"text": "An, wéi fonnts du et? Sief éierlech.", "es": "¿Y bien, qué te ha parecido? Sé sincero."},
+    {"text": "Den Inhalt ass staark, mee du hues zwielef Minutte gebraucht, an du hues der nëmme siwen.", "es": "El contenido es bueno, pero has tardado doce minutos y solo tienes siete."},
+    {"text": "Au. Wat soll ech da wechloossen?", "es": "Uf. ¿Qué tengo que quitar entonces?"},
+    {"text": "Konzentréier dech op een eenzege Message. De Moment gees du op véier verschidden Themen an.", "es": "Céntrate en un solo mensaje. Ahora mismo tocas cuatro temas distintos."},
+    {"text": "Okay, da looss ech d'Virgeschicht ewech a fänken direkt mam Problem vum Client un.", "es": "Vale, entonces quito los antecedentes y empiezo directamente con el problema del cliente."},
+    {"text": "Gutt. An hal mat enger konkreter Opfuerderung op amplaz mat „Nach Froen?“.", "es": "Bien. Y termina con una petición concreta en lugar de «¿Alguna pregunta?»."},
+    {"text": "Ech iwwen se haut den Owend nach eng Kéier mat der Stoppuer.", "es": "Esta noche la vuelvo a ensayar con cronómetro."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cuál es el principal problema de la presentación, según el compañero?",
+   "choices": ["Es demasiado larga porque trata demasiados temas", "El contenido no es convincente", "Empieza con una pregunta poco interesante"]
+  },
+  "grammar": {
+   "focus": "Verbos con preposición fija para estructurar una presentación",
+   "explain": "Para guiar al público se usan verbos con preposición fija: «ufänke mat» (empezar con), «sech konzentréieren op» (centrarse en), «agoen op» (tratar un tema), «ophale mat» (terminar con), «sech bedanke fir» (agradecer).",
+   "items": [
+    {"prompt": "Ech géif gär ___ engem kuerze Beispill aus dem Alldag ufänken.", "answer": "mat", "es": "Me gustaría empezar con un ejemplo breve de la vida diaria."},
+    {"prompt": "Haut konzentréiere mir eis nëmmen ___ déi dräi wichtegst Resultater.", "answer": "op", "es": "Hoy nos centramos solo en los tres resultados más importantes."},
+    {"prompt": "Zum Schluss bedanken ech mech ___ Är Opmierksamkeet.", "answer": "fir", "es": "Para terminar, les agradezco su atención."}
+   ]
+  },
+  "vocab": [
+   {"text": "wechloossen", "es": "quitar, omitir", "example": "Dës Folie kanns du wechloossen.", "example_es": "Esta diapositiva la puedes quitar."},
+   {"text": "Message", "es": "mensaje (clave)", "example": "All Presentatioun brauch ee kloere Message.", "example_es": "Toda presentación necesita un mensaje claro."},
+   {"text": "Opfuerderung", "es": "petición, llamada a la acción", "example": "Hal mat enger kloerer Opfuerderung op.", "example_es": "Termina con una petición clara."},
+   {"text": "Stoppuer", "es": "cronómetro", "example": "Huel eng Stoppuer, fir d'Zäit anzehalen.", "example_es": "Usa un cronómetro para ajustarte al tiempo."}
+  ],
+  "transfer": {
+   "prompt": "Tienes 5 minutos en la reunión de vecinos para presentar una propuesta de huerto comunitario en el patio. Escribe el guion (5–6 frases): una apertura que capte la atención, un solo mensaje con un ejemplo y un cierre con una petición concreta.",
+   "model": "Wéi vill vun iech hunn dës Woch Kraider am Supermarché kaf? Ech fänke mat dëser Fro un, well mir se och selwer hei am Haff kéinte wuesse loossen. Mäi Virschlag ass e klenge Gemeinschaftsgaart mat sechs Héichbeeter. Zu Ettelbréck huet eng Residenz dat schonn esou gemaach, an elo treffe sech d'Awunner do all Sonndeg. Dat kascht ongeféier 4.000 Euro, an dofir kënne mir d'Gemeng ëm Ënnerstëtzung froen. Ech hale mat enger konkreter Opfuerderung op: dréit iech an d'Lëscht an, wann der wëllt matmaachen.",
+   "rubric": "Abre con una pregunta o un dato llamativo, se centra en un solo mensaje con un ejemplo, usa al menos dos verbos con preposición fija y cierra con una petición concreta."
+  }
+ }
+}

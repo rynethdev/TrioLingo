@@ -1,0 +1,81 @@
+{
+ "week": 180,
+ "da": {
+  "dialogue2": {
+   "context": "Una mediadora negocia un acuerdo entre el promotor de un festival, los vecinos y el ayuntamiento; ahora habla a solas con el promotor, que quiere mantener la música hasta las dos.",
+   "lines": [
+    {"text": "Hvis vi slutter ved midnat, mister vi den bedste time i baren.", "es": "Si terminamos a medianoche, perdemos la mejor hora de la barra."},
+    {"text": "Og hvis I spiller til to, klager naboerne igen, og kommunen trækker tilladelsen tilbage.", "es": "Y si tocáis hasta las dos, los vecinos vuelven a quejarse y el ayuntamiento retira el permiso."},
+    {"text": "Så taber vi alle tre.", "es": "Entonces perdemos los tres."},
+    {"text": "Netop. Derfor foreslår jeg en samlet løsning: musik til midnat, men baren holder åben til et.", "es": "Exacto. Por eso propongo una solución de conjunto: música hasta medianoche, pero la barra abierta hasta la una."},
+    {"text": "Hvad får naboerne ud af det?", "es": "¿Y qué sacan los vecinos de ahí?"},
+    {"text": "Ro efter midnat og to gratis billetter hver. Kommunen får til gengæld en fast kontaktperson.", "es": "Silencio después de medianoche y dos entradas gratis cada uno. El ayuntamiento, a cambio, una persona de contacto fija."},
+    {"text": "Og hvis én af parterne siger nej?", "es": "¿Y si una de las partes dice que no?"},
+    {"text": "Så falder det hele. Det er netop det, der gør jer afhængige af hinanden.", "es": "Entonces cae todo. Precisamente eso es lo que os hace depender unos de otros."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué insiste la mediadora en que, si una parte dice que no, «cae todo»?",
+   "choices": ["Porque así cada parte tiene interés en que las demás también acepten", "Porque quiere presionar al promotor para que sea el único en ceder", "Porque el ayuntamiento le ha impuesto esa condición"]
+  },
+  "grammar": {
+   "focus": "Reciprocidad y distribución: hinanden, hver især, henholdsvis",
+   "explain": "«Hinanden» expresa reciprocidad (unos de otros); «hver» y «hver især» distribuyen (cada uno); «henholdsvis» (respectivamente) asigna elementos por orden: Musikken og baren slutter henholdsvis kl. 24 og kl. 1.",
+   "items": [
+    {"prompt": "De tre parter er afhængige af ___. (unos de otros)", "answer": "hinanden", "es": "Las tres partes dependen unas de otras."},
+    {"prompt": "Naboerne får to billetter ___ især. (cada uno)", "answer": "hver", "es": "Los vecinos reciben dos entradas cada uno."},
+    {"prompt": "Musikken og baren slutter ___ klokken 24 og klokken 1. (respectivamente)", "answer": "henholdsvis", "es": "La música y la barra terminan, respectivamente, a las doce y a la una."}
+   ]
+  },
+  "vocab": [
+   {"text": "få noget ud af", "es": "sacar algo de", "example": "Alle skal kunne få noget ud af aftalen.", "example_es": "Todos tienen que poder sacar algo del acuerdo."},
+   {"text": "til gengæld", "es": "a cambio", "example": "Til gengæld får kommunen en fast kontaktperson.", "example_es": "A cambio, el ayuntamiento obtiene una persona de contacto fija."},
+   {"text": "står og falder med", "es": "depende por completo de", "example": "Aftalen står og falder med naboerne.", "example_es": "El acuerdo depende por completo de los vecinos."},
+   {"text": "et kompromis, alle kan leve med", "es": "un compromiso con el que todos pueden vivir", "example": "Det er ikke ideelt, men et kompromis, alle kan leve med.", "example_es": "No es ideal, pero es un compromiso con el que todos pueden vivir."}
+  ],
+  "transfer": {
+   "prompt": "Como mediadora, escribe a las tres partes (6–8 frases) un correo con la propuesta: qué cede y qué recibe cada una, por qué solo funciona como conjunto y el plazo para responder.",
+   "model": "Kære alle tre parter, tak for tre konstruktive samtaler i denne uge. På baggrund af dem foreslår jeg en samlet løsning frem for enkelte punkter. Arrangøren afslutter musikken ved midnat, men får lov at holde baren åben til klokken et. Naboerne får ro efter midnat og to gratis billetter hver; til gengæld accepterer de lydniveauet indtil da. Kommunen forlænger tilladelsen og får en fast kontaktperson, der kan træde til samme aften, hvis der opstår problemer. Forslaget hænger sammen: hver part giver noget, der er mindre vigtigt for den, og får det, der betyder mest. Falder ét element, falder det hele, så jeg beder jer svare samlet senest fredag.",
+   "rubric": "Presenta la propuesta como conjunto y no punto por punto; explicita qué cede y qué recibe cada parte; trata a las tres con equidad; justifica la lógica del paquete; fija un plazo claro; tono neutral y profesional."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una mediadora negocia un acuerdo entre el promotor de un festival, los vecinos y el ayuntamiento; ahora habla a solas con el promotor, que quiere mantener la música hasta las dos.",
+   "lines": [
+    {"text": "Wa mir ëm Mëtternuecht ophalen, verléiere mir déi bescht Stonn un der Bar.", "es": "Si terminamos a medianoche, perdemos la mejor hora de la barra."},
+    {"text": "A wann dir bis zwou Auer spillt, beschwéiere sech d'Noperen nees, an d'Gemeng zitt d'Autorisatioun zeréck.", "es": "Y si tocáis hasta las dos, los vecinos vuelven a quejarse y el ayuntamiento retira el permiso."},
+    {"text": "Da verléiere mir all dräi.", "es": "Entonces perdemos los tres."},
+    {"text": "Genee. Dofir proposéieren ech eng Gesamtléisung: Musek bis Mëtternuecht, mä d'Bar bleift bis een Auer op.", "es": "Exacto. Por eso propongo una solución de conjunto: música hasta medianoche, pero la barra abierta hasta la una."},
+    {"text": "A wat hunn d'Noperen dovun?", "es": "¿Y qué sacan los vecinos de ahí?"},
+    {"text": "Rou no Mëtternuecht a jidderee zwee Gratisbilljeeën. D'Gemeng kritt dofir eng fix Kontaktpersoun.", "es": "Silencio después de medianoche y dos entradas gratis cada uno. El ayuntamiento, a cambio, una persona de contacto fija."},
+    {"text": "A wann eng vun de Parteien Nee seet?", "es": "¿Y si una de las partes dice que no?"},
+    {"text": "Da fält alles. Grad dat suergt dofir, datt dir openeen ugewisen sidd.", "es": "Entonces cae todo. Precisamente eso hace que dependáis unos de otros."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Por qué insiste la mediadora en que, si una parte dice que no, «cae todo»?",
+   "choices": ["Porque así cada parte tiene interés en que las demás también acepten", "Porque quiere presionar al promotor para que sea el único en ceder", "Porque el ayuntamiento le ha impuesto esa condición"]
+  },
+  "grammar": {
+   "focus": "Reciprocidad y distribución: géigesäiteg, openeen, jidderee",
+   "explain": "«Géigesäiteg» expresa reciprocidad (mutuamente); con preposición se usan formas en «-eneen/-enee»: openeen, matenee. «Jidderee» (cada uno) distribuye: Jidderee kritt zwee Billjeeën.",
+   "items": [
+    {"prompt": "Déi dräi Parteie sinn ___ ugewisen. (unos de otros, con «op»)", "answer": "openeen", "es": "Las tres partes dependen unas de otras."},
+    {"prompt": "___ vun den Noperen kritt zwee Gratisbilljeeën. (cada uno)", "answer": "Jidderee", "es": "Cada uno de los vecinos recibe dos entradas gratis."},
+    {"prompt": "Si respektéiere sech ___. (mutuamente)", "answer": "géigesäiteg", "es": "Se respetan mutuamente."}
+   ]
+  },
+  "vocab": [
+   {"text": "am Géigenzuch", "es": "a cambio", "example": "Am Géigenzuch kritt d'Gemeng eng fix Kontaktpersoun.", "example_es": "A cambio, el ayuntamiento obtiene una persona de contacto fija."},
+   {"text": "mat deem jidderee liewe kann", "es": "con el que todos pueden vivir", "example": "Et ass net ideal, mä e Kompromëss, mat deem jidderee liewe kann.", "example_es": "No es ideal, pero es un compromiso con el que todos pueden vivir."},
+   {"text": "steet a fält", "es": "depende por completo", "example": "Den Accord steet a fält mat den Noperen.", "example_es": "El acuerdo depende por completo de los vecinos."},
+   {"text": "ugewisen", "es": "dependiente (de)", "example": "D'Organisateuren sinn op d'Gemeng ugewisen.", "example_es": "Los organizadores dependen del ayuntamiento."}
+  ],
+  "transfer": {
+   "prompt": "Como mediadora, escribe a las tres partes (6–8 frases) un correo con la propuesta: qué cede y qué recibe cada una, por qué solo funciona como conjunto y el plazo para responder.",
+   "model": "Léif Vertrieder vun den dräi Parteien, merci fir déi dräi konstruktiv Gespréicher dës Woch. Op Basis dovu proposéieren ech eng Gesamtléisung amplaz vun Eenzelpunkten. Den Organisateur stellt d'Musek ëm Mëtternuecht of, d'Bar bleift awer bis een Auer op. D'Noperen kréien no Mëtternuecht Rou a jidderee zwee Gratisbilljeeën; am Géigenzuch akzeptéiere si d'Lautstäerkt bis dohinner. D'Gemeng verlängert d'Autorisatioun a kritt eng fix Kontaktpersoun, déi nach deeselwechten Owend agräife kann, wann et Problemer gëtt. De Virschlag hält zesummen: all Partei gëtt eppes op, wat hir manner wichteg ass, a kritt dat, wat am meeschten zielt. Fält een Element, fält alles; dofir bieden ech Iech, mir bis Freideg eng gemeinsam Äntwert ze ginn.",
+   "rubric": "Presenta la propuesta como conjunto y no punto por punto; explicita qué cede y qué recibe cada parte; trata a las tres con equidad; justifica la lógica del paquete; fija un plazo claro; tono neutral y profesional."
+  }
+ }
+}

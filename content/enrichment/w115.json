@@ -1,0 +1,79 @@
+{
+ "week": 115,
+ "da": {
+  "dialogue2": {
+   "context": "Un empleado pide a Recursos Humanos que la empresa le pague una certificación cara; ella pregunta por el beneficio y negocian las condiciones.",
+   "lines": [
+    {"text": "Jeg har fundet et kursus i projektledelse, som jeg rigtig gerne vil tage.", "es": "He encontrado un curso de gestión de proyectos que me gustaría mucho hacer."},
+    {"text": "Spændende. Hvad koster det, og hvordan vil holdet få gavn af det?", "es": "Interesante. ¿Cuánto cuesta y cómo se beneficiaría el equipo?"},
+    {"text": "Det koster 18.000 kroner. Vi mangler en, som kan styre de projekter, vi arbejder på sammen med kunderne.", "es": "Cuesta 18.000 coronas. Nos falta alguien que sepa gestionar los proyectos en los que trabajamos con los clientes."},
+    {"text": "Det er et argument, jeg kan bruge. Men budgettet er stramt i år.", "es": "Ese argumento me sirve. Pero este año el presupuesto está ajustado."},
+    {"text": "Kunne firmaet betale halvdelen, hvis jeg selv betaler resten?", "es": "¿Podría la empresa pagar la mitad si yo pago el resto?"},
+    {"text": "Måske. Det kræver dog, at du bliver hos os mindst et år efter kurset.", "es": "Quizá. Eso sí, exige que te quedes con nosotros al menos un año después del curso."},
+    {"text": "Det er en betingelse, jeg sagtens kan leve med.", "es": "Es una condición con la que puedo vivir sin problema."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué condición pone Recursos Humanos para pagar parte del curso?",
+   "choices": ["Que el empleado se quede al menos un año más en la empresa", "Que el curso se haga fuera del horario laboral", "Que el empleado forme después a todo el equipo"]
+  },
+  "grammar": {
+   "focus": "Relativas con la preposición al final",
+   "explain": "En danés la preposición de una relativa suele ir al final, y «som» puede omitirse si no es sujeto: «de projekter, (som) vi arbejder på», «en betingelse, (som) jeg kan leve med». Suena mucho más natural que «på hvilke».",
+   "items": [
+    {"prompt": "Det er det kursus, som jeg talte ___ i går. (hablar de)", "answer": "om", "es": "Es el curso del que hablé ayer."},
+    {"prompt": "Hun er den kollega, jeg arbejder mest sammen ___. (con)", "answer": "med", "es": "Es la compañera con la que más trabajo."},
+    {"prompt": "Det er den løsning, vi har ventet ___ længe. (esperar)", "answer": "på", "es": "Es la solución que llevábamos tiempo esperando."}
+   ]
+  },
+  "vocab": [
+   {"text": "få gavn af", "es": "beneficiarse de", "example": "Hele afdelingen vil få gavn af kurset.", "example_es": "Todo el departamento se beneficiará del curso."},
+   {"text": "stramt", "es": "ajustado", "example": "Budgettet er stramt i år.", "example_es": "Este año el presupuesto está ajustado."},
+   {"text": "en betingelse", "es": "una condición", "example": "Det er en betingelse for at få tilskud.", "example_es": "Es una condición para recibir la ayuda."},
+   {"text": "sagtens", "es": "sin problema, perfectamente", "example": "Det kan jeg sagtens nå inden fredag.", "example_es": "Eso lo tengo sin problema antes del viernes."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo a tu responsable (5–6 frases, formal) para pedir asistir a un taller de dos días sobre comunicación con clientes: qué quieres aprender, por qué ayudaría al equipo, el coste y cómo compartirás lo aprendido. Usa al menos una relativa con la preposición al final.",
+   "model": "Kære Mette. Jeg har fundet en workshop om kundekommunikation, som jeg meget gerne vil deltage i den 10.-11. april. Den handler blandt andet om svære samtaler, hvilket er noget, vi ofte står over for i supporten. Prisen er 6.500 kroner inklusive materialer. Efter workshoppen vil jeg holde et kort oplæg for holdet om de værktøjer, jeg har lært. Jeg håber, at det er en investering, du kan se værdien i. Venlig hilsen, Diego.",
+   "rubric": "Explica qué quieres aprender y el beneficio para el equipo, indica fechas y coste, propone cómo compartir lo aprendido y usa al menos una relativa con la preposición al final."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Un empleado pide a Recursos Humanos que la empresa le pague una certificación cara; ella pregunta por el beneficio y negocian las condiciones.",
+   "lines": [
+    {"text": "Ech hunn e Cours am Projetmanagement fonnt, deen ech ganz gär maache géif.", "es": "He encontrado un curso de gestión de proyectos que me gustaría mucho hacer."},
+    {"text": "Interessant. Wat kascht en, a wéi géif d'Equipe dovun profitéieren?", "es": "Interesante. ¿Cuánto cuesta y cómo se beneficiaría el equipo?"},
+    {"text": "En kascht 2.400 Euro. Eis feelt een, deen d'Projete leede kann, un deene mir mat de Clienten zesumme schaffen.", "es": "Cuesta 2.400 euros. Nos falta alguien que sepa dirigir los proyectos en los que trabajamos con los clientes."},
+    {"text": "Dat ass en Argument, mat deem ech eppes ufänke kann. Mee de Budget ass dëst Joer knapp.", "es": "Ese argumento me sirve. Pero este año el presupuesto está ajustado."},
+    {"text": "Kéint d'Firma d'Halschent bezuelen, wann ech de Rescht selwer iwwerhuelen?", "es": "¿Podría la empresa pagar la mitad si yo pago el resto?"},
+    {"text": "Vläicht. Dat setzt awer viraus, datt s du nom Cours nach mindestens ee Joer bei eis bleiws.", "es": "Quizá. Eso sí, exige que te quedes con nosotros al menos un año después del curso."},
+    {"text": "Dat ass eng Konditioun, mat där ech ouni Problem liewe kann.", "es": "Es una condición con la que puedo vivir sin problema."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué condición pone Recursos Humanos para pagar parte del curso?",
+   "choices": ["Que el empleado se quede al menos un año más en la empresa", "Que el curso se haga fuera del horario laboral", "Que el empleado forme después a todo el equipo"]
+  },
+  "grammar": {
+   "focus": "Relativas con preposición (vun deem, mat där, un deenen)",
+   "explain": "Cuando el verbo lleva preposición, esta va delante del relativo, que toma dativo: «e Cours, vun deem ech geschwat hunn», «eng Konditioun, mat där ech liewe kann», «d'Projeten, un deenen eis Equipe schafft». El verbo va al final.",
+   "items": [
+    {"prompt": "Dat ass de Cours, vun ___ ech gëschter geschwat hunn. (masculino)", "answer": "deem", "es": "Es el curso del que hablé ayer."},
+    {"prompt": "Si ass d'Kolleegin, mat ___ ech am meeschte schaffen. (femenino)", "answer": "där", "es": "Es la compañera con la que más trabajo."},
+    {"prompt": "Dat sinn d'Projeten, un ___ eis Equipe dëst Joer schafft. (plural)", "answer": "deenen", "es": "Son los proyectos en los que trabaja nuestro equipo este año."}
+   ]
+  },
+  "vocab": [
+   {"text": "profitéieren", "es": "beneficiarse", "example": "D'ganz Abteilung géif vum Cours profitéieren.", "example_es": "Todo el departamento se beneficiaría del curso."},
+   {"text": "knapp", "es": "ajustado", "example": "De Budget ass dëst Joer knapp.", "example_es": "Este año el presupuesto está ajustado."},
+   {"text": "Konditioun", "es": "condición", "example": "Dat ass eng Konditioun fir d'Finanzéierung.", "example_es": "Es una condición para la financiación."},
+   {"text": "ouni Problem", "es": "sin problema", "example": "Dat kann ech ouni Problem bis e Freideg maachen.", "example_es": "Eso lo puedo hacer sin problema antes del viernes."}
+  ],
+  "transfer": {
+   "prompt": "Escribe un correo a tu responsable (5–6 frases, formal) para pedir asistir a un taller de dos días sobre comunicación con clientes: qué quieres aprender, por qué ayudaría al equipo, el coste y cómo compartirás lo aprendido. Usa al menos una relativa con preposición.",
+   "model": "Léif Mette, ech hunn en Atelier iwwer Kommunikatioun mat Cliente fonnt, un deem ech den 10. an 11. Abrëll ganz gär géif deelhuelen. Et geet ënner anerem ëm schwiereg Gespréicher, mat deene mir am Support dacks ze dinn hunn. De Präis ass 750 Euro, Material abegraff. Nom Atelier géif ech der Equipe an enger kuerzer Presentatioun d'Tools weisen, déi ech geléiert hunn. Ech hoffen, datt dat eng Investitioun ass, vun där s du iwwerzeegt bass. Bescht Gréiss, Diego.",
+   "rubric": "Explica qué quieres aprender y el beneficio para el equipo, indica fechas y coste, propone cómo compartir lo aprendido y usa al menos una relativa con preposición (un deem, mat där…)."
+  }
+ }
+}

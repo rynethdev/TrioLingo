@@ -1,0 +1,79 @@
+{
+ "week": 116,
+ "da": {
+  "dialogue2": {
+   "context": "A mitad de un pequeño proyecto se cumple el riesgo previsto: el material llega tarde; el equipo replanifica y decide cómo avisar al cliente.",
+   "lines": [
+    {"text": "Dårlige nyheder: leverandøren har lige skrevet, at materialet først kommer om ti dage.", "es": "Malas noticias: el proveedor acaba de escribir que el material no llega hasta dentro de diez días."},
+    {"text": "Det var præcis det, vi var bange for. Hvad betyder det for fristen?", "es": "Es justo lo que temíamos. ¿Qué significa para el plazo?"},
+    {"text": "Hvis vi ikke gør noget, bliver vi en uge forsinket.", "es": "Si no hacemos nada, nos retrasaremos una semana."},
+    {"text": "Kunne vi ikke bytte om på opgaverne og lave testene først?", "es": "¿No podríamos cambiar el orden de las tareas y hacer primero las pruebas?"},
+    {"text": "Jo, så taber vi kun to dage. Men kunden skal informeres i dag.", "es": "Sí, así solo perdemos dos días. Pero hay que informar al cliente hoy."},
+    {"text": "Jeg ringer til dem, og bagefter sender jeg en mail med den nye plan.", "es": "Les llamo yo y después mando un correo con el nuevo plan."},
+    {"text": "Godt. Selvom det er ærgerligt, er det bedre, at de hører det fra os nu.", "es": "Bien. Aunque es una pena, es mejor que lo sepan por nosotros ahora."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo consiguen reducir el retraso de una semana a dos días?",
+   "choices": ["Cambiando el orden de las tareas y haciendo antes las pruebas", "Pidiendo el material a otro proveedor", "Añadiendo una persona más al proyecto"]
+  },
+  "grammar": {
+   "focus": "Repaso B2: pasiva, hipótesis y concesión",
+   "explain": "Repasa tres estructuras clave: la pasiva en -s con modal («kunden skal informeres»), la hipótesis con «hvis» + pasado y «ville» («Hvis vi byttede om, ville vi spare tid») y la concesión con «selvom» («Selvom det er ærgerligt, …»).",
+   "items": [
+    {"prompt": "Kunden skal ___ allerede i dag. (informere, pasiva en -s)", "answer": "informeres", "es": "Hay que informar al cliente hoy mismo."},
+    {"prompt": "Hvis vi byttede om på opgaverne, ___ vi spare fem dage. (vil, hipótesis)", "answer": "ville", "es": "Si cambiáramos el orden de las tareas, ahorraríamos cinco días."},
+    {"prompt": "___ materialet er forsinket, kan vi godt nå det meste. (aunque)", "answer": "Selvom", "es": "Aunque el material llega tarde, podemos sacar adelante casi todo."}
+   ]
+  },
+  "vocab": [
+   {"text": "bytte om på", "es": "cambiar el orden de", "example": "Lad os bytte om på de to første trin.", "example_es": "Cambiemos el orden de los dos primeros pasos."},
+   {"text": "var bange for", "es": "temíamos", "example": "Vi var bange for, at prisen ville stige.", "example_es": "Temíamos que el precio subiera."},
+   {"text": "taber vi", "es": "perdemos", "example": "På den måde taber vi kun to dage.", "example_es": "Así solo perdemos dos días."},
+   {"text": "ærgerligt", "es": "una pena, fastidioso", "example": "Det er ærgerligt, men ikke en katastrofe.", "example_es": "Es una pena, pero no una catástrofe."}
+  ],
+  "transfer": {
+   "prompt": "Eres responsable de un proyecto de mudanza de oficina con tres personas. Escribe un correo breve al cliente (5–6 frases, formal) informando de un retraso por un riesgo que ya habías previsto, el nuevo plan, quién hace qué y la nueva fecha.",
+   "model": "Kære Lars Mikkelsen. Som vi nævnte ved projektstarten, var der en risiko for forsinkelse på de nye skriveborde, og den risiko er desværre blevet til virkelighed. Skrivebordene leveres først den 12. maj i stedet for den 5. Vi har derfor byttet om på rækkefølgen, så it-udstyret installeres i den første uge. Signe står for it-installationen, Omar koordinerer med flyttefirmaet, og jeg holder dig orienteret hver fredag. Selvom planen er ændret, forventer vi at være helt færdige den 16. maj. Venlig hilsen, Ana Ruiz.",
+   "rubric": "Recuerda el riesgo previsto, explica el retraso con una pasiva, reparte tareas entre personas concretas, da la nueva fecha y usa al menos un conector concesivo o una hipótesis."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "A mitad de un pequeño proyecto se cumple el riesgo previsto: el material llega tarde; el equipo replanifica y decide cómo avisar al cliente.",
+   "lines": [
+    {"text": "Schlecht Neiegkeeten: de Fournisseur huet grad geschriwwen, datt d'Material eréischt an zéng Deeg kënnt.", "es": "Malas noticias: el proveedor acaba de escribir que el material no llega hasta dentro de diez días."},
+    {"text": "Dat ass genee dat, wat mir gefaart hunn. Wat heescht dat fir d'Frist?", "es": "Es justo lo que temíamos. ¿Qué significa para el plazo?"},
+    {"text": "Wa mir näischt maachen, si mir eng Woch ze spéit.", "es": "Si no hacemos nada, nos retrasaremos una semana."},
+    {"text": "Kéinte mir net d'Reiefolleg vun den Aufgaben änneren an d'Tester als éischt maachen?", "es": "¿No podríamos cambiar el orden de las tareas y hacer primero las pruebas?"},
+    {"text": "Jo, da verléiere mir just zwee Deeg. Mee de Client muss nach haut informéiert ginn.", "es": "Sí, así solo perdemos dos días. Pero hay que informar al cliente hoy mismo."},
+    {"text": "Ech ruffen se un, an duerno schécken ech eng Mail mam neie Plang.", "es": "Les llamo yo y después mando un correo con el nuevo plan."},
+    {"text": "Gutt. Obwuel et iergerlech ass, ass et besser, datt si et elo vun eis héieren.", "es": "Bien. Aunque es una pena, es mejor que lo sepan por nosotros ahora."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Cómo consiguen reducir el retraso de una semana a dos días?",
+   "choices": ["Cambiando el orden de las tareas y haciendo antes las pruebas", "Pidiendo el material a otro proveedor", "Añadiendo una persona más al proyecto"]
+  },
+  "grammar": {
+   "focus": "Repaso B2: pasiva, hipótesis y concesión",
+   "explain": "Repasa tres estructuras clave: la pasiva con modal («de Client muss informéiert ginn»), la hipótesis con Konjunktiv («Wa mir d'Reiefolleg ännere géifen, géife mir Zäit spueren») y la concesión con «obwuel» («Obwuel et iergerlech ass, …»).",
+   "items": [
+    {"prompt": "De Client muss nach haut informéiert ___.", "answer": "ginn", "es": "Hay que informar al cliente hoy mismo."},
+    {"prompt": "Wa mir d'Reiefolleg ännere ___, géife mir fënnef Deeg spueren.", "answer": "géifen", "es": "Si cambiáramos el orden, ahorraríamos cinco días."},
+    {"prompt": "___ d'Material ze spéit ass, packe mir dat meescht. (aunque)", "answer": "Obwuel", "es": "Aunque el material llega tarde, sacamos adelante casi todo."}
+   ]
+  },
+  "vocab": [
+   {"text": "Reiefolleg", "es": "orden (de una secuencia)", "example": "Loosse mir d'Reiefolleg vun den éischten zwee Schrëtt änneren.", "example_es": "Cambiemos el orden de los dos primeros pasos."},
+   {"text": "gefaart", "es": "temido", "example": "Mir hunn eng Verspéidung gefaart, an elo ass se do.", "example_es": "Temíamos un retraso, y ahora ha llegado."},
+   {"text": "verléiere mir", "es": "perdemos", "example": "Esou verléiere mir just zwee Deeg.", "example_es": "Así solo perdemos dos días."},
+   {"text": "iergerlech", "es": "fastidioso, una pena", "example": "Et ass iergerlech, mee keng Katastroph.", "example_es": "Es fastidioso, pero no una catástrofe."}
+  ],
+  "transfer": {
+   "prompt": "Eres responsable de un proyecto de mudanza de oficina con tres personas. Escribe un correo breve al cliente (5–6 frases, formal) informando de un retraso por un riesgo que ya habías previsto, el nuevo plan, quién hace qué y la nueva fecha.",
+   "model": "Léiwen Här Mikkelsen, wéi mir beim Ufank vum Projet erwähnt hunn, bestoung de Risiko, datt déi nei Bürosdëscher ze spéit kommen, an dëse Risiko ass leider agetrueden. D'Dëscher ginn eréischt den 12. Mee amplaz de 5. Mee geliwwert. Dofir hu mir d'Reiefolleg geännert, sou datt d'IT-Material an der éischter Woch installéiert gëtt. D'Signe këmmert sech ëm d'IT, den Omar koordinéiert mat der Déménagementsfirma, an ech informéieren Iech all Freideg. Obwuel de Plang geännert gouf, rechne mir domat, de 16. Mee komplett fäerdeg ze sinn. Mat beschte Gréiss, Ana Ruiz.",
+   "rubric": "Recuerda el riesgo previsto, explica el retraso con una pasiva con «ginn», reparte tareas entre personas concretas, da la nueva fecha y usa al menos un conector concesivo o una hipótesis."
+  }
+ }
+}

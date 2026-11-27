@@ -1,0 +1,79 @@
+{
+ "week": 87,
+ "da": {
+  "dialogue2": {
+   "context": "En una reunión de equipo, el gerente propone cerrar la tienda los sábados; una empleada discrepa con cifras y propone una alternativa.",
+   "lines": [
+    {"text": "Jeg overvejer at holde butikken lukket om lørdagen for at spare på lønnen.", "es": "Estoy pensando en cerrar la tienda los sábados para ahorrar en sueldos."},
+    {"text": "Jeg forstår tanken, men må jeg vise dig et par tal først?", "es": "Entiendo la idea, pero ¿puedo enseñarte primero un par de cifras?"},
+    {"text": "Selvfølgelig, kom bare med dem.", "es": "Claro, adelante."},
+    {"text": "Lørdag står for næsten en fjerdedel af ugens omsætning.", "es": "El sábado supone casi una cuarta parte de la facturación semanal."},
+    {"text": "Det havde jeg ikke regnet med. Men personaleudgifterne er også høje den dag.", "es": "No contaba con eso. Pero ese día los gastos de personal también son altos."},
+    {"text": "Hvis vi lukkede, ville vi spare mindre, end vi ville miste. Kunne vi ikke i stedet afkorte åbningstiden?", "es": "Si cerráramos, ahorraríamos menos de lo que perderíamos. ¿No podríamos acortar el horario en su lugar?"},
+    {"text": "Lad os prøve det i en måned og så se på tallene igen.", "es": "Probémoslo un mes y luego volvamos a mirar las cifras."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿En qué quedan al final?",
+   "choices": ["Probar un mes con horario reducido los sábados y revisar las cifras", "Cerrar la tienda los sábados a partir del mes que viene", "Mantener el horario del sábado sin cambios"]
+  },
+  "grammar": {
+   "focus": "Hipótesis con «hvis» + pasado y «ville»",
+   "explain": "Para una situación hipotética se usa «hvis» + pasado y en la otra parte «ville» + infinitivo: «Hvis vi lukkede, ville vi miste kunder». Para una hipótesis sobre el pasado: «Hvis vi havde vidst det, ville vi have handlet anderledes».",
+   "items": [
+    {"prompt": "Hvis vi ___ butikken om lørdagen, ville vi miste mange kunder. (lukke)", "answer": "lukkede", "es": "Si cerráramos la tienda los sábados, perderíamos muchos clientes."},
+    {"prompt": "Hvis budgettet blev skåret ned, ___ salget sandsynligvis falde. (vil)", "answer": "ville", "es": "Si se recortara el presupuesto, las ventas probablemente bajarían."},
+    {"prompt": "Hvis vi ___ set tallene før, ville vi have truffet en anden beslutning. (have)", "answer": "havde", "es": "Si hubiéramos visto las cifras antes, habríamos tomado otra decisión."}
+   ]
+  },
+  "vocab": [
+   {"text": "ugens omsætning", "es": "la facturación semanal", "example": "Lørdag står for en fjerdedel af ugens omsætning.", "example_es": "El sábado supone una cuarta parte de la facturación semanal."},
+   {"text": "står for", "es": "supone, representa", "example": "Onlinesalget står for 30 procent af indtægterne.", "example_es": "La venta en línea supone el 30 % de los ingresos."},
+   {"text": "regnet med", "es": "contado con, previsto", "example": "Det havde vi ikke regnet med.", "example_es": "Con eso no contábamos."},
+   {"text": "afkorte", "es": "acortar", "example": "Vi kunne afkorte åbningstiden med to timer.", "example_es": "Podríamos acortar el horario dos horas."}
+  ],
+  "transfer": {
+   "prompt": "En el grupo de familias del colegio alguien propone eliminar el autobús escolar para ahorrar. Escribe un mensaje (4–5 frases, tono respetuoso y semiformal) en el que discrepes con un dato y propongas una alternativa usando una frase hipotética.",
+   "model": "Tak for forslaget, jeg kan godt se, at det ville spare penge. Ifølge skolens egen opgørelse bruger omkring 60 børn bussen hver dag. Hvis vi fjernede den, ville mange forældre være nødt til at køre selv, og trafikken ved skolen ville stige. Kunne vi i stedet undersøge, om kommunen vil dele udgiften med os? Jeg hjælper gerne med at skrive til dem.",
+   "rubric": "Reconoce la propuesta, aporta un dato con su fuente, usa una hipótesis con «hvis» + pasado y «ville», y ofrece una alternativa concreta sin atacar a la persona."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "En una reunión de equipo, el gerente propone cerrar la tienda los sábados; una empleada discrepa con cifras y propone una alternativa.",
+   "lines": [
+    {"text": "Ech iwwerleeë mir, de Buttek samschdes zouzemaachen, fir bei de Léin ze spueren.", "es": "Estoy pensando en cerrar la tienda los sábados para ahorrar en sueldos."},
+    {"text": "Ech verstinn d'Iddi, mee dierft ech der als éischt e puer Zuele weisen?", "es": "Entiendo la idea, pero ¿puedo enseñarte primero un par de cifras?"},
+    {"text": "Kloer, weis se mer.", "es": "Claro, enséñamelas."},
+    {"text": "De Samschdeg mécht bal e Véierel vum Wocheumsaz aus.", "es": "El sábado supone casi una cuarta parte de la facturación semanal."},
+    {"text": "Domat hat ech net gerechent. Mee d'Personalkäschte sinn deen Dag och héich.", "es": "No contaba con eso. Pero ese día los gastos de personal también son altos."},
+    {"text": "Wa mir zoumaache géifen, géife mir manner spueren, wéi mir verléiere géifen. Kéinte mir net amplaz d'Ëffnungszäite verkierzen?", "es": "Si cerráramos, ahorraríamos menos de lo que perderíamos. ¿No podríamos acortar el horario en su lugar?"},
+    {"text": "Loosse mir dat ee Mount probéieren an duerno d'Zuelen nach eng Kéier kucken.", "es": "Probémoslo un mes y luego volvamos a mirar las cifras."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿En qué quedan al final?",
+   "choices": ["Probar un mes con horario reducido los sábados y revisar las cifras", "Cerrar la tienda los sábados a partir del mes que viene", "Mantener el horario del sábado sin cambios"]
+  },
+  "grammar": {
+   "focus": "Hipótesis con Konjunktiv (géif, wier, hätt)",
+   "explain": "Para una hipótesis se usa «wann» + Konjunktiv y la otra parte también en Konjunktiv: «Wa mir zoumaache géifen, géife mir Cliente verléieren». Con «sinn» y «hunn» se usan «wier» y «hätt»: «Wann ech méi Zäit hätt, …».",
+   "items": [
+    {"prompt": "Wa mir de Buttek samschdes zoumaache ___, géife mir vill Cliente verléieren.", "answer": "géifen", "es": "Si cerráramos la tienda los sábados, perderíamos muchos clientes."},
+    {"prompt": "Wann de Budget méi kleng ___, géif de Verkaf wahrscheinlech falen. (sinn)", "answer": "wier", "es": "Si el presupuesto fuera más pequeño, las ventas probablemente bajarían."},
+    {"prompt": "Wa mir d'Zuele méi fréi gesinn ___, hätte mir anescht decidéiert. (hunn)", "answer": "hätten", "es": "Si hubiéramos visto las cifras antes, habríamos decidido otra cosa."}
+   ]
+  },
+  "vocab": [
+   {"text": "den Umsaz", "es": "la facturación", "example": "Am Dezember klëmmt den Umsaz ëmmer staark.", "example_es": "En diciembre la facturación siempre sube mucho."},
+   {"text": "e Véierel", "es": "una cuarta parte", "example": "Bal e Véierel vun eise Cliente kënnt samschdes.", "example_es": "Casi una cuarta parte de nuestros clientes viene los sábados."},
+   {"text": "gerechent", "es": "contado con, previsto", "example": "Domat hat ech net gerechent.", "example_es": "Con eso no contaba."},
+   {"text": "verkierzen", "es": "acortar", "example": "Mir kéinten d'Ëffnungszäite samschdes ëm zwou Stonne verkierzen.", "example_es": "Podríamos acortar el horario de los sábados en dos horas."}
+  ],
+  "transfer": {
+   "prompt": "En el grupo de familias del colegio alguien propone eliminar el autobús escolar para ahorrar. Escribe un mensaje (4–5 frases, tono respetuoso y semiformal) en el que discrepes con un dato y propongas una alternativa usando una frase hipotética.",
+   "model": "Merci fir de Virschlag, ech verstinn, datt dat Sue spuere géif. Laut der Schoul selwer huelen all Dag ongeféier 60 Kanner de Bus. Wa mir en ofschafe géifen, misste vill Eltere selwer fueren, an et géif nach méi Verkéier virun der Schoul ginn. Kéinte mir net amplaz nofroen, ob d'Gemeng en Deel vun de Käschten iwwerhëlt? Ech hëllefen och gär, de Bréif ze schreiwen.",
+   "rubric": "Reconoce la propuesta, aporta un dato con su fuente, usa una hipótesis con «wann» y Konjunktiv (géif, wier, hätt) y ofrece una alternativa concreta sin atacar a la persona."
+  }
+ }
+}

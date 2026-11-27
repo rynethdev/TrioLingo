@@ -1,0 +1,79 @@
+{
+ "week": 114,
+ "da": {
+  "dialogue2": {
+   "context": "Tras enviar a 5.000 clientes un boletín con precios equivocados, la jefa analiza con el empleado responsable qué falló, sin buscar culpables.",
+   "lines": [
+    {"text": "Lad os se på, hvad der skete med nyhedsbrevet, og ikke på, hvis skyld det var.", "es": "Veamos qué pasó con el boletín, no de quién fue la culpa."},
+    {"text": "Tak. Jeg brugte den gamle prisliste, fordi den nye lå i en anden mappe.", "es": "Gracias. Usé la lista de precios vieja porque la nueva estaba en otra carpeta."},
+    {"text": "Hvis den gamle var blevet slettet, ville det ikke være sket.", "es": "Si se hubiera borrado la vieja, no habría pasado."},
+    {"text": "Og hvis en anden havde læst korrektur, havde vi fanget fejlen.", "es": "Y si otra persona lo hubiera revisado, habríamos detectado el error."},
+    {"text": "Præcis. Så fremover arkiverer vi gamle filer, og alle udsendelser skal godkendes af to personer.", "es": "Exacto. Así que en adelante archivamos los archivos viejos y cada envío tienen que aprobarlo dos personas."},
+    {"text": "Skal vi også sende en rettelse til kunderne i dag?", "es": "¿Mandamos también hoy una rectificación a los clientes?"},
+    {"text": "Ja, med en kort undskyldning og de rigtige priser.", "es": "Sí, con una breve disculpa y los precios correctos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué dos medidas acuerdan para que no se repita?",
+   "choices": ["Archivar los archivos viejos y que dos personas aprueben cada envío", "Despedir al responsable y cambiar de programa", "Dejar de enviar boletines con precios"]
+  },
+  "grammar": {
+   "focus": "Hipótesis sobre el pasado: hvis … havde …, ville … have",
+   "explain": "Para hablar de lo que no pasó se usa «hvis» + pluscuamperfecto y «ville have» + participio: «Hvis vi havde tjekket, ville vi have opdaget fejlen». En el habla también se usa «havde» en las dos partes: «…, havde vi fanget fejlen».",
+   "items": [
+    {"prompt": "Hvis vi ___ tjekket listen, ville vi have opdaget fejlen. (have, pluscuamperfecto)", "answer": "havde", "es": "Si hubiéramos revisado la lista, habríamos descubierto el error."},
+    {"prompt": "Hvis filen var blevet slettet, ___ det ikke være sket. (vil)", "answer": "ville", "es": "Si se hubiera borrado el archivo, no habría pasado."},
+    {"prompt": "Hvis du havde spurgt mig, ville jeg have ___ dig. (hjælpe, participio)", "answer": "hjulpet", "es": "Si me lo hubieras preguntado, te habría ayudado."}
+   ]
+  },
+  "vocab": [
+   {"text": "hvis skyld", "es": "de quién es la culpa", "example": "Det er ikke vigtigt, hvis skyld det var.", "example_es": "No importa de quién fue la culpa."},
+   {"text": "læst korrektur", "es": "revisado (un texto)", "example": "Har nogen læst korrektur på teksten?", "example_es": "¿Alguien ha revisado el texto?"},
+   {"text": "fremover", "es": "en adelante", "example": "Fremover tjekker vi alle priser to gange.", "example_es": "En adelante revisaremos todos los precios dos veces."},
+   {"text": "en rettelse", "es": "una rectificación", "example": "Vi sender en rettelse ud i eftermiddag.", "example_es": "Esta tarde enviamos una rectificación."}
+  ],
+  "transfer": {
+   "prompt": "Coordinas a los voluntarios de una carrera solidaria y, por un error en el horario que publicaste, faltó gente en el avituallamiento. Escribe un mensaje al equipo (5–6 frases, tono responsable): reconoce el error, explica qué habría evitado el problema y presenta dos medidas.",
+   "model": "Hej alle sammen. Jeg vil gerne sige undskyld for søndagens forvirring ved væskedepotet; fejlen lå hos mig. Jeg sendte en vagtplan ud med det forkerte tidspunkt, og den blev aldrig rettet. Hvis jeg havde bedt en af jer om at tjekke planen, ville vi have opdaget fejlen i tide. Fremover får alle vagtplaner en ekstra kontrol, før de bliver sendt ud. Desuden sender jeg en påmindelse med tidspunktet dagen før hvert løb. Tak, fordi I alligevel klarede det så godt.",
+   "rubric": "Asume el error sin excusas, usa al menos una hipótesis sobre el pasado (hvis … havde …, ville … have), propone dos medidas concretas y agradece al equipo."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Tras enviar a 5.000 clientes un boletín con precios equivocados, la jefa analiza con el empleado responsable qué falló, sin buscar culpables.",
+   "lines": [
+    {"text": "Loosse mir kucken, wat mam Newsletter geschitt ass, an net, wiem seng Schold et war.", "es": "Veamos qué pasó con el boletín, no de quién fue la culpa."},
+    {"text": "Merci. Ech hunn déi al Präislëscht benotzt, well déi nei an engem aneren Dossier louch.", "es": "Gracias. Usé la lista de precios vieja porque la nueva estaba en otra carpeta."},
+    {"text": "Wann déi al geläscht gi wier, wier dat net geschitt.", "es": "Si se hubiera borrado la vieja, no habría pasado."},
+    {"text": "A wann en aneren den Text nach eng Kéier gelies hätt, hätte mir de Feeler fonnt.", "es": "Y si otra persona hubiera vuelto a leer el texto, habríamos encontrado el error."},
+    {"text": "Genau. Vun elo u ginn al Fichieren archivéiert, an all Versand muss vun zwou Persoune guttgeheescht ginn.", "es": "Exacto. A partir de ahora se archivan los archivos viejos y cada envío tienen que aprobarlo dos personas."},
+    {"text": "Solle mir de Clienten haut och eng Korrektur schécken?", "es": "¿Mandamos también hoy una rectificación a los clientes?"},
+    {"text": "Jo, mat enger kuerzer Entschëllegung an de richtege Präisser.", "es": "Sí, con una breve disculpa y los precios correctos."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué dos medidas acuerdan para que no se repita?",
+   "choices": ["Archivar los archivos viejos y que dos personas aprueben cada envío", "Despedir al responsable y cambiar de programa", "Dejar de enviar boletines con precios"]
+  },
+  "grammar": {
+   "focus": "Hipótesis sobre el pasado: wann … hätt/wier, hätt/wier …",
+   "explain": "Para hablar de lo que no pasó se usa «wann» + Konjunktiv pasado (hätt/wier + participio) y la otra parte también: «Wa mir kontrolléiert hätten, hätte mir de Feeler fonnt», «Wann ech méi fréi komm wier, …».",
+   "items": [
+    {"prompt": "Wa mir d'Lëscht kontrolléiert ___, hätte mir de Feeler fonnt. (hunn)", "answer": "hätten", "es": "Si hubiéramos revisado la lista, habríamos encontrado el error."},
+    {"prompt": "Wann de Fichier geläscht gi ___, wier dat net geschitt. (sinn)", "answer": "wier", "es": "Si se hubiera borrado el archivo, no habría pasado."},
+    {"prompt": "Wann s du mech gefrot hätts, ___ ech dir gehollef. (hunn)", "answer": "hätt", "es": "Si me lo hubieras preguntado, te habría ayudado."}
+   ]
+  },
+  "vocab": [
+   {"text": "wiem seng Schold", "es": "de quién es la culpa", "example": "Et ass egal, wiem seng Schold et war.", "example_es": "Da igual de quién fue la culpa."},
+   {"text": "Korrektur", "es": "rectificación", "example": "Mir schécken de Mëtteg eng Korrektur eraus.", "example_es": "Esta tarde enviamos una rectificación."},
+   {"text": "vun elo un", "es": "a partir de ahora", "example": "Vun elo un kontrolléiere mir all Präis zweemol.", "example_es": "A partir de ahora revisamos cada precio dos veces."},
+   {"text": "geläscht", "es": "borrado", "example": "Déi al Versioun gouf geläscht.", "example_es": "Se borró la versión antigua."}
+  ],
+  "transfer": {
+   "prompt": "Coordinas a los voluntarios de una carrera solidaria y, por un error en el horario que publicaste, faltó gente en el avituallamiento. Escribe un mensaje al equipo (5–6 frases, tono responsable): reconoce el error, explica qué habría evitado el problema y presenta dos medidas.",
+   "model": "Salut alleguer, ech wëll mech fir d'Duercherneen e Sonndeg beim Ravitaillement entschëllegen; de Feeler louch bei mir. Ech hunn e Schichtplang mat der falscher Auerzäit verschéckt, an deen ass ni korrigéiert ginn. Wann ech ee vun iech gefrot hätt, de Plang ze kontrolléieren, hätte mir de Feeler fréi genuch fonnt. Vun elo u kritt all Schichtplang eng zousätzlech Kontroll, ier en erausgeet. Ausserdeem schécken ech den Dag virun all Laf eng Erënnerung mat der Auerzäit. Merci, datt dir et trotzdem esou gutt geléist hutt.",
+   "rubric": "Asume el error sin excusas, usa al menos una hipótesis sobre el pasado (wann … hätt/wier, hätt …), propone dos medidas concretas y agradece al equipo."
+  }
+ }
+}

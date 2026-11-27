@@ -1,0 +1,79 @@
+{
+ "week": 105,
+ "da": {
+  "dialogue2": {
+   "context": "Después de una reunión con un cliente, un empleado joven pide a una colega con experiencia feedback concreto sobre cómo respondió a una pregunta difícil.",
+   "lines": [
+    {"text": "Har du to minutter? Jeg vil gerne høre, hvad du syntes om mødet.", "es": "¿Tienes dos minutos? Me gustaría saber qué te pareció la reunión."},
+    {"text": "Det gik fint, synes jeg.", "es": "Creo que fue bien."},
+    {"text": "Tak, men jeg tænker især på, da kunden spurgte til prisen. Hvordan virkede mit svar?", "es": "Gracias, pero pienso sobre todo en cuando el cliente preguntó por el precio. ¿Qué impresión dio mi respuesta?"},
+    {"text": "Ærligt talt lidt usikkert. Du undskyldte prisen, før du havde forklaret værdien.", "es": "Sinceramente, algo insegura. Te disculpaste por el precio antes de haber explicado el valor."},
+    {"text": "Det har du ret i. Hvad burde jeg have gjort?", "es": "Tienes razón. ¿Qué tendría que haber hecho?"},
+    {"text": "Du kunne have startet med de tre fordele og først derefter nævnt beløbet.", "es": "Podrías haber empezado por las tres ventajas y solo después mencionar el importe."},
+    {"text": "God pointe. Må jeg øve det med dig før næste møde?", "es": "Buen apunte. ¿Puedo ensayarlo contigo antes de la próxima reunión?"}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué error concreto señala la colega?",
+   "choices": ["Que se disculpó por el precio antes de explicar el valor", "Que le dio al cliente un precio equivocado", "Que no dejó hablar al cliente"]
+  },
+  "grammar": {
+   "focus": "Sugerencias con «kunne have», «burde have» y «ville være»",
+   "explain": "Para sugerir algo sobre el pasado se usa «kunne have» + participio (podrías haber) o «burde have» + participio (deberías haber): «Du kunne have startet med fordelene». Para el futuro: «Det ville være bedre at …».",
+   "items": [
+    {"prompt": "Du ___ have nævnt fordelene først. («deberías»)", "answer": "burde", "es": "Deberías haber mencionado primero las ventajas."},
+    {"prompt": "Du kunne ___ sendt materialet før mødet.", "answer": "have", "es": "Podrías haber enviado el material antes de la reunión."},
+    {"prompt": "Det ___ være bedre at give et konkret eksempel. (vil, más suave)", "answer": "ville", "es": "Sería mejor dar un ejemplo concreto."}
+   ]
+  },
+  "vocab": [
+   {"text": "spurgte til", "es": "preguntó por", "example": "Kunden spurgte til leveringstiden.", "example_es": "El cliente preguntó por el plazo de entrega."},
+   {"text": "virkede", "es": "parecía, daba la impresión", "example": "Hun virkede meget sikker på sig selv.", "example_es": "Parecía muy segura de sí misma."},
+   {"text": "god pointe", "es": "buen apunte", "example": "Det er en god pointe, den tager jeg med.", "example_es": "Es un buen apunte, me lo llevo."},
+   {"text": "ærligt talt", "es": "sinceramente", "example": "Ærligt talt var slutningen lidt for lang.", "example_es": "Sinceramente, el final fue un poco largo."}
+  ],
+  "transfer": {
+   "prompt": "Has entregado a tu tutora del curso de fotografía tu primer reportaje. Escríbele un mensaje (4–5 frases, registro cortés) pidiendo feedback concreto sobre dos aspectos (luz y composición), no una valoración general.",
+   "model": "Kære Birgitte. Tak, fordi du vil se på min første reportage. Jeg er især i tvivl om lyset i de indendørs billeder, som jeg synes virker lidt flade. Kunne du også give mig et par konkrete råd om kompositionen, for eksempel hvad jeg kunne have gjort anderledes i billede 4 og 7? Det ville hjælpe mig meget at se et eksempel på, hvad der virker, og hvad der ikke gør. På forhånd tak, Sofía.",
+   "rubric": "Agradece, nombra dos aspectos concretos (no un «¿qué te parece?» general), usa al menos dos formas de condicional cortés (kunne, ville, kunne have) y cierra con una despedida adecuada."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Después de una reunión con un cliente, un empleado joven pide a una colega con experiencia feedback concreto sobre cómo respondió a una pregunta difícil.",
+   "lines": [
+    {"text": "Hues du zwou Minutten? Ech géif gär wëssen, wéi s du d'Reunioun fonnt hues.", "es": "¿Tienes dos minutos? Me gustaría saber qué te pareció la reunión."},
+    {"text": "Et ass gutt gelaf, mengen ech.", "es": "Creo que fue bien."},
+    {"text": "Merci, mee ech denke virun allem un de Moment, wou de Client no dem Präis gefrot huet. Wéi ass meng Äntwert ukomm?", "es": "Gracias, pero pienso sobre todo en cuando el cliente preguntó por el precio. ¿Qué impresión dio mi respuesta?"},
+    {"text": "Éierlech gesot e bësse onsécher. Du hues dech fir de Präis entschëllegt, ier s du de Wäert erkläert hues.", "es": "Sinceramente, algo insegura. Te disculpaste por el precio antes de explicar el valor."},
+    {"text": "Do hues du Recht. Wat hätt ech solle maachen?", "es": "Tienes razón. ¿Qué tendría que haber hecho?"},
+    {"text": "Du hätts kënne mat den dräi Virdeeler ufänken an eréischt duerno de Betrag nennen.", "es": "Podrías haber empezado por las tres ventajas y solo después mencionar el importe."},
+    {"text": "Gutt Punkt. Kann ech et virun der nächster Reunioun mat dir iwwen?", "es": "Buen apunte. ¿Puedo ensayarlo contigo antes de la próxima reunión?"}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué error concreto señala la colega?",
+   "choices": ["Que se disculpó por el precio antes de explicar el valor", "Que le dio al cliente un precio equivocado", "Que no dejó hablar al cliente"]
+  },
+  "grammar": {
+   "focus": "Sugerencias con Konjunktiv: hätts … kënnen, hätt … sollen, wier besser",
+   "explain": "Para sugerir algo sobre el pasado se usa «hätt» + infinitivo del modal + verbo: «Du hätts kënnen ufänken» (podrías haber empezado), «Wat hätt ech solle maachen?» (¿qué tendría que haber hecho?). Para el futuro: «Et wier besser, …».",
+   "items": [
+    {"prompt": "Du ___ d'Virdeeler als éischt solle nennen. (hunn, Konjunktiv, 2.ª persona)", "answer": "hätts", "es": "Deberías haber nombrado primero las ventajas."},
+    {"prompt": "Du hätts d'Material virun der Reunioun ___ schécken. (kënnen)", "answer": "kënne", "es": "Podrías haber enviado el material antes de la reunión."},
+    {"prompt": "Et ___ besser, e konkret Beispill ze ginn. (sinn, Konjunktiv)", "answer": "wier", "es": "Sería mejor dar un ejemplo concreto."}
+   ]
+  },
+  "vocab": [
+   {"text": "ukomm", "es": "recibido, causado impresión", "example": "Wéi ass meng Presentatioun bei de Clienten ukomm?", "example_es": "¿Qué impresión causó mi presentación a los clientes?"},
+   {"text": "onsécher", "es": "inseguro", "example": "Ech war bei där Fro e bësse onsécher.", "example_es": "Con esa pregunta estuve algo inseguro."},
+   {"text": "gutt Punkt", "es": "buen apunte", "example": "Gutt Punkt, dat huelen ech mat.", "example_es": "Buen apunte, me lo llevo."},
+   {"text": "éierlech gesot", "es": "sinceramente", "example": "Éierlech gesot war de Schluss ze laang.", "example_es": "Sinceramente, el final fue demasiado largo."}
+  ],
+  "transfer": {
+   "prompt": "Has entregado a tu tutora del curso de fotografía tu primer reportaje. Escríbele un mensaje (4–5 frases, registro cortés) pidiendo feedback concreto sobre dos aspectos (luz y composición), no una valoración general.",
+   "model": "Léif Birgitte, merci, datt s du dir meng éischt Reportage ukucke wëlls. Ech sinn haaptsächlech onsécher wéinst dem Liicht op den Interieursbiller, déi mir e bësse flaach virkommen. Kéints du mir och e puer konkret Tipps zur Kompositioun ginn, zum Beispill wat ech beim Bild 4 an 7 anescht hätt kënne maachen? Et géif mir vill hëllefen, e Beispill ze gesinn, wat funktionéiert a wat net. Merci am Viraus, Sofía.",
+   "rubric": "Agradece, nombra dos aspectos concretos (no un «wéi fonnts du et?» general), usa al menos dos formas de Konjunktiv (kéints, géif, hätt … kënnen) y cierra con una despedida adecuada."
+  }
+ }
+}

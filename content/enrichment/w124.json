@@ -1,0 +1,201 @@
+{
+ "week": 124,
+ "da": {
+  "dialogue2": {
+   "context": "Una compañera se siente expuesta porque un correo con copia al jefe pareció una acusación; el remitente intenta reparar la situación sin justificarse en exceso.",
+   "lines": [
+    {
+     "text": "Hvorfor satte du chefen cc på mailen om mine fejl i budgettet?",
+     "es": "¿Por qué pusiste al jefe en copia en el correo sobre mis errores en el presupuesto?"
+    },
+    {
+     "text": "Jeg kan godt se, hvordan det må have virket, og det beklager jeg.",
+     "es": "Entiendo perfectamente cómo debió de parecer, y lo lamento."
+    },
+    {
+     "text": "Det virkede, som om du ville sikre dig, at alle så, hvem der havde lavet fejlen.",
+     "es": "Parecía que querías asegurarte de que todos vieran quién había cometido el error."
+    },
+    {
+     "text": "Det var nu ikke meningen; han havde bedt om at følge med i alle budgetrettelser.",
+     "es": "No era esa la idea, de verdad; él había pedido estar al tanto de todas las correcciones del presupuesto."
+    },
+    {
+     "text": "Det kunne du vel have skrevet i mailen, så jeg ikke skulle gætte?",
+     "es": "¿Y no podrías haberlo puesto en el correo, para que yo no tuviera que adivinarlo?"
+    },
+    {
+     "text": "Jo, det burde jeg; jeg tænkte dog ikke over, hvordan det ville lande hos dig.",
+     "es": "Sí, debería haberlo hecho; no pensé, eso sí, en cómo te iba a llegar."
+    },
+    {
+     "text": "Okay. Men næste gang vil jeg gerne høre det fra dig først, inden andre bliver inddraget.",
+     "es": "Vale. Pero la próxima vez quiero oírlo primero de ti, antes de que se implique a otros."
+    },
+    {
+     "text": "Det er en fair aftale, og jeg sender gerne chefen en kort præcisering i dag.",
+     "es": "Me parece un trato justo, y hoy mismo le mando al jefe una breve aclaración."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué compromiso concreto se alcanza para el futuro?",
+   "choices": [
+    "Que él hablará primero con ella antes de implicar a otras personas",
+    "Que ella dejará de mandar sus correcciones directamente al jefe",
+    "Que el jefe dejará de recibir copia de los cambios en el presupuesto"
+   ]
+  },
+  "grammar": {
+   "focus": "Partículas modales: jo, nu, vel, dog",
+   "explain": "«Jo» presenta algo como sabido por ambos (du ved jo); «nu» corrige o matiza una interpretación (det var nu ikke meningen); «vel» pide confirmación con duda o reproche (det kunne du vel have sagt); «dog» introduce un contraste o una concesión (jeg tænkte dog ikke over det).",
+   "items": [
+    {
+     "prompt": "Du ved ___ godt, at jeg aldrig ville udstille dig. (algo que ambos saben)",
+     "answer": "jo",
+     "es": "Tú ya sabes que yo nunca te dejaría en evidencia."
+    },
+    {
+     "prompt": "Det kunne du ___ have nævnt, inden du sendte mailen? (pide confirmación con reproche)",
+     "answer": "vel",
+     "es": "¿No podrías haberlo mencionado antes de enviar el correo?"
+    },
+    {
+     "prompt": "Det var ___ ikke sådan ment, uanset hvordan det så ud. (corrige una interpretación)",
+     "answer": "nu",
+     "es": "No iba con esa intención, de verdad, por mucho que lo pareciera."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "udstille",
+    "es": "exponer, dejar en evidencia",
+    "example": "Det var aldrig min mening at udstille dig foran chefen.",
+    "example_es": "Nunca fue mi intención dejarte en evidencia delante del jefe."
+   },
+   {
+    "text": "lande hos",
+    "es": "llegarle a alguien (cómo se recibe un mensaje)",
+    "example": "Jeg tænkte ikke over, hvordan beskeden ville lande hos dig.",
+    "example_es": "No pensé en cómo te iba a llegar el mensaje."
+   },
+   {
+    "text": "præcisering",
+    "es": "aclaración (en præcisering)",
+    "example": "Jeg sender en kort præcisering til alle modtagere.",
+    "example_es": "Envío una breve aclaración a todos los destinatarios."
+   },
+   {
+    "text": "bliver inddraget",
+    "es": "se implica, se hace partícipe",
+    "example": "Jeg vil gerne høres, før andre bliver inddraget.",
+    "example_es": "Quiero que se me escuche antes de que se implique a otros."
+   }
+  ],
+  "transfer": {
+   "prompt": "Escribe el correo de aclaración (5–6 frases) que el remitente envía a la compañera y al jefe: reconoce cómo pudo leerse el primer mensaje, explica el motivo sin excusarte en exceso y deja claro el reparto real de responsabilidades.",
+   "model": "Jeg vil gerne følge op på min mail fra i går om budgetrettelserne. Jeg er blevet opmærksom på, at den kunne læses, som om fejlen alene lå hos Sara, og det beklager jeg. Formålet var udelukkende at holde chefen orienteret, som han havde bedt om. Rettelsen blev i øvrigt fundet i fællesskab, og det er Sara, der har foreslået den nye kontrolprocedure. Fremover taler jeg altid med de berørte, før jeg sender den slags oplysninger videre.",
+   "rubric": "Empieza reconociendo cómo pudo leerse el mensaje; formula una disculpa breve sin un «men» inmediato; explica el motivo en una sola frase; restituye el mérito o la imagen de la otra persona; termina con un compromiso de conducta concreto."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una compañera se siente expuesta porque un correo con copia al jefe pareció una acusación; el remitente intenta reparar la situación sin justificarse en exceso.",
+   "lines": [
+    {
+     "text": "Firwat hues du de Chef an CC gesat, wéi s du iwwer meng Feeler am Budget geschriwwen hues?",
+     "es": "¿Por qué pusiste al jefe en copia cuando escribiste sobre mis errores en el presupuesto?"
+    },
+    {
+     "text": "Ech gesinn, wéi dat bei dir ukomm muss sinn, an dat bedaueren ech.",
+     "es": "Entiendo cómo te tuvo que llegar, y lo lamento."
+    },
+    {
+     "text": "Et huet ausgesinn, wéi wann s du wollts, datt jiddereen gesäit, wien de Feeler gemaach huet.",
+     "es": "Parecía que querías que todo el mundo viera quién había cometido el error."
+    },
+    {
+     "text": "Esou war dat awer net geduecht; hien hat jo gefrot, bei all Budgetsännerung an CC ze sinn.",
+     "es": "Pero no iba por ahí; él había pedido estar en copia en cada cambio de presupuesto."
+    },
+    {
+     "text": "Dat hätts du dach an d'Mail schreiwe kënnen, da misst ech net roden.",
+     "es": "Pues podrías haberlo puesto en el correo, y así yo no tendría que adivinar."
+    },
+    {
+     "text": "Du hues Recht; ech hu just net driwwer nogeduecht, wéi et bei dir géif ukommen.",
+     "es": "Tienes razón; simplemente no pensé en cómo te iba a llegar."
+    },
+    {
+     "text": "Okay. Mä déi nächste Kéier wëll ech et fir d'éischt vun dir héieren, ier anerer agebonne ginn.",
+     "es": "Vale. Pero la próxima vez quiero oírlo primero de ti, antes de que se implique a otros."
+    },
+    {
+     "text": "Dat ass fair, an ech schécken dem Chef nach haut eng kuerz Kläerung.",
+     "es": "Me parece justo, y hoy mismo le mando al jefe una breve aclaración."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué compromiso concreto se alcanza para el futuro?",
+   "choices": [
+    "Que él hablará primero con ella antes de implicar a otras personas",
+    "Que ella dejará de mandar sus correcciones directamente al jefe",
+    "Que el jefe dejará de recibir copia de los cambios en el presupuesto"
+   ]
+  },
+  "grammar": {
+   "focus": "Partículas modales: jo, dach, mol",
+   "explain": "«Jo» presenta algo como sabido por ambos (du weess jo); «dach» añade insistencia o reproche (dat hätts du dach soe kënnen); «mol» suaviza una invitación o petición (lauschter mol); «eben» presenta algo como inevitable (dat ass eben esou).",
+   "items": [
+    {
+     "prompt": "Du weess ___, datt ech dech ni bloussstelle wollt. (algo que ambos saben)",
+     "answer": "jo",
+     "es": "Ya sabes que nunca quise dejarte en evidencia."
+    },
+    {
+     "prompt": "Dat hätts du ___ virdrun soe kënnen! (reproche)",
+     "answer": "dach",
+     "es": "¡Pues podrías haberlo dicho antes!"
+    },
+    {
+     "prompt": "Lauschter ___ kuerz no, ier s du dech opreegs. (suaviza la petición)",
+     "answer": "mol",
+     "es": "Escucha un momento antes de enfadarte."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "bloussstellen",
+    "es": "exponer, dejar en evidencia",
+    "example": "Ech wollt dech ni virum Chef bloussstellen.",
+    "example_es": "Nunca quise dejarte en evidencia delante del jefe."
+   },
+   {
+    "text": "ukommen",
+    "es": "llegarle a alguien (cómo se recibe un mensaje)",
+    "example": "Ech hunn net driwwer nogeduecht, wéi dat bei dir kéint ukommen.",
+    "example_es": "No pensé en cómo te podía llegar eso."
+   },
+   {
+    "text": "an CC",
+    "es": "en copia (de un correo)",
+    "example": "Et ass net ëmmer nëtzlech, de Chef an CC ze setzen.",
+    "example_es": "No siempre es útil poner al jefe en copia."
+   },
+   {
+    "text": "Kläerung",
+    "es": "aclaración (eng Kläerung)",
+    "example": "Ech schécken all Empfänger eng kuerz Kläerung.",
+    "example_es": "Envío a todos los destinatarios una breve aclaración."
+   }
+  ],
+  "transfer": {
+   "prompt": "Escribe el correo de aclaración (5–6 frases) que el remitente envía a la compañera y al jefe: reconoce cómo pudo leerse el primer mensaje, explica el motivo sin excusarte en exceso y deja claro el reparto real de responsabilidades.",
+   "model": "Ech wëll nach eng Kéier op meng Mail vu gëschter iwwer d'Budgetsännerungen zréckkommen. Mir ass opgefall, datt een se esou liese konnt, wéi wann de Feeler eleng bei der Sara géif leien, an dat bedaueren ech. D'Zil war just, de Chef um Lafenden ze halen, esou wéi hie sech dat gewënscht hat. De Feeler gouf iwwregens zesumme fonnt, an et ass d'Sara, déi déi nei Kontrollprozedur virgeschloen huet. An Zukunft schwätzen ech ëmmer als éischt mat de betraffene Leit, ier ech esou Informatioune weiderginn.",
+   "rubric": "Empieza reconociendo cómo pudo leerse el mensaje; formula una disculpa breve sin un «mä» inmediato; explica el motivo en una sola frase; restituye el mérito o la imagen de la otra persona; termina con un compromiso de conducta concreto."
+  }
+ }
+}

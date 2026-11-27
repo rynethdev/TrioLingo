@@ -1,0 +1,81 @@
+{
+ "week": 196,
+ "da": {
+  "dialogue2": {
+   "context": "Tras una negociación dura por el alquiler de un local, la propietaria y el inquilino, un librero, cierran el acuerdo por teléfono; él intenta arañar una última concesión.",
+   "lines": [
+    {"text": "Så er vi enige: 18.000 kroner om måneden, tre års binding og første måned gratis.", "es": "Entonces estamos de acuerdo: 18.000 coronas al mes, tres años de permanencia y el primer mes gratis."},
+    {"text": "Næsten. Kunne vi ikke sige to gratis måneder?", "es": "Casi. ¿No podríamos decir dos meses gratis?"},
+    {"text": "Det kunne vi — hvis vi startede forfra.", "es": "Podríamos, si empezáramos de cero."},
+    {"text": "Forstået. Så lader vi det ligge, hvor det ligger.", "es": "Entendido. Entonces lo dejamos estar."},
+    {"text": "Godt. Jeg sender kontrakten i dag, så vi begge har samme ordlyd.", "es": "Bien. Te envío el contrato hoy, para que los dos tengamos el mismo texto."},
+    {"text": "Og tak — du har været hård, men aldrig urimelig.", "es": "Y gracias: has sido dura, pero nunca injusta."},
+    {"text": "Det samme kan jeg sige om dig. Jeg glæder mig til at se bøger i vinduet igen.", "es": "Lo mismo puedo decir de ti. Me alegra volver a ver libros en el escaparate."},
+    {"text": "Det første signerede eksemplar er dit.", "es": "El primer ejemplar firmado es para ti."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir la propietaria con «Podríamos, si empezáramos de cero»?",
+   "choices": ["Que pedir más ahora reabriría toda la negociación, así que la respuesta es no", "Que está dispuesta a dar dos meses gratis", "Que prefiere renegociar el contrato desde el principio"]
+  },
+  "grammar": {
+   "focus": "Fórmulas performativas y de confirmación: hermed, som aftalt, jf.",
+   "explain": "En la confirmación escrita de un acuerdo, «hermed» + presente realiza el acto al enunciarlo (Hermed bekræfter jeg…, por la presente confirmo); «som aftalt» (según lo acordado) remite a lo hablado; «jf.» (cf., véase) remite a un documento.",
+   "items": [
+    {"prompt": "___ bekræfter jeg vores aftale om lejemålet. (por la presente)", "answer": "Hermed", "es": "Por la presente confirmo nuestro acuerdo sobre el alquiler."},
+    {"prompt": "Som ___ er første måned lejefri. (según lo acordado)", "answer": "aftalt", "es": "Según lo acordado, el primer mes está exento de alquiler."},
+    {"prompt": "Lejen reguleres årligt, ___ kontraktens § 4. (cf., abreviatura)", "answer": "jf.", "es": "El alquiler se actualiza anualmente, cf. la cláusula 4 del contrato."}
+   ]
+  },
+  "vocab": [
+   {"text": "lade det ligge, hvor det ligger", "es": "dejarlo estar", "example": "Lad os lade det ligge, hvor det ligger.", "example_es": "Dejémoslo estar."},
+   {"text": "starte forfra", "es": "empezar de cero", "example": "Så må vi starte forfra.", "example_es": "Entonces tendremos que empezar de cero."},
+   {"text": "hårdt, men fair", "es": "con dureza, pero con justicia", "example": "Hun forhandlede hårdt, men fair.", "example_es": "Negoció con dureza, pero con justicia."},
+   {"text": "samme ordlyd", "es": "el mismo texto literal", "example": "Begge parter skal have samme ordlyd.", "example_es": "Ambas partes deben tener el mismo texto."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el correo de cierre (6–8 frases) a la otra parte tras una negociación difícil: confirma los puntos acordados con fórmulas precisas, agradece con sinceridad, destaca algo positivo de la relación y deja una puerta abierta.",
+   "model": "Kære Bent Juhl, hermed bekræfter jeg vores aftale fra i dag om lejemålet i Søndergade 12. Som aftalt er lejen 18.000 kroner om måneden med en binding på tre år, og første måned er lejefri. Den fulde kontrakt er vedlagt, så vi begge har samme ordlyd; jeg beder dig blot returnere den underskrevet inden fredag. Tak for en forhandling, der var hård, men fair hele vejen igennem. Jeg har sat pris på, at vi kunne være uenige uden at blive uvenner. Jeg glæder mig til at åbne dørene i marts — og til den dag, du kommer forbi og vælger dig en bog. Med venlig hilsen, Signe Lund",
+   "rubric": "Confirma cada punto con precisión (cifras, plazos) y fórmulas adecuadas («hermed», «som aftalt»); agradece de forma concreta y no genérica; valora la relación sin adulación; deja una puerta abierta; registro formal y cálido."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Tras una negociación dura por el alquiler de un local, la propietaria y el inquilino, un librero, cierran el acuerdo por teléfono; él intenta arañar una última concesión.",
+   "lines": [
+    {"text": "Da si mir eis eens: 1.800 Euro de Mount, dräi Joer Bindung an den éischte Mount gratis.", "es": "Entonces estamos de acuerdo: 1.800 euros al mes, tres años de permanencia y el primer mes gratis."},
+    {"text": "Bal. Kéinte mir net och zwee Méint gratis soen?", "es": "Casi. ¿No podríamos decir dos meses gratis?"},
+    {"text": "Dat kéinte mir — wa mir nees vu vir ufänken.", "es": "Podríamos, si empezáramos otra vez desde el principio."},
+    {"text": "Verstanen. Da loosse mir et, wéi et ass.", "es": "Entendido. Entonces lo dejamos como está."},
+    {"text": "Gutt. Ech schécken Iech de Kontrakt haut nach zou, fir datt mir allen zwee dee selwechten Text hunn.", "es": "Bien. Le envío el contrato hoy mismo, para que los dos tengamos el mismo texto."},
+    {"text": "A merci — Dir waart haart, mä ni ongerecht.", "es": "Y gracias: ha sido dura, pero nunca injusta."},
+    {"text": "Dat kann ech och vun Iech soen. Ech freeë mech, nees Bicher an der Vitrine ze gesinn.", "es": "Lo mismo puedo decir de usted. Me alegra volver a ver libros en el escaparate."},
+    {"text": "Dat éischt signéiert Exemplar ass fir Iech.", "es": "El primer ejemplar firmado es para usted."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué quiere decir la propietaria con «Podríamos, si empezáramos otra vez desde el principio»?",
+   "choices": ["Que pedir más ahora reabriría toda la negociación, así que la respuesta es no", "Que está dispuesta a dar dos meses gratis", "Que prefiere renegociar el contrato desde el principio"]
+  },
+  "grammar": {
+   "focus": "Verbos separables en fórmulas de cierre",
+   "explain": "En las fórmulas de cierre abundan los verbos separables: en la principal la partícula va al final (Ech schécken Iech de Kontrakt zou; Mir halen d'Punkten esou fest); en la subordinada y con «ze» partícula y verbo se unen (datt ech en zouschécken; fir et festzehalen).",
+   "items": [
+    {"prompt": "Ech schécken Iech de Kontrakt haut nach ___. (zouschécken)", "answer": "zou", "es": "Le envío el contrato hoy mismo."},
+    {"prompt": "Mir halen d'Punkten esou ___. (festhalen)", "answer": "fest", "es": "Dejamos los puntos fijados así."},
+    {"prompt": "Ech bieden Iech, de Kontrakt bis Freideg ënnerschriwwen ___. (zeréckschécken, infinitivo con «ze»)", "answer": "zeréckzeschécken", "es": "Le ruego que devuelva el contrato firmado antes del viernes."}
+   ]
+  },
+  "vocab": [
+   {"text": "wéi et ass", "es": "(dejarlo) como está", "example": "Loosse mir et, wéi et ass.", "example_es": "Dejémoslo como está."},
+   {"text": "vu vir ufänken", "es": "empezar desde el principio", "example": "Da misste mir nees vu vir ufänken.", "example_es": "Entonces tendríamos que volver a empezar desde el principio."},
+   {"text": "haart, mä fair", "es": "con dureza, pero con justicia", "example": "Si huet haart, mä fair verhandelt.", "example_es": "Negoció con dureza, pero con justicia."},
+   {"text": "dee selwechten Text", "es": "el mismo texto", "example": "Béid Säite sollen dee selwechten Text hunn.", "example_es": "Ambas partes deben tener el mismo texto."}
+  ],
+  "transfer": {
+   "prompt": "Escribe el correo de cierre (6–8 frases) a la otra parte tras una negociación difícil: confirma los puntos acordados con fórmulas precisas, agradece con sinceridad, destaca algo positivo de la relación y deja una puerta abierta.",
+   "model": "Léiwen Här Juhl, hiermat bestätegen ech eisen Accord vun haut iwwer d'Geschäftslokal an der Groussgaass 12. Wéi ofgemaach, ass de Loyer 1.800 Euro de Mount mat enger Bindung vun dräi Joer, an den éischte Mount ass gratis. De komplette Kontrakt läit bäi, fir datt mir allen zwee dee selwechten Text hunn; ech bieden Iech just, e bis Freideg ënnerschriwwen zeréckzeschécken. Merci fir eng Verhandlung, déi vun Ufank bis Enn haart, mä fair war. Ech hu geschätzt, datt mir ënnerschiddlecher Meenung waren, ouni eis ze zerstreiden. Ech freeë mech drop, am Mäerz d'Dieren opzemaachen — an op den Dag, wou Dir laanschtkommt an Iech e Buch eraussicht. Mat beschte Gréiss, Signe Lund",
+   "rubric": "Confirma cada punto con precisión (cifras, plazos) y fórmulas adecuadas («hiermat», «wéi ofgemaach»); agradece de forma concreta y no genérica; valora la relación sin adulación; deja una puerta abierta; registro formal y cálido."
+  }
+ }
+}

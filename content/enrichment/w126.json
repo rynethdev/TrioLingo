@@ -1,0 +1,81 @@
+{
+ "week": 126,
+ "da": {
+  "dialogue2": {
+   "context": "Una editora revisa con un autor su artículo para la web; él defiende un párrafo largo y ella le muestra, con tacto, qué sobra.",
+   "lines": [
+    {"text": "Jeg har læst din artikel; indholdet er stærkt, men tredje afsnit kunne strammes op.", "es": "He leído tu artículo; el contenido es sólido, pero el tercer párrafo podría ajustarse."},
+    {"text": "Det afsnit er ellers det, jeg er allermest stolt af.", "es": "Pues ese párrafo es precisamente del que estoy más orgulloso."},
+    {"text": "Det forstår jeg godt, men pointen kommer først i sidste sætning, hvilket får mange læsere til at falde fra undervejs.", "es": "Lo entiendo, pero la idea clave no llega hasta la última frase, lo que hace que muchos lectores abandonen por el camino."},
+    {"text": "Så du mener, at jeg skal flytte konklusionen op?", "es": "¿O sea que crees que debo subir la conclusión?"},
+    {"text": "Ja, sig det vigtigste først, og brug resten til at underbygge det.", "es": "Sí, di lo más importante primero y usa el resto para respaldarlo."},
+    {"text": "Og de tre eksempler? Dem har jeg brugt lang tid på at finde.", "es": "¿Y los tres ejemplos? Me costó mucho tiempo encontrarlos."},
+    {"text": "Behold det stærkeste; de to andre siger i bund og grund det samme.", "es": "Quédate con el más fuerte; los otros dos dicen, en el fondo, lo mismo."},
+    {"text": "Det gør ondt, men du har nok ret; jeg sender en ny version i morgen.", "es": "Duele, pero probablemente tienes razón; mañana te mando una versión nueva."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué le cuesta aceptar al autor?",
+   "choices": ["Renunciar a ejemplos que le costó encontrar, aunque repitan la misma idea", "Que la editora considere débil el contenido de todo el artículo", "Que haya que eliminar por completo el tercer párrafo"]
+  },
+  "grammar": {
+   "focus": "Relativos para evitar repeticiones: hvilket, hvis, hvor",
+   "explain": "«Hvilket» retoma toda la oración anterior (pointen kommer sent, hvilket trætter læseren); «hvis» es el relativo posesivo (forfatteren, hvis tekst …); «hvor» introduce lugar o situación (i indledningen, hvor læseren beslutter …).",
+   "items": [
+    {"prompt": "Afsnittet gentager pointen tre gange, ___ trætter læseren. (retoma toda la oración)", "answer": "hvilket", "es": "El párrafo repite la idea tres veces, lo que cansa al lector."},
+    {"prompt": "Forfatteren, ___ tekst jeg redigerede, var tilfreds med resultatet. (relativo posesivo)", "answer": "hvis", "es": "El autor cuyo texto edité quedó satisfecho con el resultado."},
+    {"prompt": "Det er i indledningen, ___ læserne beslutter, om de vil læse videre. (relativo de lugar)", "answer": "hvor", "es": "Es en la introducción donde los lectores deciden si siguen leyendo."}
+   ]
+  },
+  "vocab": [
+   {"text": "stramme op", "es": "ajustar, hacer más conciso", "example": "Du kan med fordel stramme op i indledningen.", "example_es": "Te convendría ajustar la introducción."},
+   {"text": "falder fra", "es": "abandonan (la lectura)", "example": "Mange læsere falder fra, hvis pointen kommer for sent.", "example_es": "Muchos lectores abandonan si la idea clave llega demasiado tarde."},
+   {"text": "i bund og grund", "es": "en el fondo", "example": "De to eksempler siger i bund og grund det samme.", "example_es": "Los dos ejemplos dicen, en el fondo, lo mismo."},
+   {"text": "underbygge", "es": "respaldar, fundamentar", "example": "Brug resten af afsnittet til at underbygge påstanden.", "example_es": "Usa el resto del párrafo para respaldar la afirmación."}
+  ],
+  "transfer": {
+   "prompt": "Has recibido una nota interna que repite la misma idea tres veces. Escribe un comentario de edición de 5–6 frases al autor: valora lo positivo, señala el problema concreto, propone una reestructuración y ofrece una versión breve de la frase clave.",
+   "model": "Tak for udkastet; argumentet er klart, og eksemplerne er velvalgte. Mit hovedforslag gælder tredje afsnit, hvor den samme pointe formuleres tre gange med forskellige ord. Det får teksten til at virke tungere, end den behøver, hvilket kan få travle læsere til at falde fra. Jeg vil foreslå, at du indleder afsnittet med konklusionen og kun beholder det stærkeste eksempel. En mulig åbning kunne være: »Kortere møder giver bedre beslutninger, fordi alle forbereder sig.« Sig endelig til, hvis jeg skal kigge på den næste version.",
+   "rubric": "Abre con una valoración positiva concreta; nombra el problema localizándolo en el texto; explica el efecto en el lector; propone una reorganización y la ilustra con una frase reescrita; usa al menos una relativa con «hvilket» o «hvor»."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Una editora revisa con un autor su artículo para la web; él defiende un párrafo largo y ella le muestra, con tacto, qué sobra.",
+   "lines": [
+    {"text": "Ech hunn däin Artikel gelies; den Inhalt ass staark, mä den drëtte Paragraf kéint méi knapp sinn.", "es": "He leído tu artículo; el contenido es sólido, pero el tercer párrafo podría ser más conciso."},
+    {"text": "Dat ass awer genee de Paragraf, op deen ech am meeschte stolz sinn.", "es": "Pues ese es justo el párrafo del que estoy más orgulloso."},
+    {"text": "Dat verstinn ech, mä d'Pointe kënnt eréischt am leschte Saz, wat dozou féiert, datt vill Lieser ënnerwee ofbriechen.", "es": "Lo entiendo, pero la idea clave no llega hasta la última frase, lo que hace que muchos lectores abandonen por el camino."},
+    {"text": "Du mengs also, ech soll d'Konklusioun no vir réckelen?", "es": "¿O sea que crees que debo adelantar la conclusión?"},
+    {"text": "Jo, so dat Wichtegst fir d'éischt, a benotz de Rescht, fir et ze begrënnen.", "es": "Sí, di lo más importante primero y usa el resto para fundamentarlo."},
+    {"text": "An déi dräi Beispiller? Ech hu laang gebraucht, fir se ze fannen.", "es": "¿Y los tres ejemplos? Me costó mucho encontrarlos."},
+    {"text": "Behal dat stäerkst; déi zwee aner soen am Fong datselwecht.", "es": "Quédate con el más fuerte; los otros dos dicen, en el fondo, lo mismo."},
+    {"text": "Dat deet wéi, mä du hues wuel Recht; ech schécken der muer eng nei Versioun.", "es": "Duele, pero seguramente tienes razón; mañana te mando una versión nueva."}
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué le cuesta aceptar al autor?",
+   "choices": ["Renunciar a ejemplos que le costó encontrar, aunque repitan la misma idea", "Que la editora considere débil el contenido de todo el artículo", "Que haya que eliminar por completo el tercer párrafo"]
+  },
+  "grammar": {
+   "focus": "Relativos y adverbios relativos para evitar repeticiones: wat, wou, wourop",
+   "explain": "«Wat» puede retomar toda la oración anterior (d'Pointe kënnt spéit, wat de Lieser midd mécht); «wou» introduce lugar o situación (an der Aleedung, wou de Lieser decidéiert …); con verbos de preposición fija se usa «wou-» + preposición: ukommen op → wourop.",
+   "items": [
+    {"prompt": "De Paragraf widderhëlt d'Iddi dräimol, ___ de Lieser midd mécht. (retoma toda la oración)", "answer": "wat", "es": "El párrafo repite la idea tres veces, lo que cansa al lector."},
+    {"prompt": "D'Aleedung ass deen Deel, ___ et am meeschten ukënnt. (ukommen op)", "answer": "wourop", "es": "La introducción es la parte que más importa."},
+    {"prompt": "Et ass an der Aleedung, ___ de Lieser decidéiert, ob e weiderliest. (relativo de lugar)", "answer": "wou", "es": "Es en la introducción donde el lector decide si sigue leyendo."}
+   ]
+  },
+  "vocab": [
+   {"text": "méi knapp", "es": "más conciso", "example": "Den drëtte Paragraf kéint méi knapp sinn.", "example_es": "El tercer párrafo podría ser más conciso."},
+   {"text": "ofbriechen", "es": "abandonar (la lectura)", "example": "Ech wëll net, datt d'Lieser no zwee Paragrafen ofbriechen.", "example_es": "No quiero que los lectores abandonen tras dos párrafos."},
+   {"text": "am Fong", "es": "en el fondo", "example": "Déi zwee Beispiller soen am Fong datselwecht.", "example_es": "Los dos ejemplos dicen, en el fondo, lo mismo."},
+   {"text": "d'Pointe", "es": "la idea clave, el remate", "example": "D'Pointe kënnt eréischt am leschte Saz.", "example_es": "La idea clave no llega hasta la última frase."}
+  ],
+  "transfer": {
+   "prompt": "Has recibido una nota interna que repite la misma idea tres veces. Escribe un comentario de edición de 5–6 frases al autor: valora lo positivo, señala el problema concreto, propone una reestructuración y ofrece una versión breve de la frase clave.",
+   "model": "Merci fir den Entworf; d'Argumentatioun ass kloer, an d'Beispiller si gutt gewielt. Mäi wichtegste Virschlag betrëfft den drëtte Paragraf, wou déiselwecht Iddi dräimol mat anere Wierder formuléiert gëtt. Dat mécht den Text méi schwéier wéi néideg, wat dozou féiere kann, datt Lieser mat wéineg Zäit ofbriechen. Ech géif proposéieren, de Paragraf mat der Konklusioun unzefänken an nëmmen dat stäerkst Beispill ze behalen. En Ufank kéint esou kléngen: „Kuerz Reunioune féieren zu bessere Beschlëss, well jiddereen sech virbereet.“ Sot mer gär Bescheed, wann ech mer déi nächst Versioun ukucke soll.",
+   "rubric": "Abre con una valoración positiva concreta; nombra el problema localizándolo en el texto; explica el efecto en el lector; propone una reorganización y la ilustra con una frase reescrita; usa al menos una relativa con «wat» o «wou»."
+  }
+ }
+}

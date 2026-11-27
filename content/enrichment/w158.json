@@ -1,0 +1,201 @@
+{
+ "week": 158,
+ "da": {
+  "dialogue2": {
+   "context": "Ante el comité de dirección, un analista recomienda adoptar un nuevo sistema de planificación; el director financiero plantea objeciones y ambos llegan a una adopción por fases.",
+   "lines": [
+    {
+     "text": "Jeg anbefaler, at vi indfører det nye planlægningssystem i løbet af næste år.",
+     "es": "Recomiendo que implantemos el nuevo sistema de planificación a lo largo del próximo año."
+    },
+    {
+     "text": "Det koster to millioner; hvorfor skulle vi bruge så mange penge nu, hvor markedet er usikkert?",
+     "es": "Cuesta dos millones; ¿por qué deberíamos gastar tanto dinero ahora, con un mercado tan incierto?"
+    },
+    {
+     "text": "Det er en berettiget bekymring, men netop i et usikkert marked er det afgørende at kunne planlægge mere præcist.",
+     "es": "Es una preocupación legítima, pero precisamente en un mercado incierto es decisivo poder planificar con más precisión."
+    },
+    {
+     "text": "Hvad nu, hvis medarbejderne ikke tager systemet til sig?",
+     "es": "¿Y si la plantilla no adopta el sistema?"
+    },
+    {
+     "text": "Den risiko er reel; derfor foreslår jeg, at vi starter med én afdeling og måler effekten i tre måneder.",
+     "es": "Ese riesgo es real; por eso propongo que empecemos con un departamento y midamos el efecto durante tres meses."
+    },
+    {
+     "text": "Og hvis effekten udebliver?",
+     "es": "¿Y si el efecto no se produce?"
+    },
+    {
+     "text": "Så stopper vi efter pilotfasen, og tabet vil være begrænset til omkring en fjerdedel af beløbet.",
+     "es": "Entonces paramos tras la fase piloto, y la pérdida se limitará a una cuarta parte del importe aproximadamente."
+    },
+    {
+     "text": "Under de betingelser kan jeg godt støtte en pilot, selvom jeg stadig er skeptisk over for den fulde udrulning.",
+     "es": "En esas condiciones puedo apoyar un piloto, aunque sigo siendo escéptico con la implantación completa."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué posición mantiene el director financiero al final?",
+   "choices": [
+    "Apoya una prueba piloto, pero sigue siendo escéptico con la implantación completa",
+    "Rechaza cualquier inversión mientras el mercado siga siendo incierto",
+    "Aprueba la implantación completa tras escuchar todos los argumentos"
+   ]
+  },
+  "grammar": {
+   "focus": "Repaso C1: concesión, atenuación y condición en una recomendación",
+   "explain": "Una recomendación sólida combina la concesión («selvom», «ganske vist»), la atenuación («tyder på», «formentlig») y la condición («hvis», «forudsat at», «skulle …» con inversión) para anticipar objeciones sin debilitar la tesis.",
+   "items": [
+    {
+     "prompt": "___ investeringen er stor, vil den formentlig betale sig inden for tre år. (concesión: «aunque»)",
+     "answer": "Selvom",
+     "es": "Aunque la inversión es grande, probablemente se amortizará en tres años."
+    },
+    {
+     "prompt": "Tallene ___ på, at planlægningen bliver mere præcis. (tyde, presente: atenuación)",
+     "answer": "tyder",
+     "es": "Las cifras indican que la planificación será más precisa."
+    },
+    {
+     "prompt": "___ effekten udeblive, stopper vi efter pilotfasen. (condición formal con inversión)",
+     "answer": "Skulle",
+     "es": "Si el efecto no llegara a producirse, pararíamos tras la fase piloto."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "udrulning",
+    "es": "implantación, despliegue",
+    "example": "Den fulde udrulning kræver ledelsens godkendelse.",
+    "example_es": "La implantación completa requiere la aprobación de la dirección."
+   },
+   {
+    "text": "pilotfase",
+    "es": "fase piloto",
+    "example": "Vi starter med en pilotfase i én afdeling.",
+    "example_es": "Empezamos con una fase piloto en un departamento."
+   },
+   {
+    "text": "begrænset til",
+    "es": "limitado a",
+    "example": "Tabet vil være begrænset til en fjerdedel af beløbet.",
+    "example_es": "La pérdida se limitará a una cuarta parte del importe."
+   },
+   {
+    "text": "skeptisk over for",
+    "es": "escéptico con",
+    "example": "Han er stadig skeptisk over for projektet.",
+    "example_es": "Sigue siendo escéptico con el proyecto."
+   }
+  ],
+  "transfer": {
+   "prompt": "Repaso final: escribe una recomendación de 6–7 frases para un comité sobre una inversión que conozcas: tesis matizada, dos argumentos con datos atenuados, la objeción más fuerte reconocida, una medida de control y una condición de salida.",
+   "model": "Jeg anbefaler, at vi indfører det nye planlægningssystem, men i en trinvis model. Erfaringer fra lignende virksomheder tyder på, at mere præcis planlægning kan reducere lagerbindingen med op til 15 procent. Desuden vil systemet formentlig frigøre omkring en dag om ugen i hver afdeling, som i dag går med manuelle opgørelser. Den stærkeste indvending er ganske vist berettiget: Investeringen på to millioner falder i en periode med et usikkert marked. Netop derfor foreslår jeg en pilotfase på tre måneder i én afdeling med klare måltal. Skulle effekten udeblive, stopper vi, og tabet vil være begrænset til omkring en fjerdedel af beløbet. Først hvis piloten lever op til målene, træffer vi beslutning om den fulde udrulning.",
+   "rubric": "Formula la tesis con su matiz desde el principio; la apoya con dos argumentos atenuados (tyder på, formentlig); reconoce la objeción más fuerte con una concesión; responde con una medida de control medible; incluye una condición de salida con condicional formal; mantiene coherencia y registro formal."
+  }
+ },
+ "lb": {
+  "dialogue2": {
+   "context": "Ante el comité de dirección, un analista recomienda adoptar un nuevo sistema de planificación; el director financiero plantea objeciones y ambos llegan a una adopción por fases.",
+   "lines": [
+    {
+     "text": "Ech recommandéieren, datt mir am Laf vum nächste Joer den neie Planungssystem aféieren.",
+     "es": "Recomiendo que implantemos el nuevo sistema de planificación a lo largo del próximo año."
+    },
+    {
+     "text": "Dee kascht zwou Milliounen; firwat sollte mir elo esou vill Suen ausginn, wou de Maart onsécher ass?",
+     "es": "Cuesta dos millones; ¿por qué deberíamos gastar tanto dinero ahora, con un mercado tan incierto?"
+    },
+    {
+     "text": "Dat ass eng berechtegt Suerg, mä grad an engem onséchere Maart ass et entscheedend, méi präzis plangen ze kënnen.",
+     "es": "Es una preocupación legítima, pero precisamente en un mercado incierto es decisivo poder planificar con más precisión."
+    },
+    {
+     "text": "A wat, wann d'Mataarbechter de System net unhuelen?",
+     "es": "¿Y si la plantilla no adopta el sistema?"
+    },
+    {
+     "text": "Dee Risiko ass reell; dofir proposéieren ech, mat enger Abteilung unzefänken an d'Wierkung dräi Méint laang ze moossen.",
+     "es": "Ese riesgo es real; por eso propongo empezar con un departamento y medir el efecto durante tres meses."
+    },
+    {
+     "text": "A wann d'Wierkung ausbleift?",
+     "es": "¿Y si el efecto no se produce?"
+    },
+    {
+     "text": "Da stoppe mir no der Pilotphas, an de Verloscht wier op ongeféier e Véierel vum Montant limitéiert.",
+     "es": "Entonces paramos tras la fase piloto, y la pérdida quedaría limitada a una cuarta parte del importe aproximadamente."
+    },
+    {
+     "text": "Ënner dene Bedingunge kann ech e Pilot ënnerstëtzen, och wann ech dem komplette Rollout géigeniwwer skeptesch bleiwen.",
+     "es": "En esas condiciones puedo apoyar un piloto, aunque sigo siendo escéptico con la implantación completa."
+    }
+   ]
+  },
+  "listening2": {
+   "prompt": "¿Qué posición mantiene el director financiero al final?",
+   "choices": [
+    "Apoya una prueba piloto, pero sigue siendo escéptico con la implantación completa",
+    "Rechaza cualquier inversión mientras el mercado siga siendo incierto",
+    "Aprueba la implantación completa tras escuchar todos los argumentos"
+   ]
+  },
+  "grammar": {
+   "focus": "Repaso C1: concesión, atenuación y condición en una recomendación",
+   "explain": "Una recomendación sólida combina la concesión («obwuel», «zwar … mä»), la atenuación («deiten drop hin», «wahrscheinlech») y la condición («wann», «virausgesat datt», «sollt …» con inversión) para anticipar objeciones sin debilitar la tesis.",
+   "items": [
+    {
+     "prompt": "___ d'Investitioun grouss ass, wäert se sech wahrscheinlech bannent dräi Joer rentéieren. (concesión: «aunque»)",
+     "answer": "Obwuel",
+     "es": "Aunque la inversión es grande, probablemente se amortizará en tres años."
+    },
+    {
+     "prompt": "D'Zuelen ___ drop hin, datt d'Planung méi präzis gëtt. (deiten, presente: atenuación)",
+     "answer": "deiten",
+     "es": "Las cifras indican que la planificación será más precisa."
+    },
+    {
+     "prompt": "___ d'Wierkung ausbleiwen, stoppe mir no der Pilotphas. (condición formal con inversión)",
+     "answer": "Sollt",
+     "es": "Si el efecto no llegara a producirse, pararíamos tras la fase piloto."
+    }
+   ]
+  },
+  "vocab": [
+   {
+    "text": "Rollout",
+    "es": "implantación, despliegue (de Rollout)",
+    "example": "De komplette Rollout brauch d'Zoustëmmung vun der Direktioun.",
+    "example_es": "La implantación completa necesita la aprobación de la dirección."
+   },
+   {
+    "text": "Pilotphas",
+    "es": "fase piloto (eng Pilotphas)",
+    "example": "Mir fänke mat enger Pilotphas an enger Abteilung un.",
+    "example_es": "Empezamos con una fase piloto en un departamento."
+   },
+   {
+    "text": "limitéiert",
+    "es": "limitado",
+    "example": "De Verloscht wier op e Véierel vum Montant limitéiert.",
+    "example_es": "La pérdida quedaría limitada a una cuarta parte del importe."
+   },
+   {
+    "text": "skeptesch",
+    "es": "escéptico",
+    "example": "Hie bleift dem Projet géigeniwwer skeptesch.",
+    "example_es": "Sigue siendo escéptico con el proyecto."
+   }
+  ],
+  "transfer": {
+   "prompt": "Repaso final: escribe una recomendación de 6–7 frases para un comité sobre una inversión que conozcas: tesis matizada, dos argumentos con datos atenuados, la objeción más fuerte reconocida, una medida de control y una condición de salida.",
+   "model": "Ech recommandéieren, den neie Planungssystem anzeféieren, allerdéngs an Etappen. Erfarunge vun ähnleche Betriber deiten drop hin, datt eng méi präzis Planung de Stock ëm bis zu 15 Prozent reduzéiere kann. Doriwwer eraus wäert de System wahrscheinlech an all Abteilung ongeféier een Dag pro Woch fräimaachen, deen haut fir manuell Opstellunge gebraucht gëtt. De stäerksten Awand ass zwar berechtegt: D'Investitioun vun zwou Milliounen fält an eng Period mat engem onséchere Maart. Grad dofir proposéieren ech eng Pilotphas vun dräi Méint an enger Abteilung mat kloren Zilwäerter. Sollt d'Wierkung ausbleiwen, stoppe mir, an de Verloscht wier op ongeféier e Véierel vum Montant limitéiert. Eréischt wann de Pilot seng Ziler erreecht, decidéiere mir iwwer de komplette Rollout.",
+   "rubric": "Formula la tesis con su matiz desde el principio; la apoya con dos argumentos atenuados (deiten drop hin, wahrscheinlech); reconoce la objeción más fuerte con una concesión (zwar); responde con una medida de control medible; incluye una condición de salida con «sollt»; mantiene coherencia y registro formal."
+  }
+ }
+}
