@@ -6,11 +6,11 @@
 
 Sin cuentas, sin anuncios y sin nube: tu progreso se queda en tu equipo.
 
-![Rust](https://img.shields.io/badge/hecho_con-Rust-b7410e?logo=rust&logoColor=white)
-![Web](https://img.shields.io/badge/interfaz-web-2b7a62)
-![Plataformas](https://img.shields.io/badge/macOS_·_Linux_·_Windows-servidor-555)
-![Móvil](https://img.shields.io/badge/móvil_y_tablet-por_wifi-555)
-![Idioma de la interfaz](https://img.shields.io/badge/interfaz-español-c60b1e)
+![Rust](docs/badges/rust.svg)
+![Web](docs/badges/web.svg)
+![Plataformas](docs/badges/plataformas.svg)
+![Móvil](docs/badges/movil.svg)
+![Idioma de la interfaz](docs/badges/espanol.svg)
 
 [Qué trae](#-qué-trae) ·
 [Inicio rápido](#-inicio-rápido) ·
