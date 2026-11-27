@@ -86,8 +86,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let exe = std::env::current_exe()?;
     let data = match std::env::var_os("IDIOMAS_DATA_DIR") {
         Some(path) => PathBuf::from(path),
-        None => PathBuf::from(std::env::var_os("HOME").ok_or("Falta HOME")?)
-            .join("Library/Application Support/Idiomas"),
+        None => default_data_dir()?,
     };
     std::fs::create_dir_all(&data)?;
     let voices = std::env::var_os("IDIOMAS_VOICES_DIR")
@@ -119,7 +118,14 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             .ok()
             .filter(|key| !key.trim().is_empty()),
     });
-    let listener = tokio::net::TcpListener::bind(("127.0.0.1", port)).await?;
+    // IDIOMAS_HOST=0.0.0.0 opens the app to other devices on the local
+    // network (phone, tablet); by default only this computer can reach it.
+    let host: std::net::IpAddr = std::env::var("IDIOMAS_HOST")
+        .map(|value| value.parse())
+        .unwrap_or(Ok(std::net::IpAddr::from([127, 0, 0, 1])))
+        .map_err(|_| "IDIOMAS_HOST debe ser una IP, por ejemplo 0.0.0.0")?;
+    let lan = !host.is_loopback();
+    let listener = tokio::net::TcpListener::bind((host, port)).await?;
     let url = format!("http://localhost:{port}");
     let router = Router::new()
         .route("/", get(|| async { asset_response("index.html", None) }))
@@ -158,29 +164,80 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         )
         .layer(DefaultBodyLimit::max(24_000))
         .layer(middleware::from_fn(move |request, next| {
-            local_only(request, next, port)
+            local_only(request, next, port, lan)
         }))
         .with_state(app);
     println!("Idiomas · {url}");
-    if cfg!(target_os = "macos") && std::env::args().any(|arg| arg == "--open") {
-        let _ = std::process::Command::new("open").arg(&url).spawn();
+    if lan {
+        match lan_address() {
+            Some(ip) => println!("Desde otro dispositivo de tu red: http://{ip}:{port}"),
+            None => println!("Desde otro dispositivo de tu red: http://<IP-de-este-equipo>:{port}"),
+        }
+    }
+    println!("Deja esta ventana abierta mientras estudias; ciérrala (Ctrl+C) para apagar la app.");
+    if std::env::args().any(|arg| arg == "--open") {
+        open_browser(&url);
     }
     axum::serve(listener, router).await?;
     Ok(())
 }
 
-async fn local_only(request: Request, next: Next, port: u16) -> Response {
+/// Where progress and recordings live when IDIOMAS_DATA_DIR is not set.
+fn default_data_dir() -> Result<PathBuf, &'static str> {
+    let home = || std::env::var_os("HOME").or_else(|| std::env::var_os("USERPROFILE"));
+    if cfg!(target_os = "macos") {
+        Ok(PathBuf::from(home().ok_or("Falta HOME")?).join("Library/Application Support/Idiomas"))
+    } else if cfg!(windows) {
+        let base = std::env::var_os("APPDATA").or_else(home).ok_or("Falta APPDATA")?;
+        Ok(PathBuf::from(base).join("Idiomas"))
+    } else {
+        match std::env::var_os("XDG_DATA_HOME").filter(|value| !value.is_empty()) {
+            Some(base) => Ok(PathBuf::from(base).join("idiomas")),
+            None => Ok(PathBuf::from(home().ok_or("Falta HOME")?).join(".local/share/idiomas")),
+        }
+    }
+}
+
+fn open_browser(url: &str) {
+    let result = if cfg!(target_os = "macos") {
+        std::process::Command::new("open").arg(url).spawn()
+    } else if cfg!(windows) {
+        std::process::Command::new("cmd").args(["/C", "start", "", url]).spawn()
+    } else {
+        std::process::Command::new("xdg-open").arg(url).spawn()
+    };
+    if result.is_err() {
+        println!("Abre {url} en tu navegador.");
+    }
+}
+
+/// The address other devices on the network can use. Connecting a UDP
+/// socket sends nothing; it only asks the OS which interface it would use.
+fn lan_address() -> Option<std::net::IpAddr> {
+    let socket = std::net::UdpSocket::bind(("0.0.0.0", 0)).ok()?;
+    socket.connect(("192.0.2.1", 80)).ok()?;
+    socket.local_addr().ok().map(|addr| addr.ip())
+}
+
+async fn local_only(request: Request, next: Next, port: u16, lan: bool) -> Response {
     let hosts = [format!("localhost:{port}"), format!("127.0.0.1:{port}")];
-    let host_ok = request
+    let host = request
         .headers()
         .get(header::HOST)
         .and_then(|value| value.to_str().ok())
-        .is_some_and(|value| hosts.iter().any(|host| host == value));
-    let origin_ok = request.headers().get(header::ORIGIN).is_none_or(|value| {
-        hosts
-            .iter()
-            .any(|host| value == format!("http://{host}").as_str())
-    });
+        .unwrap_or("")
+        .to_owned();
+    // On the network, accept a bare IP address (http://192.168.1.20:8787) but
+    // never a domain name, which keeps DNS-rebinding attacks out.
+    let lan_host = lan
+        && host
+            .parse::<std::net::SocketAddr>()
+            .is_ok_and(|addr| addr.port() == port);
+    let host_ok = hosts.iter().any(|known| *known == host) || lan_host;
+    let origin_ok = request
+        .headers()
+        .get(header::ORIGIN)
+        .is_none_or(|value| value == format!("http://{host}").as_str());
     let cross_site = request
         .headers()
         .get("sec-fetch-site")
